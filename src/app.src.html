@@ -1,0 +1,1096 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="color-scheme" content="light only">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#13233F">
+<title>FFMPA Kids News</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&family=Geist:wght@400;500;600;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<style>
+/* Layout idea: one story per screen, swiped like a deck (Inshorts style). Bloom family look: warm white, ink, electric violet, saffron; Geist with Instrument Serif italic accents; line icons; photo-first cards. */
+:root{
+  --sky:#F4F4F6; --paper:#FFFFFF; --ink:#0E0D12; --muted:#6B6A74; --line:#ECECF0;
+  --brand:#5B35E8; --brand-deep:#3F22B5; --brand-soft:#F3F0FF;
+  --sun:#FFB020; --local:#FF5A3C; --world:#1A7A4B; --world-soft:#E9F6EE; --local-soft:#FFF0EC; --focus:#5B35E8;
+  --display:"Geist",ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --body:"Geist",ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --voice:"Instrument Serif",ui-serif,Georgia,serif;
+  --fs:16.5px; color-scheme:light;
+}
+html.explorers{--fs:19px}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%}
+body{background:#FFFFFF;color:var(--ink);font-family:var(--body);line-height:1.5;-webkit-font-smoothing:antialiased;overflow:hidden}
+button{font:inherit;color:inherit;cursor:pointer}
+button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible,textarea:focus-visible{outline:3px solid var(--sun);outline-offset:2px}
+a{color:var(--brand)}
+svg.i{width:20px;height:20px;flex:none;stroke:currentColor;fill:none;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+em.v{font-family:var(--voice);font-style:italic;font-weight:400;color:var(--brand);letter-spacing:0}
+.press{transition:transform .14s cubic-bezier(.3,1.4,.5,1)}.press:active{transform:scale(.94)}
+
+.app{position:relative;height:100%;max-width:460px;margin:0 auto;background:#FFFFFF;display:flex;flex-direction:column;overflow:hidden}
+.top{background:var(--paper);display:flex;align-items:center;justify-content:space-between;gap:10px;padding:calc(10px + env(safe-area-inset-top)) 14px 8px}
+.brand{display:flex;align-items:center;gap:9px;font-family:var(--display);font-weight:700;font-size:22px;letter-spacing:-.045em;border:0;background:none;color:var(--ink);padding:0}
+.mini-sun{width:20px;height:20px;border-radius:50%;background:conic-gradient(from 200deg,#7B5CFF,#5B35E8,#FF7A59,#FFB020,#7B5CFF);box-shadow:0 2px 8px -2px rgba(91,53,232,.5);animation:rise 1.2s cubic-bezier(.2,.8,.2,1) both}
+@keyframes rise{from{transform:translateY(12px);opacity:.2}to{transform:none;opacity:1}}
+.top-r{display:flex;align-items:center;gap:6px}
+.pill{border:1px solid var(--line);background:#fff;color:var(--ink);border-radius:999px;padding:7px 11px;font-size:13px;font-weight:600;display:inline-flex;gap:6px;align-items:center}
+.pill svg.i{width:16px;height:16px}
+.iconbtn{width:38px;height:38px;border-radius:50%;border:0;background:var(--ink);box-shadow:0 6px 14px -8px rgba(14,13,18,.6);color:#fff;display:grid;place-items:center}
+.hello-bar{background:var(--paper);padding:0 16px 10px;display:flex;justify-content:space-between;align-items:flex-end;gap:10px}
+.hello-bar h1{margin:0;font-family:var(--display);font-weight:700;font-size:24px;letter-spacing:-.04em;line-height:1.1}
+.goalchip{display:flex;align-items:center;gap:6px;font-size:12.5px;font-weight:600;color:var(--muted);white-space:nowrap}
+.goalchip i{display:block;width:64px;height:5px;border-radius:999px;background:var(--line);overflow:hidden}
+.goalchip i b{display:block;height:100%;background:var(--brand);border-radius:999px;transition:width .4s}
+.rail{display:flex;gap:7px;overflow-x:auto;padding:4px 14px 12px;background:var(--paper);border-bottom:1px solid var(--line);scrollbar-width:none}
+.rail::-webkit-scrollbar{display:none}
+.rchip{border:1px solid var(--line);background:#fff;color:#2A2930;border-radius:999px;padding:8px 13px;font-size:13.5px;font-weight:600;white-space:nowrap;display:inline-flex;align-items:center;gap:6px}
+.rchip svg.i{width:16px;height:16px}
+.rchip[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:#fff}
+
+.deck{position:relative;flex:1;overflow:hidden;touch-action:pan-x}
+.slide{position:absolute;inset:0;padding:14px 14px 0;transition:transform .5s cubic-bezier(.22,.9,.24,1);will-change:transform}
+.card{height:100%;background:#fff;border:1px solid var(--line);border-bottom:0;border-radius:30px 30px 0 0;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 1px 2px rgba(14,13,18,.04),0 24px 48px -28px rgba(30,20,80,.22)}
+.img{position:relative;flex:0 0 41%;min-height:170px;margin:8px 8px 0;border-radius:24px;display:grid;place-items:center;overflow:hidden;background:linear-gradient(160deg,#F6F4FF,#EEF0F7)}
+.img img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.img .ph{display:grid;place-items:center;gap:10px;color:#6E58E8;text-align:center;font-size:12.5px;font-weight:600;padding:0 30px}
+.img .ph svg.i{width:56px;height:56px;stroke-width:1.1}
+.img::after{content:"";position:absolute;left:0;right:0;bottom:0;height:46%;background:linear-gradient(transparent,rgba(22,19,28,.45));pointer-events:none}
+.credit{position:absolute;left:12px;bottom:10px;z-index:2;color:#fff;font-size:11.5px;font-weight:600;text-shadow:0 1px 2px rgba(0,0,0,.4)}
+.credit a{color:#fff}
+.tags{position:absolute;left:12px;right:84px;top:12px;z-index:2;display:flex;gap:6px;flex-wrap:wrap}
+.tag{font-size:11.5px;font-weight:600;border-radius:999px;padding:5px 10px;color:var(--ink);background:rgba(255,255,255,.9);box-shadow:0 1px 2px rgba(14,13,18,.06);display:inline-flex;align-items:center;gap:5px;backdrop-filter:blur(6px)}
+.tag::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--muted)}
+.tag.local::before{background:var(--local)}.tag.global::before{background:var(--world)}.tag.new::before{background:var(--brand)}.tag.cal::before{background:var(--sun)}
+.cbody{flex:1;overflow:auto;padding:16px 22px 10px;font-size:var(--fs)}
+.kicker{font-family:var(--voice);font-style:italic;font-size:1.12em;color:var(--brand);margin:0 0 4px}
+.cbody h2{font-family:var(--display);font-weight:700;font-size:1.56em;line-height:1.08;letter-spacing:-.04em;margin:0 0 12px;text-wrap:balance}
+.cbody p{margin:0 0 10px;color:#3A3942}
+.term{border:0;padding:0 1px;font-weight:600;color:var(--ink);background:linear-gradient(transparent 62%,var(--tc,#E9E3FF) 62%);border-radius:2px}
+.term:hover{background:var(--tc,#FFE3A6)}
+
+/* motion: lively but calm */
+@property --hl{syntax:'<percentage>';inherits:false;initial-value:62%}
+.slide .card{transition:transform .5s cubic-bezier(.22,.9,.24,1),opacity .5s}
+.slide:not(.live) .card{transform:scale(.94);opacity:.55}
+.slide.live .acc{transform-origin:left;animation:accIn .8s .05s cubic-bezier(.2,.8,.2,1) both}
+@keyframes accIn{from{transform:scaleX(0)}to{transform:none}}
+.slide.live .tags .tag{animation:popIn .5s .12s cubic-bezier(.3,1.5,.5,1) both}
+.slide.live .tags .tag+.tag{animation-delay:.2s}
+@keyframes popIn{from{opacity:0;transform:translateY(-6px) scale(.9)}to{opacity:1;transform:none}}
+.slide.live .img img{animation:kenb 10s ease-out both}
+@keyframes kenb{from{transform:scale(1.08)}to{transform:scale(1)}}
+.slide.live .img .ph svg.i{animation:drift 5s ease-in-out infinite}
+@keyframes drift{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+.slide.live .cbody>*{animation:fadeUp .6s cubic-bezier(.2,.8,.2,1) both}
+.slide.live .cbody>*:nth-child(1){animation-delay:.08s}.slide.live .cbody>*:nth-child(2){animation-delay:.14s}.slide.live .cbody>*:nth-child(3){animation-delay:.22s}.slide.live .cbody>*:nth-child(4){animation-delay:.3s}.slide.live .cbody>*:nth-child(5){animation-delay:.38s}.slide.live .cbody>*:nth-child(n+6){animation-delay:.46s}
+@keyframes fadeUp{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+.term{background:linear-gradient(transparent var(--hl),var(--tc,#E9E3FF) var(--hl))}
+.slide.live .term{animation:hlIn .7s .5s cubic-bezier(.2,.8,.2,1) both}
+@keyframes hlIn{from{--hl:100%}to{--hl:62%}}
+.term:hover,.term:focus-visible{--hl:0%;transition:--hl .25s}
+.slide.live .kbox:not(.re) .bars i{animation:barIn 1s .55s cubic-bezier(.2,.8,.2,1) both}
+@keyframes barIn{from{width:0}}
+.slide.live .kbox:not(.re) .tl button i{animation:popIn .45s cubic-bezier(.3,1.5,.5,1) both}
+.slide.live .kbox:not(.re) .tl button:nth-child(2) i{animation-delay:.08s}.slide.live .kbox:not(.re) .tl button:nth-child(3) i{animation-delay:.16s}.slide.live .kbox:not(.re) .tl button:nth-child(4) i{animation-delay:.24s}
+.slide.live .kbox:not(.re) .scale button{animation:popIn .4s cubic-bezier(.3,1.5,.5,1) both}
+.slide.live .kbox:not(.re) .scale button:nth-child(2){animation-delay:.05s}.slide.live .kbox:not(.re) .scale button:nth-child(3){animation-delay:.1s}.slide.live .kbox:not(.re) .scale button:nth-child(4){animation-delay:.15s}.slide.live .kbox:not(.re) .scale button:nth-child(5){animation-delay:.2s}.slide.live .kbox:not(.re) .scale button:nth-child(6){animation-delay:.25s}
+.kbox .kt{animation:fadeUp .35s cubic-bezier(.2,.8,.2,1) both}
+.kbox button{transition:background .2s,color .2s,border-color .2s,transform .15s}
+.kbox button:active{transform:scale(.95)}
+.kbox .opts2 button.ok{animation:okPulse .5s cubic-bezier(.3,1.5,.5,1)}
+@keyframes okPulse{0%{transform:scale(.94)}60%{transform:scale(1.04)}100%{transform:none}}
+.kbox .opts2 button.no{animation:shake .4s}
+@keyframes shake{0%,100%{transform:none}25%{transform:translateX(-4px)}75%{transform:translateX(4px)}}
+.rchip{transition:background .25s,color .25s,border-color .25s,transform .14s}
+.counter.bump{animation:popIn .35s cubic-bezier(.3,1.5,.5,1)}
+.hello-bar h1{animation:fadeUp .6s cubic-bezier(.2,.8,.2,1) both}
+.goalchip i b{transition:width .7s cubic-bezier(.2,.8,.2,1)}
+.overlay{transition:opacity .25s}
+.sheet>*:not(.x):not(.grab){animation:fadeUp .4s cubic-bezier(.2,.8,.2,1) both}
+.sheet .x{z-index:5}
+.sheet>*:nth-child(3){animation-delay:.05s}.sheet>*:nth-child(4){animation-delay:.1s}.sheet>*:nth-child(n+5){animation-delay:.14s}
+.endcard>*{animation:fadeUp .6s cubic-bezier(.2,.8,.2,1) both}
+.endcard>*:nth-child(2){animation-delay:.1s}.endcard>*:nth-child(3){animation-delay:.2s}.endcard>*:nth-child(4){animation-delay:.3s}
+@media (prefers-reduced-motion:reduce){.slide *,.sheet>*,.endcard>*,.hello-bar h1,.counter{animation:none!important;transition:none!important}.slide:not(.live) .card{transform:none;opacity:1}}
+/*EXTRACSS*/
+/* v2: calm topic colour + word colour + key boxes */
+.card .acc{height:4px;background:var(--acc,#5B35E8);flex:none}
+.card[style*="--tint"] .img{background:var(--tint)}
+.card[style*="--tint"] .img .ph{color:var(--acc)}
+.card[style*="--tint"] .img:not(:has(img)) .credit{color:var(--acc)}
+.tag.topic{background:var(--tint);color:var(--acc);font-weight:700}
+.tag.topic::before{display:none}
+.kicker{color:var(--acc,var(--brand))}
+.rchip .cdot{width:8px;height:8px;border-radius:50%;flex:none}
+.rchip[aria-pressed="true"] .cdot{box-shadow:0 0 0 2px #fff}
+.term.on{background:var(--tc)}
+.tpanel{display:none;border-radius:16px;background:#F7F7F9;padding:11px 13px;margin:2px 0 12px}
+.tpanel.open{display:block;animation:tpin .22s ease}
+@keyframes tpin{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:none}}
+.tpanel .tk{display:flex;align-items:center;gap:6px;font-size:.7em;font-weight:700;letter-spacing:.07em;text-transform:uppercase}
+.tpanel .tk i{width:8px;height:8px;border-radius:50%}
+.tpanel b{display:block;font-size:.95em;margin:3px 0 2px}
+.tpanel p{margin:0 0 8px;font-size:.86em;line-height:1.45;color:#3A3942}
+.tpanel .tb{display:flex;gap:8px}
+.tpanel .tb button{border:1px solid #E4E4EA;background:#fff;border-radius:999px;padding:6px 11px;font-size:.78em;font-weight:600;display:inline-flex;align-items:center;gap:5px}
+.tpanel .tb button svg.i{width:14px;height:14px}
+.kbox{border-radius:18px;background:var(--tint);padding:12px 13px;margin:4px 0 12px;display:flex;flex-direction:column;gap:8px}
+.kbox .kh{font-size:.68em;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--acc)}
+.kbox .kv{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+.kbox .kv b{font-family:var(--display);font-size:1.75em;letter-spacing:-.04em;color:var(--acc);line-height:1}
+.kbox .kv span{font-size:.84em;color:#2F2E36;line-height:1.35}
+.kbox .kt{font-size:.8em;color:#3A3942;line-height:1.45;margin:0}
+.kbox .scale{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:3px}
+.kbox .scale button{height:8px;border:0;padding:0;border-radius:4px}
+.kbox .scale button.on{outline:2px solid var(--ink);outline-offset:2px}
+.kbox .seg{display:flex;gap:4px;background:#fff;border-radius:999px;padding:3px}
+.kbox .seg button{flex:1;border:0;background:transparent;border-radius:999px;padding:7px 4px;font-size:.74em;font-weight:600;color:#3A3942}
+.kbox .seg button.on{background:var(--acc);color:#fff}
+.kbox .bars{display:flex;flex-direction:column;gap:4px}
+.kbox .bars div{height:8px;border-radius:4px;background:#fff;overflow:hidden}
+.kbox .bars i{display:block;height:100%;border-radius:4px;background:var(--acc);transition:width .45s cubic-bezier(.2,.8,.2,1)}
+.kbox .bars div+div i{background:color-mix(in srgb,var(--acc) 40%,#fff)}
+.kbox .tl{display:grid;position:relative}
+.kbox .tl::before{content:"";position:absolute;left:12%;right:12%;top:6px;height:2px;background:color-mix(in srgb,var(--acc) 30%,#fff)}
+.kbox .tl button{background:none;border:0;padding:0;display:flex;flex-direction:column;align-items:center;gap:5px;position:relative;font-size:.74em;font-weight:500;color:#6B6A74}
+.kbox .tl button i{width:14px;height:14px;border-radius:50%;background:#fff;border:2px solid color-mix(in srgb,var(--acc) 55%,#fff);box-sizing:border-box}
+.kbox .tl button.on{color:var(--acc);font-weight:700}
+.kbox .tl button.on i{background:var(--acc);border-color:var(--acc);box-shadow:0 0 0 4px color-mix(in srgb,var(--acc) 22%,#fff)}
+.kbox .chips{display:flex;gap:6px;flex-wrap:wrap}
+.kbox .chips button{border-radius:999px;padding:7px 12px;font-size:.76em;font-weight:600;background:#fff;border:1.5px solid color-mix(in srgb,var(--acc) 25%,#fff)}
+.kbox .chips button.on{background:var(--acc);border-color:var(--acc);color:#fff}
+.kbox .opts2{display:flex;gap:8px}
+.kbox .opts2 button{flex:1;border-radius:14px;padding:11px;font-size:.9em;font-weight:600;background:#fff;border:1.5px solid color-mix(in srgb,var(--acc) 25%,#fff)}
+.kbox .opts2 button.ok{background:#DCF5E6;border-color:#16A34A}
+.kbox .opts2 button.no{background:#FDE8E8;border-color:#DC2626}
+.kbox .fb{font-size:.82em;font-weight:600}
+
+.srcbar{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:12px 22px;font-size:13px;color:var(--muted);background:var(--paper);border:0;border-top:1px solid var(--line);width:100%;text-align:left}
+.srcbar b{color:var(--ink);font-weight:600}
+.srcbar .go{color:var(--brand);font-weight:700;display:inline-flex;align-items:center;gap:2px}
+.dock{display:flex;justify-content:space-around;gap:2px;padding:8px 8px calc(8px + env(safe-area-inset-bottom));background:var(--paper);border-top:1px solid var(--line)}
+.dock button{border:0;background:none;display:flex;flex-direction:column;align-items:center;gap:4px;font-size:11px;font-weight:500;color:var(--muted);min-width:58px;padding:4px;border-radius:14px}
+.dock button svg.i{width:22px;height:22px;stroke-width:1.7}
+.dock button:hover{color:var(--brand)}
+.dock #dQuiz{color:var(--brand)}
+.navbtns{display:none}
+@media (hover:hover) and (min-width:700px){.navbtns{position:fixed;left:calc(50% + 248px);bottom:110px;display:flex;flex-direction:column;gap:10px;z-index:3}}
+.navbtns button{width:48px;height:48px;border-radius:50%;border:0;background:var(--paper);color:var(--ink);display:grid;place-items:center;box-shadow:0 10px 24px -12px rgba(40,20,90,.5)}
+.navbtns button:disabled{opacity:.35}
+.counter{position:absolute;right:24px;top:24px;z-index:3;background:rgba(22,19,28,.78);color:#fff;font-size:12px;font-weight:600;border-radius:999px;padding:4px 10px;backdrop-filter:blur(6px)}
+
+.ad .img{flex-basis:34%;background:linear-gradient(160deg,#F7F7F9,#EEEEF2)}
+.ad .img::after{display:none}
+.adlabel{display:inline-block;font-size:10.5px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;background:#fff;border:1px solid var(--line);color:var(--muted);border-radius:999px;padding:4px 10px;margin-bottom:10px}
+.endcard{height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:30px;gap:14px;background:#fff}
+.endcard h2{font-family:var(--display);font-weight:700;font-size:2em;margin:0;letter-spacing:-.04em;line-height:1.05}
+.endcard p{margin:0;color:var(--muted);max-width:32ch}
+.moon{width:84px;height:84px;border-radius:50%;background:radial-gradient(circle at 62% 38%,#fff 0 30%,transparent 31%),linear-gradient(135deg,#7B5CFF,#3F22B5);box-shadow:0 20px 40px -18px rgba(63,34,181,.7)}
+
+.overlay{position:fixed;inset:0;background:rgba(14,13,18,.42);display:none;z-index:50;align-items:flex-end;justify-content:center;backdrop-filter:blur(2px)}
+.overlay.open{display:flex}
+.sheet{background:#fff;width:100%;max-width:460px;max-height:88%;overflow:auto;border-radius:30px 30px 0 0;box-shadow:0 -20px 60px -20px rgba(14,13,18,.25);position:relative;padding:22px 20px calc(22px + env(safe-area-inset-bottom));animation:up .32s cubic-bezier(.2,.9,.2,1)}
+@keyframes up{from{transform:translateY(50px);opacity:.3}to{transform:none;opacity:1}}
+.sheet h2{font-family:var(--display);font-weight:700;font-size:1.55em;margin:0 0 6px;letter-spacing:-.03em;padding-right:44px;line-height:1.1}
+.sheet .sub{color:var(--muted);margin:0 0 14px;font-size:15px}
+.x{position:absolute;top:14px;right:14px;width:38px;height:38px;border-radius:50%;border:0;background:var(--sky);display:grid;place-items:center}
+.grab{width:44px;height:5px;border-radius:3px;background:var(--line);margin:-8px auto 14px}
+.box{border-radius:20px;padding:15px 17px;margin:12px 0 0;border:1px solid var(--line)}
+.box h4{margin:0 0 4px;font-family:var(--voice);font-style:italic;font-weight:400;font-size:1.2em}
+.box p{margin:0}
+.box.where{background:#fff}
+.box.where h4{color:#B23A20}
+.box.think{background:#FAF9FF;border-color:#E7E1FF}
+.box.think h4{color:var(--brand-deep)}
+.chips{display:flex;gap:6px;flex-wrap:wrap;margin-top:12px}
+.chip{border:1px solid var(--line);background:#fff;border-radius:999px;padding:7px 12px;font-size:13.5px;font-weight:600;text-decoration:none;color:var(--ink)}
+.chip[aria-pressed="true"]{background:var(--ink);color:#fff}
+.btn{border:0;border-radius:999px;padding:14px 22px;font-weight:600;background:var(--ink);color:#fff;font-size:15px;letter-spacing:-.01em}
+.btn.sun{background:var(--ink);color:#fff;box-shadow:0 10px 22px -12px rgba(14,13,18,.6)}
+.btn.ghost{background:#fff;border:1px solid var(--line);color:var(--ink)}
+.btn:disabled{opacity:.45;cursor:not-allowed}
+.row{display:flex;gap:10px;flex-wrap:wrap}
+.ttype{display:inline-block;font-size:11.5px;font-weight:700;text-transform:uppercase;letter-spacing:.08em;border-radius:999px;padding:4px 10px}
+.list{display:grid;gap:10px}
+.item{background:#fff;border:1px solid var(--line);border-radius:18px;padding:13px 15px}
+.item b{font-family:var(--display);font-weight:700}
+.item p{margin:4px 0 0;font-size:.95em;color:var(--muted)}
+.menu{display:grid;gap:8px}
+.menu button,.menu a{display:flex;align-items:center;gap:14px;border:1px solid var(--line);background:#fff;border-radius:18px;padding:13px 15px;text-align:left;text-decoration:none;color:var(--ink);font-weight:600}
+.menu .ic{width:38px;height:38px;border-radius:12px;background:var(--brand-soft);display:grid;place-items:center;color:var(--brand);flex:none}
+.menu small{display:block;font-weight:400;color:var(--muted)}
+.opts{display:grid;gap:10px;margin:14px 0}
+.opt{border:2px solid var(--line);background:var(--paper);border-radius:16px;padding:13px 15px;text-align:left;font-weight:600}
+.opt.right{border-color:var(--world);background:var(--world-soft)}.opt.wrong{border-color:var(--local);background:var(--local-soft)}
+.score{font-family:var(--display);font-size:3.4em;font-weight:800;margin:6px 0;letter-spacing:-.04em}
+.msg{text-align:center;color:var(--muted);font-size:14px;min-height:22px;margin:6px 0}
+.keypad{display:grid;grid-template-columns:repeat(3,72px);gap:10px;justify-content:center;margin:14px 0}
+.keypad button{height:60px;border-radius:18px;border:1px solid var(--line);background:#fff;font-size:22px;font-weight:600}
+.dots{display:flex;gap:12px;justify-content:center}
+.dots i{width:14px;height:14px;border-radius:50%;background:var(--line)}.dots i.f{background:var(--brand)}
+.set{border-top:1px solid var(--line);padding:14px 0}
+.set h3{font-family:var(--display);font-weight:700;font-size:1.05em;margin:0 0 4px}
+.set .note{color:var(--muted);font-size:14px;margin:0 0 10px}
+.toggles{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:8px}
+.tg{display:flex;align-items:center;gap:10px;background:#fff;border:1px solid var(--line);border-radius:14px;padding:11px 12px;font-size:15px;cursor:pointer}
+.tg input{width:20px;height:20px;accent-color:var(--brand)}
+.field{display:flex;flex-direction:column;gap:6px;font-size:15px;font-weight:500}
+.field input[type=text],.field input[type=email],.field input[type=number],.field select,.field textarea{font:inherit;font-weight:400;border:1.5px solid var(--line);border-radius:14px;padding:11px 13px;background:#fff}
+.field input:focus{border-color:var(--brand);outline:none;box-shadow:0 0 0 4px var(--brand-soft)}
+.field input[type=range]{accent-color:var(--brand)}
+.stick{position:sticky;bottom:calc(-22px - env(safe-area-inset-bottom));background:var(--paper);padding:12px 0;border-top:1px solid var(--line);display:flex;gap:10px;justify-content:flex-end}
+
+.sharecard{border-radius:24px;overflow:hidden;background:#fff;border:1px solid var(--line);margin:4px 0 14px}
+.sharecard .img{flex:none;height:150px;min-height:0;margin:8px 8px 0;border-radius:18px}
+.sharecard div.t{padding:13px 15px}
+.sharecard b{font-family:var(--display);font-weight:800;font-size:1.1em;display:block;line-height:1.15;letter-spacing:-.02em}
+.sharecard small{color:var(--muted)}
+.linkbox{display:flex;gap:8px;align-items:center;background:#fff;border:1px solid var(--line);border-radius:14px;padding:10px 12px;font-size:14px;word-break:break-all}
+
+#welcomeOv{background:var(--paper);align-items:stretch;z-index:60}
+.welcome{width:100%;height:100%;overflow:auto;display:grid;place-items:center;padding:24px 18px;color:var(--ink);background:#fff}
+.wcard{width:100%;max-width:420px}
+.wsun{width:64px;height:64px;position:relative;margin-bottom:16px}
+.wsun i{position:absolute;inset:8px;border-radius:50%;background:conic-gradient(from 200deg,#7B5CFF,#5B35E8,#FF7A59,#FFB020,#7B5CFF);box-shadow:0 12px 30px -10px rgba(91,53,232,.55);animation:rise 1.4s cubic-bezier(.2,.8,.2,1) both}
+.wsun b{display:none}
+.welcome h1{font-family:var(--display);font-weight:700;font-size:clamp(38px,9.5vw,54px);line-height:.98;letter-spacing:-.05em;margin:0 0 12px;text-wrap:balance}
+.welcome .lede{color:var(--muted);margin:0 0 22px;font-size:17px}
+.wbox{background:#fff;border:1px solid var(--line);border-radius:28px;padding:22px;display:grid;gap:14px;box-shadow:0 1px 2px rgba(14,13,18,.04),0 30px 60px -34px rgba(30,20,80,.25)}
+.wbox h2{font-family:var(--display);font-weight:700;font-size:1.2em;margin:0}
+.wbox .note{color:var(--muted);font-size:14px;margin:0}
+.err{color:#C2361B;font-size:14px;margin:0;min-height:20px}
+.codein{font-family:var(--display);font-weight:700;font-size:28px;letter-spacing:.4em;text-align:center;border:1.5px solid var(--line);border-radius:16px;padding:10px 0;width:100%}
+.steps{display:flex;gap:6px}.steps i{flex:1;height:5px;border-radius:3px;background:var(--line)}.steps i.on{background:var(--brand)}
+.choice{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.choice button{border:1.5px solid var(--line);background:#fff;border-radius:18px;padding:14px;text-align:left}
+.choice button[aria-pressed="true"]{border-color:var(--brand);background:var(--brand-soft)}
+.choice b{display:block;font-family:var(--display);font-weight:700;font-size:1.05em}
+.choice small{color:var(--muted)}
+.wfine{color:var(--muted);font-size:13px;margin:16px 0 0;text-align:center}
+.wfine a{color:var(--ink)}
+.peek{display:block;margin:16px auto 0;background:none;border:0;color:var(--ink);font-weight:600;text-decoration:underline;text-underline-offset:3px}
+.linkbtn{border:0;background:none;padding:0;color:var(--brand);font-weight:600;text-decoration:underline}
+
+#legalOv{z-index:70}
+.legal{max-width:760px;max-height:94%;padding:0}
+.legal header{position:sticky;top:0;background:var(--paper);border-bottom:1px solid var(--line);padding:18px 20px 12px;z-index:1}
+.legal nav{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
+.lbody{padding:16px 20px 28px}
+.legal h3{font-family:var(--display);font-weight:700;font-size:1.12em;margin:20px 0 6px}
+.legal p,.legal li{max-width:70ch}
+.legal ul{padding-left:20px}
+.draft{background:#F7F7F9;border-left:3px solid var(--sun);border-radius:14px;padding:10px 14px;font-size:14px;margin:0 0 12px}
+.summary{background:var(--brand-soft);border-radius:16px;padding:13px 15px}
+.tablewrap{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:15px}
+th,td{border-bottom:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+th{font-family:var(--display);font-weight:700}
+
+#adminView{position:fixed;inset:0;z-index:80;background:#F7F7F9;display:none;overflow:auto;font-size:15px}
+#adminView.open{display:block}
+.adm-top{background:var(--ink);color:#fff;display:flex;justify-content:space-between;align-items:center;gap:12px;padding:12px 22px;position:sticky;top:0;z-index:2;flex-wrap:wrap}
+.adm-top b{font-family:var(--display);font-weight:800;font-size:20px;letter-spacing:-.03em}
+.adm-top a{color:#fff}
+.adm{display:grid;grid-template-columns:220px 1fr;min-height:calc(100% - 56px)}
+.adm-nav{background:#fff;border-right:1px solid var(--line);padding:16px 12px;display:flex;flex-direction:column;gap:4px}
+.adm-nav button{border:0;background:none;text-align:left;padding:10px 12px;border-radius:12px;font-weight:600;color:var(--muted)}
+.adm-nav button[aria-current="page"]{background:var(--brand-soft);color:var(--brand-deep)}
+.adm-main{padding:24px 28px 60px;max-width:1080px}
+.adm-main h1{font-family:var(--display);font-weight:800;font-size:2em;margin:0 0 4px;letter-spacing:-.035em}
+.adm-main .sub{color:var(--muted);margin:0 0 18px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:12px;margin-bottom:18px}
+.kpi{background:#fff;border:1px solid var(--line);border-radius:20px;padding:16px}
+.kpi b{display:block;font-family:var(--display);font-weight:800;font-size:2em;letter-spacing:-.03em;font-variant-numeric:tabular-nums}
+.kpi span{color:var(--muted);font-size:13px}
+.panel{background:#fff;border:1px solid var(--line);border-radius:20px;padding:18px 20px;margin-bottom:16px}
+.panel h2{font-family:var(--display);font-weight:700;font-size:1.15em;margin:0 0 10px}
+.status{font-size:12px;font-weight:700;border-radius:999px;padding:3px 9px;white-space:nowrap}
+.st-published{background:var(--world-soft);color:#0B6B4F}.st-draft{background:#FFF6E0;color:#6B4A00}.st-rejected{background:var(--local-soft);color:#9B2C1F}.st-held{background:var(--brand-soft);color:var(--brand-deep)}.st-stale{background:var(--sky);color:var(--muted)}
+.adm-table td,.adm-table th{font-size:14px}
+.adm-table select{font:inherit;font-size:13px;border:1px solid var(--line);border-radius:10px;padding:5px 7px}
+.tagin{display:flex;gap:6px;flex-wrap:wrap}
+.tagin span{background:var(--sky);border-radius:999px;padding:5px 6px 5px 12px;font-size:13px;display:inline-flex;gap:6px;align-items:center}
+.tagin span button{border:0;background:#fff;border-radius:50%;width:20px;height:20px;font-size:12px;line-height:1}
+.code{font-family:ui-monospace,Menlo,monospace;font-size:13px;background:var(--ink);color:#EDE8F7;border-radius:14px;padding:12px 14px;overflow-x:auto;white-space:pre}
+.adm-main .toggles{grid-template-columns:repeat(auto-fill,minmax(230px,1fr))}
+@media (max-width:820px){.adm{grid-template-columns:1fr}.adm-nav{flex-direction:row;overflow-x:auto;border-right:0;border-bottom:1px solid var(--line)}.adm-nav button{white-space:nowrap}.adm-main{padding:18px 16px 60px}}
+@media (min-width:700px){body{background:#FFFFFF}.app{border-left:1px solid var(--line);border-right:1px solid var(--line);box-shadow:0 0 80px -30px rgba(30,20,80,.18)}}
+@media (prefers-reduced-motion:reduce){.slide,.press,.sheet,.mini-sun,.wsun i{transition:none;animation:none}}
+/* FFMPA buddy logo */
+.buddy{width:32px;height:32px;flex:none;overflow:visible;display:block}
+.buddy .eyes{transform-box:view-box;transform-origin:24px 19.5px;animation:ffblink 5.5s infinite}
+.buddy .pup{animation:fflook 7s ease-in-out infinite}
+.buddy .spark{transform-box:view-box;transform-origin:42px 7px;animation:fftwinkle 2.6s ease-in-out infinite}
+.buddy .smile{transform-box:view-box;transform-origin:24.5px 28px}
+@keyframes ffblink{0%,93%,100%{transform:scaleY(1)}96%{transform:scaleY(.08)}}
+@keyframes fflook{0%,35%,100%{transform:translate(0,0)}45%,60%{transform:translate(-1.7px,.5px)}70%,85%{transform:translate(1.2px,.8px)}}
+@keyframes fftwinkle{0%,100%{transform:scale(1) rotate(0)}50%{transform:scale(.55) rotate(60deg)}}
+@keyframes ffhop{0%,100%{transform:translateY(0) rotate(0)}35%{transform:translateY(-5px) rotate(-8deg)}70%{transform:translateY(0) rotate(4deg)}}
+.wm{font-family:"Fredoka",var(--display);font-weight:700;letter-spacing:-.01em;line-height:1;display:inline-flex}
+.wm b{display:inline-block;font-weight:700;animation:ffpop .7s cubic-bezier(.3,1.7,.5,1) both}
+.wm b:nth-child(1){color:#5B35E8;animation-delay:.05s}
+.wm b:nth-child(2){color:#FF5A3C;animation-delay:.12s}
+.wm b:nth-child(3){color:#F59A00;animation-delay:.19s}
+.wm b:nth-child(4){color:#10B27A;animation-delay:.26s}
+.wm b:nth-child(5){color:#2F7BFF;animation-delay:.33s}
+@keyframes ffpop{from{transform:translateY(60%) scale(.4);opacity:0}to{transform:none;opacity:1}}
+@keyframes ffwig{0%,100%{transform:translateY(0)}50%{transform:translateY(-18%) rotate(-6deg)}}
+.lg:hover .buddy,.lg:focus-visible .buddy{animation:ffhop .7s cubic-bezier(.3,1.4,.5,1)}
+.lg:hover .wm b,.lg:focus-visible .wm b{animation:ffwig .5s ease-in-out}
+.lg:hover .wm b:nth-child(2){animation-delay:.05s}.lg:hover .wm b:nth-child(3){animation-delay:.1s}.lg:hover .wm b:nth-child(4){animation-delay:.15s}.lg:hover .wm b:nth-child(5){animation-delay:.2s}
+@media (prefers-reduced-motion:reduce){.buddy *,.buddy,.wm b{animation:none!important}}
+.brand{gap:8px}.brand .buddy{width:30px;height:30px}.brand .wm{font-size:25px}
+.wsun{width:auto;height:auto;margin-bottom:18px}.wsun .buddy{width:84px;height:84px;filter:drop-shadow(0 14px 22px rgba(91,53,232,.28))}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs><linearGradient id="ffg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8E6CFF"/><stop offset=".55" stop-color="#5B35E8"/><stop offset="1" stop-color="#FF6A4D"/></linearGradient></defs></svg>
+<div class="app" id="app">
+  <header class="top">
+    <button class="brand press lg" id="brand" aria-label="FFMPA, back to the first story"><svg class="buddy" viewBox="0 0 48 48" aria-hidden="true" focusable="false"><path fill="url(#ffg)" d="M18 5h12a13 13 0 0 1 13 13v5a13 13 0 0 1-13 13H21l-8.5 7.5V35.2A13 13 0 0 1 5 23v-5A13 13 0 0 1 18 5z"/><g class="eyes"><ellipse cx="19" cy="19.5" rx="3.3" ry="4.1" fill="#fff"/><ellipse cx="29.5" cy="19.5" rx="3.3" ry="4.1" fill="#fff"/><g class="pup"><circle cx="19.9" cy="18.7" r="1.7" fill="#1B1340"/><circle cx="30.4" cy="18.7" r="1.7" fill="#1B1340"/></g></g><path class="smile" d="M19.6 27.4q4.9 4.3 9.8 0" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/><path class="spark" fill="#FFB020" stroke="#fff" stroke-width="1.2" stroke-linejoin="round" d="M42 1.8l1.5 3.7 3.7 1.5-3.7 1.5L42 12.2l-1.5-3.7-3.7-1.5 3.7-1.5z"/></svg><span class="wm" aria-hidden="true"><b>f</b><b>f</b><b>m</b><b>p</b><b>a</b></span></button>
+    <div class="top-r">
+      <button class="pill press" id="edPill" aria-label="Edition information"></button>
+      <button class="pill press" id="ctyPill" aria-label="Change country"></button>
+      <button class="iconbtn press" id="menuBtn" aria-label="Open menu"></button>
+    </div>
+  </header>
+  <div class="hello-bar"><h1 id="helloH"></h1><span class="goalchip" id="goalChip"></span></div>
+  <nav class="rail" id="rail" aria-label="Topics"></nav>
+  <div class="edbar" aria-hidden="true"><i id="edFill"></i></div>
+  <main class="deck" id="deck" aria-live="polite" aria-roledescription="story deck"></main>
+  <nav class="dock" aria-label="Story actions">
+    <button class="press" id="dWords"></button>
+    <button class="press" id="dListen"></button>
+    <button class="press" id="dMore"></button>
+    <button class="press" id="dShare"></button>
+    <button class="press" id="dQuiz"></button>
+  </nav>
+</div>
+
+<div class="overlay" id="sheetOv" role="dialog" aria-modal="true" aria-labelledby="shTitle"><div class="sheet" id="sheet"></div></div>
+<div class="overlay" id="welcomeOv" role="dialog" aria-modal="true" aria-labelledby="wcTitle"><div class="welcome"><div class="wcard" id="welcome"></div></div></div>
+<div class="overlay" id="legalOv" role="dialog" aria-modal="true" aria-labelledby="lgTitle" style="align-items:center"><div class="sheet legal" id="legal"></div></div>
+<section id="adminView" aria-label="FFMPA admin console"></section>
+
+<script>
+/*DATA*/
+
+
+/* ================= Line icons ================= */
+const ICONS={
+ star:'<path d="M12 2.8l2.85 5.78 6.38.93-4.62 4.5 1.09 6.35L12 17.36l-5.7 3 1.09-6.35-4.62-4.5 6.38-.93z"/>',
+ headphones:'<path d="M3 14h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a9 9 0 0 1 18 0v7a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3"/>',
+ bulb:'<path d="M9 18h6"/><path d="M10 22h4"/><path d="M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5A4.61 4.61 0 0 1 8.91 14"/>',
+ share:'<circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98"/><path d="M15.41 6.51l-6.82 3.98"/>',
+ puzzle:'<path d="M19.44 7.85c-.05.32.06.65.29.88l1.57 1.57a2.41 2.41 0 0 1 0 3.41l-1.61 1.61a.98.98 0 0 1-.84.28c-.47-.07-.8-.48-.97-.93a2.5 2.5 0 1 0-3.21 3.21c.45.17.86.5.93.97a.98.98 0 0 1-.28.84l-1.61 1.61a2.41 2.41 0 0 1-3.41 0l-1.57-1.57a1.03 1.03 0 0 0-.88-.29c-.49.07-.84.5-1.02.97a2.5 2.5 0 1 1-3.24-3.24c.46-.18.89-.53.97-1.02a1.03 1.03 0 0 0-.29-.88l-1.57-1.57a2.41 2.41 0 0 1 0-3.41L4.23 8.77c.24-.24.58-.35.92-.3.52.08.88.53 1.07 1.01a2.5 2.5 0 1 0 3.26-3.26c-.48-.2-.93-.56-1.01-1.07-.05-.34.06-.68.3-.92l1.53-1.53a2.41 2.41 0 0 1 3.41 0l1.57 1.57c.23.23.56.34.88.29.49-.07.84-.5 1.02-.97a2.5 2.5 0 1 1 3.24 3.24c-.46.18-.89.53-.97 1.02Z"/>',
+ menu:'<path d="M4 7h16"/><path d="M4 12h16"/><path d="M4 17h10"/>',
+ pin:'<path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/>',
+ sun:'<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/>',
+ moon:'<path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/>',
+ globe:'<circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15 15 0 0 1 0 20a15 15 0 0 1 0-20"/>',
+ sparkle:'<path d="M12 3l1.9 5.8L20 11l-6.1 2.2L12 19l-1.9-5.8L4 11l6.1-2.2z"/>',
+ rocket:'<path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="M12 15l-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"/><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"/>',
+ flask:'<path d="M9 3h6"/><path d="M10 3v6L4.5 19a1.5 1.5 0 0 0 1.3 2h12.4a1.5 1.5 0 0 0 1.3-2L14 9V3"/><path d="M7 15h10"/>',
+ leaf:'<path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/>',
+ trophy:'<path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/>',
+ landmark:'<path d="M3 22h18"/><path d="M6 18v-7"/><path d="M10 18v-7"/><path d="M14 18v-7"/><path d="M18 18v-7"/><path d="M12 2l8 5H4z"/>',
+ clock:'<circle cx="12" cy="12" r="10"/><path d="M12 7v5l3 2"/>',
+ cpu:'<rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><path d="M9 1v3M15 1v3M9 20v3M15 20v3M20 9h3M20 14h3M1 9h3M1 14h3"/>',
+ dove:'<path d="M16 7h.01"/><path d="M3.4 18H12a8 8 0 0 0 8-8V7a4 4 0 0 0-7.28-2.3L2 20"/><path d="m20 7 2 .5-2 .5"/><path d="M10 18v3"/><path d="M14 17.75V21"/><path d="M7 18a6 6 0 0 0 3.84-10.61"/>',
+ lamp:'<path d="M8 2h8l4 10H4L8 2Z"/><path d="M12 12v6"/><path d="M8 22v-2c0-1.1.9-2 2-2h4a2 2 0 0 1 2 2v2H8Z"/>',
+ x:'<path d="M18 6 6 18"/><path d="m6 6 12 12"/>',
+ up:'<path d="m18 15-6-6-6 6"/>', down:'<path d="m6 9 6 6 6-6"/>', right:'<path d="m9 18 6-6-6-6"/>',
+ shield:'<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/>',
+ lock:'<rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/>',
+ doc:'<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M16 13H8M16 17H8M10 9H8"/>',
+ book:'<path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/>',
+ mail:'<rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 5L2 7"/>',
+ wave:'<path d="M18 11V6a2 2 0 0 0-4 0v5"/><path d="M14 10V4a2 2 0 0 0-4 0v2"/><path d="M10 10.5V6a2 2 0 0 0-4 0v8"/><path d="M18 8a2 2 0 1 1 4 0v6a8 8 0 0 1-8 8h-2c-2.8 0-4.5-.86-5.99-2.34l-3.6-3.6a2 2 0 0 1 2.83-2.82L7 15"/>',
+ copy:'<rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>'
+};
+const ico=(n,cls="i")=>`<svg class="${cls}" viewBox="0 0 24 24" aria-hidden="true">${ICONS[n]||""}</svg>`;
+const CAT_ICON={space:"rocket",science:"flask",planet:"globe",sports:"trophy",civics:"landmark",world:"dove",culture:"lamp",history:"clock",nature:"leaf",tech:"cpu",business:"landmark"};
+const HL={people:"#FFD3C7",places:"#C6ECE6"}; const HL_IDEA="#DCE2FF";
+const WKIND=t=> t==="people"?["Person","#C2410C"]:t==="places"?["Place","#0E7C70"]:["Idea","#3B5BDB"];
+const TC={business:"#4D7C0F",space:"#3E46C8",science:"#0E7490",planet:"#0F8A5F",sports:"#D9481E",civics:"#2D5BC0",world:"#55627E",culture:"#C2367A",history:"#B5600F",nature:"#1C7CC4",tech:"#7A3FD1"};
+const TT={business:"#F1F7E6",space:"#ECEDFD",science:"#E3F4F7",planet:"#E8F6EF",sports:"#FDEDE7",civics:"#E9EFFB",world:"#EEF0F4",culture:"#FBEAF2",history:"#FCF1E4",nature:"#E7F2FB",tech:"#F2EBFC"};
+const AQI=[["Good","0 to 50","#2BB673","clean air."],["Satisfactory","51 to 100","#9BD35A","fine for most people."],["Moderate","101 to 200","#F2C230","some people may cough."],["Poor","201 to 300","#EF8A3A","many people feel it."],["Very poor","301 to 400","#E5484D","hazy; outdoor play is often cut short."],["Severe","401 to 500","#8E2C48","everyone should stay indoors."]];
+let checksDone = new Set(store0("ffmpa-checks", []));
+function keyHTML(s,sel){
+  const k = (settings.age==="x" && s.xkey) ? s.xkey : s.key; if(!k) return "";
+  if(k.type==="check" && checksDone.has(s.id) && sel==null) return "";
+  const id=s.id; let h="";
+  if(k.type==="number"){
+    h=`<span class="kh">Key number</span><div class="kv"><b ${numAttr(k.v)}>${esc(k.v)}</b><span>${esc(k.l)}</span></div>`;
+    if(k.scale==="aqi"){ const b=sel==null?(k.sel||0):sel; h+=`<div class="scale">${AQI.map((x,i)=>`<button type="button" data-kb="${id}" data-kv="${i}" class="${i===b?"on":""}" style="background:${x[2]}" aria-label="${x[0]}"></button>`).join("")}</div><p class="kt"><b>${AQI[b][0]}</b> (${AQI[b][1]}): ${AQI[b][3]}</p>`; }
+  } else if(k.type==="compare"){
+    const c=sel||0, it=k.items[c], m=Math.max(k.base,it[1]);
+    h=`<span class="kh">Compare</span><div class="kv"><b ${sel==null?numAttr(k.v):""}>${esc(k.v)}</b><span>${esc(k.l)}</span></div><div class="seg">${k.items.map((x,i)=>`<button type="button" data-kb="${id}" data-kv="${i}" class="${i===c?"on":""}">${esc(x[0])}</button>`).join("")}</div><div class="bars"><div><i style="width:${Math.round(k.base/m*100)}%"></i></div><div><i style="width:${Math.max(3,Math.round(it[1]/m*100))}%"></i></div></div><p class="kt">${esc(it[2])}</p>`;
+  } else if(k.type==="timeline"){
+    const c=sel==null?(k.sel||0):sel, it=k.items[c];
+    h=`<span class="kh">Timeline</span><div class="tl" style="grid-template-columns:repeat(${k.items.length},minmax(0,1fr))">${k.items.map((x,i)=>`<button type="button" data-kb="${id}" data-kv="${i}" class="${i===c?"on":""}"><i></i>${esc(x[0])}</button>`).join("")}</div><p class="kt"><b>${esc(it[1])}.</b> ${esc(it[2])}</p>`;
+  } else if(k.type==="spot"){
+    const c=sel||0;
+    h=`<span class="kh">What to look for</span><div class="chips">${k.items.map((x,i)=>`<button type="button" data-kb="${id}" data-kv="${i}" class="${i===c?"on":""}">${esc(x[0])}</button>`).join("")}</div><p class="kt">${esc(k.items[c][1])}</p>`;
+  } else if(k.type==="check"){
+    const c=sel==null?-1:sel;
+    h=`<span class="kh">Quick check</span><b style="font-size:.95em">${esc(k.q)}</b><div class="opts2">${k.a.map((x,i)=>`<button type="button" data-kb="${id}" data-kv="${i}" class="${c===i?(i===k.c?"ok":"no"):""}">${esc(x)}</button>`).join("")}</div><span class="fb" style="color:${c<0?"var(--muted)":c===k.c?"#15803D":"#B91C1C"}">${c<0?"Tap an answer":c===k.c?esc(k.right):esc(k.wrong)}</span>`;
+  }
+  return `<div class="kbox" data-kbox="${id}">${h}</div>`;
+}
+function numAttr(v){ const m=String(v).match(/^(\D*)([\d,]+(?:\.\d+)?)(.*)$/); if(!m) return ""; return `data-n="${m[2].replace(/,/g,"")}" data-pre="${esc(m[1])}" data-suf="${esc(m[3])}" data-comma="${m[2].includes(",")?1:0}"`; }
+function countUp(el){
+  const n=+el.dataset.n, pre=el.dataset.pre||"", suf=el.dataset.suf||"", comma=el.dataset.comma==="1"; if(!n||n<10) return;
+  if(window.matchMedia&&matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  const t0=performance.now(), D=900, fmt=x=>comma?Math.round(x).toLocaleString("en-US"):String(Math.round(x));
+  (function f(t){ const p=Math.min(1,(t-t0)/D), e=1-Math.pow(1-p,3); el.textContent=pre+fmt(n*e)+suf; if(p<1) requestAnimationFrame(f); })(t0);
+}
+function wireCard(root){
+  root.querySelectorAll(".term").forEach(b=> b.onclick=e=>{ e.stopPropagation(); openTerm(b.dataset.k); });
+  root.querySelectorAll("[data-kb]").forEach(b=> b.onclick=e=>{ e.stopPropagation(); const s=S.find(x=>x.id===b.dataset.kb); const box=b.closest(".kbox"); const tmp=document.createElement("div"); tmp.innerHTML=keyHTML(s,+b.dataset.kv); const nb=tmp.firstElementChild; nb.classList.add("re"); box.replaceWith(nb); wireCard(nb); const kk=(settings.age==="x"&&s.xkey)?s.xkey:s.key; if(kk.type==="check" && +b.dataset.kv===kk.c){ checksDone.add(s.id); try{ localStorage.setItem("ffmpa-checks",JSON.stringify([...checksDone])); }catch(e){} nb.querySelectorAll("button").forEach(x=>x.disabled=true); setTimeout(()=>{ nb.classList.add("gone"); setTimeout(()=>nb.remove(),450); },1400); } });
+}
+function termInline(btn){
+  const k=btn.dataset.k, g=G[k]; if(!g) return;
+  const body=btn.closest(".cbody"), panel=body.querySelector(".tpanel");
+  const was=btn.classList.contains("on");
+  body.querySelectorAll(".term.on").forEach(x=>x.classList.remove("on"));
+  if(was){ panel.classList.remove("open"); return; }
+  btn.classList.add("on");
+  const [kind,col]=WKIND(g[1]);
+  panel.innerHTML=`<span class="tk" style="color:${col}"><i style="background:${col}"></i>${kind}</span><b>${esc(g[0])}</b><p>${settings.age==="x"?g[2]:g[3]}</p><div class="tb"><button type="button" data-ts>${ico("star")}${words.has(k)?"Saved":"Save to my words"}</button><button type="button" data-tm>More</button></div>`;
+  panel.classList.add("open");
+  panel.querySelector("[data-ts]").onclick=e=>{ e.stopPropagation(); words.has(k)?words.delete(k):words.add(k); if(session&&!session.preview) store.set("ffmpa-words",[...words]); e.currentTarget.innerHTML=`${ico("star")}${words.has(k)?"Saved":"Save to my words"}`; renderTop(); };
+  panel.querySelector("[data-tm]").onclick=e=>{ e.stopPropagation(); openTerm(k); };
+}
+/* free-to-use photos only, credited, never linked */
+const IMAGES={};
+/* Photo policy: only images that are free to use (public domain, Creative Commons, or official press and government libraries such as NASA), always with the credit and licence. Never a publisher's own photo without permission. */
+
+/* ================= Admin configuration (the admin console writes this) ================= */
+const ADMIN_DEFAULT = {
+  freshHours:72, amTime:"06:00", pmTime:"19:00", maxStories:20,
+  countries:{IN:true, US:true, UK:true, AU:true, KR:true, DE:true, FR:true},
+  plan:{mode:"free", priceIN:100, priceIntl:10, trialDays:14, gatewayIN:"razorpay", gatewayIntl:"stripe", keepFreeForEarly:true},
+  ads:{enabled:true, every:5, explorers:false, maxPerEdition:2,
+       sources:{direct:true, superawesome:false, adsense:false},
+       blocked:["Food and drink high in fat, sugar or salt","Gambling and betting","Alcohol and tobacco","Dating","Weapons","Political and issue ads","Religious ads","Apps with paid loot boxes","Beauty and weight loss","Horror and violent media"]},
+  sponsors:[
+    {id:"sp1", name:"BrightBox Science Kits (sample sponsor)", emoji:"🧪", headline:"Build a working volcano this weekend", body:"Hands-on science kits for curious minds aged 6 and up. Ask a grown-up to take a look.", cta:"For grown-ups: brightbox.example", status:"approved", countries:["IN","US","UK"], cat:"science"},
+    {id:"sp2", name:"Starlight Planetarium (sample sponsor)", emoji:"🔭", headline:"Watch the Leonid meteor shower with real astronomers", body:"Family stargazing nights on 17 and 18 November. Telescopes provided.", cta:"For grown-ups: starlight.example", status:"approved", countries:["IN","UK"], cat:"space"},
+    {id:"sp3", name:"Sugar Rush Cola (sample)", emoji:"🥤", headline:"Get your fizz on!", body:"The fizziest drink in town.", cta:"Buy now", status:"rejected", countries:["US"], cat:"food", note:"Rejected: food and drink high in sugar is a blocked category."}
+  ],
+  blockedWords:["kill","killed","blood","gore","horror","terrifying","shocking","massacre","suicide","sexy","drunk","stupid","idiot","hate"],
+  storyStatus:{}
+};
+let ADMIN = Object.assign({}, ADMIN_DEFAULT, store0("ffmpa-admin", {}));
+ADMIN.countries = Object.assign({}, ADMIN_DEFAULT.countries, ADMIN.countries||{}); delete ADMIN.countries.CN;
+ADMIN.plan = Object.assign({}, ADMIN_DEFAULT.plan, ADMIN.plan||{});
+/* Paid mode. While ADMIN.plan.mode is "free", nothing here is shown to families. */
+function priceText(cty){ const p=ADMIN.plan; return cty==="IN" ? `₹${p.priceIN} a year` : `US$${p.priceIntl} a year`; }
+function planState(){
+  const p=ADMIN.plan; if(p.mode!=="paid") return {paid:false};
+  const start = settings.created || Date.now();
+  const used = Math.floor((Date.now()-start)/86400000);
+  const left = Math.max(0, p.trialDays-used);
+  const early = p.keepFreeForEarly && settings.early;
+  return {paid:true, sub:!!settings.subscribed || early, early, left, price:priceText(settings.country), gateway: settings.country==="IN"?p.gatewayIN:p.gatewayIntl};
+}
+function store0(k,d){ try{ const v=localStorage.getItem(k); return v?JSON.parse(v):d; }catch(e){ return d; } }
+
+/* ================= State ================= */
+const store = {
+  get(k,d){ return store0(k,d); },
+  set(k,v){ try{ localStorage.setItem(k, JSON.stringify(v)); }catch(e){} },
+  del(k){ try{ localStorage.removeItem(k); }catch(e){} }
+};
+const DEFAULT_SETTINGS = {name:"", pin:"1234", ageLock:false, age:"o", country:"IN",
+  cats:Object.fromEntries(Object.keys(CATS).map(k=>[k,true])), conflict:true, politics:true, limit:20, readAloud:true, sources:true, sharing:true, typing:true, rewards:true};
+let settings = Object.assign({}, DEFAULT_SETTINGS, store.get("ffmpa-settings", {}));
+settings.cats = Object.assign({}, DEFAULT_SETTINGS.cats, settings.cats||{});
+let session = store.get("ffmpa-session", null);
+let words = new Set(store.get("ffmpa-words", []));
+let readIds = new Set(store.get("ffmpa-read-"+EDITION_DATE, []));
+let topic = "all", deck = [], idx = 0, lastFocus = null;
+
+const $ = s=>document.querySelector(s);
+const esc = s=>String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const persist = ()=>{ if(session && !session.preview) store.set("ffmpa-settings", settings); };
+const saveAdmin = ()=> store.set("ffmpa-admin", ADMIN);
+
+/* ================= Helpers ================= */
+function strip(t){ return t.replace(/\[\[([a-z0-9-]+)(?:\|([^\]]+))?\]\]/g,(m,k,d)=> d||(G[k]?G[k][0]:k)); }
+function linkify(t){ return t.replace(/\[\[([a-z0-9-]+)(?:\|([^\]]+))?\]\]/g,(m,k,d)=>{ const g=G[k]; if(!g) return d||k; return `<button class="term" data-k="${k}" style="--tc:${HL[g[1]]||HL_IDEA}" aria-label="${esc(d||g[0])}: what does this mean?">${d||g[0]}</button>`; }); }
+function keysIn(p){ const ks=[]; p.join(" ").replace(/\[\[([a-z0-9-]+)/g,(m,k)=>{ if(G[k]&&!ks.includes(k)) ks.push(k); }); return ks; }
+function grad(cat){ const c=(CATS[cat]||CATS.science).c; return `linear-gradient(135deg, ${c[0]}, ${c[1]})`; }
+const LVL={x:["Explorers","5 to 9"],o:["Thinkers","10 to 12"],n:["Navigators","13 to 15"]};
+function v(s){ return s[settings.age==="x"?"x":"o"]; }
+function daysOld(d){ return Math.round((Date.parse(EDITION_DATE)-Date.parse(d))/86400000); }
+function fmtTime(t){ const [h,m]=t.split(":").map(Number); const ap=h>=12?"PM":"AM"; const hh=((h+11)%12)+1; return `${hh}:${String(m).padStart(2,"0")} ${ap}`; }
+function isFresh(s){ return s.kind==="calendar" ? daysOld(s.date)<=1 : daysOld(s.date)*24 <= ADMIN.freshHours; }
+function heldByFilter(s){
+  const txt = strip([s.x.t, ...s.x.b, s.o.t, ...s.o.b].join(" ")).toLowerCase();
+  return ADMIN.blockedWords.find(w=> new RegExp(`\\b${w.toLowerCase().replace(/[.*+?^${}()|[\]\\]/g,"\\$&")}\\b`).test(txt));
+}
+function statusOf(s){
+  if(heldByFilter(s)) return "held";
+  if(!isFresh(s)) return "stale";
+  return ADMIN.storyStatus[s.id] || "published";
+}
+function freshLabel(s){
+  if(s.kind==="calendar") return {t:s.when||"This week", c:"cal"};
+  const n=daysOld(s.date);
+  if(n<=0) return {t:"New today", c:"new"};
+  if(n===1) return {t:"Since yesterday", c:"new"};
+  return {t:`${n} days ago`, c:""};
+}
+function sourceLine(s){ return s.src.length ? s.src[0][0].replace(/,.*$/,"") + (s.src.length>1?` +${s.src.length-1} more`:"") : "FFMPA explainer"; }
+function imgOf(s){ return IMAGES[s.id]||null; }
+function imgCredit(s){ const im=imgOf(s); return im ? `Photo: ${im.credit}${im.licence?" ("+im.licence+")":""}` : ""; }
+function imgHTML(s){ const im=imgOf(s); const ph=`<div class="ph">${ico(CAT_ICON[s.cat]||"sparkle")}<span></span></div>`; return ph + (im?`<img src="${im.src}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`:""); }
+
+function stories(){
+  const c=settings.country;
+  const ok = s=> statusOf(s)==="published" && settings.cats[s.cat]!==false
+    && !(s.olderOnly && settings.age==="x") && !(s.sensitive==="conflict" && !settings.conflict) && !(s.sensitive==="politics" && !settings.politics);
+  const by=(a,b)=>(a.kind==="calendar")-(b.kind==="calendar") || daysOld(a.date)-daysOld(b.date);
+  const L=S.filter(s=>s.scope===c&&ok(s)).sort(by), W=S.filter(s=>s.scope==="global"&&ok(s)).sort(by);
+  const out=[]; let i=0;
+  while(L.length||W.length){ if(i%2===0&&L.length) out.push(L.shift()); else if(W.length) out.push(W.shift()); else out.push(L.shift()); i++; }
+  return out.slice(0, Math.min(settings.limit, ADMIN.maxStories));
+}
+function buildDeck(){
+  let list = stories();
+  if(topic==="local") list=list.filter(s=>s.scope!=="global");
+  else if(topic==="world") list=list.filter(s=>s.scope==="global");
+  else if(topic.startsWith("c:")) list=list.filter(s=>s.cat===topic.slice(2));
+  const out=[];
+  const ps=planState();
+  if(ps.paid && !ps.sub && ps.left<=0 && !(session&&session.preview)){ deck=[{type:"paywall"}]; return; }
+  const ads = adsAllowed() ? ADMIN.sponsors.filter(a=>a.status==="approved" && a.countries.includes(settings.country)) : [];
+  let shown=0;
+  list.forEach((s,i)=>{
+    out.push({type:"story", s});
+    if(ads.length && (i+1)%ADMIN.ads.every===0 && i<list.length-1 && shown<ADMIN.ads.maxPerEdition){ out.push({type:"ad", a:ads[shown%ads.length]}); shown++; }
+  });
+  if(topic==="all" && typeof learnToday==="function" && learnToday()){ const at=Math.min(out.length, 3); out.splice(at,0,{type:"learn"}); }
+  if(topic==="all" && typeof todayItems==="function" && todayItems() && settings.todayCard!==false) out.unshift({type:"today"});
+  if(topic==="all" && typeof CRAFTS!=="undefined" && dOf(TODAY()).getDay()===0 && CRAFTS[craftIndex(TODAY())]) out.push({type:"craft"});
+  out.push({type:"end"});
+  deck = out;
+}
+function adsAllowed(){ return ADMIN.ads.enabled && ADMIN.ads.sources.direct && !(settings.age==="x" && !ADMIN.ads.explorers) && !(session && session.preview===undefined && false); }
+
+/* ================= Render ================= */
+function renderTop(){
+  const c=COUNTRIES[settings.country];
+  document.documentElement.classList.toggle("explorers", settings.age==="x");
+  $("#ctyPill").innerHTML = `${ico("pin")}${c.short}`;
+  $("#edPill").innerHTML = `${ico("sun")}<span class="lbl">Morning</span>`;
+  $("#menuBtn").innerHTML = ico("menu");
+  $("#helloH").innerHTML = `${c.greet}${settings.name?`, <em class="v">${esc(settings.name)}</em>`:""}`;
+  $("#dWords").innerHTML = `${ico("star")}${words.size?`Words · ${words.size}`:"Words"}`;
+  $("#dListen").innerHTML = `${ico("headphones")}Listen`;
+  $("#dMore").innerHTML = `${ico("bulb")}More`;
+  $("#dShare").innerHTML = `${ico("share")}Share`;
+  $("#dQuiz").innerHTML = `${ico("puzzle")}Play`;
+  $("#dListen").hidden = !settings.readAloud;
+  $("#dShare").hidden = !settings.sharing;
+  renderGoal();
+}
+function renderGoal(){
+  const all=stories(); const done=all.filter(s=>readIds.has(s.id)).length; const pct=all.length?Math.round(done/all.length*100):0;
+  $("#goalChip").innerHTML = `<i><b style="width:${pct}%"></b></i>${done} of ${all.length} read`; $("#goalChip").onclick=()=>openProgress(); $("#goalChip").style.cursor="pointer";
+}
+function renderRail(){
+  const c=COUNTRIES[settings.country];
+  const present=[...new Set(stories().map(s=>s.cat))];
+  const items=[["all","Today","sparkle"],["local",c.short,"pin"],["world","World","globe"],...present.map(k=>["c:"+k,CATS[k].label,CAT_ICON[k]])];
+  if(!items.find(i=>i[0]===topic)) topic="all";
+  $("#rail").innerHTML = items.map(([k,l,ic])=>`<button class="rchip press" data-t="${k}" aria-pressed="${topic===k}">${k.startsWith("c:")?`<span class="cdot" style="background:${TC[k.slice(2)]}"></span>`:ico(ic)}${esc(l)}</button>`).join("");
+  $("#rail").querySelectorAll("[data-t]").forEach(b=> b.onclick=()=>{ topic=b.dataset.t; idx=0; renderRail(); renderDeck(); });
+}
+function cardHTML(item){
+  if(item.type==="story"){
+    const s=item.s, t=v(s), local=s.scope!=="global", f=freshLabel(s);
+    return `<article class="card" aria-label="${esc(t.t)}" style="--acc:${TC[s.cat]||"#5B35E8"};--tint:${TT[s.cat]||"#F3F0FF"}">
+      <div class="acc" aria-hidden="true"></div>
+      <div class="img">${imgHTML(s)}
+        <div class="tags"><span class="tag topic">${CATS[s.cat].label}</span><span class="tag ${local?"local":"global"}">${local?COUNTRIES[s.scope].short:"World"} · ${f.t}</span></div>
+        <span class="credit">${esc(imgCredit(s))}</span></div>
+      <div class="cbody"><p class="kicker">${CATS[s.cat].label}</p><h2>${t.t}</h2>${t.b.map(p=>`<p>${linkify(p)}</p>`).join("")}${keyHTML(s)}</div>
+      <div class="more-cue" aria-hidden="true">${ico("down")}</div><button class="srcbar" data-more><span>Source: <b>${esc(sourceLine(s))}</b></span><span class="go">More${ico("right")}</span></button>
+    </article>`;
+  }
+  if(item.type==="ad"){
+    const a=item.a;
+    return `<article class="card ad" aria-label="Sponsored: ${esc(a.headline)}">
+      <div class="img"><div class="ph">${ico(CAT_ICON[a.cat]||"sparkle")}</div></div>
+      <div class="cbody"><span class="adlabel">Sponsored · approved by FFMPA</span><h2>${esc(a.headline)}</h2><p>${esc(a.body)}</p><p style="color:var(--muted);font-size:.9em">${esc(a.cta)}</p><p style="color:var(--muted);font-size:.85em">From ${esc(a.name)}. FFMPA checks every sponsor message. Sponsors never see who you are.</p></div>
+      <div class="srcbar"><span>Why am I seeing this? Same message for everyone in ${COUNTRIES[settings.country].name}.</span></div>
+    </article>`;
+  }
+  const c=COUNTRIES[settings.country];
+  if(item.type==="today") return todayHTML();
+  if(item.type==="craft") return craftCardHTML();
+  if(item.type==="learn") return learnHTML();
+  if(item.type==="paywall"){ const ps=planState(); return `<article class="card"><div class="endcard">
+    <div class="wsun" aria-hidden="true">${BUDDY}</div>
+    <h2>Your free trial <em class="v">has ended.</em></h2>
+    <p>Ask a grown-up to keep FFMPA going: ${esc(ps.price)} for calm, checked news every morning and evening.</p>
+    <div class="row" style="justify-content:center"><button class="btn sun press" data-plan>See the plan</button></div>
+  </div></article>`; }
+  return `<article class="card"><div class="endcard">
+    <div class="moon" aria-hidden="true"></div>
+    <h2>You're all <em class="v">caught up.</em></h2>
+    <p>That's everything in this morning's edition. The evening edition arrives at ${fmtTime(ADMIN.pmTime)} ${c.tz}.</p>
+    ${endSummaryHTML()}
+    <div class="endgrid"><button class="btn sun press" data-quiz>Take today's quiz</button><button class="btn ghost press" data-open="puzzles">Weekly puzzle</button><button class="btn ghost press" data-open="progress">Your progress</button></div>
+  </div></article>`;
+}
+function renderDeck(){
+  buildDeck();
+  if(idx>=deck.length) idx=deck.length-1;
+  const d=$("#deck");
+  d.innerHTML = deck.map((it,i)=>`<div class="slide" data-i="${i}" style="transform:translateY(${(i-idx)*100}%)" ${i===idx?"":'aria-hidden="true" inert'}>${cardHTML(it)}</div>`).join("")
+    + `<div class="navbtns"><button class="press" id="upBtn" aria-label="Previous story">${ico("up")}</button><button class="press" id="downBtn" aria-label="Next story">${ico("down")}</button></div>`
+    + `<span class="counter" id="counter"></span>`;
+  wireCard(d);
+  d.querySelectorAll("[data-more]").forEach(b=> b.onclick=()=> openMore());
+  d.querySelectorAll("[data-quiz]").forEach(b=> b.onclick=()=> openQuiz());
+  d.querySelectorAll("[data-restart]").forEach(b=> b.onclick=()=> go(0));
+  d.querySelectorAll("[data-plan]").forEach(b=> b.onclick=()=> openPlan());
+  d.querySelectorAll("[data-open]").forEach(b=> b.onclick=e=>{ e.stopPropagation(); const k=b.dataset.open; k==="progress"?openProgress():k==="puzzles"?openPuzzles():openCraft(); });
+  d.querySelectorAll("[data-next]").forEach(b=> b.onclick=()=> go(idx+1));
+  tintCards(d); wireLearn(d);
+  $("#upBtn").onclick=()=>go(idx-1); $("#downBtn").onclick=()=>go(idx+1);
+  afterMove();
+  if(deck[0]&&deck[0].type==="paywall"){ $("#counter").style.display="none"; }
+}
+function go(n){
+  if(n<0||n>=deck.length) return;
+  stopSpeech(); idx=n;
+  document.querySelectorAll(".slide").forEach(sl=>{ const i=+sl.dataset.i; sl.style.transform=`translateY(${(i-idx)*100}%)`; if(i===idx){ sl.removeAttribute("aria-hidden"); sl.removeAttribute("inert"); } else { sl.setAttribute("aria-hidden","true"); sl.setAttribute("inert",""); } });
+  afterMove();
+}
+function afterMove(){
+  const it=deck[idx];
+  document.querySelectorAll("#deck .slide").forEach(el=>{ const on=+el.dataset.i===idx; if(on&&!el.classList.contains("live")){ el.classList.add("live"); setTimeout(()=>el.querySelectorAll(".kv b[data-n]").forEach(countUp),350); } else if(!on) el.classList.remove("live"); });
+  const ctr=$("#counter"); if(ctr){ ctr.classList.remove("bump"); void ctr.offsetWidth; ctr.classList.add("bump"); }
+  if(it && it.type==="story" && !readIds.has(it.s.id)){ readIds.add(it.s.id); if(session&&!session.preview) store.set("ffmpa-read-"+EDITION_DATE,[...readIds]); renderGoal(); recordRead(it.s); }
+  if(it && it.type==="end") recordEnd();
+  afterMoveExtras(it);
+  const liveSl=document.querySelector(`#deck .slide[data-i="${idx}"]`); if(liveSl && it && it.type==="story") typeIn(liveSl, it.s.id);
+  const nStories=deck.filter(d=>d.type==="story").length;
+  const pos=deck.slice(0,idx+1).filter(d=>d.type==="story").length;
+  $("#counter").textContent = it.type==="end" ? "All done" : it.type==="ad" ? "Sponsored" : it.type==="learn" ? "Learn" : it.type==="today" ? "Today" : `${pos} of ${nStories}`;
+  $("#upBtn").disabled = idx===0; $("#downBtn").disabled = idx===deck.length-1;
+  const isStory = it.type==="story";
+  ["#dListen","#dMore","#dShare"].forEach(s=>{ $(s).disabled=!isStory; $(s).style.opacity=isStory?1:.4; });
+}
+/* gestures */
+(function(){
+  const d=$("#deck"); let y0=null,x0=null,t0=0,lock=false;
+  d.addEventListener("touchstart",e=>{ y0=e.touches[0].clientY; x0=e.touches[0].clientX; t0=Date.now(); },{passive:true});
+  d.addEventListener("touchend",e=>{
+    if(y0===null) return;
+    const dy=e.changedTouches[0].clientY-y0, dx=e.changedTouches[0].clientX-x0;
+    const body=e.target.closest(".cbody");
+    const atEdge = !body || (dy<0 ? body.scrollTop+body.clientHeight>=body.scrollHeight-2 : body.scrollTop<=0);
+    if(Math.abs(dy)>55 && Math.abs(dy)>Math.abs(dx)*1.3 && atEdge) go(idx+(dy<0?1:-1));
+    else if(dx<-70 && Math.abs(dx)>Math.abs(dy)*1.5 && deck[idx].type==="story") openMore();
+    y0=null;
+  },{passive:true});
+  d.addEventListener("wheel",e=>{
+    const body=e.target.closest(".cbody");
+    if(body && body.scrollHeight>body.clientHeight+2){ const atEnd=body.scrollTop+body.clientHeight>=body.scrollHeight-2, atTop=body.scrollTop<=0; if((e.deltaY>0&&!atEnd)||(e.deltaY<0&&!atTop)) return; }
+    if(lock||Math.abs(e.deltaY)<18) return; lock=true; setTimeout(()=>lock=false,650);
+    go(idx+(e.deltaY>0?1:-1));
+  },{passive:true});
+})();
+document.addEventListener("keydown",e=>{
+  if($("#adminView").classList.contains("open")) return;
+  const open=[...document.querySelectorAll(".overlay.open")].filter(o=>o.id!=="welcomeOv").pop();
+  if(e.key==="Escape"&&open){ open.id==="legalOv"?closeLegal():closeSheet(); return; }
+  if(open||document.querySelector("#welcomeOv.open")) return;
+  if(["ArrowDown","j","PageDown"].includes(e.key)){ e.preventDefault(); go(idx+1); }
+  if(["ArrowUp","k","PageUp"].includes(e.key)){ e.preventDefault(); go(idx-1); }
+  if(e.key==="ArrowRight" && deck[idx].type==="story") openMore();
+});
+function renderAll(){ renderTop(); renderRail(); renderDeck(); }
+
+/* ================= Sheets ================= */
+function openSheet(html, onReady){
+  lastFocus=document.activeElement;
+  $("#sheet").innerHTML = `<div class="grab" aria-hidden="true"></div><button class="x" id="shX" aria-label="Close">${ico("x")}</button>`+html;
+  $("#sheetOv").classList.add("open"); $("#sheet").scrollTop=0;
+  $("#shX").onclick=closeSheet;
+  if(onReady) onReady($("#sheet"));
+  const f=$("#sheet").querySelector("input, .btn, button:not(#shX)"); (f||$("#shX")).focus();
+}
+function closeSheet(){ $("#sheetOv").classList.remove("open"); stopSpeech(); if(lastFocus&&document.contains(lastFocus)) lastFocus.focus(); }
+$("#sheetOv").addEventListener("click",e=>{ if(e.target.id==="sheetOv") closeSheet(); });
+
+function cur(){ const it=deck[idx]; return it&&it.type==="story"?it.s:null; }
+function openMore(){
+  const s=cur(); if(!s) return; STATS.more++; saveStats(); checkAch(); const t=v(s); const ks=keysIn(t.b); const where=s.local&&s.local[settings.country];
+  openSheet(`<h2 id="shTitle">${t.t}</h2>
+    ${where?`<div class="box where"><h4>Why this matters in ${COUNTRIES[settings.country].name}</h4><p>${where}</p></div>`:""}
+    <div class="box think"><h4>Think about it</h4><p>${s.think}</p></div>
+    ${ks.length?`<h4 style="font-family:var(--display);margin:16px 0 0">Words in this story</h4><div class="chips">${ks.map(k=>`<button class="chip press" data-k="${k}">${words.has(k)?"⭐ ":""}${G[k][0]}</button>`).join("")}</div>`:""}
+    ${settings.sources?`<h4 style="font-family:var(--display);margin:16px 0 4px">Sources</h4>${s.src.length?`<ul style="margin:0;padding-left:18px">${s.src.map(([l])=>`<li>${esc(l)}</li>`).join("")}</ul>`:`<p style="margin:0;color:var(--muted)">A short explainer about a date this week, written from established facts.</p>`}<p style="color:var(--muted);font-size:13px;margin:8px 0 0">${imgCredit(s)?esc(imgCredit(s))+". ":""}FFMPA names its sources but never links to other websites.</p>`:""}`,
+    sh=> sh.querySelectorAll("[data-k]").forEach(b=> b.onclick=()=> openTerm(b.dataset.k)));
+}
+function openTerm(k){
+  const g=G[k]; if(!g) return; STATS.explainers++; saveStats(); checkAch(); const [kind,kcol]=WKIND(g[1]); const kbg=HL[g[1]]||HL_IDEA;
+  openSheet(`<span class="ttype" style="background:${kbg};color:${kcol}">${kind}</span><h2 id="shTitle" style="margin-top:8px">${g[0]}</h2><p>${settings.age==="x"?g[2]:g[3]}</p>
+    <div class="row"><button class="btn sun press" id="tSave">${words.has(k)?"⭐ Saved to my words":"☆ Save to my words"}</button><button class="btn ghost press" id="tBack">Back to the story</button></div>`,
+    sh=>{ $("#tBack").onclick=closeSheet; $("#tSave").onclick=()=>{ words.has(k)?words.delete(k):words.add(k); if(session&&!session.preview) store.set("ffmpa-words",[...words]); $("#tSave").textContent=words.has(k)?"⭐ Saved to my words":"☆ Save to my words"; renderTop(); checkAch(); }; });
+}
+function openWords(){
+  const arr=[...words].filter(k=>G[k]);
+  openSheet(`<h2 id="shTitle">My words</h2><p class="sub">${arr.length?`You have collected ${arr.length} word${arr.length===1?"":"s"}. Keep exploring!`:"Your word bank is empty. Tap any underlined word in a story, then press Save."}</p>
+    <div class="list">${arr.map(k=>{const g=G[k],ty=TYPES[g[1]];return `<div class="item"><span class="ttype" style="background:${ty.c}">${ty.label}</span> <b>${g[0]}</b><p>${settings.age==="x"?g[2]:g[3]}</p></div>`;}).join("")}</div>`);
+}
+function openShare(){
+  const s=cur(); if(!s) return; const t=v(s);
+  const url=`https://ffmpa.com/s/${s.id}`;
+  const text=`${t.t} · Read it on FFMPA, real news made for kids:`;
+  const guard = settings.age==="x" ? `<p class="box think" style="margin-top:0"><b>Ask a grown-up first.</b> Sharing sends this story to someone outside FFMPA.</p>` : "";
+  openSheet(`<h2 id="shTitle">Share this story</h2><p class="sub">Your friend sees the story only. Your name, words and settings are never included.</p>${guard}
+    <div class="sharecard"><div class="img">${imgHTML(s)}</div><div class="t"><b>${t.t}</b><small>ffmpa.com · Real news made for kids</small></div></div>
+    <div class="linkbox"><span style="flex:1">${url}</span></div>
+    <div class="row" style="margin-top:12px"><button class="btn sun press" id="shCopy">Copy link</button><button class="btn ghost press" id="shMore">Share to…</button></div>
+    <p class="msg" id="shMsg" aria-live="polite"></p>`,
+    ()=>{
+      $("#shCopy").onclick=async()=>{ try{ await navigator.clipboard.writeText(url); $("#shMsg").textContent="Link copied. Paste it in a message to your friend."; }catch(e){ $("#shMsg").textContent="Copying is blocked here. Press and hold the link above to copy it."; } };
+      $("#shMore").onclick=async()=>{ try{ if(!navigator.share) throw 0; await navigator.share({title:t.t,text,url}); }catch(e){ $("#shMsg").textContent="Your device's share menu is not available here. Use Copy link instead."; } };
+    });
+}
+function speak(){ const s=cur(); if(!s) return; const t=v(s); try{ if(!("speechSynthesis" in window)) return; speechSynthesis.cancel(); const u=new SpeechSynthesisUtterance(strip(t.t+". "+t.b.join(" "))); u.rate=settings.age==="x"?.9:1; speechSynthesis.speak(u); }catch(e){} }
+function stopSpeech(){ try{ if("speechSynthesis" in window) speechSynthesis.cancel(); }catch(e){} }
+
+/* Quiz */
+let quiz=null;
+function openQuiz(){ const pool=stories(); const pick=pool.map(s=>[Math.random(),s]).sort((a,b)=>a[0]-b[0]).slice(0,3).map(x=>x[1]); quiz={qs:pick,i:0,score:0,ans:false}; renderQuiz(); }
+function renderQuiz(){
+  if(quiz.i>=quiz.qs.length){ if(!quiz.counted){ quiz.counted=true; if(quiz.score===quiz.qs.length){ STATS.perfect++; saveStats(); checkAch(); } }
+    const m=quiz.score===quiz.qs.length?"Perfect score! You really read the news today.":quiz.score?"Nice work! Swipe back through the stories to find the ones you missed.":"Good try! Every answer is inside today's stories.";
+    openSheet(`<h2 id="shTitle">Quiz complete</h2><div class="score">${quiz.score} / ${quiz.qs.length}</div><p class="sub">${m}</p><div class="row"><button class="btn sun press" id="qC">Challenge a friend</button><button class="btn ghost press" id="qA">New questions</button><button class="btn ghost press" id="qD">Done</button></div>`,()=>{ $("#qA").onclick=openQuiz; $("#qD").onclick=closeSheet; const sc=quiz.score, tot=quiz.qs.length; $("#qC").onclick=()=>shareText("Challenge a friend",`I scored ${sc} out of ${tot} on today's FFMPA news quiz. Can you beat me?`); });
+    return;
+  }
+  const s=quiz.qs[quiz.i], q=s.quiz;
+  openSheet(`<h2 id="shTitle">Question ${quiz.i+1} of ${quiz.qs.length}</h2><p class="sub">From: ${v(s).t}</p><p style="font-weight:700;margin:0">${q.q}</p>
+    <div class="opts">${q.a.map((a,j)=>`<button class="opt press" data-j="${j}">${a}</button>`).join("")}</div><p class="msg" id="qFb" aria-live="polite"></p>
+    <div class="row" style="justify-content:flex-end"><button class="btn press" id="qN" disabled>Next</button></div>`,
+    sh=>{ sh.querySelectorAll(".opt").forEach(b=> b.onclick=()=>{ if(quiz.ans) return; quiz.ans=true; const j=+b.dataset.j; sh.querySelectorAll(".opt")[q.c].classList.add("right"); statQ(j===q.c); if(j===q.c){quiz.score++; $("#qFb").textContent="Correct!";} else {b.classList.add("wrong"); $("#qFb").textContent=`Not quite. The answer is: ${q.a[q.c]}`;} $("#qN").disabled=false; $("#qN").focus(); }); $("#qN").onclick=()=>{ quiz.i++; quiz.ans=false; renderQuiz(); }; });
+}
+
+/* Menu, edition, country */
+function openMenu(){
+  const signed = session && !session.preview;
+  openSheet(`<h2 id="shTitle">${settings.name?`Hi ${esc(settings.name)}!`:"Menu"}</h2><p class="sub">${signed?`Signed in as ${esc(session.email)}`:"Preview mode. Sign in to save words and settings."}</p>
+    <div class="menu">
+      <button id="mW"><span class="ic">${ico("star")}</span><div>My words<small>${words.size} saved</small></div></button>
+            <button id="mG"><span class="ic">${ico("trophy")}</span><div>Play and progress<small>${streakInfo().n}-day streak · puzzles · Sunday craft</small></div></button>
+      <button id="mI"><span class="ic">${ico("share")}</span><div>Invite another family<small>For grown-ups: share FFMPA with a friend</small></div></button>
+      <button id="mL"><span class="ic">${ico("book")}</span><div>Reading level<small>${LVL[settings.age][0]}, ages ${LVL[settings.age][1]}${settings.ageLock?" · locked":""}</small></div></button>
+      <button id="mC"><span class="ic">${ico("doc")}</span><div>Reading comfort<small>Text size and line spacing</small></div></button>
+      <button id="mT"><span class="ic">${ico("landmark")}</span><div>Classroom mode<small>For teachers: class code, weekly quiz, worksheet</small></div></button>
+      <button id="mP"><span class="ic">${ico("lock")}</span><div>Grown-ups<small>Topics, limits, sharing, sensitive news</small></div></button>
+      ${(()=>{const ps=planState(); if(!ps.paid) return `<button id="mM"><span class="ic">${ico("sparkle")}</span><div>Membership<small>Free during early access</small></div></button>`; return `<button id="mM"><span class="ic">${ico("sparkle")}</span><div>Membership<small>${ps.sub?(ps.early?"Early family, free for life":"Active"):ps.left>0?`Free trial, ${ps.left} day${ps.left===1?"":"s"} left`:"Trial ended"} · ${esc(ps.price)}</small></div></button>`;})()}
+      <a href="#safety"><span class="ic">${ico("shield")}</span><div>Content and safety standards<small>How every story is checked</small></div></a>
+      <a href="#privacy"><span class="ic">${ico("doc")}</span><div>Privacy, terms and contact<small>Founderfreedom Ventures LLP</small></div></a>
+      ${signed?`<button id="mO"><span class="ic">${ico("wave")}</span><div>Sign out</div></button>`:`<button id="mS"><span class="ic">${ico("mail")}</span><div>Sign in with email<small>No password needed</small></div></button>`}
+    </div>
+    <p style="color:var(--muted);font-size:12px;margin:16px 0 0">© 2026 Founderfreedom Ventures LLP · ffmpa.com · <a href="#admin">Admin console (staff prototype)</a></p>`,
+    ()=>{
+      $("#mW").onclick=openWords; $("#mP").onclick=openParent; $("#mM").onclick=openPlan; $("#mG").onclick=openPlay; $("#mI").onclick=()=>shareText("Invite another family","We use FFMPA for calm, checked daily news for kids aged 5 to 15, with word explainers, a weekly puzzle and a Sunday craft. Take a look:");
+      $("#mL").onclick=()=>{ if(settings.ageLock){ openParent(); return; } settings.age={x:"o",o:"n",n:"x"}[settings.age]||"o"; persist(); closeSheet(); renderAll(); };
+      const o=$("#mO"); if(o) o.onclick=signOut; const si=$("#mS"); if(si) si.onclick=()=>{ closeSheet(); startWelcome("email"); };
+      $("#sheet").querySelectorAll('a[href^="#"]').forEach(a=> a.addEventListener("click",()=>closeSheet()));
+    });
+}
+function openEdition(){
+  const c=COUNTRIES[settings.country];
+  openSheet(`<h2 id="shTitle">Today's editions</h2><p class="sub">${niceDate(EDITION_DATE)} ${EDITION_DATE.slice(0,4)} · ${c.name}</p>
+    <div class="list">
+      <div class="item"><b>Morning edition · ${fmtTime(ADMIN.amTime)} ${c.tz}</b><p>Now showing · ${stories().length} stories</p></div>
+      <div class="item"><b>Evening edition · ${fmtTime(ADMIN.pmTime)} ${c.tz}</b><p>Arrives later today with anything new since this morning.</p></div>
+    </div>
+    <p class="sub" style="margin-top:12px">FFMPA only shows news from the last ${Math.round(ADMIN.freshHours/24)} days, so nothing you read is stale. Short explainers about dates this week are labelled.</p>`);
+}
+function openCountry(){
+  openSheet(`<h2 id="shTitle">Where do you live?</h2><p class="sub">Your country is your local news. Everything else is world news.</p>
+    <div class="menu">${Object.entries(COUNTRIES).filter(([k])=>ADMIN.countries[k]).map(([k,c])=>`<button data-c="${k}" aria-pressed="${k===settings.country}"><span class="ic">${ico("pin")}</span><div>${c.name}<small>Editions at ${fmtTime(ADMIN.amTime)} and ${fmtTime(ADMIN.pmTime)} ${c.tz}</small></div></button>`).join("")}
+    <button disabled style="opacity:.55"><span class="ic">${ico("globe")}</span><div>More countries coming soon</div></button></div>`,
+    sh=> sh.querySelectorAll("[data-c]").forEach(b=> b.onclick=()=>{ settings.country=b.dataset.c; persist(); topic="all"; idx=0; closeSheet(); renderAll(); }));
+}
+
+/* Grown-ups */
+let pinBuf="";
+let pinNext=null;
+function openParent(){ if(!session||session.preview){ closeSheet(); startWelcome("email"); return; } pinNext=null; pinBuf=""; renderPin(""); }
+function askPin(cb){ if(!session||session.preview){ closeSheet(); startWelcome("email"); return; } pinNext=cb; pinBuf=""; renderPin(""); }
+function renderPin(msg){
+  openSheet(`<h2 id="shTitle">Grown-ups only</h2><p class="sub">Enter your 4-digit PIN.</p><div class="dots" aria-hidden="true">${[0,1,2,3].map(i=>`<i class="${i<pinBuf.length?"f":""}"></i>`).join("")}</div>
+    <div class="keypad">${[1,2,3,4,5,6,7,8,9,"",0,"⌫"].map(n=>n===""?"<span></span>":`<button class="press" data-n="${n}" aria-label="${n==="⌫"?"Delete":n}">${n}</button>`).join("")}</div><p class="msg" aria-live="polite">${msg||"Use the PIN you set when you signed up."}</p>`,
+    sh=> sh.querySelectorAll("[data-n]").forEach(b=> b.onclick=()=>{ const n=b.dataset.n; if(n==="⌫"){pinBuf=pinBuf.slice(0,-1); renderPin(""); return;} if(pinBuf.length>=4) return; pinBuf+=n; if(pinBuf.length===4){ if(pinBuf===settings.pin){ const nx=pinNext; pinNext=null; (nx||renderSettings)(); } else { pinBuf=""; renderPin("That PIN did not match. Please try again."); } } else renderPin(""); }));
+}
+function renderSettings(){
+  const t=settings;
+  openSheet(`<h2 id="shTitle">Parent settings</h2><p class="sub">Signed in as ${esc(session.email)}.</p>
+    <div class="set"><h3>Your child</h3><div class="toggles">
+      <label class="field" for="sName">First name or nickname<input type="text" id="sName" maxlength="20" value="${esc(t.name)}"></label>
+      <label class="field" for="sCountry">Country for local news<select id="sCountry">${Object.entries(COUNTRIES).map(([k,c])=>`<option value="${k}" ${k===t.country?"selected":""}>${c.name}</option>`).join("")}</select></label></div></div>
+    <div class="set"><h3>Reading level</h3><div class="toggles">
+      <label class="tg" for="sAgeX"><input type="radio" name="sAge" id="sAgeX" value="x" ${t.age==="x"?"checked":""}> Explorers, 5 to 9</label>
+      <label class="tg" for="sAgeO"><input type="radio" name="sAge" id="sAgeO" value="o" ${t.age==="o"?"checked":""}> Thinkers, 10 to 12</label>
+      <label class="tg" for="sAgeN"><input type="radio" name="sAge" id="sAgeN" value="n" ${t.age==="n"?"checked":""}> Navigators, 13 to 15</label>
+      <label class="tg" for="sLock"><input type="checkbox" id="sLock" ${t.ageLock?"checked":""}> Lock the reading level</label></div></div>
+    <div class="set"><h3>Topics</h3><div class="toggles">${Object.entries(CATS).map(([k,c])=>`<label class="tg" for="cat-${k}"><input type="checkbox" id="cat-${k}" data-cat="${k}" ${t.cats[k]!==false?"checked":""}> ${c.label}</label>`).join("")}</div></div>
+    <div class="set"><h3>Sensitive news</h3><p class="note">War and conflict stories never appear at the Explorers level. Navigators also get context, a question to argue about and the jobs behind each story.</p><div class="toggles">
+      <label class="tg" for="sConflict"><input type="checkbox" id="sConflict" ${t.conflict?"checked":""}> War and conflict</label>
+      <label class="tg" for="sPolitics"><input type="checkbox" id="sPolitics" ${t.politics?"checked":""}> Elections and politics</label></div></div>
+    <div class="set"><h3>Sharing and extras</h3><div class="toggles">
+      <label class="tg" for="sShare"><input type="checkbox" id="sShare" ${t.sharing?"checked":""}> Allow sharing story links</label>
+      <label class="tg" for="sAloud"><input type="checkbox" id="sAloud" ${t.readAloud?"checked":""}> Listen button</label>
+      <label class="tg" for="sType"><input type="checkbox" id="sType" ${t.typing!==false?"checked":""}> Show story text word by word</label>
+      <label class="tg" for="sRew"><input type="checkbox" id="sRew" ${t.rewards!==false?"checked":""}> Streaks and achievement pop-ups</label>
+      <label class="tg" for="sSrc"><input type="checkbox" id="sSrc" ${t.sources?"checked":""}> Show sources</label>
+      <label class="field" for="sLimit">Most stories per edition: <b id="sLimitV">${t.limit}</b><input type="range" id="sLimit" min="5" max="20" value="${t.limit}"></label></div></div>
+    <div class="set"><h3>Change PIN</h3><label class="field" for="sPin">New 4-digit PIN (blank keeps the current one)<input type="text" id="sPin" inputmode="numeric" maxlength="4"></label><p class="msg" id="sMsg" aria-live="polite"></p></div>
+    <div class="stick"><button class="btn ghost press" id="sCancel">Cancel</button><button class="btn sun press" id="sSave">Save</button></div>`,
+    ()=>{
+      $("#sCancel").onclick=closeSheet; $("#sLimit").oninput=e=>$("#sLimitV").textContent=e.target.value;
+      $("#sSave").onclick=()=>{
+        const pin=$("#sPin").value.trim(); if(pin&&!/^\d{4}$/.test(pin)){ $("#sMsg").textContent="The PIN needs exactly 4 digits."; return; }
+        Object.assign(settings,{name:$("#sName").value.trim(), country:$("#sCountry").value, age:document.querySelector('input[name="sAge"]:checked').value, ageLock:$("#sLock").checked,
+          conflict:$("#sConflict").checked, politics:$("#sPolitics").checked, sharing:$("#sShare").checked, readAloud:$("#sAloud").checked, typing:$("#sType").checked, rewards:$("#sRew").checked, sources:$("#sSrc").checked, limit:+$("#sLimit").value});
+        document.querySelectorAll("[data-cat]").forEach(c=> settings.cats[c.dataset.cat]=c.checked);
+        if(pin) settings.pin=pin; persist(); store.set("ffmpa-account-"+session.email.toLowerCase(), settings);
+        topic="all"; idx=0; closeSheet(); renderAll();
+      };
+    });
+}
+
+/* Dock and top bar */
+$("#dWords").onclick=openWords; $("#dListen").onclick=speak; $("#dMore").onclick=openMore; $("#dShare").onclick=openShare; $("#dQuiz").onclick=openPlay;
+$("#menuBtn").onclick=openMenu; $("#edPill").onclick=openEdition; $("#ctyPill").onclick=openCountry; $("#brand").onclick=()=>go(0);
+
+/* ================= Sign in with email only ================= */
+const DEMO_CODE="482913";
+let ob={step:"email",email:"",name:"",age:"o",country:"IN"};
+function startWelcome(step){ ob.step=step||"email"; renderWelcome(); $("#welcomeOv").classList.add("open"); setTimeout(()=>{ const f=$("#welcome input"); if(f) f.focus(); },30); }
+const bar=n=>`<div class="steps" aria-hidden="true">${[1,2,3,4].map(i=>`<i class="${i<=n?"on":""}"></i>`).join("")}</div>`;
+function renderWelcome(){
+  const w=$("#welcome"), top=`<div class="wsun" aria-hidden="true"><svg class="buddy" viewBox="0 0 48 48" aria-hidden="true" focusable="false"><path fill="url(#ffg)" d="M18 5h12a13 13 0 0 1 13 13v5a13 13 0 0 1-13 13H21l-8.5 7.5V35.2A13 13 0 0 1 5 23v-5A13 13 0 0 1 18 5z"/><g class="eyes"><ellipse cx="19" cy="19.5" rx="3.3" ry="4.1" fill="#fff"/><ellipse cx="29.5" cy="19.5" rx="3.3" ry="4.1" fill="#fff"/><g class="pup"><circle cx="19.9" cy="18.7" r="1.7" fill="#1B1340"/><circle cx="30.4" cy="18.7" r="1.7" fill="#1B1340"/></g></g><path class="smile" d="M19.6 27.4q4.9 4.3 9.8 0" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/><path class="spark" fill="#FFB020" stroke="#fff" stroke-width="1.2" stroke-linejoin="round" d="M42 1.8l1.5 3.7 3.7 1.5-3.7 1.5L42 12.2l-1.5-3.7-3.7-1.5 3.7-1.5z"/></svg></div>`;
+  const fine=`<p class="wfine">By continuing you agree to the <a href="#terms">Terms of use</a> and <a href="#privacy">Privacy policy</a> of Founderfreedom Ventures LLP.</p>`;
+  if(ob.step==="email"){
+    w.innerHTML=`${top}<h1 id="wcTitle">Real news, <em class="v">made for kids.</em></h1><p class="lede">Swipe through short, calm stories for ages 5 to 15. Two editions a day, only the last 3 days of news, every story checked by a real editor.</p><div class="trust"><span>${ico("shield")}Checked by editors</span><span>${ico("lock")}No links out</span><span>${ico("star")}No ads that follow kids</span></div>
+      <form class="wbox" id="wF" novalidate><h2>Grown-ups, start here</h2>
+        <label class="field" for="wE">Your email address<input type="email" id="wE" autocomplete="email" placeholder="you@example.com" value="${esc(ob.email)}"></label>
+        <p class="note">No password. We email you a 6-digit code each time you sign in.</p><p class="err" id="wErr" aria-live="polite"></p>
+        <button class="btn sun press" type="submit">Email me a code</button></form>
+      <button class="peek" id="wPeek">Just looking? Preview this morning's edition</button>${fine}`;
+    $("#wF").onsubmit=e=>{ e.preventDefault(); const em=$("#wE").value.trim(); if(!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(em)){ $("#wErr").textContent="Please enter a valid email address, like name@example.com."; return; } ob.email=em; ob.step="code"; renderWelcome(); $("#wC").focus(); };
+    $("#wPeek").onclick=()=>{ session={preview:true}; $("#welcomeOv").classList.remove("open"); renderAll(); };
+  }
+  if(ob.step==="code"){
+    w.innerHTML=`${top}<h1 id="wcTitle">Check your <em class="v">inbox.</em></h1><p class="lede">We sent a 6-digit code to <b>${esc(ob.email)}</b>. It expires in 10 minutes.</p>
+      <form class="wbox" id="wF" novalidate>${bar(1)}<label class="field" for="wC">Your code<input class="codein" id="wC" inputmode="numeric" autocomplete="one-time-code" maxlength="6" placeholder="······"></label>
+        <p class="note">Prototype: use code ${DEMO_CODE}.</p><p class="err" id="wErr" aria-live="polite"></p><button class="btn sun press" type="submit">Sign in</button>
+        <div class="row" style="justify-content:space-between"><button class="linkbtn" type="button" id="wB">Use a different email</button><button class="linkbtn" type="button" id="wR">Send a new code</button></div></form>${fine}`;
+    $("#wF").onsubmit=e=>{ e.preventDefault(); const c=$("#wC").value.replace(/\D/g,""); if(c.length!==6){ $("#wErr").textContent="The code has 6 digits."; return; } if(c!==DEMO_CODE){ $("#wErr").textContent="That code did not match. Check the latest email from FFMPA and try again."; return; }
+      const ex=store.get("ffmpa-account-"+ob.email.toLowerCase(),null); if(ex){ settings=Object.assign({},DEFAULT_SETTINGS,ex); finish(); return; } ob.step="child"; renderWelcome(); };
+    $("#wB").onclick=()=>{ ob.step="email"; renderWelcome(); }; $("#wR").onclick=()=>{ $("#wErr").textContent="A new code is on its way."; };
+  }
+  if(ob.step==="child"){
+    w.innerHTML=`${top}<h1 id="wcTitle">Who is <em class="v">reading?</em></h1><p class="lede">Just a first name or nickname. No photos, birthdays or school details.</p>
+      <form class="wbox" id="wF" novalidate>${bar(2)}<label class="field" for="wN">Child's first name or nickname (optional)<input type="text" id="wN" maxlength="20" value="${esc(ob.name)}" placeholder="e.g. Aanya"></label>
+        <div class="choice three" role="group" aria-label="Reading level"><button type="button" data-a="x" aria-pressed="${ob.age==="x"}"><b>Explorers</b><small>Ages 5 to 9</small></button><button type="button" data-a="o" aria-pressed="${ob.age==="o"}"><b>Thinkers</b><small>Ages 10 to 12</small></button><button type="button" data-a="n" aria-pressed="${ob.age==="n"}"><b>Navigators</b><small>Ages 13 to 15</small></button></div>
+        <button class="btn sun press" type="submit">Next</button></form>`;
+    w.querySelectorAll("[data-a]").forEach(b=> b.onclick=()=>{ ob.age=b.dataset.a; ob.name=$("#wN").value.trim(); renderWelcome(); });
+    $("#wF").onsubmit=e=>{ e.preventDefault(); ob.name=$("#wN").value.trim(); ob.step="country"; renderWelcome(); };
+  }
+  if(ob.step==="country"){
+    w.innerHTML=`${top}<h1 id="wcTitle">Where do you <em class="v">live?</em></h1><p class="lede">Your country becomes your local news. Everything else is world news.</p>
+      <form class="wbox" id="wF" novalidate>${bar(3)}<div class="choice" role="group" aria-label="Country">${Object.entries(COUNTRIES).filter(([k])=>ADMIN.countries[k]).map(([k,c])=>`<button type="button" data-c="${k}" aria-pressed="${ob.country===k}"><b>${c.name}</b><small>${fmtTime(ADMIN.amTime)} and ${fmtTime(ADMIN.pmTime)} ${c.tz}</small></button>`).join("")}</div>
+        <button class="btn sun press" type="submit">Next</button></form>`;
+    w.querySelectorAll("[data-c]").forEach(b=> b.onclick=()=>{ ob.country=b.dataset.c; renderWelcome(); });
+    $("#wF").onsubmit=e=>{ e.preventDefault(); ob.step="pin"; renderWelcome(); };
+  }
+  if(ob.step==="pin"){
+    w.innerHTML=`${top}<h1 id="wcTitle">Set a grown-ups <em class="v">PIN.</em></h1><p class="lede">Your PIN protects topics, reading level, sharing and limits.</p>
+      <form class="wbox" id="wF" novalidate>${bar(4)}<label class="field" for="wP">Choose a 4-digit PIN<input class="codein" id="wP" inputmode="numeric" maxlength="4" placeholder="····"></label>
+        ${ADMIN.plan.mode==="paid"?`<p class="note"><b>${ADMIN.plan.trialDays} days free</b>, then ${priceText(ob.country)}. No card needed to start.</p>`:""}
+        <p class="note">By finishing, you confirm you are this child's parent or guardian and agree to let them use FFMPA under your account.</p><p class="err" id="wErr" aria-live="polite"></p>
+        <button class="btn sun press" type="submit">Start reading</button></form>`;
+    $("#wF").onsubmit=e=>{ e.preventDefault(); const p=$("#wP").value.trim(); if(!/^\d{4}$/.test(p)){ $("#wErr").textContent="Please choose exactly 4 digits."; return; } settings=Object.assign({},DEFAULT_SETTINGS,{name:ob.name,age:ob.age,country:ob.country,pin:p,created:Date.now(),early:ADMIN.plan.mode!=="paid"}); finish(); };
+  }
+}
+function finish(){ session={email:ob.email}; store.set("ffmpa-session",session); store.set("ffmpa-settings",settings); store.set("ffmpa-account-"+ob.email.toLowerCase(),settings); $("#welcomeOv").classList.remove("open"); topic="all"; idx=0; renderAll(); }
+function signOut(){ if(session&&session.email) store.set("ffmpa-account-"+session.email.toLowerCase(),settings); store.del("ffmpa-session"); session=null; ob={step:"email",email:"",name:"",age:"o",country:"IN"}; closeSheet(); startWelcome("email"); }
+
+function openPlan(){
+  const ps=planState();
+  if(!ps.paid){ openSheet(`<h2 id="shTitle">Free during <em class="v">early access</em></h2><p class="sub">FFMPA is free while we grow. Families who join now will be thanked as early supporters.</p><div class="box think"><h4>What's included</h4><p>Two editions a day, local and world news, word explainers, quizzes and full grown-up controls.</p></div>`); return; }
+  const gate = ps.gateway==="razorpay" ? "Razorpay (UPI, cards, netbanking)" : "Stripe (cards, Apple Pay, Google Pay)";
+  openSheet(`<h2 id="shTitle">FFMPA <em class="v">Family</em></h2><p class="sub">${ps.sub?(ps.early?"You joined early, so FFMPA stays free for your family.":"Your membership is active."):ps.left>0?`Your free trial has ${ps.left} day${ps.left===1?"":"s"} left.`:"Your free trial has ended."}</p>
+    <div class="box think"><h4>${esc(ps.price)}</h4><p>One plan for every child on your account. Calm, checked news twice a day, no links out, no personal ads.</p></div>
+    ${ps.sub?"":`<p class="sub" style="margin-top:14px">Grown-ups only. You'll need your PIN.</p><button class="btn sun press" id="plBuy" style="width:100%;margin-top:6px">Continue to payment</button><p class="sub" style="margin-top:8px;font-size:13px">Secure payment by ${gate}. Connected at launch.</p>`}`);
+  const b=document.getElementById("plBuy"); if(b) b.onclick=()=>{ askPin(()=>{ openSheet(`<h2 id="shTitle">Payment comes <em class="v">at launch</em></h2><p class="sub">In this prototype no money is taken. When the gateway is connected, this button opens ${gate} checkout.</p>`); }); };
+}
+const BUDDY = '<svg class="buddy" viewBox="0 0 48 48" aria-hidden="true" focusable="false"><path fill="url(#ffg)" d="M18 5h12a13 13 0 0 1 13 13v5a13 13 0 0 1-13 13H21l-8.5 7.5V35.2A13 13 0 0 1 5 23v-5A13 13 0 0 1 18 5z"/><g class="eyes"><ellipse cx="19" cy="19.5" rx="3.3" ry="4.1" fill="#fff"/><ellipse cx="29.5" cy="19.5" rx="3.3" ry="4.1" fill="#fff"/><g class="pup"><circle cx="19.9" cy="18.7" r="1.7" fill="#1B1340"/><circle cx="30.4" cy="18.7" r="1.7" fill="#1B1340"/></g></g><path class="smile" d="M19.6 27.4q4.9 4.3 9.8 0" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/><path class="spark" fill="#FFB020" stroke="#fff" stroke-width="1.2" stroke-linejoin="round" d="M42 1.8l1.5 3.7 3.7 1.5-3.7 1.5L42 12.2l-1.5-3.7-3.7-1.5 3.7-1.5z"/></svg>';
+/*EXTRAS*/
+/*LEGAL*/
+
+/* ================= Admin console (#admin) ================= */
+let admSection="dashboard";
+const ADM_SECTIONS=[["dashboard","Dashboard"],["stories","Stories"],["editions","Editions"],["safety","Language and safety"],["ads","Ads and sponsors"],["plans","Plans and pricing"],["extras","Puzzles and crafts"],["pipeline","Daily pipeline"]];
+function openAdmin(){ $("#adminView").classList.add("open"); renderAdmin(); }
+function closeAdmin(){ $("#adminView").classList.remove("open"); }
+function admStories(){ return S.map(s=>({s, st:statusOf(s), held:heldByFilter(s)})); }
+function renderAdmin(){
+  const v=$("#adminView");
+  v.innerHTML=`<div class="adm-top"><b>FFMPA Admin</b><span style="font-size:14px;opacity:.85">Founderfreedom Ventures LLP · prototype, changes apply to this browser only</span><a href="#" id="admExit">Back to the app ›</a></div>
+    <div class="adm"><nav class="adm-nav" aria-label="Admin sections">${ADM_SECTIONS.map(([k,l])=>`<button data-s="${k}" ${k===admSection?'aria-current="page"':""}>${l}</button>`).join("")}</nav><div class="adm-main" id="admMain"></div></div>`;
+  v.querySelectorAll("[data-s]").forEach(b=> b.onclick=()=>{ admSection=b.dataset.s; renderAdmin(); });
+  $("#admExit").onclick=e=>{ e.preventDefault(); history.replaceState(null,"",location.pathname+location.search); closeAdmin(); renderAll(); };
+  const m=$("#admMain"); const rows=admStories();
+  const count=st=>rows.filter(r=>r.st===st).length;
+  if(admSection==="dashboard"){
+    m.innerHTML=`<h1>Dashboard</h1><p class="sub">${niceDate(EDITION_DATE)} ${EDITION_DATE.slice(0,4)} · Morning edition</p>
+      <div class="kpis"><div class="kpi"><b>${count("published")}</b><span>Published stories</span></div><div class="kpi"><b>${count("draft")}</b><span>Waiting for review</span></div><div class="kpi"><b>${count("held")}</b><span>Held by language filter</span></div><div class="kpi"><b>${count("stale")}</b><span>Expired (older than ${ADMIN.freshHours} h)</span></div><div class="kpi"><b>${Object.values(ADMIN.countries).filter(Boolean).length}</b><span>Live countries</span></div><div class="kpi"><b>${ADMIN.sponsors.filter(a=>a.status==="approved").length}</b><span>Approved sponsor cards</span></div></div>
+      <div class="panel"><h2>Stories per country edition</h2><div class="tablewrap"><table class="adm-table"><thead><tr><th>Country</th><th>Local</th><th>World</th><th>Edition times</th><th>Status</th></tr></thead><tbody>
+      ${Object.entries(COUNTRIES).map(([k,c])=>{ const loc=rows.filter(r=>r.s.scope===k&&r.st==="published").length, wor=rows.filter(r=>r.s.scope==="global"&&r.st==="published").length; return `<tr><td>${c.name}</td><td>${loc}</td><td>${wor}</td><td>${fmtTime(ADMIN.amTime)} and ${fmtTime(ADMIN.pmTime)} ${c.tz}</td><td>${ADMIN.countries[k]?'<span class="status st-published">Live</span>':'<span class="status st-rejected">Off</span>'}</td></tr>`; }).join("")}</tbody></table></div>
+      <p class="sub" style="margin:10px 0 0">Target is 12 to 20 stories per edition. This sample edition is smaller because it was built by hand for the prototype.</p></div>
+      <div class="panel"><h2>Next runs</h2><p style="margin:0">Evening pipeline drafts at 6:15 PM, editor review window 6:15 to 6:55 PM, publish at ${fmtTime(ADMIN.pmTime)} local time in each country.</p></div>`;
+  }
+  if(admSection==="stories"){
+    m.innerHTML=`<h1>Stories</h1><p class="sub">Every story needs editor approval. Expired and filtered stories can never be published.</p>
+      <div class="panel"><div class="tablewrap"><table class="adm-table"><thead><tr><th>Story (Thinkers headline)</th><th>Edition</th><th>Date</th><th>Sources</th><th>Status</th><th>Action</th></tr></thead><tbody>
+      ${rows.map(r=>`<tr><td>${r.s.o.t}${r.held?`<br><small style="color:#4B21A6">Filter matched: "${esc(r.held)}"</small>`:""}</td><td>${r.s.scope==="global"?"World":COUNTRIES[r.s.scope].short}</td><td>${r.s.date}${r.s.kind==="calendar"?"<br><small>Explainer</small>":""}</td><td>${r.s.src.length}</td>
+        <td><span class="status st-${r.st}">${({published:"Published",draft:"In review",rejected:"Rejected",held:"Held by filter",stale:"Expired"})[r.st]}</span></td>
+        <td>${(r.st==="held"||r.st==="stale")?"<small>Not publishable</small>":`<select data-id="${r.s.id}" aria-label="Set status for ${esc(r.s.o.t)}"><option value="published" ${r.st==="published"?"selected":""}>Publish</option><option value="draft" ${r.st==="draft"?"selected":""}>Back to review</option><option value="rejected" ${r.st==="rejected"?"selected":""}>Reject</option></select>`}</td></tr>`).join("")}
+      </tbody></table></div></div>
+      <div class="panel"><h2>Story record (what each daily run writes to Supabase)</h2><div class="code">${esc(JSON.stringify({id:"g-sky", edition_date:"2026-11-11", edition_slot:"am", scope:"global", category:"space", published_at_source:"2026-11-10", kind:"news",
+        explorers:{title:"Look up! Shooting stars and planets this week", body:["..."]}, thinkers:{title:"Skywatch week: ...", body:["..."]},
+        image:{url:"https://images.ffmpa.com/2026/11/g-sky.jpg", credit:"NASA/JPL-Caltech", license:"Public domain (NASA media policy)"},
+        sources:[{name:"Space.com", url:"https://..."}], glossary_terms:["meteor-shower","fireball"], quiz:{q:"...", a:["..."], correct:0},
+        status:"in_review", filter_result:"clear"},null,2))}</div></div>`;
+    m.querySelectorAll("select[data-id]").forEach(sel=> sel.onchange=()=>{ ADMIN.storyStatus[sel.dataset.id]=sel.value; saveAdmin(); renderAdmin(); });
+  }
+  if(admSection==="editions"){
+    m.innerHTML=`<h1>Editions</h1><p class="sub">Times are local to each country.</p>
+      <div class="panel"><h2>Schedule and freshness</h2><div class="toggles">
+        <label class="field" for="aAm">Morning edition time<input type="text" id="aAm" value="${ADMIN.amTime}" pattern="\\d{2}:\\d{2}"></label>
+        <label class="field" for="aPm">Evening edition time<input type="text" id="aPm" value="${ADMIN.pmTime}" pattern="\\d{2}:\\d{2}"></label>
+        <label class="field" for="aFresh">Freshness window: <b id="aFreshV">${ADMIN.freshHours} hours</b><input type="range" id="aFresh" min="24" max="96" step="12" value="${ADMIN.freshHours}"></label>
+        <label class="field" for="aMax">Most stories per edition: <b id="aMaxV">${ADMIN.maxStories}</b><input type="range" id="aMax" min="8" max="25" value="${ADMIN.maxStories}"></label></div></div>
+      <div class="panel"><h2>Countries</h2><div class="toggles">${Object.entries(COUNTRIES).map(([k,c])=>`<label class="tg" for="ac-${k}"><input type="checkbox" id="ac-${k}" data-cty="${k}" ${ADMIN.countries[k]?"checked":""}> ${c.name}</label>`).join("")}</div><p class="sub" style="margin:10px 0 0">Adding a country means adding its news sources, time zone and a local editor to the pipeline.</p></div>
+      <div class="row"><button class="btn sun press" id="aSave">Save editions</button><span class="msg" id="aMsg" aria-live="polite"></span></div>`;
+    $("#aFresh").oninput=e=>$("#aFreshV").textContent=e.target.value+" hours"; $("#aMax").oninput=e=>$("#aMaxV").textContent=e.target.value;
+    $("#aSave").onclick=()=>{ const re=/^([01]\d|2[0-3]):[0-5]\d$/; if(!re.test($("#aAm").value)||!re.test($("#aPm").value)){ $("#aMsg").textContent="Use 24-hour times like 06:00 and 19:00."; return; }
+      ADMIN.amTime=$("#aAm").value; ADMIN.pmTime=$("#aPm").value; ADMIN.freshHours=+$("#aFresh").value; ADMIN.maxStories=+$("#aMax").value; m.querySelectorAll("[data-cty]").forEach(c=> ADMIN.countries[c.dataset.cty]=c.checked); saveAdmin(); $("#aMsg").textContent="Saved. The app now uses these settings."; };
+  }
+  if(admSection==="safety"){
+    m.innerHTML=`<h1>Language and safety</h1><p class="sub">Any story containing a blocked word is held automatically and cannot be published until an editor rewrites it. Try adding the word smog and check the India edition.</p>
+      <div class="panel"><h2>Blocked words and phrases</h2><div class="tagin" id="bw">${ADMIN.blockedWords.map((w,i)=>`<span>${esc(w)}<button data-del="${i}" aria-label="Remove ${esc(w)}">✕</button></span>`).join("")}</div>
+        <div class="row" style="margin-top:12px"><label class="field" for="bwIn" style="flex:1">Add a word<input type="text" id="bwIn" placeholder="e.g. scary"></label><button class="btn press" id="bwAdd" style="align-self:flex-end">Add</button></div>
+        <p class="sub" style="margin:10px 0 0">The production list holds several hundred terms, including profanity and slurs in English and common transliterations, and is kept in Supabase so the pipeline and the app share one list.</p></div>
+      <div class="panel"><h2>Rules every draft is checked against</h2><ul style="margin:0;padding-left:20px"><li>No graphic detail of violence, injury, crime or death</li><li>No fear words or sensational headlines</li><li>No naming of victims, suspects or children</li><li>Explorers: no war or conflict stories</li><li>Politics: neutral wording, same tone for every side</li><li>Every fact in at least two reputable sources</li></ul><p style="margin:10px 0 0"><a href="#safety">Read the public content and safety standards</a></p></div>`;
+    m.querySelectorAll("[data-del]").forEach(b=> b.onclick=()=>{ ADMIN.blockedWords.splice(+b.dataset.del,1); saveAdmin(); renderAdmin(); });
+    $("#bwAdd").onclick=()=>{ const w=$("#bwIn").value.trim().toLowerCase(); if(!w||ADMIN.blockedWords.includes(w)) return; ADMIN.blockedWords.push(w); saveAdmin(); renderAdmin(); };
+  }
+  if(admSection==="ads"){
+    const a=ADMIN.ads;
+    m.innerHTML=`<h1>Ads and sponsors</h1><p class="sub">Contextual only: the same message for every child in a country, never based on who the child is or what they read. Targeted advertising to children is prohibited under India's DPDP Act.</p>
+      <div class="panel"><h2>Placement</h2><div class="toggles">
+        <label class="tg" for="adOn"><input type="checkbox" id="adOn" ${a.enabled?"checked":""}> Show sponsor cards</label>
+        <label class="tg" for="adX"><input type="checkbox" id="adX" ${a.explorers?"checked":""}> Also show to Explorers (5 to 9)</label>
+        <label class="field" for="adEvery">Stories between sponsor cards: <b id="adEveryV">${a.every}</b><input type="range" id="adEvery" min="3" max="10" value="${a.every}"></label>
+        <label class="field" for="adMax">Most cards per edition: <b id="adMaxV">${a.maxPerEdition}</b><input type="range" id="adMax" min="0" max="4" value="${a.maxPerEdition}"></label></div></div>
+      <div class="panel"><h2>Ad sources</h2><div class="toggles">
+        <label class="tg" for="srcD"><input type="checkbox" id="srcD" ${a.sources.direct?"checked":""}> Direct sponsors (approved below)</label>
+        <label class="tg" for="srcS"><input type="checkbox" id="srcS" ${a.sources.superawesome?"checked":""}> Kid-safe network (e.g. SuperAwesome)</label>
+        <label class="tg" for="srcG"><input type="checkbox" id="srcG" ${a.sources.adsense?"checked":""}> Google AdSense, child-directed</label></div>
+        <p class="sub" style="margin:10px 0 0">Google's child-directed tag turns off interest-based ads and remarketing, but it does not by itself make the creative child-appropriate, so Google stays off by default and needs category blocking and review before use. The Android app must also follow Google Play's Families policy.</p>
+        ${a.sources.adsense?`<div class="code">&lt;ins class="adsbygoogle"
+  data-ad-client="ca-pub-XXXXXXXXXXXX"
+  data-ad-slot="XXXXXXXXXX"
+  data-tag-for-child-directed-treatment="1"&gt;&lt;/ins&gt;</div>`:""}</div>
+      <div class="panel"><h2>Blocked ad categories</h2><div class="tagin">${a.blocked.map(b=>`<span>${esc(b)}</span>`).join("")}</div></div>
+      <div class="panel"><h2>Sponsor cards</h2><div class="tablewrap"><table class="adm-table"><thead><tr><th>Sponsor message</th><th>Countries</th><th>Status</th><th>Action</th></tr></thead><tbody>
+        ${ADMIN.sponsors.map(s=>`<tr><td><b>${esc(s.headline)}</b><br><small>${esc(s.name)}</small>${s.note?`<br><small style="color:#9B2C1F">${esc(s.note)}</small>`:""}</td><td>${s.countries.join(", ")}</td><td><span class="status st-${s.status==="approved"?"published":s.status==="rejected"?"rejected":"draft"}">${s.status}</span></td>
+          <td><select data-sp="${s.id}" aria-label="Status for ${esc(s.headline)}"><option value="approved" ${s.status==="approved"?"selected":""}>Approve</option><option value="pending" ${s.status==="pending"?"selected":""}>Pending</option><option value="rejected" ${s.status==="rejected"?"selected":""}>Reject</option></select></td></tr>`).join("")}</tbody></table></div></div>
+      <div class="row"><button class="btn sun press" id="adSave">Save ad settings</button><span class="msg" id="adMsg" aria-live="polite"></span></div>`;
+    $("#adEvery").oninput=e=>$("#adEveryV").textContent=e.target.value; $("#adMax").oninput=e=>$("#adMaxV").textContent=e.target.value;
+    $("#srcG").onchange=()=>{ a.sources.adsense=$("#srcG").checked; renderAdmin(); };
+    m.querySelectorAll("[data-sp]").forEach(sel=> sel.onchange=()=>{ const s=ADMIN.sponsors.find(x=>x.id===sel.dataset.sp); s.status=sel.value; });
+    $("#adSave").onclick=()=>{ Object.assign(a,{enabled:$("#adOn").checked, explorers:$("#adX").checked, every:+$("#adEvery").value, maxPerEdition:+$("#adMax").value}); Object.assign(a.sources,{direct:$("#srcD").checked, superawesome:$("#srcS").checked, adsense:$("#srcG").checked}); saveAdmin(); $("#adMsg").textContent="Saved. Swipe the app to see sponsor cards."; };
+  }
+  if(admSection==="plans"){
+    const p=ADMIN.plan;
+    m.innerHTML=`<h1>Plans and pricing</h1><p class="sub">FFMPA stays free until you switch this on. Families who join while it is free can be kept free for life as early supporters.</p>
+      <div class="panel"><h2>Mode</h2><div class="toggles">
+        <label class="tg" for="plFree"><input type="radio" name="plMode" id="plFree" value="free" ${p.mode==="free"?"checked":""}> Free for everyone (now)</label>
+        <label class="tg" for="plPaid"><input type="radio" name="plMode" id="plPaid" value="paid" ${p.mode==="paid"?"checked":""}> Paid, with a free trial</label>
+        <label class="tg" for="plEarly"><input type="checkbox" id="plEarly" ${p.keepFreeForEarly?"checked":""}> Keep families who joined during the free period free for life</label></div></div>
+      <div class="panel"><h2>Prices (per family, per year)</h2><div class="toggles">
+        <label class="field" for="plIN">India (₹)<input type="number" id="plIN" min="0" value="${p.priceIN}"></label>
+        <label class="field" for="plIntl">All other countries (US$)<input type="number" id="plIntl" min="0" step="0.5" value="${p.priceIntl}"></label>
+        <label class="field" for="plTrial">Free trial (days)<input type="number" id="plTrial" min="0" max="60" value="${p.trialDays}"></label></div>
+        <p class="sub" style="margin:10px 0 0">One plan covers every child on the parent's account.</p></div>
+      <div class="panel"><h2>Payment gateways</h2><div class="tablewrap"><table class="adm-table"><thead><tr><th>Region</th><th>Gateway</th><th>Status</th></tr></thead><tbody>
+        <tr><td>India (UPI, cards, netbanking)</td><td><select id="plGIN"><option value="razorpay" ${p.gatewayIN==="razorpay"?"selected":""}>Razorpay</option><option value="stripe" ${p.gatewayIN==="stripe"?"selected":""}>Stripe</option></select></td><td><span class="status st-draft">Keys added at launch</span></td></tr>
+        <tr><td>All other countries</td><td><select id="plGX"><option value="stripe" ${p.gatewayIntl==="stripe"?"selected":""}>Stripe</option><option value="razorpay" ${p.gatewayIntl==="razorpay"?"selected":""}>Razorpay</option></select></td><td><span class="status st-draft">Keys added at launch</span></td></tr></tbody></table></div>
+        <p class="sub" style="margin:10px 0 0">Payments are taken from the grown-up only, inside the PIN-protected area. Children never see a payment screen. In the Android app, Google Play's billing rules may apply.</p></div>
+      <div class="panel"><h2>What families see when paid</h2><p style="margin:0">India: <b>${priceText("IN")}</b> after ${p.trialDays} free days. Elsewhere: <b>${priceText("US")}</b>. When a trial ends, the child sees a friendly card asking them to fetch a grown-up.</p></div>
+      <div class="row"><button class="btn sun press" id="plSave">Save pricing</button><span class="msg" id="plMsg" aria-live="polite"></span></div>`;
+    $("#plSave").onclick=()=>{ p.mode=document.querySelector('input[name="plMode"]:checked').value; p.keepFreeForEarly=$("#plEarly").checked; p.priceIN=+$("#plIN").value||0; p.priceIntl=+$("#plIntl").value||0; p.trialDays=+$("#plTrial").value||0; p.gatewayIN=$("#plGIN").value; p.gatewayIntl=$("#plGX").value; saveAdmin(); $("#plMsg").textContent = p.mode==="paid" ? "Saved. Paid mode is on in this browser." : "Saved. FFMPA is free for everyone."; };
+  }
+  if(admSection==="extras"){
+    const wk=mondayOf(TODAY()), pz=PUZZLES[wk];
+    m.innerHTML=`<h1>Puzzles, crafts and today</h1><p class="sub">The daily pipeline drafts these; editors approve them like stories.</p>
+      <div class="panel"><h2>Today card · ${niceDate(TODAY())}</h2>${(()=>{const t=ONTHISDAY[TODAY()]; return t?`<p style="margin:0 0 6px"><b>Born today:</b> ${t.born.map(b=>esc(b.name)+" ("+b.year+")").join(", ")}</p><p style="margin:0"><b>Days:</b> ${t.days.map(d=>esc(d.name)+(d.where?" ["+d.where.join(", ")+"]":"")).join(" · ")}</p>`:"<p>No entries for today yet.</p>";})()}</div>
+      ${findsAdminHTML()}<div class="panel"><h2>Learn one thing · this week</h2><div class="tablewrap"><table class="adm-table"><thead><tr><th>Day</th><th>Subject</th><th>Concept</th></tr></thead><tbody>${LEARN_WEEK.map(r=>`<tr><td>${r[0]}</td><td>${r[1]}</td><td>${esc(r[2])}</td></tr>`).join("")}</tbody></table></div><p class="sub" style="margin:10px 0 0">One concept a day, rotating history, geography and science, linked to a story in the edition where possible.</p></div>
+      <div class="panel"><h2>This week's puzzles · from ${shortDate(wk)}</h2>${pz?`<p style="margin:0 0 6px"><b>Mini sudoku:</b> 9×9 for Navigators, 6×6 for Thinkers, 4×4 for Explorers (single solution checked).</p><p style="margin:0"><b>News words:</b> ${pz.words.o.map(w=>w[0]).join(", ")} · Explorers: ${pz.words.x.map(w=>w[0]).join(", ")}</p>`:"<p>None scheduled.</p>"}</div>
+      <div class="panel"><h2>Sunday crafts · year one (${CRAFTS.length})</h2><div class="tablewrap"><table class="adm-table"><thead><tr><th>#</th><th>Sunday</th><th>Craft</th><th>Theme</th><th>Grown-up</th></tr></thead><tbody>${CRAFTS.map((c,i)=>`<tr><td>${i+1}</td><td>${shortDate(addDays(CRAFT_START,7*i))}</td><td>${esc(c.t)}</td><td>${esc(c.th)}</td><td>${c.g?"Yes":""}</td></tr>`).join("")}</tbody></table></div></div>`;
+  }
+  if(admSection==="pipeline"){
+    m.innerHTML=`<h1>Daily pipeline</h1><p class="sub">Scheduled Claude sessions research and draft each edition, then push drafts to Supabase for editor review.</p>
+      <div class="panel"><h2>Each run, twice a day per country</h2><ol style="margin:0;padding-left:20px;line-height:1.7">
+        <li>Collect: search trusted sources for news first reported in the last ${ADMIN.freshHours} hours, for the country and the world.</li>
+        <li>Select: pick 12 to 20 stories by importance, variety and child relevance; drop blocked topics.</li>
+        <li>Verify: confirm each fact in two sources; record source links and dates.</li>
+        <li>Write: Explorers and Thinkers versions, the Navigators deeper layer (context, question, jobs), glossary terms, a Think about it question and a quiz question.</li>
+        <li>Image: attach only a free-to-use photo (public domain, Creative Commons, or an official press or government library) and record its credit and licence. If none exists, the story runs with its colour band and no photo.</li>
+        <li>Screen: run the blocked word list and safety rules; flag anything borderline.</li>
+        <li>Push: insert rows into Supabase with status in_review.</li>
+        <li>Review: an editor approves in this console; approved stories publish at the edition time.</li></ol></div>
+      <div class="panel"><h2>Run log (sample)</h2><div class="tablewrap"><table class="adm-table"><thead><tr><th>Run</th><th>Drafted</th><th>Held</th><th>Approved</th><th>Result</th></tr></thead><tbody>
+        ${Object.entries(COUNTRIES).filter(([k])=>ADMIN.countries[k]).map(([k,c])=>{ const r=rows.filter(x=>x.s.scope===k||x.s.scope==="global"); return `<tr><td>11 Nov · Morning · ${c.short}</td><td>${r.length}</td><td>${r.filter(x=>x.st==="held").length}</td><td>${r.filter(x=>x.st==="published").length}</td><td><span class="status st-published">Published 6:00 AM ${c.tz}</span></td></tr>`; }).join("")}
+        <tr><td>11 Nov · Evening · all</td><td>Scheduled</td><td>·</td><td>·</td><td><span class="status st-draft">Runs 6:15 PM local</span></td></tr></tbody></table></div></div>`;
+  }
+}
+
+/* ================= Routing ================= */
+function route(){
+  const k=location.hash.replace("#","");
+  if(k==="admin"){ openAdmin(); return; }
+  if($("#adminView").classList.contains("open")&&k!=="admin"&&!LEGAL[k]) closeAdmin();
+  if(LEGAL[k]) renderLegal(k); else if($("#legalOv").classList.contains("open")) $("#legalOv").classList.remove("open");
+}
+window.addEventListener("hashchange", route);
+
+/* ================= Boot ================= */
+renderAll();
+if(location.hash!=="#admin" && (!session||session.preview)){ session=null; startWelcome("email"); }
+route();
+</script>
+</body>
+</html>

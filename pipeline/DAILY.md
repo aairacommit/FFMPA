@@ -1,0 +1,33 @@
+# Daily edition: what the scheduled task does
+
+You are drafting tomorrow morning's FFMPA edition for children aged 5 to 15. A person approves it by merging your pull request. Your job is to make that approval a thirty-second read: the edition must already be right.
+
+Read `pipeline/EDITORIAL.md` and `pipeline/SCHEMA.md` first, and open the newest file in `editions/` as your template.
+
+## Steps
+1. **Date.** Work out today's date in India (Asia/Kolkata). The edition `date` is that day. Call it D. If `editions/D-am.json` already exists on `main` or in an open pull request, stop: the edition is done.
+2. **Branch.** `git checkout -b edition/D-am` from an up to date `main`.
+3. **Find the news.** Search the web for what happened in the last 72 hours. Cover India (national news a child would care about, science, sport, culture, environment) and the world (science, space, nature, technology, business, sport, culture, world affairs). Collect about 25 candidates, then keep 12 to 15. Prefer stories that explain something, show people solving a problem, or connect to a child's life. Skip crime, celebrity gossip and anything you cannot source twice.
+4. **Verify.** For each kept story open at least two reputable sources and read them. Every number, date, name and quote in your text must be in those sources. Record the publisher, date and URL for `src`.
+5. **Write** each story at the Explorers and Thinkers levels, with glossary links, a think question, a quiz question, the Navigators `deep` layer, and a key number where there is a clear one. Follow the rules and word counts in EDITORIAL.md.
+6. **Extras for the day.**
+   - `today`: one to three verified days to know or birthdays for this date (use `where:["IN"]` for India-only items).
+   - `learn`: one history, geography or science idea, tied to a story in this edition where possible.
+   - `backThen`: one verified event on this calendar date in an earlier year, with why it still matters.
+   - `hiddenWords`: one or two glossary words used in this edition, with a verified word origin.
+   - `sketches` and `sketchFor`: at most one new sketch, only if a story has a concept a simple, correct drawing makes clearer. Existing sketches `smog`, `meteor`, `orbit`, `greenhouse` can be attached with `sketchFor` when they truly fit.
+   - `bigStory`: on Monday choose the week's Big Story and plan five parts. Tuesday to Friday copy the previous edition's `bigStory` and replace today's locked part with real text (`o` and `x`) based on what actually happened.
+   - On Monday also add `puzzles` (grids from `python3 pipeline/make_sudoku.py <Monday date>`, plus five news words with clues at each level) and `reporters` (one Young reporters assignment, `sample` empty).
+   - Tuesday to Sunday: copy `puzzles`, `reporters` and `bigStory` forward from the previous edition so they are never missing.
+7. **Check.** Save as `editions/D-am.json`. Run `python3 pipeline/validate.py editions/D-am.json` and fix until there are no errors. Read every warning and fix it or be ready to explain it.
+8. **Second read.** Read the finished edition once more as a sceptical editor and as a worried parent. For each story ask: is every fact in the sources, is anything frightening, is it fair to all sides, would a seven-year-old understand the Explorers text? Fix or drop anything that fails. Dropping a story is better than keeping a doubtful one, as long as at least 10 remain.
+9. **Publish for approval.** Copy the file to `editions/latest.json`. Commit both files with the message `Edition D morning`. Push the branch and open a pull request to `main` titled `Edition D morning: N stories`. The body must contain, in this order:
+   - A two-line summary of the edition.
+   - "Needs your eye": any judgement call, sensitive story or unexplained warning. Write "Nothing" if there is none.
+   - A table of headline (Thinkers), topic, scope and the two source links.
+   - The last line of the validator output.
+10. **Stop.** Do not merge the pull request. Do not push to `main`. Do not change anything outside `editions/`.
+
+## If something goes wrong
+- Fewer than 10 stories pass verification: open the pull request anyway with what you have only if there are at least 10; otherwise open an issue titled `Edition D: could not complete` explaining why, and stop.
+- The push is refused: say so in your final message so the notification reaches the owner.

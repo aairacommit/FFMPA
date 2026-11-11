@@ -1,0 +1,37 @@
+{
+ "name": "FFMPA Kids News",
+ "short_name": "FFMPA",
+ "description": "Real news made for kids aged 5 to 15. Short, calm stories at three reading levels, twice a day, checked by human editors. No links out, no tracking. Free to start.",
+ "start_url": "/app/",
+ "scope": "/",
+ "display": "standalone",
+ "orientation": "portrait",
+ "background_color": "#FFFFFF",
+ "theme_color": "#5B35E8",
+ "lang": "en",
+ "categories": [
+  "education",
+  "news",
+  "kids"
+ ],
+ "icons": [
+  {
+   "src": "/assets/icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "/assets/icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "/assets/icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "maskable"
+  }
+ ]
+}

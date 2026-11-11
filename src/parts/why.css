@@ -1,0 +1,44 @@
+/* Why news matters */
+#why{position:relative;overflow:hidden;border-top:1px solid var(--line);padding-bottom:0}
+.why-head{display:grid;grid-template-columns:1.05fr .95fr;gap:40px;align-items:center}
+.why-head h2{font-size:clamp(38px,5.4vw,66px);line-height:1;letter-spacing:-.045em;margin:0 0 20px}
+.why-head h2 em{position:relative;white-space:nowrap}
+.why-head h2 em svg{position:absolute;left:0;right:0;bottom:-14px;width:100%;height:18px;overflow:visible}
+.why-head h2 em svg path{stroke-dasharray:420;stroke-dashoffset:420;transition:stroke-dashoffset 1.6s .3s cubic-bezier(.6,0,.2,1)}
+.why-head.in h2 em svg path{stroke-dashoffset:0}
+.why-head .lede{max-width:520px}
+.orbit{width:100%;max-width:500px;justify-self:center;overflow:visible}
+.orbit .ring{fill:none;stroke:#E4E2EC;stroke-width:1.2;stroke-dasharray:3 7}
+.orbit .spin{transform-box:view-box;transform-origin:260px 260px;animation:orb linear infinite}
+.orbit .s1{animation-duration:26s}.orbit .s2{animation-duration:44s;animation-direction:reverse}.orbit .s3{animation-duration:70s}
+@keyframes orb{to{transform:rotate(360deg)}}
+.orbit .lab rect{fill:#fff;stroke:#ECECF0}
+.orbit .lab text{font:600 13px var(--body);fill:var(--ink);letter-spacing:-.01em}
+.orbit .lab text tspan{font:italic 400 15px var(--voice);fill:var(--brand)}
+.orbit .halo{fill:url(#halo)}
+.gifts{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:70px}
+.gift{position:relative;border-radius:30px;padding:28px 26px 26px;min-height:250px;overflow:hidden;isolation:isolate}
+.gift .num{font:italic 400 44px/1 var(--voice);color:rgba(14,13,18,.32);margin:0 0 54px;display:block}
+.gift h3{font-family:var(--display);font-weight:700;font-size:22px;letter-spacing:-.03em;line-height:1.12;margin:0 0 8px}
+.gift p{margin:0;color:#3A3942;font-size:15.5px;line-height:1.5}
+.gift .doodle{position:absolute;right:18px;top:18px;width:96px;height:96px;z-index:-1;animation:bob 6s ease-in-out infinite}
+.gift:nth-child(2n) .doodle{animation-delay:-2s}.gift:nth-child(3n) .doodle{animation-delay:-4s}
+@keyframes bob{0%,100%{transform:translateY(0) rotate(0)}50%{transform:translateY(-8px) rotate(4deg)}}
+.gift .doodle *{fill:none;stroke:var(--ink);stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+.gift .big{font:700 64px/1 var(--display);letter-spacing:-.05em;color:var(--ink);position:absolute;right:24px;top:22px}
+.gift .big small{display:block;font:italic 400 18px var(--voice);letter-spacing:0;text-align:right;color:#3A3942}
+.gift .cite{display:block;margin-top:10px;font-size:12.5px;color:#6B6A74}
+.g1{background:#FFEDC2}.g2{background:#E2E7FF}.g3{background:#FFE2DA}.g4{background:#D9F2E4}.g5{background:#EDE5FF}.g6{background:#DDEFFF}
+.manifesto{position:relative;margin:90px 0 0;padding:110px 20px 120px;text-align:center;background:var(--ink);color:#fff;overflow:hidden}
+.manifesto p.l1{font:700 clamp(34px,6vw,76px)/1 var(--display);letter-spacing:-.05em;margin:0}
+.manifesto p.l2{font:italic 400 clamp(40px,7vw,92px)/1.05 var(--voice);margin:6px 0 22px;background:linear-gradient(90deg,#B9A6FF,#FF9A7E 55%,#FFC955);-webkit-background-clip:text;background-clip:text;color:transparent}
+.manifesto p.l3{max-width:560px;margin:0 auto;color:#BDBBC8;font-size:17px}
+.manifesto .sh{position:absolute;opacity:.9;animation:drift 14s ease-in-out infinite}
+.manifesto .sh:nth-of-type(2){animation-duration:18s;animation-delay:-5s}.manifesto .sh:nth-of-type(3){animation-duration:16s;animation-delay:-9s}.manifesto .sh:nth-of-type(4){animation-duration:20s;animation-delay:-3s}
+@keyframes drift{0%,100%{transform:translate(0,0) rotate(0)}50%{transform:translate(14px,-18px) rotate(25deg)}}
+.js .rv{opacity:0;transform:translateY(26px);transition:opacity .8s cubic-bezier(.2,.8,.2,1),transform .8s cubic-bezier(.2,.8,.2,1)}
+.js .rv.in{opacity:1;transform:none}
+.gifts .rv:nth-child(2){transition-delay:.08s}.gifts .rv:nth-child(3){transition-delay:.16s}.gifts .rv:nth-child(5){transition-delay:.08s}.gifts .rv:nth-child(6){transition-delay:.16s}
+@media (max-width:900px){.why-head{grid-template-columns:1fr}.gifts{grid-template-columns:1fr 1fr}.orbit{max-width:380px}}
+@media (max-width:600px){.gifts{grid-template-columns:1fr}.gift{min-height:0}.gift .num{margin-bottom:34px}.why-head h2 em{white-space:normal}}
+@media (prefers-reduced-motion:reduce){.orbit .spin,.gift .doodle,.manifesto .sh{animation:none}.js .rv{opacity:1;transform:none;transition:none}}

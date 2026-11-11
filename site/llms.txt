@@ -1,0 +1,29 @@
+# FFMPA
+
+> FFMPA (ffmpa.com) is a news app for children aged 5 to 15, made by Founderfreedom Ventures LLP in Bengaluru, India. It publishes short, calm, real news stories twice a day, written at three reading levels and approved by a human editor.
+
+## Key facts
+- Audience: children aged 5 to 15, with parents in control.
+- Reading levels: Explorers (ages 5 to 9), Thinkers (10 to 12), Navigators (13 to 15).
+- Editions: a morning and an evening edition in local time. Only news from the last 3 days is shown.
+- Countries at launch: India, United States, United Kingdom, Australia, South Korea, Germany, France. Each child sees local news for their country plus world news.
+- Language: English.
+- Format: one story per screen, swipe for the next. Tap any highlighted word for an explainer. The edition ends; there is no endless feed.
+- Learning features: hand-drawn sketch explainers, one history, geography or science idea a day, a Big Story followed through the week, a daily quiz, weekly puzzles and a Sunday craft.
+- Wellbeing: a feelings check after every story. War and conflict stories never appear at the youngest level.
+- Safety: nothing in the app links to other websites. No chat, comments or strangers. No ads based on the child and no sale of data.
+- Parents: sign in with an email and a one-time code. A 4-digit PIN protects reading level, topics, sensitive news, limits and sharing.
+- Schools: Classroom mode gives teachers a class code, a weekly quiz for the big screen and a printable worksheet. No pupil names are collected.
+- Young reporters: children can write a short report each week. A grown-up's PIN is needed to send it and an editor reads it before it appears.
+- Price: free during early access. Planned price: 100 rupees a year in India and 10 US dollars a year elsewhere.
+- Platforms: web app in any browser, installable on iPhone and iPad from Safari. Android app planned for Google Play.
+- Status: preview. The app currently shows a sample edition.
+
+## Pages
+- [Home](https://ffmpa.com/): what FFMPA is and why news matters for children
+- [Open the app](https://ffmpa.com/app/)
+- [For schools](https://ffmpa.com/schools/): Classroom mode for teachers
+- [Content and safety standards](https://ffmpa.com/safety/): how stories are written and checked
+- [Privacy policy](https://ffmpa.com/privacy/)
+- [Terms of use](https://ffmpa.com/terms/)
+- [Contact](https://ffmpa.com/contact/)

@@ -1,0 +1,5 @@
+ffmpa-site.zip
+__pycache__/
+*.png
+!src/assets/*.png
+.DS_Store

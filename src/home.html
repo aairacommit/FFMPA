@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="color-scheme" content="light only">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="FFMPA: real news made for kids aged 5 to 15. Two short editions a day, only the last 3 days of news, checked by real editors.">
+<title>FFMPA Home</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&family=Geist:wght@400;500;600;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<style>
+/* Layout idea: a sunrise. Dark navy hero with the app on a phone, then light sections that explain editions, safety and parent controls. */
+:root{--ink:#0E0D12;--sky:#F4F4F6;--paper:#fff;--muted:#6B6A74;--line:#ECECF0;--sun:#FFB020;--local:#FF5A3C;--world:#1A7A4B;--focus:#5B35E8;--brand:#5B35E8;--brand-soft:#F3F0FF;
+  --display:"Geist",ui-sans-serif,system-ui,sans-serif;--body:"Geist",ui-sans-serif,system-ui,sans-serif;--voice:"Instrument Serif",ui-serif,Georgia,serif;color-scheme:light}
+*{box-sizing:border-box}html,body{margin:0}
+body{font-family:var(--body);color:var(--ink);background:var(--paper);line-height:1.55;font-size:17px;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+a:focus-visible,button:focus-visible{outline:3px solid var(--focus);outline-offset:3px}
+.wrap{max-width:1140px;margin:0 auto;padding:0 20px}
+nav.top{display:flex;justify-content:space-between;align-items:center;padding:18px 0;gap:14px;flex-wrap:wrap}
+.logo{display:flex;align-items:center;gap:10px;font-family:var(--display);font-weight:800;font-size:26px;letter-spacing:-.04em;color:var(--ink);text-decoration:none}
+.logo i{width:24px;height:24px;border-radius:50%;background:conic-gradient(from 200deg,#7B5CFF,#5B35E8,#FF7A59,#FFB020,#7B5CFF);box-shadow:0 4px 12px -4px rgba(91,53,232,.55)}
+.navlinks{display:flex;gap:18px;align-items:center;flex-wrap:wrap}
+.navlinks a{color:var(--muted);text-decoration:none;font-size:15px;font-weight:500}
+.btn{display:inline-flex;align-items:center;gap:8px;border-radius:999px;padding:13px 22px;font-weight:600;text-decoration:none;border:0;font-size:16px}
+.btn.sun{background:var(--ink);color:#fff;box-shadow:0 12px 26px -14px rgba(14,13,18,.6)}
+.btn.line{background:#fff;border:1px solid var(--line);color:var(--ink)}
+.btn.dark{background:var(--ink);color:#fff}
+.dark h2 em,.intro em{font-family:var(--voice);font-style:italic;font-weight:400;color:#B9A6FF}
+h2 em{font-family:var(--voice);font-style:italic;font-weight:400;color:var(--brand);letter-spacing:0}
+.hero{background:#fff;color:var(--ink);overflow:hidden}
+.hero .grid{display:grid;grid-template-columns:1.15fr .85fr;gap:40px;align-items:center;padding:40px 0 70px}
+.hero h1{font-family:var(--display);font-weight:800;font-size:clamp(42px,6.4vw,78px);line-height:.96;letter-spacing:-.05em;margin:0 0 18px;text-wrap:balance}
+.hero h1 em{font-family:var(--voice);font-style:italic;font-weight:400;color:var(--brand);letter-spacing:-.01em}
+.hero p.lede{font-size:19px;color:var(--muted);max-width:52ch;margin:0 0 26px}
+.ctas{display:flex;gap:12px;flex-wrap:wrap}
+.small{font-size:14px;color:var(--muted);margin-top:14px}
+/* phone */
+.phone{justify-self:center;width:300px;height:600px;border-radius:44px;background:var(--ink);padding:10px;box-shadow:0 50px 100px -40px rgba(30,20,80,.45),inset 0 0 0 2px rgba(255,255,255,.08);position:relative}
+.screen{height:100%;border-radius:34px;background:#fff;overflow:hidden;display:flex;flex-direction:column;color:var(--ink)}
+.s-top{background:#fff;color:var(--ink);padding:14px 14px 10px;display:flex;justify-content:space-between;align-items:center;font-family:var(--display);font-weight:800}
+.s-top span{display:flex;gap:7px;align-items:center}
+.s-top span i{width:15px;height:15px;border-radius:50%;background:conic-gradient(from 200deg,#7B5CFF,#5B35E8,#FF7A59,#FFB020,#7B5CFF)}
+.s-pill{font-family:var(--body);font-weight:600;font-size:11px;background:#fff;border:1px solid var(--line);border-radius:999px;padding:3px 8px}
+.s-card{margin:10px;flex:1;background:#fff;border-radius:22px;box-shadow:0 -6px 24px -16px rgba(40,20,90,.4);overflow:hidden;display:flex;flex-direction:column}
+.s-img{height:150px;background:var(--brand-soft);display:grid;place-items:center;position:relative;color:#3F22B5}
+.s-tag{position:absolute;left:8px;top:8px;font-size:10px;font-weight:600;color:var(--ink);background:#fff;border-radius:999px;padding:3px 8px}
+.s-body{padding:12px 14px;font-size:13px}
+.s-body b{display:block;font-family:var(--display);font-weight:800;letter-spacing:-.03em;font-size:17px;line-height:1.12;margin-bottom:6px}
+.s-body u{text-decoration:none;font-weight:600;background:linear-gradient(transparent 62%,#EDE5FF 62%)}
+.s-dock{display:flex;justify-content:space-around;padding:10px 6px 16px;background:#fff;border-top:1px solid var(--line);color:var(--muted)}
+.float{position:absolute;background:#fff;color:var(--ink);border-radius:16px;padding:10px 12px;font-size:13px;box-shadow:0 14px 34px rgba(0,0,0,.3);max-width:200px}
+.float b{font-family:var(--display);display:block}
+.f1{left:-150px;top:118px}.f2{right:-110px;bottom:120px}
+@media (prefers-reduced-motion:no-preference){.phone{animation:lift 1.2s cubic-bezier(.2,.8,.2,1) both}@keyframes lift{from{transform:translateY(40px);opacity:0}to{transform:none;opacity:1}}}
+section{padding:72px 0}
+.eyebrow{font-weight:600;color:var(--brand);font-size:12px;letter-spacing:.12em;text-transform:uppercase;margin:0 0 10px}
+h2{font-family:var(--display);font-weight:800;font-size:clamp(30px,4vw,48px);letter-spacing:-.045em;line-height:1.05;margin:0 0 14px;text-wrap:balance}
+.intro{color:var(--muted);max-width:60ch;margin:0 0 34px;font-size:18px}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.step{background:#fff;border:1px solid var(--line);border-radius:26px;padding:26px;box-shadow:0 1px 2px rgba(14,13,18,.03),0 20px 40px -32px rgba(30,20,80,.25)}
+.step .n{font-family:var(--display);font-weight:700;font-size:15px;background:var(--ink);color:#fff;width:34px;height:34px;border-radius:50%;display:grid;place-items:center;margin-bottom:14px}
+.step h3{font-family:var(--display);font-size:22px;margin:0 0 6px;letter-spacing:-.01em}
+.step p{margin:0;color:var(--muted)}
+.clock{display:flex;gap:12px;margin-top:22px;flex-wrap:wrap}
+.clock div{border:1px solid var(--line);border-radius:16px;padding:14px 18px;min-width:220px}
+.clock b{font-family:var(--display);font-size:20px;display:block}
+.clock span{color:var(--muted);font-size:15px}
+.levels{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.level{border-radius:26px;padding:26px}
+.level h3{font-family:var(--display);font-size:26px;margin:0 0 4px}
+.level .age{font-weight:700;color:var(--muted);margin:0 0 14px}
+.level blockquote{margin:0;background:var(--brand-soft);border-radius:16px;padding:14px 16px;font-size:16px}
+.dark{background:var(--ink);color:#fff}
+.dark h2 em,.intro em{font-family:var(--voice);font-style:italic;font-weight:400;color:#B9A6FF}
+h2 em{font-family:var(--voice);font-style:italic;font-weight:400;color:var(--brand);letter-spacing:0}
+.dark .intro{color:#C9D3E6}
+.dark .eyebrow{color:var(--sun)}
+.safety{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px}
+.safety div{background:rgba(255,255,255,.06);border:0;border-radius:22px;padding:22px}
+.safety h3{font-family:var(--display);font-size:19px;margin:0 0 6px}
+.safety p{margin:0;color:#C9D3E6;font-size:16px}
+.parents{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+.parents ul{list-style:none;padding:0;margin:0;display:grid;gap:12px}
+.parents li{display:flex;gap:12px;align-items:flex-start;border-bottom:1px solid var(--line);padding-bottom:12px}
+.parents li b{font-family:var(--display)}
+.parents li span.k{flex:none;width:28px;height:28px;border-radius:999px;background:var(--brand-soft);display:grid;place-items:center;font-weight:700;color:var(--brand)}
+.panelmock{background:#fff;border:1px solid var(--line);border-radius:26px;padding:22px;box-shadow:0 30px 60px -40px rgba(30,20,80,.3)}
+.tgl{display:flex;justify-content:space-between;align-items:center;background:#fff;border:0;border-radius:14px;padding:11px 14px;margin-bottom:8px;font-size:15px}
+.sw{width:42px;height:24px;border-radius:999px;background:var(--brand);position:relative}
+.sw::after{content:"";position:absolute;right:3px;top:3px;width:18px;height:18px;border-radius:50%;background:#fff}
+.sw.off{background:#C7D1E2}.sw.off::after{right:auto;left:3px}
+.get{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.get div{border-radius:26px;padding:24px}
+.get h3{font-family:var(--display);font-size:20px;margin:0 0 6px}
+.get p{margin:0 0 14px;color:var(--muted)}
+.countries{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+.countries span{background:#fff;border-radius:999px;padding:9px 15px;font-weight:600}
+.countries span.soon{color:var(--muted);font-weight:400}
+details{border-bottom:1px solid var(--line);padding:16px 0}
+summary{font-family:var(--display);font-weight:700;font-size:19px;cursor:pointer}
+details p{color:var(--muted);margin:10px 0 0;max-width:70ch}
+footer{background:var(--ink);color:#C9D3E6;padding:40px 0;font-size:15px}
+footer .cols{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
+footer nav{display:flex;gap:18px;flex-wrap:wrap}
+footer a{color:#fff}
+footer p{margin:14px 0 0;color:#8E9DB8;font-size:14px;max-width:70ch}
+@media (max-width:900px){
+  .hero .grid,.parents{grid-template-columns:1fr}
+  .phone{margin-top:10px}.f1,.f2{display:none}
+  .steps,.get{grid-template-columns:1fr}
+  .levels{grid-template-columns:1fr}
+}
+@media (max-width:640px){nav.top{flex-wrap:nowrap}.navlinks a:not(.btn){display:none}.navlinks .btn{padding:10px 16px;font-size:14px}}
+/* FFMPA buddy logo */
+.buddy{width:32px;height:32px;flex:none;overflow:visible;display:block}
+.buddy .eyes{transform-box:view-box;transform-origin:24px 19.5px;animation:ffblink 5.5s infinite}
+.buddy .pup{animation:fflook 7s ease-in-out infinite}
+.buddy .spark{transform-box:view-box;transform-origin:42px 7px;animation:fftwinkle 2.6s ease-in-out infinite}
+.buddy .smile{transform-box:view-box;transform-origin:24.5px 28px}
+@keyframes ffblink{0%,93%,100%{transform:scaleY(1)}96%{transform:scaleY(.08)}}
+@keyframes fflook{0%,35%,100%{transform:translate(0,0)}45%,60%{transform:translate(-1.7px,.5px)}70%,85%{transform:translate(1.2px,.8px)}}
+@keyframes fftwinkle{0%,100%{transform:scale(1) rotate(0)}50%{transform:scale(.55) rotate(60deg)}}
+@keyframes ffhop{0%,100%{transform:translateY(0) rotate(0)}35%{transform:translateY(-5px) rotate(-8deg)}70%{transform:translateY(0) rotate(4deg)}}
+.wm{font-family:"Fredoka",var(--display);font-weight:700;letter-spacing:-.01em;line-height:1;display:inline-flex}
+.wm b{display:inline-block;font-weight:700;animation:ffpop .7s cubic-bezier(.3,1.7,.5,1) both}
+.wm b:nth-child(1){color:#5B35E8;animation-delay:.05s}
+.wm b:nth-child(2){color:#FF5A3C;animation-delay:.12s}
+.wm b:nth-child(3){color:#F59A00;animation-delay:.19s}
+.wm b:nth-child(4){color:#10B27A;animation-delay:.26s}
+.wm b:nth-child(5){color:#2F7BFF;animation-delay:.33s}
+@keyframes ffpop{from{transform:translateY(60%) scale(.4);opacity:0}to{transform:none;opacity:1}}
+@keyframes ffwig{0%,100%{transform:translateY(0)}50%{transform:translateY(-18%) rotate(-6deg)}}
+.lg:hover .buddy,.lg:focus-visible .buddy{animation:ffhop .7s cubic-bezier(.3,1.4,.5,1)}
+.lg:hover .wm b,.lg:focus-visible .wm b{animation:ffwig .5s ease-in-out}
+.lg:hover .wm b:nth-child(2){animation-delay:.05s}.lg:hover .wm b:nth-child(3){animation-delay:.1s}.lg:hover .wm b:nth-child(4){animation-delay:.15s}.lg:hover .wm b:nth-child(5){animation-delay:.2s}
+@media (prefers-reduced-motion:reduce){.buddy *,.buddy,.wm b{animation:none!important}}
+/* Why news matters */
+#why{position:relative;overflow:hidden;border-top:1px solid var(--line);padding-bottom:0}
+.why-head{display:grid;grid-template-columns:1.05fr .95fr;gap:40px;align-items:center}
+.why-head h2{font-size:clamp(38px,5.4vw,66px);line-height:1;letter-spacing:-.045em;margin:0 0 20px}
+.why-head h2 em{position:relative;white-space:nowrap}
+.why-head h2 em svg{position:absolute;left:0;right:0;bottom:-14px;width:100%;height:18px;overflow:visible}
+.why-head h2 em svg path{stroke-dasharray:420;stroke-dashoffset:420;transition:stroke-dashoffset 1.6s .3s cubic-bezier(.6,0,.2,1)}
+.why-head.in h2 em svg path{stroke-dashoffset:0}
+.why-head .lede{max-width:520px}
+.orbit{width:100%;max-width:500px;justify-self:center;overflow:visible}
+.orbit .ring{fill:none;stroke:#E4E2EC;stroke-width:1.2;stroke-dasharray:3 7}
+.orbit .spin{transform-box:view-box;transform-origin:260px 260px;animation:orb linear infinite}
+.orbit .s1{animation-duration:26s}.orbit .s2{animation-duration:44s;animation-direction:reverse}.orbit .s3{animation-duration:70s}
+@keyframes orb{to{transform:rotate(360deg)}}
+.orbit .lab rect{fill:#fff;stroke:#ECECF0}
+.orbit .lab text{font:600 13px var(--body);fill:var(--ink);letter-spacing:-.01em}
+.orbit .lab text tspan{font:italic 400 15px var(--voice);fill:var(--brand)}
+.orbit .halo{fill:url(#halo)}
+.gifts{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:70px}
+.gift{position:relative;border-radius:30px;padding:28px 26px 26px;min-height:250px;overflow:hidden;isolation:isolate}
+.gift .num{font:italic 400 44px/1 var(--voice);color:rgba(14,13,18,.32);margin:0 0 54px;display:block}
+.gift h3{font-family:var(--display);font-weight:700;font-size:22px;letter-spacing:-.03em;line-height:1.12;margin:0 0 8px}
+.gift p{margin:0;color:#3A3942;font-size:15.5px;line-height:1.5}
+.gift .doodle{position:absolute;right:18px;top:18px;width:96px;height:96px;z-index:-1;animation:bob 6s ease-in-out infinite}
+.gift:nth-child(2n) .doodle{animation-delay:-2s}.gift:nth-child(3n) .doodle{animation-delay:-4s}
+@keyframes bob{0%,100%{transform:translateY(0) rotate(0)}50%{transform:translateY(-8px) rotate(4deg)}}
+.gift .doodle *{fill:none;stroke:var(--ink);stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+.gift .big{font:700 64px/1 var(--display);letter-spacing:-.05em;color:var(--ink);position:absolute;right:24px;top:22px}
+.gift .big small{display:block;font:italic 400 18px var(--voice);letter-spacing:0;text-align:right;color:#3A3942}
+.gift .cite{display:block;margin-top:10px;font-size:12.5px;color:#6B6A74}
+.g1{background:#FFEDC2}.g2{background:#E2E7FF}.g3{background:#FFE2DA}.g4{background:#D9F2E4}.g5{background:#EDE5FF}.g6{background:#DDEFFF}
+.manifesto{position:relative;margin:90px 0 0;padding:110px 20px 120px;text-align:center;background:var(--ink);color:#fff;overflow:hidden}
+.manifesto p.l1{font:700 clamp(34px,6vw,76px)/1 var(--display);letter-spacing:-.05em;margin:0}
+.manifesto p.l2{font:italic 400 clamp(40px,7vw,92px)/1.05 var(--voice);margin:6px 0 22px;background:linear-gradient(90deg,#B9A6FF,#FF9A7E 55%,#FFC955);-webkit-background-clip:text;background-clip:text;color:transparent}
+.manifesto p.l3{max-width:560px;margin:0 auto;color:#BDBBC8;font-size:17px}
+.manifesto .sh{position:absolute;opacity:.9;animation:drift 14s ease-in-out infinite}
+.manifesto .sh:nth-of-type(2){animation-duration:18s;animation-delay:-5s}.manifesto .sh:nth-of-type(3){animation-duration:16s;animation-delay:-9s}.manifesto .sh:nth-of-type(4){animation-duration:20s;animation-delay:-3s}
+@keyframes drift{0%,100%{transform:translate(0,0) rotate(0)}50%{transform:translate(14px,-18px) rotate(25deg)}}
+.js .rv{opacity:0;transform:translateY(26px);transition:opacity .8s cubic-bezier(.2,.8,.2,1),transform .8s cubic-bezier(.2,.8,.2,1)}
+.js .rv.in{opacity:1;transform:none}
+.gifts .rv:nth-child(2){transition-delay:.08s}.gifts .rv:nth-child(3){transition-delay:.16s}.gifts .rv:nth-child(5){transition-delay:.08s}.gifts .rv:nth-child(6){transition-delay:.16s}
+@media (max-width:900px){.why-head{grid-template-columns:1fr}.gifts{grid-template-columns:1fr 1fr}.orbit{max-width:380px}}
+@media (max-width:600px){.gifts{grid-template-columns:1fr}.gift{min-height:0}.gift .num{margin-bottom:34px}.why-head h2 em{white-space:normal}}
+@media (prefers-reduced-motion:reduce){.orbit .spin,.gift .doodle,.manifesto .sh{animation:none}.js .rv{opacity:1;transform:none;transition:none}}
+.logo{font-size:28px}.logo .buddy{width:36px;height:36px}
+.s-top .buddy{width:22px;height:22px}.s-top .wm{font-size:18px}.s-top span{gap:6px}
+footer .logo .buddy{width:30px;height:30px}footer .logo .wm b{color:#fff!important}
+.orbit .ob .eyes,.orbit .ob .spark{transform-box:fill-box;transform-origin:center}
+.s-top .wm{gap:0}
+#why .lede{color:var(--muted);font-size:18px;margin-top:30px;line-height:1.6}
+
+/* ===== what's inside + schools ===== */
+.skfeat{display:grid;grid-template-columns:1.05fr 1fr;gap:44px;align-items:center;margin:8px 0 34px}
+.skfeat h3{font-family:var(--display);font-size:30px;letter-spacing:-.03em;line-height:1.1;margin:0 0 12px}
+.skfeat p{color:var(--muted);font-size:17px;margin:0 0 16px}
+.sknote{position:relative;border:1px solid var(--line);border-radius:30px;padding:18px 18px 44px;background-color:#FFFEFA;background-image:radial-gradient(#E4E2D8 1px,transparent 1.2px);background-size:18px 18px;box-shadow:0 30px 60px -40px rgba(30,20,80,.35);transform:rotate(-1.2deg)}
+.skboard{display:block;width:100%;height:auto}
+.skboard text{font-family:var(--voice);font-style:italic;font-size:16px}
+.skcapn{position:absolute;left:22px;bottom:16px;font-size:13px;font-weight:600;color:#6B6A75}
+.skink{stroke-dasharray:1;stroke-dashoffset:1}.sktx{opacity:0}
+.rv.in .skink{animation:skdraw .55s ease-out forwards}.rv.in .sktx{animation:sktx .4s ease-out forwards}
+@keyframes skdraw{to{stroke-dashoffset:0}}@keyframes sktx{to{opacity:1}}
+html:not(.js) .skink{stroke-dashoffset:0}html:not(.js) .sktx{opacity:1}
+.ticks{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.ticks li{position:relative;padding-left:26px;font-size:15.5px;color:var(--ink)}
+.ticks li::before{content:"";position:absolute;left:2px;top:.42em;width:12px;height:7px;border-left:2.2px solid var(--brand);border-bottom:2.2px solid var(--brand);transform:rotate(-45deg)}
+.mgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.mcard{border:1px solid var(--line);border-radius:26px;padding:24px;background:#fff;position:relative;overflow:hidden}
+.mcard::before{content:"";position:absolute;left:0;right:0;top:0;height:5px;background:var(--mc)}
+.mtag{display:inline-block;font-size:11.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--mc,var(--dc));margin-bottom:10px}
+.mcard h3,.duoc h3{font-family:var(--display);font-size:21px;letter-spacing:-.02em;line-height:1.15;margin:0 0 8px}
+.mcard p{margin:0;color:var(--muted);font-size:15.5px}
+.mgrid .rv:nth-child(3n+2){transition-delay:.08s}.mgrid .rv:nth-child(3n){transition-delay:.16s}
+.duo{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:30px}
+.duoc{border-radius:30px;padding:30px;background:var(--db)}
+.duoc h3{font-size:26px}.duoc p{color:#3A3942;font-size:16.5px;margin:0 0 16px}
+.duoc .ticks li::before{border-color:var(--dc)}
+@media (max-width:900px){.skfeat{grid-template-columns:1fr;gap:24px}.mgrid{grid-template-columns:1fr 1fr}.duo{grid-template-columns:1fr}.levels{grid-template-columns:1fr!important}}
+@media (max-width:600px){.mgrid{grid-template-columns:1fr}.skfeat h3{font-size:25px}.duoc{padding:22px}}
+@media (prefers-reduced-motion:reduce){.skink{stroke-dashoffset:0;animation:none!important}.sktx{opacity:1;animation:none!important}}
+/* typed text stays dark */
+input,textarea,select{color:#0E0D12!important;-webkit-text-fill-color:#0E0D12!important;caret-color:#0E0D12;color-scheme:light only;background-color:#fff}
+input::placeholder,textarea::placeholder{color:#8A8995!important;-webkit-text-fill-color:#8A8995!important;opacity:1}
+input:-webkit-autofill,textarea:-webkit-autofill,select:-webkit-autofill{-webkit-text-fill-color:#0E0D12!important;box-shadow:0 0 0 1000px #fff inset!important;caret-color:#0E0D12}
+select option{color:#0E0D12;background:#fff}
+html{color-scheme:light only}
+</style>
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs><linearGradient id="ffg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8E6CFF"/><stop offset=".55" stop-color="#5B35E8"/><stop offset="1" stop-color="#FF6A4D"/></linearGradient></defs></svg>
+<header class="hero">
+  <div class="wrap">
+    <nav class="top" aria-label="Main">
+      <a class="logo lg" href="#top" aria-label="FFMPA home"><svg class="buddy" viewBox="0 0 48 48" aria-hidden="true" focusable="false"><path fill="url(#ffg)" d="M18 5h12a13 13 0 0 1 13 13v5a13 13 0 0 1-13 13H21l-8.5 7.5V35.2A13 13 0 0 1 5 23v-5A13 13 0 0 1 18 5z"/><g class="eyes"><ellipse cx="19" cy="19.5" rx="3.3" ry="4.1" fill="#fff"/><ellipse cx="29.5" cy="19.5" rx="3.3" ry="4.1" fill="#fff"/><g class="pup"><circle cx="19.9" cy="18.7" r="1.7" fill="#1B1340"/><circle cx="30.4" cy="18.7" r="1.7" fill="#1B1340"/></g></g><path class="smile" d="M19.6 27.4q4.9 4.3 9.8 0" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/><path class="spark" fill="#FFB020" stroke="#fff" stroke-width="1.2" stroke-linejoin="round" d="M42 1.8l1.5 3.7 3.7 1.5-3.7 1.5L42 12.2l-1.5-3.7-3.7-1.5 3.7-1.5z"/></svg><span class="wm" aria-hidden="true"><b>f</b><b>f</b><b>m</b><b>p</b><b>a</b></span></a>
+      <div class="navlinks"><a href="#why">Why news</a><a href="#how">How it works</a><a href="#more">What's inside</a><a href="#schools">Schools</a><a href="#safe">Safety</a><a href="#parents">For parents</a><a href="#faq">FAQ</a>
+        <a class="btn sun" href="https://claude.ai/artifact/LZmmeGKXJ2qpBUN4LCK6Z7">Open the app</a></div>
+    </nav>
+    <div class="grid" id="top">
+      <div>
+        <h1>Real news, <em>made for kids.</em></h1>
+        <p class="lede">Short, calm stories for curious minds aged 5 to 15. Swipe through this morning's news from your country and the world, tap any word to learn what it means, and grow up knowing how the world works.</p>
+        <div class="ctas"><a class="btn sun" href="https://claude.ai/artifact/LZmmeGKXJ2qpBUN4LCK6Z7">Open the web app</a><a class="btn line" href="#get">Android and iPhone</a></div>
+        <p class="small">Free · No ads that follow your child · Sign in with just a grown-up's email</p>
+      </div>
+      <div class="phone" aria-label="The FFMPA app showing a story about the Moon">
+        <div class="screen">
+          <div class="s-top"><span><svg class="buddy" viewBox="0 0 48 48" aria-hidden="true" focusable="false"><path fill="url(#ffg)" d="M18 5h12a13 13 0 0 1 13 13v5a13 13 0 0 1-13 13H21l-8.5 7.5V35.2A13 13 0 0 1 5 23v-5A13 13 0 0 1 18 5z"/><g class="eyes"><ellipse cx="19" cy="19.5" rx="3.3" ry="4.1" fill="#fff"/><ellipse cx="29.5" cy="19.5" rx="3.3" ry="4.1" fill="#fff"/><g class="pup"><circle cx="19.9" cy="18.7" r="1.7" fill="#1B1340"/><circle cx="30.4" cy="18.7" r="1.7" fill="#1B1340"/></g></g><path class="smile" d="M19.6 27.4q4.9 4.3 9.8 0" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/><path class="spark" fill="#FFB020" stroke="#fff" stroke-width="1.2" stroke-linejoin="round" d="M42 1.8l1.5 3.7 3.7 1.5-3.7 1.5L42 12.2l-1.5-3.7-3.7-1.5 3.7-1.5z"/></svg><span class="wm" aria-hidden="true"><b>f</b><b>f</b><b>m</b><b>p</b><b>a</b></span></span><span class="s-pill">Morning</span></div>
+          <div class="s-card">
+            <div class="s-img"><svg viewBox="0 0 24 24" width="64" height="64" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="M12 15l-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"/><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"/></svg><span class="s-tag">World · New today</span></div>
+            <div class="s-body"><b>Why everyone wants to visit the Moon's south pole</b>Countries are racing to explore the <u>south pole of the Moon</u>. Why there? Deep, dark craters may hold frozen <u>water</u>. Astronauts could one day drink it, or turn it into air and rocket fuel.</div>
+          </div>
+          <div class="s-dock" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2.8l2.85 5.78 6.38.93-4.62 4.5 1.09 6.35L12 17.36l-5.7 3 1.09-6.35-4.62-4.5 6.38-.93z"/></svg><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 14h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a9 9 0 0 1 18 0v7a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3"/></svg><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18h6"/><path d="M10 22h4"/><path d="M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5A4.61 4.61 0 0 1 8.91 14"/></svg><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98"/><path d="M15.41 6.51l-6.82 3.98"/></svg><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l1.9 5.8L20 11l-6.1 2.2L12 19l-1.9-5.8L4 11l6.1-2.2z"/></svg></div>
+        </div>
+        <div class="float f1"><b>Tap a word</b>Water ice: frozen water. It could give astronauts water to drink.</div>
+        <div class="float f2"><b>Swipe up</b>for the next story. 12 to 20 a day, then you're done.</div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+<section id="why">
+  <div class="wrap">
+    <div class="why-head rv">
+      <div>
+        <p class="eyebrow">Why news matters</p>
+        <h2>A child who knows the world <em>grows up ready for it.<svg viewBox="0 0 400 18" preserveAspectRatio="none" aria-hidden="true"><path d="M4 12C70 4 130 15 200 9s140-6 196 1" fill="none" stroke="#FFB020" stroke-width="5" stroke-linecap="round"/></svg></em></h2>
+        <p class="lede">Every child starts at the centre of their own small world. A few calm, true stories a day gently widen the circle: from their street, to their country, to the planet they share with eight billion people.</p>
+      </div>
+      <svg class="orbit" viewBox="0 0 520 520" role="img" aria-label="Circles widening from me, to my street, to my country, to our world">
+        <defs><radialGradient id="halo"><stop offset="0" stop-color="#EDE7FF"/><stop offset="1" stop-color="#EDE7FF" stop-opacity="0"/></radialGradient></defs>
+        <circle class="halo" cx="260" cy="260" r="120"/>
+        <circle class="ring" cx="260" cy="260" r="105"/><circle class="ring" cx="260" cy="260" r="168"/><circle class="ring" cx="260" cy="260" r="232"/>
+        <g class="spin s1"><circle cx="365" cy="260" r="9" fill="#FF5A3C"/><circle cx="155" cy="260" r="6" fill="#FFB020"/></g>
+        <g class="spin s2"><circle cx="260" cy="92" r="11" fill="#10B27A"/><circle cx="114" cy="344" r="7" fill="#2F7BFF"/><circle cx="406" cy="344" r="5" fill="#5B35E8"/></g>
+        <g class="spin s3"><circle cx="28" cy="260" r="12" fill="#2F7BFF"/><path d="M425 96l4 9 9 4-9 4-4 9-4-9-9-4 9-4z" fill="#FFB020"/><circle cx="355" cy="474" r="8" fill="#FF5A3C"/><circle cx="160" cy="58" r="6" fill="#10B27A"/></g>
+        <g class="ob" transform="translate(212 206) scale(2)"><path fill="url(#ffg)" d="M18 5h12a13 13 0 0 1 13 13v5a13 13 0 0 1-13 13H21l-8.5 7.5V35.2A13 13 0 0 1 5 23v-5A13 13 0 0 1 18 5z"/><g class="eyes"><ellipse cx="19" cy="19.5" rx="3.3" ry="4.1" fill="#fff"/><ellipse cx="29.5" cy="19.5" rx="3.3" ry="4.1" fill="#fff"/><g class="pup"><circle cx="19.9" cy="18.7" r="1.7" fill="#1B1340"/><circle cx="30.4" cy="18.7" r="1.7" fill="#1B1340"/></g></g><path class="smile" d="M19.6 27.4q4.9 4.3 9.8 0" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/><path class="spark" fill="#FFB020" stroke="#fff" stroke-width="1.2" stroke-linejoin="round" d="M42 1.8l1.5 3.7 3.7 1.5-3.7 1.5L42 12.2l-1.5-3.7-3.7-1.5 3.7-1.5z"/></g>
+        <text x="260" y="324" text-anchor="middle" style="font:italic 400 22px var(--voice);fill:#5B35E8">me</text>
+        <g class="lab"><rect x="214" y="141" width="92" height="28" rx="14"/><text x="260" y="160" text-anchor="middle"><tspan>my</tspan> street</text></g>
+        <g class="lab"><rect x="205" y="78" width="110" height="28" rx="14"/><text x="260" y="97" text-anchor="middle"><tspan>my</tspan> country</text></g>
+        <g class="lab"><rect x="208" y="14" width="104" height="28" rx="14"/><text x="260" y="33" text-anchor="middle"><tspan>our</tspan> world</text></g>
+      </svg>
+    </div>
+
+    <div class="gifts">
+      <article class="gift g1 rv"><svg class="doodle" viewBox="0 0 96 96" aria-hidden="true"><path d="M14 74L34 20l20 54M21 56h26"/><path d="M62 48c14-6 22 2 20 26M80 62c-12-6-22 2-18 10s14 4 18-6"/></svg>
+        <span class="num">01</span><h3>Words that keep growing</h3><p>Every story carries a few new words. Tap one, understand it, save it. Vocabulary builds quietly, one morning at a time.</p></article>
+      <article class="gift g2 rv"><svg class="doodle" viewBox="0 0 96 96" aria-hidden="true"><path d="M30 30c0-14 34-16 34 4 0 14-16 14-16 30"/><circle cx="48" cy="80" r="2.5"/><path d="M14 18l6 4M80 14l-4 6M84 46h-7"/></svg>
+        <span class="num">02</span><h3>Questions, not scrolling</h3><p>Real events spark real curiosity: why did it happen, where is that, what would I do? Each story ends with a question to think about.</p></article>
+      <article class="gift g3 rv"><svg class="doodle" viewBox="0 0 96 96" aria-hidden="true"><path d="M48 78C20 58 14 44 18 32c5-14 24-16 30-2 6-14 25-12 30 2 4 12-2 26-30 46z"/><path d="M76 12v10M71 17h10"/></svg>
+        <span class="num">03</span><h3>Kindness that travels</h3><p>Reading about children in other places helps kids care about people beyond their own street, and see how much they share.</p></article>
+      <article class="gift g4 rv"><div class="big" aria-hidden="true">2/100<small>could do it</small></div>
+        <span class="num">04</span><h3>Telling true from false</h3><p>In a UK study, only about 2 in every 100 children sorted every real news story from the fakes. Kids who meet real, checked news early learn what trustworthy looks like.<span class="cite">National Literacy Trust, Commission on Fake News, 2018</span></p></article>
+      <article class="gift g5 rv"><svg class="doodle" viewBox="0 0 96 96" aria-hidden="true"><path d="M12 22h46a8 8 0 0 1 8 8v16a8 8 0 0 1-8 8H32l-12 10V54h-8a8 8 0 0 1-8-8V30a8 8 0 0 1 8-8z"/><path d="M70 40h10a8 8 0 0 1 8 8v14a8 8 0 0 1-8 8h-2v9l-10-9H58"/></svg>
+        <span class="num">05</span><h3>A voice at the table</h3><p>Knowing what is happening gives children the confidence to join the conversation at dinner, in class, and with friends.</p></article>
+      <article class="gift g6 rv"><svg class="doodle" viewBox="0 0 96 96" aria-hidden="true"><circle cx="48" cy="48" r="32"/><path d="M16 48h64M48 16c-12 14-12 50 0 64M48 16c12 14 12 50 0 64"/></svg>
+        <span class="num">06</span><h3>How the world works</h3><p>History, geography, civics and science, woven into today's stories. Lessons stop being chapters and start being real life.</p></article>
+    </div>
+  </div>
+  <div class="manifesto rv">
+    <svg class="sh" style="left:8%;top:22%" width="54" height="54" viewBox="0 0 54 54" aria-hidden="true"><circle cx="27" cy="27" r="22" fill="#5B35E8"/></svg>
+    <svg class="sh" style="right:10%;top:18%" width="70" height="30" viewBox="0 0 70 30" aria-hidden="true"><path d="M4 18c10-14 18-14 22 0s14 14 22 0 14-12 18-2" fill="none" stroke="#FFB020" stroke-width="5" stroke-linecap="round"/></svg>
+    <svg class="sh" style="left:14%;bottom:16%" width="46" height="46" viewBox="0 0 46 46" aria-hidden="true"><path d="M23 4l19 34H4z" fill="#FF5A3C"/></svg>
+    <svg class="sh" style="right:16%;bottom:20%" width="44" height="44" viewBox="0 0 44 44" aria-hidden="true"><path d="M22 2l5 15 15 5-15 5-5 15-5-15-15-5 15-5z" fill="#10B27A"/></svg>
+    <p class="l1">Not more screen time.</p>
+    <p class="l2">Better screen time.</p>
+    <p class="l3">A few minutes a day, real stories told kindly, and then the edition ends. No endless feed, no algorithm, no rabbit holes.</p>
+  </div>
+</section>
+
+<section id="how">
+  <div class="wrap">
+    <p class="eyebrow">How it works</p>
+    <h2>The news in a few minutes, <em>not a never-ending feed.</em></h2>
+    <p class="intro">FFMPA is built like a morning paper. A short edition arrives, your child reads it, and then it's finished. There is nothing to scroll forever.</p>
+    <div class="steps">
+      <div class="step"><div class="n">1</div><h3>Two fresh editions</h3><p>A morning and an evening edition in your local time, with only news from the last 3 days.</p></div>
+      <div class="step"><div class="n">2</div><h3>Swipe, one story at a time</h3><p>Each story fits on one screen. Swipe up for the next, tap More for why it matters and a question to think about.</p></div>
+      <div class="step"><div class="n">3</div><h3>Learn the words behind the news</h3><p>Tap any underlined person, place or idea for a quick explainer, and save it to a personal word bank.</p></div>
+    </div>
+    <div class="clock"><div><b>6:00 AM</b><span>Morning edition, before school</span></div><div><b>7:00 PM</b><span>Evening edition, after homework</span></div></div>
+  </div>
+</section>
+
+<section style="background:#fff;border-top:1px solid var(--line)">
+  <div class="wrap">
+    <p class="eyebrow">Three reading levels</p>
+    <h2>The same story, told for their age.</h2>
+    <p class="intro">Every story comes at three levels, so a seven-year-old, an eleven-year-old and a fourteen-year-old can read the same news in the way that suits them.</p>
+    <div class="levels">
+      <div class="level" style="background:#fff"><h3>Explorers</h3><p class="age">Ages 5 to 9</p><blockquote>"Tonight is a good night to spot shooting stars called the Taurids. Some of them are extra bright fireballs!"</blockquote></div>
+      <div class="level" style="background:#fff"><h3>Thinkers</h3><p class="age">Ages 10 to 12</p><blockquote>"The Northern Taurid meteor shower peaks tonight. It only produces about five meteors an hour, but the Taurids are known for slow, bright fireballs."</blockquote></div>
+      <div class="level" style="background:#fff"><h3>Navigators</h3><p class="age">Ages 13 to 15</p><blockquote>"Scientists also track larger objects in the Taurid stream. How much should the world spend watching for rare asteroid impacts, compared with dangers that happen every year?"</blockquote></div>
+    </div>
+    <p class="intro" style="margin:26px 0 0">Local news for your country and world news side by side. Starting with:</p>
+    <div class="countries"><span>India</span><span>United States</span><span>United Kingdom</span><span>Australia</span><span>South Korea</span><span>Germany</span><span>France</span><span class="soon">More countries soon</span></div>
+  </div>
+</section>
+
+<section id="more">
+  <div class="wrap">
+    <p class="eyebrow">Beyond the headlines</p>
+    <h2>News that <em>explains itself.</em></h2>
+    <p class="intro">Reading what happened is the start. FFMPA also shows why it happened, lets children follow a story through the week, and gives them something to do with what they learned.</p>
+    <div class="skfeat rv">
+      <div class="sknote" aria-hidden="false"><svg viewBox="0 0 320 220" class="skboard" role="img" aria-label="A hand-drawn sketch: houses, a car and a factory under a lid of warm air, with smog trapped below"><defs><filter id="skw" x="-5%" y="-5%" width="110%" height="110%"><feTurbulence type="fractalNoise" baseFrequency=".035" numOctaves="2" seed="4" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="2.6"/></filter></defs><g filter="url(#skw)" fill="none" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><path d="M7.8 192.4 Q159.9 191.2 311.9 191.9" pathLength="1" stroke="#1F1E2A" class="skink" style="animation-delay:0.00s"/><path d="M26.8 151.7 Q46.2 151.4 70.0 152.3 M68.2 150.3 Q69.5 173.9 68.2 194.2 M69.7 191.3 Q50.0 190.3 26.6 192.6 M28.6 193.2 Q29.4 171.0 28.4 150.9" pathLength="1" stroke="#1F1E2A" class="skink" style="animation-delay:0.16s"/><path d="M24 152 L48 132 L72 152" pathLength="1" stroke="#1F1E2A" class="skink" style="animation-delay:0.32s"/><path d="M90.8 118.4 Q107.3 119.8 123.5 118.2 M121.6 116.1 Q122.8 151.7 121.7 193.9 M123.7 191.3 Q106.7 192.2 90.4 191.7 M91.9 194.0 Q89.7 153.8 91.4 117.1" pathLength="1" stroke="#1F1E2A" class="skink" style="animation-delay:0.48s"/><path d="M99.5 132.1 Q105.9 130.9 114.2 132.6" pathLength="1" stroke="#1F1E2A" class="skink" style="animation-delay:0.64s"/><path d="M99.4 147.7 Q107.9 148.9 113.5 147.6" pathLength="1" stroke="#1F1E2A" class="skink" style="animation-delay:0.80s"/><path d="M99.7 164.1 Q107.5 165.2 113.4 163.5" pathLength="1" stroke="#1F1E2A" class="skink" style="animation-delay:0.96s"/><path d="M156.5 171.3 Q180.6 169.9 206.0 172.6 M203.6 170.5 Q205.1 179.2 203.4 187.2 M205.0 186.6 Q181.0 188.2 156.7 186.0 M157.8 187.2 Q157.2 179.5 157.5 170.9" pathLength="1" stroke="#1F1E2A" class="skink" style="animation-delay:1.12s"/><path d="M166 172 L172 162 L192 162 L198 172" pathLength="1" stroke="#1F1E2A" class="skink" style="animation-delay:1.28s"/><path d="M165.0 188.0 a5.0 5.2 0 1 1 10.0 -0.7 a5.4 5.0 0 1 1 -8.5 1.6" pathLength="1" stroke="#1F1E2A" class="skink" style="animation-delay:1.44s"/><path d="M187.0 187.9 a5.0 4.7 0 1 1 10.0 -0.2 a4.7 5.0 0 1 1 -8.5 2.3" pathLength="1" stroke="#1F1E2A" class="skink" style="animation-delay:1.60s"/><path d="M244.4 127.4 Q253.6 128.8 264.1 127.6 M261.5 126.3 Q263.7 158.0 261.4 193.8 M263.4 192.7 Q253.2 192.5 243.9 191.8 M246.5 193.2 Q245.1 160.1 246.6 126.9" pathLength="1" stroke="#1F1E2A" class="skink" style="animation-delay:1.76s"/><path d="M260.2 160.2 Q279.4 159.8 296.9 159.8 M296.5 159.1 Q297.2 175.4 295.5 194.0 M298.0 191.6 Q278.0 193.6 260.4 192.7 M261.4 193.6 Q261.7 176.5 262.5 158.8" pathLength="1" stroke="#1F1E2A" class="skink" style="animation-delay:1.92s"/><path d="M254 122 q-9 -9 0 -18 q9 -9 0 -18" pathLength="1" stroke="#0B7F75" class="skink" style="animation-delay:2.08s"/><path d="M210 176 q8 -6 14 -2 q6 4 12 -2" pathLength="1" stroke="#0B7F75" class="skink" style="animation-delay:2.24s"/><text stroke="none" x="268" y="100" fill="#0B7F75" class="sktx" style="animation-delay:2.60s">smoke</text><path d="M12 66 q19 -9 38 0 t38 0 t38 0 t38 0 t38 0 t38 0 t38 0 t30 0" pathLength="1" stroke="#1F1E2A" class="skink" style="animation-delay:2.56s"/><text stroke="none" x="96" y="52" fill="#1F1E2A" class="sktx" style="animation-delay:2.92s">warm air lid</text><path d="M254.3 83.8 Q253.3 78.6 254.0 72.1" pathLength="1" stroke="#0B7F75" class="skink" style="animation-delay:2.88s"/><path d="M257.4 78.1 L254.0 72.0 L250.6 78.1" pathLength="1" stroke="#0B7F75" class="skink" style="animation-delay:3.04s"/><path d="M246.2 69.4 Q255.3 69.6 262.4 69.9" pathLength="1" stroke="#1F1E2A" class="skink" style="animation-delay:3.20s"/><text stroke="none" x="20" y="112" fill="#1F1E2A" class="sktx" style="animation-delay:3.56s">cold air</text><path d="M22 86 q16 -7 32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0" pathLength="1" stroke="#0B7F75" class="skink" style="animation-delay:3.52s"/><path d="M34 98 q16 -7 32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0" pathLength="1" stroke="#0B7F75" class="skink" style="animation-delay:3.68s"/><path d="M140 110 q16 -7 32 0 t32 0 t32 0 t32 0" pathLength="1" stroke="#0B7F75" class="skink" style="animation-delay:3.84s"/><text stroke="none" x="150" y="82" fill="#0B7F75" class="sktx" style="animation-delay:4.20s">smog</text><path d="M305.4 28.2 Q284.8 28.1 262.5 28.0" pathLength="1" stroke="#1F1E2A" class="skink" style="animation-delay:4.16s"/><path d="M268.1 24.6 L262.0 28.0 L268.1 31.4" pathLength="1" stroke="#1F1E2A" class="skink" style="animation-delay:4.32s"/><path d="M305.3 39.6 Q287.0 38.2 269.4 39.9" pathLength="1" stroke="#1F1E2A" class="skink" style="animation-delay:4.48s"/><path d="M276.1 36.6 L270.0 40.0 L276.1 43.4" pathLength="1" stroke="#1F1E2A" class="skink" style="animation-delay:4.64s"/><text stroke="none" x="212" y="22" fill="#1F1E2A" class="sktx" style="animation-delay:5.00s">wind</text></g></svg><span class="skcapn">Why smog gets trapped · step 3 of 3</span></div>
+      <div>
+        <h3>Hard ideas, drawn by hand</h3>
+        <p>When a story needs a concept made clear, a sketch draws itself in three steps: why smog gets trapped over a city, how a satellite stays up, why the planet is warming. One line of text per step, written for each reading level.</p>
+        <ul class="ticks"><li>Opens from the story, right where the question comes up</li><li>Three steps, about a minute</li><li>Reused whenever the idea returns in the news</li></ul>
+      </div>
+    </div>
+    <div class="mgrid">
+      <div class="mcard rv" style="--mc:#0B7F75"><span class="mtag">Every week</span><h3>One Big Story, followed all week</h3><p>A new part each school day: why it matters, the key numbers, the story so far and a question with no right answer.</p></div>
+      <div class="mcard rv" style="--mc:#25317F"><span class="mtag">Every day</span><h3>Learn one thing</h3><p>One idea from history, geography or science, linked to that day's news, with a single question to check it stuck.</p></div>
+      <div class="mcard rv" style="--mc:#C2367A"><span class="mtag">Every story</span><h3>A feelings check</h3><p>News can be heavy. If a story worries your child, FFMPA slows down, suggests talking to you and offers a calmer story.</p></div>
+      <div class="mcard rv" style="--mc:#3E46C8"><span class="mtag">Every Monday and Sunday</span><h3>Puzzles and a craft</h3><p>A sudoku sized for their level, a word game built from the week's news, and something to make by hand each Sunday.</p></div>
+      <div class="mcard rv" style="--mc:#D9481E"><span class="mtag">Progress</span><h3>From Cub Reporter to Editor in Chief</h3><p>Reading, learning and finishing an edition earn points and newsroom ranks. Three stories a day keeps a streak, with one rest day a week.</p></div>
+      <div class="mcard rv" style="--mc:#B5600F"><span class="mtag">Discovery</span><h3>Hidden finds that teach</h3><p>Six secrets to stumble on, from tonight's real moon phase to a reporter's fact-checking habits. Riddles are the only clues.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="schools" style="background:#fff;border-top:1px solid var(--line)">
+  <div class="wrap">
+    <p class="eyebrow">For classrooms and young writers</p>
+    <h2>Read it together. <em>Then write your own.</em></h2>
+    <div class="duo">
+      <div class="duoc rv" style="--dc:#2D5BC0;--db:#EEF3FE">
+        <span class="mtag">Classroom mode</span><h3>A weekly class pack, built from the news</h3>
+        <p>A teacher names a class and gets a six-character code. Each week brings a five-question quiz for the big screen, a printable worksheet with an answer key and one question to discuss.</p>
+        <ul class="ticks"><li>No pupil names, emails or accounts</li><li>Teachers see class totals only, never one child</li><li>Children join with a grown-up's PIN</li></ul>
+      </div>
+      <div class="duoc rv" style="--dc:#D9481E;--db:#FFF1EA">
+        <span class="mtag">Young reporters</span><h3>One assignment a week, written by children</h3>
+        <p>Who did what, and where? Children write a headline and a few sentences about something they saw. The best appear on Sunday's front page.</p>
+        <ul class="ticks"><li>A grown-up's PIN is needed to send a report</li><li>An editor reads every report before it appears</li><li>Shown with age and country only, never a name</li></ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="dark" id="safe">
+  <div class="wrap">
+    <p class="eyebrow">Safe by design</p>
+    <h2>Real news, <em>without the scary parts.</em></h2>
+    <p class="intro">Every story is written from trusted reports and checked by a human editor before it goes out. Our standards are public.</p>
+    <div class="safety">
+      <div><h3>Strict language rules</h3><p>No swearing, slurs, graphic detail, fear words or sensational headlines. A blocked word list and editor review catch anything that slips.</p></div>
+      <div><h3>Facts checked twice</h3><p>Every fact appears in at least two reputable sources, and grown-ups can see the sources under every story.</p></div>
+      <div><h3>Fair on every side</h3><p>We explain how things work and what happened. We never tell children what to think about politics or belief.</p></div>
+      <div><h3>No tracking, no profiling</h3><p>No ads based on your child, no selling of data, no comments, chat or strangers. Sponsor cards, when shown, are approved by our team.</p></div>
+      <div><h3>No links out</h3><p>Nothing in the app links to other websites. Photos are free-to-use images, credited in plain text. No AI images of real people.</p></div>
+      <div><h3>Hard topics handled with care</h3><p>War stories only for older readers and only if you allow them. Disasters focus on helpers and safety.</p></div>
+    </div>
+    <p style="margin:24px 0 0"><a href="https://claude.ai/artifact/LZmmeGKXJ2qpBUN4LCK6Z7#safety">Read our content and safety standards</a></p>
+  </div>
+</section>
+
+<section id="parents">
+  <div class="wrap parents">
+    <div>
+      <p class="eyebrow">For parents</p>
+      <h2>You decide <em>what they see.</em></h2>
+      <p class="intro">Sign in with your email, no password. A 4-digit PIN keeps the controls in your hands.</p>
+      <ul>
+        <li><span class="k">1</span><div><b>Reading level.</b> Choose Explorers, Thinkers or Navigators, and lock it.</div></li>
+        <li><span class="k">2</span><div><b>Topics.</b> Turn whole subjects on or off, from sport to politics.</div></li>
+        <li><span class="k">3</span><div><b>Sensitive news.</b> Decide whether older children see war and conflict stories.</div></li>
+        <li><span class="k">4</span><div><b>Limits and sharing.</b> Set stories per edition, and whether story links can be shared with friends.</div></li>
+        <li><span class="k">5</span><div><b>Feelings and writing.</b> See which stories your child marked as worrying, and approve anything they write before it is sent.</div></li>
+      </ul>
+    </div>
+    <div class="panelmock" aria-hidden="true">
+      <div class="tgl">Explorers, ages 5 to 9 <span class="sw"></span></div>
+      <div class="tgl">Space and science <span class="sw"></span></div>
+      <div class="tgl">Elections and politics <span class="sw off"></span></div>
+      <div class="tgl">War and conflict <span class="sw off"></span></div>
+      <div class="tgl">Allow sharing story links <span class="sw"></span></div>
+      <div class="tgl">Listen button <span class="sw"></span></div>
+    </div>
+  </div>
+</section>
+
+<section id="get" style="background:#fff;border-top:1px solid var(--line)">
+  <div class="wrap">
+    <p class="eyebrow">Get FFMPA</p>
+    <h2>Works on any phone, tablet or computer.</h2>
+    <div class="get">
+      <div style="background:#fff"><h3>Web app</h3><p>Open FFMPA in any browser. Nothing to install.</p><a class="btn dark" href="https://claude.ai/artifact/LZmmeGKXJ2qpBUN4LCK6Z7">Open the app</a></div>
+      <div style="background:#fff"><h3>iPhone and iPad</h3><p>Open the web app in Safari, tap Share, then Add to Home Screen. It opens like an app.</p></div>
+      <div style="background:#fff"><h3>Android</h3><p>The Android app is coming to Google Play. Until then, the web app works in Chrome and can be added to your home screen.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="wrap">
+    <p class="eyebrow">Questions</p>
+    <h2>Good to know</h2>
+    <details><summary>Who writes the stories?</summary><p>Each edition is drafted from trusted news reports, written at three reading levels, and then read, corrected and approved by a human editor before it is published.</p></details>
+    <details><summary>Why only the last 3 days of news?</summary><p>So nothing feels stale. Old stories disappear automatically, and each edition only adds what is new since the last one.</p></details>
+    <details><summary>What do you need to know about my child?</summary><p>Only an optional first name or nickname, a reading level and a country. No birthday, school, photo or contact details. See the privacy policy for details.</p></details>
+    <details><summary>Can my child end up on another website?</summary><p>No. FFMPA never links out: sources and photo credits are shown as plain text, sponsor cards carry no links, and sharing only copies a link to the story for a grown-up to send.</p></details>
+    <details><summary>Can schools use FFMPA?</summary><p>Yes. Classroom mode gives a teacher a class code, a weekly quiz for the big screen and a printable worksheet. It holds no pupil names, and teachers see class totals only.</p></details>
+    <details><summary>What happens to what my child writes?</summary><p>A Young reporters piece is sent only after a grown-up enters the PIN. An editor reads it before it can appear, and it is shown with age and country only. Private headlines a child writes for fun stay on the device.</p></details>
+    <details><summary>Is it in other languages?</summary><p>FFMPA is in English for now.</p></details>
+    <details><summary>Are there ads?</summary><p>There are no ads based on your child, and we never sell data. Some editions may show a clearly labelled sponsor card that our team has approved, the same for every child in a country. They are off by default for the youngest readers.</p></details>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="cols">
+      <a class="logo lg" href="#top" style="font-size:24px" aria-label="FFMPA home"><svg class="buddy" viewBox="0 0 48 48" aria-hidden="true" focusable="false"><path fill="url(#ffg)" d="M18 5h12a13 13 0 0 1 13 13v5a13 13 0 0 1-13 13H21l-8.5 7.5V35.2A13 13 0 0 1 5 23v-5A13 13 0 0 1 18 5z"/><g class="eyes"><ellipse cx="19" cy="19.5" rx="3.3" ry="4.1" fill="#fff"/><ellipse cx="29.5" cy="19.5" rx="3.3" ry="4.1" fill="#fff"/><g class="pup"><circle cx="19.9" cy="18.7" r="1.7" fill="#1B1340"/><circle cx="30.4" cy="18.7" r="1.7" fill="#1B1340"/></g></g><path class="smile" d="M19.6 27.4q4.9 4.3 9.8 0" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/><path class="spark" fill="#FFB020" stroke="#fff" stroke-width="1.2" stroke-linejoin="round" d="M42 1.8l1.5 3.7 3.7 1.5-3.7 1.5L42 12.2l-1.5-3.7-3.7-1.5 3.7-1.5z"/></svg><span class="wm" aria-hidden="true"><b>f</b><b>f</b><b>m</b><b>p</b><b>a</b></span></a>
+      <nav aria-label="Legal">
+        <a href="https://claude.ai/artifact/LZmmeGKXJ2qpBUN4LCK6Z7#safety">Safety standards</a>
+        <a href="https://claude.ai/artifact/LZmmeGKXJ2qpBUN4LCK6Z7#privacy">Privacy</a>
+        <a href="https://claude.ai/artifact/LZmmeGKXJ2qpBUN4LCK6Z7#terms">Terms</a>
+        <a href="https://claude.ai/artifact/LZmmeGKXJ2qpBUN4LCK6Z7#cookies">Cookies</a>
+        <a href="https://claude.ai/artifact/LZmmeGKXJ2qpBUN4LCK6Z7#contact">Contact</a>
+      </nav>
+    </div>
+    <p>© 2026 Founderfreedom Ventures LLP, Bangalore, India. FFMPA and ffmpa.com are products of Founderfreedom Ventures LLP.</p>
+  </div>
+</footer>
+<script>
+(function(){var els=document.querySelectorAll('.rv');if(!('IntersectionObserver' in window)){els.forEach(function(e){e.classList.add('in')});return;}
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}})},{threshold:.18,rootMargin:'0px 0px -40px 0px'});
+els.forEach(function(e){io.observe(e)});})();
+</script>
+</body>
+</html>

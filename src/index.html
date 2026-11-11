@@ -4,7 +4,12 @@
 <meta name="color-scheme" content="light only">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="theme-color" content="#13233F">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="FFMPA">
+<meta name="format-detection" content="telephone=no">
 <title>FFMPA Kids News</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -548,6 +553,21 @@ html,body{overscroll-behavior:none}
 @media (max-width:360px){.goalchip i{display:none}.hello-bar h1{font-size:20px}}
 .bigmom .mbig{display:none}
 .card.learn .tags .tag.topic{max-width:100%;flex:0 1 auto}
+
+/* ===== real-phone polish ===== */
+html,body{height:100%}
+@supports (height:100dvh){html,body,.app{height:100dvh}}
+.app{min-height:0}
+button,a,.term,.chip,.tag,.opt,.press{-webkit-tap-highlight-color:transparent;touch-action:manipulation}
+.top,.rail,.dock,.hello-bar,.counter,.tags,.srcbar,.sheet .x{-webkit-user-select:none;user-select:none}
+.field input,.field select,.field textarea,input[type=text],input[type=email]{font-size:16px!important}
+html.standalone .hello-bar{padding-top:2px}
+.instItem{display:flex}
+html:not(.can-install) .instItem.hide-unless{display:none}
+.insteps{margin:8px 0 14px;padding-left:22px;display:grid;gap:10px}.insteps li{font-size:15.5px;line-height:1.45}
+.slide{backface-visibility:hidden}
+
+#deck .counter{transition:opacity .15s}#deck.dragging .counter{opacity:0}
 
 /* v2: calm topic colour + word colour + key boxes */
 .card .acc{height:4px;background:var(--acc,#5B35E8);flex:none}
@@ -1629,16 +1649,30 @@ function afterMove(){
 /* gestures */
 (function(){
   const d=$("#deck"); let y0=null,x0=null,t0=0,lock=false;
-  d.addEventListener("touchstart",e=>{ y0=e.touches[0].clientY; x0=e.touches[0].clientX; t0=Date.now(); },{passive:true});
-  d.addEventListener("touchend",e=>{
-    if(y0===null) return;
-    const dy=e.changedTouches[0].clientY-y0, dx=e.changedTouches[0].clientX-x0;
-    const body=e.target.closest(".cbody");
-    const atEdge = !body || (dy<0 ? body.scrollTop+body.clientHeight>=body.scrollHeight-2 : body.scrollTop<=0);
-    if(Math.abs(dy)>55 && Math.abs(dy)>Math.abs(dx)*1.3 && atEdge) go(idx+(dy<0?1:-1));
-    else if(dx<-70 && Math.abs(dx)>Math.abs(dy)*1.5 && deck[idx].type==="story") openMore();
-    y0=null;
-  },{passive:true});
+  let drag=null;
+  const slideAt=i=>d.querySelector(`.slide[data-i="${i}"]`);
+  d.addEventListener("touchstart",e=>{ if(e.touches.length>1){ drag=null; return; } const t=e.touches[0]; drag={y0:t.clientY,x0:t.clientX,t0:Date.now(),axis:null,on:false,dy:0,body:e.target.closest(".cbody"),inMoms:!!e.target.closest(".moms")}; },{passive:true});
+  d.addEventListener("touchmove",e=>{
+    if(!drag) return; const t=e.touches[0], dy=t.clientY-drag.y0, dx=t.clientX-drag.x0;
+    if(!drag.axis){ if(Math.abs(dy)<8&&Math.abs(dx)<8) return; drag.axis=Math.abs(dy)>Math.abs(dx)?"y":"x";
+      if(drag.axis==="y"){ const b=drag.body; const atEdge=!b||b.scrollHeight<=b.clientHeight+2||(dy<0?b.scrollTop+b.clientHeight>=b.scrollHeight-2:b.scrollTop<=0); drag.on=atEdge; if(drag.on){ d.classList.add("dragging"); drag.base=dy; [idx-1,idx,idx+1].forEach(i=>{ const s=slideAt(i); if(s) s.style.transition="none"; }); } } }
+    if(drag.axis!=="y"||!drag.on) return;
+    e.preventDefault();
+    let m=dy-drag.base; const h=d.clientHeight||1;
+    if((m>0&&idx===0)||(m<0&&idx===deck.length-1)) m*=0.3;
+    drag.dy=m;
+    [idx-1,idx,idx+1].forEach(i=>{ const s=slideAt(i); if(s) s.style.transform=`translateY(calc(${(i-idx)*100}% + ${m}px))`; });
+  },{passive:false});
+  const endDrag=e=>{
+    if(!drag) return; const g=drag; drag=null; d.classList.remove("dragging");
+    if(g.on){ [idx-1,idx,idx+1].forEach(i=>{ const s=slideAt(i); if(s) s.style.transition=""; });
+      const h=d.clientHeight||1, v=Math.abs(g.dy)/Math.max(1,Date.now()-g.t0);
+      if(Math.abs(g.dy)>h*0.16||(Math.abs(g.dy)>40&&v>0.45)) go(idx+(g.dy<0?1:-1));
+      else document.querySelectorAll(".slide").forEach(sl=>{ sl.style.transform=`translateY(${(+sl.dataset.i-idx)*100}%)`; });
+      return; }
+    if(g.axis==="x"&&!g.inMoms&&e.changedTouches&&e.changedTouches[0]){ const dx=e.changedTouches[0].clientX-g.x0, dy=e.changedTouches[0].clientY-g.y0; if(dx<-70&&Math.abs(dx)>Math.abs(dy)*1.5&&deck[idx]&&deck[idx].type==="story") openMore(); }
+  };
+  d.addEventListener("touchend",endDrag,{passive:true}); d.addEventListener("touchcancel",endDrag,{passive:true});
   d.addEventListener("wheel",e=>{
     const body=e.target.closest(".cbody");
     if(body && body.scrollHeight>body.clientHeight+2){ const atEnd=body.scrollTop+body.clientHeight>=body.scrollHeight-2, atTop=body.scrollTop<=0; if((e.deltaY>0&&!atEnd)||(e.deltaY<0&&!atTop)) return; }
@@ -1731,6 +1765,7 @@ function openMenu(){
     <div class="menu">
       <button id="mW"><span class="ic">${ico("star")}</span><div>My words<small>${words.size} saved</small></div></button>
             <button id="mG"><span class="ic">${ico("trophy")}</span><div>Play and progress<small>${streakInfo().n}-day streak · puzzles · Sunday craft</small></div></button>
+      <button id="mA" class="instItem"><span class="ic">${ico("rocket")}</span><div>Add FFMPA to your home screen<small>Opens like an app, full screen</small></div></button>
       <button id="mI"><span class="ic">${ico("share")}</span><div>Invite another family<small>For grown-ups: share FFMPA with a friend</small></div></button>
       <button id="mL"><span class="ic">${ico("book")}</span><div>Reading level<small>${LVL[settings.age][0]}, ages ${LVL[settings.age][1]}${settings.ageLock?" · locked":""}</small></div></button>
       <button id="mC"><span class="ic">${ico("doc")}</span><div>Reading comfort<small>Text size and line spacing</small></div></button>
@@ -2827,6 +2862,24 @@ async function loadLiveEdition(){
   }catch(e){}
 }
 setTimeout(loadLiveEdition,50);
+
+
+/* ===================== Install as an app ===================== */
+let installEvt=null;
+const isStandalone=()=>matchMedia("(display-mode: standalone)").matches||navigator.standalone===true;
+const isIOS=()=>/iphone|ipad|ipod/i.test(navigator.userAgent)||(navigator.platform==="MacIntel"&&navigator.maxTouchPoints>1);
+window.addEventListener("beforeinstallprompt",e=>{ e.preventDefault(); installEvt=e; document.documentElement.classList.add("can-install"); });
+window.addEventListener("appinstalled",()=>{ installEvt=null; document.documentElement.classList.remove("can-install"); toast(`${ico("rocket")}<span><b>FFMPA is on your home screen</b></span>`,"#5B35E8"); });
+function openInstall(){
+  if(isStandalone()){ openSheet(`<h2 id="shTitle">Already <em class="v">installed</em></h2><p class="sub">You are using FFMPA from your home screen.</p>`); return; }
+  if(installEvt){ const ev=installEvt; installEvt=null; ev.prompt(); ev.userChoice.finally(()=>document.documentElement.classList.remove("can-install")); return; }
+  const ios=isIOS();
+  openSheet(`<h2 id="shTitle">Add FFMPA to your <em class="v">home screen</em></h2><p class="sub">It opens full screen like an app, with no browser bars.</p>
+    <ol class="insteps">${ios?`<li>Open <b>ffmpa.com/app</b> in <b>Safari</b>.</li><li>Tap the <b>Share</b> button at the bottom of the screen.</li><li>Scroll down and tap <b>Add to Home Screen</b>, then <b>Add</b>.</li>`:`<li>Open <b>ffmpa.com/app</b> in <b>Chrome</b>.</li><li>Tap the <b>three dots</b> at the top right.</li><li>Tap <b>Add to Home screen</b> or <b>Install app</b>, then <b>Install</b>.</li>`}</ol>
+    <p class="sub" style="font-size:12.5px">The Android app on Google Play is coming soon.</p>`);
+}
+document.addEventListener("click",e=>{ if(e.target.closest("#mA")){ e.stopPropagation(); openInstall(); } });
+if("serviceWorker" in navigator && /^https:$/.test(location.protocol)) window.addEventListener("load",()=>{ navigator.serviceWorker.register("/sw.js",{scope:"/"}).catch(()=>{}); });
 
 /* ================= Legal and policy pages (hash routes) ================= */
 const DRAFT = `<p class="draft"><b>Draft for legal review.</b> Items in square brackets must be confirmed by Founderfreedom Ventures LLP and its counsel before launch.</p>`;

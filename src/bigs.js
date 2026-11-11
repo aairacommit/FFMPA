@@ -184,3 +184,21 @@ async function loadLiveEdition(){
   }catch(e){}
 }
 setTimeout(loadLiveEdition,50);
+
+
+/* ===================== Install as an app ===================== */
+let installEvt=null;
+const isStandalone=()=>matchMedia("(display-mode: standalone)").matches||navigator.standalone===true;
+const isIOS=()=>/iphone|ipad|ipod/i.test(navigator.userAgent)||(navigator.platform==="MacIntel"&&navigator.maxTouchPoints>1);
+window.addEventListener("beforeinstallprompt",e=>{ e.preventDefault(); installEvt=e; document.documentElement.classList.add("can-install"); });
+window.addEventListener("appinstalled",()=>{ installEvt=null; document.documentElement.classList.remove("can-install"); toast(`${ico("rocket")}<span><b>FFMPA is on your home screen</b></span>`,"#5B35E8"); });
+function openInstall(){
+  if(isStandalone()){ openSheet(`<h2 id="shTitle">Already <em class="v">installed</em></h2><p class="sub">You are using FFMPA from your home screen.</p>`); return; }
+  if(installEvt){ const ev=installEvt; installEvt=null; ev.prompt(); ev.userChoice.finally(()=>document.documentElement.classList.remove("can-install")); return; }
+  const ios=isIOS();
+  openSheet(`<h2 id="shTitle">Add FFMPA to your <em class="v">home screen</em></h2><p class="sub">It opens full screen like an app, with no browser bars.</p>
+    <ol class="insteps">${ios?`<li>Open <b>ffmpa.com/app</b> in <b>Safari</b>.</li><li>Tap the <b>Share</b> button at the bottom of the screen.</li><li>Scroll down and tap <b>Add to Home Screen</b>, then <b>Add</b>.</li>`:`<li>Open <b>ffmpa.com/app</b> in <b>Chrome</b>.</li><li>Tap the <b>three dots</b> at the top right.</li><li>Tap <b>Add to Home screen</b> or <b>Install app</b>, then <b>Install</b>.</li>`}</ol>
+    <p class="sub" style="font-size:12.5px">The Android app on Google Play is coming soon.</p>`);
+}
+document.addEventListener("click",e=>{ if(e.target.closest("#mA")){ e.stopPropagation(); openInstall(); } });
+if("serviceWorker" in navigator && /^https:$/.test(location.protocol)) window.addEventListener("load",()=>{ navigator.serviceWorker.register("/sw.js",{scope:"/"}).catch(()=>{}); });

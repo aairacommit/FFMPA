@@ -140,3 +140,18 @@ html,body{overscroll-behavior:none}
 @media (max-width:360px){.goalchip i{display:none}.hello-bar h1{font-size:20px}}
 .bigmom .mbig{display:none}
 .card.learn .tags .tag.topic{max-width:100%;flex:0 1 auto}
+
+/* ===== real-phone polish ===== */
+html,body{height:100%}
+@supports (height:100dvh){html,body,.app{height:100dvh}}
+.app{min-height:0}
+button,a,.term,.chip,.tag,.opt,.press{-webkit-tap-highlight-color:transparent;touch-action:manipulation}
+.top,.rail,.dock,.hello-bar,.counter,.tags,.srcbar,.sheet .x{-webkit-user-select:none;user-select:none}
+.field input,.field select,.field textarea,input[type=text],input[type=email]{font-size:16px!important}
+html.standalone .hello-bar{padding-top:2px}
+.instItem{display:flex}
+html:not(.can-install) .instItem.hide-unless{display:none}
+.insteps{margin:8px 0 14px;padding-left:22px;display:grid;gap:10px}.insteps li{font-size:15.5px;line-height:1.45}
+.slide{backface-visibility:hidden}
+
+#deck .counter{transition:opacity .15s}#deck.dragging .counter{opacity:0}

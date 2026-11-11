@@ -20,7 +20,7 @@ ICONS='''<link rel="icon" href="/favicon.ico" sizes="32x32">
 <link rel="icon" type="image/png" sizes="192x192" href="/assets/icon-192.png">
 <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
 <link rel="manifest" href="/manifest.webmanifest">
-<meta name="theme-color" content="#5B35E8">'''
+<meta name="theme-color" content="#FFFFFF">\n<meta name="apple-mobile-web-app-capable" content="yes">\n<meta name="apple-mobile-web-app-title" content="FFMPA">'''
 def social(title,desc,path):
     u=BASE+path
     return f'''<link rel="canonical" href="{u}">
@@ -44,7 +44,12 @@ h=h.replace('</style>','.pvbar{background:#0E0D12;color:#fff;text-align:center;f
 # footer links for crawlers
 if '<a href="/schools/">' not in h: h=h.replace('<nav aria-label="Legal">','<nav aria-label="Legal"><a href="/schools/">For schools</a>',1)
 assert TITLE in h and 'application/ld+json' in h
-h=h.replace('</head>',GA+'\n</head>',1).replace('</body>',GA_BANNER+'\n</body>',1)
+h=h.replace('<a class="btn line" href="#get">Android and iPhone</a>','<a class="btn line" href="#get" id="instBtn">Add to home screen</a>',1)
+h=h.replace('<p>The Android app is coming to Google Play. Until then, the web app works in Chrome and can be added to your home screen.</p>','<p>Open ffmpa.com in Chrome and tap <b>Add to home screen</b>. It opens full screen like an app. A Google Play version is coming.</p>',1)
+INST='''<script>(function(){var ev=null,b=document.getElementById('instBtn');addEventListener('beforeinstallprompt',function(e){e.preventDefault();ev=e;if(b){b.textContent='Install the app';}});
+if(b)b.addEventListener('click',function(e){if(ev){e.preventDefault();ev.prompt();ev=null;}});
+if('serviceWorker' in navigator&&location.protocol==='https:')addEventListener('load',function(){navigator.serviceWorker.register('/sw.js',{scope:'/'}).catch(function(){});});})();</script>'''
+h=h.replace('</head>',GA+'\n</head>',1).replace('</body>',INST+'\n'+GA_BANNER+'\n</body>',1)
 open(OUT+"/index.html","w").write(h)
 # ---------- app (kept out of search results: it is an app shell, not a page to land on)
 a=app.replace(' · <a href="#admin">Admin console (staff prototype)</a>','')
@@ -109,7 +114,25 @@ async def main():
             shutil.copy(SRC+"/assets/"+f, OUT+("/favicon.ico" if f=="favicon.ico" else "/assets/"+f))
         await b.close()
 asyncio.run(main())
-json.dump({"name":"FFMPA Kids News","short_name":"FFMPA","description":DESC,"start_url":"/app/","scope":"/","display":"standalone","orientation":"portrait","background_color":"#FFFFFF","theme_color":"#5B35E8","lang":"en","categories":["education","news","kids"],"icons":[{"src":"/assets/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any"},{"src":"/assets/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any"},{"src":"/assets/icon-512.png","sizes":"512x512","type":"image/png","purpose":"maskable"}]},open(OUT+"/manifest.webmanifest","w"),indent=1)
+json.dump({"id":"/app/","name":"FFMPA Kids News","short_name":"FFMPA","description":DESC,"start_url":"/app/?source=homescreen","scope":"/","display":"standalone","display_override":["standalone","minimal-ui"],"orientation":"portrait","background_color":"#FFFFFF","theme_color":"#FFFFFF","lang":"en","dir":"ltr","categories":["education","news","kids"],
+ "icons":[{"src":"/assets/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any"},{"src":"/assets/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any"},{"src":"/assets/icon-maskable-192.png","sizes":"192x192","type":"image/png","purpose":"maskable"},{"src":"/assets/icon-maskable-512.png","sizes":"512x512","type":"image/png","purpose":"maskable"}],
+ "screenshots":[{"src":f"/assets/screen-{k}.png","sizes":"780x1688","type":"image/png","form_factor":"narrow","label":l} for k,l in ((1,"Today's edition"),(2,"A story with tap-to-learn words"),(3,"A hand-drawn sketch explainer"))],
+ "shortcuts":[{"name":"Today's edition","url":"/app/?source=shortcut","icons":[{"src":"/assets/icon-192.png","sizes":"192x192"}]}]},open(OUT+"/manifest.webmanifest","w"),indent=1)
+open(OUT+"/sw.js","w").write('''/* FFMPA service worker: makes the app installable and keeps the last edition readable offline. */
+const V="ffmpa-v1"; const SHELL=["/app/","/manifest.webmanifest","/assets/icon-192.png","/assets/icon-512.png"];
+self.addEventListener("install",e=>{ e.waitUntil(caches.open(V).then(c=>c.addAll(SHELL)).then(()=>self.skipWaiting())); });
+self.addEventListener("activate",e=>{ e.waitUntil(caches.keys().then(ks=>Promise.all(ks.filter(k=>k!==V).map(k=>caches.delete(k)))).then(()=>self.clients.claim())); });
+self.addEventListener("fetch",e=>{
+  const r=e.request; if(r.method!=="GET") return;
+  const u=new URL(r.url);
+  if(u.hostname.includes("google-analytics")||u.hostname.includes("googletagmanager")) return;
+  const fresh=r.mode==="navigate"||u.pathname.endsWith(".json")||u.hostname==="raw.githubusercontent.com";
+  if(fresh){ e.respondWith(fetch(r).then(res=>{ if(res.ok){ const cp=res.clone(); caches.open(V).then(c=>c.put(r,cp)); } return res; }).catch(()=>caches.match(r,{ignoreSearch:true}).then(m=>m||caches.match("/app/")))); return; }
+  if(u.origin===location.origin||u.hostname.endsWith("gstatic.com")||u.hostname.endsWith("googleapis.com")){
+    e.respondWith(caches.match(r).then(m=>m||fetch(r).then(res=>{ if(res.ok||res.type==="opaque"){ const cp=res.clone(); caches.open(V).then(c=>c.put(r,cp)); } return res; })));
+  }
+});
+''')
 pages=["/","/schools/","/safety/","/privacy/","/terms/","/cookies/","/contact/"]
 open(OUT+"/sitemap.xml","w").write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+"".join(f"<url><loc>{BASE}{p}</loc><lastmod>2026-11-11</lastmod></url>\n" for p in pages)+"</urlset>\n")
 bots=["GPTBot","OAI-SearchBot","ChatGPT-User","ClaudeBot","Claude-SearchBot","Claude-User","PerplexityBot","Perplexity-User","Google-Extended","Applebot-Extended","CCBot","Bingbot","Googlebot"]

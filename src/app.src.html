@@ -524,7 +524,7 @@ let topic = "all", deck = [], idx = 0, lastFocus = null;
 const $ = s=>document.querySelector(s);
 const esc = s=>String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const persist = ()=>{ if(session && !session.preview) store.set("ffmpa-settings", settings); };
-const saveAdmin = ()=> store.set("ffmpa-admin", ADMIN);
+const saveAdmin = ()=>{ store.set("ffmpa-admin", ADMIN); if(typeof pushAdminConfig==="function") pushAdminConfig(); };
 
 /* ================= Helpers ================= */
 function strip(t){ return t.replace(/\[\[([a-z0-9-]+)(?:\|([^\]]+))?\]\]/g,(m,k,d)=> d||(G[k]?G[k][0]:k)); }
@@ -883,9 +883,10 @@ function renderSettings(){
       <label class="tg" for="sSrc"><input type="checkbox" id="sSrc" ${t.sources?"checked":""}> Show sources</label>
       <label class="field" for="sLimit">Most stories per edition: <b id="sLimitV">${t.limit}</b><input type="range" id="sLimit" min="5" max="20" value="${t.limit}"></label></div></div>
     <div class="set"><h3>Change PIN</h3><label class="field" for="sPin">New 4-digit PIN (blank keeps the current one)<input type="text" id="sPin" inputmode="numeric" maxlength="4"></label><p class="msg" id="sMsg" aria-live="polite"></p></div>
+    ${acctHTML()}
     <div class="stick"><button class="btn ghost press" id="sCancel">Cancel</button><button class="btn sun press" id="sSave">Save</button></div>`,
     ()=>{
-      $("#sCancel").onclick=closeSheet; $("#sLimit").oninput=e=>$("#sLimitV").textContent=e.target.value;
+      wireAcct(); $("#sCancel").onclick=closeSheet; $("#sLimit").oninput=e=>$("#sLimitV").textContent=e.target.value;
       $("#sSave").onclick=()=>{
         const pin=$("#sPin").value.trim(); if(pin&&!/^\d{4}$/.test(pin)){ $("#sMsg").textContent="The PIN needs exactly 4 digits."; return; }
         Object.assign(settings,{name:$("#sName").value.trim(), country:$("#sCountry").value, age:document.querySelector('input[name="sAge"]:checked').value, ageLock:$("#sLock").checked,
@@ -916,17 +917,19 @@ function renderWelcome(){
         <p class="note">No password. We email you a 6-digit code each time you sign in.</p><p class="err" id="wErr" aria-live="polite"></p>
         <button class="btn sun press" type="submit">Email me a code</button></form>
       <button class="peek" id="wPeek">Just looking? Preview this morning's edition</button>${fine}`;
-    $("#wF").onsubmit=e=>{ e.preventDefault(); const em=$("#wE").value.trim(); if(!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(em)){ $("#wErr").textContent="Please enter a valid email address, like name@example.com."; return; } ob.email=em; ob.step="code"; renderWelcome(); $("#wC").focus(); };
+    $("#wF").onsubmit=e=>{ e.preventDefault(); const em=$("#wE").value.trim(); if(!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(em)){ $("#wErr").textContent="Please enter a valid email address, like name@example.com."; return; } ob.email=em; if(SB_ON){ const btn=e.target.querySelector("button[type=submit]"); btn.disabled=true; btn.textContent="Sending…"; sendCode(em).then(()=>{ ob.step="code"; renderWelcome(); $("#wC").focus(); }).catch(err=>{ btn.disabled=false; btn.textContent="Email me a code"; $("#wErr").textContent=friendly(err); }); return; } ob.step="code"; renderWelcome(); $("#wC").focus(); };
     $("#wPeek").onclick=()=>{ session={preview:true}; $("#welcomeOv").classList.remove("open"); renderAll(); };
   }
   if(ob.step==="code"){
     w.innerHTML=`${top}<h1 id="wcTitle">Check your <em class="v">inbox.</em></h1><p class="lede">We sent a 6-digit code to <b>${esc(ob.email)}</b>. It expires in 10 minutes.</p>
       <form class="wbox" id="wF" novalidate>${bar(1)}<label class="field" for="wC">Your code<input class="codein" id="wC" inputmode="numeric" autocomplete="one-time-code" maxlength="6" placeholder="······"></label>
-        <p class="note">Prototype: use code ${DEMO_CODE}.</p><p class="err" id="wErr" aria-live="polite"></p><button class="btn sun press" type="submit">Sign in</button>
+        ${SB_ON?`<p class="note">Not there? Check spam, or wait a minute and send a new code.</p>`:`<p class="note">Prototype: use code ${DEMO_CODE}.</p>`}<p class="err" id="wErr" aria-live="polite"></p><button class="btn sun press" type="submit">Sign in</button>
         <div class="row" style="justify-content:space-between"><button class="linkbtn" type="button" id="wB">Use a different email</button><button class="linkbtn" type="button" id="wR">Send a new code</button></div></form>${fine}`;
-    $("#wF").onsubmit=e=>{ e.preventDefault(); const c=$("#wC").value.replace(/\D/g,""); if(c.length!==6){ $("#wErr").textContent="The code has 6 digits."; return; } if(c!==DEMO_CODE){ $("#wErr").textContent="That code did not match. Check the latest email from FFMPA and try again."; return; }
+    $("#wF").onsubmit=e=>{ e.preventDefault(); const c=$("#wC").value.replace(/\D/g,""); if(c.length!==6){ $("#wErr").textContent="The code has 6 digits."; return; }
+      if(SB_ON){ const btn=e.target.querySelector("button[type=submit]"); btn.disabled=true; btn.textContent="Checking…"; verifyCode(ob.email,c).then(tok=>{ ob.tok=tok; return afterSignIn(tok); }).then(r=>{ if(r==="new"){ ob.step="child"; renderWelcome(); } }).catch(err=>{ btn.disabled=false; btn.textContent="Sign in"; $("#wErr").textContent=friendly(err); }); return; }
+      if(c!==DEMO_CODE){ $("#wErr").textContent="That code did not match. Check the latest email from FFMPA and try again."; return; }
       const ex=store.get("ffmpa-account-"+ob.email.toLowerCase(),null); if(ex){ settings=Object.assign({},DEFAULT_SETTINGS,ex); finish(); return; } ob.step="child"; renderWelcome(); };
-    $("#wB").onclick=()=>{ ob.step="email"; renderWelcome(); }; $("#wR").onclick=()=>{ $("#wErr").textContent="A new code is on its way."; };
+    $("#wB").onclick=()=>{ ob.step="email"; renderWelcome(); }; $("#wR").onclick=()=>{ if(!SB_ON){ $("#wErr").textContent="A new code is on its way."; return; } sendCode(ob.email).then(()=>{ $("#wErr").textContent="A new code is on its way. Use the newest email."; }).catch(err=>{ $("#wErr").textContent=friendly(err); }); };
   }
   if(ob.step==="child"){
     w.innerHTML=`${top}<h1 id="wcTitle">Who is <em class="v">reading?</em></h1><p class="lede">Just a first name or nickname. No photos, birthdays or school details.</p>
@@ -952,8 +955,11 @@ function renderWelcome(){
     $("#wF").onsubmit=e=>{ e.preventDefault(); const p=$("#wP").value.trim(); if(!/^\d{4}$/.test(p)){ $("#wErr").textContent="Please choose exactly 4 digits."; return; } settings=Object.assign({},DEFAULT_SETTINGS,{name:ob.name,age:ob.age,country:ob.country,pin:p,created:Date.now(),early:ADMIN.plan.mode!=="paid"}); finish(); };
   }
 }
-function finish(){ session={email:ob.email}; store.set("ffmpa-session",session); store.set("ffmpa-settings",settings); store.set("ffmpa-account-"+ob.email.toLowerCase(),settings); $("#welcomeOv").classList.remove("open"); topic="all"; idx=0; renderAll(); }
-function signOut(){ if(session&&session.email) store.set("ffmpa-account-"+session.email.toLowerCase(),settings); store.del("ffmpa-session"); session=null; ob={step:"email",email:"",name:"",age:"o",country:"IN"}; closeSheet(); startWelcome("email"); }
+function finish(){ if(SB_ON&&ob.tok){ session={email:ob.tok.email,uid:ob.tok.uid}; if(STATS&&STATS.sample){ STATS={days:{},editions:{},explainers:0,more:0,perfect:0,qAns:0,qRight:0,cats:{},puzzles:{},crafts:{},unlocked:{}}; _sset("ffmpa-stats",STATS); }
+    _sset("ffmpa-session",session); _sset("ffmpa-settings",settings); createProfile().catch(()=>queueSync()); $("#welcomeOv").classList.remove("open"); topic="all"; idx=0; renderAll(); return; }
+  session={email:ob.email}; store.set("ffmpa-session",session); store.set("ffmpa-settings",settings); store.set("ffmpa-account-"+ob.email.toLowerCase(),settings); $("#welcomeOv").classList.remove("open"); topic="all"; idx=0; renderAll(); }
+function signOut(){ if(SB_ON&&session&&session.uid){ const done=()=>{ _sdel("ffmpa-session"); session=null; klass=null; settings=Object.assign({},DEFAULT_SETTINGS); words=new Set(); readIds=new Set(); ob={step:"email",email:"",name:"",age:"o",country:"IN"}; closeSheet(); startWelcome("email"); }; sbSignOut().then(done,done); return; }
+  if(session&&session.email) store.set("ffmpa-account-"+session.email.toLowerCase(),settings); store.del("ffmpa-session"); session=null; ob={step:"email",email:"",name:"",age:"o",country:"IN"}; closeSheet(); startWelcome("email"); }
 
 function openPlan(){
   const ps=planState();
@@ -962,7 +968,7 @@ function openPlan(){
   openSheet(`<h2 id="shTitle">FFMPA <em class="v">Family</em></h2><p class="sub">${ps.sub?(ps.early?"You joined early, so FFMPA stays free for your family.":"Your membership is active."):ps.left>0?`Your free trial has ${ps.left} day${ps.left===1?"":"s"} left.`:"Your free trial has ended."}</p>
     <div class="box think"><h4>${esc(ps.price)}</h4><p>One plan for every child on your account. Calm, checked news twice a day, no links out, no personal ads.</p></div>
     ${ps.sub?"":`<p class="sub" style="margin-top:14px">Grown-ups only. You'll need your PIN.</p><button class="btn sun press" id="plBuy" style="width:100%;margin-top:6px">Continue to payment</button><p class="sub" style="margin-top:8px;font-size:13px">Secure payment by ${gate}. Connected at launch.</p>`}`);
-  const b=document.getElementById("plBuy"); if(b) b.onclick=()=>{ askPin(()=>{ openSheet(`<h2 id="shTitle">Payment comes <em class="v">at launch</em></h2><p class="sub">In this prototype no money is taken. When the gateway is connected, this button opens ${gate} checkout.</p>`); }); };
+  const b=document.getElementById("plBuy"); if(b) b.onclick=()=>{ askPin(()=>{ openSheet(`<h2 id="shTitle">Payment comes <em class="v">at launch</em></h2><p class="sub">No money is taken yet. When the gateway is connected, this button opens ${gate} checkout.</p>`); }); };
 }
 const BUDDY = '<svg class="buddy" viewBox="0 0 48 48" aria-hidden="true" focusable="false"><path fill="url(#ffg)" d="M18 5h12a13 13 0 0 1 13 13v5a13 13 0 0 1-13 13H21l-8.5 7.5V35.2A13 13 0 0 1 5 23v-5A13 13 0 0 1 18 5z"/><g class="eyes"><ellipse cx="19" cy="19.5" rx="3.3" ry="4.1" fill="#fff"/><ellipse cx="29.5" cy="19.5" rx="3.3" ry="4.1" fill="#fff"/><g class="pup"><circle cx="19.9" cy="18.7" r="1.7" fill="#1B1340"/><circle cx="30.4" cy="18.7" r="1.7" fill="#1B1340"/></g></g><path class="smile" d="M19.6 27.4q4.9 4.3 9.8 0" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/><path class="spark" fill="#FFB020" stroke="#fff" stroke-width="1.2" stroke-linejoin="round" d="M42 1.8l1.5 3.7 3.7 1.5-3.7 1.5L42 12.2l-1.5-3.7-3.7-1.5 3.7-1.5z"/></svg>';
 /*EXTRAS*/
@@ -976,7 +982,7 @@ function closeAdmin(){ $("#adminView").classList.remove("open"); }
 function admStories(){ return S.map(s=>({s, st:statusOf(s), held:heldByFilter(s)})); }
 function renderAdmin(){
   const v=$("#adminView");
-  v.innerHTML=`<div class="adm-top"><b>FFMPA Admin</b><span style="font-size:14px;opacity:.85">Founderfreedom Ventures LLP · prototype, changes apply to this browser only</span><a href="#" id="admExit">Back to the app ›</a></div>
+  v.innerHTML=`<div class="adm-top"><b>FFMPA Admin</b><span style="font-size:14px;opacity:.85">${admHeaderNote()}</span><a href="#" id="admExit">Back to the app ›</a></div>
     <div class="adm"><nav class="adm-nav" aria-label="Admin sections">${ADM_SECTIONS.map(([k,l])=>`<button data-s="${k}" ${k===admSection?'aria-current="page"':""}>${l}</button>`).join("")}</nav><div class="adm-main" id="admMain"></div></div>`;
   v.querySelectorAll("[data-s]").forEach(b=> b.onclick=()=>{ admSection=b.dataset.s; renderAdmin(); });
   $("#admExit").onclick=e=>{ e.preventDefault(); history.replaceState(null,"",location.pathname+location.search); closeAdmin(); renderAll(); };
@@ -1109,8 +1115,10 @@ window.addEventListener("hashchange", route);
 
 /* ================= Boot ================= */
 renderAll();
+if(SB_ON && session && !session.preview && !(session.uid && store.get(AUTH_KEY,null))){ session=null; _sdel("ffmpa-session"); }
 if(location.hash!=="#admin" && (!session||session.preview)){ session=null; startWelcome("email"); }
 route();
+sbBoot();
 </script>
 </body>
 </html>

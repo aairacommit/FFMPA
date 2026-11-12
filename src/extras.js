@@ -75,7 +75,7 @@ function openProgress(){
     <p class="sub" style="margin:8px 0 0">Read 3 stories a day to keep it going. One rest day a week won't break it${si.restUsed?" (used this week)":""}.</p>
     <div class="pstats"><div><b>${readIds.size}</b><span>stories today</span></div><div><b>${words.size}</b><span>words saved</span></div><div><b>${acc}%</b><span>quiz answers right</span></div></div>
     <h3 class="ph">Achievements</h3><div class="achs">${achHTML}</div>
-    ${STATS.sample?`<p class="sub" style="font-size:12px;margin-top:12px">Prototype: includes a few days of sample history.</p>`:""}`);
+    ${STATS.sample?`<p class="sub" style="font-size:12px;margin-top:12px">Preview: includes a few days of sample history.</p>`:""}`);
 }
 
 /* ---------- today card ---------- */

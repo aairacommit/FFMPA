@@ -1,5 +1,5 @@
 S=open('app.src.html').read()
 S=S.replace('/*DATA*/',open('data.js').read()).replace('/*LEGAL*/',open('legal_final.js').read())
-S=S.replace('/*EXTRAS*/',open('extras_data.js').read()+"\n"+open('extras.js').read()+open('eggs.js').read()+open('bigs.js').read()).replace('/*EXTRACSS*/',open('extras.css').read()+open('eggs.css').read()+open('bigs.css').read())
+S=S.replace('/*EXTRAS*/',open('backend.js').read()+"\n"+open('extras_data.js').read()+"\n"+open('extras.js').read()+open('eggs.js').read()+open('bigs.js').read()).replace('/*EXTRACSS*/',open('extras.css').read()+open('eggs.css').read()+open('bigs.css').read())
 S=S.replace('.img::after{content:"";position:absolute;left:0;right:0;bottom:0;height:46%;','.img:has(img)::after{content:"";position:absolute;left:0;right:0;bottom:0;height:46%;').replace('.credit a{color:#fff}','.credit a{color:#fff}\n.img:not(:has(img)) .credit{color:var(--brand-deep);text-shadow:none}')
 open('index.html','w').write(S)

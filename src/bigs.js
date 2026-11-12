@@ -29,11 +29,14 @@ ACH.push({id:"big", t:"Big picture", d:"Big Story parts followed", ic:"globe", c
 const yrNow=()=> (typeof YR!=="undefined"&&YR[mondayOf(TODAY())])||null;
 const reports=()=>store.get("ffmpa-reports",[]);
 const yrBad=t=>/\d{6,}/.test(t.replace(/[\s-]/g,""))||/@|https?:|www\./i.test(t);
-function openYR(msg){ const A=yrNow(); if(!A) return; const mine=reports().filter(r=>r.w===mondayOf(TODAY())); const featured=mine.filter(r=>r.status==="approved");
+async function openYR(msg,bad){ const A=yrNow(); if(!A) return; let mine=[], pub=[];
+  if(SB_ON){ if(!signedIn()){ askPin(()=>{}); return; } try{ [mine,pub]=await Promise.all([myReports(),publicReports()]); }catch(e){ if(!msg){ msg=friendly(e); bad=true; } } }
+  else mine=reports().filter(r=>r.w===mondayOf(TODAY()));
+  const featured=SB_ON?[]:mine.filter(r=>r.status==="approved"); const showSamples=!SB_ON||pub.length<2;
   const stLabel={pending:"Waiting for an editor",approved:"On Sunday's front page",rejected:"Not used this time"};
   openSheet(`<span class="ttype" style="background:#FFE9DF;color:#9B2C1F">Young reporters</span><h2 id="shTitle" style="margin-top:8px">This week's <em class="v">assignment</em></h2>
     <div class="yrtask"><b>${esc(A.t)}</b><p>${esc(A.why)}</p><div class="yrtips">${A.tips.map(t=>`<span>${esc(t)}</span>`).join("")}</div></div>
-    ${msg?`<p class="msg ok" aria-live="polite">${esc(msg)}</p>`:""}
+    ${msg?`<p class="msg ${bad?"":"ok"}" aria-live="polite">${esc(msg)}</p>`:""}
     ${mine.length?`<h4 class="h4">Your reports</h4><div class="list">${mine.map(r=>`<div class="item"><span class="yrst ${r.status}">${stLabel[r.status]}</span><b>${esc(r.h)}</b>${r.b?`<p>${esc(r.b)}</p>`:""}</div>`).join("")}</div>`:""}
     <h4 class="h4">${mine.length?"Write another":"Write your report"}</h4>
     <label class="field" for="yrH">Headline: who did what, and where?<input type="text" id="yrH" maxlength="90" autocomplete="off" placeholder="Example: Class 5 plants twelve trees behind the school"></label>
@@ -41,16 +44,18 @@ function openYR(msg){ const A=yrNow(); if(!A) return; const mine=reports().filte
     <ul class="yrrules"><li>First names only, or no names at all.</li><li>No school names, addresses, phone numbers or photos.</li><li>Only things that really happened.</li></ul>
     <button class="btn sun press" id="yrGo" style="width:100%">Ask a grown-up to send it</button><p class="msg" id="yrM" aria-live="polite"></p>
     <h4 class="h4">Sunday's front page</h4>
-    <div class="yrpage">${featured.map(r=>`<div class="yrcard me"><b>${esc(r.h)}</b>${r.b?`<p>${esc(r.b)}</p>`:""}<small>You · chosen by the editors</small></div>`).join("")}${A.sample.map(r=>`<div class="yrcard"><b>${esc(r.h)}</b><p>${esc(r.b)}</p><small>${esc(r.by)}</small></div>`).join("")}</div>
-    <p class="sub" style="margin-top:10px;font-size:12.5px">Prototype: the reports above are samples. Real reports are checked by an editor and show age and country only, never a name.</p>`,
+    <div class="yrpage">${featured.map(r=>`<div class="yrcard me"><b>${esc(r.h)}</b>${r.b?`<p>${esc(r.b)}</p>`:""}<small>You · chosen by the editors</small></div>`).join("")}${pub.map(r=>`<div class="yrcard"><b>${esc(r.headline)}</b>${r.body?`<p>${esc(r.body)}</p>`:""}<small>${ageName(r.age_band)}, ${esc(ctyName(r.country))}</small></div>`).join("")}${showSamples?A.sample.map(r=>`<div class="yrcard"><b>${esc(r.h)}</b><p>${esc(r.b)}</p><small>${esc(r.by)}${SB_ON?" · example":""}</small></div>`).join(""):""}</div>
+    <p class="sub" style="margin-top:10px;font-size:12.5px">${SB_ON?"An editor reads every report before it appears. The front page shows age group and country only, never a name."+(showSamples?" Cards marked example show what a good report looks like.":""):"Prototype: the reports above are samples. Real reports are checked by an editor and show age and country only, never a name."}</p>`,
     ()=>{ $("#yrGo").onclick=()=>{ const h=$("#yrH").value.trim().replace(/\s+/g," "), b=$("#yrB").value.trim().replace(/\s+/g," ");
         if(h.length<8){ $("#yrM").textContent="Write a headline first: who did what, and where?"; return; }
         if(yrBad(h+" "+b)){ $("#yrM").textContent="Please take out phone numbers, emails and web addresses."; return; }
+        if(SB_ON){ askPin(async()=>{ try{ await sendReport(h,b); STATS.reports=(STATS.reports||0)+1; saveStats(); openYR("Sent. An editor reads every report before it appears."); toast(`${PENCIL}<span><b>Report sent</b> · well done, reporter</span>`,"#D9481E"); checkAch(); }catch(e){ openYR(reportError(e),true); } }); return; }
         askPin(()=>{ const l=reports(); l.push({id:"r"+Date.now(),w:mondayOf(TODAY()),d:TODAY(),h,b,status:"pending",age:settings.age,country:settings.country}); store.set("ffmpa-reports",l.slice(-40)); STATS.reports=(STATS.reports||0)+1; saveStats(); openYR("Sent. An editor reads every report before it appears."); toast(`${PENCIL}<span><b>Report sent</b> · well done, reporter</span>`,"#D9481E"); checkAch(); }); }; });
 }
 ACH.push({id:"yr", t:"Young reporter", d:"Reports sent to the editors", ic:"doc", c:"#D9481E", tiers:[1,4,12], m:()=>STATS.reports||0});
 const _points2=points; points=function(){ return _points2()+2*bigCount()+5*(STATS.reports||0); };
-function yrAdminHTML(){ const l=reports(); const lab={pending:"Waiting",approved:"Approved",rejected:"Declined"};
+function yrAdminHTML(){ if(SB_ON){ setTimeout(loadAdminReports,0); return `<div class="panel"><h2>Young reporters · moderation queue</h2><p class="note">Reports from every family, newest waiting ones first. Check for full names, school names, places that identify a child and anything unkind. Readers see age group and country only.</p><div id="yrAdm"><p class="note">Loading reports…</p></div></div>`; }
+  const l=reports(); const lab={pending:"Waiting",approved:"Approved",rejected:"Declined"};
   return `<div class="panel"><h2>Young reporters · moderation queue</h2><p class="note">Every report arrives with a grown-up's PIN already entered. Editors check for names, places and anything unkind before a report can appear. Readers see age and country only.</p>
     ${l.length?`<div class="tablewrap"><table class="adm-table"><thead><tr><th>Report</th><th>From</th><th>Status</th><th></th></tr></thead><tbody>${l.slice().reverse().map(r=>`<tr><td><b>${esc(r.h)}</b>${r.b?`<br><span style="color:var(--muted)">${esc(r.b)}</span>`:""}</td><td>${r.age==="x"?"Explorer":"Thinker"}, ${COUNTRIES[r.country]?COUNTRIES[r.country].name:r.country}</td><td>${lab[r.status]}</td><td style="white-space:nowrap"><button class="btn ghost press" data-yr="${r.id}:approved">Approve</button> <button class="btn ghost press" data-yr="${r.id}:rejected">Decline</button></td></tr>`).join("")}</tbody></table></div>`:`<p class="note">No reports yet on this device. Send one from the app (Play, then Young reporters) to see it arrive here.</p>`}</div>`; }
 document.addEventListener("click",e=>{ const b=e.target.closest("[data-yr]"); if(!b) return; const [id,st]=b.dataset.yr.split(":"); const l=reports(); const r=l.find(x=>x.id===id); if(r){ r.status=st; store.set("ffmpa-reports",l); renderAdmin(); } });
@@ -60,6 +65,8 @@ let klass=store.get("ffmpa-class",null);
 function classQuiz(){ const pool=deck.filter(d=>d.type==="story"&&d.s.quiz).map(d=>d.s); const B=bigNow(); const first=B?pool.filter(s=>s.id===B.story):[]; return [...first,...pool.filter(s=>!first.includes(s))].slice(0,5); }
 const newCode=()=>{ const a="ABCDEFGHJKLMNPQRSTUVWXYZ23456789"; let s=""; for(let i=0;i<6;i++) s+=a[Math.floor(Math.random()*a.length)]; return s; };
 function openClassroom(){
+  if(SB_ON&&!signedIn()){ askPin(()=>{}); return; }
+  if(SB_ON&&klass&&!klass.id){ klass=null; store.del("ffmpa-class"); }
   if(klass&&klass.role==="teacher"){ openTeacher(); return; }
   if(klass&&klass.role==="pupil"){ openPupil(); return; }
   openSheet(`<span class="ttype" style="background:#E8EFFD;color:#1E3F8F">Classroom mode</span><h2 id="shTitle" style="margin-top:8px">Read the news <em class="v">as a class</em></h2><p class="sub">One class code. No pupil names, emails or accounts. The class sees totals only.</p>
@@ -73,13 +80,15 @@ function openTeacherSetup(){
     <h4 class="h4">Reading level</h4><div class="seg" id="tcL"><button class="press" data-v="x" aria-pressed="false">Explorers</button><button class="press" data-v="o" aria-pressed="true">Thinkers</button><button class="press" data-v="n" aria-pressed="false">Navigators</button></div>
     <button class="btn sun press" id="tcGo" style="width:100%;margin-top:16px">Create class</button><p class="msg" id="tcM" aria-live="polite"></p>`,
     sh=>{ let lv="o"; sh.querySelectorAll("#tcL button").forEach(b=>b.onclick=()=>{ lv=b.dataset.v; sh.querySelectorAll("#tcL button").forEach(x=>x.setAttribute("aria-pressed",x===b)); });
-      $("#tcGo").onclick=()=>{ const n=$("#tcN").value.trim(); if(n.length<2){ $("#tcM").textContent="Give the class a name, for example Class 5B."; return; } klass={role:"teacher",name:n,level:lv,code:newCode()}; store.set("ffmpa-class",klass); openTeacher(); }; });
+      $("#tcGo").onclick=()=>{ const n=$("#tcN").value.trim(); if(n.length<2){ $("#tcM").textContent="Give the class a name, for example Class 5B."; return; } if(SB_ON){ const btn=$("#tcGo"); btn.disabled=true; createClass(n,lv).then(k=>{ klass=k; store.set("ffmpa-class",klass); openTeacher(); }).catch(e=>{ btn.disabled=false; $("#tcM").textContent=friendly(e); }); return; }
+        klass={role:"teacher",name:n,level:lv,code:newCode()}; store.set("ffmpa-class",klass); openTeacher(); }; });
 }
 function openTeacher(){ const B=bigNow(), q=classQuiz();
   openSheet(`<span class="ttype" style="background:#E8EFFD;color:#1E3F8F">Classroom mode · teacher</span><h2 id="shTitle" style="margin-top:8px">${esc(klass.name)}</h2>
     <div class="clcode"><small>Class code</small><b>${klass.code.slice(0,3)} ${klass.code.slice(3)}</b><span>Pupils join from Play, then Classroom. They never type a name.</span></div>
-    <div class="pstats"><div><b>14</b><span>pupils joined</span></div><div><b>23</b><span>stories read this week</span></div><div><b>71%</b><span>class quiz average</span></div></div>
-    <p class="sub" style="font-size:12px;margin:6px 0 0">Prototype: sample totals. You only ever see class totals, never one child.</p>
+    ${SB_ON?`<div class="pstats"><div><b id="tsP">…</b><span>pupils joined</span></div><div><b id="tsR">…</b><span>stories read this week</span></div><div><b id="tsQ">…</b><span>class quiz average</span></div></div>
+    <p class="sub" id="tsN" style="font-size:12px;margin:6px 0 0">You only ever see class totals, never one child.</p>`:`<div class="pstats"><div><b>14</b><span>pupils joined</span></div><div><b>23</b><span>stories read this week</span></div><div><b>71%</b><span>class quiz average</span></div></div>
+    <p class="sub" style="font-size:12px;margin:6px 0 0">Prototype: sample totals. You only ever see class totals, never one child.</p>`}
     <h4 class="h4">This week's class pack</h4>
     <div class="clpack">
       <button class="press" id="tcQ"><span class="ic" style="--hc:#C2367A">${ico("trophy")}</span><div><b>Class quiz on the big screen</b><small>${q.length} questions from this week's stories. Reveal each answer when the class is ready.</small></div>${ico("right")}</button>
@@ -88,20 +97,24 @@ function openTeacher(){ const B=bigNow(), q=classQuiz();
       <button class="press" id="tcY"><span class="ic" style="--hc:#D9481E">${PENCIL}</span><div><b>Young reporters assignment</b><small>${esc((yrNow()||{t:"A new assignment arrives on Monday"}).t)}</small></div>${ico("right")}</button>
     </div>
     <button class="lk press" id="tcX" style="margin:16px 0 0">Close this class</button>`,
-    ()=>{ $("#tcQ").onclick=()=>{ closeSheet(); openPresent(0,false); }; $("#tcW").onclick=()=>{ closeSheet(); openWorksheet(); }; const b=$("#tcB"); if(b) b.onclick=openBig; $("#tcY").onclick=()=>openYR(); $("#tcX").onclick=()=>{ klass=null; store.del("ffmpa-class"); openClassroom(); }; });
+    ()=>{ $("#tcQ").onclick=()=>{ closeSheet(); openPresent(0,false); }; $("#tcW").onclick=()=>{ closeSheet(); openWorksheet(); }; const b=$("#tcB"); if(b) b.onclick=openBig; $("#tcY").onclick=()=>openYR();
+      if(SB_ON&&klass.id) classSummary(klass).then(s=>{ if(!s||!$("#tsP")) return; $("#tsP").textContent=s.pupils; $("#tsR").textContent=s.reads==null?"·":s.reads; $("#tsQ").textContent=s.quiz_avg==null?"·":s.quiz_avg+"%"; if(s.pupils<3) $("#tsN").textContent="Totals appear once 3 pupils have joined, so no single child can be picked out."; }).catch(()=>{ const n=$("#tsN"); if(n) n.textContent="Could not load class totals right now."; });
+      let sure=false; $("#tcX").onclick=()=>{ if(SB_ON&&!sure){ sure=true; $("#tcX").textContent="Tap again to close this class for every pupil"; return; } const k=klass; klass=null; store.del("ffmpa-class"); if(SB_ON&&k&&k.id) leaveClass(k); openClassroom(); }; });
 }
-function openJoin(){
+function openJoin(msg){
   openSheet(`<h2 id="shTitle">Join <em class="v">your class</em></h2><p class="sub">Type the 6-letter code from your teacher. A grown-up needs to enter the PIN.</p>
     <label class="field" for="jcC">Class code<input type="text" id="jcC" maxlength="7" autocomplete="off" autocapitalize="characters" placeholder="ABC 123" style="letter-spacing:.2em;text-transform:uppercase;font-weight:700"></label>
-    <button class="btn sun press" id="jcGo" style="width:100%;margin-top:14px">Join class</button><p class="msg" id="jcM" aria-live="polite"></p>`,
-    ()=>{ $("#jcGo").onclick=()=>{ const c=$("#jcC").value.replace(/\s/g,"").toUpperCase(); if(!/^[A-Z0-9]{6}$/.test(c)){ $("#jcM").textContent="A class code has 6 letters or numbers."; return; } askPin(()=>{ klass={role:"pupil",code:c,name:"Your class"}; store.set("ffmpa-class",klass); openPupil(); }); }; });
+    <button class="btn sun press" id="jcGo" style="width:100%;margin-top:14px">Join class</button><p class="msg" id="jcM" aria-live="polite">${esc(msg||"")}</p>`,
+    ()=>{ $("#jcGo").onclick=()=>{ const c=$("#jcC").value.replace(/\s/g,"").toUpperCase(); if(!/^[A-Z0-9]{6}$/.test(c)){ $("#jcM").textContent="A class code has 6 letters or numbers."; return; } askPin(()=>{ if(SB_ON){ joinClass(c).then(k=>{ if(!k){ openJoin("We could not find that class code. Check it with your teacher."); return; } klass=k; store.set("ffmpa-class",klass); classTick(); openPupil(); }).catch(e=>openJoin(/three classes/i.test(e.message)?"You can be in three classes at most. Leave one first.":friendly(e))); return; }
+      klass={role:"pupil",code:c,name:"Your class"}; store.set("ffmpa-class",klass); openPupil(); }); }; });
 }
 function openPupil(){ const q=classQuiz();
   openSheet(`<span class="ttype" style="background:#E4F6EE;color:#0B6B4F">Classroom mode</span><h2 id="shTitle" style="margin-top:8px">${esc(klass.name)}</h2><p class="sub">Class code ${klass.code.slice(0,3)} ${klass.code.slice(3)}. Your teacher sees class totals only, never your name.</p>
-    <div class="clgoal"><div><b>Class goal</b><span>Read 60 stories together this week</span></div><div class="lbar" style="--lc:#0F8A5F"><i style="width:${Math.min(100,Math.round((23+readIds.size)/60*100))}%"></i></div><small>${23+readIds.size} of 60 · your stories today count: ${readIds.size}</small></div>
+    ${SB_ON?`<div class="clgoal"><div><b>Class goal</b><span>Read 60 stories together this week</span></div><div class="lbar" style="--lc:#0F8A5F"><i id="puBar" style="width:0%"></i></div><small id="puG">Counting your class's stories…</small></div>`:`<div class="clgoal"><div><b>Class goal</b><span>Read 60 stories together this week</span></div><div class="lbar" style="--lc:#0F8A5F"><i style="width:${Math.min(100,Math.round((23+readIds.size)/60*100))}%"></i></div><small>${23+readIds.size} of 60 · your stories today count: ${readIds.size}</small></div>`}
     <div class="clpack"><button class="press" id="puQ"><span class="ic" style="--hc:#C2367A">${ico("trophy")}</span><div><b>This week's class quiz</b><small>${q.length} questions. Same ones your class will do together.</small></div>${ico("right")}</button></div>
     <button class="lk press" id="puX" style="margin:16px 0 0">Leave this class</button>`,
-    ()=>{ $("#puQ").onclick=()=>{ quiz={qs:q,i:0,score:0,ans:false}; renderQuiz(); }; $("#puX").onclick=()=>{ klass=null; store.del("ffmpa-class"); openClassroom(); }; });
+    ()=>{ $("#puQ").onclick=()=>{ quiz={qs:q,i:0,score:0,ans:false}; renderQuiz(); }; $("#puX").onclick=()=>{ const k=klass; klass=null; store.del("ffmpa-class"); if(SB_ON&&k&&k.id) leaveClass(k); openClassroom(); };
+      if(SB_ON&&klass.id) classGoal(klass).then(g=>{ if(!g||!$("#puG")) return; const n=g.reads||0; $("#puBar").style.width=Math.min(100,Math.round(n/60*100))+"%"; $("#puG").textContent=`${n} of 60 · you read ${wkStats().reads} this week`; }).catch(()=>{ const x=$("#puG"); if(x) x.textContent="Could not load the class goal right now."; }); });
 }
 /* big-screen quiz */
 function overlay(id,html){ let o=document.getElementById(id); if(!o){ o=document.createElement("div"); o.id=id; document.body.appendChild(o); } o.innerHTML=html; o.className="fullov open"; return o; }

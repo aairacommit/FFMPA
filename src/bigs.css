@@ -155,3 +155,9 @@ html:not(.can-install) .instItem.hide-unless{display:none}
 .slide{backface-visibility:hidden}
 
 #deck .counter{transition:opacity .15s}#deck.dragging .counter{opacity:0}
+/* admin sign-in */
+.admgate{min-height:100%;display:grid;place-items:center;padding:24px;background:#F6F3EE}
+.admcard{width:min(420px,100%);background:#fff;border-radius:20px;padding:28px;box-shadow:0 10px 40px rgba(27,19,64,.12);display:grid;gap:12px}
+.admcard h1{margin:4px 0 0;font-size:26px}.admcard p{margin:0;color:var(--muted)}.admcard form{display:grid;gap:12px}
+.admlogo{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--brand-deep)}
+.admcard .err{color:#B42318;min-height:1em}.admcard a{font-size:14px}

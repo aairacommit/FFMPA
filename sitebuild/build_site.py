@@ -154,7 +154,7 @@ open(OUT+"/llms.txt","w").write(f'''# FFMPA
 - Young reporters: children can write a short report each week. A grown-up's PIN is needed to send it and an editor reads it before it appears.
 - Price: free during early access. Planned price: 100 rupees a year in India and 10 US dollars a year elsewhere.
 - Platforms: web app in any browser, installable on iPhone and iPad from Safari. Android app planned for Google Play.
-- Status: early access. A new morning edition is published every day.
+- Status: early access. A morning and an evening edition are published every day, each checked by an editor.
 
 ## Pages
 - [Home]({BASE}/): what FFMPA is and why news matters for children

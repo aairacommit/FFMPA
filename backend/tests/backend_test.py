@@ -39,6 +39,8 @@ def handle(route):
             return ok({"msg": "Token has expired or is invalid"}, 403)
         e = body["email"].lower()
         return ok({"access_token": "AT|" + e, "refresh_token": "RT|" + e, "expires_in": 3600, "expires_at": int(time.time()) + 3600, "user": {"id": uid_for(e), "email": e}})
+    if path == "/auth/v1/user":
+        return ok({"id": uid, "email": email}) if uid else ok({"msg": "bad jwt"}, 401)
     if path == "/auth/v1/logout":
         return ok(None, 204)
     if path == "/rest/v1/profiles":
@@ -221,6 +223,11 @@ with sync_playwright() as pw:
     check(p2.evaluate("localStorage.getItem('ffmpa-stats')") is None and p2.evaluate("$('#welcomeOv').classList.contains('open')"), "sign out clears this device")
     p.evaluate("renderSettings()"); p.wait_for_selector("#acDel"); p.click("#acDel"); p.click("#acYes"); p.wait_for_timeout(800)
     check(uidA not in DB["profiles"] and p.evaluate("$('#welcomeOv').classList.contains('open')"), "account deleted")
+
+    # ---------- sign-in link fallback ----------
+    cF, p6 = ctx_page(b)
+    p6.goto("https://ffmpa.com/app/#access_token=AT|link@example.com&refresh_token=RT&expires_in=3600&type=magiclink"); p6.wait_for_timeout(1500)
+    check(p6.query_selector("#wN") is not None and "access_token" not in p6.url, "sign-in link lands on child step")
 
     # ---------- prototype still works offline ----------
     cE, p5 = ctx_page(b)

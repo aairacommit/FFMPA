@@ -578,6 +578,12 @@ html:not(.can-install) .instItem.hide-unless{display:none}
 .slide{backface-visibility:hidden}
 
 #deck .counter{transition:opacity .15s}#deck.dragging .counter{opacity:0}
+/* admin sign-in */
+.admgate{min-height:100%;display:grid;place-items:center;padding:24px;background:#F6F3EE}
+.admcard{width:min(420px,100%);background:#fff;border-radius:20px;padding:28px;box-shadow:0 10px 40px rgba(27,19,64,.12);display:grid;gap:12px}
+.admcard h1{margin:4px 0 0;font-size:26px}.admcard p{margin:0;color:var(--muted)}.admcard form{display:grid;gap:12px}
+.admlogo{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--brand-deep)}
+.admcard .err{color:#B42318;min-height:1em}.admcard a{font-size:14px}
 
 /* v2: calm topic colour + word colour + key boxes */
 .card .acc{height:4px;background:var(--acc,#5B35E8);flex:none}
@@ -1484,7 +1490,7 @@ let topic = "all", deck = [], idx = 0, lastFocus = null;
 const $ = s=>document.querySelector(s);
 const esc = s=>String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const persist = ()=>{ if(session && !session.preview) store.set("ffmpa-settings", settings); };
-const saveAdmin = ()=> store.set("ffmpa-admin", ADMIN);
+const saveAdmin = ()=>{ store.set("ffmpa-admin", ADMIN); if(typeof pushAdminConfig==="function") pushAdminConfig(); };
 
 /* ================= Helpers ================= */
 function strip(t){ return t.replace(/\[\[([a-z0-9-]+)(?:\|([^\]]+))?\]\]/g,(m,k,d)=> d||(G[k]?G[k][0]:k)); }
@@ -1843,9 +1849,10 @@ function renderSettings(){
       <label class="tg" for="sSrc"><input type="checkbox" id="sSrc" ${t.sources?"checked":""}> Show sources</label>
       <label class="field" for="sLimit">Most stories per edition: <b id="sLimitV">${t.limit}</b><input type="range" id="sLimit" min="5" max="20" value="${t.limit}"></label></div></div>
     <div class="set"><h3>Change PIN</h3><label class="field" for="sPin">New 4-digit PIN (blank keeps the current one)<input type="text" id="sPin" inputmode="numeric" maxlength="4"></label><p class="msg" id="sMsg" aria-live="polite"></p></div>
+    ${acctHTML()}
     <div class="stick"><button class="btn ghost press" id="sCancel">Cancel</button><button class="btn sun press" id="sSave">Save</button></div>`,
     ()=>{
-      $("#sCancel").onclick=closeSheet; $("#sLimit").oninput=e=>$("#sLimitV").textContent=e.target.value;
+      wireAcct(); $("#sCancel").onclick=closeSheet; $("#sLimit").oninput=e=>$("#sLimitV").textContent=e.target.value;
       $("#sSave").onclick=()=>{
         const pin=$("#sPin").value.trim(); if(pin&&!/^\d{4}$/.test(pin)){ $("#sMsg").textContent="The PIN needs exactly 4 digits."; return; }
         Object.assign(settings,{name:$("#sName").value.trim(), country:$("#sCountry").value, age:document.querySelector('input[name="sAge"]:checked').value, ageLock:$("#sLock").checked,
@@ -1876,17 +1883,19 @@ function renderWelcome(){
         <p class="note">No password. We email you a 6-digit code each time you sign in.</p><p class="err" id="wErr" aria-live="polite"></p>
         <button class="btn sun press" type="submit">Email me a code</button></form>
       <button class="peek" id="wPeek">Just looking? Preview this morning's edition</button>${fine}`;
-    $("#wF").onsubmit=e=>{ e.preventDefault(); const em=$("#wE").value.trim(); if(!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(em)){ $("#wErr").textContent="Please enter a valid email address, like name@example.com."; return; } ob.email=em; ob.step="code"; renderWelcome(); $("#wC").focus(); };
+    $("#wF").onsubmit=e=>{ e.preventDefault(); const em=$("#wE").value.trim(); if(!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(em)){ $("#wErr").textContent="Please enter a valid email address, like name@example.com."; return; } ob.email=em; if(SB_ON){ const btn=e.target.querySelector("button[type=submit]"); btn.disabled=true; btn.textContent="Sending…"; sendCode(em).then(()=>{ ob.step="code"; renderWelcome(); $("#wC").focus(); }).catch(err=>{ btn.disabled=false; btn.textContent="Email me a code"; $("#wErr").textContent=friendly(err); }); return; } ob.step="code"; renderWelcome(); $("#wC").focus(); };
     $("#wPeek").onclick=()=>{ session={preview:true}; $("#welcomeOv").classList.remove("open"); renderAll(); };
   }
   if(ob.step==="code"){
     w.innerHTML=`${top}<h1 id="wcTitle">Check your <em class="v">inbox.</em></h1><p class="lede">We sent a 6-digit code to <b>${esc(ob.email)}</b>. It expires in 10 minutes.</p>
       <form class="wbox" id="wF" novalidate>${bar(1)}<label class="field" for="wC">Your code<input class="codein" id="wC" inputmode="numeric" autocomplete="one-time-code" maxlength="6" placeholder="······"></label>
-        <p class="note">Prototype: use code ${DEMO_CODE}.</p><p class="err" id="wErr" aria-live="polite"></p><button class="btn sun press" type="submit">Sign in</button>
+        ${SB_ON?`<p class="note">Not there? Check spam, or wait a minute and send a new code.</p>`:`<p class="note">Prototype: use code ${DEMO_CODE}.</p>`}<p class="err" id="wErr" aria-live="polite"></p><button class="btn sun press" type="submit">Sign in</button>
         <div class="row" style="justify-content:space-between"><button class="linkbtn" type="button" id="wB">Use a different email</button><button class="linkbtn" type="button" id="wR">Send a new code</button></div></form>${fine}`;
-    $("#wF").onsubmit=e=>{ e.preventDefault(); const c=$("#wC").value.replace(/\D/g,""); if(c.length!==6){ $("#wErr").textContent="The code has 6 digits."; return; } if(c!==DEMO_CODE){ $("#wErr").textContent="That code did not match. Check the latest email from FFMPA and try again."; return; }
+    $("#wF").onsubmit=e=>{ e.preventDefault(); const c=$("#wC").value.replace(/\D/g,""); if(c.length!==6){ $("#wErr").textContent="The code has 6 digits."; return; }
+      if(SB_ON){ const btn=e.target.querySelector("button[type=submit]"); btn.disabled=true; btn.textContent="Checking…"; verifyCode(ob.email,c).then(tok=>{ ob.tok=tok; return afterSignIn(tok); }).then(r=>{ if(r==="new"){ ob.step="child"; renderWelcome(); } }).catch(err=>{ btn.disabled=false; btn.textContent="Sign in"; $("#wErr").textContent=friendly(err); }); return; }
+      if(c!==DEMO_CODE){ $("#wErr").textContent="That code did not match. Check the latest email from FFMPA and try again."; return; }
       const ex=store.get("ffmpa-account-"+ob.email.toLowerCase(),null); if(ex){ settings=Object.assign({},DEFAULT_SETTINGS,ex); finish(); return; } ob.step="child"; renderWelcome(); };
-    $("#wB").onclick=()=>{ ob.step="email"; renderWelcome(); }; $("#wR").onclick=()=>{ $("#wErr").textContent="A new code is on its way."; };
+    $("#wB").onclick=()=>{ ob.step="email"; renderWelcome(); }; $("#wR").onclick=()=>{ if(!SB_ON){ $("#wErr").textContent="A new code is on its way."; return; } sendCode(ob.email).then(()=>{ $("#wErr").textContent="A new code is on its way. Use the newest email."; }).catch(err=>{ $("#wErr").textContent=friendly(err); }); };
   }
   if(ob.step==="child"){
     w.innerHTML=`${top}<h1 id="wcTitle">Who is <em class="v">reading?</em></h1><p class="lede">Just a first name or nickname. No photos, birthdays or school details.</p>
@@ -1912,8 +1921,11 @@ function renderWelcome(){
     $("#wF").onsubmit=e=>{ e.preventDefault(); const p=$("#wP").value.trim(); if(!/^\d{4}$/.test(p)){ $("#wErr").textContent="Please choose exactly 4 digits."; return; } settings=Object.assign({},DEFAULT_SETTINGS,{name:ob.name,age:ob.age,country:ob.country,pin:p,created:Date.now(),early:ADMIN.plan.mode!=="paid"}); finish(); };
   }
 }
-function finish(){ session={email:ob.email}; store.set("ffmpa-session",session); store.set("ffmpa-settings",settings); store.set("ffmpa-account-"+ob.email.toLowerCase(),settings); $("#welcomeOv").classList.remove("open"); topic="all"; idx=0; renderAll(); }
-function signOut(){ if(session&&session.email) store.set("ffmpa-account-"+session.email.toLowerCase(),settings); store.del("ffmpa-session"); session=null; ob={step:"email",email:"",name:"",age:"o",country:"IN"}; closeSheet(); startWelcome("email"); }
+function finish(){ if(SB_ON&&ob.tok){ session={email:ob.tok.email,uid:ob.tok.uid}; if(STATS&&STATS.sample){ STATS={days:{},editions:{},explainers:0,more:0,perfect:0,qAns:0,qRight:0,cats:{},puzzles:{},crafts:{},unlocked:{}}; _sset("ffmpa-stats",STATS); }
+    _sset("ffmpa-session",session); _sset("ffmpa-settings",settings); createProfile().catch(()=>queueSync()); $("#welcomeOv").classList.remove("open"); topic="all"; idx=0; renderAll(); return; }
+  session={email:ob.email}; store.set("ffmpa-session",session); store.set("ffmpa-settings",settings); store.set("ffmpa-account-"+ob.email.toLowerCase(),settings); $("#welcomeOv").classList.remove("open"); topic="all"; idx=0; renderAll(); }
+function signOut(){ if(SB_ON&&session&&session.uid){ const done=()=>{ _sdel("ffmpa-session"); session=null; klass=null; settings=Object.assign({},DEFAULT_SETTINGS); words=new Set(); readIds=new Set(); ob={step:"email",email:"",name:"",age:"o",country:"IN"}; closeSheet(); startWelcome("email"); }; sbSignOut().then(done,done); return; }
+  if(session&&session.email) store.set("ffmpa-account-"+session.email.toLowerCase(),settings); store.del("ffmpa-session"); session=null; ob={step:"email",email:"",name:"",age:"o",country:"IN"}; closeSheet(); startWelcome("email"); }
 
 function openPlan(){
   const ps=planState();
@@ -1922,9 +1934,176 @@ function openPlan(){
   openSheet(`<h2 id="shTitle">FFMPA <em class="v">Family</em></h2><p class="sub">${ps.sub?(ps.early?"You joined early, so FFMPA stays free for your family.":"Your membership is active."):ps.left>0?`Your free trial has ${ps.left} day${ps.left===1?"":"s"} left.`:"Your free trial has ended."}</p>
     <div class="box think"><h4>${esc(ps.price)}</h4><p>One plan for every child on your account. Calm, checked news twice a day, no links out, no personal ads.</p></div>
     ${ps.sub?"":`<p class="sub" style="margin-top:14px">Grown-ups only. You'll need your PIN.</p><button class="btn sun press" id="plBuy" style="width:100%;margin-top:6px">Continue to payment</button><p class="sub" style="margin-top:8px;font-size:13px">Secure payment by ${gate}. Connected at launch.</p>`}`);
-  const b=document.getElementById("plBuy"); if(b) b.onclick=()=>{ askPin(()=>{ openSheet(`<h2 id="shTitle">Payment comes <em class="v">at launch</em></h2><p class="sub">In this prototype no money is taken. When the gateway is connected, this button opens ${gate} checkout.</p>`); }); };
+  const b=document.getElementById("plBuy"); if(b) b.onclick=()=>{ askPin(()=>{ openSheet(`<h2 id="shTitle">Payment comes <em class="v">at launch</em></h2><p class="sub">No money is taken yet. When the gateway is connected, this button opens ${gate} checkout.</p>`); }); };
 }
 const BUDDY = '<svg class="buddy" viewBox="0 0 48 48" aria-hidden="true" focusable="false"><path fill="url(#ffg)" d="M18 5h12a13 13 0 0 1 13 13v5a13 13 0 0 1-13 13H21l-8.5 7.5V35.2A13 13 0 0 1 5 23v-5A13 13 0 0 1 18 5z"/><g class="eyes"><ellipse cx="19" cy="19.5" rx="3.3" ry="4.1" fill="#fff"/><ellipse cx="29.5" cy="19.5" rx="3.3" ry="4.1" fill="#fff"/><g class="pup"><circle cx="19.9" cy="18.7" r="1.7" fill="#1B1340"/><circle cx="30.4" cy="18.7" r="1.7" fill="#1B1340"/></g></g><path class="smile" d="M19.6 27.4q4.9 4.3 9.8 0" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/><path class="spark" fill="#FFB020" stroke="#fff" stroke-width="1.2" stroke-linejoin="round" d="M42 1.8l1.5 3.7 3.7 1.5-3.7 1.5L42 12.2l-1.5-3.7-3.7-1.5 3.7-1.5z"/></svg>';
+/* ================= Backend: Supabase (auth by email code, saved progress, reports, classes, admin) =================
+   Plain fetch against Supabase Auth and PostgREST, no third-party script.
+   Runs only on https://ffmpa.com style hosts. On file://, the claude.ai preview or with ?demo, the app keeps the
+   on-device prototype so it can still be shown and tested offline. */
+const SB={url:"https://gqfxgkzetapivlbybamf.supabase.co", key:"sb_publishable_JbpNbD2Q0mKlCqnslmKOSw_q5byg4gs"};
+const SB_ON=(()=>{ try{ const h=location.hostname, q=new URLSearchParams(location.search);
+  if(location.protocol!=="https:"||q.has("demo")||q.has("sample")) return false;
+  return /(^|\.)ffmpa\.com$|\.pages\.dev$/.test(h); }catch(e){ return false; } })();
+const AUTH_KEY="ffmpa-auth", ADMIN_AUTH_KEY="ffmpa-admin-auth";
+const SYNC_RE=/^ffmpa-(settings|stats|words|finds|comfort|class|read-\d{4}-\d{2}-\d{2})$/;
+const signedIn=()=>!!(SB_ON&&session&&session.uid);
+
+/* ---------- low level ---------- */
+const _refreshing={};
+function saveTok(key,d){ const t={access_token:d.access_token, refresh_token:d.refresh_token, expires_at:d.expires_at||Math.floor(Date.now()/1000)+(d.expires_in||3600), email:(d.user&&d.user.email)||"", uid:(d.user&&d.user.id)||""}; const old=store.get(key,null); if(old&&!t.email){ t.email=old.email; t.uid=old.uid; } store.set(key,t); return t; }
+async function accessToken(key){ let t=store.get(key,null); if(!t) return null;
+  if(Date.now()/1000 < t.expires_at-90) return t.access_token;
+  if(!_refreshing[key]) _refreshing[key]=(async()=>{ try{ const d=await sbFetch("/auth/v1/token?grant_type=refresh_token",{method:"POST",body:{refresh_token:t.refresh_token},auth:false}); return saveTok(key,d).access_token; }
+    catch(e){ if(e.status===400||e.status===401||e.status===403) store.del(key); return null; } finally{ setTimeout(()=>{ delete _refreshing[key]; },0); } })();
+  return _refreshing[key]; }
+async function sbFetch(path,o){ o=o||{}; const h={apikey:SB.key,"Content-Type":"application/json"}; Object.assign(h,o.headers||{});
+  if(o.auth!==false){ const tk=await accessToken(o.as||AUTH_KEY); if(tk) h.Authorization="Bearer "+tk; else if(o.need){ const e=new Error("signed out"); e.status=401; throw e; } }
+  const r=await fetch(SB.url+path,{method:o.method||"GET",headers:h,body:o.body==null?undefined:JSON.stringify(o.body),keepalive:!!o.keepalive});
+  const txt=await r.text(); let data=null; try{ data=txt?JSON.parse(txt):null; }catch(e){ data=txt; }
+  if(!r.ok){ const e=new Error((data&&(data.msg||data.message||data.error_description||data.error))||("HTTP "+r.status)); e.status=r.status; e.data=data; throw e; }
+  return data; }
+const rpc=(fn,args,o)=>sbFetch("/rest/v1/rpc/"+fn,Object.assign({method:"POST",body:args||{},need:true},o||{}));
+function friendly(e){ const m=String((e&&e.message)||"");
+  if(e&&e.status===429||/rate|seconds/i.test(m)) return "Please wait a minute, then ask for a new code.";
+  if(/expired|invalid|otp/i.test(m)) return "That code did not match or has expired. Check the latest email from FFMPA, or send a new code.";
+  if(/Failed to fetch|NetworkError|load failed/i.test(m)) return "We could not reach FFMPA. Check your internet connection and try again.";
+  return "Something went wrong. Please try again in a moment."; }
+
+/* ---------- email code sign-in ---------- */
+const sendCode=email=>sbFetch("/auth/v1/otp?redirect_to="+encodeURIComponent(location.origin+"/app/"),{method:"POST",auth:false,body:{email,create_user:true}});
+/* The email also carries a sign-in link. If a grown-up taps it, Supabase sends them back here with the session in the address. */
+async function sbHashLogin(){ const h=location.hash; if(!/access_token=|error_description=/.test(h)) return false; const q=new URLSearchParams(h.slice(1)); history.replaceState(null,"",location.pathname+location.search);
+  if(!q.get("access_token")){ startWelcome("email"); setTimeout(()=>{ const e=$("#wErr"); if(e) e.textContent="That sign-in link has expired. Ask for a new code below."; },50); return true; }
+  try{ const d={access_token:q.get("access_token"),refresh_token:q.get("refresh_token"),expires_in:+q.get("expires_in")||3600,expires_at:+q.get("expires_at")||0};
+    const u=await fetch(SB.url+"/auth/v1/user",{headers:{apikey:SB.key,Authorization:"Bearer "+d.access_token}}).then(r=>r.json()); d.user=u; const tok=saveTok(AUTH_KEY,d);
+    ob.email=tok.email; ob.tok=tok; const r=await afterSignIn(tok); if(r==="new") startWelcome("child"); }
+  catch(e){ startWelcome("email"); }
+  return true; }
+async function verifyCode(email,code,key){ const d=await sbFetch("/auth/v1/verify",{method:"POST",auth:false,body:{type:"email",email,token:code}}); return saveTok(key||AUTH_KEY,d); }
+
+/* ---------- saved progress ---------- */
+function snapshot(){ const read={}; for(let i=0;i<localStorage.length;i++){ const k=localStorage.key(i); const m=k&&k.match(/^ffmpa-read-(\d{4}-\d{2}-\d{2})$/); if(m) read[m[1]]=store.get(k,[]); }
+  const keep=Object.keys(read).sort().slice(-5); const r2={}; keep.forEach(d=>r2[d]=read[d]);
+  return {settings:store.get("ffmpa-settings",settings), progress:{stats:store.get("ffmpa-stats",null), words:store.get("ffmpa-words",[]), finds:store.get("ffmpa-finds",{}), comfort:store.get("ffmpa-comfort",null), klass:store.get("ffmpa-class",null), read:r2, v:1}}; }
+function clearLocalProgress(){ const del=[]; for(let i=0;i<localStorage.length;i++){ const k=localStorage.key(i); if(k&&(SYNC_RE.test(k)||k==="ffmpa-synced-at"||k==="ffmpa-headlines"||k==="ffmpa-reports")) del.push(k); } del.forEach(k=>store.del(k)); }
+function applyRemote(p){ clearLocalProgress(); _sset("ffmpa-settings",Object.assign({},DEFAULT_SETTINGS,p.settings||{})); const g=p.progress||{};
+  if(g.stats) _sset("ffmpa-stats",g.stats); if(g.words) _sset("ffmpa-words",g.words); if(g.finds) _sset("ffmpa-finds",g.finds); if(g.comfort) _sset("ffmpa-comfort",g.comfort); if(g.klass) _sset("ffmpa-class",g.klass);
+  Object.entries(g.read||{}).forEach(([d,ids])=>_sset("ffmpa-read-"+d,ids)); _sset("ffmpa-synced-at",p.updated_at||new Date().toISOString()); }
+let _syncT=null, _syncing=false, _dirty=false;
+function queueSync(){ _dirty=true; clearTimeout(_syncT); _syncT=setTimeout(pushProfile,3500); }
+async function pushProfile(keepalive){ if(!signedIn()||!_dirty) return; if(_syncing){ queueSync(); return; } _syncing=true; _dirty=false;
+  try{ const s=snapshot(); const r=await sbFetch("/rest/v1/profiles?id=eq."+session.uid,{method:"PATCH",body:s,headers:{Prefer:"return=representation"},need:true,keepalive:!!keepalive});
+    if(r&&r[0]) _sset("ffmpa-synced-at",r[0].updated_at); }
+  catch(e){ _dirty=true; if(e.status===401){ sbSignedOut(); } } finally{ _syncing=false; } }
+const _sset=store.set, _sdel=store.del;
+store.set=function(k,v){ _sset(k,v); if(SYNC_RE.test(k)&&signedIn()) queueSync(); };
+store.del=function(k){ _sdel(k); if(SYNC_RE.test(k)&&signedIn()) queueSync(); };
+document.addEventListener("visibilitychange",()=>{ if(document.visibilityState==="hidden"&&_dirty){ clearTimeout(_syncT); pushProfile(true); } });
+
+/* After the code is checked: returning family restores everything, new family continues to the child steps. */
+async function afterSignIn(tok){ const prev=store.get("ffmpa-session",null);
+  const rows=await sbFetch("/rest/v1/profiles?select=settings,progress,consent_at,updated_at&id=eq."+tok.uid,{need:true});
+  const p=rows&&rows[0];
+  if(p&&p.consent_at){ applyRemote(p); _sset("ffmpa-session",{email:tok.email,uid:tok.uid}); location.reload(); return "done"; }
+  /* keep this device's progress only if it belongs to the same email (people who used the early preview) */
+  if(!(prev&&prev.email&&prev.email.toLowerCase()===tok.email.toLowerCase())) clearLocalProgress();
+  return "new"; }
+async function createProfile(){ const s=snapshot(); s.id=session.uid; s.consent_at=new Date().toISOString();
+  await sbFetch("/rest/v1/profiles",{method:"POST",body:s,headers:{Prefer:"resolution=merge-duplicates,return=minimal"},need:true}); _sset("ffmpa-synced-at",new Date().toISOString()); }
+function sbSignedOut(){ store.del(AUTH_KEY); if(session&&session.uid){ session=null; _sdel("ffmpa-session"); startWelcome("email"); } }
+async function sbSignOut(){ try{ await pushProfile(); await sbFetch("/auth/v1/logout",{method:"POST",need:true}); }catch(e){} _sdel(AUTH_KEY); clearLocalProgress(); }
+
+/* Boot: refresh from the cloud if another device saved newer progress; load shared admin settings. */
+async function sbBoot(){ if(!SB_ON) return;
+  loadPublicConfig();
+  if(await sbHashLogin()) return;
+  if(!signedIn()) return;
+  try{ const tk=await accessToken(AUTH_KEY); if(!tk){ sbSignedOut(); return; }
+    const rows=await sbFetch("/rest/v1/profiles?select=settings,progress,consent_at,updated_at&id=eq."+session.uid,{need:true}); const p=rows&&rows[0];
+    if(!p){ await createProfile(); return; }
+    const mine=store.get("ffmpa-synced-at","");
+    if(p.updated_at&&(!mine||p.updated_at>mine)&&!sessionStorage.getItem("ffmpa-pulled")){ sessionStorage.setItem("ffmpa-pulled","1"); applyRemote(p); location.reload(); return; }
+    if(klass&&!klass.id){ klass=null; _sdel("ffmpa-class"); }
+    classTick();
+  }catch(e){ if(e.status===401) sbSignedOut(); } }
+
+/* ---------- shared admin settings ---------- */
+function mergeAdmin(v){ ADMIN=Object.assign({},ADMIN_DEFAULT,v||{}); ADMIN.countries=Object.assign({},ADMIN_DEFAULT.countries,ADMIN.countries||{}); delete ADMIN.countries.CN; ADMIN.plan=Object.assign({},ADMIN_DEFAULT.plan,ADMIN.plan||{}); }
+async function loadPublicConfig(){ try{ const r=await sbFetch("/rest/v1/app_config?select=value,updated_at&key=eq.admin",{auth:false}); if(r&&r[0]){ const before=JSON.stringify(ADMIN); mergeAdmin(r[0].value); _sset("ffmpa-admin",ADMIN); if(JSON.stringify(ADMIN)!==before){ if($("#adminView").classList.contains("open")) renderAdmin(); else if(session&&!$("#welcomeOv").classList.contains("open")) renderAll(); } } }catch(e){} }
+let _admT=null;
+function pushAdminConfig(){ if(!SB_ON) return; clearTimeout(_admT); _admT=setTimeout(async()=>{ try{ await sbFetch("/rest/v1/app_config",{method:"POST",as:ADMIN_AUTH_KEY,need:true,body:{key:"admin",value:ADMIN},headers:{Prefer:"resolution=merge-duplicates,return=minimal"}}); admNote("Saved for every family."); }catch(e){ admNote("Could not save: "+(e.status===401?"please sign in again.":friendly(e)),true); } },900); }
+function admNote(t,bad){ const n=$("#admSync"); if(n){ n.textContent=t; n.style.color=bad?"#FFD2C2":""; } }
+
+/* ---------- admin sign-in ---------- */
+let admIsAdmin=false, admStep={s:"email",email:""};
+const _openAdmin0=openAdmin;
+openAdmin=async function(){ if(!SB_ON){ _openAdmin0(); return; }
+  const v=$("#adminView"); v.classList.add("open");
+  const t=store.get(ADMIN_AUTH_KEY,null);
+  if(t&&admIsAdmin){ _openAdmin0(); return; }
+  if(t){ v.innerHTML=`<div class="admgate"><p>Checking your admin access…</p></div>`; try{ admIsAdmin=await rpc("is_admin",{}, {as:ADMIN_AUTH_KEY}); }catch(e){ admIsAdmin=false; }
+    if(admIsAdmin){ _openAdmin0(); return; } store.del(ADMIN_AUTH_KEY); admStep={s:"email",email:"",msg:"That email is not an FFMPA admin."}; }
+  renderAdmGate(); };
+function renderAdmGate(){ const v=$("#adminView"); const s=admStep;
+  v.innerHTML=`<div class="admgate"><div class="admcard"><b class="admlogo">FFMPA Admin</b>${s.s==="email"?`<h1>Sign in</h1><p>Admins sign in with a one-time code sent to their email. There is no password.</p>
+      <form id="agF" novalidate><label class="field" for="agE">Admin email<input type="email" id="agE" autocomplete="email" value="${esc(s.email)}"></label><button class="btn sun press" type="submit">Email me a code</button></form>`
+    :`<h1>Check your inbox</h1><p>We sent a 6-digit code to <b>${esc(s.email)}</b>.</p>
+      <form id="agF" novalidate><label class="field" for="agC">Code<input class="codein" id="agC" inputmode="numeric" autocomplete="one-time-code" maxlength="6"></label><button class="btn sun press" type="submit">Sign in</button></form><button class="linkbtn" id="agB">Use a different email</button>`}
+    <p class="err" id="agM" aria-live="polite">${esc(s.msg||"")}</p><a href="#" id="agX">Back to the app ›</a></div></div>`;
+  $("#agX").onclick=e=>{ e.preventDefault(); history.replaceState(null,"",location.pathname+location.search); closeAdmin(); renderAll(); };
+  const b=$("#agB"); if(b) b.onclick=()=>{ admStep={s:"email",email:s.email}; renderAdmGate(); };
+  $("#agF").onsubmit=async e=>{ e.preventDefault(); const m=$("#agM"), btn=e.target.querySelector("button"); btn.disabled=true; m.textContent="";
+    try{ if(s.s==="email"){ const em=$("#agE").value.trim().toLowerCase(); if(!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(em)){ m.textContent="Enter a valid email."; btn.disabled=false; return; } await sendCode(em); admStep={s:"code",email:em}; renderAdmGate(); $("#agC").focus(); }
+      else { const c=$("#agC").value.replace(/\D/g,""); if(c.length!==6){ m.textContent="The code has 6 digits."; btn.disabled=false; return; } await verifyCode(s.email,c,ADMIN_AUTH_KEY); admIsAdmin=false; openAdmin(); } }
+    catch(err){ m.textContent=friendly(err); btn.disabled=false; } };
+  const f=v.querySelector("input"); if(f) f.focus(); }
+async function admSignOut(){ try{ await sbFetch("/auth/v1/logout",{method:"POST",as:ADMIN_AUTH_KEY,need:true}); }catch(e){} store.del(ADMIN_AUTH_KEY); admIsAdmin=false; admStep={s:"email",email:""}; renderAdmGate(); }
+function admHeaderNote(){ if(!SB_ON) return "Founderfreedom Ventures LLP · prototype, changes apply to this browser only"; const t=store.get(ADMIN_AUTH_KEY,{}); return `Signed in as ${esc(t.email||"")} · <span id="admSync">changes apply to every family</span> · <a href="#" id="admOut" style="color:inherit">Sign out</a>`; }
+const _renderAdmin0=renderAdmin;
+renderAdmin=function(){ _renderAdmin0(); const o=$("#admOut"); if(o) o.onclick=e=>{ e.preventDefault(); admSignOut(); };
+  if(SB_ON&&admSection==="dashboard"){ const m=$("#admMain"); if(!m) return; const p=document.createElement("div"); p.className="panel"; p.innerHTML=`<h2>Families and classes (live)</h2><div class="kpis" id="admLive"><div class="kpi"><b>…</b><span>Loading</span></div></div>`; const h=m.querySelector(".kpis"); if(h) h.after(p); else m.prepend(p);
+    rpc("admin_overview",{}, {as:ADMIN_AUTH_KEY}).then(r=>{ const x=(r&&r[0])||{}; const el=$("#admLive"); if(el) el.innerHTML=[["families","Family accounts"],["signed_in_7d","Signed in, last 7 days"],["reports_waiting","Young reporter reports waiting"],["classes","Classes"],["pupils","Pupils in classes"]].map(([k,l])=>`<div class="kpi"><b>${x[k]==null?"·":x[k]}</b><span>${l}</span></div>`).join(""); }).catch(()=>{ const el=$("#admLive"); if(el) el.innerHTML=`<p class="note">Could not load live numbers. Sign out and in again.</p>`; }); } };
+
+/* ---------- Young reporters ---------- */
+const mapReport=r=>({id:r.id,w:r.week,h:r.headline,b:r.body||"",status:r.status,age:r.age_band,country:r.country,at:r.created_at});
+async function myReports(){ const w=mondayOf(TODAY()); const r=await sbFetch("/rest/v1/reports?select=id,week,headline,body,status,age_band,country,created_at&week=eq."+w+"&order=created_at.asc",{need:true}); return (r||[]).map(mapReport); }
+async function publicReports(){ try{ return (await rpc("get_public_reports",{p_week:mondayOf(TODAY())},{need:false}))||[]; }catch(e){ return []; } }
+async function sendReport(h,b){ await sbFetch("/rest/v1/reports",{method:"POST",need:true,headers:{Prefer:"return=minimal"},body:{week:mondayOf(TODAY()),headline:h,body:b,age_band:settings.age==="x"||settings.age==="n"?settings.age:"o",country:settings.country}}); }
+function reportError(e){ const m=String(e&&e.message||""); if(/five reports/i.test(m)) return "That is five reports this week, the most you can send. Try again next Monday."; if(/links|phone/i.test(m)) return "Please take out phone numbers, emails and web addresses."; return friendly(e); }
+const ageName=a=>a==="x"?"Explorer":a==="n"?"Navigator":"Thinker";
+const ctyName=c=>COUNTRIES[c]?COUNTRIES[c].name:c;
+async function loadAdminReports(){ const el=$("#yrAdm"); if(!el) return; try{ const since=isoOf(Date.now()-35*DAY);
+    const r=(await sbFetch("/rest/v1/reports?select=id,week,headline,body,status,age_band,country,created_at&created_at=gte."+since+"&order=created_at.desc&limit=200",{as:ADMIN_AUTH_KEY,need:true})||[]).map(mapReport);
+    const lab={pending:"Waiting",approved:"Approved",rejected:"Declined"}; const order={pending:0,approved:1,rejected:2}; r.sort((a,b)=>order[a.status]-order[b.status]);
+    el.innerHTML=r.length?`<div class="tablewrap"><table class="adm-table"><thead><tr><th>Report</th><th>From</th><th>Week</th><th>Status</th><th></th></tr></thead><tbody>${r.map(x=>`<tr><td><b>${esc(x.h)}</b>${x.b?`<br><span style="color:var(--muted)">${esc(x.b)}</span>`:""}</td><td>${ageName(x.age)}, ${esc(ctyName(x.country))}</td><td>${shortDate(x.w)}</td><td>${lab[x.status]}</td><td style="white-space:nowrap">${x.status!=="approved"?`<button class="btn ghost press" data-yrs="${x.id}:approved">Approve</button>`:""} ${x.status!=="rejected"?`<button class="btn ghost press" data-yrs="${x.id}:rejected">Decline</button>`:""}</td></tr>`).join("")}</tbody></table></div>`:`<p class="note">No reports in the last five weeks.</p>`; }
+  catch(e){ el.innerHTML=`<p class="note">Could not load reports (${esc(friendly(e))}).</p>`; } }
+document.addEventListener("click",async e=>{ const b=e.target.closest("[data-yrs]"); if(!b) return; const [id,st]=b.dataset.yrs.split(":"); b.disabled=true;
+  try{ await sbFetch("/rest/v1/reports?id=eq."+id,{method:"PATCH",as:ADMIN_AUTH_KEY,need:true,headers:{Prefer:"return=minimal"},body:{status:st,reviewed_at:new Date().toISOString()}}); loadAdminReports(); }catch(err){ b.disabled=false; alertAdm(friendly(err)); } });
+function alertAdm(t){ admNote(t,true); }
+
+/* ---------- Classroom ---------- */
+async function createClass(name,level){ for(let i=0;i<5;i++){ const code=newCode(); try{ const r=await sbFetch("/rest/v1/classes?select=id,code,name,level",{method:"POST",need:true,headers:{Prefer:"return=representation"},body:{code,name,level}}); const c=r[0]; return {role:"teacher",id:c.id,code:c.code,name:c.name,level:c.level}; }catch(e){ if(e.status!==409) throw e; } } throw new Error("Could not make a class code. Try again."); }
+async function joinClass(code){ const r=await rpc("join_class",{p_code:code}); const c=r&&r[0]; if(!c) return null; return {role:"pupil",id:c.id,code,name:c.name,level:c.level}; }
+async function leaveClass(k){ try{ if(k.role==="teacher") await sbFetch("/rest/v1/classes?id=eq."+k.id,{method:"DELETE",need:true}); else await rpc("leave_class",{p_class:k.id}); }catch(e){} }
+const classSummary=k=>rpc("class_summary",{p_class:k.id,p_week:mondayOf(TODAY())}).then(r=>r&&r[0]);
+const classGoal=k=>rpc("class_goal",{p_class:k.id,p_week:mondayOf(TODAY())}).then(r=>r&&r[0]);
+/* weekly totals for the class (only sent while the child is in a class) */
+function wkStats(){ const w=mondayOf(TODAY()); if(!STATS.wk||STATS.wk.w!==w) STATS.wk={w,reads:0,right:0,total:0}; return STATS.wk; }
+let _clT=null;
+function classTick(){ if(!signedIn()||!klass||klass.role!=="pupil"||!klass.id) return; clearTimeout(_clT); _clT=setTimeout(()=>{ const s=wkStats(); rpc("class_report",{p_week:s.w,p_reads:s.reads,p_right:s.right,p_total:s.total}).catch(()=>{}); },5000); }
+const _recordRead0=recordRead; recordRead=function(s){ const k=wkStats(); k.reads++; _recordRead0(s); classTick(); };
+const _statQ0=statQ; statQ=function(ok){ const k=wkStats(); k.total++; if(ok) k.right++; _statQ0(ok); classTick(); };
+
+/* ---------- account: download and delete ---------- */
+function acctHTML(){ if(!signedIn()) return ""; return `<div class="set"><h3>Your account</h3><p class="note">Your family's settings and reading progress are saved to your account so they follow you to any device. We never store your child's photo, birthday or school.</p>
+  <div class="row" style="gap:8px;flex-wrap:wrap"><button class="btn ghost press" id="acDl" type="button">Download my data</button><button class="btn ghost press" id="acDel" type="button" style="color:#B42318">Delete account</button></div><p class="msg" id="acM" aria-live="polite"></p></div>`; }
+function wireAcct(){ const dl=$("#acDl"), del=$("#acDel"); if(!dl) return;
+  dl.onclick=async()=>{ try{ const [p,r]=await Promise.all([sbFetch("/rest/v1/profiles?select=*&id=eq."+session.uid,{need:true}),sbFetch("/rest/v1/reports?select=week,headline,body,status,age_band,country,created_at",{need:true})]);
+    const blob=new Blob([JSON.stringify({account:session.email,profile:p&&p[0],reports:r},null,2)],{type:"application/json"}); const a=document.createElement("a"); a.href=URL.createObjectURL(blob); a.download="ffmpa-my-data.json"; a.click(); setTimeout(()=>URL.revokeObjectURL(a.href),4000); }catch(e){ $("#acM").textContent=friendly(e); } };
+  del.onclick=()=>{ $("#acM").innerHTML=`This deletes your account, your child's progress, reports and classes for good. <button class="btn press" id="acYes" type="button" style="background:#B42318;color:#fff;margin-top:8px">Yes, delete everything</button>`;
+    $("#acYes").onclick=async()=>{ $("#acYes").disabled=true; try{ await rpc("delete_my_account",{}); _sdel(AUTH_KEY); clearLocalProgress(); _sdel("ffmpa-session"); session=null; klass=null; closeSheet(); startWelcome("email"); }catch(e){ $("#acM").textContent=friendly(e); } }; }; }
+
 /* ===== Extras data: "today" facts, weekly puzzles, Sunday crafts. The daily pipeline writes these; editors approve. ===== */
 const ONTHISDAY = {
  "2026-11-11": {
@@ -2246,7 +2425,7 @@ function openProgress(){
     <p class="sub" style="margin:8px 0 0">Read 3 stories a day to keep it going. One rest day a week won't break it${si.restUsed?" (used this week)":""}.</p>
     <div class="pstats"><div><b>${readIds.size}</b><span>stories today</span></div><div><b>${words.size}</b><span>words saved</span></div><div><b>${acc}%</b><span>quiz answers right</span></div></div>
     <h3 class="ph">Achievements</h3><div class="achs">${achHTML}</div>
-    ${STATS.sample?`<p class="sub" style="font-size:12px;margin-top:12px">Prototype: includes a few days of sample history.</p>`:""}`);
+    ${STATS.sample?`<p class="sub" style="font-size:12px;margin-top:12px">Preview: includes a few days of sample history.</p>`:""}`);
 }
 
 /* ---------- today card ---------- */
@@ -2717,11 +2896,14 @@ ACH.push({id:"big", t:"Big picture", d:"Big Story parts followed", ic:"globe", c
 const yrNow=()=> (typeof YR!=="undefined"&&YR[mondayOf(TODAY())])||null;
 const reports=()=>store.get("ffmpa-reports",[]);
 const yrBad=t=>/\d{6,}/.test(t.replace(/[\s-]/g,""))||/@|https?:|www\./i.test(t);
-function openYR(msg){ const A=yrNow(); if(!A) return; const mine=reports().filter(r=>r.w===mondayOf(TODAY())); const featured=mine.filter(r=>r.status==="approved");
+async function openYR(msg,bad){ const A=yrNow(); if(!A) return; let mine=[], pub=[];
+  if(SB_ON){ if(!signedIn()){ askPin(()=>{}); return; } try{ [mine,pub]=await Promise.all([myReports(),publicReports()]); }catch(e){ if(!msg){ msg=friendly(e); bad=true; } } }
+  else mine=reports().filter(r=>r.w===mondayOf(TODAY()));
+  const featured=SB_ON?[]:mine.filter(r=>r.status==="approved"); const showSamples=!SB_ON||pub.length<2;
   const stLabel={pending:"Waiting for an editor",approved:"On Sunday's front page",rejected:"Not used this time"};
   openSheet(`<span class="ttype" style="background:#FFE9DF;color:#9B2C1F">Young reporters</span><h2 id="shTitle" style="margin-top:8px">This week's <em class="v">assignment</em></h2>
     <div class="yrtask"><b>${esc(A.t)}</b><p>${esc(A.why)}</p><div class="yrtips">${A.tips.map(t=>`<span>${esc(t)}</span>`).join("")}</div></div>
-    ${msg?`<p class="msg ok" aria-live="polite">${esc(msg)}</p>`:""}
+    ${msg?`<p class="msg ${bad?"":"ok"}" aria-live="polite">${esc(msg)}</p>`:""}
     ${mine.length?`<h4 class="h4">Your reports</h4><div class="list">${mine.map(r=>`<div class="item"><span class="yrst ${r.status}">${stLabel[r.status]}</span><b>${esc(r.h)}</b>${r.b?`<p>${esc(r.b)}</p>`:""}</div>`).join("")}</div>`:""}
     <h4 class="h4">${mine.length?"Write another":"Write your report"}</h4>
     <label class="field" for="yrH">Headline: who did what, and where?<input type="text" id="yrH" maxlength="90" autocomplete="off" placeholder="Example: Class 5 plants twelve trees behind the school"></label>
@@ -2729,16 +2911,18 @@ function openYR(msg){ const A=yrNow(); if(!A) return; const mine=reports().filte
     <ul class="yrrules"><li>First names only, or no names at all.</li><li>No school names, addresses, phone numbers or photos.</li><li>Only things that really happened.</li></ul>
     <button class="btn sun press" id="yrGo" style="width:100%">Ask a grown-up to send it</button><p class="msg" id="yrM" aria-live="polite"></p>
     <h4 class="h4">Sunday's front page</h4>
-    <div class="yrpage">${featured.map(r=>`<div class="yrcard me"><b>${esc(r.h)}</b>${r.b?`<p>${esc(r.b)}</p>`:""}<small>You · chosen by the editors</small></div>`).join("")}${A.sample.map(r=>`<div class="yrcard"><b>${esc(r.h)}</b><p>${esc(r.b)}</p><small>${esc(r.by)}</small></div>`).join("")}</div>
-    <p class="sub" style="margin-top:10px;font-size:12.5px">Prototype: the reports above are samples. Real reports are checked by an editor and show age and country only, never a name.</p>`,
+    <div class="yrpage">${featured.map(r=>`<div class="yrcard me"><b>${esc(r.h)}</b>${r.b?`<p>${esc(r.b)}</p>`:""}<small>You · chosen by the editors</small></div>`).join("")}${pub.map(r=>`<div class="yrcard"><b>${esc(r.headline)}</b>${r.body?`<p>${esc(r.body)}</p>`:""}<small>${ageName(r.age_band)}, ${esc(ctyName(r.country))}</small></div>`).join("")}${showSamples?A.sample.map(r=>`<div class="yrcard"><b>${esc(r.h)}</b><p>${esc(r.b)}</p><small>${esc(r.by)}${SB_ON?" · example":""}</small></div>`).join(""):""}</div>
+    <p class="sub" style="margin-top:10px;font-size:12.5px">${SB_ON?"An editor reads every report before it appears. The front page shows age group and country only, never a name."+(showSamples?" Cards marked example show what a good report looks like.":""):"Prototype: the reports above are samples. Real reports are checked by an editor and show age and country only, never a name."}</p>`,
     ()=>{ $("#yrGo").onclick=()=>{ const h=$("#yrH").value.trim().replace(/\s+/g," "), b=$("#yrB").value.trim().replace(/\s+/g," ");
         if(h.length<8){ $("#yrM").textContent="Write a headline first: who did what, and where?"; return; }
         if(yrBad(h+" "+b)){ $("#yrM").textContent="Please take out phone numbers, emails and web addresses."; return; }
+        if(SB_ON){ askPin(async()=>{ try{ await sendReport(h,b); STATS.reports=(STATS.reports||0)+1; saveStats(); openYR("Sent. An editor reads every report before it appears."); toast(`${PENCIL}<span><b>Report sent</b> · well done, reporter</span>`,"#D9481E"); checkAch(); }catch(e){ openYR(reportError(e),true); } }); return; }
         askPin(()=>{ const l=reports(); l.push({id:"r"+Date.now(),w:mondayOf(TODAY()),d:TODAY(),h,b,status:"pending",age:settings.age,country:settings.country}); store.set("ffmpa-reports",l.slice(-40)); STATS.reports=(STATS.reports||0)+1; saveStats(); openYR("Sent. An editor reads every report before it appears."); toast(`${PENCIL}<span><b>Report sent</b> · well done, reporter</span>`,"#D9481E"); checkAch(); }); }; });
 }
 ACH.push({id:"yr", t:"Young reporter", d:"Reports sent to the editors", ic:"doc", c:"#D9481E", tiers:[1,4,12], m:()=>STATS.reports||0});
 const _points2=points; points=function(){ return _points2()+2*bigCount()+5*(STATS.reports||0); };
-function yrAdminHTML(){ const l=reports(); const lab={pending:"Waiting",approved:"Approved",rejected:"Declined"};
+function yrAdminHTML(){ if(SB_ON){ setTimeout(loadAdminReports,0); return `<div class="panel"><h2>Young reporters · moderation queue</h2><p class="note">Reports from every family, newest waiting ones first. Check for full names, school names, places that identify a child and anything unkind. Readers see age group and country only.</p><div id="yrAdm"><p class="note">Loading reports…</p></div></div>`; }
+  const l=reports(); const lab={pending:"Waiting",approved:"Approved",rejected:"Declined"};
   return `<div class="panel"><h2>Young reporters · moderation queue</h2><p class="note">Every report arrives with a grown-up's PIN already entered. Editors check for names, places and anything unkind before a report can appear. Readers see age and country only.</p>
     ${l.length?`<div class="tablewrap"><table class="adm-table"><thead><tr><th>Report</th><th>From</th><th>Status</th><th></th></tr></thead><tbody>${l.slice().reverse().map(r=>`<tr><td><b>${esc(r.h)}</b>${r.b?`<br><span style="color:var(--muted)">${esc(r.b)}</span>`:""}</td><td>${r.age==="x"?"Explorer":"Thinker"}, ${COUNTRIES[r.country]?COUNTRIES[r.country].name:r.country}</td><td>${lab[r.status]}</td><td style="white-space:nowrap"><button class="btn ghost press" data-yr="${r.id}:approved">Approve</button> <button class="btn ghost press" data-yr="${r.id}:rejected">Decline</button></td></tr>`).join("")}</tbody></table></div>`:`<p class="note">No reports yet on this device. Send one from the app (Play, then Young reporters) to see it arrive here.</p>`}</div>`; }
 document.addEventListener("click",e=>{ const b=e.target.closest("[data-yr]"); if(!b) return; const [id,st]=b.dataset.yr.split(":"); const l=reports(); const r=l.find(x=>x.id===id); if(r){ r.status=st; store.set("ffmpa-reports",l); renderAdmin(); } });
@@ -2748,6 +2932,8 @@ let klass=store.get("ffmpa-class",null);
 function classQuiz(){ const pool=deck.filter(d=>d.type==="story"&&d.s.quiz).map(d=>d.s); const B=bigNow(); const first=B?pool.filter(s=>s.id===B.story):[]; return [...first,...pool.filter(s=>!first.includes(s))].slice(0,5); }
 const newCode=()=>{ const a="ABCDEFGHJKLMNPQRSTUVWXYZ23456789"; let s=""; for(let i=0;i<6;i++) s+=a[Math.floor(Math.random()*a.length)]; return s; };
 function openClassroom(){
+  if(SB_ON&&!signedIn()){ askPin(()=>{}); return; }
+  if(SB_ON&&klass&&!klass.id){ klass=null; store.del("ffmpa-class"); }
   if(klass&&klass.role==="teacher"){ openTeacher(); return; }
   if(klass&&klass.role==="pupil"){ openPupil(); return; }
   openSheet(`<span class="ttype" style="background:#E8EFFD;color:#1E3F8F">Classroom mode</span><h2 id="shTitle" style="margin-top:8px">Read the news <em class="v">as a class</em></h2><p class="sub">One class code. No pupil names, emails or accounts. The class sees totals only.</p>
@@ -2761,13 +2947,15 @@ function openTeacherSetup(){
     <h4 class="h4">Reading level</h4><div class="seg" id="tcL"><button class="press" data-v="x" aria-pressed="false">Explorers</button><button class="press" data-v="o" aria-pressed="true">Thinkers</button><button class="press" data-v="n" aria-pressed="false">Navigators</button></div>
     <button class="btn sun press" id="tcGo" style="width:100%;margin-top:16px">Create class</button><p class="msg" id="tcM" aria-live="polite"></p>`,
     sh=>{ let lv="o"; sh.querySelectorAll("#tcL button").forEach(b=>b.onclick=()=>{ lv=b.dataset.v; sh.querySelectorAll("#tcL button").forEach(x=>x.setAttribute("aria-pressed",x===b)); });
-      $("#tcGo").onclick=()=>{ const n=$("#tcN").value.trim(); if(n.length<2){ $("#tcM").textContent="Give the class a name, for example Class 5B."; return; } klass={role:"teacher",name:n,level:lv,code:newCode()}; store.set("ffmpa-class",klass); openTeacher(); }; });
+      $("#tcGo").onclick=()=>{ const n=$("#tcN").value.trim(); if(n.length<2){ $("#tcM").textContent="Give the class a name, for example Class 5B."; return; } if(SB_ON){ const btn=$("#tcGo"); btn.disabled=true; createClass(n,lv).then(k=>{ klass=k; store.set("ffmpa-class",klass); openTeacher(); }).catch(e=>{ btn.disabled=false; $("#tcM").textContent=friendly(e); }); return; }
+        klass={role:"teacher",name:n,level:lv,code:newCode()}; store.set("ffmpa-class",klass); openTeacher(); }; });
 }
 function openTeacher(){ const B=bigNow(), q=classQuiz();
   openSheet(`<span class="ttype" style="background:#E8EFFD;color:#1E3F8F">Classroom mode · teacher</span><h2 id="shTitle" style="margin-top:8px">${esc(klass.name)}</h2>
     <div class="clcode"><small>Class code</small><b>${klass.code.slice(0,3)} ${klass.code.slice(3)}</b><span>Pupils join from Play, then Classroom. They never type a name.</span></div>
-    <div class="pstats"><div><b>14</b><span>pupils joined</span></div><div><b>23</b><span>stories read this week</span></div><div><b>71%</b><span>class quiz average</span></div></div>
-    <p class="sub" style="font-size:12px;margin:6px 0 0">Prototype: sample totals. You only ever see class totals, never one child.</p>
+    ${SB_ON?`<div class="pstats"><div><b id="tsP">…</b><span>pupils joined</span></div><div><b id="tsR">…</b><span>stories read this week</span></div><div><b id="tsQ">…</b><span>class quiz average</span></div></div>
+    <p class="sub" id="tsN" style="font-size:12px;margin:6px 0 0">You only ever see class totals, never one child.</p>`:`<div class="pstats"><div><b>14</b><span>pupils joined</span></div><div><b>23</b><span>stories read this week</span></div><div><b>71%</b><span>class quiz average</span></div></div>
+    <p class="sub" style="font-size:12px;margin:6px 0 0">Prototype: sample totals. You only ever see class totals, never one child.</p>`}
     <h4 class="h4">This week's class pack</h4>
     <div class="clpack">
       <button class="press" id="tcQ"><span class="ic" style="--hc:#C2367A">${ico("trophy")}</span><div><b>Class quiz on the big screen</b><small>${q.length} questions from this week's stories. Reveal each answer when the class is ready.</small></div>${ico("right")}</button>
@@ -2776,20 +2964,24 @@ function openTeacher(){ const B=bigNow(), q=classQuiz();
       <button class="press" id="tcY"><span class="ic" style="--hc:#D9481E">${PENCIL}</span><div><b>Young reporters assignment</b><small>${esc((yrNow()||{t:"A new assignment arrives on Monday"}).t)}</small></div>${ico("right")}</button>
     </div>
     <button class="lk press" id="tcX" style="margin:16px 0 0">Close this class</button>`,
-    ()=>{ $("#tcQ").onclick=()=>{ closeSheet(); openPresent(0,false); }; $("#tcW").onclick=()=>{ closeSheet(); openWorksheet(); }; const b=$("#tcB"); if(b) b.onclick=openBig; $("#tcY").onclick=()=>openYR(); $("#tcX").onclick=()=>{ klass=null; store.del("ffmpa-class"); openClassroom(); }; });
+    ()=>{ $("#tcQ").onclick=()=>{ closeSheet(); openPresent(0,false); }; $("#tcW").onclick=()=>{ closeSheet(); openWorksheet(); }; const b=$("#tcB"); if(b) b.onclick=openBig; $("#tcY").onclick=()=>openYR();
+      if(SB_ON&&klass.id) classSummary(klass).then(s=>{ if(!s||!$("#tsP")) return; $("#tsP").textContent=s.pupils; $("#tsR").textContent=s.reads==null?"·":s.reads; $("#tsQ").textContent=s.quiz_avg==null?"·":s.quiz_avg+"%"; if(s.pupils<3) $("#tsN").textContent="Totals appear once 3 pupils have joined, so no single child can be picked out."; }).catch(()=>{ const n=$("#tsN"); if(n) n.textContent="Could not load class totals right now."; });
+      let sure=false; $("#tcX").onclick=()=>{ if(SB_ON&&!sure){ sure=true; $("#tcX").textContent="Tap again to close this class for every pupil"; return; } const k=klass; klass=null; store.del("ffmpa-class"); if(SB_ON&&k&&k.id) leaveClass(k); openClassroom(); }; });
 }
-function openJoin(){
+function openJoin(msg){
   openSheet(`<h2 id="shTitle">Join <em class="v">your class</em></h2><p class="sub">Type the 6-letter code from your teacher. A grown-up needs to enter the PIN.</p>
     <label class="field" for="jcC">Class code<input type="text" id="jcC" maxlength="7" autocomplete="off" autocapitalize="characters" placeholder="ABC 123" style="letter-spacing:.2em;text-transform:uppercase;font-weight:700"></label>
-    <button class="btn sun press" id="jcGo" style="width:100%;margin-top:14px">Join class</button><p class="msg" id="jcM" aria-live="polite"></p>`,
-    ()=>{ $("#jcGo").onclick=()=>{ const c=$("#jcC").value.replace(/\s/g,"").toUpperCase(); if(!/^[A-Z0-9]{6}$/.test(c)){ $("#jcM").textContent="A class code has 6 letters or numbers."; return; } askPin(()=>{ klass={role:"pupil",code:c,name:"Your class"}; store.set("ffmpa-class",klass); openPupil(); }); }; });
+    <button class="btn sun press" id="jcGo" style="width:100%;margin-top:14px">Join class</button><p class="msg" id="jcM" aria-live="polite">${esc(msg||"")}</p>`,
+    ()=>{ $("#jcGo").onclick=()=>{ const c=$("#jcC").value.replace(/\s/g,"").toUpperCase(); if(!/^[A-Z0-9]{6}$/.test(c)){ $("#jcM").textContent="A class code has 6 letters or numbers."; return; } askPin(()=>{ if(SB_ON){ joinClass(c).then(k=>{ if(!k){ openJoin("We could not find that class code. Check it with your teacher."); return; } klass=k; store.set("ffmpa-class",klass); classTick(); openPupil(); }).catch(e=>openJoin(/three classes/i.test(e.message)?"You can be in three classes at most. Leave one first.":friendly(e))); return; }
+      klass={role:"pupil",code:c,name:"Your class"}; store.set("ffmpa-class",klass); openPupil(); }); }; });
 }
 function openPupil(){ const q=classQuiz();
   openSheet(`<span class="ttype" style="background:#E4F6EE;color:#0B6B4F">Classroom mode</span><h2 id="shTitle" style="margin-top:8px">${esc(klass.name)}</h2><p class="sub">Class code ${klass.code.slice(0,3)} ${klass.code.slice(3)}. Your teacher sees class totals only, never your name.</p>
-    <div class="clgoal"><div><b>Class goal</b><span>Read 60 stories together this week</span></div><div class="lbar" style="--lc:#0F8A5F"><i style="width:${Math.min(100,Math.round((23+readIds.size)/60*100))}%"></i></div><small>${23+readIds.size} of 60 · your stories today count: ${readIds.size}</small></div>
+    ${SB_ON?`<div class="clgoal"><div><b>Class goal</b><span>Read 60 stories together this week</span></div><div class="lbar" style="--lc:#0F8A5F"><i id="puBar" style="width:0%"></i></div><small id="puG">Counting your class's stories…</small></div>`:`<div class="clgoal"><div><b>Class goal</b><span>Read 60 stories together this week</span></div><div class="lbar" style="--lc:#0F8A5F"><i style="width:${Math.min(100,Math.round((23+readIds.size)/60*100))}%"></i></div><small>${23+readIds.size} of 60 · your stories today count: ${readIds.size}</small></div>`}
     <div class="clpack"><button class="press" id="puQ"><span class="ic" style="--hc:#C2367A">${ico("trophy")}</span><div><b>This week's class quiz</b><small>${q.length} questions. Same ones your class will do together.</small></div>${ico("right")}</button></div>
     <button class="lk press" id="puX" style="margin:16px 0 0">Leave this class</button>`,
-    ()=>{ $("#puQ").onclick=()=>{ quiz={qs:q,i:0,score:0,ans:false}; renderQuiz(); }; $("#puX").onclick=()=>{ klass=null; store.del("ffmpa-class"); openClassroom(); }; });
+    ()=>{ $("#puQ").onclick=()=>{ quiz={qs:q,i:0,score:0,ans:false}; renderQuiz(); }; $("#puX").onclick=()=>{ const k=klass; klass=null; store.del("ffmpa-class"); if(SB_ON&&k&&k.id) leaveClass(k); openClassroom(); };
+      if(SB_ON&&klass.id) classGoal(klass).then(g=>{ if(!g||!$("#puG")) return; const n=g.reads||0; $("#puBar").style.width=Math.min(100,Math.round(n/60*100))+"%"; $("#puG").textContent=`${n} of 60 · you read ${wkStats().reads} this week`; }).catch(()=>{ const x=$("#puG"); if(x) x.textContent="Could not load the class goal right now."; }); });
 }
 /* big-screen quiz */
 function overlay(id,html){ let o=document.getElementById(id); if(!o){ o=document.createElement("div"); o.id=id; document.body.appendChild(o); } o.innerHTML=html; o.className="fullov open"; return o; }
@@ -2892,7 +3084,9 @@ document.addEventListener("click",e=>{ if(e.target.closest("#mA")){ e.stopPropag
 if("serviceWorker" in navigator && /^https:$/.test(location.protocol)) window.addEventListener("load",()=>{ navigator.serviceWorker.register("/sw.js",{scope:"/"}).catch(()=>{}); });
 
 /* ================= Legal and policy pages (hash routes) ================= */
-const DRAFT = `<p class="draft"><b>Draft for legal review.</b> Items in square brackets must be confirmed by Founderfreedom Ventures LLP and its counsel before launch.</p>`;
+const DRAFT = ``;
+const UPDATED = "13 November 2026";
+const MAIL = `<a href="mailto:hello@ffmpa.com">hello@ffmpa.com</a>`;
 const ENTITY = `Founderfreedom Ventures LLP, a limited liability partnership registered in India, based in Bangalore, India`;
 const LEGAL = {
   safety:{t:"Content and safety standards", h:`
@@ -2910,7 +3104,7 @@ const LEGAL = {
     <h3>6. Layers of protection</h3>
     <ul><li>An automatic word filter and a sensitive topic classifier screen every draft.</li><li>A human editor approves every story and every explainer.</li><li>Parents choose topics, reading level, sensitive news and daily limits behind a PIN.</li><li>No comments, chat, messaging or user uploads, and no links to other websites anywhere in the app. Sources and photo credits are named in plain text.</li><li>No personalised ads. Editions may include a small number of sponsor cards labelled Sponsored, each approved by our team, shown the same way to every child in a country, and switched off at the Explorers level by default.</li><li>Sharing sends only a public link to the story. It never includes the child's name, saved words or settings, and parents can turn sharing off.</li></ul>
     <h3>7. Photos</h3><p>We only use photos that are free to use: public domain images, Creative Commons images used under their licence, and official press or government libraries. Each photo is credited in plain text. When a photo is missing or not suitable for children, we show a neutral graphic instead. We never use AI-generated images of real people or real events.</p><h3>8. Corrections</h3>
-    <p>If we get something wrong, we fix it in the next edition and add a short correction note to the story. Report a problem to [safety@ffmpa.com].</p>`},
+    <p>If we get something wrong, we fix it in the next edition and add a short correction note to the story. Report a problem to ${MAIL} with the word Safety in the subject.</p>`},
   privacy:{t:"Privacy policy", h:`${DRAFT}
     <p class="summary"><b>In short:</b> we collect the least we can. A grown-up's email, a child's first name or nickname (optional), a reading level, a country and preferences. No personalised or targeted ads, no selling of data, no tracking across other sites, no profiling of children, no photos of your child and no precise location.</p>
     <h3>1. Who we are</h3><p>FFMPA (ffmpa.com) is operated by ${ENTITY} ("we", "us"). We are the data fiduciary (India) and data controller (UK and EU) for personal data processed through FFMPA.</p>
@@ -2919,44 +3113,46 @@ const LEGAL = {
     <div class="tablewrap"><table><thead><tr><th>Data</th><th>From</th><th>Why</th></tr></thead><tbody>
       <tr><td>Parent or guardian email address</td><td>Parent</td><td>Sign in by one-time code, account security, essential service messages</td></tr>
       <tr><td>Child's first name or nickname (optional)</td><td>Parent</td><td>Personal greeting on the home screen</td></tr>
-      <tr><td>Reading level, country, topic choices, limits, PIN (stored as a secure hash)</td><td>Parent</td><td>Showing the right edition and keeping parent controls in place</td></tr>
-      <tr><td>Stories read, saved words, quiz scores</td><td>Use of the service</td><td>Reading goal, word bank and progress for the child</td></tr>
-      <tr><td>Basic technical data (device type, app version, error logs)</td><td>Automatically</td><td>Keeping the service working and secure</td></tr>
+      <tr><td>Reading level, country, topic choices, limits and the grown-ups PIN</td><td>Parent</td><td>Showing the right edition and keeping parent controls in place on every device you sign in on</td></tr>
+      <tr><td>Stories read, saved words, quiz scores, badges and hidden finds</td><td>Use of the service</td><td>Reading goal, word bank and progress, saved to your account so they follow you to another device</td></tr>
+      <tr><td>Young reporter reports: a headline and up to 280 characters, with reading level and country</td><td>Child, sent with the parent's PIN</td><td>Read by an editor; if approved, shown on the weekly front page with age group and country only, never a name</td></tr>
+      <tr><td>Class membership and weekly totals (stories read, quiz answers)</td><td>Use of Classroom mode</td><td>Lets a teacher see whole-class totals. Teachers never see a child's name, email or individual results, and totals appear only once three pupils have joined</td></tr>
+      <tr><td>Basic technical data (IP address, browser type, time of request)</td><td>Automatically, in our providers' server logs</td><td>Keeping the service working and secure</td></tr>
     </tbody></table></div>
     <p>We do not collect a child's surname, date of birth, school, photo, voice recording, contact details or precise location. Read aloud uses the speech feature built into your device; no audio is sent to us.</p>
-    <h3>4. Parental consent</h3><p>Before any child profile is created, the parent or guardian verifies their email address with a one-time code and confirms that they are the child's parent or guardian. This is how we obtain verifiable consent as required by the Digital Personal Data Protection Act, 2023 (India), the Children's Online Privacy Protection Act (United States) and UK data protection law. The DPDP Rules, 2025 set out how a parent's identity and adult status must be verified, with the child data provisions due to apply from May 2027; we will add any extra verification step they require before then. [Counsel to confirm the method for each launch country.]</p>
+    <h3>4. Parental consent</h3><p>Before any child profile is created, the parent or guardian verifies their email address with a one-time code and confirms that they are the child's parent or guardian. This is how we obtain verifiable consent as required by the Digital Personal Data Protection Act, 2023 (India), the Children's Online Privacy Protection Act (United States) and UK data protection law. The DPDP Rules, 2025 set out how a parent's identity and adult status must be verified, with the child data provisions due to apply from May 2027; we will add any extra verification step they require before then.</p>
     <h3>5. What we never do</h3><ul><li>We never use children's data for advertising. Any sponsor card is chosen by our team, labelled Sponsored, and shown the same way to every child in a country. If we ever use an outside ad partner, it receives no personal data and must use child-directed settings.</li><li>We never track children's behaviour across other websites or apps, or build profiles about them.</li><li>We never sell or rent personal data.</li></ul>
-    <h3>6. Who we share data with</h3><p>When a child shares a story, only a public link to that story is shared; no personal data goes with it. Otherwise we share data only with service providers who help us run FFMPA, namely Supabase (database), Google Cloud (hosting) and Resend (sign-in emails), under written contracts that require them to protect the data and use it only for us. [List of providers to be published.] We may disclose data if the law requires it.</p>
-    <h3>7. Where data is stored</h3><p>Data is stored on servers in [region, for example Google Cloud and Supabase in Mumbai, India]. Where data is transferred across borders, we use the safeguards required by applicable law.</p>
-    <h3>8. How long we keep it</h3><p>Account data is kept while the account is active and deleted within [30] days after the account is closed. Security logs are kept for up to [90] days.</p>
-    <h3>9. Your rights</h3><p>A parent or guardian can at any time access, correct or delete their own and their child's data, withdraw consent (which closes the child profile), and nominate another person to exercise these rights. Write to [privacy@ffmpa.com]. You can also complain to the Data Protection Board of India, the UK Information Commissioner's Office, or the US Federal Trade Commission.</p>
-    <h3>10. Security</h3><p>We use encryption in transit, hashed PINs, one-time sign-in codes that expire after 10 minutes, and strict access controls for our team.</p>
-    <h3>11. Grievance Officer</h3><p>[Name], Grievance Officer, Founderfreedom Ventures LLP, Bangalore, India. Email: [grievance@ffmpa.com]. We acknowledge complaints within 24 hours and aim to resolve them within 15 days.</p>
-    <h3>12. Changes</h3><p>If we change this policy in a way that affects how we use data, we will email the account holder before the change takes effect. Last updated: [date].</p>`},
+    <h3>6. Who we share data with</h3><p>When a child shares a story, only a public link to that story is shared; no personal data goes with it. Otherwise we share data only with service providers who help us run FFMPA, under contracts that require them to protect the data and use it only for us:</p><ul><li><b>Supabase</b>: database and sign-in. Stores your account and your child's progress, in Mumbai, India.</li><li><b>Cloudflare</b>: delivers the website and app and protects it from attacks. Sees technical data such as IP addresses.</li><li><b>Resend</b>: sends the sign-in code email. Receives your email address only.</li><li><b>GitHub</b>: stores the published daily editions. Holds no personal data.</li><li><b>Google Analytics</b>: counts visits to the grown-up website pages only, and only if you choose Allow. Never used in the app children read.</li></ul><p>We may disclose data if the law requires it.</p>
+    <h3>7. Where data is stored</h3><p>Account and progress data is stored by Supabase on servers in Mumbai, India. The website is delivered through Cloudflare's global network, and sign-in emails are sent through Resend, so some technical data and your email address may be processed outside India. Where data is transferred across borders, we use the safeguards required by applicable law.</p>
+    <h3>8. How long we keep it</h3><p>Account data is kept while the account is active. When you choose Delete account in parent settings, your account, your child's progress, reports and any classes you run are deleted straight away. If you ask us by email instead, we delete within 30 days. Our providers keep security logs for up to 90 days.</p>
+    <h3>9. Your rights</h3><p>A parent or guardian can at any time access, correct or delete their own and their child's data, withdraw consent (which closes the child profile), and nominate another person to exercise these rights. You can download or delete your data yourself in parent settings, or write to ${MAIL}. You can also complain to the Data Protection Board of India, the UK Information Commissioner's Office, or the US Federal Trade Commission.</p>
+    <h3>10. Security</h3><p>We use encryption in transit and at rest, one-time sign-in codes that expire after 10 minutes, database rules that let each family read only its own data, and strict access controls for our team. The grown-ups PIN is a simple lock against children changing settings; it is not a password, so please do not reuse one from elsewhere.</p>
+    <h3>11. Grievance Officer</h3><p>Ashish Khandelwal, Grievance Officer, Founderfreedom Ventures LLP, Bangalore, India. Email: ${MAIL} (subject: Grievance). We acknowledge complaints within 24 hours and aim to resolve them within 15 days.</p>
+    <h3>12. Changes</h3><p>If we change this policy in a way that affects how we use data, we will email the account holder before the change takes effect. Last updated: ${UPDATED}.</p>`},
   terms:{t:"Terms of use", h:`${DRAFT}
     <h3>1. About these terms</h3><p>These terms govern use of FFMPA at ffmpa.com and in any FFMPA app, provided by ${ENTITY}. By creating an account you agree to them on your own behalf and on behalf of each child who uses FFMPA under your account.</p>
     <h3>2. Accounts</h3><ul><li>You must be 18 or over and the parent or legal guardian of any child who uses your account.</li><li>You sign in with your email address and a one-time code. Keep access to your email secure.</li><li>You are responsible for setting your grown-ups PIN and for supervising your child's use.</li></ul>
-    <h3>3. What FFMPA provides</h3><ul><li>Short news stories and explainers for children aged 5 to 15, in English, in two editions a day, covering news from the last 3 days.</li><li>Some editions include clearly labelled sponsor cards that we approve. Sponsors never receive information about you or your child.</li><li>Stories are written for learning and general awareness. They are not professional, medical, legal or financial advice.</li><li>We work hard to be accurate and fair, but news changes quickly and we may make mistakes. Tell us at [support@ffmpa.com] and we will correct them.</li></ul>
+    <h3>3. What FFMPA provides</h3><ul><li>Short news stories and explainers for children aged 5 to 15, in English, in two editions a day, covering news from the last 3 days.</li><li>Some editions include clearly labelled sponsor cards that we approve. Sponsors never receive information about you or your child.</li><li>Stories are written for learning and general awareness. They are not professional, medical, legal or financial advice.</li><li>We work hard to be accurate and fair, but news changes quickly and we may make mistakes. Tell us at ${MAIL} and we will correct them.</li></ul>
     <h3>4. Fair use</h3><p>FFMPA is for personal, non-commercial family use. Do not copy, scrape, resell or republish our stories, try to get around security or parent controls, or interfere with the service. Schools and organisations need a separate agreement.</p>
     <h3>5. Ownership</h3><p>Our stories, explainers, quizzes, design and software belong to Founderfreedom Ventures LLP or its licensors. Original news reports belong to their publishers and photos belong to their creators; we name and credit them, and we do not reproduce their articles.</p>
-    <h3>6. Plans and payments</h3><p>FFMPA is currently free. If paid plans are introduced, prices, renewal and cancellation terms will be shown clearly before you pay. [Section to be completed before any paid launch.]</p>
+    <h3>6. Plans and payments</h3><p>FFMPA is currently free. If paid plans are introduced, prices, renewal and cancellation terms will be shown clearly before you pay. Before any paid plan starts, we will update these terms and email account holders at least 15 days ahead.</p>
     <h3>7. Ending your account</h3><p>You can close your account at any time from parent settings or by writing to us. We may suspend accounts that break these terms or put children at risk.</p>
     <h3>8. Responsibility</h3><p>To the extent the law allows, FFMPA is provided as is, and our total liability for any claim is limited to the amount you paid us in the 12 months before the claim (or INR 1,000 if you paid nothing). Nothing in these terms limits rights you have under consumer protection law where you live.</p>
     <h3>9. Law and disputes</h3><p>These terms are governed by the laws of India, and the courts at Bengaluru have jurisdiction, without removing any mandatory rights you have in your own country.</p>
-    <h3>10. Grievances and contact</h3><p>Grievance Officer: [Name], [grievance@ffmpa.com]. General help: [support@ffmpa.com].</p>
-    <h3>11. Changes</h3><p>We will email account holders about important changes at least 15 days before they take effect. Last updated: [date].</p>`},
+    <h3>10. Grievances and contact</h3><p>Grievance Officer: Ashish Khandelwal, ${MAIL}. General help: ${MAIL}.</p>
+    <h3>11. Changes</h3><p>We will email account holders about important changes at least 15 days before they take effect. Last updated: ${UPDATED}.</p>`},
   cookies:{t:"Cookies and storage", h:`${DRAFT}
     <p class="summary">FFMPA uses no advertising or tracking cookies. We only store what the app needs to work on your device.</p>
     <div class="tablewrap"><table><thead><tr><th>Item</th><th>Purpose</th><th>Kept for</th></tr></thead><tbody>
-      <tr><td>Session</td><td>Keeps the grown-up signed in on this device</td><td>Until sign out or 30 days</td></tr>
-      <tr><td>Settings</td><td>Reading level, country, topics and limits</td><td>Until sign out</td></tr>
-      <tr><td>Word bank and reading progress</td><td>Saved words and today's reading goal</td><td>Until sign out</td></tr>
+      <tr><td>Sign-in token</td><td>Keeps the grown-up signed in on this device</td><td>Until sign out</td></tr>
+      <tr><td>Settings</td><td>Reading level, country, topics and limits (also saved to your account)</td><td>Until sign out</td></tr>
+      <tr><td>Word bank and reading progress</td><td>Saved words, badges and reading goal (also saved to your account)</td><td>Until sign out</td></tr>
       <tr><td>Analytics choice (website only)</td><td>Remembers whether you allowed visit counting on the public website</td><td>Until you clear it</td></tr>
     </tbody></table></div>
     <p>Because these are strictly necessary for the service you asked for, no consent banner is needed. The app that children use has no analytics. The public website for grown-ups (the pages on ffmpa.com outside the app) can use Google Analytics to count visits. It is off until you choose Allow on the notice at the bottom of the page, and you can change your mind by clearing this site's data in your browser.</p>`},
   contact:{t:"Contact", h:`${DRAFT}
     <p>FFMPA is a product of ${ENTITY}.</p>
-    <ul><li>General help: [support@ffmpa.com]</li><li>Privacy and data requests: [privacy@ffmpa.com]</li><li>Report a story or safety concern: [safety@ffmpa.com]</li><li>Grievance Officer: [Name], [grievance@ffmpa.com]</li></ul>
+    <p>Write to ${MAIL} for everything. Putting one of these words in the subject helps us route it faster:</p><ul><li>Help: questions about the app</li><li>Privacy: data requests</li><li>Safety: report a story or a safety concern</li><li>Grievance: a formal complaint to our Grievance Officer, Ashish Khandelwal</li><li>Schools: Classroom mode and school agreements</li></ul>
     <p>We reply to safety reports within one working day.</p>`}
 };
 const LEGAL_ORDER = ["safety","privacy","terms","cookies","contact"];
@@ -2990,7 +3186,7 @@ function closeAdmin(){ $("#adminView").classList.remove("open"); }
 function admStories(){ return S.map(s=>({s, st:statusOf(s), held:heldByFilter(s)})); }
 function renderAdmin(){
   const v=$("#adminView");
-  v.innerHTML=`<div class="adm-top"><b>FFMPA Admin</b><span style="font-size:14px;opacity:.85">Founderfreedom Ventures LLP · prototype, changes apply to this browser only</span><a href="#" id="admExit">Back to the app ›</a></div>
+  v.innerHTML=`<div class="adm-top"><b>FFMPA Admin</b><span style="font-size:14px;opacity:.85">${admHeaderNote()}</span><a href="#" id="admExit">Back to the app ›</a></div>
     <div class="adm"><nav class="adm-nav" aria-label="Admin sections">${ADM_SECTIONS.map(([k,l])=>`<button data-s="${k}" ${k===admSection?'aria-current="page"':""}>${l}</button>`).join("")}</nav><div class="adm-main" id="admMain"></div></div>`;
   v.querySelectorAll("[data-s]").forEach(b=> b.onclick=()=>{ admSection=b.dataset.s; renderAdmin(); });
   $("#admExit").onclick=e=>{ e.preventDefault(); history.replaceState(null,"",location.pathname+location.search); closeAdmin(); renderAll(); };
@@ -3123,8 +3319,10 @@ window.addEventListener("hashchange", route);
 
 /* ================= Boot ================= */
 renderAll();
+if(SB_ON && session && !session.preview && !(session.uid && store.get(AUTH_KEY,null))){ session=null; _sdel("ffmpa-session"); }
 if(location.hash!=="#admin" && (!session||session.preview)){ session=null; startWelcome("email"); }
 route();
+sbBoot();
 </script>
 </body>
 </html>

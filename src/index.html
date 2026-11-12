@@ -1961,7 +1961,15 @@ function friendly(e){ const m=String((e&&e.message)||"");
   return "Something went wrong. Please try again in a moment."; }
 
 /* ---------- email code sign-in ---------- */
-const sendCode=email=>sbFetch("/auth/v1/otp",{method:"POST",auth:false,body:{email,create_user:true}});
+const sendCode=email=>sbFetch("/auth/v1/otp?redirect_to="+encodeURIComponent(location.origin+"/app/"),{method:"POST",auth:false,body:{email,create_user:true}});
+/* The email also carries a sign-in link. If a grown-up taps it, Supabase sends them back here with the session in the address. */
+async function sbHashLogin(){ const h=location.hash; if(!/access_token=|error_description=/.test(h)) return false; const q=new URLSearchParams(h.slice(1)); history.replaceState(null,"",location.pathname+location.search);
+  if(!q.get("access_token")){ startWelcome("email"); setTimeout(()=>{ const e=$("#wErr"); if(e) e.textContent="That sign-in link has expired. Ask for a new code below."; },50); return true; }
+  try{ const d={access_token:q.get("access_token"),refresh_token:q.get("refresh_token"),expires_in:+q.get("expires_in")||3600,expires_at:+q.get("expires_at")||0};
+    const u=await fetch(SB.url+"/auth/v1/user",{headers:{apikey:SB.key,Authorization:"Bearer "+d.access_token}}).then(r=>r.json()); d.user=u; const tok=saveTok(AUTH_KEY,d);
+    ob.email=tok.email; ob.tok=tok; const r=await afterSignIn(tok); if(r==="new") startWelcome("child"); }
+  catch(e){ startWelcome("email"); }
+  return true; }
 async function verifyCode(email,code,key){ const d=await sbFetch("/auth/v1/verify",{method:"POST",auth:false,body:{type:"email",email,token:code}}); return saveTok(key||AUTH_KEY,d); }
 
 /* ---------- saved progress ---------- */
@@ -1999,6 +2007,7 @@ async function sbSignOut(){ try{ await pushProfile(); await sbFetch("/auth/v1/lo
 /* Boot: refresh from the cloud if another device saved newer progress; load shared admin settings. */
 async function sbBoot(){ if(!SB_ON) return;
   loadPublicConfig();
+  if(await sbHashLogin()) return;
   if(!signedIn()) return;
   try{ const tk=await accessToken(AUTH_KEY); if(!tk){ sbSignedOut(); return; }
     const rows=await sbFetch("/rest/v1/profiles?select=settings,progress,consent_at,updated_at&id=eq."+session.uid,{need:true}); const p=rows&&rows[0];

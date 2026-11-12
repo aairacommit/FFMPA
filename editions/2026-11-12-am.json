@@ -1,0 +1,2522 @@
+{
+ "schema": 1,
+ "date": "2026-11-12",
+ "edition": "am",
+ "countries": [
+  "IN"
+ ],
+ "stories": [
+  {
+   "id": "g-hera",
+   "scope": "global",
+   "cat": "space",
+   "emoji": "☄️",
+   "date": "2026-11-11",
+   "kind": "news",
+   "x": {
+    "t": "A spacecraft visits a space rock that got a push",
+    "b": [
+     "A spacecraft called [[hera|Hera]] has reached two faraway space rocks. Rocks like these are called [[asteroid|asteroids]]. Hera is about as big as a small car.",
+     "Four years ago, [[nasa|NASA]] crashed another spacecraft into the smaller rock on purpose. It was a test. Could a push move a space rock? It worked!",
+     "Now Hera will take a close look. These rocks are harmless."
+    ]
+   },
+   "o": {
+    "t": "Europe's Hera starts inspecting the asteroid NASA nudged",
+    "b": [
+     "Europe's [[hera|Hera]] spacecraft has begun studying a pair of [[asteroid|asteroids]] up close, the [[esa|European Space Agency]] said on 11 November. Hera is about the size of a small car and was launched in October 2024. It is now watching the asteroid Didymos and its small moon, Dimorphos, from 25 to 30 kilometres away.",
+     "Dimorphos is about 151 metres wide. In September 2022, [[nasa|NASA]] deliberately crashed a spacecraft called [[dart|DART]] into it. The test was meant to show whether a space rock could one day be pushed aside if it were heading for Earth. It worked: the crash changed the little moon's orbit around Didymos.",
+     "Hera's job is to inspect the result, like a detective at the scene. Next month it will move in to about 20 kilometres. It also carries two shoebox-sized mini satellites that will try to land on Dimorphos. The asteroids themselves are harmless."
+    ]
+   },
+   "think": "If you could send a spacecraft to study anything in space, what would you choose and why?",
+   "quiz": {
+    "q": "What did NASA's DART spacecraft do in 2022?",
+    "a": [
+     "Crashed into a small asteroid on purpose",
+     "Landed people on the Moon",
+     "Took photos of Jupiter",
+     "Carried Hera into space"
+    ],
+    "c": 0
+   },
+   "src": [
+    [
+     "Associated Press via ABC News, 11 Nov",
+     "https://abcnews.com/Technology/wireStory/europes-hera-spacecraft-begins-close-inspections-asteroid-rammed-138060828"
+    ],
+    [
+     "Space.com, 3 Nov",
+     "https://www.space.com/space-exploration/asteroid-comet-missions/dimorphos-in-sight-europes-hera-probe-gets-its-1st-look-at-battered-space-rock-photo"
+    ]
+   ]
+  },
+  {
+   "id": "in-yog",
+   "scope": "IN",
+   "cat": "sports",
+   "emoji": "🏅",
+   "date": "2026-11-11",
+   "kind": "news",
+   "x": {
+    "t": "India's young athletes win 8 medals in Africa",
+    "b": [
+     "India's young sports stars are doing well at the [[yog|Youth Olympic Games]]. The Games are in [[dakar|Dakar]], a city in Africa.",
+     "India has won 8 medals so far: 3 silver and 5 bronze. Three of them came in swimming!",
+     "Two more medals are on the way in boxing. One Indian boxer has reached a final."
+    ]
+   },
+   "o": {
+    "t": "India has 8 medals at the Youth Olympics, with boxing to come",
+    "b": [
+     "India's teenagers have won eight medals at the [[yog|Youth Olympic Games]] in [[dakar|Dakar]], Senegal: three silver and five bronze. It is the first time the Youth Olympics have been held in Africa. The Games end on 13 November.",
+     "India sent 17 athletes in 11 sports. The silvers came in judo, badminton and beach wrestling. The bronzes came in swimming, [[wushu|wushu]] and the 100 metres hurdles. Swimming brought three medals, including India's first ever swimming medal at a Youth Olympics, and one swimmer from Karnataka won two of them.",
+     "Two more medals are now certain in boxing. On 11 November an Indian boxer won his semi-final in the men's 50 kg class and will fight for gold. Another has reached the semi-finals of the women's 48 kg class. India is still looking for its first gold of these Games."
+    ]
+   },
+   "think": "Which sport would you most like to try at a Youth Olympics, and why?",
+   "quiz": {
+    "q": "How many medals had India won before the boxing finals?",
+    "a": [
+     "8",
+     "3",
+     "11",
+     "17"
+    ],
+    "c": 0
+   },
+   "src": [
+    [
+     "IANS, 11 Nov",
+     "https://ianslive.in/youth-olympics-indias-lairenlakpam-ambekar-meetei-storms-into-final-of-mens-50kg-boxing--20261111195901"
+    ],
+    [
+     "Khel Now, updated 11 Nov",
+     "https://khelnow.com/olympics/india-medal-winners-medal-tally-youth-olympics-202611"
+    ],
+    [
+     "Yahoo Sports (Stadium Rant), 10 Nov",
+     "https://sports.yahoo.com/articles/dakar-2026-youth-olympics-games-115728710.html"
+    ]
+   ]
+  },
+  {
+   "id": "g-watermouse",
+   "scope": "global",
+   "cat": "nature",
+   "emoji": "🐭",
+   "date": "2026-11-10",
+   "kind": "news",
+   "x": {
+    "t": "A 'lost' water mouse is found after almost 100 years",
+    "b": [
+     "Scientists thought a little water mouse had died out. Nobody had seen one since 1927!",
+     "Now one has turned up in a forest stream in [[ethiopia|Ethiopia]], a country in Africa. A scientist found it in a trap with peanut butter inside.",
+     "The mouse has thick fur that keeps water out. Scientists are doing tests to be sure it is the same animal."
+    ]
+   },
+   "o": {
+    "t": "Ethiopian water mouse, feared extinct, turns up after a century",
+    "b": [
+     "A small water-loving rodent that scientists feared was [[extinct|extinct]] appears to have been found alive in [[ethiopia|Ethiopia]]. The Ethiopian water mouse was known from a single animal caught in 1927. Nobody recorded another for almost a century.",
+     "Ecologist Mengistu Wale of the Ethiopian Biodiversity Institute found one in a trap during a wildlife survey in the Yayu forest reserve, in the south-west of the country. The bait was ordinary peanut butter. His team later caught two more. The animal has dense, water-repellent fur and broad back feet.",
+     "Scientists are now running [[dna|genetic tests]] to confirm what it is. The species is listed as [[critically-endangered|critically endangered]]. Wale called the find an extraordinary discovery. The news was announced on 10 November."
+    ]
+   },
+   "think": "How do you think an animal could stay hidden from scientists for almost 100 years?",
+   "quiz": {
+    "q": "When was the water mouse last recorded before this?",
+    "a": [
+     "1927",
+     "1827",
+     "1999",
+     "2020"
+    ],
+    "c": 0
+   },
+   "src": [
+    [
+     "National Geographic, 9 Nov",
+     "https://www.nationalgeographic.com/animals/article/ethiopia-water-mouse-extinct-rediscovery"
+    ],
+    [
+     "blue News, 10 Nov",
+     "https://www.bluewin.ch/en/news/ethiopian-water-rat-believed-to-be-extinct-spotted-li.3668420"
+    ]
+   ]
+  },
+  {
+   "id": "in-astro",
+   "scope": "IN",
+   "cat": "space",
+   "emoji": "🔭",
+   "date": "2026-11-09",
+   "kind": "news",
+   "x": {
+    "t": "Five Indian students win astronomy medals",
+    "b": [
+     "Five students from India went to a big [[astronomy|astronomy]] contest in [[thailand|Thailand]]. Astronomy is the study of stars, planets and space.",
+     "Every one of them won a medal! The team brought home 2 gold, 2 silver and 1 bronze.",
+     "In all, 104 students from 25 countries took part."
+    ]
+   },
+   "o": {
+    "t": "Team India wins five medals at junior astronomy olympiad",
+    "b": [
+     "All five members of India's team have won medals at the International [[olympiad|Olympiad]] on [[astronomy|Astronomy]] and Astrophysics for Juniors. It was held from 1 to 8 November in Ubon Ratchathani, [[thailand|Thailand]]. The team took two gold, two silver and one bronze.",
+     "The contest is for students under 16. This year 104 students from 25 countries took part. India's medallists come from Puducherry, Gujarat, Rajasthan and Maharashtra.",
+     "The team was chosen and trained by the [[ncsm|National Council of Science Museums]]. Twenty-five shortlisted students practised theoretical and observational astronomy, problem-solving and night-sky observation before the final five were picked. The council's director general, K. S. Murali, said the medals reflect the students' dedication."
+    ]
+   },
+   "think": "If you could look through a powerful telescope tonight, what would you want to see first?",
+   "quiz": {
+    "q": "How many of India's five team members won a medal?",
+    "a": [
+     "All five",
+     "Two",
+     "Three",
+     "One"
+    ],
+    "c": 0
+   },
+   "src": [
+    [
+     "PTI via The Siasat Daily, 9 Nov",
+     "https://www.siasat.com/indian-students-win-five-medals-at-junior-astronomy-olympiad-3572671/"
+    ],
+    [
+     "IBG News, 9 Nov",
+     "https://ibgnews.com/2026/11/09/team-india-wins-2-gold-2-silver-and-1-bronze-medal-at-the-5th-international-olympiad-on-astronomy-and-astrophysics-for-juniors-2026-in-thailand/"
+    ],
+    [
+     "Pragativadi, 10 Nov",
+     "https://pragativadi.com/india-wins-5-medals-including-2-gold-at-ioaa-jr-2026-in-thailand/"
+    ]
+   ]
+  },
+  {
+   "id": "g-cop31",
+   "scope": "global",
+   "cat": "planet",
+   "emoji": "🌍",
+   "date": "2026-11-11",
+   "kind": "news",
+   "x": {
+    "t": "World leaders speak up for the planet",
+    "b": [
+     "Leaders from many countries are at the big climate meeting, [[cop|COP31]], in [[turkiye|Türkiye]].",
+     "The head of the United Nations gave a warning. He said the world must move faster to stop Earth getting too warm.",
+     "One idea is to run more cars, homes and factories on electricity. Leaders are still talking about it."
+    ]
+   },
+   "o": {
+    "t": "At COP31, leaders hear a warning and weigh an electricity pledge",
+    "b": [
+     "World leaders began two days of speeches at the [[cop|COP31]] climate summit in Antalya, [[turkiye|Türkiye]], on 11 November. UN Secretary-General [[guterres|António Guterres]] told them: \"The brutal truth is that the climate crisis is outrunning us.\" He called for an end to the world's dependence on [[fossil-fuels|fossil fuels]]: coal, oil and gas.",
+     "Türkiye, the host, wants countries to back a voluntary pledge known as 35 by 35. Electricity now supplies about 23 per cent of the energy the world uses. The pledge aims to raise that to 35 per cent by 2035, by running more transport, buildings and industry on electricity.",
+     "The European Commission's president, Ursula von der Leyen, said she supports it. Some countries want the pledge to say clearly that the extra electricity must be clean, because power made by burning coal or gas still adds to [[climate-change|climate change]]."
+    ]
+   },
+   "think": "Which things in your home run on electricity, and which burn fuel?",
+   "quiz": {
+    "q": "What does the 35 by 35 pledge aim to raise?",
+    "a": [
+     "Electricity's share of the energy the world uses",
+     "The price of petrol",
+     "The number of countries at COP31",
+     "The height of sea walls"
+    ],
+    "c": 0
+   },
+   "src": [
+    [
+     "Reuters via Yahoo News, 11 Nov",
+     "https://www.yahoo.com/news/articles/world-leaders-speak-cop31-climate-172442752.html"
+    ],
+    [
+     "AFP via Al Jazeera, 11 Nov",
+     "https://www.aljazeera.com/news/2026/11/11/climate-crisis-is-outrunning-us-un-chief-guterres-says-at-cop31"
+    ],
+    [
+     "ABC News (Australia), 11 Nov",
+     "https://www.abc.net.au/news/2026-11-11/cop31-electrification-turkiye-australia/107371196"
+    ]
+   ]
+  },
+  {
+   "id": "in-swachh",
+   "scope": "IN",
+   "cat": "civics",
+   "emoji": "🧹",
+   "date": "2026-11-11",
+   "kind": "news",
+   "x": {
+    "t": "Navi Mumbai tops India's clean city awards",
+    "b": [
+     "India gives prizes to its cleanest cities. This year's prizes were given on 11 November in New Delhi.",
+     "[[navi-mumbai|Navi Mumbai]] came top. Surat and Vijayawada were next.",
+     "President [[murmu|Droupadi Murmu]] gave the awards. She said keeping a city clean needs everyone to help."
+    ]
+   },
+   "o": {
+    "t": "Navi Mumbai comes top in India's city cleanliness awards",
+    "b": [
+     "[[navi-mumbai|Navi Mumbai]] has been ranked first in [[swachh-survekshan|Swachh Survekshan]] 2025-26, the government's cleanliness survey of India's cities. Surat came second and Vijayawada third. The three head a group called the Super Swachh League. President [[murmu|Droupadi Murmu]] presented the awards at Vigyan Bhavan in New Delhi on 11 November.",
+     "There were prizes in several groups. Among cities with more than a million people, Visakhapatnam came first, followed by Jabalpur and Lucknow. Puri was named the cleanest coastal town, Rewa the cleanest riverfront town and Rudrapur the cleanest Himalayan city.",
+     "The survey is run by the Ministry of Housing and Urban Affairs, and what citizens say about their own city counts towards the result. The President said cleanliness cannot be achieved by one institution alone, and called for people to take part."
+    ]
+   },
+   "think": "What is one thing your street or school could do to cut down on litter?",
+   "quiz": {
+    "q": "Which city came top in this year's cleanliness awards?",
+    "a": [
+     "Navi Mumbai",
+     "Lucknow",
+     "Puri",
+     "Jabalpur"
+    ],
+    "c": 0
+   },
+   "src": [
+    [
+     "The Tribune, 11 Nov",
+     "https://www.tribuneindia.com/news/delhi/cleanliness-reflects-public-health-social-consciousness-administrative-accountability-president-murmu/"
+    ],
+    [
+     "ANI via The News Mill, 11 Nov",
+     "https://thenewsmill.com/2026/11/president-droupadi-murmu-presents-swachh-survekshan-2025-26-awards/"
+    ]
+   ]
+  },
+  {
+   "id": "g-booker",
+   "scope": "global",
+   "cat": "culture",
+   "emoji": "📚",
+   "date": "2026-11-09",
+   "kind": "news",
+   "x": {
+    "t": "An 81-year-old writer wins a famous book prize",
+    "b": [
+     "A writer named [[harrison|M John Harrison]] has won the [[booker-prize|Booker Prize]]. It is one of the most famous prizes for books.",
+     "He is 81 years old. That makes him the oldest winner ever!",
+     "His winning story is called The End of Everything. It is the 13th novel he has written."
+    ]
+   },
+   "o": {
+    "t": "M John Harrison, 81, becomes the oldest Booker Prize winner",
+    "b": [
+     "British author [[harrison|M John Harrison]] has won the 2026 [[booker-prize|Booker Prize]], one of the best known awards for novels written in English. At 81, he is the oldest winner in the prize's history. The award was announced at a ceremony in London on Monday 9 November.",
+     "His winning book, The End of Everything, is his 13th novel. It is set in the near future on the coast of southern England, where a beachcomber and his aunt, an artist, try to get by after ordinary life has broken down.",
+     "The five judges, led by the historian Mary Beard, chose it unanimously from 163 books. Harrison wins £50,000. He is known for [[science-fiction|science fiction]], and the head of the Booker Prize Foundation called him the first Booker winner to come from that world."
+    ]
+   },
+   "think": "What is the best book you have read this year? What would you give it a prize for?",
+   "quiz": {
+    "q": "How old is this year's Booker Prize winner?",
+    "a": [
+     "81",
+     "18",
+     "50",
+     "100"
+    ],
+    "c": 0
+   },
+   "src": [
+    [
+     "ABC News (Australia), 10 Nov",
+     "https://www.abc.net.au/news/2026-11-10/booker-prize-2026-m-john-harrison-the-end-of-everything/107342508"
+    ],
+    [
+     "The Irish Times, 9 Nov",
+     "https://www.irishtimes.com/culture/books/2026/11/09/booker-prize-2026-m-john-harrison-wins-for-the-end-of-everything/"
+    ],
+    [
+     "The Booker Prize Foundation",
+     "https://thebookerprizes.com/the-booker-library/prize-years/2026"
+    ]
+   ]
+  },
+  {
+   "id": "in-yamuna",
+   "scope": "IN",
+   "cat": "planet",
+   "emoji": "⛴️",
+   "date": "2026-11-10",
+   "kind": "news",
+   "x": {
+    "t": "Delhi gets an electric boat ride on the Yamuna",
+    "b": [
+     "[[delhi|Delhi]] has a new boat ride on the [[yamuna|Yamuna]] river. It started on 10 November.",
+     "The boat runs on electricity. It travels between two places called Sonia Vihar and Jagatpur.",
+     "It is the first fun cruise on the Yamuna in Delhi. More boats may be added later."
+    ]
+   },
+   "o": {
+    "t": "Delhi's first Yamuna cruise sets off on an electric boat",
+    "b": [
+     "[[delhi|Delhi]]'s first recreational cruise on the [[yamuna|Yamuna]] river began on 10 November. The Namo Yamuna River Safari was launched at Sonia Vihar by Sarbananda Sonowal, the Union minister for ports, shipping and waterways, with Delhi's Chief Minister Rekha Gupta.",
+     "The ride uses an [[electric-boat|electric vessel]] and makes a round trip of about six kilometres between Sonia Vihar and Jagatpur. Entry opens at 9 am and the last ticket is issued at around 9 pm.",
+     "The project is a joint effort by the central government, the Delhi government and the [[dda|Delhi Development Authority]]. Officials say more boats will be added. The riverfront project also includes a children's play zone, a food court and a musical fountain."
+    ]
+   },
+   "think": "Would a boat ride make you care more about keeping a river clean? Why?",
+   "quiz": {
+    "q": "What powers the new Yamuna cruise boat?",
+    "a": [
+     "Electricity",
+     "Diesel",
+     "Wind",
+     "Steam"
+    ],
+    "c": 0
+   },
+   "src": [
+    [
+     "ANI via Asianet Newsable, 10 Nov",
+     "https://newsable.asianetnews.com/india/delhi-govt-launches-namo-yamuna-river-safari-cruise-at-sonia-vihar-articleshow-ed3atnz"
+    ],
+    [
+     "Outlook Traveller, 11 Nov",
+     "https://www.outlooktraveller.com/News/delhi-launches-namo-yamuna-river-safari-all-you-need-to-know-about-the-new-cruise"
+    ],
+    [
+     "Pratidin Time, 10 Nov",
+     "https://www.pratidintime.com/national/delhi-gets-its-first-yamuna-river-cruise-6-km-electric-safari-to-begin-today-12798092"
+    ]
+   ]
+  },
+  {
+   "id": "g-mindoro",
+   "scope": "global",
+   "cat": "science",
+   "emoji": "🐀",
+   "date": "2026-11-09",
+   "kind": "news",
+   "x": {
+    "t": "Two new kinds of rat found on one island",
+    "b": [
+     "Scientists have found two new kinds of rat. Both live on [[mindoro|Mindoro]], an island in the [[philippines|Philippines]].",
+     "The rats live on two different mountains. They look alike, but one has darker fur and a shorter tail.",
+     "Scientists checked their [[dna|DNA]] to be sure. DNA is like a recipe inside every living thing."
+    ]
+   },
+   "o": {
+    "t": "Two new rat species show a small island can surprise science",
+    "b": [
+     "Scientists have named two new [[species|species]] of rat from [[mindoro|Mindoro]], an island in the [[philippines|Philippines]]. Crunomys halcon lives on Mount Halcon and Crunomys masulong on Mount Masulong, two mountain areas separated by lowlands.",
+     "The team caught 40 of the rats during surveys in 2013. Researchers from the University of the Philippines and three American institutions compared their skulls, teeth, fur and tails, then used [[dna|DNA]] to confirm that they were two separate species.",
+     "The find matters because of Mindoro's size. An older idea held that an island needs about 100,000 square kilometres before mammals can split into new species there. Mindoro is just under 10,000. Together with forest mice described earlier, the rats show that new mammals can arise on a much smaller island."
+    ]
+   },
+   "think": "Two animals can look almost the same but be different species. How would you try to tell them apart?",
+   "quiz": {
+    "q": "Where is the island of Mindoro?",
+    "a": [
+     "The Philippines",
+     "India",
+     "Brazil",
+     "Kenya"
+    ],
+    "c": 0
+   },
+   "src": [
+    [
+     "University of the Philippines, 9 Nov",
+     "https://up.edu.ph/mindoro-was-supposed-to-be-too-small-for-mammals-to-diversify-then-it-happened-twice/"
+    ],
+    [
+     "Daily Tribune (Philippines), 12 Nov",
+     "https://tribune.net.ph/2026/11/11/two-new-rat-species-discovered-in-mindoro"
+    ]
+   ]
+  },
+  {
+   "id": "g-ervine",
+   "scope": "global",
+   "cat": "sports",
+   "emoji": "🏏",
+   "date": "2026-11-09",
+   "kind": "news",
+   "x": {
+    "t": "A 41-year-old cricketer scores 206 runs",
+    "b": [
+     "Craig Ervine plays [[cricket|cricket]] for [[zimbabwe|Zimbabwe]], a country in Africa. He is 41 years old.",
+     "This week he scored 206 runs and was not out! It was his first double century in a [[test-cricket|Test match]].",
+     "Only two players in history were older when they did that."
+    ]
+   },
+   "o": {
+    "t": "Craig Ervine, 41, hits a double century for the record books",
+    "b": [
+     "[[zimbabwe|Zimbabwe]] batter Craig Ervine scored an unbeaten 206 against Afghanistan in a [[test-cricket|Test match]] in Sharjah that ended in a draw on 9 November. At 41 years and 82 days old, he became the third-oldest player ever to score a Test double century.",
+     "Only South Africa's Eric Rowan, in 1951, and England's Jack Hobbs, in 1924, were older. Ervine faced 279 balls, and it was his first double century in Tests. He shared an unbroken partnership of 208 runs with Wessly Madhevere, who made his first Test century.",
+     "The match set a team record too. Zimbabwe made 504 in their first innings and 523 for 5 in their second. That made them the first team in Test history to pass 500 in both innings of a match. Afghanistan scored 514."
+    ]
+   },
+   "think": "Ervine did something new at 41. What would you like to still be learning when you are much older?",
+   "quiz": {
+    "q": "How many runs did Craig Ervine score?",
+    "a": [
+     "206",
+     "41",
+     "100",
+     "523"
+    ],
+    "c": 0
+   },
+   "src": [
+    [
+     "Outlook India, 9 Nov",
+     "https://www.outlookindia.com/sports/cricket/afghanistan-vs-zimbabwe-1st-test-2026-craig-ervine-double-century-record"
+    ],
+    [
+     "The Free Press Journal, 9 Nov",
+     "https://www.freepressjournal.in/sports/craig-ervine-creates-history-at-41-becomes-third-oldest-cricketer-to-score-double-century-in-test"
+    ],
+    [
+     "Cricket Times, 10 Nov",
+     "https://crickettimes.com/2026/11/zimbabwe-creates-a-new-world-record-in-drawn-test-against-afghanistan/"
+    ]
+   ]
+  },
+  {
+   "id": "g-singles-ai",
+   "scope": "global",
+   "cat": "business",
+   "emoji": "🛒",
+   "date": "2026-11-11",
+   "kind": "news",
+   "x": {
+    "t": "AI helpers join China's giant online sale",
+    "b": [
+     "China has just held its biggest online sale. It is called [[singles-day|Singles' Day]], and it falls on 11 November.",
+     "This year, many shoppers used [[ai|AI]] helpers. These are computer programs that answer questions and suggest things to buy.",
+     "But lots of families were careful with their money. Early sales were about the same as last year."
+    ]
+   },
+   "o": {
+    "t": "AI shopping assistants star in China's Singles' Day sale",
+    "b": [
+     "China's [[singles-day|Singles' Day]], the country's biggest online shopping festival, reached its main day on 11 November. It began as a one-day event but now runs for weeks, with discounts on shopping sites run by companies such as Alibaba and JD.com.",
+     "The big change this year is [[ai|artificial intelligence]]. Shopping sites have built in AI assistants that answer questions, recommend products and help place orders. JD.com said nearly 80 million people asked its assistant, Dongdong, for advice, more than three times as many as last year, the Reuters news agency reported.",
+     "Even so, shoppers were cautious. Sales up to the end of October were just over 1 trillion [[yuan|yuan]], about the same as a year earlier, according to figures from the data firm Syntun reported by the Associated Press. Worries about jobs and falling home prices mean many families are spending carefully."
+    ]
+   },
+   "think": "Would you trust a computer helper to choose what you buy? What might it get wrong?",
+   "quiz": {
+    "q": "What was the big change in this year's Singles' Day sale?",
+    "a": [
+     "Shoppers used AI assistants",
+     "The sale moved to December",
+     "Shops closed their websites",
+     "Everything was free"
+    ],
+    "c": 0
+   },
+   "src": [
+    [
+     "Associated Press via ABC News, 10 Nov",
+     "https://abcnews.com/Business/wireStory/subdued-sales-singles-day-chinas-online-shopping-festival-138035152"
+    ],
+    [
+     "Reuters via TimesLIVE, 11 Nov",
+     "https://www.timeslive.co.za/news/2026-11-11-chinas-singles-day-shopping-festival-puts-ai-selling-power-to-the-test/"
+    ]
+   ]
+  },
+  {
+   "id": "in-radio",
+   "scope": "IN",
+   "cat": "history",
+   "emoji": "📻",
+   "date": "2026-11-12",
+   "kind": "calendar",
+   "when": "Today",
+   "x": {
+    "t": "The day Gandhi spoke on the radio",
+    "b": [
+     "Today is Public Service Broadcasting Day in India. It remembers a special radio talk.",
+     "On 12 November 1947, [[gandhi|Mahatma Gandhi]] went to [[air|All India Radio]]. He spoke to [[refugee|refugees]], people who had to leave their homes. He could not visit them, so he used the radio.",
+     "It was his first and last visit to a radio station."
+    ]
+   },
+   "o": {
+    "t": "Why 12 November is Public Service Broadcasting Day",
+    "b": [
+     "Every 12 November, India marks Public Service Broadcasting Day, also called Jan Prasaran Diwas. It remembers the only time [[gandhi|Mahatma Gandhi]] visited a radio station.",
+     "On 12 November 1947, Gandhi came to the studios of [[air|All India Radio]]. He wanted to speak to [[refugee|refugees]] who were living in camps after being forced to leave their homes. He could not travel to see them, so his words were broadcast live instead. He spoke for 20 minutes and urged them to face their hardship with patience.",
+     "Gandhi was struck by what radio could do, and called it a wondrous thing. The date was declared Public Service Broadcasting Day in 2000. Public service broadcasting means radio and television made to inform and serve everyone."
+    ]
+   },
+   "think": "If you could speak to the whole country on the radio for one minute, what would you say?",
+   "quiz": {
+    "q": "What did Gandhi visit on 12 November 1947?",
+    "a": [
+     "All India Radio",
+     "A cricket ground",
+     "A film studio",
+     "A printing press"
+    ],
+    "c": 0
+   },
+   "src": [
+    [
+     "The Hindu, 24 Jun 2013, via mkgandhi.org",
+     "https://www.mkgandhi.org/newannou/gandhi_AIR.html"
+    ],
+    [
+     "ETV Bharat, 12 Nov 2024",
+     "https://etvbharat.com/en/!bharat/public-service-broadcasting-day-november-12-mahatma-gandhi-all-india-radio-enn24111201179"
+    ]
+   ]
+  },
+  {
+   "id": "g-talks-end",
+   "scope": "global",
+   "cat": "world",
+   "emoji": "🕊️",
+   "date": "2026-11-11",
+   "kind": "news",
+   "olderOnly": true,
+   "sensitive": "conflict",
+   "x": {
+    "t": "Talks about ending a war take one step forward",
+    "b": [
+     "Grown-ups from Russia, Ukraine and the United States met for two days. They talked about how to end a war.",
+     "They agreed on one helpful step. Some people held by each side will go home. The talking will carry on."
+    ]
+   },
+   "o": {
+    "t": "Abu Dhabi talks end with a prisoner exchange deal, but no peace yet",
+    "b": [
+     "Two days of talks between [[russia|Russia]] and [[ukraine|Ukraine]], with the United States acting as [[mediator|mediator]], ended in [[abu-dhabi|Abu Dhabi]] on 11 November. They were the first direct talks between the two sides since February.",
+     "The sides agreed in principle to a large [[prisoner-exchange|exchange of prisoners]]: people captured during the conflict who will be sent home. The exact number is still to be settled. US envoy Jared Kushner called it \"a very tough meeting but a productive one\".",
+     "There was no breakthrough on the hardest questions, including a ceasefire, which is an agreement to stop fighting, and control of territory. Kushner and fellow envoy Steve Witkoff are due to travel to Moscow to meet Russia's president, Vladimir Putin, and then to Dublin to meet Ukraine's president, Volodymyr Zelenskyy. More talks are expected."
+    ]
+   },
+   "think": "Why might two sides agree on a small step before they can agree on the big ones?",
+   "quiz": {
+    "q": "What did the two sides agree on in Abu Dhabi?",
+    "a": [
+     "An exchange of prisoners",
+     "A final peace treaty",
+     "A new border",
+     "A date for elections"
+    ],
+    "c": 0
+   },
+   "src": [
+    [
+     "Al Jazeera, 11 Nov",
+     "https://www.aljazeera.com/news/2026/11/11/russia-ukraine-talks-in-abu-dhabi-end-with-prisoner-exchange-agreement"
+    ],
+    [
+     "Euronews, 11 Nov",
+     "https://www.euronews.com/2026/11/11/abu-dhabi-peace-talks-end-with-prisoner-exchange-agreement-as-us-envoys-prepare-to-meet-pu"
+    ]
+   ]
+  }
+ ],
+ "glossary": {
+  "nasa": [
+   "NASA",
+   "science",
+   "America's space agency. It sent the first people to walk on the Moon in 1969.",
+   "The National Aeronautics and Space Administration, founded in 1958. It ran the Apollo Moon landings, the Space Shuttle and the Mars rovers, and now leads the Artemis programme."
+  ],
+  "cop": [
+   "COP",
+   "civics",
+   "A big yearly meeting where countries talk about climate change.",
+   "Conference of the Parties: the yearly summit of countries that signed the UN climate treaty of 1992. COP21 in 2015 produced the Paris Agreement."
+  ],
+  "turkiye": [
+   "Türkiye",
+   "places",
+   "A country that is partly in Europe and partly in Asia. In English it used to be called Turkey.",
+   "A country bridging Europe and Asia. Its capital is Ankara and its largest city is Istanbul. In 2022 the UN began using the name Türkiye at the government's request."
+  ],
+  "un": [
+   "United Nations",
+   "civics",
+   "A club of almost every country in the world that works for peace and helps people.",
+   "Founded in 1945 after the Second World War, with 193 member countries. Its family includes the Security Council, UNICEF and the World Health Organization."
+  ],
+  "guterres": [
+   "António Guterres",
+   "people",
+   "The leader of the United Nations. He used to be Prime Minister of Portugal.",
+   "UN Secretary-General since 2017 and a former Prime Minister of Portugal. His second and final term ends on 31 December 2026."
+  ],
+  "climate-change": [
+   "Climate change",
+   "science",
+   "Earth slowly getting warmer over many years, mostly because people burn coal, oil and gas.",
+   "Long-term shifts in temperature and weather. Since the 1800s, burning fossil fuels has added carbon dioxide to the air, trapping heat. Earth is already more than 1°C warmer than before the industrial age."
+  ],
+  "paris-agreement": [
+   "Paris Agreement",
+   "civics",
+   "A promise made by countries in 2015 to slow down global warming.",
+   "A 2015 treaty in which countries agreed to keep warming well below 2°C and to try for 1.5°C, with each country setting its own targets."
+  ],
+  "ai": [
+   "AI",
+   "tech",
+   "Artificial intelligence: computer programs that can learn and make choices.",
+   "Artificial intelligence: computer systems that learn patterns from data to recognise images, understand language or make predictions."
+  ],
+  "russia": [
+   "Russia",
+   "places",
+   "The biggest country in the world. It stretches across Europe and Asia.",
+   "The world's largest country by area, spanning 11 time zones, with Moscow as its capital. It is led by President Vladimir Putin."
+  ],
+  "ukraine": [
+   "Ukraine",
+   "places",
+   "A large country in eastern Europe. Its flag is blue and yellow.",
+   "Europe's second largest country by area, with Kyiv as its capital. It has been defending itself against Russia's full-scale invasion since February 2022."
+  ],
+  "abu-dhabi": [
+   "Abu Dhabi",
+   "places",
+   "The capital city of the United Arab Emirates, in the Middle East.",
+   "The capital of the UAE, a federation of seven emirates on the Gulf. It often hosts international talks because it keeps ties with many sides."
+  ],
+  "mediator": [
+   "Mediator",
+   "words",
+   "A helper who listens to both sides of an argument and helps them find a fair answer.",
+   "A go-between who helps two sides negotiate, often carrying proposals back and forth when the sides will not agree face to face."
+  ],
+  "delhi": [
+   "Delhi",
+   "places",
+   "India's capital city, where the national government meets.",
+   "India's National Capital Territory, with over 30 million people in its wider region. New Delhi, inside it, is the seat of India's government and Parliament."
+  ],
+  "hera": [
+   "Hera",
+   "science",
+   "A European spacecraft sent to study two asteroids.",
+   "A European Space Agency spacecraft, launched in October 2024, sent to study the asteroids Didymos and Dimorphos after NASA's DART test."
+  ],
+  "asteroid": [
+   "Asteroid",
+   "science",
+   "A rocky object in space that travels around the Sun. It is much smaller than a planet.",
+   "A small, rocky body that orbits the Sun. Most asteroids come from the main belt between the orbits of Mars and Jupiter."
+  ],
+  "esa": [
+   "European Space Agency",
+   "science",
+   "A group of European countries that explore space together.",
+   "ESA: the organisation through which European countries build and fly space missions together. It runs the Hera mission."
+  ],
+  "dart": [
+   "DART",
+   "science",
+   "A NASA spacecraft that crashed into an asteroid on purpose in 2022, as a test.",
+   "Double Asteroid Redirection Test: a NASA mission that hit the asteroid moon Dimorphos in September 2022 to see whether a crash could change its orbit."
+  ],
+  "harrison": [
+   "M John Harrison",
+   "people",
+   "A British writer who won the Booker Prize in 2026, when he was 81.",
+   "A British author known for science fiction. He won the 2026 Booker Prize at 81 for his 13th novel, The End of Everything."
+  ],
+  "booker-prize": [
+   "Booker Prize",
+   "words",
+   "A famous prize given every year to one very good book.",
+   "A yearly prize, first awarded in 1969, for a novel written in English and published in the UK or Ireland. The winner receives £50,000."
+  ],
+  "science-fiction": [
+   "Science fiction",
+   "words",
+   "Made-up stories about the future, space or amazing inventions.",
+   "Stories that imagine the future, other worlds or new technology, and ask what life would be like there."
+  ],
+  "ethiopia": [
+   "Ethiopia",
+   "places",
+   "A country in the east of Africa.",
+   "A large country in eastern Africa, with high mountains and forests."
+  ],
+  "extinct": [
+   "Extinct",
+   "science",
+   "When a kind of animal or plant has died out and there are none left.",
+   "A species is extinct when its last member has died. Now and then, a species thought to be extinct is found again."
+  ],
+  "critically-endangered": [
+   "Critically endangered",
+   "science",
+   "In very great danger of dying out.",
+   "The most serious risk level for a species that is still alive, on the Red List kept by the International Union for Conservation of Nature."
+  ],
+  "dna": [
+   "DNA",
+   "science",
+   "A tiny set of instructions inside every living thing. It is like a recipe for making that plant or animal.",
+   "The molecule that carries the genetic instructions of living things. Comparing DNA shows how closely two animals are related."
+  ],
+  "mindoro": [
+   "Mindoro",
+   "places",
+   "An island in the Philippines with tall mountains.",
+   "An island in the Philippines, just under 10,000 square kilometres in area, with mountains that rise above 2,000 metres."
+  ],
+  "philippines": [
+   "Philippines",
+   "places",
+   "A country in Asia made up of thousands of islands.",
+   "A country in South-East Asia made up of thousands of islands, including Luzon and Mindoro."
+  ],
+  "species": [
+   "Species",
+   "science",
+   "One kind of living thing, such as a tiger or a house sparrow.",
+   "A group of living things that are alike and can breed with each other. Scientists give each species a two-part scientific name."
+  ],
+  "fossil-fuels": [
+   "Fossil fuels",
+   "science",
+   "Coal, oil and gas. People burn them to make energy.",
+   "Coal, oil and natural gas, formed underground over millions of years. Burning them releases carbon dioxide, which traps heat."
+  ],
+  "singles-day": [
+   "Singles' Day",
+   "words",
+   "A huge online sale in China on 11 November.",
+   "China's biggest online shopping festival, centred on 11 November. The sales now run for weeks beforehand."
+  ],
+  "yuan": [
+   "Yuan",
+   "words",
+   "The money used in China.",
+   "China's currency, also called renminbi. In November 2026, one US dollar was worth about six and a half yuan."
+  ],
+  "prisoner-exchange": [
+   "Prisoner exchange",
+   "civics",
+   "When two sides each send back people they have been holding.",
+   "An agreement in which the two sides in a conflict each release people they have captured, so that they can go home."
+  ],
+  "cricket": [
+   "Cricket",
+   "words",
+   "A game played with a bat and ball by two teams of eleven players.",
+   "A bat-and-ball sport between two teams of eleven. Batters score runs and bowlers try to get them out."
+  ],
+  "test-cricket": [
+   "Test match",
+   "words",
+   "The longest kind of cricket match. It can last five days.",
+   "The longest form of cricket, played over up to five days, in which each team can bat twice. A batter who scores 100 runs has a century, and 200 is a double century."
+  ],
+  "zimbabwe": [
+   "Zimbabwe",
+   "places",
+   "A country in the south of Africa.",
+   "A country in southern Africa. Its national cricket team plays Test matches."
+  ],
+  "yog": [
+   "Youth Olympic Games",
+   "words",
+   "An Olympic Games just for teenage athletes.",
+   "A version of the Olympic Games for teenage athletes. The 2026 Games are in Dakar, Senegal, from 31 October to 13 November."
+  ],
+  "dakar": [
+   "Dakar",
+   "places",
+   "A city in Senegal, a country in the west of Africa.",
+   "A city in Senegal, in West Africa, and the host of the 2026 Youth Olympic Games."
+  ],
+  "wushu": [
+   "Wushu",
+   "words",
+   "A sport from China that uses martial arts moves.",
+   "A sport that grew out of Chinese martial arts. In some events, athletes perform routines that judges mark with scores."
+  ],
+  "yamuna": [
+   "Yamuna",
+   "places",
+   "A big river that flows through Delhi.",
+   "A major river of northern India that flows through Delhi."
+  ],
+  "electric-boat": [
+   "Electric vessel",
+   "tech",
+   "A boat that runs on batteries instead of burning fuel.",
+   "A boat driven by electric motors and batteries rather than a diesel engine."
+  ],
+  "dda": [
+   "Delhi Development Authority",
+   "civics",
+   "A government office that plans and builds parts of Delhi.",
+   "DDA: a government body that plans and develops land in Delhi."
+  ],
+  "astronomy": [
+   "Astronomy",
+   "science",
+   "The study of stars, planets and everything in space.",
+   "The science of everything beyond Earth: stars, planets, galaxies and the universe itself."
+  ],
+  "olympiad": [
+   "Olympiad",
+   "words",
+   "A big contest where students from many countries compete.",
+   "Here, an international contest in a school subject, in which the best students win gold, silver and bronze medals."
+  ],
+  "thailand": [
+   "Thailand",
+   "places",
+   "A country in South-East Asia.",
+   "A country in South-East Asia. It hosted the 2026 junior astronomy olympiad in the city of Ubon Ratchathani."
+  ],
+  "ncsm": [
+   "National Council of Science Museums",
+   "civics",
+   "A group that runs science museums across India.",
+   "NCSM: a body under India's Ministry of Culture that runs science centres and prepares India's team for the junior astronomy olympiad."
+  ],
+  "navi-mumbai": [
+   "Navi Mumbai",
+   "places",
+   "A big city in India, next to Mumbai.",
+   "A large city beside Mumbai. It came first in India's 2025-26 city cleanliness survey."
+  ],
+  "murmu": [
+   "Droupadi Murmu",
+   "people",
+   "The President of India.",
+   "The President of India, who is the country's head of state."
+  ],
+  "swachh-survekshan": [
+   "Swachh Survekshan",
+   "civics",
+   "A check of how clean India's cities are, with prizes for the best.",
+   "The government's cleanliness survey of India's cities, run by the Ministry of Housing and Urban Affairs."
+  ],
+  "gandhi": [
+   "Mahatma Gandhi",
+   "people",
+   "A leader who helped India become free by using peace, not fighting.",
+   "A leader of India's freedom movement, known for non-violent protest. Mahatma is a title of respect."
+  ],
+  "air": [
+   "All India Radio",
+   "tech",
+   "India's national radio service.",
+   "India's public radio broadcaster. A public broadcaster exists to inform and serve everyone."
+  ],
+  "refugee": [
+   "Refugee",
+   "words",
+   "A person who has had to leave home to stay safe.",
+   "Someone forced to leave their home, often because of conflict, and to look for safety somewhere else."
+  ]
+ },
+ "keys": {
+  "in-yog": {
+   "type": "number",
+   "v": "8",
+   "l": "medals for India so far: 3 silver and 5 bronze, with boxing still to come"
+  },
+  "in-astro": {
+   "type": "number",
+   "v": "5 of 5",
+   "l": "members of India's team who won a medal"
+  },
+  "in-yamuna": {
+   "type": "number",
+   "v": "~6 km",
+   "l": "the round trip between Sonia Vihar and Jagatpur"
+  },
+  "g-hera": {
+   "type": "number",
+   "v": "151 m",
+   "l": "the width of Dimorphos, the asteroid moon that Hera is inspecting"
+  },
+  "g-watermouse": {
+   "type": "number",
+   "v": "1927",
+   "l": "the only time the water mouse had been recorded before now"
+  },
+  "g-mindoro": {
+   "type": "number",
+   "v": "40",
+   "l": "rats studied to show there were two new species"
+  },
+  "g-cop31": {
+   "type": "number",
+   "v": "35%",
+   "l": "the share of the world's energy that would come from electricity by 2035 under the pledge. It is about 23% now"
+  },
+  "g-singles-ai": {
+   "type": "number",
+   "v": "~80 million",
+   "l": "people who asked JD.com's AI assistant for shopping advice, according to the company"
+  },
+  "g-booker": {
+   "type": "number",
+   "v": "81",
+   "l": "the age of M John Harrison, the oldest winner of the Booker Prize"
+  },
+  "g-ervine": {
+   "type": "number",
+   "v": "206*",
+   "l": "runs for Craig Ervine, not out, at the age of 41"
+  }
+ },
+ "xkeys": {
+  "in-astro": {
+   "type": "check",
+   "q": "Did every student on India's team win a medal?",
+   "a": [
+    "Yes",
+    "No"
+   ],
+   "c": 0,
+   "right": "Right! All five won a medal.",
+   "wrong": "Not quite. Read it again!"
+  },
+  "in-yamuna": {
+   "type": "check",
+   "q": "What makes the new boat go?",
+   "a": [
+    "Electricity",
+    "Petrol"
+   ],
+   "c": 0,
+   "right": "Right! It is an electric boat.",
+   "wrong": "Not quite. Read it again!"
+  },
+  "g-watermouse": {
+   "type": "check",
+   "q": "Was the water mouse found again?",
+   "a": [
+    "Yes",
+    "No"
+   ],
+   "c": 0,
+   "right": "Right! It was in a forest stream.",
+   "wrong": "Not quite. Read it again!"
+  },
+  "g-ervine": {
+   "type": "check",
+   "q": "How old is Craig Ervine?",
+   "a": [
+    "41",
+    "14"
+   ],
+   "c": 0,
+   "right": "Right! He is 41.",
+   "wrong": "Not quite. Read it again!"
+  }
+ },
+ "deep": {
+  "in-yog": {
+   "ctx": "The Youth Olympic Games are organised under the International Olympic Committee, and Dakar 2026 is described as the first IOC event to be held in Africa. In boxing, both losing semi-finalists receive a bronze medal, which is why reaching a semi-final already guarantees a place on the podium.",
+   "ask": "Should young athletes be pushed to chase medals early, or should youth sport be mainly about taking part and learning?",
+   "jobs": [
+    "Sports coach",
+    "Physiotherapist",
+    "Sports journalist"
+   ]
+  },
+  "in-astro": {
+   "ctx": "This was the fifth edition of the junior astronomy olympiad. India's team is picked through several stages, starting with a national exam and ending with a training camp, and this year's five travelled with two team leaders from Indian science centres.",
+   "ask": "Do contests and medals make more young people fall in love with science, or do they mostly reward students who already have the best coaching?",
+   "jobs": [
+    "Astronomer",
+    "Science museum curator",
+    "Data scientist"
+   ]
+  },
+  "in-swachh": {
+   "ctx": "Swachh Survekshan is linked to the Swachh Bharat Mission for cities. This year it added a category called Swachh Shehar Jodi, which rewards pairs of cities, and Ahmedabad with its neighbour Sanand came first.",
+   "ask": "Do league tables make cities cleaner for good, or do they tempt officials to tidy up mainly when the inspectors visit?",
+   "jobs": [
+    "Waste management engineer",
+    "Urban planner",
+    "Public health officer"
+   ]
+  },
+  "in-yamuna": {
+   "ctx": "The cruise was developed with the Inland Waterways Authority of India and Delhi's own agencies. Outlook Traveller reported that it runs on a stretch where the water quality is comparatively better, and that the cruise's future depends on sustained efforts to improve the river's water.",
+   "ask": "Can river tourism make people care more about cleaning a river, or should the clean-up come first?",
+   "jobs": [
+    "Naval architect",
+    "Environmental engineer",
+    "Tourism manager"
+   ]
+  },
+  "in-radio": {
+   "ctx": "All India Radio held a commemoration on 12 November 1997, fifty years after the broadcast, and the day was formally declared three years later. Gandhi's talk shows how radio could reach huge numbers of people at once.",
+   "ask": "Today anyone can broadcast from a phone. Do we still need broadcasters whose job is to serve the public, or can the internet do that work?",
+   "jobs": [
+    "Radio presenter",
+    "Sound engineer",
+    "Broadcast journalist"
+   ]
+  },
+  "g-hera": {
+   "ctx": "DART and Hera are two halves of one experiment. DART tested a method called a kinetic impactor, which means hitting an asteroid to change its path, and Hera's main objective is to measure how well that method worked. Hera took its first picture showing the two asteroids as separate objects on 18 October, from 1,280 kilometres away.",
+   "ask": "Should countries spend large sums preparing for dangers that may never come, or put that money into problems people face today?",
+   "jobs": [
+    "Planetary scientist",
+    "Spacecraft engineer",
+    "Mission operations controller"
+   ]
+  },
+  "g-watermouse": {
+   "ctx": "The International Union for Conservation of Nature lists the species as critically endangered and possibly extinct. The animals were found during the first comprehensive survey of wildlife in the Yayu reserve, a project started by the conservation group NABU, in a stream beside a village where people wash their clothes.",
+   "ask": "Money for conservation is limited. Should more go to searching for species that may already be gone, or to protecting animals we know are still here?",
+   "jobs": [
+    "Field ecologist",
+    "Geneticist",
+    "Wildlife photographer"
+   ]
+  },
+  "g-mindoro": {
+   "ctx": "The rats were collected in 2013 but only named in 2026, because proving that a population is a separate species is slow work. One of the scientists, Lawrence Heaney of the Field Museum in Chicago, said that in the field it is really difficult to tell with complete certainty.",
+   "ask": "Should scientists name new species faster with fewer checks, or keep strict standards even if it takes years?",
+   "jobs": [
+    "Mammalogist",
+    "Museum collections manager",
+    "Evolutionary biologist"
+   ]
+  },
+  "g-cop31": {
+   "ctx": "Australia's climate minister Chris Bowen, who is leading the negotiations, says electricity supplies 23 per cent of the world's energy use today. Supporters say reaching 35 per cent by 2035 would mean electrifying about four times faster than now. The pledge is voluntary and sets no targets for individual countries.",
+   "ask": "Is a voluntary pledge that many countries can sign better than a strict rule that only a few will accept?",
+   "jobs": [
+    "Climate negotiator",
+    "Power grid engineer",
+    "Energy economist"
+   ]
+  },
+  "g-singles-ai": {
+   "ctx": "Singles' Day is watched as a measure of how confident Chinese shoppers feel. China's retail sales grew only 1.1 per cent in the first nine months of 2026. Analysts quoted by Reuters said some brands gain more than others depending on how each shopping platform tunes its AI.",
+   "ask": "If an AI assistant chooses what you buy, who is really deciding: you, the shop that built the assistant, or the brands it shows you?",
+   "jobs": [
+    "E-commerce analyst",
+    "AI product designer",
+    "Economist"
+   ]
+  },
+  "g-talks-end": {
+   "ctx": "The prisoner exchange was the one concrete result. Ukraine's president said negotiators had discussed 1,000 prisoners from each side, possibly rising to 1,500, Euronews reported. Kushner said questions of territory would be the hardest to settle, and that progress was made on a framework for security after the conflict.",
+   "ask": "Should peace talks aim for small agreements first to build trust, or go straight to the hardest questions?",
+   "jobs": [
+    "Diplomat",
+    "Interpreter",
+    "Humanitarian aid worker"
+   ]
+  },
+  "g-booker": {
+   "ctx": "The Booker Prize was first awarded in 1969. Since 2014 it has been open to writers of any nationality, as long as the book is written in English and published in the UK or Ireland. This year's six-book shortlist was drawn from 163 submissions.",
+   "ask": "Is a prize chosen by five judges a good guide to which books are best, or only to what those five people like?",
+   "jobs": [
+    "Novelist",
+    "Book editor",
+    "Bookseller"
+   ]
+  },
+  "g-ervine": {
+   "ctx": "Before Ervine, the last player over 40 to score a Test double century was England's Graham Gooch in 1994. It was a high-scoring match all round: three Afghanistan batters also made centuries, and the three completed innings produced 1,541 runs.",
+   "ask": "Should the best player always be picked whatever their age, or should teams make room for young players to gain experience?",
+   "jobs": [
+    "Sports scientist",
+    "Cricket statistician",
+    "Strength and conditioning coach"
+   ]
+  }
+ },
+ "today": {
+  "born": [
+   {
+    "name": "Salim Ali",
+    "year": 1896,
+    "what": "Known as the Birdman of India. He carried out bird surveys across the country and wrote The Book of Indian Birds.",
+    "where": [
+     "IN"
+    ]
+   }
+  ],
+  "days": [
+   {
+    "name": "Public Service Broadcasting Day",
+    "what": "India remembers 12 November 1947, when Mahatma Gandhi spoke on All India Radio. It was his only visit to a radio station.",
+    "where": [
+     "IN"
+    ]
+   }
+  ],
+  "week": "World Kindness Day is tomorrow, Friday 13 November. Children's Day in India is on Saturday 14 November."
+ },
+ "learn": {
+  "subject": "Science",
+  "cat": "space",
+  "link": "From the Hera story",
+  "x": {
+   "t": "What is an asteroid?",
+   "b": [
+    "An asteroid is a rocky object that travels around the Sun. It is much smaller than a planet.",
+    "Asteroids are leftovers from when the planets formed, about 4.6 billion years ago.",
+    "Most of them are found between the planets Mars and Jupiter. That region is called the asteroid belt."
+   ],
+   "remember": "Asteroids are space rocks left over from when the planets were made.",
+   "q": "Where are most asteroids found?",
+   "a": [
+    "Between Mars and Jupiter",
+    "Inside the Sun"
+   ],
+   "c": 0
+  },
+  "o": {
+   "t": "What is an asteroid?",
+   "b": [
+    "An asteroid is a relatively small, rocky body that orbits the Sun. Asteroids are the rocky remnants left over from the formation of the solar system and its planets, about 4.6 billion years ago.",
+    "Most of them come from the main asteroid belt, between the orbits of Mars and Jupiter. NASA's count of known asteroids is over one million.",
+    "Asteroids are not the same as comets. A comet also contains ices, which turn to gas near the Sun and give it a cloud and a tail. Asteroids are rocky or dusty, and stay inactive."
+   ],
+   "remember": "Asteroid: rocky and inactive. Comet: icy, and grows a tail near the Sun.",
+   "q": "What do comets contain that makes a tail near the Sun?",
+   "a": [
+    "Ices",
+    "Metal",
+    "Sand"
+   ],
+   "c": 0
+  }
+ },
+ "sketches": {
+  "smog": {
+   "t": "Why smog gets trapped",
+   "c": "#0B7F75",
+   "steps": [
+    {
+     "o": "Cars, factories, farm fires and firecrackers all put smoke into the air.",
+     "x": "Cars, fires and firecrackers put smoke into the air.",
+     "d": [
+      {
+       "l": [
+        8,
+        192,
+        312,
+        192
+       ]
+      },
+      {
+       "r": [
+        28,
+        152,
+        40,
+        40
+       ]
+      },
+      {
+       "p": "M24 152 L48 132 L72 152"
+      },
+      {
+       "r": [
+        92,
+        118,
+        30,
+        74
+       ]
+      },
+      {
+       "l": [
+        100,
+        132,
+        114,
+        132
+       ]
+      },
+      {
+       "l": [
+        100,
+        148,
+        114,
+        148
+       ]
+      },
+      {
+       "l": [
+        100,
+        164,
+        114,
+        164
+       ]
+      },
+      {
+       "r": [
+        158,
+        172,
+        46,
+        14
+       ]
+      },
+      {
+       "p": "M166 172 L172 162 L192 162 L198 172"
+      },
+      {
+       "c": [
+        170,
+        188,
+        5
+       ]
+      },
+      {
+       "c": [
+        192,
+        188,
+        5
+       ]
+      },
+      {
+       "r": [
+        246,
+        128,
+        16,
+        64
+       ]
+      },
+      {
+       "r": [
+        262,
+        160,
+        34,
+        32
+       ]
+      },
+      {
+       "p": "M254 122 q-9 -9 0 -18 q9 -9 0 -18",
+       "acc": 1
+      },
+      {
+       "p": "M210 176 q8 -6 14 -2 q6 4 12 -2",
+       "acc": 1
+      },
+      {
+       "t": [
+        268,
+        100,
+        "smoke"
+       ],
+       "acc": 1
+      }
+     ]
+    },
+    {
+     "o": "On cold, still nights a layer of warm air settles above the city and acts like a lid.",
+     "x": "On cold, still nights, warm air sits on top like a lid.",
+     "d": [
+      {
+       "p": "M12 66 q19 -9 38 0 t38 0 t38 0 t38 0 t38 0 t38 0 t38 0 t30 0"
+      },
+      {
+       "t": [
+        96,
+        52,
+        "warm air lid"
+       ]
+      },
+      {
+       "a": [
+        254,
+        84,
+        254,
+        72
+       ],
+       "acc": 1
+      },
+      {
+       "l": [
+        246,
+        70,
+        262,
+        70
+       ]
+      },
+      {
+       "t": [
+        20,
+        112,
+        "cold air"
+       ]
+      }
+     ]
+    },
+    {
+     "o": "The smoke cannot rise, so it spreads sideways and builds up as smog. Wind or rain is what finally clears it.",
+     "x": "The smoke is stuck. It spreads out and becomes smog. Wind or rain clears it.",
+     "d": [
+      {
+       "p": "M22 86 q16 -7 32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0",
+       "acc": 1
+      },
+      {
+       "p": "M34 98 q16 -7 32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0",
+       "acc": 1
+      },
+      {
+       "p": "M140 110 q16 -7 32 0 t32 0 t32 0 t32 0",
+       "acc": 1
+      },
+      {
+       "t": [
+        150,
+        82,
+        "smog"
+       ],
+       "acc": 1
+      },
+      {
+       "a": [
+        306,
+        28,
+        262,
+        28
+       ]
+      },
+      {
+       "a": [
+        306,
+        40,
+        270,
+        40
+       ]
+      },
+      {
+       "t": [
+        212,
+        22,
+        "wind"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "meteor": {
+   "t": "Why shooting stars glow",
+   "c": "#25317F",
+   "steps": [
+    {
+     "o": "A bit of space rock, often smaller than a pea, speeds towards Earth.",
+     "x": "A tiny space rock, smaller than a pea, flies towards Earth.",
+     "d": [
+      {
+       "p": "M0 204 Q160 156 320 204"
+      },
+      {
+       "t": [
+        138,
+        212,
+        "Earth"
+       ]
+      },
+      {
+       "p": "M0 150 Q160 102 320 150",
+       "acc": 1
+      },
+      {
+       "t": [
+        14,
+        138,
+        "air"
+       ],
+       "acc": 1
+      },
+      {
+       "c": [
+        276,
+        28,
+        5
+       ]
+      },
+      {
+       "a": [
+        266,
+        36,
+        236,
+        58
+       ]
+      },
+      {
+       "t": [
+        196,
+        22,
+        "space rock"
+       ]
+      }
+     ]
+    },
+    {
+     "o": "It hits the air at tens of kilometres per second and squeezes the air in front of it. Squeezed air gets extremely hot.",
+     "x": "It hits the air super fast and squashes it. Squashed air gets very hot.",
+     "d": [
+      {
+       "c": [
+        196,
+        92,
+        5
+       ]
+      },
+      {
+       "p": "M180 86 Q176 106 194 110",
+       "acc": 1
+      },
+      {
+       "p": "M172 82 Q166 110 192 118",
+       "acc": 1
+      },
+      {
+       "t": [
+        40,
+        96,
+        "squeezed, hot air"
+       ],
+       "acc": 1
+      },
+      {
+       "a": [
+        150,
+        98,
+        170,
+        100
+       ],
+       "acc": 1
+      }
+     ]
+    },
+    {
+     "o": "The heat makes the air and the rock glow, usually 70 to 100 km up. From the ground you see a bright streak.",
+     "x": "The hot air and rock glow. From the ground you see a bright streak!",
+     "d": [
+      {
+       "l": [
+        268,
+        36,
+        204,
+        86
+       ],
+       "acc": 1
+      },
+      {
+       "l": [
+        274,
+        44,
+        210,
+        92
+       ],
+       "acc": 1
+      },
+      {
+       "l": [
+        262,
+        30,
+        200,
+        78
+       ],
+       "acc": 1
+      },
+      {
+       "c": [
+        62,
+        150,
+        6
+       ]
+      },
+      {
+       "l": [
+        62,
+        156,
+        62,
+        174
+       ]
+      },
+      {
+       "l": [
+        62,
+        174,
+        55,
+        186
+       ]
+      },
+      {
+       "l": [
+        62,
+        174,
+        69,
+        186
+       ]
+      },
+      {
+       "l": [
+        62,
+        162,
+        76,
+        150
+       ]
+      },
+      {
+       "t": [
+        84,
+        146,
+        "look!"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "orbit": {
+   "t": "How a satellite stays up",
+   "c": "#6B35D8",
+   "steps": [
+    {
+     "o": "Throw a ball from a tall tower and gravity curves it down to the ground.",
+     "x": "Throw a ball. It curves down and lands.",
+     "d": [
+      {
+       "c": [
+        160,
+        122,
+        54
+       ]
+      },
+      {
+       "t": [
+        142,
+        128,
+        "Earth"
+       ]
+      },
+      {
+       "l": [
+        160,
+        68,
+        160,
+        54
+       ]
+      },
+      {
+       "l": [
+        154,
+        54,
+        166,
+        54
+       ]
+      },
+      {
+       "p": "M162 54 Q186 54 196 80",
+       "acc": 1
+      },
+      {
+       "t": [
+        172,
+        40,
+        "throw"
+       ]
+      }
+     ]
+    },
+    {
+     "o": "Throw it faster and it lands further away, because the ground curves away beneath it while it falls.",
+     "x": "Throw it faster. It lands further away, because Earth is round.",
+     "d": [
+      {
+       "p": "M162 54 Q224 58 214 118",
+       "acc": 1
+      },
+      {
+       "t": [
+        228,
+        62,
+        "faster"
+       ]
+      }
+     ]
+    },
+    {
+     "o": "At about 28,000 km an hour it falls around Earth and never lands. That endless fall is an orbit, and it is how satellites stay up.",
+     "x": "Go fast enough and it keeps falling around Earth without landing. That is an orbit!",
+     "d": [
+      {
+       "c": [
+        160,
+        122,
+        68
+       ],
+       "acc": 1
+      },
+      {
+       "r": [
+        223,
+        117,
+        10,
+        10
+       ]
+      },
+      {
+       "l": [
+        215,
+        122,
+        223,
+        122
+       ]
+      },
+      {
+       "l": [
+        233,
+        122,
+        241,
+        122
+       ]
+      },
+      {
+       "t": [
+        246,
+        110,
+        "satellite"
+       ]
+      },
+      {
+       "t": [
+        44,
+        56,
+        "orbit"
+       ],
+       "acc": 1
+      }
+     ]
+    }
+   ]
+  },
+  "greenhouse": {
+   "t": "Why the planet is warming",
+   "c": "#0B7F75",
+   "steps": [
+    {
+     "o": "Sunlight passes through the air and warms the land and the sea.",
+     "x": "Sunlight comes down and warms the Earth.",
+     "d": [
+      {
+       "p": "M0 202 Q160 162 320 202"
+      },
+      {
+       "t": [
+        140,
+        212,
+        "Earth"
+       ]
+      },
+      {
+       "c": [
+        46,
+        42,
+        17
+       ]
+      },
+      {
+       "l": [
+        46,
+        14,
+        46,
+        6
+       ]
+      },
+      {
+       "l": [
+        20,
+        42,
+        10,
+        42
+       ]
+      },
+      {
+       "l": [
+        27,
+        23,
+        20,
+        16
+       ]
+      },
+      {
+       "l": [
+        65,
+        23,
+        72,
+        16
+       ]
+      },
+      {
+       "l": [
+        27,
+        61,
+        20,
+        68
+       ]
+      },
+      {
+       "a": [
+        68,
+        58,
+        118,
+        162
+       ],
+       "acc": 1
+      },
+      {
+       "a": [
+        78,
+        48,
+        160,
+        150
+       ],
+       "acc": 1
+      },
+      {
+       "t": [
+        122,
+        92,
+        "sunlight"
+       ],
+       "acc": 1
+      }
+     ]
+    },
+    {
+     "o": "The warm Earth sends heat back up. Much of it escapes into space, which keeps the planet from overheating.",
+     "x": "The warm Earth sends heat back up into space.",
+     "d": [
+      {
+       "p": "M214 160 q-9 -11 0 -22 q9 -11 0 -22 q-9 -11 0 -22"
+      },
+      {
+       "a": [
+        214,
+        94,
+        214,
+        70
+       ]
+      },
+      {
+       "t": [
+        176,
+        58,
+        "heat escapes"
+       ]
+      }
+     ]
+    },
+    {
+     "o": "Gases such as carbon dioxide, from burning coal, oil and gas, act like a blanket. They trap more of the heat, so the planet slowly warms.",
+     "x": "Gases from burning coal, oil and gas act like a blanket. They keep more heat in, so Earth gets warmer.",
+     "d": [
+      {
+       "p": "M150 112 q18 -9 36 0 t36 0 t36 0 t36 0 t22 0",
+       "acc": 1
+      },
+      {
+       "p": "M158 124 q18 -9 36 0 t36 0 t36 0 t36 0",
+       "acc": 1
+      },
+      {
+       "t": [
+        226,
+        104,
+        "gas blanket"
+       ],
+       "acc": 1
+      },
+      {
+       "p": "M268 162 Q262 142 272 132",
+       "acc": 1
+      },
+      {
+       "a": [
+        274,
+        132,
+        292,
+        160
+       ],
+       "acc": 1
+      },
+      {
+       "t": [
+        236,
+        182,
+        "trapped heat"
+       ],
+       "acc": 1
+      }
+     ]
+    }
+   ]
+  },
+  "nudge": {
+   "t": "How DART nudged an asteroid",
+   "c": "#6B35D8",
+   "steps": [
+    {
+     "o": "Dimorphos is a small asteroid moon. It travels in an orbit around a bigger asteroid called Didymos.",
+     "x": "A small space rock goes round and round a bigger one.",
+     "d": [
+      {
+       "c": [
+        160,
+        112,
+        24
+       ]
+      },
+      {
+       "t": [
+        136,
+        152,
+        "Didymos"
+       ]
+      },
+      {
+       "c": [
+        160,
+        112,
+        80
+       ]
+      },
+      {
+       "c": [
+        240,
+        112,
+        6
+       ]
+      },
+      {
+       "t": [
+        250,
+        132,
+        "Dimorphos"
+       ]
+      }
+     ]
+    },
+    {
+     "o": "In September 2022, NASA's DART spacecraft crashed into Dimorphos on purpose, to give it a push.",
+     "x": "A spacecraft bumped into the small rock on purpose.",
+     "d": [
+      {
+       "a": [
+        296,
+        44,
+        246,
+        104
+       ],
+       "acc": 1
+      },
+      {
+       "t": [
+        262,
+        34,
+        "DART"
+       ],
+       "acc": 1
+      }
+     ]
+    },
+    {
+     "o": "The crash shortened the moon's orbit around Didymos. That showed a spacecraft can change the path of an asteroid.",
+     "x": "After the bump, the small rock's path changed a little. The test worked!",
+     "d": [
+      {
+       "c": [
+        160,
+        112,
+        70
+       ],
+       "acc": 1
+      },
+      {
+       "c": [
+        160,
+        42,
+        6
+       ],
+       "acc": 1
+      },
+      {
+       "t": [
+        40,
+        204,
+        "new, shorter orbit"
+       ],
+       "acc": 1
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "sketchFor": {
+  "g-hera": "nudge",
+  "g-cop31": "greenhouse"
+ },
+ "hiddenWords": [
+  {
+   "k": "asteroid",
+   "o": "Asteroid comes from the Greek word aster, meaning star. Through the telescopes of the time, these small space rocks looked like little points of light, just as stars do. The astronomer William Herschel first used the word in print in 1802."
+  }
+ ],
+ "backThen": {
+  "y": 2014,
+  "t": "A robot lands on a comet for the first time",
+  "o": "On this day in 2014, a lander called Philae touched down on a comet named 67P/Churyumov-Gerasimenko. It was the first soft landing of a spacecraft on a comet. Philae was carried there by Europe's Rosetta spacecraft, which launched in March 2004 and travelled 6.4 billion kilometres to reach the comet.",
+  "x": "On this day in 2014, a little robot called Philae landed on a comet. No machine had ever landed gently on a comet before. A spacecraft named Rosetta carried Philae there. The trip took more than ten years!",
+  "why": "Europe's space agency reached a comet in 2014. This week its Hera spacecraft is studying an asteroid up close. Each visit teaches us more about the small worlds that share our solar system."
+ },
+ "bigStory": {
+  "week": "2026-11-09",
+  "story": "g-cop31",
+  "cat": "planet",
+  "sketch": "greenhouse",
+  "t": "Can the world agree to slow climate change?",
+  "sub": "COP31, the United Nations climate summit in Türkiye",
+  "x": {
+   "why": "Almost 200 countries are in one place to decide how to stop Earth getting too warm. What they agree will shape the world you grow up in."
+  },
+  "o": {
+   "why": "Almost 200 countries are in one place to decide how to turn climate promises into action. What they agree, or fail to agree, will shape the world you grow up in."
+  },
+  "facts": [
+   [
+    "~200",
+    "countries taking part"
+   ],
+   [
+    "1.5°C",
+    "the limit countries hope to keep to"
+   ],
+   [
+    "2.6°C",
+    "where current promises lead, says a UN report"
+   ],
+   [
+    "20 Nov",
+    "the day the talks are due to end"
+   ]
+  ],
+  "days": [
+   {
+    "d": "2026-11-09",
+    "h": "The summit opens",
+    "o": "COP31 opened in Antalya, a city on Türkiye's coast. In an unusual setup, Türkiye is the host while Australia leads the negotiations.",
+    "x": "The big meeting began in Antalya, a city by the sea in Türkiye. Türkiye is the host, and Australia is leading the talks."
+   },
+   {
+    "d": "2026-11-10",
+    "h": "A warning from the UN",
+    "o": "UN Secretary-General António Guterres urged leaders to get serious. A UN report projects about 2.6°C of warming this century on current promises, well above the Paris Agreement goal.",
+    "x": "The leader of the United Nations asked every country to get serious. A report says Earth is on track to warm more than countries promised."
+   },
+   {
+    "d": "2026-11-11",
+    "h": "World leaders arrive",
+    "o": "Leaders gather today and tomorrow. Organisers call this the implementation COP: less about new promises, more about keeping old ones. The United States did not send officials.",
+    "x": "Presidents and prime ministers arrive today. This meeting is about keeping old promises, and less about making new ones."
+   },
+   {
+    "d": "2026-11-12",
+    "h": "What do leaders promise?",
+    "o": "On the first day of speeches, UN chief António Guterres said the climate crisis is outrunning us. Türkiye asked countries to back a voluntary pledge to raise electricity's share of the world's energy use from about 23 per cent to 35 per cent by 2035. The head of the European Commission backed it. Others want it to say the electricity must be clean.",
+    "x": "Leaders gave speeches. The head of the United Nations said the world must move faster. Türkiye asked countries to run more cars, homes and factories on electricity."
+   },
+   {
+    "d": "2026-11-13",
+    "h": "The week in one page",
+    "lock": "Friday: what moved, what did not, and what to watch in week two."
+   }
+  ],
+  "words": [
+   "cop",
+   "climate-change",
+   "paris-agreement",
+   "un"
+  ],
+  "poll": {
+   "q": "If you were a leader at COP31, what would you push for first?",
+   "a": [
+    [
+     "Cleaner energy",
+     "Most warming comes from burning coal, oil and gas for energy, so this is where the biggest cuts are."
+    ],
+    [
+     "Protecting forests",
+     "Trees take carbon dioxide out of the air, and forests are home to most land animals."
+    ],
+    [
+     "Helping places hit by floods and heat",
+     "Poorer countries have done the least to cause warming and are often hit hardest."
+    ],
+    [
+     "Cleaner transport",
+     "Cars, lorries, ships and planes burn a lot of fuel. Electric and shared travel cut that."
+    ]
+   ]
+  },
+  "talk": "Is it fair to ask every country to cut pollution by the same amount? Why, or why not?"
+ },
+ "puzzles": {
+  "week": "2026-11-09",
+  "sudoku": {
+   "o": {
+    "n": 6,
+    "br": 2,
+    "bc": 3,
+    "p": [
+     [
+      2,
+      0,
+      5,
+      6,
+      3,
+      0
+     ],
+     [
+      0,
+      1,
+      0,
+      5,
+      4,
+      0
+     ],
+     [
+      0,
+      0,
+      4,
+      1,
+      0,
+      5
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      3,
+      0,
+      6
+     ],
+     [
+      5,
+      6,
+      0,
+      0,
+      0,
+      0
+     ]
+    ],
+    "s": [
+     [
+      2,
+      4,
+      5,
+      6,
+      3,
+      1
+     ],
+     [
+      3,
+      1,
+      6,
+      5,
+      4,
+      2
+     ],
+     [
+      6,
+      3,
+      4,
+      1,
+      2,
+      5
+     ],
+     [
+      1,
+      5,
+      2,
+      4,
+      6,
+      3
+     ],
+     [
+      4,
+      2,
+      1,
+      3,
+      5,
+      6
+     ],
+     [
+      5,
+      6,
+      3,
+      2,
+      1,
+      4
+     ]
+    ]
+   },
+   "n": {
+    "n": 9,
+    "br": 3,
+    "bc": 3,
+    "p": [
+     [
+      0,
+      7,
+      0,
+      9,
+      4,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      6,
+      0,
+      2,
+      0,
+      0,
+      7,
+      0,
+      0,
+      8
+     ],
+     [
+      0,
+      8,
+      9,
+      2,
+      0,
+      0,
+      0,
+      1,
+      0
+     ],
+     [
+      0,
+      6,
+      7,
+      0,
+      1,
+      5,
+      0,
+      0,
+      4
+     ],
+     [
+      0,
+      5,
+      0,
+      3,
+      0,
+      4,
+      2,
+      7,
+      0
+     ],
+     [
+      0,
+      0,
+      3,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      9,
+      0,
+      5,
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     [
+      7,
+      0,
+      5,
+      0,
+      8,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      8,
+      0,
+      4,
+      0,
+      3,
+      9,
+      0,
+      5,
+      0
+     ]
+    ],
+    "s": [
+     [
+      5,
+      7,
+      1,
+      9,
+      4,
+      8,
+      6,
+      2,
+      3
+     ],
+     [
+      6,
+      3,
+      2,
+      1,
+      5,
+      7,
+      4,
+      9,
+      8
+     ],
+     [
+      4,
+      8,
+      9,
+      2,
+      6,
+      3,
+      5,
+      1,
+      7
+     ],
+     [
+      2,
+      6,
+      7,
+      8,
+      1,
+      5,
+      9,
+      3,
+      4
+     ],
+     [
+      1,
+      5,
+      8,
+      3,
+      9,
+      4,
+      2,
+      7,
+      6
+     ],
+     [
+      9,
+      4,
+      3,
+      7,
+      2,
+      6,
+      1,
+      8,
+      5
+     ],
+     [
+      3,
+      9,
+      6,
+      5,
+      7,
+      2,
+      8,
+      4,
+      1
+     ],
+     [
+      7,
+      2,
+      5,
+      4,
+      8,
+      1,
+      3,
+      6,
+      9
+     ],
+     [
+      8,
+      1,
+      4,
+      6,
+      3,
+      9,
+      7,
+      5,
+      2
+     ]
+    ]
+   },
+   "x": {
+    "n": 4,
+    "br": 2,
+    "bc": 2,
+    "p": [
+     [
+      1,
+      0,
+      0,
+      3
+     ],
+     [
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      3,
+      4
+     ],
+     [
+      3,
+      4,
+      0,
+      2
+     ]
+    ],
+    "s": [
+     [
+      1,
+      2,
+      4,
+      3
+     ],
+     [
+      4,
+      3,
+      2,
+      1
+     ],
+     [
+      2,
+      1,
+      3,
+      4
+     ],
+     [
+      3,
+      4,
+      1,
+      2
+     ]
+    ]
+   }
+  },
+  "words": {
+   "o": [
+    [
+     "ARMISTICE",
+     "An agreement to stop fighting (11 November 1918)"
+    ],
+    [
+     "SATELLITE",
+     "China wants these to do computing in space"
+    ],
+    [
+     "ASTRONAUT",
+     "NASA is looking for new ones"
+    ],
+    [
+     "LANTERN",
+     "German children carry one on St Martin's Day"
+    ],
+    [
+     "DISCOUNT",
+     "Money taken off the usual price"
+    ]
+   ],
+   "x": [
+    [
+     "SNOW",
+     "It fell early in Seoul"
+    ],
+    [
+     "MOON",
+     "NASA wants a base near its south pole"
+    ],
+    [
+     "COMET",
+     "Taurid fireballs come from one"
+    ],
+    [
+     "PLANE",
+     "It flew from Australia to France without stopping"
+    ],
+    [
+     "POPPY",
+     "A red flower for Remembrance Day"
+    ]
+   ]
+  }
+ },
+ "reporters": {
+  "week": "2026-11-09",
+  "t": "Report one kind thing you saw this week",
+  "why": "World Kindness Day is on Friday 13 November. The best reports appear on Sunday's front page.",
+  "tips": [
+   "Who did it?",
+   "What did they do?",
+   "Where did it happen?"
+  ],
+  "sample": [
+   {
+    "h": "Shopkeeper keeps a free water pot outside all summer",
+    "b": "People walking past stop to drink. He fills it three times a day.",
+    "by": "Reader, 10, India"
+   },
+   {
+    "h": "Year 4 class writes thank-you cards for the school cleaners",
+    "b": "Every child wrote one line. The cards were left on the cleaning trolley.",
+    "by": "Reader, 9, United Kingdom"
+   },
+   {
+    "h": "Neighbour teaches four children to ride bikes on Sunday mornings",
+    "b": "She brings her own tools and fixes the chains too.",
+    "by": "Reader, 12, Australia"
+   }
+  ]
+ }
+}

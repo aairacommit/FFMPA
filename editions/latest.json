@@ -1,1802 +1,629 @@
 {
  "schema": 1,
- "date": "2026-11-11",
+ "date": "2026-11-12",
  "edition": "am",
  "countries": [
-  "IN",
-  "US",
-  "UK",
-  "AU",
-  "KR",
-  "DE",
-  "FR"
+  "IN"
  ],
  "stories": [
   {
-   "id": "in-air",
-   "scope": "IN",
-   "cat": "planet",
-   "emoji": "🌫️",
-   "date": "2026-11-10",
+   "id": "g-hera",
+   "scope": "global",
+   "cat": "space",
+   "emoji": "☄️",
+   "date": "2026-11-11",
    "kind": "news",
    "x": {
-    "t": "Smoggy skies over Delhi after Diwali",
+    "t": "A spacecraft visits a space rock that got a push",
     "b": [
-     "The air in [[delhi|Delhi]] got very dirty this week. A grey haze called [[smog|smog]] covered the city. Smoke from firecrackers, farm fires and traffic all add to it.",
-     "Scientists measure air with a number called the [[aqi|AQI]]. The higher the number, the worse the air. Delhi's AQI went close to 400, which counts as very poor.",
-     "Schools were told to offer online classes so children could learn from home."
+     "A spacecraft called [[hera|Hera]] has reached two faraway space rocks. Rocks like these are called [[asteroid|asteroids]]. Hera is about as big as a small car.",
+     "Four years ago, [[nasa|NASA]] crashed another spacecraft into the smaller rock on purpose. It was a test. Could a push move a space rock? It worked!",
+     "Now Hera will take a close look. These rocks are harmless."
     ]
    },
    "o": {
-    "t": "Delhi's air hits the season's worst after Diwali",
+    "t": "Europe's Hera starts inspecting the asteroid NASA nudged",
     "b": [
-     "[[delhi|Delhi]] woke up to thick [[smog|smog]] on 9 November, the morning after Diwali, with the citywide [[aqi|Air Quality Index]] near 400, the top of the very poor band. Several neighbourhoods crossed 400, which counts as severe.",
-     "Experts point to a mix of causes: firecracker smoke, [[stubble-burning|stubble burning]] in nearby farm states, vehicle exhaust and weak winds that let pollution hang low over the city.",
-     "Authorities had already brought in Stage III of [[grap|GRAP]], an emergency plan that limits construction and some vehicles, and schools were told to offer online classes. By the next morning the AQI had eased to around 345, still very poor."
+     "Europe's [[hera|Hera]] spacecraft has begun studying a pair of [[asteroid|asteroids]] up close, the [[esa|European Space Agency]] said on 11 November. Hera is about the size of a small car and was launched in October 2024. It is now watching the asteroid Didymos and its small moon, Dimorphos, from 25 to 30 kilometres away.",
+     "Dimorphos is about 151 metres wide. In September 2022, [[nasa|NASA]] deliberately crashed a spacecraft called [[dart|DART]] into it. The test was meant to show whether a space rock could one day be pushed aside if it were heading for Earth. It worked: the crash changed the little moon's orbit around Didymos.",
+     "Hera's job is to inspect the result, like a detective at the scene. Next month it will move in to about 20 kilometres. It also carries two shoebox-sized mini satellites that will try to land on Dimorphos. The asteroids themselves are harmless."
     ]
    },
-   "think": "Which causes of smog do you think people could change the fastest? Which are hardest?",
+   "think": "If you could send a spacecraft to study anything in space, what would you choose and why?",
    "quiz": {
-    "q": "What does a higher AQI number mean?",
+    "q": "What did NASA's DART spacecraft do in 2022?",
     "a": [
-     "Cleaner air",
-     "Dirtier air",
-     "Hotter weather",
-     "More rain"
-    ],
-    "c": 1
-   },
-   "src": [
-    [
-     "Open Magazine, 9 Nov",
-     "https://openthemagazine.com/india/delhi-aqi-touches-400-after-diwali-burari-hits-441"
-    ],
-    [
-     "Outlook Business, 10 Nov",
-     "https://www.outlookbusiness.com/planet/climate/delhi-air-quality-improves-still-very-poor-grap3-on-hold"
-    ],
-    [
-     "Asia News Network, 9 Nov",
-     "https://asianews.network/?p=313482"
-    ]
-   ],
-   "key": {
-    "type": "number",
-    "v": "~400",
-    "l": "AQI in Delhi on 9 November: Very poor",
-    "scale": "aqi",
-    "sel": 4
-   },
-   "xkey": {
-    "type": "check",
-    "q": "Was Delhi's air clean or dirty this week?",
-    "a": [
-     "Clean",
-     "Dirty"
-    ],
-    "c": 1,
-    "right": "Right! The air was very dirty.",
-    "wrong": "Not quite. Read it again!"
-   }
-  },
-  {
-   "id": "in-diyas",
-   "scope": "IN",
-   "cat": "culture",
-   "emoji": "🪔",
-   "date": "2026-11-08",
-   "kind": "news",
-   "x": {
-    "t": "Three million lamps light up Ayodhya",
-    "b": [
-     "For [[diwali|Diwali]], the city of [[ayodhya|Ayodhya]] lit about 3 million [[diya|diyas]] along the banks of the Saryu river.",
-     "A diya is a small clay lamp with oil and a cotton wick. The celebration is called Deepotsav, which means festival of lamps.",
-     "Imagine three million tiny flames twinkling all at once!"
-    ]
-   },
-   "o": {
-    "t": "Deepotsav 2026 lights 3 million diyas on the Saryu",
-    "b": [
-     "[[ayodhya|Ayodhya]] in Uttar Pradesh marked [[diwali|Diwali]] with Deepotsav, lighting around 3 million [[diya|diyas]] along the banks of the Saryu river.",
-     "Diwali, the festival of lights, is celebrated by Hindus, Sikhs, Jains and some Buddhists, and its idea of light winning over darkness is shared by people of many backgrounds.",
-     "Huge celebrations also raise questions that cities now plan for, like cleaning up afterwards and keeping air pollution down."
-    ]
-   },
-   "think": "How would you organise 3 million lamps so they all get lit on time?",
-   "quiz": {
-    "q": "What is a diya?",
-    "a": [
-     "A small clay oil lamp",
-     "A firecracker",
-     "A sweet",
-     "A drum"
+     "Crashed into a small asteroid on purpose",
+     "Landed people on the Moon",
+     "Took photos of Jupiter",
+     "Carried Hera into space"
     ],
     "c": 0
    },
    "src": [
     [
-     "Business Standard, 8 Nov",
-     "https://www.business-standard.com/india-news/sc-issues-directions-to-tackle-digital-fraud-asks-rbi-to-circulate-sop-126080401730_1.html"
+     "Associated Press via ABC News, 11 Nov",
+     "https://abcnews.com/Technology/wireStory/europes-hera-spacecraft-begins-close-inspections-asteroid-rammed-138060828"
+    ],
+    [
+     "Space.com, 3 Nov",
+     "https://www.space.com/space-exploration/asteroid-comet-missions/dimorphos-in-sight-europes-hera-probe-gets-its-1st-look-at-battered-space-rock-photo"
     ]
    ]
   },
   {
-   "id": "in-chess",
+   "id": "in-yog",
    "scope": "IN",
    "cat": "sports",
-   "emoji": "♟️",
-   "date": "2026-11-09",
-   "kind": "news",
-   "when": "Starts 24 November",
-   "x": {
-    "t": "India's chess champion gets ready for a big match",
-    "b": [
-     "[[gukesh|Gukesh]], from Chennai, is the world [[chess|chess]] champion. Later this month he will defend his title in the World Chess Championship.",
-     "He will play Javokhir Sindarov from [[uzbekistan|Uzbekistan]]. The match starts on 24 November and can go on until 12 December.",
-     "Chess is a battle of brains, with no luck at all!"
-    ]
-   },
-   "o": {
-    "t": "Gukesh vs Sindarov: the world title match is two weeks away",
-    "b": [
-     "[[gukesh|Gukesh D]] of Chennai will defend his World [[chess|chess]] Championship title in a match running from 24 November to 12 December. His challenger is Javokhir Sindarov of [[uzbekistan|Uzbekistan]].",
-     "Gukesh became the youngest undisputed world champion in history in December 2024, when he beat China's Ding Liren at the age of 18. Sindarov, also in his early twenties, won the FIDE World Cup in 2025.",
-     "A title match is a long duel between just two players, game after game, testing preparation, nerves and stamina as much as clever moves."
-    ]
-   },
-   "think": "Chess players train their memory and focus. What could you practise to improve your focus?",
-   "quiz": {
-    "q": "Which city is Gukesh from?",
-    "a": [
-     "Chennai",
-     "Mumbai",
-     "Kolkata",
-     "Delhi"
-    ],
-    "c": 0
-   },
-   "src": [
-    [
-     "Khel Now, November sports calendar",
-     "https://khelnow.com/indian-sports-calendar-schedule/indian-sports-calendar-november-schedule-202611"
-    ],
-    [
-     "IndiaSportsHub via Google News",
-     "https://news.google.com/publications/CAAqLggKIihDQklTR0FnTWFoUUtFbWx1WkdsaGMzQnZjblJ6YUhWaUxtTnZiU2dBUAE"
-    ]
-   ],
-   "key": {
-    "type": "number",
-    "v": "24 Nov",
-    "l": "the title match starts, and it can run until 12 December"
-   }
-  },
-  {
-   "id": "in-childrens",
-   "scope": "IN",
-   "cat": "history",
-   "emoji": "🎈",
-   "date": "2026-11-14",
-   "kind": "calendar",
-   "when": "Coming up Saturday",
-   "x": {
-    "t": "Children's Day is this Saturday!",
-    "b": [
-     "On 14 November, India celebrates Children's Day. It is the birthday of [[nehru|Jawaharlal Nehru]], India's first [[prime-minister|Prime Minister]].",
-     "He loved spending time with children, and many kids called him Chacha Nehru, which means Uncle Nehru.",
-     "Schools often hold fun events, shows and games on this day."
-    ]
-   },
-   "o": {
-    "t": "Why India celebrates children on 14 November",
-    "b": [
-     "This Saturday, 14 November, is Children's Day, or Bal Diwas, in India. The date is the birth anniversary of [[nehru|Jawaharlal Nehru]], born in 1889, who became India's first [[prime-minister|Prime Minister]] at independence in 1947.",
-     "Nehru believed children were the future of the nation, and his government built schools, universities and science institutions, including the first IITs.",
-     "Countries mark Children's Day on different dates. The UN's World Children's Day falls on 20 November, the day in 1989 when the UN adopted the [[uncrc|Convention on the Rights of the Child]]."
-    ]
-   },
-   "think": "If you could add one new right to a list of children's rights, what would it be?",
-   "quiz": {
-    "q": "Whose birthday is celebrated as Children's Day in India?",
-    "a": [
-     "Mahatma Gandhi",
-     "Jawaharlal Nehru",
-     "A. P. J. Abdul Kalam",
-     "Rabindranath Tagore"
-    ],
-    "c": 1
-   },
-   "src": []
-  },
-  {
-   "id": "us-astronauts",
-   "scope": "US",
-   "cat": "space",
-   "emoji": "👩‍🚀",
-   "date": "2026-11-09",
-   "kind": "news",
-   "x": {
-    "t": "NASA is looking for new astronauts",
-    "b": [
-     "Want to help build a base on the Moon? [[nasa|NASA]] is asking grown-ups to apply to become [[astronaut|astronauts]].",
-     "Right now NASA has only 32 active astronauts, and it needs more for trips to the [[moon-south-pole|Moon]]. Training takes two years and is very tough.",
-     "Last time NASA asked, more than 8,000 people applied and only 10 were chosen!"
-    ]
-   },
-   "o": {
-    "t": "NASA opens astronaut applications for the Moon Base era",
-    "b": [
-     "[[nasa|NASA]] opened applications for a new astronaut class on 7 November, with a deadline of 3 December. The agency has 32 active [[astronaut|astronauts]], and officials say there is far more work than people to do it.",
-     "The new class will train for two years, learning spacewalks, lunar geology and how to fly high-performance jets, and may one day live and work at a planned base near the [[moon-south-pole|Moon's south pole]].",
-     "Competition is fierce: in the last round, held in 2024, more than 8,000 people applied and 10 were chosen. NASA expects to pick the new class in late 2027. Applicants must be US citizens with the right education and experience."
-    ]
-   },
-   "think": "Which school subjects do you think would help most if you wanted to be an astronaut?",
-   "quiz": {
-    "q": "How many active astronauts does NASA have right now?",
-    "a": [
-     "10",
-     "32",
-     "370",
-     "8,000"
-    ],
-    "c": 1
-   },
-   "src": [
-    [
-     "AP via ABC7, 9 Nov",
-     "https://abc7news.com/story/want-fly-moon-nasa-is-looking-new-astronauts-help-grow-artemis-program/20026559"
-    ],
-    [
-     "NPR via KUOW, 8 Nov",
-     "https://www.kuow.org/npr-news/2026-11-08/nasa-is-looking-for-astronauts-to-live-and-work-on-the-moon"
-    ],
-    [
-     "New Space Economy, 9 Nov",
-     "https://newspaceeconomy.ca/2026/11/09/nasa-opens-applications-for-its-next-astronaut-class/"
-    ]
-   ],
-   "key": {
-    "type": "number",
-    "v": "8,000+",
-    "l": "people applied last time, and only 10 were chosen"
-   }
-  },
-  {
-   "id": "us-veterans",
-   "scope": "US",
-   "cat": "history",
-   "emoji": "🎖️",
+   "emoji": "🏅",
    "date": "2026-11-11",
-   "kind": "calendar",
-   "when": "Today",
-   "x": {
-    "t": "Today is Veterans Day",
-    "b": [
-     "Today, 11 November, Americans say thank you to [[veteran|veterans]]. Veterans are people who served in the country's armed forces, like the army or the navy.",
-     "The day began as Armistice Day, when the fighting in the [[ww1|First World War]] stopped at 11 o'clock on 11 November 1918.",
-     "Many towns hold parades, and people thank veterans they know."
-    ]
-   },
-   "o": {
-    "t": "Veterans Day: why 11/11 at 11",
-    "b": [
-     "Veterans Day, today, honours everyone who has served in the US armed forces. It grew out of Armistice Day, which marked the moment the guns fell silent in the [[ww1|First World War]]: the 11th hour of the 11th day of the 11th month of 1918, when an [[armistice|armistice]] took effect.",
-     "In 1954 the US renamed it Veterans Day to include people who served in later wars. Unlike Memorial Day in May, which remembers those who died in service, Veterans Day thanks all who served.",
-     "Other countries mark the same date in their own way: the UK holds a two-minute silence, Canada calls it Remembrance Day, and France and Belgium keep Armistice Day."
-    ]
-   },
-   "think": "Is there someone in your family or neighbourhood who has served? What would you like to ask them?",
-   "quiz": {
-    "q": "What did Armistice Day first mark?",
-    "a": [
-     "The end of fighting in the First World War",
-     "The first Moon landing",
-     "US independence",
-     "The end of the Second World War"
-    ],
-    "c": 0
-   },
-   "src": []
-  },
-  {
-   "id": "uk-remembrance",
-   "scope": "UK",
-   "cat": "history",
-   "emoji": "🕊️",
-   "date": "2026-11-08",
    "kind": "news",
    "x": {
-    "t": "The country pauses to remember",
+    "t": "India's young athletes win 8 medals in Africa",
     "b": [
-     "On Sunday, people across the UK stood quietly for two minutes. It was [[remembrance-sunday|Remembrance Sunday]], a day to remember people who died in wars.",
-     "[[king-charles|King Charles]] laid a wreath of red [[poppy|poppies]] at the [[cenotaph|Cenotaph]] in London, and thousands of [[veteran|veterans]] marched past.",
-     "Today is Armistice Day, so many schools will pause again for two minutes at 11 o'clock."
+     "India's young sports stars are doing well at the [[yog|Youth Olympic Games]]. The Games are in [[dakar|Dakar]], a city in Africa.",
+     "India has won 8 medals so far: 3 silver and 5 bronze. Three of them came in swimming!",
+     "Two more medals are on the way in boxing. One Indian boxer has reached a final."
     ]
    },
    "o": {
-    "t": "Remembrance week: the Cenotaph on Sunday, a national silence today",
+    "t": "India has 8 medals at the Youth Olympics, with boxing to come",
     "b": [
-     "On 8 November, [[king-charles|King Charles III]] led the UK in a two-minute silence at the [[cenotaph|Cenotaph]] in Whitehall, London, then laid the first wreath in memory of those who have died in conflict since the [[ww1|First World War]].",
-     "Prince William followed, along with other royals and senior politicians including Prime Minister Andy Burnham. Thousands of [[veteran|veterans]] then marched past the memorial.",
-     "Today, 11 November, is Armistice Day, and schools, shops and offices are invited to pause for another two-minute silence at 11 am, the moment the [[armistice|armistice]] took effect in 1918. The silence has been kept every year since 1919, and the red [[poppy|poppy]] has been its symbol since the 1920s."
+     "India's teenagers have won eight medals at the [[yog|Youth Olympic Games]] in [[dakar|Dakar]], Senegal: three silver and five bronze. It is the first time the Youth Olympics have been held in Africa. The Games end on 13 November.",
+     "India sent 17 athletes in 11 sports. The silvers came in judo, badminton and beach wrestling. The bronzes came in swimming, [[wushu|wushu]] and the 100 metres hurdles. Swimming brought three medals, including India's first ever swimming medal at a Youth Olympics, and one swimmer from Karnataka won two of them.",
+     "Two more medals are now certain in boxing. On 11 November an Indian boxer won his semi-final in the men's 50 kg class and will fight for gold. Another has reached the semi-finals of the women's 48 kg class. India is still looking for its first gold of these Games."
     ]
    },
-   "think": "Why do you think people use silence to remember, instead of speeches?",
+   "think": "Which sport would you most like to try at a Youth Olympics, and why?",
    "quiz": {
-    "q": "Where in London is the Cenotaph?",
+    "q": "How many medals had India won before the boxing finals?",
     "a": [
-     "Whitehall",
-     "Camden",
-     "Wimbledon",
-     "Greenwich"
+     "8",
+     "3",
+     "11",
+     "17"
     ],
     "c": 0
    },
    "src": [
     [
-     "Euro Weekly News, 8 Nov",
-     "https://euroweeklynews.com/2026/11/08/london-remembers-king-charles-leads-remembrance-sunday-as-thousands-honour-britains-fallen/"
+     "IANS, 11 Nov",
+     "https://ianslive.in/youth-olympics-indias-lairenlakpam-ambekar-meetei-storms-into-final-of-mens-50kg-boxing--20261111195901"
     ],
     [
-     "ITV News, 8 Nov",
-     "https://www.itv.com/news/2026-11-08/king-leads-nation-in-two-minute-silence-to-honour-war-dead-on-remembrance-sunday"
+     "Khel Now, updated 11 Nov",
+     "https://khelnow.com/olympics/india-medal-winners-medal-tally-youth-olympics-202611"
     ],
     [
-     "Royal British Legion",
-     "https://www.britishlegion.org.uk/stories/two-minute-silence"
-    ]
-   ],
-   "key": {
-    "type": "number",
-    "v": "2 minutes",
-    "l": "of silence at 11 am on Armistice Day"
-   }
-  },
-  {
-   "id": "uk-cin",
-   "scope": "UK",
-   "cat": "culture",
-   "emoji": "🐻",
-   "date": "2026-11-13",
-   "kind": "calendar",
-   "when": "Coming up Friday",
-   "x": {
-    "t": "Get spotty! Children in Need is on Friday",
-    "b": [
-     "On Friday, 13 November, people across the UK will raise money for BBC [[children-in-need|Children in Need]]. Lots of schools hold spotty dress-up days and bake sales.",
-     "The mascot is Pudsey Bear, who wears a spotty bandana over one eye.",
-     "This year Pudsey even spoke for the first time, to remind grown-ups to listen when children want to talk about their feelings."
-    ]
-   },
-   "o": {
-    "t": "BBC Children in Need returns this Friday",
-    "b": [
-     "BBC [[children-in-need|Children in Need]] holds its big appeal night on Friday, 13 November, with a live show on BBC One. Schools, clubs and families have been fundraising for weeks with spotty dress-down days, bake sales and challenges.",
-     "The money goes as grants to local charities and community groups that support children and young people across the UK. The first appeal was held in 1980, and Pudsey Bear became the mascot in 1985.",
-     "In May, Pudsey spoke for the first time ever, in a campaign asking adults to be someone children can talk to about their mental health."
-    ]
-   },
-   "think": "If your class raised money for a good cause, what would you choose and why?",
-   "quiz": {
-    "q": "What does Pudsey Bear wear over one eye?",
-    "a": [
-     "A spotty bandana",
-     "A pirate patch",
-     "Sunglasses",
-     "A monocle"
-    ],
-    "c": 0
-   },
-   "src": [
-    [
-     "BBC Children in Need, May 2026",
-     "https://www.bbcchildreninneed.co.uk/2026/05/pudsey-finds-his-voice-a-landmark-moment-to-support-children-across-the-uk/"
-    ],
-    [
-     "Awareness Days calendar",
-     "https://www.awarenessdays.com/awareness-days-calendar/bbc-children-in-need/"
+     "Yahoo Sports (Stadium Rant), 10 Nov",
+     "https://sports.yahoo.com/articles/dakar-2026-youth-olympics-games-115728710.html"
     ]
    ]
   },
   {
-   "id": "au-flight",
-   "scope": "AU",
-   "cat": "tech",
-   "emoji": "✈️",
-   "date": "2026-11-09",
-   "kind": "news",
-   "x": {
-    "t": "A plane flew from Australia to France without stopping",
-    "b": [
-     "A big plane flew all the way from [[melbourne|Melbourne]] to [[toulouse|Toulouse]] in France without landing even once. The trip took about 24 hours!",
-     "This week it became an official [[world-record|world record]]: the longest flight ever made by a passenger plane.",
-     "Soon, families may be able to fly from Sydney to London in one go, with no stop in the middle."
-    ]
-   },
-   "o": {
-    "t": "Melbourne to Toulouse non-stop is now a world record",
-    "b": [
-     "On 9 November, plane maker Airbus announced that its A350-1000ULR has officially set the [[world-record|Guinness World Record]] for the longest flight by distance by a passenger airliner. The jet flew 23,155 km non-stop from [[melbourne|Melbourne]] to [[toulouse|Toulouse]] on 27 and 28 July, in a little over 24 hours.",
-     "Thirteen people were on board, including three Airbus test pilots and two Qantas pilots. The route crossed the Pacific, North America and the Atlantic. An extra fuel tank in the back of the plane gives it about 1,850 km more range.",
-     "The flight is part of Qantas's [[project-sunrise|Project Sunrise]], which aims to start the world's longest scheduled flights, from Sydney to London, in 2027."
-    ]
-   },
-   "think": "If you had to sit on a plane for 24 hours, how would you keep busy and stay comfortable?",
-   "quiz": {
-    "q": "Where did the record flight start?",
-    "a": [
-     "Sydney",
-     "Perth",
-     "Melbourne",
-     "Brisbane"
-    ],
-    "c": 2
-   },
-   "local": {
-    "FR": "The record flight landed in Toulouse, the French city where Airbus builds its planes."
-   },
-   "src": [
-    [
-     "Airbus press release, 9 Nov",
-     "https://www.airbus.com/en/newsroom/press-releases/2026-11-airbus-a350-1000ulr-for-qantas-breaks-world-distance-record"
-    ],
-    [
-     "Aviation24.be, 9 Nov",
-     "https://www.aviation24.be/airlines/qantas/a350-1000ulr/"
-    ]
-   ],
-   "key": {
-    "type": "compare",
-    "v": "23,155 km",
-    "l": "non-stop, Melbourne to Toulouse",
-    "base": 23155,
-    "items": [
-     [
-      "Earth's width",
-      12742,
-      "Almost twice the width of the Earth."
-     ],
-     [
-      "Delhi to Mumbai",
-      1150,
-      "About 20 Delhi to Mumbai trips in a row."
-     ],
-     [
-      "Around Earth",
-      40075,
-      "More than half of the way around the planet."
-     ]
-    ]
-   },
-   "xkey": {
-    "type": "check",
-    "q": "Did the plane stop on the way?",
-    "a": [
-     "Yes",
-     "No"
-    ],
-    "c": 1,
-    "right": "Right! It flew all the way without stopping.",
-    "wrong": "Not quite. Read it again!"
-   }
-  },
-  {
-   "id": "au-remembrance",
-   "scope": "AU",
-   "cat": "history",
-   "emoji": "🌺",
-   "date": "2026-11-10",
-   "kind": "news",
-   "x": {
-    "t": "A very old poppy wreath for Remembrance Day",
-    "b": [
-     "Today Australians stop for one minute at 11 o'clock. It is [[remembrance-day|Remembrance Day]], when people remember those who served and died in wars.",
-     "At the [[awm|Australian War Memorial]] in [[canberra|Canberra]], a wreath of red [[poppy|poppies]] made in 1934 will be laid. It is the oldest wreath the memorial owns!",
-     "The memorial is also turning 85 years old today."
-    ]
-   },
-   "o": {
-    "t": "Australian War Memorial marks 85 years with a 1934 wreath",
-    "b": [
-     "The [[awm|Australian War Memorial]] in [[canberra|Canberra]] opened on Armistice Day in 1941, so today's [[remembrance-day|Remembrance Day]] service marks its 85th anniversary. The national ceremony begins at 10:45 am, with a minute's silence at 11 am.",
-     "[[governor-general|Governor-General]] Sam Mostyn will lay a scarlet [[poppy|poppy]] wreath from 1934, the memorial's oldest. A fragile cloth poppy worn by First World War [[veteran|veteran]] Stanley Mason on opening day in 1941 will also go on display.",
-     "The memorial's Roll of Honour lists more than 103,000 Australians who died in wars and conflicts. Its director said the day is a time to remember how terrible war is."
-    ]
-   },
-   "think": "Why do you think people keep old objects like this wreath for so many years?",
-   "quiz": {
-    "q": "How old is the Australian War Memorial this year?",
-    "a": [
-     "50 years",
-     "85 years",
-     "100 years",
-     "25 years"
-    ],
-    "c": 1
-   },
-   "src": [
-    [
-     "The West Australian via The Nightly, 10 Nov",
-     "https://thenightly.com.au/australia/remembrance-day-historic-wreath-to-take-centre-stage-in-canberra-for-remembrance-days-85th-anniversary-c-23137126"
-    ],
-    [
-     "DVA Anzac Portal",
-     "https://anzacportal.dva.gov.au/commemoration/days/remembrance-day"
-    ]
-   ],
-   "key": {
-    "type": "number",
-    "v": "103,000+",
-    "l": "names on the Australian War Memorial's Roll of Honour"
-   }
-  },
-  {
-   "id": "kr-snow",
-   "scope": "KR",
+   "id": "g-watermouse",
+   "scope": "global",
    "cat": "nature",
-   "emoji": "❄️",
-   "date": "2026-11-08",
+   "emoji": "🐭",
+   "date": "2026-11-10",
    "kind": "news",
    "x": {
-    "t": "Surprise! Seoul's first snow came early",
+    "t": "A 'lost' water mouse is found after almost 100 years",
     "b": [
-     "On Sunday, the first snow of the season fell in [[seoul|Seoul]], the capital of South Korea.",
-     "It came 12 days earlier than usual, and almost a month earlier than last year.",
-     "To count it, a weather watcher has to see the snowflakes falling with their own eyes!"
+     "Scientists thought a little water mouse had died out. Nobody had seen one since 1927!",
+     "Now one has turned up in a forest stream in [[ethiopia|Ethiopia]], a country in Africa. A scientist found it in a trap with peanut butter inside.",
+     "The mouse has thick fur that keeps water out. Scientists are doing tests to be sure it is the same animal."
     ]
    },
    "o": {
-    "t": "Seoul sees its first snow almost four weeks earlier than last year",
+    "t": "Ethiopian water mouse, feared extinct, turns up after a century",
     "b": [
-     "Snow was spotted in [[seoul|Seoul]] on 8 November, making it the city's first snow of the season. That is 26 days earlier than last year and 12 days earlier than the average.",
-     "A trough of low pressure passing north of the Korean peninsula brought raindrops and a few snowflakes to the Seoul area and Gangwon province.",
-     "Seoul's first snow is official only when an observer at the city's weather station in Jongno district sees snow falling with their own eyes, even if it melts before it reaches the ground."
+     "A small water-loving rodent that scientists feared was [[extinct|extinct]] appears to have been found alive in [[ethiopia|Ethiopia]]. The Ethiopian water mouse was known from a single animal caught in 1927. Nobody recorded another for almost a century.",
+     "Ecologist Mengistu Wale of the Ethiopian Biodiversity Institute found one in a trap during a wildlife survey in the Yayu forest reserve, in the south-west of the country. The bait was ordinary peanut butter. His team later caught two more. The animal has dense, water-repellent fur and broad back feet.",
+     "Scientists are now running [[dna|genetic tests]] to confirm what it is. The species is listed as [[critically-endangered|critically endangered]]. Wale called the find an extraordinary discovery. The news was announced on 10 November."
     ]
    },
-   "think": "Is there a first sign of a new season that you look forward to where you live?",
+   "think": "How do you think an animal could stay hidden from scientists for almost 100 years?",
    "quiz": {
-    "q": "How does Seoul decide the first snow has come?",
+    "q": "When was the water mouse last recorded before this?",
     "a": [
-     "A computer counts flakes",
-     "An observer sees it falling",
-     "Snow covers a car",
-     "The president announces it"
+     "1927",
+     "1827",
+     "1999",
+     "2020"
     ],
-    "c": 1
+    "c": 0
    },
    "src": [
     [
-     "Yonhap News Agency, 8 Nov",
-     "https://www.yna.co.kr/view/AKR20261108022551530"
-    ]
-   ],
-   "key": {
-    "type": "number",
-    "v": "12 days",
-    "l": "earlier than an average year, and 26 days earlier than last year"
-   },
-   "xkey": {
-    "type": "check",
-    "q": "Did the snow come early or late?",
-    "a": [
-     "Early",
-     "Late"
+     "National Geographic, 9 Nov",
+     "https://www.nationalgeographic.com/animals/article/ethiopia-water-mouse-extinct-rediscovery"
     ],
-    "c": 0,
-    "right": "Right! 12 days early.",
-    "wrong": "Not quite. Read it again!"
-   }
+    [
+     "blue News, 10 Nov",
+     "https://www.bluewin.ch/en/news/ethiopian-water-rat-believed-to-be-extinct-spotted-li.3668420"
+    ]
+   ]
   },
   {
-   "id": "kr-suneung",
-   "scope": "KR",
-   "cat": "civics",
-   "emoji": "✏️",
-   "date": "2026-11-19",
-   "kind": "calendar",
-   "when": "Coming up next Thursday",
-   "x": {
-    "t": "The big school exam day is coming",
-    "b": [
-     "Next Thursday, high school students across South Korea will take the [[suneung|Suneung]]. It is a giant test that helps decide which university they go to.",
-     "More than 550,000 students signed up! The test lasts almost the whole day.",
-     "Younger students often cheer for them outside the exam halls."
-    ]
-   },
-   "o": {
-    "t": "Over 550,000 students get ready for the Suneung",
-    "b": [
-     "South Korea's national university entrance exam, the [[suneung|Suneung]], takes place on Thursday 19 November. According to the exam board, 551,864 people applied this year.",
-     "Students must be in their exam rooms by 8:10 am. The first paper, Korean, starts at 8:40 am and the last section ends at 5:45 pm. Results arrive on 11 December.",
-     "The day is taken so seriously that in past years offices have started later to keep roads clear, and planes have avoided taking off or landing during the English listening test."
-    ]
-   },
-   "think": "What helps you stay calm before a big test?",
-   "quiz": {
-    "q": "When do Suneung students get their results?",
-    "a": [
-     "The same evening",
-     "11 December",
-     "In January",
-     "After one year"
-    ],
-    "c": 1
-   },
-   "src": [
-    [
-     "Ministry of Education via KDI",
-     "https://eiec.kdi.re.kr/policy/materialView.do?num=255989"
-    ],
-    [
-     "Exam timetable guide",
-     "https://foxcg.com/2027-csat-schedule/"
-    ],
-    [
-     "Application figures",
-     "https://www.yugacrew.com/crewletter/suneung-date-2027"
-    ]
-   ],
-   "key": {
-    "type": "number",
-    "v": "551,864",
-    "l": "people applied to sit this year's exam"
-   }
-  },
-  {
-   "id": "cn-astro",
-   "scope": "global",
+   "id": "in-astro",
+   "scope": "IN",
    "cat": "space",
-   "emoji": "🧠",
+   "emoji": "🔭",
    "date": "2026-11-09",
    "kind": "news",
    "x": {
-    "t": "Astronauts test how brains work in space",
+    "t": "Five Indian students win astronomy medals",
     "b": [
-     "Three astronauts are living on China's space station, [[tiangong|Tiangong]]. One of them, Lai Ka-ying, is the first astronaut from [[hong-kong|Hong Kong]].",
-     "They wear special caps that read signals from their brains. This shows how living in space changes the way we think and move.",
-     "They have been up there for more than five months!"
+     "Five students from India went to a big [[astronomy|astronomy]] contest in [[thailand|Thailand]]. Astronomy is the study of stars, planets and space.",
+     "Every one of them won a medal! The team brought home 2 gold, 2 silver and 1 bronze.",
+     "In all, 104 students from 25 countries took part."
     ]
    },
    "o": {
-    "t": "Hong Kong's first astronaut runs brain tests on Tiangong",
+    "t": "Team India wins five medals at junior astronomy olympiad",
     "b": [
-     "The Shenzhou-23 crew, Zhu Yangzhu, Zhang Zhiyuan and Lai Ka-ying, [[hong-kong|Hong Kong]]'s first astronaut, have been on the [[tiangong|Tiangong]] space station since launching on 24 May for a six-month mission.",
-     "Using [[eeg|EEG]] caps, they have been tracking brain networks, how the eyes and hands work together, and how people react to different lighting. Near-infrared scans look at how spaceflight changes the brain over time.",
-     "They also carried out touch and grip tests, checked their spacesuits and practised emergency survival skills. Results like these help plan longer missions to the Moon."
+     "All five members of India's team have won medals at the International [[olympiad|Olympiad]] on [[astronomy|Astronomy]] and Astrophysics for Juniors. It was held from 1 to 8 November in Ubon Ratchathani, [[thailand|Thailand]]. The team took two gold, two silver and one bronze.",
+     "The contest is for students under 16. This year 104 students from 25 countries took part. India's medallists come from Puducherry, Gujarat, Rajasthan and Maharashtra.",
+     "The team was chosen and trained by the [[ncsm|National Council of Science Museums]]. Twenty-five shortlisted students practised theoretical and observational astronomy, problem-solving and night-sky observation before the final five were picked. The council's director general, K. S. Murali, said the medals reflect the students' dedication."
     ]
    },
-   "think": "If you lived in space for six months, what would you miss most about Earth?",
+   "think": "If you could look through a powerful telescope tonight, what would you want to see first?",
    "quiz": {
-    "q": "Lai Ka-ying is the first astronaut from where?",
+    "q": "How many of India's five team members won a medal?",
     "a": [
-     "Shanghai",
-     "Macau",
-     "Hong Kong",
-     "Taiwan"
-    ],
-    "c": 2
-   },
-   "src": [
-    [
-     "China Daily Hong Kong, 9 Nov",
-     "https://www.chinadailyhk.com/article/642442"
-    ]
-   ],
-   "key": {
-    "type": "number",
-    "v": "6 months",
-    "l": "planned stay on Tiangong; the crew launched on 24 May"
-   }
-  },
-  {
-   "id": "cn-cloud",
-   "scope": "global",
-   "cat": "tech",
-   "emoji": "🛰️",
-   "date": "2026-11-09",
-   "kind": "news",
-   "x": {
-    "t": "Computers that work in space",
-    "b": [
-     "China has a plan for a \"space cloud\": [[satellite|satellites]] that can think and work out answers while flying around Earth.",
-     "Some test satellites have already spotted bridges and stadiums from space, even when they were covered in snow!",
-     "This could help people respond faster to floods and earthquakes."
-    ]
-   },
-   "o": {
-    "t": "China plans a \"space cloud\" of computing satellites",
-    "b": [
-     "At a conference in [[hefei|Hefei]] on 9 November, Chinese scientists unveiled the Xingyun Constellation Plan, a network where remote-sensing, communication and computing [[satellite|satellites]] work together and process some data in orbit before sending it to Earth.",
-     "It is aimed at uses like watching forests and farmland, and responding to disasters. A separate project, the Three-Body Computing Constellation, has already put 10 [[ai|AI]] models into orbit and linked six satellites.",
-     "In one test, an AI on board a satellite picked out stadiums and bridges across 189 square km of north-west China, even under heavy snow."
-    ]
-   },
-   "think": "What problem on Earth would you want a smart satellite to help solve?",
-   "quiz": {
-    "q": "What is special about these satellites?",
-    "a": [
-     "They carry people",
-     "They can process data in space",
-     "They are made of wood",
-     "They only work at night"
-    ],
-    "c": 1
-   },
-   "src": [
-    [
-     "Global Times, citing CMG and Xinhua, 9 Nov",
-     "https://www.globaltimes.cn/page/202611/1373973.shtml"
-    ]
-   ],
-   "key": {
-    "type": "number",
-    "v": "189 km²",
-    "l": "area an AI satellite checked from orbit, even under heavy snow"
-   }
-  },
-  {
-   "id": "de-wall",
-   "scope": "DE",
-   "cat": "history",
-   "emoji": "🌹",
-   "date": "2026-11-09",
-   "kind": "news",
-   "x": {
-    "t": "Roses for the day the Berlin Wall opened",
-    "b": [
-     "For 28 years, a wall split the city of [[berlin|Berlin]] in two. Families on different sides could not visit each other.",
-     "On 9 November 1989, the gates opened and people climbed on the wall to celebrate. That was 37 years ago this week!",
-     "On Monday, people lit candles and put colourful roses in a piece of the old wall."
-    ]
-   },
-   "o": {
-    "t": "Berlin remembers the fall of the Wall, 37 years on",
-    "b": [
-     "On 9 November, leaders and residents gathered at the Berlin Wall Memorial on Bernauer Straße to mark 37 years since the [[berlin-wall|Berlin Wall]] opened. They lit candles and slipped colourful roses into a surviving section of the wall.",
-     "The wall divided communist [[east-germany|East Germany]] from West Berlin from 1961 to 1989. On the night of 9 November 1989, the Bornholmer Straße crossing opened at 9:20 pm, and by just after midnight every crossing in the city was open. Germany reunited less than a year later.",
-     "Berlin is holding its second Freedom Week, with around 170 events until 14 November. The date is also when Germans remember the attacks on Jewish people by the Nazis in 1938."
-    ]
-   },
-   "think": "Why do you think people choose flowers and candles to remember important days?",
-   "quiz": {
-    "q": "How many years ago did the Berlin Wall open?",
-    "a": [
-     "17",
-     "27",
-     "37",
-     "47"
-    ],
-    "c": 2
-   },
-   "src": [
-    [
-     "berlin.de with dpa, 9 Nov",
-     "https://www.berlin.de/en/news/10747178-5559700-rosen-und-kerzen-erinnern-an-mauerfall-u.en.html"
-    ],
-    [
-     "evangelisch.de, 9 Nov",
-     "https://www.evangelisch.de/inhalte/260806/09-11-2026/berlin-erinnert-mauerfall-vor-37-jahren"
-    ],
-    [
-     "berlin.de, Freedom Week",
-     "https://www.berlin.de/aktuelles/10742732-958090-second-freedom-week-to-mark-anniversary-.html"
-    ]
-   ],
-   "key": {
-    "type": "timeline",
-    "sel": 1,
-    "items": [
-     [
-      "1961",
-      "A wall goes up",
-      "East Germany builds a wall across Berlin."
-     ],
-     [
-      "1989",
-      "The gates open",
-      "On 9 November the crossings open and people celebrate."
-     ],
-     [
-      "1990",
-      "One Germany",
-      "East and West Germany join on 3 October."
-     ],
-     [
-      "2026",
-      "Remembered",
-      "Roses and candles mark 37 years."
-     ]
-    ]
-   }
-  },
-  {
-   "id": "de-martin",
-   "scope": "DE",
-   "cat": "culture",
-   "emoji": "🏮",
-   "date": "2026-11-11",
-   "kind": "calendar",
-   "when": "Today",
-   "x": {
-    "t": "Lanterns tonight, costumes at 11:11!",
-    "b": [
-     "Today is [[st-martin|St Martin's Day]]. Tonight, children all over Germany walk through the streets with lanterns they made themselves, singing lantern songs.",
-     "A rider dressed as St Martin often leads the parade on a horse.",
-     "And in [[cologne|Cologne]], [[carnival|carnival]] season started at exactly 11:11 this morning, with thousands of people in costumes!"
-    ]
-   },
-   "o": {
-    "t": "St Martin's lanterns and the 11:11 start of carnival",
-    "b": [
-     "On 11 November, children across Germany join lantern processions for [[st-martin|St Martin's Day]], singing songs like \"Ich geh mit meiner Laterne\". A rider dressed as a Roman soldier plays St Martin, and many parades end with a bonfire and a sweet bread figure called a Weckmann.",
-     "St Martin is remembered for cutting his cloak in half to share it with a freezing beggar, which is why the day is about sharing and kindness.",
-     "The same day, the [[carnival|carnival]] season officially opens at 11:11 am. In [[cologne|Cologne]] about 30,000 people in costumes gather in the old town for the countdown, the start of a season that peaks in February."
-    ]
-   },
-   "think": "St Martin shared his cloak. What is something you could share with someone today?",
-   "quiz": {
-    "q": "At what time does carnival season begin on 11 November?",
-    "a": [
-     "Midnight",
-     "11:11 am",
-     "6:00 pm",
-     "9:00 am"
-    ],
-    "c": 1
-   },
-   "src": [
-    [
-     "koeln.de, 11.11. programme",
-     "https://www.koeln.de/karneval/11-11-koeln-karneval/11-11-sessionseroeffnung-in-der-altstadt/"
-    ],
-    [
-     "Festivals in Deutschland, St Martin",
-     "https://www.festivalsindeutschland.de/festival/st-martin-laternenzug-koblenz"
-    ]
-   ],
-   "key": {
-    "type": "spot",
-    "items": [
-     [
-      "Lanterns",
-      "Children carry lanterns they made themselves and sing lantern songs."
-     ],
-     [
-      "The rider",
-      "Someone dressed as St Martin, a Roman soldier, often leads the parade on a horse."
-     ],
-     [
-      "11:11",
-      "At 11:11 am, carnival season opens, with about 30,000 people in costume in Cologne."
-     ]
-    ]
-   }
-  },
-  {
-   "id": "fr-school",
-   "scope": "FR",
-   "cat": "history",
-   "emoji": "🏫",
-   "date": "2026-11-10",
-   "kind": "news",
-   "x": {
-    "t": "French schools hold a ceremony for 11 November",
-    "b": [
-     "This week, for the first time, schools all over France are holding a special ceremony to remember people who died for the country.",
-     "Pupils read texts, sing songs and share work they made in class. Then everyone is quiet for a moment.",
-     "It happens around 11 November, the day the First World War ended in 1918."
-    ]
-   },
-   "o": {
-    "t": "Every French school now marks 11 November",
-    "b": [
-     "From this school year, every elementary school, collège and lycée in France, from CM1 upwards, must hold a ceremony honouring all those who died for France. Schools pick a day within four days before or after 11 November, since the 11th itself is a public holiday.",
-     "The ceremony takes place inside the school, using texts, songs or projects prepared in class, followed by a moment of silence. The rule was set out by Education Minister Édouard Geffray in July.",
-     "Many head teachers support it, saying it passes on shared history. Some teachers' unions disagree, arguing that taking part in remembrance should stay a free choice."
-    ]
-   },
-   "think": "What do you think is a good way for a school to remember history?",
-   "quiz": {
-    "q": "From which class do French pupils join the new ceremony?",
-    "a": [
-     "Nursery",
-     "CM1",
-     "Only lycée",
-     "University"
-    ],
-    "c": 1
-   },
-   "olderOnly": false,
-   "src": [
-    [
-     "Bulletin officiel no. 27, 2 Jul 2026",
-     "https://www.education.gouv.fr/bo/2026/Hebdo27/MENE2614920C"
-    ],
-    [
-     "Sud Radio",
-     "https://www.sudradio.fr/societe/a-lecole-la-commemoration-de-larmistice-du-11-novembre-fait-des-vagues"
-    ]
-   ],
-   "key": {
-    "type": "number",
-    "v": "4 days",
-    "l": "schools can hold their ceremony up to four days before or after 11 November"
-   }
-  },
-  {
-   "id": "fr-armistice",
-   "scope": "FR",
-   "cat": "history",
-   "emoji": "💙",
-   "date": "2026-11-11",
-   "kind": "calendar",
-   "when": "Today",
-   "x": {
-    "t": "Why France wears a blue flower today",
-    "b": [
-     "Today is a holiday in France. It is the day the First World War ended, 108 years ago.",
-     "In Paris, there is a ceremony at the [[arc-de-triomphe|Arc de Triomphe]], where a flame burns for an [[unknown-soldier|Unknown Soldier]].",
-     "While the UK and Australia wear red poppies, many French people wear a little blue flower called the [[bleuet|bleuet]]."
-    ]
-   },
-   "o": {
-    "t": "Armistice Day: the flame, the Unknown Soldier and the bleuet",
-    "b": [
-     "France marks the 108th anniversary of the 1918 [[armistice|armistice]] today with a national holiday. The President leads the main ceremony at the [[arc-de-triomphe|Arc de Triomphe]] in Paris, shown live on France 2 from 9:30 am.",
-     "Beneath the arch lies the [[unknown-soldier|Unknown Soldier]], buried in 1921 to stand for all the soldiers who were never identified. Each year the flame on the tomb is rekindled.",
-     "France's symbol of remembrance is the [[bleuet|bleuet]], or cornflower, which kept blooming on the battlefields and matched the blue uniforms of young French soldiers."
-    ]
-   },
-   "think": "Why might different countries choose different flowers to remember the same war?",
-   "quiz": {
-    "q": "What is France's flower of remembrance?",
-    "a": [
-     "Red poppy",
-     "Blue cornflower",
-     "White rose",
-     "Sunflower"
-    ],
-    "c": 1
-   },
-   "src": [
-    [
-     "France Télévisions, 20 Oct",
-     "https://www.francetvpro.fr/contenu-de-presse/79111483"
-    ],
-    [
-     "Élysée, 2025 ceremony",
-     "https://www.elysee.fr/emmanuel-macron/2025/11/11/ceremonie-de-commemoration-du-107e-anniversaire-de-larmistice-de-1918"
-    ]
-   ],
-   "key": {
-    "type": "timeline",
-    "sel": 0,
-    "items": [
-     [
-      "1918",
-      "The guns stop",
-      "The armistice ends the fighting of the First World War on 11 November."
-     ],
-     [
-      "1921",
-      "The Unknown Soldier",
-      "A soldier who was never named is buried beneath the Arc de Triomphe."
-     ],
-     [
-      "2026",
-      "108 years",
-      "France marks the anniversary with a national holiday."
-     ]
-    ]
-   }
-  },
-  {
-   "id": "g-swift",
-   "scope": "global",
-   "cat": "tech",
-   "emoji": "💻",
-   "date": "2026-11-10",
-   "kind": "news",
-   "x": {
-    "t": "A coding challenge for students around the world",
-    "b": [
-     "Apple has announced a [[coding|coding]] challenge for students. Each student builds a small [[app|app]] that someone can try in 3 minutes or less.",
-     "It is free to enter, and students can send in their apps from 8 to 28 February.",
-     "Many great apps start with something you love, like animals, music or space!"
-    ]
-   },
-   "o": {
-    "t": "Swift Student Challenge 2027 announced: build an app anyone can try in 3 minutes",
-    "b": [
-     "Apple announced the Swift Student Challenge 2027 on 10 November. Students who meet the age and eligibility rules can submit an [[app|app]] playground between 8 and 28 February 2027, and for the first time it can be built for any Apple platform.",
-     "Entry is free. The app must be something a judge can experience in three minutes or less, and it can be about any topic. Students need a Mac or iPad with Apple's free tools to build it.",
-     "Challenges like this reward a clear idea more than fancy features: the best entries usually solve one small problem well. [[coding|Coding]] skills carry over to other languages and other companies' devices too."
-    ]
-   },
-   "think": "If you could build an app that someone tries in three minutes, what problem would it solve?",
-   "quiz": {
-    "q": "How long should it take to try an app in this challenge?",
-    "a": [
-     "3 minutes or less",
-     "1 hour",
-     "A whole day",
-     "10 seconds"
+     "All five",
+     "Two",
+     "Three",
+     "One"
     ],
     "c": 0
    },
    "src": [
     [
-     "Apple Developer News, 10 Nov",
-     "https://developer.apple.com/news/"
-    ]
-   ],
-   "key": {
-    "type": "number",
-    "v": "3 min",
-    "l": "or less: the time a judge should need to try your app"
-   }
-  },
-  {
-   "id": "g-singles",
-   "scope": "global",
-   "cat": "business",
-   "emoji": "🛍️",
-   "date": "2026-11-11",
-   "kind": "calendar",
-   "when": "Today",
-   "x": {
-    "t": "Today is 11.11, the world's biggest shopping day",
-    "b": [
-     "In China, 11 November is called Singles' Day, because the date is made of four ones. Online shops offer huge [[discount|discounts]].",
-     "It started in 2009 and is now the biggest online shopping event in the world.",
-     "A smart money tip: before you buy something on sale, ask yourself, \"Did I want this before I saw the discount?\""
-    ]
-   },
-   "o": {
-    "t": "Singles' Day: how a joke holiday became the world's biggest sale",
-    "b": [
-     "Singles' Day began as a tongue-in-cheek celebration for single university students in China, picked because 11/11 is all ones. In 2009 the [[e-commerce|e-commerce]] company Alibaba turned it into a one-day sale, and rivals soon joined in.",
-     "It has since grown into a festival lasting weeks, often starting in mid-October. In 2024, shoppers spent about 1.44 trillion [[yuan|yuan]] (roughly US$200 billion) across the event, according to data firm Syntun. Big platforms no longer publish their own totals.",
-     "Sales events are designed to make people buy quickly. Economists call it impulse buying: countdown clocks and \"today only\" prices push us to decide before we think. Comparing prices and waiting a day are simple ways to stay in control."
-    ]
-   },
-   "think": "Have you ever bought something just because it was on sale? Would you buy it again?",
-   "quiz": {
-    "q": "Why is 11 November called Singles' Day?",
-    "a": [
-     "The date is made of four ones",
-     "It is the first day of winter",
-     "Shops open at 11",
-     "It celebrates one company"
-    ],
-    "c": 0
-   },
-   "src": [
-    [
-     "Reuters via The Star, Nov 2025",
-     "https://www.thestar.com.my/business/business-news/2025/11/12/china039s-singles039-day-shopping-festival-winds-down-with-039muted039-sentiment-sales-expectations"
+     "PTI via The Siasat Daily, 9 Nov",
+     "https://www.siasat.com/indian-students-win-five-medals-at-junior-astronomy-olympiad-3572671/"
     ],
     [
-     "Reuters via Tiger Brokers",
-     "https://www.itiger.com/news/2582343748"
+     "IBG News, 9 Nov",
+     "https://ibgnews.com/2026/11/09/team-india-wins-2-gold-2-silver-and-1-bronze-medal-at-the-5th-international-olympiad-on-astronomy-and-astrophysics-for-juniors-2026-in-thailand/"
     ],
     [
-     "Inside Retail",
-     "https://insideretail.us/why-chinas-shopping-festival-double-11-shopping-festival-is-losing-its-spark/"
+     "Pragativadi, 10 Nov",
+     "https://pragativadi.com/india-wins-5-medals-including-2-gold-at-ioaa-jr-2026-in-thailand/"
     ]
-   ],
-   "key": {
-    "type": "number",
-    "v": "1.44 trillion",
-    "l": "yuan spent across the 2024 festival (about US$200 billion), says data firm Syntun"
-   }
+   ]
   },
   {
    "id": "g-cop31",
    "scope": "global",
    "cat": "planet",
    "emoji": "🌍",
-   "date": "2026-11-10",
+   "date": "2026-11-11",
    "kind": "news",
    "x": {
-    "t": "World leaders meet to talk about our warming planet",
+    "t": "World leaders speak up for the planet",
     "b": [
-     "This week, people from almost 200 countries are meeting in [[antalya|Antalya]], a city by the sea in [[turkiye|Türkiye]]. The meeting is called [[cop|COP31]].",
-     "They are talking about [[climate-change|climate change]], which means Earth is slowly getting warmer. This year brought many heatwaves, floods and wildfires.",
-     "The leader of the [[un|United Nations]] asked countries to get serious about fixing it."
+     "Leaders from many countries are at the big climate meeting, [[cop|COP31]], in [[turkiye|Türkiye]].",
+     "The head of the United Nations gave a warning. He said the world must move faster to stop Earth getting too warm.",
+     "One idea is to run more cars, homes and factories on electricity. Leaders are still talking about it."
     ]
    },
    "o": {
-    "t": "COP31 opens in Türkiye with a call to get serious",
+    "t": "At COP31, leaders hear a warning and weigh an electricity pledge",
     "b": [
-     "The UN's yearly climate summit, [[cop|COP31]], opened on 9 November in [[antalya|Antalya]], [[turkiye|Türkiye]], and runs until 20 November, with world leaders gathering on 11 and 12 November. In an unusual setup, Türkiye is hosting while Australia leads the negotiations.",
-     "UN Secretary-General [[guterres|António Guterres]] urged leaders to get serious, saying the world has entered a new age of climate extremes after a year of heatwaves in Europe, wildfires in Indonesia and floods in Nepal.",
-     "A UN report projects about 2.6°C of warming this century even if countries keep their current promises, well above the [[paris-agreement|Paris Agreement]] goal. Organisers call this the implementation COP, focused on turning pledges into action. The United States did not send officials."
+     "World leaders began two days of speeches at the [[cop|COP31]] climate summit in Antalya, [[turkiye|Türkiye]], on 11 November. UN Secretary-General [[guterres|António Guterres]] told them: \"The brutal truth is that the climate crisis is outrunning us.\" He called for an end to the world's dependence on [[fossil-fuels|fossil fuels]]: coal, oil and gas.",
+     "Türkiye, the host, wants countries to back a voluntary pledge known as 35 by 35. Electricity now supplies about 23 per cent of the energy the world uses. The pledge aims to raise that to 35 per cent by 2035, by running more transport, buildings and industry on electricity.",
+     "The European Commission's president, Ursula von der Leyen, said she supports it. Some countries want the pledge to say clearly that the extra electricity must be clean, because power made by burning coal or gas still adds to [[climate-change|climate change]]."
     ]
    },
-   "local": {
-    "AU": "Australia is leading the negotiations at COP31, even though Türkiye is the host, so Australian diplomats are steering the talks.",
-    "IN": "Delhi's smog this week is a reminder that air and climate are linked: burning less coal and fuel helps clean the air and slow warming at the same time.",
-    "UK": "The UK hosted COP26 in Glasgow in 2021, so British negotiators know how hard these talks can be."
-   },
-   "think": "What is one thing your school or home could do to use less energy?",
+   "think": "Which things in your home run on electricity, and which burn fuel?",
    "quiz": {
-    "q": "Where is COP31 being held?",
+    "q": "What does the 35 by 35 pledge aim to raise?",
     "a": [
-     "Antalya, Türkiye",
-     "Paris, France",
-     "Glasgow, UK",
-     "Dubai, UAE"
+     "Electricity's share of the energy the world uses",
+     "The price of petrol",
+     "The number of countries at COP31",
+     "The height of sea walls"
     ],
     "c": 0
    },
    "src": [
     [
-     "Anadolu Agency, 9 Nov",
-     "https://aa.com.tr/en/turkiye/cop31-climate-summit-opens-in-turkiye-amid-calls-for-stronger-action/4116474"
+     "Reuters via Yahoo News, 11 Nov",
+     "https://www.yahoo.com/news/articles/world-leaders-speak-cop31-climate-172442752.html"
     ],
     [
-     "AFP via Khaleej Times, 9 Nov",
-     "https://www.khaleejtimes.com/world/cop31-opens-leaders-pressure-tackle-climate-crisis"
+     "AFP via Al Jazeera, 11 Nov",
+     "https://www.aljazeera.com/news/2026/11/11/climate-crisis-is-outrunning-us-un-chief-guterres-says-at-cop31"
+    ],
+    [
+     "ABC News (Australia), 11 Nov",
+     "https://www.abc.net.au/news/2026-11-11/cop31-electrification-turkiye-australia/107371196"
     ]
-   ],
-   "key": {
-    "type": "number",
-    "v": "~200",
-    "l": "countries meeting in Antalya, Türkiye, until 20 November"
-   }
+   ]
   },
   {
-   "id": "g-sky",
+   "id": "in-swachh",
+   "scope": "IN",
+   "cat": "civics",
+   "emoji": "🧹",
+   "date": "2026-11-11",
+   "kind": "news",
+   "x": {
+    "t": "Navi Mumbai tops India's clean city awards",
+    "b": [
+     "India gives prizes to its cleanest cities. This year's prizes were given on 11 November in New Delhi.",
+     "[[navi-mumbai|Navi Mumbai]] came top. Surat and Vijayawada were next.",
+     "President [[murmu|Droupadi Murmu]] gave the awards. She said keeping a city clean needs everyone to help."
+    ]
+   },
+   "o": {
+    "t": "Navi Mumbai comes top in India's city cleanliness awards",
+    "b": [
+     "[[navi-mumbai|Navi Mumbai]] has been ranked first in [[swachh-survekshan|Swachh Survekshan]] 2025-26, the government's cleanliness survey of India's cities. Surat came second and Vijayawada third. The three head a group called the Super Swachh League. President [[murmu|Droupadi Murmu]] presented the awards at Vigyan Bhavan in New Delhi on 11 November.",
+     "There were prizes in several groups. Among cities with more than a million people, Visakhapatnam came first, followed by Jabalpur and Lucknow. Puri was named the cleanest coastal town, Rewa the cleanest riverfront town and Rudrapur the cleanest Himalayan city.",
+     "The survey is run by the Ministry of Housing and Urban Affairs, and what citizens say about their own city counts towards the result. The President said cleanliness cannot be achieved by one institution alone, and called for people to take part."
+    ]
+   },
+   "think": "What is one thing your street or school could do to cut down on litter?",
+   "quiz": {
+    "q": "Which city came top in this year's cleanliness awards?",
+    "a": [
+     "Navi Mumbai",
+     "Lucknow",
+     "Puri",
+     "Jabalpur"
+    ],
+    "c": 0
+   },
+   "src": [
+    [
+     "The Tribune, 11 Nov",
+     "https://www.tribuneindia.com/news/delhi/cleanliness-reflects-public-health-social-consciousness-administrative-accountability-president-murmu/"
+    ],
+    [
+     "ANI via The News Mill, 11 Nov",
+     "https://thenewsmill.com/2026/11/president-droupadi-murmu-presents-swachh-survekshan-2025-26-awards/"
+    ]
+   ]
+  },
+  {
+   "id": "g-booker",
    "scope": "global",
-   "cat": "space",
-   "emoji": "🌠",
-   "date": "2026-11-10",
+   "cat": "culture",
+   "emoji": "📚",
+   "date": "2026-11-09",
    "kind": "news",
-   "when": "Tonight and next week",
    "x": {
-    "t": "Look up! Shooting stars and planets this week",
+    "t": "An 81-year-old writer wins a famous book prize",
     "b": [
-     "Tonight, 11 November, is a good night to spot shooting stars called the Taurids. Some of them are extra bright [[fireball|fireballs]]!",
-     "On 15 and 16 November, just before sunrise, the planets [[mars|Mars]] and [[jupiter|Jupiter]] will look very close together. Mars looks a little red and Jupiter shines bright.",
-     "On the night of 17 November, the Leonid [[meteor-shower|meteor shower]] reaches its peak. Ask a grown-up to help you find a dark spot!"
+     "A writer named [[harrison|M John Harrison]] has won the [[booker-prize|Booker Prize]]. It is one of the most famous prizes for books.",
+     "He is 81 years old. That makes him the oldest winner ever!",
+     "His winning story is called The End of Everything. It is the 13th novel he has written."
     ]
    },
    "o": {
-    "t": "Skywatch week: Taurid fireballs, a planet pairing and the Leonids",
+    "t": "M John Harrison, 81, becomes the oldest Booker Prize winner",
     "b": [
-     "The Northern Taurid [[meteor-shower|meteor shower]] peaks tonight, 11 to 12 November. It only produces about five meteors an hour, but the Taurids are known for slow, bright [[fireball|fireballs]], and a thin crescent Moon means dark skies.",
-     "Before dawn on 15 and 16 November, [[mars|Mars]] and [[jupiter|Jupiter]] will appear just over a degree apart, about the width of your little finger held at arm's length. Look for reddish Mars beside brilliant Jupiter.",
-     "Then on the night of 17 to 18 November, the Leonids peak. Their meteors are the fastest of any major shower, hitting the atmosphere at about 71 km per second. No telescope needed: find a dark spot, lie back and give your eyes 30 minutes to adjust."
+     "British author [[harrison|M John Harrison]] has won the 2026 [[booker-prize|Booker Prize]], one of the best known awards for novels written in English. At 81, he is the oldest winner in the prize's history. The award was announced at a ceremony in London on Monday 9 November.",
+     "His winning book, The End of Everything, is his 13th novel. It is set in the near future on the coast of southern England, where a beachcomber and his aunt, an artist, try to get by after ordinary life has broken down.",
+     "The five judges, led by the historian Mary Beard, chose it unanimously from 163 books. Harrison wins £50,000. He is known for [[science-fiction|science fiction]], and the head of the Booker Prize Foundation called him the first Booker winner to come from that world."
     ]
    },
-   "think": "Meteors are tiny bits of comet dust. Why do you think they glow when they hit our air?",
+   "think": "What is the best book you have read this year? What would you give it a prize for?",
    "quiz": {
-    "q": "What are the Taurids known for?",
+    "q": "How old is this year's Booker Prize winner?",
     "a": [
-     "Slow, bright fireballs",
-     "Appearing in the daytime",
-     "Happening only in summer",
-     "Being the fastest meteors"
+     "81",
+     "18",
+     "50",
+     "100"
     ],
     "c": 0
    },
    "src": [
     [
-     "Space.com",
-     "https://space.com/stargazing/meteor-showers/the-taurid-meteor-shower-2026-peaks-tonight-and-fireballs-could-steal-the-show"
+     "ABC News (Australia), 10 Nov",
+     "https://www.abc.net.au/news/2026-11-10/booker-prize-2026-m-john-harrison-the-end-of-everything/107342508"
     ],
     [
-     "NASA Science: What's Up November 2026",
-     "https://science.nasa.gov/?p=1506034"
+     "The Irish Times, 9 Nov",
+     "https://www.irishtimes.com/culture/books/2026/11/09/booker-prize-2026-m-john-harrison-wins-for-the-end-of-everything/"
     ],
     [
-     "Sky at Night Magazine",
-     "https://www.skyatnightmagazine.com/advice/stargazing-november-2026"
-    ],
-    [
-     "Telescope Advisor",
-     "https://www.telescopeadvisor.com/night-sky-in-november-2026/"
+     "The Booker Prize Foundation",
+     "https://thebookerprizes.com/the-booker-library/prize-years/2026"
     ]
-   ],
-   "key": {
-    "type": "spot",
-    "items": [
-     [
-      "Tonight",
-      "Taurid fireballs: slow, bright shooting stars on 11 and 12 November."
-     ],
-     [
-      "15 to 16 Nov",
-      "Before dawn, reddish Mars and bright Jupiter appear very close together."
-     ],
-     [
-      "17 to 18 Nov",
-      "The Leonid meteor shower peaks. Find a dark spot and give your eyes time."
-     ]
-    ]
-   }
+   ]
   },
   {
-   "id": "g-peace",
+   "id": "in-yamuna",
+   "scope": "IN",
+   "cat": "planet",
+   "emoji": "⛴️",
+   "date": "2026-11-10",
+   "kind": "news",
+   "x": {
+    "t": "Delhi gets an electric boat ride on the Yamuna",
+    "b": [
+     "[[delhi|Delhi]] has a new boat ride on the [[yamuna|Yamuna]] river. It started on 10 November.",
+     "The boat runs on electricity. It travels between two places called Sonia Vihar and Jagatpur.",
+     "It is the first fun cruise on the Yamuna in Delhi. More boats may be added later."
+    ]
+   },
+   "o": {
+    "t": "Delhi's first Yamuna cruise sets off on an electric boat",
+    "b": [
+     "[[delhi|Delhi]]'s first recreational cruise on the [[yamuna|Yamuna]] river began on 10 November. The Namo Yamuna River Safari was launched at Sonia Vihar by Sarbananda Sonowal, the Union minister for ports, shipping and waterways, with Delhi's Chief Minister Rekha Gupta.",
+     "The ride uses an [[electric-boat|electric vessel]] and makes a round trip of about six kilometres between Sonia Vihar and Jagatpur. Entry opens at 9 am and the last ticket is issued at around 9 pm.",
+     "The project is a joint effort by the central government, the Delhi government and the [[dda|Delhi Development Authority]]. Officials say more boats will be added. The riverfront project also includes a children's play zone, a food court and a musical fountain."
+    ]
+   },
+   "think": "Would a boat ride make you care more about keeping a river clean? Why?",
+   "quiz": {
+    "q": "What powers the new Yamuna cruise boat?",
+    "a": [
+     "Electricity",
+     "Diesel",
+     "Wind",
+     "Steam"
+    ],
+    "c": 0
+   },
+   "src": [
+    [
+     "ANI via Asianet Newsable, 10 Nov",
+     "https://newsable.asianetnews.com/india/delhi-govt-launches-namo-yamuna-river-safari-cruise-at-sonia-vihar-articleshow-ed3atnz"
+    ],
+    [
+     "Outlook Traveller, 11 Nov",
+     "https://www.outlooktraveller.com/News/delhi-launches-namo-yamuna-river-safari-all-you-need-to-know-about-the-new-cruise"
+    ],
+    [
+     "Pratidin Time, 10 Nov",
+     "https://www.pratidintime.com/national/delhi-gets-its-first-yamuna-river-cruise-6-km-electric-safari-to-begin-today-12798092"
+    ]
+   ]
+  },
+  {
+   "id": "g-mindoro",
+   "scope": "global",
+   "cat": "science",
+   "emoji": "🐀",
+   "date": "2026-11-09",
+   "kind": "news",
+   "x": {
+    "t": "Two new kinds of rat found on one island",
+    "b": [
+     "Scientists have found two new kinds of rat. Both live on [[mindoro|Mindoro]], an island in the [[philippines|Philippines]].",
+     "The rats live on two different mountains. They look alike, but one has darker fur and a shorter tail.",
+     "Scientists checked their [[dna|DNA]] to be sure. DNA is like a recipe inside every living thing."
+    ]
+   },
+   "o": {
+    "t": "Two new rat species show a small island can surprise science",
+    "b": [
+     "Scientists have named two new [[species|species]] of rat from [[mindoro|Mindoro]], an island in the [[philippines|Philippines]]. Crunomys halcon lives on Mount Halcon and Crunomys masulong on Mount Masulong, two mountain areas separated by lowlands.",
+     "The team caught 40 of the rats during surveys in 2013. Researchers from the University of the Philippines and three American institutions compared their skulls, teeth, fur and tails, then used [[dna|DNA]] to confirm that they were two separate species.",
+     "The find matters because of Mindoro's size. An older idea held that an island needs about 100,000 square kilometres before mammals can split into new species there. Mindoro is just under 10,000. Together with forest mice described earlier, the rats show that new mammals can arise on a much smaller island."
+    ]
+   },
+   "think": "Two animals can look almost the same but be different species. How would you try to tell them apart?",
+   "quiz": {
+    "q": "Where is the island of Mindoro?",
+    "a": [
+     "The Philippines",
+     "India",
+     "Brazil",
+     "Kenya"
+    ],
+    "c": 0
+   },
+   "src": [
+    [
+     "University of the Philippines, 9 Nov",
+     "https://up.edu.ph/mindoro-was-supposed-to-be-too-small-for-mammals-to-diversify-then-it-happened-twice/"
+    ],
+    [
+     "Daily Tribune (Philippines), 12 Nov",
+     "https://tribune.net.ph/2026/11/11/two-new-rat-species-discovered-in-mindoro"
+    ]
+   ]
+  },
+  {
+   "id": "g-ervine",
+   "scope": "global",
+   "cat": "sports",
+   "emoji": "🏏",
+   "date": "2026-11-09",
+   "kind": "news",
+   "x": {
+    "t": "A 41-year-old cricketer scores 206 runs",
+    "b": [
+     "Craig Ervine plays [[cricket|cricket]] for [[zimbabwe|Zimbabwe]], a country in Africa. He is 41 years old.",
+     "This week he scored 206 runs and was not out! It was his first double century in a [[test-cricket|Test match]].",
+     "Only two players in history were older when they did that."
+    ]
+   },
+   "o": {
+    "t": "Craig Ervine, 41, hits a double century for the record books",
+    "b": [
+     "[[zimbabwe|Zimbabwe]] batter Craig Ervine scored an unbeaten 206 against Afghanistan in a [[test-cricket|Test match]] in Sharjah that ended in a draw on 9 November. At 41 years and 82 days old, he became the third-oldest player ever to score a Test double century.",
+     "Only South Africa's Eric Rowan, in 1951, and England's Jack Hobbs, in 1924, were older. Ervine faced 279 balls, and it was his first double century in Tests. He shared an unbroken partnership of 208 runs with Wessly Madhevere, who made his first Test century.",
+     "The match set a team record too. Zimbabwe made 504 in their first innings and 523 for 5 in their second. That made them the first team in Test history to pass 500 in both innings of a match. Afghanistan scored 514."
+    ]
+   },
+   "think": "Ervine did something new at 41. What would you like to still be learning when you are much older?",
+   "quiz": {
+    "q": "How many runs did Craig Ervine score?",
+    "a": [
+     "206",
+     "41",
+     "100",
+     "523"
+    ],
+    "c": 0
+   },
+   "src": [
+    [
+     "Outlook India, 9 Nov",
+     "https://www.outlookindia.com/sports/cricket/afghanistan-vs-zimbabwe-1st-test-2026-craig-ervine-double-century-record"
+    ],
+    [
+     "The Free Press Journal, 9 Nov",
+     "https://www.freepressjournal.in/sports/craig-ervine-creates-history-at-41-becomes-third-oldest-cricketer-to-score-double-century-in-test"
+    ],
+    [
+     "Cricket Times, 10 Nov",
+     "https://crickettimes.com/2026/11/zimbabwe-creates-a-new-world-record-in-drawn-test-against-afghanistan/"
+    ]
+   ]
+  },
+  {
+   "id": "g-singles-ai",
+   "scope": "global",
+   "cat": "business",
+   "emoji": "🛒",
+   "date": "2026-11-11",
+   "kind": "news",
+   "x": {
+    "t": "AI helpers join China's giant online sale",
+    "b": [
+     "China has just held its biggest online sale. It is called [[singles-day|Singles' Day]], and it falls on 11 November.",
+     "This year, many shoppers used [[ai|AI]] helpers. These are computer programs that answer questions and suggest things to buy.",
+     "But lots of families were careful with their money. Early sales were about the same as last year."
+    ]
+   },
+   "o": {
+    "t": "AI shopping assistants star in China's Singles' Day sale",
+    "b": [
+     "China's [[singles-day|Singles' Day]], the country's biggest online shopping festival, reached its main day on 11 November. It began as a one-day event but now runs for weeks, with discounts on shopping sites run by companies such as Alibaba and JD.com.",
+     "The big change this year is [[ai|artificial intelligence]]. Shopping sites have built in AI assistants that answer questions, recommend products and help place orders. JD.com said nearly 80 million people asked its assistant, Dongdong, for advice, more than three times as many as last year, the Reuters news agency reported.",
+     "Even so, shoppers were cautious. Sales up to the end of October were just over 1 trillion [[yuan|yuan]], about the same as a year earlier, according to figures from the data firm Syntun reported by the Associated Press. Worries about jobs and falling home prices mean many families are spending carefully."
+    ]
+   },
+   "think": "Would you trust a computer helper to choose what you buy? What might it get wrong?",
+   "quiz": {
+    "q": "What was the big change in this year's Singles' Day sale?",
+    "a": [
+     "Shoppers used AI assistants",
+     "The sale moved to December",
+     "Shops closed their websites",
+     "Everything was free"
+    ],
+    "c": 0
+   },
+   "src": [
+    [
+     "Associated Press via ABC News, 10 Nov",
+     "https://abcnews.com/Business/wireStory/subdued-sales-singles-day-chinas-online-shopping-festival-138035152"
+    ],
+    [
+     "Reuters via TimesLIVE, 11 Nov",
+     "https://www.timeslive.co.za/news/2026-11-11-chinas-singles-day-shopping-festival-puts-ai-selling-power-to-the-test/"
+    ]
+   ]
+  },
+  {
+   "id": "in-radio",
+   "scope": "IN",
+   "cat": "history",
+   "emoji": "📻",
+   "date": "2026-11-12",
+   "kind": "calendar",
+   "when": "Today",
+   "x": {
+    "t": "The day Gandhi spoke on the radio",
+    "b": [
+     "Today is Public Service Broadcasting Day in India. It remembers a special radio talk.",
+     "On 12 November 1947, [[gandhi|Mahatma Gandhi]] went to [[air|All India Radio]]. He spoke to [[refugee|refugees]], people who had to leave their homes. He could not visit them, so he used the radio.",
+     "It was his first and last visit to a radio station."
+    ]
+   },
+   "o": {
+    "t": "Why 12 November is Public Service Broadcasting Day",
+    "b": [
+     "Every 12 November, India marks Public Service Broadcasting Day, also called Jan Prasaran Diwas. It remembers the only time [[gandhi|Mahatma Gandhi]] visited a radio station.",
+     "On 12 November 1947, Gandhi came to the studios of [[air|All India Radio]]. He wanted to speak to [[refugee|refugees]] who were living in camps after being forced to leave their homes. He could not travel to see them, so his words were broadcast live instead. He spoke for 20 minutes and urged them to face their hardship with patience.",
+     "Gandhi was struck by what radio could do, and called it a wondrous thing. The date was declared Public Service Broadcasting Day in 2000. Public service broadcasting means radio and television made to inform and serve everyone."
+    ]
+   },
+   "think": "If you could speak to the whole country on the radio for one minute, what would you say?",
+   "quiz": {
+    "q": "What did Gandhi visit on 12 November 1947?",
+    "a": [
+     "All India Radio",
+     "A cricket ground",
+     "A film studio",
+     "A printing press"
+    ],
+    "c": 0
+   },
+   "src": [
+    [
+     "The Hindu, 24 Jun 2013, via mkgandhi.org",
+     "https://www.mkgandhi.org/newannou/gandhi_AIR.html"
+    ],
+    [
+     "ETV Bharat, 12 Nov 2024",
+     "https://etvbharat.com/en/!bharat/public-service-broadcasting-day-november-12-mahatma-gandhi-all-india-radio-enn24111201179"
+    ]
+   ]
+  },
+  {
+   "id": "g-talks-end",
    "scope": "global",
    "cat": "world",
    "emoji": "🕊️",
-   "date": "2026-11-10",
+   "date": "2026-11-11",
    "kind": "news",
    "olderOnly": true,
    "sensitive": "conflict",
    "x": {
-    "t": "Leaders hold talks to try to end a war",
+    "t": "Talks about ending a war take one step forward",
     "b": [
-     "Grown-ups from three countries are meeting to talk about how to end a war."
+     "Grown-ups from Russia, Ukraine and the United States met for two days. They talked about how to end a war.",
+     "They agreed on one helpful step. Some people held by each side will go home. The talking will carry on."
     ]
    },
    "o": {
-    "t": "Russia, Ukraine and the US hold peace talks in Abu Dhabi",
+    "t": "Abu Dhabi talks end with a prisoner exchange deal, but no peace yet",
     "b": [
-     "Negotiators from [[russia|Russia]], [[ukraine|Ukraine]] and the United States were due to meet on 10 and 11 November in [[abu-dhabi|Abu Dhabi]], capital of the United Arab Emirates. It is their first three-way meeting since February.",
-     "The US is acting as a [[mediator|mediator]] between the two sides, which remain far apart. The talks were expected to focus on security guarantees: promises meant to stop fighting from starting again once it ends.",
-     "Russia launched its full-scale invasion of Ukraine in February 2022. Earlier rounds of talks this year did not produce a deal, so even small steps forward will be watched closely around the world."
+     "Two days of talks between [[russia|Russia]] and [[ukraine|Ukraine]], with the United States acting as [[mediator|mediator]], ended in [[abu-dhabi|Abu Dhabi]] on 11 November. They were the first direct talks between the two sides since February.",
+     "The sides agreed in principle to a large [[prisoner-exchange|exchange of prisoners]]: people captured during the conflict who will be sent home. The exact number is still to be settled. US envoy Jared Kushner called it \"a very tough meeting but a productive one\".",
+     "There was no breakthrough on the hardest questions, including a ceasefire, which is an agreement to stop fighting, and control of territory. Kushner and fellow envoy Steve Witkoff are due to travel to Moscow to meet Russia's president, Vladimir Putin, and then to Dublin to meet Ukraine's president, Volodymyr Zelenskyy. More talks are expected."
     ]
    },
-   "think": "After a long conflict, what could help two sides trust each other's promises?",
+   "think": "Why might two sides agree on a small step before they can agree on the big ones?",
    "quiz": {
-    "q": "What does a mediator do?",
+    "q": "What did the two sides agree on in Abu Dhabi?",
     "a": [
-     "Helps two sides talk and find agreement",
-     "Referees a football match",
-     "Writes a country's laws",
-     "Leads an army"
+     "An exchange of prisoners",
+     "A final peace treaty",
+     "A new border",
+     "A date for elections"
     ],
     "c": 0
    },
    "src": [
     [
-     "Meduza, 10 Nov",
-     "https://meduza.io/en/feature/2026/11/10/russia-ukraine-and-the-u-s-to-hold-peace-talks-in-abu-dhabi-on-november-10-their-first-trilateral-meeting-since-february-with-security-issues-expected-to-top-the-agenda"
+     "Al Jazeera, 11 Nov",
+     "https://www.aljazeera.com/news/2026/11/11/russia-ukraine-talks-in-abu-dhabi-end-with-prisoner-exchange-agreement"
     ],
     [
-     "News On AIR, 9 Nov",
-     "https://newsonair.gov.in/abu-dhabi-to-host-three-way-talks-on-ukraine-conflict/"
-    ],
-    [
-     "Hürriyet Daily News",
-     "https://www.hurriyetdailynews.com/russia-ukraine-us-set-for-peace-talks-229188"
+     "Euronews, 11 Nov",
+     "https://www.euronews.com/2026/11/11/abu-dhabi-peace-talks-end-with-prisoner-exchange-agreement-as-us-envoys-prepare-to-meet-pu"
     ]
    ]
-  },
-  {
-   "id": "g-swordfish",
-   "scope": "global",
-   "cat": "nature",
-   "emoji": "🐟",
-   "date": "2026-11-09",
-   "kind": "news",
-   "x": {
-    "t": "Do swordfish dive deep to find their way?",
-    "b": [
-     "Swordfish are big, fast fish with a long pointy bill. Scientists at [[whoi|Woods Hole]] in the United States think swordfish may make deep dives to help them find their way across the huge ocean.",
-     "Swordfish also dive into the dark [[twilight-zone|twilight zone]], far below the surface, to find food.",
-     "The ocean still has so many mysteries!"
-    ]
-   },
-   "o": {
-    "t": "Swordfish may use deep dives to navigate the open ocean",
-    "b": [
-     "New research from the [[whoi|Woods Hole Oceanographic Institution]] suggests swordfish may use their dramatic deep dives to navigate the open ocean, where there are no landmarks to follow.",
-     "Scientists already knew these fish plunge into the ocean's [[twilight-zone|twilight zone]], a dim layer between 200 and 1,000 m deep, and an earlier study found that tuna and swordfish get around half their food there.",
-     "How big ocean travellers find their way is a long-running puzzle; other animals use Earth's magnetic field, the Sun or even the smell of the water. Understanding these deep habits also matters for protecting the fish as fishing fleets eye the twilight zone."
-    ]
-   },
-   "think": "How would you find your way in the middle of an ocean with no land in sight?",
-   "quiz": {
-    "q": "About how deep is the ocean's twilight zone?",
-    "a": [
-     "0 to 20 m",
-     "200 to 1,000 m",
-     "5,000 to 10,000 m",
-     "1 to 2 m"
-    ],
-    "c": 1
-   },
-   "src": [
-    [
-     "Newswise / WHOI, 9 Nov",
-     "https://www.newswise.com/articles/yale-cancer-center-study-shows-new-strategy-to-boost-immune-system-to-fight-melanoma"
-    ],
-    [
-     "MIT News (background)",
-     "https://news.mit.edu/2025/deep-dive-dinners-are-norm-for-tuna-swordfish-0401"
-    ]
-   ]
-  },
-  {
-   "id": "g-moon",
-   "scope": "global",
-   "cat": "space",
-   "emoji": "🌕",
-   "date": "2026-11-08",
-   "kind": "news",
-   "x": {
-    "t": "Why everyone wants to visit the Moon's south pole",
-    "b": [
-     "Countries are racing to explore the [[moon-south-pole|south pole of the Moon]]. Why there? Deep, dark craters there may hold frozen [[water-ice|water]]!",
-     "Astronauts could one day drink it, or even turn it into air and rocket fuel.",
-     "This week [[nasa|NASA]] announced new projects for its planned Moon Base, and [[china|China]] shared its plans to land astronauts on the Moon too."
-    ]
-   },
-   "o": {
-    "t": "The race to the Moon's south pole speeds up",
-    "b": [
-     "[[nasa|NASA]] announced a set of awards on 7 November for transport, technology and science projects to support its planned Moon Base near the [[moon-south-pole|lunar south pole]]. Meanwhile, [[china|China]]'s space programme outlined its roadmap for landing astronauts on the Moon at a symposium in early November.",
-     "Both efforts target the same small region for one big reason: permanently shadowed craters there are thought to hold [[water-ice|water ice]], which could be turned into drinking water, oxygen and rocket fuel.",
-     "NASA aims to land astronauts again in 2028, after a test flight called [[artemis|Artemis III]] in 2027."
-    ]
-   },
-   "local": {
-    "IN": "India's Chandrayaan-3 was the first mission ever to land near the Moon's south pole, in August 2023, and NASA has invited ISRO to join its Moon Base programme.",
-    "US": "NASA is hiring new astronauts right now for this Moon Base. See today's story on how the search works.",
-    "UK": "The UK is a member of the European Space Agency, which builds part of NASA's Orion spacecraft for the Artemis missions."
-   },
-   "think": "What would you pack for a month living on the Moon? You can only bring five things.",
-   "quiz": {
-    "q": "Why is the Moon's south pole so interesting to explorers?",
-    "a": [
-     "It may have water ice",
-     "It is the warmest part of the Moon",
-     "It is closest to Earth",
-     "It has air to breathe"
-    ],
-    "c": 0
-   },
-   "src": [
-    [
-     "SpaceNexus Lunar Week, 9 Nov",
-     "https://spacenexus.us/moon/weekly/week-of-2026-11-09"
-    ],
-    [
-     "The Week (background)",
-     "https://www.theweek.in/news/sci-tech/2026/08/12/nasa-isro-moon-base-program.amp.html"
-    ]
-   ]
-  },
-  {
-   "id": "g-science",
-   "scope": "global",
-   "cat": "science",
-   "emoji": "🔬",
-   "date": "2026-11-10",
-   "kind": "calendar",
-   "when": "Yesterday",
-   "x": {
-    "t": "Yesterday was World Science Day!",
-    "b": [
-     "On 10 November, people around the world celebrated World Science Day for Peace and Development. It reminds us that science helps everyone, from new medicines to cleaner energy.",
-     "The day is organised by [[unesco|UNESCO]], a part of the United Nations that cares about learning, science and culture.",
-     "You are a scientist too, every time you ask why and test an idea!"
-    ]
-   },
-   "o": {
-    "t": "World Science Day: why science belongs to everyone",
-    "b": [
-     "Every 10 November, [[unesco|UNESCO]] marks World Science Day for Peace and Development, which it set up in 2001. The idea is to remind people that science is not only for laboratories: it shapes the food we grow, the medicines we take and the energy we use.",
-     "The day also points to a challenge: not everyone has the same chance to learn or do science, and UNESCO uses it to call for scientific knowledge to be shared more openly between countries.",
-     "A good way to join in is to try the scientific method yourself: ask a question, make a prediction, test it and see if you were right."
-    ]
-   },
-   "think": "What is one question about the world you would love to test with an experiment?",
-   "quiz": {
-    "q": "Which organisation runs World Science Day?",
-    "a": [
-     "UNESCO",
-     "FIFA",
-     "NASA",
-     "The World Bank"
-    ],
-    "c": 0
-   },
-   "src": []
-  },
-  {
-   "id": "g-kindness",
-   "scope": "global",
-   "cat": "culture",
-   "emoji": "💛",
-   "date": "2026-11-13",
-   "kind": "calendar",
-   "when": "Coming up Friday",
-   "x": {
-    "t": "Friday is World Kindness Day",
-    "b": [
-     "On 13 November, people around the world celebrate World Kindness Day. The idea is simple: do something kind!",
-     "You could help a friend, say thank you to a teacher, or share a snack.",
-     "Scientists have found that being kind can make the helper feel happy too."
-    ]
-   },
-   "o": {
-    "t": "World Kindness Day: small acts, big ripples",
-    "b": [
-     "World Kindness Day falls on Friday, 13 November. It was started in 1998 by the World Kindness Movement, a group of organisations from several countries, to encourage people to look past differences and focus on what we share.",
-     "Psychologists who study kindness have found that helping others can lift the helper's mood as well as the person being helped.",
-     "Try a kindness challenge: one unexpected kind act every day this week, and notice how people react."
-    ]
-   },
-   "think": "What is the kindest thing someone has done for you? How did it feel?",
-   "quiz": {
-    "q": "When is World Kindness Day?",
-    "a": [
-     "13 November",
-     "1 January",
-     "14 February",
-     "5 June"
-    ],
-    "c": 0
-   },
-   "src": []
   }
  ],
  "glossary": {
-  "app": [
-   "App",
-   "tech",
-   "A program on a phone, tablet or computer, like a game or a calculator.",
-   "Short for application: software built to do a job on a device. Apps are written in programming languages; Apple's devices use one called Swift."
-  ],
-  "coding": [
-   "Coding",
-   "tech",
-   "Writing instructions that tell a computer what to do.",
-   "Writing step-by-step instructions in a programming language. Computers follow the instructions exactly, so coders test and fix their work again and again."
-  ],
-  "discount": [
-   "Discount",
-   "words",
-   "Money taken off the usual price.",
-   "A reduction from the normal price, often shown as a percentage. Shops use discounts to sell more, clear old stock or win customers from rivals."
-  ],
-  "e-commerce": [
-   "E-commerce",
-   "tech",
-   "Buying and selling things on the internet.",
-   "Electronic commerce: shopping online through websites and apps, with goods delivered to your door. China is the world's biggest e-commerce market."
-  ],
-  "yuan": [
-   "Yuan",
-   "words",
-   "The money used in China.",
-   "China's currency, also called renminbi. In 2026, one US dollar was worth roughly seven yuan."
-  ],
-  "melbourne": [
-   "Melbourne",
-   "places",
-   "A big city in the south of Australia.",
-   "Australia's second-largest city and the capital of the state of Victoria, known for sport, coffee and its trams."
-  ],
-  "toulouse": [
-   "Toulouse",
-   "places",
-   "A city in the south of France where many planes are built.",
-   "A city in south-west France, called the 'Pink City' for its brick buildings. Airbus assembles many of its passenger jets here."
-  ],
-  "world-record": [
-   "World record",
-   "words",
-   "The best result anyone has ever achieved, checked and written down.",
-   "The best performance ever officially recorded. Guinness World Records, first published in 1955, checks and lists records from fastest to tallest to longest."
-  ],
-  "project-sunrise": [
-   "Project Sunrise",
-   "tech",
-   "Qantas's plan to fly from Australia to London or New York without stopping.",
-   "Qantas's long-running plan for non-stop flights from Sydney to London and New York, using specially built Airbus A350-1000ULR jets with fewer seats and extra fuel."
-  ],
-  "remembrance-day": [
-   "Remembrance Day",
-   "history",
-   "A day to remember people who died in wars, on 11 November.",
-   "Held on 11 November, the anniversary of the 1918 armistice. In Australia, people pause for a minute's silence at 11 am; it was called Armistice Day until after the Second World War."
-  ],
-  "awm": [
-   "Australian War Memorial",
-   "places",
-   "A museum and memorial in Canberra about Australians who served in wars.",
-   "A national shrine, museum and archive in Canberra, opened on 11 November 1941. Its Roll of Honour lists over 103,000 Australians who died in war."
-  ],
-  "canberra": [
-   "Canberra",
-   "places",
-   "Australia's capital city, where Parliament meets.",
-   "Australia's capital, a planned city chosen as a compromise between Sydney and Melbourne. Parliament has met there since 1927."
-  ],
-  "governor-general": [
-   "Governor-General",
-   "civics",
-   "The person who represents the King in Australia.",
-   "The representative of the monarch in Australia. The Governor-General signs laws passed by Parliament and leads national ceremonies."
-  ],
-  "seoul": [
-   "Seoul",
-   "places",
-   "The capital city of South Korea.",
-   "South Korea's capital and largest city, home to about 9.4 million people, with the Han River running through it."
-  ],
-  "suneung": [
-   "Suneung",
-   "civics",
-   "South Korea's big exam for getting into university.",
-   "The College Scholastic Ability Test, taken each November by school leavers in South Korea. It covers Korean, maths, English, Korean history and other subjects."
-  ],
-  "tiangong": [
-   "Tiangong",
-   "science",
-   "China's space station. Its name means Heavenly Palace.",
-   "China's three-module space station in low Earth orbit, completed in 2022. Crews of three usually stay for about six months."
-  ],
-  "hong-kong": [
-   "Hong Kong",
-   "places",
-   "A busy city on the south coast of China.",
-   "A special administrative region of China, with its own laws and currency. It was a British colony until 1997."
-  ],
-  "eeg": [
-   "EEG",
-   "science",
-   "A cap with sensors that picks up tiny electrical signals from your brain.",
-   "Electroencephalography: sensors on the scalp record the brain's electrical activity, showing how different areas work together."
-  ],
-  "satellite": [
-   "Satellite",
-   "science",
-   "Something that goes around a planet. People build satellites to take pictures and send signals.",
-   "An object that orbits a planet. Artificial satellites relay phone and TV signals, guide GPS and photograph Earth for weather and maps."
-  ],
-  "hefei": [
-   "Hefei",
-   "places",
-   "A city in eastern China known for science.",
-   "The capital of Anhui province in eastern China, home to major research institutes in physics, space and AI."
-  ],
-  "ai": [
-   "AI",
-   "tech",
-   "Artificial intelligence: computer programs that can learn and make choices.",
-   "Artificial intelligence: computer systems that learn patterns from data to recognise images, understand language or make predictions."
-  ],
-  "berlin": [
-   "Berlin",
-   "places",
-   "The capital city of Germany.",
-   "Germany's capital and largest city. It was split into East and West from 1949 to 1990."
-  ],
-  "berlin-wall": [
-   "Berlin Wall",
-   "history",
-   "A wall that split the city of Berlin in two from 1961 to 1989.",
-   "A guarded barrier built by East Germany in 1961 to stop people leaving for West Berlin. Its opening on 9 November 1989 led to German reunification on 3 October 1990."
-  ],
-  "east-germany": [
-   "East Germany",
-   "history",
-   "A country that existed from 1949 to 1990, before Germany became one again.",
-   "The German Democratic Republic, a communist state allied to the Soviet Union. It joined West Germany in 1990."
-  ],
-  "st-martin": [
-   "St Martin's Day",
-   "words",
-   "A day on 11 November when children carry lanterns and remember a kind soldier.",
-   "The feast of Martin of Tours, a Roman soldier who became a bishop. The legend says he shared half his cloak with a beggar in the snow."
-  ],
-  "carnival": [
-   "Carnival",
-   "words",
-   "A time of costumes, parades and parties before the season of Lent.",
-   "A festive season in parts of Germany and elsewhere, often called the 'fifth season'. In the Rhineland it opens on 11 November at 11:11 and peaks before Ash Wednesday."
-  ],
-  "cologne": [
-   "Cologne",
-   "places",
-   "A city on the river Rhine in Germany, famous for its cathedral and carnival.",
-   "Germany's fourth-largest city, on the Rhine. Its Gothic cathedral is a UNESCO World Heritage Site, and its carnival is one of Europe's biggest."
-  ],
-  "arc-de-triomphe": [
-   "Arc de Triomphe",
-   "places",
-   "A giant arch in the middle of Paris.",
-   "A monumental arch in Paris, finished in 1836. Since 1921 the tomb of the Unknown Soldier has lain beneath it."
-  ],
-  "unknown-soldier": [
-   "Unknown Soldier",
-   "history",
-   "A soldier whose name we do not know, buried to honour everyone who died in a war.",
-   "An unidentified soldier buried in a national tomb to represent all who died. France's lies under the Arc de Triomphe, with a flame rekindled every evening."
-  ],
-  "bleuet": [
-   "Bleuet",
-   "words",
-   "A small blue flower that French people wear to remember soldiers.",
-   "The cornflower, France's symbol of remembrance. It is linked to the young soldiers of 1915, nicknamed 'bleuets' after their blue uniforms."
-  ],
-  "delhi": [
-   "Delhi",
-   "places",
-   "India's capital city, where the national government meets.",
-   "India's National Capital Territory, with over 30 million people in its wider region. New Delhi, inside it, is the seat of India's government and Parliament."
-  ],
-  "smog": [
-   "Smog",
-   "science",
-   "Smoke plus fog. A dirty haze in the air that makes it hard to see and to breathe.",
-   "A mix of smoke and fog, or more generally polluted air full of tiny particles and gases. Winter smog is worse in north India because cold, still air traps pollution close to the ground."
-  ],
-  "aqi": [
-   "AQI",
-   "science",
-   "Air Quality Index: a number that shows how clean the air is. A low number is good. A high number is bad.",
-   "Air Quality Index. India's scale runs from Good (0 to 50) through Poor (201 to 300) and Very Poor (301 to 400) up to Severe (401 to 500). It is based on pollutants like PM2.5, particles so tiny they can reach deep into the lungs."
-  ],
-  "stubble-burning": [
-   "Stubble burning",
-   "science",
-   "When farmers burn the leftover stalks in their fields after harvest to clear them quickly.",
-   "Burning crop leftovers, mainly rice stubble in Punjab and Haryana, to clear fields before sowing wheat. The smoke drifts toward Delhi in October and November. Machines that mulch the stubble, and microbes that break it down, are alternatives."
-  ],
-  "grap": [
-   "GRAP",
-   "civics",
-   "An emergency plan for Delhi's bad air days. Its rules get stricter as the air gets worse.",
-   "The Graded Response Action Plan, with four stages linked to AQI levels. Stage III can stop most construction and keep some older vehicles off the road; Stage IV is the strictest."
-  ],
-  "diwali": [
-   "Diwali",
-   "words",
-   "The festival of lights! People light lamps, share sweets and celebrate good winning over evil.",
-   "A major festival in India and around the world, usually in October or November. For many Hindus it marks Lord Rama's return to Ayodhya. Sikhs, Jains and some Buddhists celebrate on the same days for their own reasons."
-  ],
-  "ayodhya": [
-   "Ayodhya",
-   "places",
-   "An ancient city in Uttar Pradesh, on the Saryu river. In the Ramayana, it is Lord Rama's home.",
-   "A city in Uttar Pradesh on the Saryu river, important in Hinduism as the birthplace of Lord Rama in the epic Ramayana. It has been a place of pilgrimage for centuries."
-  ],
-  "diya": [
-   "Diya",
-   "words",
-   "A small clay lamp filled with oil, with a cotton wick that you light.",
-   "A small oil lamp, usually made of baked clay, lit during festivals across South Asia. The word comes from the Sanskrit deepa, meaning lamp, which also gives us Deepavali, a row of lamps."
-  ],
-  "nehru": [
-   "Jawaharlal Nehru",
-   "people",
-   "India's first Prime Minister. Children lovingly called him Chacha Nehru.",
-   "A leader of India's freedom movement alongside Mahatma Gandhi, and Prime Minister from 1947 until his death in 1964. His government set up many of India's first universities, research labs and the IITs."
-  ],
-  "prime-minister": [
-   "Prime Minister",
-   "civics",
-   "The leader of the government in countries like India and the UK.",
-   "The head of government in a parliamentary system. The Prime Minister is usually the leader of the party with the most seats in parliament, and chooses the ministers who run each department."
-  ],
-  "uncrc": [
-   "Convention on the Rights of the Child",
-   "civics",
-   "A promise signed by almost every country to protect children's rights, like the right to learn, to play and to be safe.",
-   "A 1989 United Nations treaty that lists children's rights, from education to protection from harm. It is the most widely ratified human rights treaty in history."
-  ],
-  "gukesh": [
-   "Gukesh D",
-   "people",
-   "A chess grandmaster from Chennai who became world champion when he was just 18.",
-   "Dommaraju Gukesh, a grandmaster from Chennai, born in 2006. In December 2024 he beat Ding Liren of China to become the youngest undisputed world chess champion ever."
-  ],
-  "chess": [
-   "Chess",
-   "sports",
-   "A board game for two players. You win by trapping the other player's king. That is called checkmate!",
-   "A strategy game played on a board of 64 squares. It is thought to have grown from chaturanga, a game played in India around 1,500 years ago."
-  ],
-  "uzbekistan": [
-   "Uzbekistan",
-   "places",
-   "A country in Central Asia, famous for its blue-tiled cities on the old Silk Road.",
-   "A Central Asian country of about 37 million people, with Tashkent as its capital. Its cities Samarkand and Bukhara were great stops on the Silk Road trade routes."
-  ],
   "nasa": [
    "NASA",
    "science",
    "America's space agency. It sent the first people to walk on the Moon in 1969.",
    "The National Aeronautics and Space Administration, founded in 1958. It ran the Apollo Moon landings, the Space Shuttle and the Mars rovers, and now leads the Artemis programme."
-  ],
-  "astronaut": [
-   "Astronaut",
-   "science",
-   "A person trained to travel and work in space.",
-   "Someone trained to fly in space. Russia calls them cosmonauts, China calls them taikonauts and India calls them gaganauts, after its Gaganyaan programme."
-  ],
-  "moon-south-pole": [
-   "Moon's south pole",
-   "science",
-   "The bottom of the Moon, where some craters stay dark and freezing cold forever.",
-   "A region where the Sun stays low on the horizon, so some crater floors never see sunlight. Temperatures there can drop below minus 200°C, cold enough to keep water ice frozen for billions of years."
-  ],
-  "water-ice": [
-   "Water ice",
-   "science",
-   "Frozen water. On the Moon, it could give astronauts water to drink.",
-   "Frozen water. Split into hydrogen and oxygen, it can provide air to breathe and rocket fuel, which is why it could make a long-term Moon base possible."
-  ],
-  "artemis": [
-   "Artemis",
-   "science",
-   "NASA's programme to send people back to the Moon.",
-   "NASA's Moon programme, named after Apollo's twin sister in Greek myth. Artemis II flew four astronauts around the Moon in April 2026. Artemis III will test Moon landers in Earth orbit in 2027."
-  ],
-  "china": [
-   "China",
-   "places",
-   "A huge country in Asia, home to the Great Wall and more than a billion people.",
-   "One of the two most populous countries in the world, with about 1.4 billion people; its capital is Beijing. Its space agency has landed rovers on the Moon's far side and on Mars, and runs its own space station, Tiangong."
-  ],
-  "veteran": [
-   "Veteran",
-   "words",
-   "Someone who used to serve in the army, navy or air force.",
-   "A person who has served in the armed forces. Many countries hold special days to honour veterans and to support them after their service."
-  ],
-  "ww1": [
-   "First World War",
-   "history",
-   "A huge war from 1914 to 1918 that pulled in countries from all around the world.",
-   "A global war from 1914 to 1918 between the Allies (including Britain, France, Russia and later the US) and the Central Powers (led by Germany and Austria-Hungary). More than a million soldiers from India served."
-  ],
-  "armistice": [
-   "Armistice",
-   "history",
-   "An agreement to stop fighting.",
-   "A formal agreement to stop fighting, usually before a final peace treaty is signed. The First World War armistice was signed in a railway carriage in France; the Treaty of Versailles followed in 1919."
-  ],
-  "remembrance-sunday": [
-   "Remembrance Sunday",
-   "history",
-   "A day in the UK to remember people who died in wars.",
-   "Held on the second Sunday of November in the UK, with services at war memorials and a two-minute silence at 11 am."
-  ],
-  "cenotaph": [
-   "Cenotaph",
-   "history",
-   "A tall stone memorial in London for people who died in wars.",
-   "A Greek word meaning empty tomb: a monument to people who are buried elsewhere. London's Cenotaph on Whitehall was designed by Edwin Lutyens and unveiled in its stone form in 1920."
-  ],
-  "king-charles": [
-   "King Charles III",
-   "people",
-   "The King of the United Kingdom. He became king in 2022.",
-   "The UK's monarch since September 2022, after the death of his mother, Queen Elizabeth II. As head of state his role is mostly ceremonial; elected politicians run the government."
-  ],
-  "poppy": [
-   "Poppy",
-   "history",
-   "A red flower people wear to remember soldiers.",
-   "Red poppies grew on the battle-scarred fields of Flanders in the First World War and inspired the poem In Flanders Fields. Since 1921, paper poppies have been sold in the UK to support veterans."
-  ],
-  "children-in-need": [
-   "Children in Need",
-   "words",
-   "A BBC charity that raises money to help children across the UK.",
-   "BBC Children in Need, the BBC's UK charity. Since 1980 it has held a yearly appeal and given grants to local projects that help children and young people."
-  ],
-  "antalya": [
-   "Antalya",
-   "places",
-   "A sunny city on the Mediterranean coast of Türkiye.",
-   "A large city on Türkiye's southern Mediterranean coast, and one of the most visited holiday spots in the world."
-  ],
-  "turkiye": [
-   "Türkiye",
-   "places",
-   "A country that is partly in Europe and partly in Asia. In English it used to be called Turkey.",
-   "A country bridging Europe and Asia. Its capital is Ankara and its largest city is Istanbul. In 2022 the UN began using the name Türkiye at the government's request."
   ],
   "cop": [
    "COP",
@@ -1804,11 +631,11 @@
    "A big yearly meeting where countries talk about climate change.",
    "Conference of the Parties: the yearly summit of countries that signed the UN climate treaty of 1992. COP21 in 2015 produced the Paris Agreement."
   ],
-  "climate-change": [
-   "Climate change",
-   "science",
-   "Earth slowly getting warmer over many years, mostly because people burn coal, oil and gas.",
-   "Long-term shifts in temperature and weather. Since the 1800s, burning fossil fuels has added carbon dioxide to the air, trapping heat. Earth is already more than 1°C warmer than before the industrial age."
+  "turkiye": [
+   "Türkiye",
+   "places",
+   "A country that is partly in Europe and partly in Asia. In English it used to be called Turkey.",
+   "A country bridging Europe and Asia. Its capital is Ankara and its largest city is Istanbul. In 2022 the UN began using the name Türkiye at the government's request."
   ],
   "un": [
    "United Nations",
@@ -1822,11 +649,23 @@
    "The leader of the United Nations. He used to be Prime Minister of Portugal.",
    "UN Secretary-General since 2017 and a former Prime Minister of Portugal. His second and final term ends on 31 December 2026."
   ],
+  "climate-change": [
+   "Climate change",
+   "science",
+   "Earth slowly getting warmer over many years, mostly because people burn coal, oil and gas.",
+   "Long-term shifts in temperature and weather. Since the 1800s, burning fossil fuels has added carbon dioxide to the air, trapping heat. Earth is already more than 1°C warmer than before the industrial age."
+  ],
   "paris-agreement": [
    "Paris Agreement",
    "civics",
    "A promise made by countries in 2015 to slow down global warming.",
    "A 2015 treaty in which countries agreed to keep warming well below 2°C and to try for 1.5°C, with each country setting its own targets."
+  ],
+  "ai": [
+   "AI",
+   "tech",
+   "Artificial intelligence: computer programs that can learn and make choices.",
+   "Artificial intelligence: computer systems that learn patterns from data to recognise images, understand language or make predictions."
   ],
   "russia": [
    "Russia",
@@ -1852,593 +691,508 @@
    "A helper who listens to both sides of an argument and helps them find a fair answer.",
    "A go-between who helps two sides negotiate, often carrying proposals back and forth when the sides will not agree face to face."
   ],
-  "whoi": [
-   "Woods Hole",
-   "science",
-   "A famous ocean science centre in the United States.",
-   "The Woods Hole Oceanographic Institution in Massachusetts, founded in 1930. Its deep-sea submarine Alvin helped explore the wreck of the Titanic."
+  "delhi": [
+   "Delhi",
+   "places",
+   "India's capital city, where the national government meets.",
+   "India's National Capital Territory, with over 30 million people in its wider region. New Delhi, inside it, is the seat of India's government and Parliament."
   ],
-  "twilight-zone": [
-   "Twilight zone",
+  "hera": [
+   "Hera",
    "science",
-   "A dark part of the ocean deep below the surface, where very little sunlight reaches.",
-   "The mesopelagic zone, about 200 to 1,000 m deep. Many creatures there glow, and lots of them swim up toward the surface at night to feed."
+   "A European spacecraft sent to study two asteroids.",
+   "A European Space Agency spacecraft, launched in October 2024, sent to study the asteroids Didymos and Dimorphos after NASA's DART test."
   ],
-  "fireball": [
-   "Fireball",
+  "asteroid": [
+   "Asteroid",
    "science",
-   "A super bright shooting star that can light up the sky for a moment.",
-   "A meteor brighter than the planet Venus. Fireballs happen when larger pieces of space dust and rock burn up in the atmosphere."
+   "A rocky object in space that travels around the Sun. It is much smaller than a planet.",
+   "A small, rocky body that orbits the Sun. Most asteroids come from the main belt between the orbits of Mars and Jupiter."
   ],
-  "meteor-shower": [
-   "Meteor shower",
+  "esa": [
+   "European Space Agency",
    "science",
-   "When lots of shooting stars appear in the sky over a few nights.",
-   "It happens when Earth passes through a trail of dust left behind by a comet. The bits burn up in our atmosphere, about 100 km up, as streaks of light."
+   "A group of European countries that explore space together.",
+   "ESA: the organisation through which European countries build and fly space missions together. It runs the Hera mission."
   ],
-  "mars": [
-   "Mars",
+  "dart": [
+   "DART",
    "science",
-   "The red planet, fourth from the Sun. Robot rovers from Earth are exploring it right now.",
-   "The fourth planet from the Sun. Its red colour comes from iron oxide, which is rust, in its dusty soil."
+   "A NASA spacecraft that crashed into an asteroid on purpose in 2022, as a test.",
+   "Double Asteroid Redirection Test: a NASA mission that hit the asteroid moon Dimorphos in September 2022 to see whether a crash could change its orbit."
   ],
-  "jupiter": [
-   "Jupiter",
+  "harrison": [
+   "M John Harrison",
+   "people",
+   "A British writer who won the Booker Prize in 2026, when he was 81.",
+   "A British author known for science fiction. He won the 2026 Booker Prize at 81 for his 13th novel, The End of Everything."
+  ],
+  "booker-prize": [
+   "Booker Prize",
+   "words",
+   "A famous prize given every year to one very good book.",
+   "A yearly prize, first awarded in 1969, for a novel written in English and published in the UK or Ireland. The winner receives £50,000."
+  ],
+  "science-fiction": [
+   "Science fiction",
+   "words",
+   "Made-up stories about the future, space or amazing inventions.",
+   "Stories that imagine the future, other worlds or new technology, and ask what life would be like there."
+  ],
+  "ethiopia": [
+   "Ethiopia",
+   "places",
+   "A country in the east of Africa.",
+   "A large country in eastern Africa, with high mountains and forests."
+  ],
+  "extinct": [
+   "Extinct",
    "science",
-   "The biggest planet in our solar system. It is a giant ball of gas.",
-   "The largest planet, more than 11 times wider than Earth. Its Great Red Spot is a storm bigger than our whole planet."
+   "When a kind of animal or plant has died out and there are none left.",
+   "A species is extinct when its last member has died. Now and then, a species thought to be extinct is found again."
   ],
-  "unesco": [
-   "UNESCO",
+  "critically-endangered": [
+   "Critically endangered",
+   "science",
+   "In very great danger of dying out.",
+   "The most serious risk level for a species that is still alive, on the Red List kept by the International Union for Conservation of Nature."
+  ],
+  "dna": [
+   "DNA",
+   "science",
+   "A tiny set of instructions inside every living thing. It is like a recipe for making that plant or animal.",
+   "The molecule that carries the genetic instructions of living things. Comparing DNA shows how closely two animals are related."
+  ],
+  "mindoro": [
+   "Mindoro",
+   "places",
+   "An island in the Philippines with tall mountains.",
+   "An island in the Philippines, just under 10,000 square kilometres in area, with mountains that rise above 2,000 metres."
+  ],
+  "philippines": [
+   "Philippines",
+   "places",
+   "A country in Asia made up of thousands of islands.",
+   "A country in South-East Asia made up of thousands of islands, including Luzon and Mindoro."
+  ],
+  "species": [
+   "Species",
+   "science",
+   "One kind of living thing, such as a tiger or a house sparrow.",
+   "A group of living things that are alike and can breed with each other. Scientists give each species a two-part scientific name."
+  ],
+  "fossil-fuels": [
+   "Fossil fuels",
+   "science",
+   "Coal, oil and gas. People burn them to make energy.",
+   "Coal, oil and natural gas, formed underground over millions of years. Burning them releases carbon dioxide, which traps heat."
+  ],
+  "singles-day": [
+   "Singles' Day",
+   "words",
+   "A huge online sale in China on 11 November.",
+   "China's biggest online shopping festival, centred on 11 November. The sales now run for weeks beforehand."
+  ],
+  "yuan": [
+   "Yuan",
+   "words",
+   "The money used in China.",
+   "China's currency, also called renminbi. In November 2026, one US dollar was worth about six and a half yuan."
+  ],
+  "prisoner-exchange": [
+   "Prisoner exchange",
    "civics",
-   "Part of the United Nations that looks after learning, science and culture around the world.",
-   "The United Nations Educational, Scientific and Cultural Organization, founded in 1945. It also keeps the list of World Heritage Sites, such as the Taj Mahal."
+   "When two sides each send back people they have been holding.",
+   "An agreement in which the two sides in a conflict each release people they have captured, so that they can go home."
+  ],
+  "cricket": [
+   "Cricket",
+   "words",
+   "A game played with a bat and ball by two teams of eleven players.",
+   "A bat-and-ball sport between two teams of eleven. Batters score runs and bowlers try to get them out."
+  ],
+  "test-cricket": [
+   "Test match",
+   "words",
+   "The longest kind of cricket match. It can last five days.",
+   "The longest form of cricket, played over up to five days, in which each team can bat twice. A batter who scores 100 runs has a century, and 200 is a double century."
+  ],
+  "zimbabwe": [
+   "Zimbabwe",
+   "places",
+   "A country in the south of Africa.",
+   "A country in southern Africa. Its national cricket team plays Test matches."
+  ],
+  "yog": [
+   "Youth Olympic Games",
+   "words",
+   "An Olympic Games just for teenage athletes.",
+   "A version of the Olympic Games for teenage athletes. The 2026 Games are in Dakar, Senegal, from 31 October to 13 November."
+  ],
+  "dakar": [
+   "Dakar",
+   "places",
+   "A city in Senegal, a country in the west of Africa.",
+   "A city in Senegal, in West Africa, and the host of the 2026 Youth Olympic Games."
+  ],
+  "wushu": [
+   "Wushu",
+   "words",
+   "A sport from China that uses martial arts moves.",
+   "A sport that grew out of Chinese martial arts. In some events, athletes perform routines that judges mark with scores."
+  ],
+  "yamuna": [
+   "Yamuna",
+   "places",
+   "A big river that flows through Delhi.",
+   "A major river of northern India that flows through Delhi."
+  ],
+  "electric-boat": [
+   "Electric vessel",
+   "tech",
+   "A boat that runs on batteries instead of burning fuel.",
+   "A boat driven by electric motors and batteries rather than a diesel engine."
+  ],
+  "dda": [
+   "Delhi Development Authority",
+   "civics",
+   "A government office that plans and builds parts of Delhi.",
+   "DDA: a government body that plans and develops land in Delhi."
+  ],
+  "astronomy": [
+   "Astronomy",
+   "science",
+   "The study of stars, planets and everything in space.",
+   "The science of everything beyond Earth: stars, planets, galaxies and the universe itself."
+  ],
+  "olympiad": [
+   "Olympiad",
+   "words",
+   "A big contest where students from many countries compete.",
+   "Here, an international contest in a school subject, in which the best students win gold, silver and bronze medals."
+  ],
+  "thailand": [
+   "Thailand",
+   "places",
+   "A country in South-East Asia.",
+   "A country in South-East Asia. It hosted the 2026 junior astronomy olympiad in the city of Ubon Ratchathani."
+  ],
+  "ncsm": [
+   "National Council of Science Museums",
+   "civics",
+   "A group that runs science museums across India.",
+   "NCSM: a body under India's Ministry of Culture that runs science centres and prepares India's team for the junior astronomy olympiad."
+  ],
+  "navi-mumbai": [
+   "Navi Mumbai",
+   "places",
+   "A big city in India, next to Mumbai.",
+   "A large city beside Mumbai. It came first in India's 2025-26 city cleanliness survey."
+  ],
+  "murmu": [
+   "Droupadi Murmu",
+   "people",
+   "The President of India.",
+   "The President of India, who is the country's head of state."
+  ],
+  "swachh-survekshan": [
+   "Swachh Survekshan",
+   "civics",
+   "A check of how clean India's cities are, with prizes for the best.",
+   "The government's cleanliness survey of India's cities, run by the Ministry of Housing and Urban Affairs."
+  ],
+  "gandhi": [
+   "Mahatma Gandhi",
+   "people",
+   "A leader who helped India become free by using peace, not fighting.",
+   "A leader of India's freedom movement, known for non-violent protest. Mahatma is a title of respect."
+  ],
+  "air": [
+   "All India Radio",
+   "tech",
+   "India's national radio service.",
+   "India's public radio broadcaster. A public broadcaster exists to inform and serve everyone."
+  ],
+  "refugee": [
+   "Refugee",
+   "words",
+   "A person who has had to leave home to stay safe.",
+   "Someone forced to leave their home, often because of conflict, and to look for safety somewhere else."
   ]
  },
  "keys": {
-  "in-air": {
+  "in-yog": {
    "type": "number",
-   "v": "~400",
-   "l": "AQI in Delhi on 9 November: Very poor",
-   "scale": "aqi",
-   "sel": 4
+   "v": "8",
+   "l": "medals for India so far: 3 silver and 5 bronze, with boxing still to come"
   },
-  "in-chess": {
+  "in-astro": {
    "type": "number",
-   "v": "24 Nov",
-   "l": "the title match starts, and it can run until 12 December"
+   "v": "5 of 5",
+   "l": "members of India's team who won a medal"
   },
-  "us-astronauts": {
+  "in-yamuna": {
    "type": "number",
-   "v": "8,000+",
-   "l": "people applied last time, and only 10 were chosen"
+   "v": "~6 km",
+   "l": "the round trip between Sonia Vihar and Jagatpur"
   },
-  "uk-remembrance": {
+  "g-hera": {
    "type": "number",
-   "v": "2 minutes",
-   "l": "of silence at 11 am on Armistice Day"
+   "v": "151 m",
+   "l": "the width of Dimorphos, the asteroid moon that Hera is inspecting"
   },
-  "au-flight": {
-   "type": "compare",
-   "v": "23,155 km",
-   "l": "non-stop, Melbourne to Toulouse",
-   "base": 23155,
-   "items": [
-    [
-     "Earth's width",
-     12742,
-     "Almost twice the width of the Earth."
-    ],
-    [
-     "Delhi to Mumbai",
-     1150,
-     "About 20 Delhi to Mumbai trips in a row."
-    ],
-    [
-     "Around Earth",
-     40075,
-     "More than half of the way around the planet."
-    ]
-   ]
-  },
-  "au-remembrance": {
+  "g-watermouse": {
    "type": "number",
-   "v": "103,000+",
-   "l": "names on the Australian War Memorial's Roll of Honour"
+   "v": "1927",
+   "l": "the only time the water mouse had been recorded before now"
   },
-  "kr-snow": {
+  "g-mindoro": {
    "type": "number",
-   "v": "12 days",
-   "l": "earlier than an average year, and 26 days earlier than last year"
-  },
-  "kr-suneung": {
-   "type": "number",
-   "v": "551,864",
-   "l": "people applied to sit this year's exam"
-  },
-  "cn-astro": {
-   "type": "number",
-   "v": "6 months",
-   "l": "planned stay on Tiangong; the crew launched on 24 May"
-  },
-  "cn-cloud": {
-   "type": "number",
-   "v": "189 km²",
-   "l": "area an AI satellite checked from orbit, even under heavy snow"
-  },
-  "de-wall": {
-   "type": "timeline",
-   "sel": 1,
-   "items": [
-    [
-     "1961",
-     "A wall goes up",
-     "East Germany builds a wall across Berlin."
-    ],
-    [
-     "1989",
-     "The gates open",
-     "On 9 November the crossings open and people celebrate."
-    ],
-    [
-     "1990",
-     "One Germany",
-     "East and West Germany join on 3 October."
-    ],
-    [
-     "2026",
-     "Remembered",
-     "Roses and candles mark 37 years."
-    ]
-   ]
-  },
-  "de-martin": {
-   "type": "spot",
-   "items": [
-    [
-     "Lanterns",
-     "Children carry lanterns they made themselves and sing lantern songs."
-    ],
-    [
-     "The rider",
-     "Someone dressed as St Martin, a Roman soldier, often leads the parade on a horse."
-    ],
-    [
-     "11:11",
-     "At 11:11 am, carnival season opens, with about 30,000 people in costume in Cologne."
-    ]
-   ]
-  },
-  "fr-school": {
-   "type": "number",
-   "v": "4 days",
-   "l": "schools can hold their ceremony up to four days before or after 11 November"
-  },
-  "fr-armistice": {
-   "type": "timeline",
-   "sel": 0,
-   "items": [
-    [
-     "1918",
-     "The guns stop",
-     "The armistice ends the fighting of the First World War on 11 November."
-    ],
-    [
-     "1921",
-     "The Unknown Soldier",
-     "A soldier who was never named is buried beneath the Arc de Triomphe."
-    ],
-    [
-     "2026",
-     "108 years",
-     "France marks the anniversary with a national holiday."
-    ]
-   ]
-  },
-  "g-sky": {
-   "type": "spot",
-   "items": [
-    [
-     "Tonight",
-     "Taurid fireballs: slow, bright shooting stars on 11 and 12 November."
-    ],
-    [
-     "15 to 16 Nov",
-     "Before dawn, reddish Mars and bright Jupiter appear very close together."
-    ],
-    [
-     "17 to 18 Nov",
-     "The Leonid meteor shower peaks. Find a dark spot and give your eyes time."
-    ]
-   ]
-  },
-  "g-swift": {
-   "type": "number",
-   "v": "3 min",
-   "l": "or less: the time a judge should need to try your app"
-  },
-  "g-singles": {
-   "type": "number",
-   "v": "1.44 trillion",
-   "l": "yuan spent across the 2024 festival (about US$200 billion), says data firm Syntun"
+   "v": "40",
+   "l": "rats studied to show there were two new species"
   },
   "g-cop31": {
    "type": "number",
-   "v": "~200",
-   "l": "countries meeting in Antalya, Türkiye, until 20 November"
+   "v": "35%",
+   "l": "the share of the world's energy that would come from electricity by 2035 under the pledge. It is about 23% now"
+  },
+  "g-singles-ai": {
+   "type": "number",
+   "v": "~80 million",
+   "l": "people who asked JD.com's AI assistant for shopping advice, according to the company"
+  },
+  "g-booker": {
+   "type": "number",
+   "v": "81",
+   "l": "the age of M John Harrison, the oldest winner of the Booker Prize"
+  },
+  "g-ervine": {
+   "type": "number",
+   "v": "206*",
+   "l": "runs for Craig Ervine, not out, at the age of 41"
   }
  },
  "xkeys": {
-  "in-air": {
+  "in-astro": {
    "type": "check",
-   "q": "Was Delhi's air clean or dirty this week?",
-   "a": [
-    "Clean",
-    "Dirty"
-   ],
-   "c": 1,
-   "right": "Right! The air was very dirty.",
-   "wrong": "Not quite. Read it again!"
-  },
-  "kr-snow": {
-   "type": "check",
-   "q": "Did the snow come early or late?",
-   "a": [
-    "Early",
-    "Late"
-   ],
-   "c": 0,
-   "right": "Right! 12 days early.",
-   "wrong": "Not quite. Read it again!"
-  },
-  "au-flight": {
-   "type": "check",
-   "q": "Did the plane stop on the way?",
+   "q": "Did every student on India's team win a medal?",
    "a": [
     "Yes",
     "No"
    ],
-   "c": 1,
-   "right": "Right! It flew all the way without stopping.",
+   "c": 0,
+   "right": "Right! All five won a medal.",
+   "wrong": "Not quite. Read it again!"
+  },
+  "in-yamuna": {
+   "type": "check",
+   "q": "What makes the new boat go?",
+   "a": [
+    "Electricity",
+    "Petrol"
+   ],
+   "c": 0,
+   "right": "Right! It is an electric boat.",
+   "wrong": "Not quite. Read it again!"
+  },
+  "g-watermouse": {
+   "type": "check",
+   "q": "Was the water mouse found again?",
+   "a": [
+    "Yes",
+    "No"
+   ],
+   "c": 0,
+   "right": "Right! It was in a forest stream.",
+   "wrong": "Not quite. Read it again!"
+  },
+  "g-ervine": {
+   "type": "check",
+   "q": "How old is Craig Ervine?",
+   "a": [
+    "41",
+    "14"
+   ],
+   "c": 0,
+   "right": "Right! He is 41.",
    "wrong": "Not quite. Read it again!"
   }
  },
  "deep": {
-  "in-air": {
-   "ctx": "Delhi's winter smog returns every year because of geography as well as pollution: the city sits on a plain with the Himalayas to the north, and cool, still air traps whatever is emitted. Studies that split the sources find vehicles, industry, dust and household fuel matter all year, while farm fires and fireworks add sharp peaks.",
-   "ask": "Emergency bans treat the worst days. Should the money go to year-round fixes such as cleaner transport and farm machinery, even if results take years?",
+  "in-yog": {
+   "ctx": "The Youth Olympic Games are organised under the International Olympic Committee, and Dakar 2026 is described as the first IOC event to be held in Africa. In boxing, both losing semi-finalists receive a bronze medal, which is why reaching a semi-final already guarantees a place on the podium.",
+   "ask": "Should young athletes be pushed to chase medals early, or should youth sport be mainly about taking part and learning?",
    "jobs": [
-    "Atmospheric scientist",
-    "Public health doctor",
-    "Urban planner"
+    "Sports coach",
+    "Physiotherapist",
+    "Sports journalist"
    ]
   },
-  "in-diyas": {
-   "ctx": "Large festivals are also big economies: potters, flower sellers, hotels and transport all depend on them, and cities compete to host record-setting events.",
-   "ask": "When a celebration grows into a record attempt, who gains most: worshippers, local workers or the city's image? Can it be all three?",
+  "in-astro": {
+   "ctx": "This was the fifth edition of the junior astronomy olympiad. India's team is picked through several stages, starting with a national exam and ending with a training camp, and this year's five travelled with two team leaders from Indian science centres.",
+   "ask": "Do contests and medals make more young people fall in love with science, or do they mostly reward students who already have the best coaching?",
    "jobs": [
-    "Event manager",
-    "Heritage conservator",
-    "Tourism economist"
+    "Astronomer",
+    "Science museum curator",
+    "Data scientist"
    ]
   },
-  "in-chess": {
-   "ctx": "Elite chess has been reshaped by computers. Players prepare with engines far stronger than any human, so matches are often decided by deep preparation, stamina and nerves. India's rise follows a generation inspired by Viswanathan Anand and by cheap online training.",
-   "ask": "If an engine can always find a better move, what exactly are we admiring when two humans play?",
+  "in-swachh": {
+   "ctx": "Swachh Survekshan is linked to the Swachh Bharat Mission for cities. This year it added a category called Swachh Shehar Jodi, which rewards pairs of cities, and Ahmedabad with its neighbour Sanand came first.",
+   "ask": "Do league tables make cities cleaner for good, or do they tempt officials to tidy up mainly when the inspectors visit?",
    "jobs": [
-    "Sports psychologist",
-    "Data analyst",
-    "Chess coach"
+    "Waste management engineer",
+    "Urban planner",
+    "Public health officer"
    ]
   },
-  "in-childrens": {
-   "ctx": "Nehru's India chose to spend scarce money on universities and science institutes at a time when most adults could not read. Critics then and now argue that primary schooling deserved more of it.",
-   "ask": "Should a poor country build world-class colleges first, or basic schools for everyone first?",
+  "in-yamuna": {
+   "ctx": "The cruise was developed with the Inland Waterways Authority of India and Delhi's own agencies. Outlook Traveller reported that it runs on a stretch where the water quality is comparatively better, and that the cruise's future depends on sustained efforts to improve the river's water.",
+   "ask": "Can river tourism make people care more about cleaning a river, or should the clean-up come first?",
    "jobs": [
-    "Education policy researcher",
-    "Teacher",
-    "Historian"
+    "Naval architect",
+    "Environmental engineer",
+    "Tourism manager"
    ]
   },
-  "us-astronauts": {
-   "ctx": "Astronaut selection favours people who are already expert at something else: pilots, engineers, doctors, scientists. Most applicants are turned down several times. The Moon programme also depends on private companies building landers and on budgets that Congress votes on every year.",
-   "ask": "Human spaceflight costs far more than robots that can do much of the science. What do people add that justifies the price?",
+  "in-radio": {
+   "ctx": "All India Radio held a commemoration on 12 November 1997, fifty years after the broadcast, and the day was formally declared three years later. Gandhi's talk shows how radio could reach huge numbers of people at once.",
+   "ask": "Today anyone can broadcast from a phone. Do we still need broadcasters whose job is to serve the public, or can the internet do that work?",
    "jobs": [
-    "Aerospace engineer",
-    "Flight surgeon",
-    "Geologist"
+    "Radio presenter",
+    "Sound engineer",
+    "Broadcast journalist"
    ]
   },
-  "us-veterans": {
-   "ctx": "How a country treats former soldiers is a live policy question as well as a ceremony: health care, housing and jobs for veterans are argued over in most budgets.",
-   "ask": "Is a day of thanks enough, or does honouring service mean paying for long-term care too?",
+  "g-hera": {
+   "ctx": "DART and Hera are two halves of one experiment. DART tested a method called a kinetic impactor, which means hitting an asteroid to change its path, and Hera's main objective is to measure how well that method worked. Hera took its first picture showing the two asteroids as separate objects on 18 October, from 1,280 kilometres away.",
+   "ask": "Should countries spend large sums preparing for dangers that may never come, or put that money into problems people face today?",
    "jobs": [
-    "Military historian",
-    "Social worker",
-    "Nurse"
+    "Planetary scientist",
+    "Spacecraft engineer",
+    "Mission operations controller"
    ]
   },
-  "uk-remembrance": {
-   "ctx": "Remembrance began as mourning for the First World War and has had to stretch to cover later, more disputed conflicts. Some people wear a white poppy for peace, or none at all, and the argument about whether the poppy is remembrance or politics returns most years.",
-   "ask": "Can a nation remember its war dead without also judging whether each war was right?",
+  "g-watermouse": {
+   "ctx": "The International Union for Conservation of Nature lists the species as critically endangered and possibly extinct. The animals were found during the first comprehensive survey of wildlife in the Yayu reserve, a project started by the conservation group NABU, in a stream beside a village where people wash their clothes.",
+   "ask": "Money for conservation is limited. Should more go to searching for species that may already be gone, or to protecting animals we know are still here?",
    "jobs": [
-    "Archivist",
-    "Diplomat",
-    "Museum curator"
+    "Field ecologist",
+    "Geneticist",
+    "Wildlife photographer"
    ]
   },
-  "uk-cin": {
-   "ctx": "Telethons raise large sums in one night, but charities say steady monthly giving is what lets them plan. Some campaigners also ask why services for children depend on donations at all.",
-   "ask": "Should help for children in need rely on charity nights, or is that the government's job?",
+  "g-mindoro": {
+   "ctx": "The rats were collected in 2013 but only named in 2026, because proving that a population is a separate species is slow work. One of the scientists, Lawrence Heaney of the Field Museum in Chicago, said that in the field it is really difficult to tell with complete certainty.",
+   "ask": "Should scientists name new species faster with fewer checks, or keep strict standards even if it takes years?",
    "jobs": [
-    "Charity fundraiser",
-    "Youth worker",
-    "Broadcast producer"
-   ]
-  },
-  "au-flight": {
-   "ctx": "Ultra-long flights save a stopover, but they must carry so much fuel that part of it is burned just to carry the rest. Aviation produces roughly 2 to 3 per cent of the world's carbon dioxide emissions, and cleaner fuels are still scarce and costly.",
-   "ask": "Is a non-stop flight lasting about a day progress, or a step the climate cannot afford?",
-   "jobs": [
-    "Aeronautical engineer",
-    "Airline pilot",
-    "Sustainable fuel chemist"
-   ]
-  },
-  "au-remembrance": {
-   "ctx": "War memorials are also museums, and what they choose to show changes over time. Historians argue over how much space such places should give to uncomfortable chapters alongside stories of courage.",
-   "ask": "Should a war memorial only honour, or should it also question?",
-   "jobs": [
-    "Curator",
-    "Conservator",
-    "Historian"
-   ]
-  },
-  "kr-snow": {
-   "ctx": "One early snowfall is weather, not climate. Climate is the pattern over decades, and scientists look at long records before saying anything has changed. A single surprising day proves nothing either way.",
-   "ask": "Why do people find one cold snap or one heatwave more convincing than thirty years of data?",
-   "jobs": [
-    "Meteorologist",
-    "Climate data scientist",
-    "Science journalist"
-   ]
-  },
-  "kr-suneung": {
-   "ctx": "South Korea's exam day shows how much one test can decide: university place, first job and even social standing. Families spend heavily on private tutoring, and governments have repeatedly tried to cool the competition.",
-   "ask": "Is one high-stakes exam the fairest way to choose, because everyone sits the same paper, or the least fair, because preparation costs money?",
-   "jobs": [
-    "Education researcher",
-    "School counsellor",
-    "Policy adviser"
-   ]
-  },
-  "cn-astro": {
-   "ctx": "Long missions change the body: bones and muscles weaken, fluids shift towards the head and sleep is disturbed. Understanding the brain in space matters for any trip to Mars, which would take many months each way. China runs its own station partly because US law has kept it out of the International Space Station.",
-   "ask": "Would space science move faster if rival countries shared one station, or does competition push everyone harder?",
-   "jobs": [
-    "Neuroscientist",
-    "Space medicine doctor",
-    "Biomedical engineer"
-   ]
-  },
-  "cn-cloud": {
-   "ctx": "Processing data in orbit saves time, because satellites collect far more than they can send down. The same technology has military uses, which is why other countries watch such plans closely. Thousands of new satellites also add to crowding and debris risk in low orbit.",
-   "ask": "Who should set the rules for how many satellites one country or company may launch?",
-   "jobs": [
-    "Satellite engineer",
-    "AI researcher",
-    "Space lawyer"
-   ]
-  },
-  "de-wall": {
-   "ctx": "The Wall opened without a shot after months of peaceful protest and a confused press announcement. Germany reunited in 1990, but gaps in wages and political mood between east and west have lasted more than a generation.",
-   "ask": "How long does it take for a divided country to truly become one, and what would count as finished?",
-   "jobs": [
-    "Historian",
-    "Journalist",
-    "Economist"
-   ]
-  },
-  "de-martin": {
-   "ctx": "Many festivals blend religious stories with older seasonal customs, and communities keep reshaping them. Some German nurseries have used neutral names such as lantern festival so that children of every background feel welcome, which others see as losing a tradition.",
-   "ask": "When a tradition changes to include everyone, is something gained or lost?",
-   "jobs": [
-    "Cultural anthropologist",
-    "Primary teacher",
-    "Events organiser"
-   ]
-  },
-  "fr-school": {
-   "ctx": "France uses its schools to pass on a shared national memory, and what goes into that memory is decided by the state. Historians point out that official remembrance always chooses what to stress and what to leave out.",
-   "ask": "Should a government decide what every school must commemorate?",
-   "jobs": [
-    "History teacher",
-    "Civil servant",
-    "Historian"
-   ]
-  },
-  "fr-armistice": {
-   "ctx": "The 1918 armistice stopped the fighting, but the peace treaty that followed is often blamed for helping to cause a second war twenty years later. That is why 11 November is taught as a lesson in how wars end, and not only as a victory.",
-   "ask": "What makes a peace last: punishing the loser, or rebuilding with them?",
-   "jobs": [
-    "Diplomat",
-    "Historian",
-    "International lawyer"
-   ]
-  },
-  "g-swift": {
-   "ctx": "Contests like this are also how big technology companies find talent early and draw young developers into their own tools. The skills transfer, but the platform you learn on shapes what you build.",
-   "ask": "Is a company-run student contest generosity, recruitment or marketing? Does it matter, if students benefit?",
-   "jobs": [
-    "App developer",
-    "UX designer",
-    "Product manager"
-   ]
-  },
-  "g-singles": {
-   "ctx": "Shopping festivals work through scarcity and countdowns, which push people to buy before they have thought. Consumer groups have found cases where prices were raised beforehand so the discount looked bigger. Huge sale days also mean packaging waste and delivery emissions.",
-   "ask": "If a discount makes you buy something you did not plan to buy, did you save money?",
-   "jobs": [
-    "Behavioural economist",
-    "Supply chain manager",
-    "Consumer rights lawyer"
+    "Mammalogist",
+    "Museum collections manager",
+    "Evolutionary biologist"
    ]
   },
   "g-cop31": {
-   "ctx": "Climate summits work by agreement of nearly every country, so the result is usually the slowest acceptable step. The hardest arguments are about money: richer countries caused most past emissions, while poorer ones face much of the damage and want help paying for clean energy.",
-   "ask": "Should the countries that polluted most in the past pay more, or should today's biggest emitters carry the cost?",
+   "ctx": "Australia's climate minister Chris Bowen, who is leading the negotiations, says electricity supplies 23 per cent of the world's energy use today. Supporters say reaching 35 per cent by 2035 would mean electrifying about four times faster than now. The pledge is voluntary and sets no targets for individual countries.",
+   "ask": "Is a voluntary pledge that many countries can sign better than a strict rule that only a few will accept?",
    "jobs": [
     "Climate negotiator",
-    "Renewable energy engineer",
-    "Environmental economist"
+    "Power grid engineer",
+    "Energy economist"
    ]
   },
-  "g-sky": {
-   "ctx": "Meteor showers happen when Earth crosses a trail of dust left by a comet. Scientists also track larger objects in the Taurid stream, because knowing what crosses Earth's orbit is the first step in planetary defence.",
-   "ask": "How much should the world spend watching for rare asteroid impacts, compared with dangers that happen every year?",
+  "g-singles-ai": {
+   "ctx": "Singles' Day is watched as a measure of how confident Chinese shoppers feel. China's retail sales grew only 1.1 per cent in the first nine months of 2026. Analysts quoted by Reuters said some brands gain more than others depending on how each shopping platform tunes its AI.",
+   "ask": "If an AI assistant chooses what you buy, who is really deciding: you, the shop that built the assistant, or the brands it shows you?",
    "jobs": [
-    "Astronomer",
-    "Planetary scientist",
-    "Science communicator"
+    "E-commerce analyst",
+    "AI product designer",
+    "Economist"
    ]
   },
-  "g-peace": {
-   "ctx": "Peace talks usually stall on the same questions: where borders lie, who guarantees the deal and what happens if it is broken. A ceasefire stops the shooting. A peace agreement has to settle the causes, and that takes much longer.",
-   "ask": "Is an imperfect peace that stops the killing better than holding out for a fair one?",
+  "g-talks-end": {
+   "ctx": "The prisoner exchange was the one concrete result. Ukraine's president said negotiators had discussed 1,000 prisoners from each side, possibly rising to 1,500, Euronews reported. Kushner said questions of territory would be the hardest to settle, and that progress was made on a framework for security after the conflict.",
+   "ask": "Should peace talks aim for small agreements first to build trust, or go straight to the hardest questions?",
    "jobs": [
     "Diplomat",
-    "Conflict researcher",
+    "Interpreter",
     "Humanitarian aid worker"
    ]
   },
-  "g-swordfish": {
-   "ctx": "Much of what we know about open-ocean animals comes from electronic tags that record depth, light and temperature. The twilight zone they dive into is also being eyed for commercial fishing, before scientists fully understand it.",
-   "ask": "Should fishing in the deep ocean wait until the science catches up?",
+  "g-booker": {
+   "ctx": "The Booker Prize was first awarded in 1969. Since 2014 it has been open to writers of any nationality, as long as the book is written in English and published in the UK or Ireland. This year's six-book shortlist was drawn from 163 submissions.",
+   "ask": "Is a prize chosen by five judges a good guide to which books are best, or only to what those five people like?",
    "jobs": [
-    "Marine biologist",
-    "Oceanographer",
-    "Fisheries manager"
+    "Novelist",
+    "Book editor",
+    "Bookseller"
    ]
   },
-  "g-moon": {
-   "ctx": "Water ice matters because launching water from Earth is extremely expensive, and ice can become drinking water, oxygen and rocket fuel. A 1967 treaty says no country can own the Moon, but it is vague about who may use what they dig up.",
-   "ask": "If nobody can own the Moon, who decides who mines its ice?",
+  "g-ervine": {
+   "ctx": "Before Ervine, the last player over 40 to score a Test double century was England's Graham Gooch in 1994. It was a high-scoring match all round: three Afghanistan batters also made centuries, and the three completed innings produced 1,541 runs.",
+   "ask": "Should the best player always be picked whatever their age, or should teams make room for young players to gain experience?",
    "jobs": [
-    "Space lawyer",
-    "Robotics engineer",
-    "Planetary geologist"
-   ]
-  },
-  "g-science": {
-   "ctx": "Most research money is spent by a small number of rich countries and companies, and many journal articles sit behind paywalls. The open science movement argues that publicly funded results should be free for anyone to read.",
-   "ask": "Should discoveries paid for by taxpayers ever be locked behind a paywall or a patent?",
-   "jobs": [
-    "Research scientist",
-    "Science policy adviser",
-    "Librarian"
-   ]
-  },
-  "g-kindness": {
-   "ctx": "Psychologists test claims about kindness with experiments, and results vary: the lift in mood is real but usually small and short-lived. Researchers also separate kindness that costs the giver something from kindness that is mostly for show.",
-   "ask": "Is a kind act worth less if the person doing it posts about it?",
-   "jobs": [
-    "Psychologist",
-    "Social researcher",
-    "Community organiser"
+    "Sports scientist",
+    "Cricket statistician",
+    "Strength and conditioning coach"
    ]
   }
  },
  "today": {
   "born": [
    {
-    "name": "Maulana Abul Kalam Azad",
-    "year": 1888,
-    "what": "India's first Education Minister. His birthday is National Education Day in India.",
+    "name": "Salim Ali",
+    "year": 1896,
+    "what": "Known as the Birdman of India. He carried out bird surveys across the country and wrote The Book of Indian Birds.",
     "where": [
      "IN"
     ]
-   },
-   {
-    "name": "Fyodor Dostoevsky",
-    "year": 1821,
-    "what": "A Russian writer whose novels are still read all over the world, more than 200 years after he was born."
    }
   ],
   "days": [
    {
-    "name": "Armistice Day",
-    "what": "The day the First World War ended in 1918. Many countries pause at 11 am to remember.",
-    "where": [
-     "UK",
-     "FR",
-     "AU"
-    ]
-   },
-   {
-    "name": "Veterans Day",
-    "what": "Americans thank people who served in the armed forces.",
-    "where": [
-     "US"
-    ]
-   },
-   {
-    "name": "National Education Day",
-    "what": "India remembers Maulana Azad and celebrates learning.",
+    "name": "Public Service Broadcasting Day",
+    "what": "India remembers 12 November 1947, when Mahatma Gandhi spoke on All India Radio. It was his only visit to a radio station.",
     "where": [
      "IN"
     ]
-   },
-   {
-    "name": "Farmers' Day",
-    "what": "South Korea thanks its farmers on 11/11. The same date is also Pepero Day, when friends swap stick-shaped snacks.",
-    "where": [
-     "KR"
-    ]
-   },
-   {
-    "name": "St Martin's Day",
-    "what": "Lantern parades for children, and the start of carnival season at 11:11.",
-    "where": [
-     "DE"
-    ]
    }
   ],
-  "week": "World Kindness Day is this Friday, 13 November."
+  "week": "World Kindness Day is tomorrow, Friday 13 November. Children's Day in India is on Saturday 14 November."
  },
  "learn": {
   "subject": "Science",
-  "cat": "science",
-  "link": "From the sky story",
+  "cat": "space",
+  "link": "From the Hera story",
   "x": {
-   "t": "Why do shooting stars glow?",
+   "t": "What is an asteroid?",
    "b": [
-    "A shooting star is not a star. It is a tiny bit of space rock, often smaller than a pea.",
-    "It hits the air around Earth super fast and squashes the air in front of it. Squashed air gets very, very hot.",
-    "The heat makes the rock and the air glow. That bright streak is what you see!"
+    "An asteroid is a rocky object that travels around the Sun. It is much smaller than a planet.",
+    "Asteroids are leftovers from when the planets formed, about 4.6 billion years ago.",
+    "Most of them are found between the planets Mars and Jupiter. That region is called the asteroid belt."
    ],
-   "remember": "Shooting stars are tiny rocks that glow because they squash the air so fast it gets hot.",
-   "q": "What is a shooting star really?",
+   "remember": "Asteroids are space rocks left over from when the planets were made.",
+   "q": "Where are most asteroids found?",
    "a": [
-    "A tiny space rock",
-    "A falling star"
+    "Between Mars and Jupiter",
+    "Inside the Sun"
    ],
    "c": 0
   },
   "o": {
-   "t": "Why do shooting stars glow?",
+   "t": "What is an asteroid?",
    "b": [
-    "A meteor starts as a meteoroid: a bit of rock or dust in space, often no bigger than a grain of sand. It hits Earth's atmosphere at tens of kilometres per second.",
-    "At that speed it squeezes the air in front of it so quickly that the air heats to thousands of degrees. The heat makes the air glow and boils the rock away, usually 70 to 100 km above the ground.",
-    "Three words to keep straight: a meteoroid is the rock in space, a meteor is the streak of light, and a meteorite is any piece that survives and lands."
+    "An asteroid is a relatively small, rocky body that orbits the Sun. Asteroids are the rocky remnants left over from the formation of the solar system and its planets, about 4.6 billion years ago.",
+    "Most of them come from the main asteroid belt, between the orbits of Mars and Jupiter. NASA's count of known asteroids is over one million.",
+    "Asteroids are not the same as comets. A comet also contains ices, which turn to gas near the Sun and give it a cloud and a tail. Asteroids are rocky or dusty, and stay inactive."
    ],
-   "remember": "It is mostly squeezed, heated air that glows, not the rock 'burning' like a match.",
-   "q": "What is a piece that lands on the ground called?",
+   "remember": "Asteroid: rocky and inactive. Comet: icy, and grows a tail near the Sun.",
+   "q": "What do comets contain that makes a tail near the Sun?",
    "a": [
-    "Meteor",
-    "Meteorite",
-    "Meteoroid"
+    "Ices",
+    "Metal",
+    "Sand"
    ],
-   "c": 1
+   "c": 0
   }
  },
  "sketches": {
@@ -3108,39 +1862,124 @@
      ]
     }
    ]
+  },
+  "nudge": {
+   "t": "How DART nudged an asteroid",
+   "c": "#6B35D8",
+   "steps": [
+    {
+     "o": "Dimorphos is a small asteroid moon. It travels in an orbit around a bigger asteroid called Didymos.",
+     "x": "A small space rock goes round and round a bigger one.",
+     "d": [
+      {
+       "c": [
+        160,
+        112,
+        24
+       ]
+      },
+      {
+       "t": [
+        136,
+        152,
+        "Didymos"
+       ]
+      },
+      {
+       "c": [
+        160,
+        112,
+        80
+       ]
+      },
+      {
+       "c": [
+        240,
+        112,
+        6
+       ]
+      },
+      {
+       "t": [
+        250,
+        132,
+        "Dimorphos"
+       ]
+      }
+     ]
+    },
+    {
+     "o": "In September 2022, NASA's DART spacecraft crashed into Dimorphos on purpose, to give it a push.",
+     "x": "A spacecraft bumped into the small rock on purpose.",
+     "d": [
+      {
+       "a": [
+        296,
+        44,
+        246,
+        104
+       ],
+       "acc": 1
+      },
+      {
+       "t": [
+        262,
+        34,
+        "DART"
+       ],
+       "acc": 1
+      }
+     ]
+    },
+    {
+     "o": "The crash shortened the moon's orbit around Didymos. That showed a spacecraft can change the path of an asteroid.",
+     "x": "After the bump, the small rock's path changed a little. The test worked!",
+     "d": [
+      {
+       "c": [
+        160,
+        112,
+        70
+       ],
+       "acc": 1
+      },
+      {
+       "c": [
+        160,
+        42,
+        6
+       ],
+       "acc": 1
+      },
+      {
+       "t": [
+        40,
+        204,
+        "new, shorter orbit"
+       ],
+       "acc": 1
+      }
+     ]
+    }
+   ]
   }
  },
  "sketchFor": {
-  "g-cop31": "greenhouse",
-  "in-air": "smog",
-  "g-sky": "meteor",
-  "learn:2026-11-11": "meteor",
-  "cn-cloud": "orbit"
+  "g-hera": "nudge",
+  "g-cop31": "greenhouse"
  },
  "hiddenWords": [
   {
-   "k": "satellite",
-   "o": "Satellite comes from the Latin word satelles, which meant a guard who walked beside an important person. In 1610 the astronomer Johannes Kepler borrowed it for the moons that travel beside Jupiter. Today it also means the machines we send up to travel beside Earth."
-  },
-  {
-   "k": "astronaut",
-   "o": "Astronaut is built from two Greek words: astron, meaning star, and nautes, meaning sailor. An astronaut is a star sailor."
-  },
-  {
-   "k": "smog",
-   "o": "Smog is two words squeezed together: smoke and fog. It was first used in London in 1905 to describe the thick, dirty air over the city."
-  },
-  {
-   "k": "mediator",
-   "o": "Mediator comes from the Latin word medius, meaning middle. A mediator stands in the middle between two sides and helps them talk."
+   "k": "asteroid",
+   "o": "Asteroid comes from the Greek word aster, meaning star. Through the telescopes of the time, these small space rocks looked like little points of light, just as stars do. The astronomer William Herschel first used the word in print in 1802."
   }
  ],
  "backThen": {
-  "y": 1930,
-  "t": "Einstein gets a patent for a fridge",
-  "o": "On this day Albert Einstein and his former student Leo Szilard were granted a United States patent for a refrigerator. It had no moving parts, so there was nothing to break and leak. They began the work after reading a newspaper report about a family harmed by gas escaping from a faulty fridge.",
-  "x": "Albert Einstein was a very famous scientist. On this day he and his friend Leo Szilard were given a patent for a new kind of fridge. A patent is a paper that says: this idea is ours. Their fridge had no moving parts, so it was safer.",
-  "why": "The idea began with a news story. Reading the news made two scientists want to fix a problem. That is what news is for."
+  "y": 2014,
+  "t": "A robot lands on a comet for the first time",
+  "o": "On this day in 2014, a lander called Philae touched down on a comet named 67P/Churyumov-Gerasimenko. It was the first soft landing of a spacecraft on a comet. Philae was carried there by Europe's Rosetta spacecraft, which launched in March 2004 and travelled 6.4 billion kilometres to reach the comet.",
+  "x": "On this day in 2014, a little robot called Philae landed on a comet. No machine had ever landed gently on a comet before. A spacecraft named Rosetta carried Philae there. The trip took more than ten years!",
+  "why": "Europe's space agency reached a comet in 2014. This week its Hera spacecraft is studying an asteroid up close. Each visit teaches us more about the small worlds that share our solar system."
  },
  "bigStory": {
   "week": "2026-11-09",
@@ -3195,7 +2034,8 @@
    {
     "d": "2026-11-12",
     "h": "What do leaders promise?",
-    "lock": "Thursday: the second day of leaders' speeches. Listen for numbers and dates, not just nice words."
+    "o": "On the first day of speeches, UN chief António Guterres said the climate crisis is outrunning us. Türkiye asked countries to back a voluntary pledge to raise electricity's share of the world's energy use from about 23 per cent to 35 per cent by 2035. The head of the European Commission backed it. Others want it to say the electricity must be clean.",
+    "x": "Leaders gave speeches. The head of the United Nations said the world must move faster. Türkiye asked countries to run more cars, homes and factories on electricity."
    },
    {
     "d": "2026-11-13",

@@ -39,8 +39,6 @@ h=home.replace('https://claude.ai/artifact/LZmmeGKXJ2qpBUN4LCK6Z7#','/app/#').re
 for k in ["privacy","terms","safety","cookies","contact"]: h=h.replace(f'/app/#{k}',f'/{k}/')
 h=re.sub(r'<meta name="description"[^>]*>','',h)
 h=h.replace('<title>FFMPA Home</title>',f'<title>{TITLE}</title>\n<meta name="description" content="{DESC}">\n<meta name="robots" content="index,follow,max-image-preview:large">\n'+social(TITLE,DESC,"/")+'\n'+ICONS+'\n<script type="application/ld+json">'+json.dumps(ld,ensure_ascii=False)+'</script>')
-h=h.replace('<body>','<body>\n<div class="pvbar">Preview. The app shows a sample edition from 11 November while we get ready to launch.</div>',1)
-h=h.replace('</style>','.pvbar{background:#0E0D12;color:#fff;text-align:center;font-size:13.5px;font-weight:500;padding:8px 14px}\n</style>',1)
 # footer links for crawlers
 if '<a href="/schools/">' not in h: h=h.replace('<nav aria-label="Legal">','<nav aria-label="Legal"><a href="/schools/">For schools</a>',1)
 assert TITLE in h and 'application/ld+json' in h
@@ -156,7 +154,7 @@ open(OUT+"/llms.txt","w").write(f'''# FFMPA
 - Young reporters: children can write a short report each week. A grown-up's PIN is needed to send it and an editor reads it before it appears.
 - Price: free during early access. Planned price: 100 rupees a year in India and 10 US dollars a year elsewhere.
 - Platforms: web app in any browser, installable on iPhone and iPad from Safari. Android app planned for Google Play.
-- Status: preview. The app currently shows a sample edition.
+- Status: early access. A new morning edition is published every day.
 
 ## Pages
 - [Home]({BASE}/): what FFMPA is and why news matters for children

@@ -1,4 +1,6 @@
-# Daily edition: what the scheduled task does
+# Daily editions: what the scheduled tasks do
+
+There are two editions a day: **morning (`am`)**, drafted at 5:10 am IST, and **evening (`pm`)**, drafted at 5:10 pm IST. The steps below describe the morning edition. The evening edition follows the same steps with the differences listed in "Evening edition" at the end.
 
 You are drafting tomorrow morning's FFMPA edition for children aged 5 to 15. A person approves it by merging your pull request. Your job is to make that approval a thirty-second read: the edition must already be right.
 
@@ -31,3 +33,12 @@ Read `pipeline/EDITORIAL.md` and `pipeline/SCHEMA.md` first, and open the newest
 ## If something goes wrong
 - Fewer than 10 stories pass verification: open the pull request anyway with what you have only if there are at least 10; otherwise open an issue titled `Edition D: could not complete` explaining why, and stop.
 - The push is refused: say so in your final message so the notification reaches the owner.
+
+
+## Evening edition (`pm`)
+Same steps and rules as the morning edition, with these differences:
+- File `editions/D-pm.json`, branch `edition/D-pm`, commit and pull request title `Edition D evening`.
+- 6 to 10 stories: at least 2 India and 3 world. Only news that broke or meaningfully moved **since this morning's edition** (read `editions/D-am.json` if it exists, and the open morning pull request if it was not merged). Never repeat a morning story unless there is real new information; if you update one, keep its id.
+- Copy `today`, `learn`, `backThen`, `hiddenWords`, `puzzles`, `reporters` and `bigStory` from the morning edition unchanged, so the evening file is complete on its own. If no morning file exists, write them fresh.
+- Add `"edition":"pm"`. The validator applies the smaller evening limits automatically.
+- If fewer than 6 stories pass verification, do not open a pull request. Say so in the final message; the morning edition stays live, which is fine.

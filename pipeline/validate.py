@@ -20,8 +20,11 @@ def main(path):
     for f in "stories glossary deep today learn hiddenWords backThen".split():
         if f not in ed: E(f"missing field: {f}")
     st=ed.get("stories",[]); G=ed.get("glossary",{}); ids=set()
-    if not 10<=len(st)<=20: E(f"{len(st)} stories; need 10 to 20")
-    if day and day.weekday()==0:
+    pm=ed.get("edition")=="pm"
+    if ed.get("edition") not in ("am","pm"): E("edition must be am or pm")
+    lo_n,hi_n=(6,12) if pm else (10,20)
+    if not lo_n<=len(st)<=hi_n: E(f"{len(st)} stories; need {lo_n} to {hi_n}")
+    if day and day.weekday()==0 and not pm:
         for f in ("puzzles","reporters","bigStory"):
             if f not in ed: E(f"Monday edition needs {f}")
     for k,g in G.items():
@@ -75,9 +78,10 @@ def main(path):
         if s.get("sensitive") and not s.get("olderOnly"): E(f"{i}: sensitive stories must set olderOnly")
         if s.get("cat")=="world" and not s.get("sensitive") and re.search(r"\b(war|troops|missile|invasion|attack)\b",strip(" ".join((s.get('o') or {}).get('b',[]))).lower()): W(f"{i}: looks like a conflict story; set sensitive and olderOnly?")
     cats={s.get("cat") for s in st}
-    if len(cats)<5: E(f"only {len(cats)} topic categories; need 5 or more")
-    if sum(1 for s in st if s.get("scope")=="IN")<3: E("need at least 3 India stories")
-    if sum(1 for s in st if s.get("scope")=="global")<6: E("need at least 6 world stories")
+    need_c,need_in,need_g=(4,2,3) if pm else (5,3,6)
+    if len(cats)<need_c: E(f"only {len(cats)} topic categories; need {need_c} or more")
+    if sum(1 for s in st if s.get("scope")=="IN")<need_in: E(f"need at least {need_in} India stories")
+    if sum(1 for s in st if s.get("scope")=="global")<need_g: E(f"need at least {need_g} world stories")
     for k in ("keys","xkeys","sketchFor"):
         for i in ed.get(k,{}):
             if i not in ids and not i.startswith("learn:"): E(f"{k}: unknown story id {i}")

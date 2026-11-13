@@ -4,7 +4,12 @@
 // Signing keys are generated here on first run and kept in a table only the service role can read.
 import { createClient } from "jsr:@supabase/supabase-js@2";
 
-const sb = createClient(Deno.env.get("SUPABASE_URL")!, Deno.env.get("SUPABASE_SERVICE_ROLE_KEY")!, { auth: { persistSession: false } });
+function serviceKey(): string {
+  const direct = Deno.env.get("SUPABASE_SERVICE_ROLE_KEY") || Deno.env.get("SUPABASE_SECRET_KEY");
+  if (direct) return direct;
+  try { const all = JSON.parse(Deno.env.get("SUPABASE_SECRET_KEYS") || "{}"); return all.default || Object.values(all)[0] as string; } catch { return ""; }
+}
+const sb = createClient(Deno.env.get("SUPABASE_URL")!, serviceKey(), { auth: { persistSession: false } });
 const EDITION = "https://raw.githubusercontent.com/aairacommit/FFMPA/main/editions/latest.json";
 const enc = new TextEncoder();
 const b64u = (b: ArrayBuffer | Uint8Array) =>

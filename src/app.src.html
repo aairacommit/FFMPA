@@ -485,14 +485,10 @@ const ADMIN_DEFAULT = {
   freshHours:72, amTime:"06:00", pmTime:"19:00", maxStories:20,
   countries:{IN:true, US:true, UK:true, AU:true, KR:true, DE:true, FR:true},
   plan:{mode:"free", priceIN:100, priceIntl:10, trialDays:14, gatewayIN:"razorpay", gatewayIntl:"stripe", keepFreeForEarly:true},
-  ads:{enabled:true, every:5, explorers:false, maxPerEdition:2,
+  ads:{enabled:false, every:5, explorers:false, maxPerEdition:2,
        sources:{direct:true, superawesome:false, adsense:false},
        blocked:["Food and drink high in fat, sugar or salt","Gambling and betting","Alcohol and tobacco","Dating","Weapons","Political and issue ads","Religious ads","Apps with paid loot boxes","Beauty and weight loss","Horror and violent media"]},
-  sponsors:[
-    {id:"sp1", name:"BrightBox Science Kits (sample sponsor)", emoji:"🧪", headline:"Build a working volcano this weekend", body:"Hands-on science kits for curious minds aged 6 and up. Ask a grown-up to take a look.", cta:"For grown-ups: brightbox.example", status:"approved", countries:["IN","US","UK"], cat:"science"},
-    {id:"sp2", name:"Starlight Planetarium (sample sponsor)", emoji:"🔭", headline:"Watch the Leonid meteor shower with real astronomers", body:"Family stargazing nights on 17 and 18 November. Telescopes provided.", cta:"For grown-ups: starlight.example", status:"approved", countries:["IN","UK"], cat:"space"},
-    {id:"sp3", name:"Sugar Rush Cola (sample)", emoji:"🥤", headline:"Get your fizz on!", body:"The fizziest drink in town.", cta:"Buy now", status:"rejected", countries:["US"], cat:"food", note:"Rejected: food and drink high in sugar is a blocked category."}
-  ],
+  sponsors:[],
   blockedWords:["kill","killed","blood","gore","horror","terrifying","shocking","massacre","suicide","sexy","drunk","stupid","idiot","hate"],
   storyStatus:{}
 };
@@ -922,7 +918,7 @@ function renderWelcome(){
         <p class="note">No password. We email you a 6-digit code each time you sign in.</p><p class="err" id="wErr" aria-live="polite"></p>
         <button class="btn sun press" type="submit">Email me a code</button></form>
       <button class="peek" id="wPeek">Just looking? Preview this morning's edition</button>${fine}`;
-    $("#wF").onsubmit=e=>{ e.preventDefault(); const em=$("#wE").value.trim(); if(!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(em)){ $("#wErr").textContent="Please enter a valid email address, like name@example.com."; return; } ob.email=em; if(SB_ON){ const btn=e.target.querySelector("button[type=submit]"); btn.disabled=true; btn.textContent="Sending…"; sendCode(em).then(()=>{ ob.step="code"; renderWelcome(); $("#wC").focus(); }).catch(err=>{ btn.disabled=false; btn.textContent="Email me a code"; $("#wErr").textContent=friendly(err); }); return; } ob.step="code"; renderWelcome(); $("#wC").focus(); };
+    $("#wF").onsubmit=e=>{ e.preventDefault(); const em=$("#wE").value.trim(); if(!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(em)){ $("#wErr").textContent="Please enter a valid email address, like name@example.com."; return; } ob.email=em; if(SB_ON&&em.toLowerCase()===REVIEW_EMAIL){ ob.step="review"; renderWelcome(); return; } if(SB_ON){ const btn=e.target.querySelector("button[type=submit]"); btn.disabled=true; btn.textContent="Sending…"; sendCode(em).then(()=>{ ob.step="code"; renderWelcome(); $("#wC").focus(); }).catch(err=>{ btn.disabled=false; btn.textContent="Email me a code"; $("#wErr").textContent=friendly(err); }); return; } ob.step="code"; renderWelcome(); $("#wC").focus(); };
     $("#wPeek").onclick=()=>{ session={preview:true}; $("#welcomeOv").classList.remove("open"); renderAll(); };
   }
   if(ob.step==="code"){
@@ -935,6 +931,13 @@ function renderWelcome(){
       if(c!==DEMO_CODE){ $("#wErr").textContent="That code did not match. Check the latest email from FFMPA and try again."; return; }
       const ex=store.get("ffmpa-account-"+ob.email.toLowerCase(),null); if(ex){ settings=Object.assign({},DEFAULT_SETTINGS,ex); finish(); return; } ob.step="child"; renderWelcome(); };
     $("#wB").onclick=()=>{ ob.step="email"; renderWelcome(); }; $("#wR").onclick=()=>{ if(!SB_ON){ $("#wErr").textContent="A new code is on its way."; return; } sendCode(ob.email).then(()=>{ $("#wErr").textContent="A new code is on its way. Use the newest email."; }).catch(err=>{ $("#wErr").textContent=friendly(err); }); };
+  }
+  if(ob.step==="review"){
+    w.innerHTML=`${top}<h1 id="wcTitle">App review <em class="v">sign in.</em></h1><p class="lede">This sign-in is only for the Google Play review account. Families sign in with an emailed code.</p>
+      <form class="wbox" id="wF" novalidate><label class="field" for="wRP">Password for ${esc(ob.email)}<input type="password" id="wRP" autocomplete="current-password"></label><p class="err" id="wErr" aria-live="polite"></p><button class="btn sun press" type="submit">Sign in</button>
+        <button class="linkbtn" type="button" id="wB">Use a different email</button></form>`;
+    $("#wB").onclick=()=>{ ob.step="email"; renderWelcome(); };
+    $("#wF").onsubmit=e=>{ e.preventDefault(); const btn=e.target.querySelector("button[type=submit]"); btn.disabled=true; passwordSignIn(ob.email,$("#wRP").value).then(tok=>{ ob.tok=tok; return afterSignIn(tok); }).then(r=>{ if(r==="new"){ ob.step="child"; renderWelcome(); } }).catch(()=>{ btn.disabled=false; $("#wErr").textContent="That password did not work."; }); };
   }
   if(ob.step==="child"){
     w.innerHTML=`${top}<h1 id="wcTitle">Who is <em class="v">reading?</em></h1><p class="lede">Just a first name or nickname. No photos, birthdays or school details.</p>

@@ -5,3 +5,6 @@
   Cache-Control: public, max-age=604800
 /llms.txt
   Content-Type: text/plain; charset=utf-8
+/.well-known/assetlinks.json
+  Content-Type: application/json
+  Access-Control-Allow-Origin: *

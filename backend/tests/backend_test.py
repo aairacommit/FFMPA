@@ -39,6 +39,10 @@ def handle(route):
             return ok({"msg": "Token has expired or is invalid"}, 403)
         e = body["email"].lower()
         return ok({"access_token": "AT|" + e, "refresh_token": "RT|" + e, "expires_in": 3600, "expires_at": int(time.time()) + 3600, "user": {"id": uid_for(e), "email": e}})
+    if path == "/auth/v1/token" and "password" in u.query:
+        if body["email"]=="play-review@ffmpa.com" and body["password"]=="right-pw":
+            e=body["email"]; return ok({"access_token": "AT|" + e, "refresh_token": "RT|" + e, "expires_in": 3600, "expires_at": int(time.time()) + 3600, "user": {"id": uid_for(e), "email": e}})
+        return ok({"msg":"Invalid login credentials"},400)
     if path == "/auth/v1/user":
         return ok({"id": uid, "email": email}) if uid else ok({"msg": "bad jwt"}, 401)
     if path == "/auth/v1/logout":
@@ -228,6 +232,16 @@ with sync_playwright() as pw:
     cF, p6 = ctx_page(b)
     p6.goto("https://ffmpa.com/app/#access_token=AT|link@example.com&refresh_token=RT&expires_in=3600&type=magiclink"); p6.wait_for_timeout(1500)
     check(p6.query_selector("#wN") is not None and "access_token" not in p6.url, "sign-in link lands on child step")
+
+    # ---------- Play reviewer password sign-in ----------
+    cG, p7 = ctx_page(b)
+    p7.goto("https://ffmpa.com/app/"); p7.wait_for_timeout(600)
+    p7.fill("#wE","play-review@ffmpa.com"); p7.click("#wF button[type=submit]"); p7.wait_for_selector("#wRP")
+    p7.fill("#wRP","nope"); p7.click("#wF button[type=submit]"); p7.wait_for_timeout(500)
+    check("did not work" in p7.inner_text("#wErr"), "reviewer wrong password rejected")
+    p7.fill("#wRP","right-pw"); p7.click("#wF button[type=submit]"); p7.wait_for_selector("#wN")
+    check(True, "reviewer signs in with password and reaches onboarding")
+    check(p7.evaluate("ADMIN.ads.enabled")==False and p7.evaluate("ADMIN.sponsors.length")==0, "no sponsor cards by default")
 
     # ---------- prototype still works offline ----------
     cE, p5 = ctx_page(b)

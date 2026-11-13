@@ -144,6 +144,11 @@ self.addEventListener("push",e=>{ e.waitUntil((async()=>{
 self.addEventListener("notificationclick",e=>{ e.notification.close(); const url=(e.notification.data&&e.notification.data.url)||"/app/";
   e.waitUntil(clients.matchAll({type:"window",includeUncontrolled:true}).then(ws=>{ for(const w of ws){ if(new URL(w.url).pathname.startsWith("/app")){ w.navigate(url).catch(()=>{}); return w.focus(); } } return clients.openWindow(url); })); });
 ''')
+# Android app (Trusted Web Activity): lets com.ffmpa.app open ffmpa.com full screen.
+# First fingerprint: upload key from PWABuilder. Add the Play app signing key fingerprint from Play Console > App integrity.
+ANDROID_SHA256=["A3:A1:94:F6:15:44:39:29:54:3D:02:1B:56:5A:95:72:BB:DC:48:4F:35:4E:DA:A4:1B:BA:9D:4D:96:4E:19:6D"]
+os.makedirs(OUT+"/.well-known",exist_ok=True)
+json.dump([{"relation":["delegate_permission/common.handle_all_urls"],"target":{"namespace":"android_app","package_name":"com.ffmpa.app","sha256_cert_fingerprints":ANDROID_SHA256}}],open(OUT+"/.well-known/assetlinks.json","w"),indent=1)
 pages=["/","/schools/","/safety/","/privacy/","/terms/","/cookies/","/contact/"]
 open(OUT+"/sitemap.xml","w").write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+"".join(f"<url><loc>{BASE}{p}</loc><lastmod>2026-11-11</lastmod></url>\n" for p in pages)+"</urlset>\n")
 bots=["GPTBot","OAI-SearchBot","ChatGPT-User","ClaudeBot","Claude-SearchBot","Claude-User","PerplexityBot","Perplexity-User","Google-Extended","Applebot-Extended","CCBot","Bingbot","Googlebot"]
@@ -178,7 +183,7 @@ open(OUT+"/llms.txt","w").write(f'''# FFMPA
 - [Terms of use]({BASE}/terms/)
 - [Contact]({BASE}/contact/)
 ''')
-open(OUT+"/_headers","w").write("/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: strict-origin-when-cross-origin\n/assets/*\n  Cache-Control: public, max-age=604800\n/llms.txt\n  Content-Type: text/plain; charset=utf-8\n")
+open(OUT+"/_headers","w").write("/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: strict-origin-when-cross-origin\n/assets/*\n  Cache-Control: public, max-age=604800\n/llms.txt\n  Content-Type: text/plain; charset=utf-8\n/.well-known/assetlinks.json\n  Content-Type: application/json\n  Access-Control-Allow-Origin: *\n")
 open(OUT+"/_redirects","w").write("/app /app/ 301\n/schools /schools/ 301\n/privacy /privacy/ 301\n/terms /terms/ 301\n/safety /safety/ 301\n/teachers /schools/ 301\n")
 open(OUT+"/_redirects","w").write("/teachers /schools/ 301\n/school /schools/ 301\n")
 os.system(f"cd {OUT} && rm -f ../ffmpa-site.zip && zip -qr ../ffmpa-site.zip . && ls -la ../ffmpa-site.zip")

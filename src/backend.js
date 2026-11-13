@@ -41,6 +41,9 @@ async function sbHashLogin(){ const h=location.hash; if(!/access_token=|error_de
     ob.email=tok.email; ob.tok=tok; const r=await afterSignIn(tok); if(r==="new") startWelcome("child"); }
   catch(e){ startWelcome("email"); }
   return true; }
+/* Google Play reviewers cannot receive email codes, so one review address signs in with a password set by the owner in Supabase. */
+const REVIEW_EMAIL="play-review@ffmpa.com";
+async function passwordSignIn(email,pw){ const d=await sbFetch("/auth/v1/token?grant_type=password",{method:"POST",auth:false,body:{email,password:pw}}); return saveTok(AUTH_KEY,d); }
 async function verifyCode(email,code,key){ const d=await sbFetch("/auth/v1/verify",{method:"POST",auth:false,body:{type:"email",email,token:code}}); return saveTok(key||AUTH_KEY,d); }
 
 /* ---------- saved progress ---------- */

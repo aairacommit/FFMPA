@@ -191,11 +191,28 @@ function applyEdition(E){
 }
 async function loadLiveEdition(){
   if(!/^https?:$/.test(location.protocol)||/[?&]sample=1/.test(location.search)||/^(localhost|127\.)/.test(location.hostname)) return;
-  try{ const ctl=new AbortController(); const tm=setTimeout(()=>ctl.abort(),6000);
-    const r=await fetch(EDITION_URL+"?h="+Math.floor(Date.now()/3e5),{signal:ctl.signal,cache:"no-store"}); clearTimeout(tm); if(!r.ok) return;
-    const E=await r.json(); if(E.date&&E.date>=EDITION_DATE&&document.documentElement.dataset.edition!==E.date+"-"+(E.edition||"am")) applyEdition(E);
+  try{
+    /* Pick the edition for this family's own clock (6:00 am and 7:00 pm local, see schedule.js).
+       Without the schedule (prototype, or the log is unreachable) fall back to the newest edition. */
+    let pick=null;
+    if(typeof SB_ON!=="undefined"&&SB_ON&&typeof sbEditionLog==="function"){
+      const log=await sbEditionLog(); if(log) pick=ffEditionFor(log,Date.now(),ffTz(),ADMIN.amTime,ADMIN.pmTime);
+    }
+    const get=async url=>{ const ctl=new AbortController(); const tm=setTimeout(()=>ctl.abort(),6000);
+      try{ const r=await fetch(url+"?h="+Math.floor(Date.now()/3e5),{signal:ctl.signal,cache:"no-store"}); return r.ok?await r.json():null; }finally{ clearTimeout(tm); } };
+    let E=pick?await get(EDITION_URL.replace("latest.json",pick.id+".json")):null;
+    if(!E||(E.date+"-"+(E.edition||"am"))!==(pick&&pick.id)){ E=await get(EDITION_URL); pick=null; }
+    if(!E||!E.date) return;
+    const slot=pick?pick.slot:(E.edition==="pm"?"pm":"am");
+    const id=E.date+"-"+(E.edition||"am"), cur=document.documentElement.dataset.edition;
+    const slotChanged=window.FF_SLOT!==slot; window.FF_SLOT=slot;
+    if(cur!==id&&(pick||E.date>=EDITION_DATE)){ applyEdition(E); }
+    else if(slotChanged&&typeof renderTop==="function"){ renderTop(); }
   }catch(e){}
 }
+/* keep an open app on time: check again every five minutes and whenever it comes back to the screen */
+setInterval(()=>{ if(document.visibilityState==="visible") loadLiveEdition(); },5*60*1000);
+document.addEventListener("visibilitychange",()=>{ if(document.visibilityState==="visible") loadLiveEdition(); });
 window.__edReady=false;
 const _markReady=()=>{ if(window.__edReady) return; window.__edReady=true; dispatchEvent(new Event("ffmpa:edition")); };
 setTimeout(()=>loadLiveEdition().finally(_markReady),50);

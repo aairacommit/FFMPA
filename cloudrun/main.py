@@ -1,10 +1,11 @@
 """FFMPA newsroom service on Google Cloud Run.
 
 Two jobs:
-1. Edition alerts. Cloud Scheduler calls POST /tasks/notify every 10 minutes. When today's morning or
-   evening edition (IST) has been approved and merged on GitHub, every subscribed device gets one web push.
-   Pushes carry no data; the app's service worker reads the edition itself. Calling it more often is
-   harmless: each edition is claimed before sending, so it is only ever sent once.
+1. Edition alerts on each family's local clock. Cloud Scheduler calls POST /tasks/notify every 10 minutes.
+   It records when each edition first appears on GitHub (app_config "edition_log", which the app also reads),
+   works out which edition each device's time zone should be seeing now (6:00 am and 7:00 pm local release
+   times, see visible_edition), and sends one web push when that changes. Pushes carry no data. Each device is
+   claimed in the database before it is sent to, so overlapping runs never send twice. No alerts 9 pm to 6 am.
 2. Public story pages. GET /s/ lists the last three days of stories; GET /s/<id> shows one story at the
    Thinkers level (ages 10 to 12) with its word explainers, think question and sources, marked up as a
    NewsArticle for search engines. Data is read from the public editions folder on GitHub.
@@ -13,6 +14,7 @@ Secrets: SUPABASE_SECRET_KEY comes from Secret Manager. Nothing personal is stor
 """
 import base64, datetime as dt, html, json, os, re, threading, time
 import requests
+from zoneinfo import ZoneInfo
 from flask import Flask, Response, abort, jsonify, request
 from cryptography.hazmat.primitives import hashes, serialization
 from cryptography.hazmat.primitives.asymmetric import ec, utils
@@ -128,48 +130,168 @@ def stories():
     return out
 
 
+# ---------------------------------------------------------------- local edition schedule
+# Same rules as src/schedule.js (ffEditionFor). tests/schedule_cases.json checks both.
+LATE_SECONDS = 3 * 3600  # a late edition skips the queue only within 3 hours of a release time
+EDITION_ID = re.compile(r"^\d{4}-\d{2}-\d{2}-(am|pm)$")
+
+def _zone(tz):
+    try:
+        return ZoneInfo(tz) if tz else ZoneInfo("Asia/Kolkata")
+    except Exception:
+        return ZoneInfo("Asia/Kolkata")
+
+def _hm(s, default):
+    m = re.match(r"^(\d{1,2}):(\d{2})$", s or "")
+    return (int(m.group(1)), int(m.group(2))) if m else default
+
+def _parse(ts):
+    return dt.datetime.fromisoformat(ts.replace("Z", "+00:00")).timestamp()
+
+def visible_edition(log, now, tz, am_time="06:00", pm_time="19:00"):
+    """log: [{id, seen}], now: unix seconds. Returns {"id", "slot", "at"} or None."""
+    L = []
+    for e in log or []:
+        try:
+            if e.get("id"):
+                L.append((_parse(e["seen"]), e["id"]))
+        except Exception:
+            pass
+    if not L:
+        return None
+    L.sort()
+    z = _zone(tz)
+    am, pm = _hm(am_time, (6, 0)), _hm(pm_time, (19, 0))
+    today = dt.datetime.fromtimestamp(now, z).date()
+    bounds = []
+    for back in range(4):
+        d = today - dt.timedelta(days=back)
+        for (h, mi), slot in ((am, "am"), (pm, "pm")):
+            local = dt.datetime(d.year, d.month, d.day, h, mi)
+            # resolve the wall time in this zone the same way the app does (earliest valid instant)
+            t = local.replace(tzinfo=z).timestamp()
+            bounds.append((t, slot))
+    past = sorted(b for b in bounds if b[0] <= now)
+    if not past:
+        return None
+
+    def newest(t):
+        r = None
+        for seen, eid in L:
+            if seen <= t:
+                r = eid
+        return r
+
+    shown = newest(past[0][0])
+    for i in range(1, len(past)):
+        cand = newest(past[i][0])
+        waiting = (not cand) or (not shown) or cand == shown
+        if not waiting:
+            shown = cand
+        else:
+            end = min(now if i == len(past) - 1 else past[i + 1][0] - 0.001, past[i][0] + LATE_SECONDS)
+            s_t = next((seen for seen, eid in L if eid == shown), float("-inf")) if shown else float("-inf")
+            late = None
+            for seen, eid in L:
+                if seen <= end and seen > s_t and eid.endswith("-" + past[i][1]):
+                    late = eid
+            if late:
+                shown = late
+    if not shown:
+        return None
+    return {"id": shown, "slot": past[-1][1], "at": past[-1][0]}
+
+def update_edition_log(now=None):
+    """Record when each edition was first seen on main. A rolled back edition drops out of the log."""
+    now = now or time.time()
+    e = fetch_json(RAW + "latest.json") or {}
+    lid = f"{e.get('date')}-{e.get('edition') or 'am'}"
+    row = sb_get("app_config", "key=eq.edition_log&select=value")
+    log = list(row[0]["value"]) if row and isinstance(row[0].get("value"), list) else []
+    if not EDITION_ID.match(lid) or not e.get("stories"):
+        return log, lid
+    ids = [x.get("id") for x in log]
+    if lid in ids:
+        new = log[:ids.index(lid) + 1]
+    else:
+        new = (log + [{"id": lid, "seen": dt.datetime.fromtimestamp(now, dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")}])[-20:]
+    if new != log:
+        sb_upsert("app_config", {"key": "edition_log", "value": new})
+    return new, lid
+
+def sb_patch(table, query, body):
+    r = http.patch(f"{SB}/rest/v1/{table}?{query}", headers=_sb_headers({"Prefer": "return=representation"}),
+                   data=json.dumps(body), timeout=20)
+    r.raise_for_status()
+    return r.json()
+
+
 # ---------------------------------------------------------------- job 1: edition alerts
+QUIET = (21, 6)  # no alerts from 9 pm to 6 am local time
+
 @app.post("/tasks/notify")
 def notify():
     if not SB_KEY:
         return jsonify(error="SUPABASE_SECRET_KEY is not set"), 500
+    now = time.time()
+    log, lid = update_edition_log(now)
     priv, pub = load_keys()
-    e = fetch_json(RAW + "latest.json") or {}
-    eid = f"{e.get('date')}-{e.get('edition')}"
-    today = dt.datetime.now(IST).date().isoformat()
-    last = sb_get("app_config", "key=eq.last_push&select=value")
-    last = last[0]["value"] if last else None
-    if e.get("date") != today:
-        return jsonify(sent=0, id=eid, reason="edition is not today's")
-    if last and last.get("id") == eid:
-        return jsonify(sent=0, id=eid, reason="already sent")
-    # claim the edition first so a slow run can never send twice
-    sb_upsert("app_config", {"key": "last_push", "value": {"id": eid, "at": dt.datetime.utcnow().isoformat() + "Z",
-                                                            "status": "sending", "by": "cloud-run"}})
-    sent = failed = 0
-    gone, cache, start = [], {}, 0
+    adm = sb_get("app_config", "key=eq.admin&select=value")
+    adm = (adm[0]["value"] if adm else None) or {}
+    am_t, pm_t = adm.get("amTime") or "06:00", adm.get("pmTime") or "19:00"
+    subs, start = [], 0
     while True:
-        subs = sb_get("push_subs", f"select=id,endpoint&order=id&offset={start}&limit=500")
-        for s in subs:
-            try:
-                r = http.post(s["endpoint"], headers={"Authorization": vapid_header(s["endpoint"], priv, pub, cache),
-                                                      "TTL": "43200", "Urgency": "normal", "Content-Length": "0"}, timeout=15)
-                if r.status_code in (404, 410):
-                    gone.append(s["id"])
-                elif r.ok:
-                    sent += 1
-                else:
-                    failed += 1
-            except requests.RequestException:
-                failed += 1
-        if len(subs) < 500:
+        page_ = sb_get("push_subs", f"select=id,endpoint,tz,last_edition&order=id&offset={start}&limit=1000")
+        subs += page_
+        if len(page_) < 1000:
             break
-        start += 500
+        start += 1000
+    groups = {}
+    for s in subs:
+        groups.setdefault(s.get("tz") or "Asia/Kolkata", []).append(s)
+    sent = failed = quiet = 0
+    gone, cache, shown = [], {}, {}
+    for tz, members in groups.items():
+        v = visible_edition(log, now, tz, am_t, pm_t)
+        if not v:
+            continue
+        vid = v["id"]
+        shown[tz] = vid
+        hour = dt.datetime.fromtimestamp(now, _zone(tz)).hour
+        is_quiet = hour >= QUIET[0] or hour < QUIET[1]
+        fresh = [m["id"] for m in members if not m.get("last_edition")]
+        due = [m for m in members if m.get("last_edition") and m["last_edition"] != vid]
+        for i in range(0, len(fresh), 100):  # new devices: remember what they see, no alert
+            sb_patch("push_subs", "id=in.(" + ",".join(fresh[i:i + 100]) + ")&last_edition=is.null", {"last_edition": vid})
+        newer = [m for m in due if vid > m["last_edition"]]   # ids sort by date then am < pm
+        older = [m["id"] for m in due if vid <= m["last_edition"]]  # after a roll back: update quietly
+        for i in range(0, len(older), 100):
+            sb_patch("push_subs", "id=in.(" + ",".join(older[i:i + 100]) + f")&last_edition=neq.{vid}", {"last_edition": vid})
+        for i in range(0, len(newer), 100):
+            # claim first: only rows still not on this edition come back, so two runs never both send
+            claimed = sb_patch("push_subs", "id=in.(" + ",".join(m["id"] for m in newer[i:i + 100]) + f")&last_edition=neq.{vid}",
+                               {"last_edition": vid})
+            if is_quiet:
+                quiet += len(claimed)
+                continue
+            for c in claimed:
+                try:
+                    r = http.post(c["endpoint"], headers={"Authorization": vapid_header(c["endpoint"], priv, pub, cache),
+                                                          "TTL": "21600", "Urgency": "normal", "Content-Length": "0"}, timeout=15)
+                    if r.status_code in (404, 410):
+                        gone.append(c["id"])
+                    elif r.ok:
+                        sent += 1
+                    else:
+                        failed += 1
+                except requests.RequestException:
+                    failed += 1
     for i in range(0, len(gone), 100):
         sb_delete("push_subs", "id=in.(" + ",".join(str(g) for g in gone[i:i + 100]) + ")")
-    result = {"id": eid, "at": dt.datetime.utcnow().isoformat() + "Z", "status": "sent", "by": "cloud-run",
-              "sent": sent, "failed": failed, "removed": len(gone), "stories": len(e.get("stories", []))}
-    sb_upsert("app_config", {"key": "last_push", "value": result})
+    result = {"at": dt.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"), "by": "cloud-run", "latest": lid,
+              "sent": sent, "failed": failed, "quiet": quiet, "removed": len(gone), "devices": len(subs), "showing": shown}
+    if sent or failed or quiet or gone:
+        sb_upsert("app_config", {"key": "last_push", "value": result})
     return jsonify(result)
 
 

@@ -89,7 +89,7 @@ async function sbBoot(){ if(!SB_ON) return;
     const mine=store.get("ffmpa-synced-at","");
     if(p.updated_at&&(!mine||p.updated_at>mine)&&!sessionStorage.getItem("ffmpa-pulled")){ sessionStorage.setItem("ffmpa-pulled","1"); applyRemote(p); location.reload(); return; }
     if(klass&&!klass.id){ klass=null; _sdel("ffmpa-class"); }
-    classTick();
+    classTick(); pushTzRefresh();
   }catch(e){ if(e.status===401) sbSignedOut(); } }
 
 /* ---------- shared admin settings ---------- */
@@ -173,6 +173,10 @@ function wireAcct(){ const dl=$("#acDl"), del=$("#acDel"); if(!dl) return; rende
 const pushOK=()=>SB_ON&&"serviceWorker" in navigator&&"PushManager" in window&&"Notification" in window;
 /* isIOS() is defined in bigs.js (install help) */
 const u8=s=>{ const b=atob((s+"=".repeat((4-s.length%4)%4)).replace(/-/g,"+").replace(/_/g,"/")); return Uint8Array.from(b,c=>c.charCodeAt(0)); };
+function ffTz(){ try{ const z=Intl.DateTimeFormat().resolvedOptions().timeZone; return z&&ffValidTz(z)?z:"Asia/Kolkata"; }catch(e){ return "Asia/Kolkata"; } }
+async function sbEditionLog(){ /* when each edition first appeared (written by the Cloud Run newsroom); public */
+  try{ const r=await Promise.race([sbFetch("/rest/v1/app_config?select=value&key=eq.edition_log",{auth:false}),new Promise((_,j)=>setTimeout(()=>j(new Error("slow")),5000))]);
+    return r&&r[0]&&Array.isArray(r[0].value)?r[0].value:null; }catch(e){ return null; } }
 async function vapidKey(){ const r=await sbFetch("/rest/v1/app_config?select=value&key=eq.vapid_public",{auth:false}); return r&&r[0]&&r[0].value; }
 async function pushReg(){ return (await navigator.serviceWorker.getRegistration("/"))||(await navigator.serviceWorker.register("/sw.js",{scope:"/"})); }
 async function pushState(){ if(!pushOK()) return isIOS()?"ios":"unsupported"; if(Notification.permission==="denied") return "blocked";
@@ -183,7 +187,11 @@ async function pushOn(){ const key=await vapidKey(); if(!key) throw new Error("A
   const want=u8(key); const same=sub&&sub.options&&sub.options.applicationServerKey&&new Uint8Array(sub.options.applicationServerKey).join()===want.join();
   if(sub&&!same){ await sub.unsubscribe(); sub=null; }
   if(!sub) sub=await reg.pushManager.subscribe({userVisibleOnly:true,applicationServerKey:want});
-  const j=sub.toJSON(); await rpc("save_push",{p_endpoint:j.endpoint,p_p256dh:j.keys.p256dh,p_auth:j.keys.auth,p_country:settings.country}); return "on"; }
+  const j=sub.toJSON(); await rpc("save_push",{p_endpoint:j.endpoint,p_p256dh:j.keys.p256dh,p_auth:j.keys.auth,p_country:settings.country,p_tz:ffTz()}); store.set("ffmpa-push-tz",ffTz()); return "on"; }
+async function pushTzRefresh(){ /* alerts follow the device's time zone; update it if the family has travelled or moved */
+  try{ if(!pushOK()||Notification.permission!=="granted"||store.get("ffmpa-push-tz","")===ffTz()) return;
+    const reg=await navigator.serviceWorker.getRegistration("/"); const sub=reg&&await reg.pushManager.getSubscription(); if(!sub) return;
+    const j=sub.toJSON(); await rpc("save_push",{p_endpoint:j.endpoint,p_p256dh:j.keys.p256dh,p_auth:j.keys.auth,p_country:settings.country,p_tz:ffTz()}); store.set("ffmpa-push-tz",ffTz()); }catch(e){} }
 async function pushOff(){ try{ const reg=await navigator.serviceWorker.getRegistration("/"); const sub=reg&&await reg.pushManager.getSubscription(); if(sub){ try{ if(signedIn()) await rpc("drop_push",{p_endpoint:sub.endpoint}); }catch(e){} await sub.unsubscribe(); } }catch(e){} return "off"; }
 const ALERT_TXT={on:"On. You get one alert when each edition is ready, morning and evening.",off:"Off. Get one alert when each edition is ready, morning and evening.",blocked:"Blocked in this browser's settings. Allow notifications for ffmpa.com, then try again.",ios:"On iPhone and iPad, first add FFMPA to your Home Screen (Share, then Add to Home Screen), open it from there, then turn alerts on here.",unsupported:"This browser cannot show alerts. Try Chrome, or install the app."};
 async function renderAlerts(){ const box=$("#alBox"); if(!box) return; const st=await pushState();

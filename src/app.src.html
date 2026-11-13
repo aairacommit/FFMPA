@@ -595,7 +595,8 @@ function renderTop(){
   const c=COUNTRIES[settings.country];
   document.documentElement.classList.toggle("explorers", settings.age==="x");
   $("#ctyPill").innerHTML = `${ico("pin")}${c.short}`;
-  $("#edPill").innerHTML = `${ico("sun")}<span class="lbl">Morning</span>`;
+  const pmSlot = (window.FF_SLOT||"am")==="pm";
+  $("#edPill").innerHTML = `${ico(pmSlot?"moon":"sun")}<span class="lbl">${pmSlot?"Evening":"Morning"}</span>`;
   $("#menuBtn").innerHTML = ico("menu");
   $("#helloH").innerHTML = `${c.greet}${settings.name?`, <em class="v">${esc(settings.name)}</em>`:""}`;
   $("#dWords").innerHTML = `${ico("star")}${words.size?`Words · ${words.size}`:"Words"}`;
@@ -652,7 +653,7 @@ function cardHTML(item){
   return `<article class="card"><div class="endcard">
     <div class="moon" aria-hidden="true"></div>
     <h2>You're all <em class="v">caught up.</em></h2>
-    <p>That's everything in this morning's edition. The evening edition arrives at ${fmtTime(ADMIN.pmTime)} ${c.tz}.</p>
+    <p>${(window.FF_SLOT||"am")==="pm"?`That's everything in this evening's edition. The next morning edition arrives at ${fmtTime(ADMIN.amTime)} your time.`:`That's everything in this morning's edition. The evening edition arrives at ${fmtTime(ADMIN.pmTime)} your time.`}</p>
     ${endSummaryHTML()}
     <div class="endgrid"><button class="btn sun press" data-quiz>Take today's quiz</button><button class="btn ghost press" data-open="puzzles">Weekly puzzle</button><button class="btn ghost press" data-open="progress">Your progress</button></div>
   </div></article>`;
@@ -839,14 +840,16 @@ function openEdition(){
   const c=COUNTRIES[settings.country];
   openSheet(`<h2 id="shTitle">Today's editions</h2><p class="sub">${niceDate(EDITION_DATE)} ${EDITION_DATE.slice(0,4)} · ${c.name}</p>
     <div class="list">
-      <div class="item"><b>Morning edition · ${fmtTime(ADMIN.amTime)} ${c.tz}</b><p>Now showing · ${stories().length} stories</p></div>
-      <div class="item"><b>Evening edition · ${fmtTime(ADMIN.pmTime)} ${c.tz}</b><p>Arrives later today with anything new since this morning.</p></div>
+      ${(window.FF_SLOT||"am")==="pm"?`<div class="item"><b>Morning edition · ${fmtTime(ADMIN.amTime)} your time</b><p>Arrives tomorrow morning with the latest news.</p></div>
+      <div class="item"><b>Evening edition · ${fmtTime(ADMIN.pmTime)} your time</b><p>Now showing · ${stories().length} stories</p></div>`:`<div class="item"><b>Morning edition · ${fmtTime(ADMIN.amTime)} your time</b><p>Now showing · ${stories().length} stories</p></div>
+      <div class="item"><b>Evening edition · ${fmtTime(ADMIN.pmTime)} your time</b><p>Arrives later today with anything new since this morning.</p></div>`}
     </div>
+    <p class="sub" style="margin-top:12px">New editions arrive on your own clock, wherever you are. Every story is checked before it is published.</p>
     <p class="sub" style="margin-top:12px">FFMPA only shows news from the last ${Math.round(ADMIN.freshHours/24)} days, so nothing you read is stale. Short explainers about dates this week are labelled.</p>`);
 }
 function openCountry(){
   openSheet(`<h2 id="shTitle">Where do you live?</h2><p class="sub">Your country is your local news. Everything else is world news.</p>
-    <div class="menu">${Object.entries(COUNTRIES).filter(([k])=>ADMIN.countries[k]).map(([k,c])=>`<button data-c="${k}" aria-pressed="${k===settings.country}"><span class="ic">${ico("pin")}</span><div>${c.name}<small>Editions at ${fmtTime(ADMIN.amTime)} and ${fmtTime(ADMIN.pmTime)} ${c.tz}</small></div></button>`).join("")}
+    <div class="menu">${Object.entries(COUNTRIES).filter(([k])=>ADMIN.countries[k]).map(([k,c])=>`<button data-c="${k}" aria-pressed="${k===settings.country}"><span class="ic">${ico("pin")}</span><div>${c.name}<small>Editions at ${fmtTime(ADMIN.amTime)} and ${fmtTime(ADMIN.pmTime)} your time</small></div></button>`).join("")}
     <button disabled style="opacity:.55"><span class="ic">${ico("globe")}</span><div>More countries coming soon</div></button></div>`,
     sh=> sh.querySelectorAll("[data-c]").forEach(b=> b.onclick=()=>{ settings.country=b.dataset.c; persist(); topic="all"; idx=0; closeSheet(); renderAll(); }));
 }

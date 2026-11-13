@@ -1,0 +1,124 @@
+{
+  "log": [
+    {
+      "id": "2026-11-11-am",
+      "seen": "2026-11-11T17:34:57Z"
+    },
+    {
+      "id": "2026-11-12-am",
+      "seen": "2026-11-12T02:42:07Z"
+    },
+    {
+      "id": "2026-11-13-am",
+      "seen": "2026-11-13T02:45:09Z"
+    },
+    {
+      "id": "2026-11-13-pm",
+      "seen": "2026-11-13T14:44:37Z"
+    }
+  ],
+  "cases": [
+    {
+      "why": "India: evening edition merged late (8:14 pm) shows as soon as it is merged",
+      "tz": "Asia/Kolkata",
+      "now": "2026-11-13T15:00:00Z",
+      "id": "2026-11-13-pm",
+      "slot": "pm"
+    },
+    {
+      "why": "India: before the evening edition is merged, the morning one stays",
+      "tz": "Asia/Kolkata",
+      "now": "2026-11-13T14:00:00Z",
+      "id": "2026-11-13-am",
+      "slot": "pm"
+    },
+    {
+      "why": "New York 7 am: the IST morning edition is released at 6 am ET",
+      "tz": "America/New_York",
+      "now": "2026-11-13T12:00:00Z",
+      "id": "2026-11-13-am",
+      "slot": "am"
+    },
+    {
+      "why": "New York 6:30 pm: evening edition exists but waits for 7 pm local",
+      "tz": "America/New_York",
+      "now": "2026-11-13T23:30:00Z",
+      "id": "2026-11-13-am",
+      "slot": "am"
+    },
+    {
+      "why": "New York 7:30 pm: evening edition released",
+      "tz": "America/New_York",
+      "now": "2026-11-14T00:30:00Z",
+      "id": "2026-11-13-pm",
+      "slot": "pm"
+    },
+    {
+      "why": "London 7 am",
+      "tz": "Europe/London",
+      "now": "2026-11-13T07:00:00Z",
+      "id": "2026-11-13-am",
+      "slot": "am"
+    },
+    {
+      "why": "London 6:59 pm: still the morning edition",
+      "tz": "Europe/London",
+      "now": "2026-11-13T18:59:00Z",
+      "id": "2026-11-13-am",
+      "slot": "am"
+    },
+    {
+      "why": "London 7:01 pm",
+      "tz": "Europe/London",
+      "now": "2026-11-13T19:01:00Z",
+      "id": "2026-11-13-pm",
+      "slot": "pm"
+    },
+    {
+      "why": "Seoul 6:01 am next day gets the evening edition",
+      "tz": "Asia/Seoul",
+      "now": "2026-11-13T21:01:00Z",
+      "id": "2026-11-13-pm",
+      "slot": "am"
+    },
+    {
+      "why": "Berlin 5:59 am: night, still yesterday's evening slot",
+      "tz": "Europe/Berlin",
+      "now": "2026-11-13T04:59:00Z",
+      "id": "2026-11-12-am",
+      "slot": "pm"
+    },
+    {
+      "why": "India: an evening edition merged after 10 pm waits for the morning",
+      "tz": "Asia/Kolkata",
+      "now": "2026-11-13T17:00:00Z",
+      "id": "2026-11-13-am",
+      "slot": "pm",
+      "log": [
+        {
+          "id": "2026-11-11-am",
+          "seen": "2026-11-11T17:34:57Z"
+        },
+        {
+          "id": "2026-11-12-am",
+          "seen": "2026-11-12T02:42:07Z"
+        },
+        {
+          "id": "2026-11-13-am",
+          "seen": "2026-11-13T02:45:09Z"
+        },
+        {
+          "id": "2026-11-13-pm",
+          "seen": "2026-11-13T16:45:00Z"
+        }
+      ]
+    },
+    {
+      "why": "Unknown time zone falls back to India",
+      "tz": "Mars/Base",
+      "now": "2026-11-13T15:00:00Z",
+      "id": "2026-11-13-pm",
+      "slot": "pm"
+    }
+  ]
+}

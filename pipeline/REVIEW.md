@@ -12,10 +12,14 @@ Inputs you are given: the path of the edition file (for example `editions/2026-1
 5. **Level.** Explorers text a seven year old can follow; Thinkers text explains every hard term the first time.
 6. **Quiz.** The right answer is in the story and exactly one option is right.
 7. **House rules.** No links inside story text, no em dashes, headlines under 70 characters and not clickbait.
+8. **Language.** Correct grammar and spelling, calm and warm tone, no fear words, nothing confusing or repetitive.
+9. **Usefulness.** A child learns something real from the story (how something works, why it matters, what people are doing about it); the `think` question invites real discussion; glossary definitions are accurate and simple.
 
 ## Check the edition as a whole
 - Run `python3 pipeline/validate.py <file>`: it must report no errors.
 - Mix and counts follow EDITORIAL.md (morning 12 to 15 stories, evening 6 to 10).
+- Coverage: compare with the top headlines of one major Indian outlet and one international wire or broadcaster. A major story a child would care about that is missing is a FIX item (add it with two sources, or explain in one line why it was left out).
+- The pull request records that the fact checker and standards editor ran (its "Newsroom" section).
 - Evening editions repeat no morning story without real new information.
 - `today`, `learn`, `backThen` and `hiddenWords` facts are verified in a source you opened.
 

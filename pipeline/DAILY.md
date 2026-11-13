@@ -4,16 +4,16 @@ There are two editions a day: **morning (`am`)**, drafted at 4:10 am IST, and **
 
 You are drafting today's FFMPA edition for children aged 5 to 15. **Approval is automatic once an independent reviewer agent passes it** (the owner decided this on 14 Nov 2026). The owner can still read any edition and roll it back. So the edition must be right before it is merged: nobody else checks it.
 
-Families see editions on their own local schedule: the app shows the newest merged edition at 6:00 am and 7:00 pm in each family's time zone (an edition merged late appears as soon as it is merged), and alerts follow the same times. That is handled by the app and the Cloud Run newsroom; you only need to merge on time.
+Families see editions on their own local schedule: each edition is due at 6:00 am (morning) or 7:00 pm (evening) on its date in each family's time zone; one merged a little late appears as soon as it is merged, and a later one at the family's next release, and alerts follow the same times. That is handled by the app and the Cloud Run newsroom; you only need to merge on time.
 
-Read `pipeline/EDITORIAL.md` and `pipeline/SCHEMA.md` first, and open the newest file in `editions/` as your template.
+Read `pipeline/NEWSROOM.md`, `pipeline/EDITORIAL.md`, `pipeline/SCHEMA.md` and `pipeline/REVIEW.md` first, and open the newest file in `editions/` as your template. You are the managing editor: the research, story choice, writing, fact check and standards edit are done by the newsroom agents described in NEWSROOM.md, which you start with the Agent tool.
 
 ## Steps
 1. **Date.** Work out today's date in India (Asia/Kolkata). The edition `date` is that day. Call it D. If `editions/D-am.json` already exists on `main` or in an open pull request, stop: the edition is done.
 2. **Branch.** `git checkout -b edition/D-am` from an up to date `main`.
-3. **Find the news.** Search the web for what happened in the last 72 hours. Cover India (national news a child would care about, science, sport, culture, environment) and the world (science, space, nature, technology, business, sport, culture, world affairs). Collect about 25 candidates, then keep 12 to 15. Prefer stories that explain something, show people solving a problem, or connect to a child's life. Skip crime, celebrity gossip and anything you cannot source twice.
-4. **Verify.** For each kept story open at least two reputable sources and read them. Every number, date, name and quote in your text must be in those sources. Record the publisher, date and URL for `src`.
-5. **Write** each story at the Explorers and Thinkers levels, with glossary links, a think question, a quiz question, the Navigators `deep` layer, and a key number where there is a clear one. Follow the rules and word counts in EDITORIAL.md.
+3. **Find the news.** Start the beat reporters (NEWSROOM.md desk 1) in parallel. They return candidates from the last 72 hours with fact sheets in which every fact is tagged with two independent reputable sources and the date the story was first reported.
+4. **Choose the lineup.** Give all candidates and the previous three editions to the analyst (desk 2). It picks 12 to 15 stories (3 to 5 India), balances the mix, checks major outlets for any big story that is missing, and gives each story its angle for children. Send any missing big story back to a beat reporter for a fact sheet.
+5. **Write.** Writers (desk 3) write each story at the Explorers and Thinkers levels, with glossary links, a think question, a quiz question, the Navigators `deep` layer, a key number where there is a clear one, and `src`, using only facts in the fact sheets. Follow the rules and word counts in EDITORIAL.md.
 6. **Extras for the day.**
    - `today`: one to three verified days to know or birthdays for this date (use `where:["IN"]` for India-only items).
    - `learn`: one history, geography or science idea, tied to a story in this edition where possible.
@@ -24,11 +24,12 @@ Read `pipeline/EDITORIAL.md` and `pipeline/SCHEMA.md` first, and open the newest
    - On Monday also add `puzzles` (grids from `python3 pipeline/make_sudoku.py <Monday date>`, plus five news words with clues at each level) and `reporters` (one Young reporters assignment, `sample` empty).
    - Tuesday to Sunday: copy `puzzles`, `reporters` and `bigStory` forward from the previous edition so they are never missing.
 7. **Check.** Save as `editions/D-am.json`. Run `python3 pipeline/validate.py editions/D-am.json` and fix until there are no errors. Read every warning and fix it or be ready to explain it.
-8. **Second read.** Read the finished edition once more as a sceptical editor and as a worried parent. For each story ask: is every fact in the sources, is anything frightening, is it fair to all sides, would a seven-year-old understand the Explorers text? Fix or drop anything that fails. Dropping a story is better than keeping a doubtful one, as long as at least 10 remain.
+8. **Fact check, then standards edit.** Send the file to the fact checker (desk 4) and fix or drop every claim it does not mark supported. Then send it to the standards editor (desk 5) for language, safety, fairness, reading level and usefulness, and make every change it lists for anything scored below 4. Run the validator again after each round. Dropping a story is better than keeping a doubtful one, as long as at least 10 remain.
 9. **Open the pull request.** Copy the file to `editions/latest.json`. Commit both files with the message `Edition D morning`. Push the branch and open a pull request to `main` titled `Edition D morning: N stories`. The body must contain, in this order:
    - A two-line summary of the edition.
    - "Needs your eye": any judgement call, sensitive story or unexplained warning. Write "Nothing" if there is none.
    - A table of headline (Thinkers), topic, scope and the two source links.
+   - A "Newsroom" section: beats covered, the analyst's missing story check, the number of fact checker findings and standards changes.
    - The last line of the validator output.
 10. **Independent review (required).** Start a separate reviewer agent with the Agent tool (a fresh agent, not a fork of yourself, so it has not seen your reasoning). Give it this brief: "Review the draft FFMPA edition at <absolute path to editions/D-am.json> in the repository clone at <path>. Follow pipeline/REVIEW.md exactly and reply in its format." Wait for its answer.
     - `PASS`: go to step 11.
@@ -52,4 +53,4 @@ Same steps and rules as the morning edition, with these differences:
 - Copy `today`, `learn`, `backThen`, `hiddenWords`, `puzzles`, `reporters` and `bigStory` from the morning edition unchanged, so the evening file is complete on its own. If no morning file exists, write them fresh.
 - Add `"edition":"pm"`. The validator applies the smaller evening limits automatically.
 - If fewer than 6 stories pass verification, do not open a pull request. Say so in the final message; the morning edition stays live, which is fine.
-- The independent review and merge (steps 10 and 11) apply exactly as for the morning edition.
+- The newsroom (beat reporters for news since the morning edition, analyst, writers, fact checker, standards editor), the independent review and the merge apply exactly as for the morning edition. The calendar reporter is not needed when the morning extras are copied.

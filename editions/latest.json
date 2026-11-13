@@ -1,672 +1,400 @@
 {
  "schema": 1,
  "date": "2026-11-13",
- "edition": "am",
+ "edition": "pm",
  "countries": [
   "IN"
  ],
  "stories": [
   {
-   "id": "in-yog-gold",
+   "id": "in-lakshya",
    "scope": "IN",
    "cat": "sports",
-   "emoji": "🥊",
-   "date": "2026-11-12",
+   "emoji": "🏸",
+   "date": "2026-11-13",
    "kind": "news",
    "x": {
-    "t": "Two golds for India's young boxers",
+    "t": "Lakshya Sen wins his way into a semifinal in Japan",
     "b": [
-     "India's young boxers have won two gold medals! They won at the [[yog|Youth Olympic Games]] in [[dakar|Dakar]].",
-     "A boy from Manipur won his final first. Then a girl from Haryana won hers. No Indian boxer had won gold at these Games before.",
-     "India now has 10 medals in all."
+     "[[lakshya|Lakshya Sen]] is a badminton star from India. On Friday he won a big match in [[kumamoto|Kumamoto]], Japan.",
+     "He beat a player from Japan in two games. The scores were 21-16 and 21-15. The match took 40 minutes.",
+     "Next he plays Alwi Farhan from Indonesia in the semifinal."
     ]
    },
    "o": {
-    "t": "India's boxers win two golds at the Youth Olympics",
+    "t": "Lakshya Sen reaches the Kumamoto Masters semifinal in Japan",
     "b": [
-     "India's boxers won two gold medals at the [[yog|Youth Olympic Games]] in [[dakar|Dakar]], Senegal, on Thursday 12 November. India had sent only two boxers to the Games, and both became champions. They are India's first Youth Olympic gold medals in boxing.",
-     "A boxer from Manipur won the men's 50 kg final against an opponent from Ireland. He lost the first round on all five judges' scorecards, then fought back to win by three judges to two. Later, a boxer from Haryana won the women's 48 kg final against an opponent from Algeria. Her win was [[unanimous|unanimous]]: all five judges chose her.",
-     "The two golds were India's first of these Games. They lift India's total to 10 medals: 2 gold, 3 silver and 5 bronze. India's only earlier Youth Olympic boxing medals were a silver and a bronze in 2010."
+     "India's [[lakshya|Lakshya Sen]] has reached the semifinals of the Kumamoto Masters Japan, a Super 500 badminton tournament in [[kumamoto|Kumamoto]]. On Friday 13 November he beat Japan's Yushi Tanaka 21-16, 21-15 in a quarterfinal that lasted 40 minutes. Winning in straight games means he won the first two games, so no third game was needed.",
+     "In the semifinal, Lakshya will face Alwi Farhan of Indonesia, who is the sixth [[seed|seed]] at the tournament.",
+     "It was a harder day for another Indian, Kidambi Srikanth. He lost his quarterfinal to Japan's Koki Watanabe, 22-24, 15-21. A day earlier, Srikanth had beaten Kodai Naraoka of Japan, who is ranked eighth in the world."
     ]
    },
-   "think": "The boxer from Manipur lost the first round but still won. What helps you keep going after a bad start?",
+   "think": "Lakshya and Srikanth both play for India but had very different days. How would you cheer up a friend after a loss?",
    "quiz": {
-    "q": "How many medals has India won so far at the Youth Olympic Games in Dakar?",
+    "q": "Who did Lakshya Sen beat in the quarterfinal?",
     "a": [
-     "10",
-     "8",
-     "2",
-     "13"
+     "Yushi Tanaka of Japan",
+     "Alwi Farhan of Indonesia",
+     "Koki Watanabe of Japan",
+     "Kodai Naraoka of Japan"
     ],
     "c": 0
    },
    "src": [
     [
-     "myKhel, 12 Nov",
-     "https://www.mykhel.com/more-sports/youth-olympics-2026-manipurs-lairenlakpam-ambekar-meetei-scripts-history-wins-gold-in-mens-50kg-458797.html"
+     "PTI via ThePrint, 13 Nov",
+     "https://theprint.in/sport/lakshya-enters-semifinals-of-kumamoto-masters-japan-srikanth-out/3097630/"
+    ],
+    [
+     "ANI via Asianet Newsable, 13 Nov",
+     "https://newsable.asianetnews.com/sports/lakshya-sen-enters-semifinals-at-japan-masters-srikanth-bows-out-articleshow-daq71dn"
+    ],
+    [
+     "India.com, 13 Nov",
+     "https://www.india.com/sports/others/indias-lakshya-sen-reaches-kumamoto-masters-semis-after-beating-japans-yushi-tanaka-8544465/"
+    ]
+   ]
+  },
+  {
+   "id": "in-pinkline",
+   "scope": "IN",
+   "cat": "civics",
+   "emoji": "🚇",
+   "date": "2026-11-13",
+   "kind": "news",
+   "x": {
+    "t": "Bengaluru's new Pink metro line opens its first part",
+    "b": [
+     "[[bengaluru|Bengaluru]] has a new piece of metro line. It is called the Pink Line.",
+     "Prime Minister Narendra Modi opened it on Friday. He rode the train with the state's [[chief-minister|Chief Minister]].",
+     "The new part is 7.5 km long. It has six stations. The trains run on a raised track, high above the road."
+    ]
+   },
+   "o": {
+    "t": "First stretch of Bengaluru Metro's Pink Line opens",
+    "b": [
+     "Prime Minister Narendra Modi opened the first stretch of the Pink Line of [[namma-metro|Namma Metro]], [[bengaluru|Bengaluru]]'s metro rail system, on Friday 13 November. He then travelled on a train with Karnataka's [[chief-minister|Chief Minister]], D K Shivakumar.",
+     "The new stretch runs for 7.5 km from Kalena Agrahara to Tavarekere and has six stations. It is [[elevated|elevated]], which means the track is built on tall pillars above the streets. It cost around Rs 3,470 [[crore|crore]].",
+     "At Jayadeva Hospital station, passengers can change to the line that goes to Electronic City. With this stretch, Bengaluru's metro network is now more than 100 km long."
+    ]
+   },
+   "think": "How would a metro line near your home change the way you and your family get around?",
+   "quiz": {
+    "q": "How many stations are on the new Pink Line stretch?",
+    "a": [
+     "Six",
+     "Twelve",
+     "Two",
+     "Twenty"
+    ],
+    "c": 0
+   },
+   "src": [
+    [
+     "PTI via ThePrint, 13 Nov",
+     "https://theprint.in/india/pm-modi-inaugurates-metros-pink-line-in-bengaluru-travels-along-with-cm-shivakumar/3097768/"
+    ],
+    [
+     "The Tribune, 13 Nov",
+     "https://www.tribuneindia.com/news/india/pm-modi-inaugurates-bengalurus-metro-pink-line-stretch-worth-rs-3470-crore-takes-ride/"
+    ],
+    [
+     "ETV Bharat, 13 Nov",
+     "https://etvbharat.com/en/state/pm-modi-flags-off-bengalurus-pink-line-metro-stretch-travels-with-cm-dks-and-krishna-byre-gowda-enn26111303123"
+    ]
+   ]
+  },
+  {
+   "id": "in-harmanpreet",
+   "scope": "IN",
+   "cat": "culture",
+   "emoji": "🌟",
+   "date": "2026-11-13",
+   "kind": "news",
+   "x": {
+    "t": "Cricket star Harmanpreet Kaur gets her own wax statue",
+    "b": [
+     "[[harmanpreet|Harmanpreet Kaur]] is a cricket star. She led India's women to win the World Cup in 2025.",
+     "On Friday she saw a [[wax-statue|wax statue]] of herself in [[jaipur|Jaipur]]. It will stand next to statues of Sachin Tendulkar and MS Dhoni.",
+     "She told girls to dream big and aim to play for India."
+    ]
+   },
+   "o": {
+    "t": "Harmanpreet Kaur unveils her own wax statue in Jaipur",
+    "b": [
+     "Cricketer [[harmanpreet|Harmanpreet Kaur]] unveiled a [[wax-statue|wax statue]] of herself in [[jaipur|Jaipur]] on Friday 13 November. The statue will be placed beside statues of two famous Indian cricketers, Sachin Tendulkar and MS Dhoni.",
+     "Harmanpreet, a former India captain, led the team to their first Women's [[odi|ODI]] World Cup title in November 2025. Asked how it felt to stand beside Tendulkar and Dhoni, she said, \"I am still not at that level.\"",
+     "She said she was sure \"this is just the beginning\" for women's cricket in India. She compared the win with 1983, when India's men won the World Cup for the first time, and encouraged young girls to dream big and aim to play for their country."
+    ]
+   },
+   "think": "If a statue were made of someone you admire, who would it be, and why?",
+   "quiz": {
+    "q": "Where was Harmanpreet Kaur's wax statue unveiled?",
+    "a": [
+     "Jaipur",
+     "Mumbai",
+     "Kolkata",
+     "Chennai"
+    ],
+    "c": 0
+   },
+   "src": [
+    [
+     "PTI via ThePrint, 13 Nov",
+     "https://theprint.in/sport/cricketer-harmanpreet-kaur-unveils-her-wax-statue/3097812/"
     ],
     [
      "ANI via The Tribune, 13 Nov",
-     "https://www.tribuneindia.com/news/ambekar-meetei/gunjan-wins-historic-gold-as-indian-boxers-complete-golden-double-at-dakar-youth-olympics"
+     "https://www.tribuneindia.com/news/cricket/womens-cricket-landscape-changing-after-world-cup-win-harmanpreet-kaur"
     ],
     [
-     "IANS via Prokerala, 12 Nov",
-     "https://www.prokerala.com/news/articles/a1836088.html"
+     "India.com, 13 Nov",
+     "https://www.india.com/sports/cricket/we-will-keep-winning-trophies-harmanpreet-kaur-reflects-on-indias-maiden-womens-odi-wc-win-at-wax-statue-unveiling-in-jaipur-8544586/"
     ],
     [
-     "myKhel (women's final), 12 Nov",
-     "https://www.mykhel.com/more-sports/gunjan-wins-indias-first-ever-womens-boxing-gold-at-youth-olympics-458811.html"
-    ],
-    [
-     "NBC Olympics, boxing rules",
-     "https://www.nbcolympics.com/news/boxing-101-olympic-rules-regulations-and-scoring"
+     "ICC, captaincy change, 6 Oct",
+     "https://www.icc-cricket.com/news/harmanpreet-kaur-steps-down-as-india-captain"
     ]
    ]
   },
   {
-   "id": "in-amrit",
+   "id": "in-odi-nz",
    "scope": "IN",
-   "cat": "civics",
-   "emoji": "🚆",
-   "date": "2026-11-12",
+   "cat": "sports",
+   "emoji": "🏏",
+   "date": "2026-11-13",
    "kind": "news",
    "x": {
-    "t": "A new kind of train runs for a festival",
+    "t": "A tough day for India's cricket team in New Zealand",
     "b": [
-     "A new kind of train has made its first trip. It went from New Delhi to [[patna|Patna]].",
-     "It ran because of a festival called [[chhath|Chhath]]. Lots of people travel between Delhi and Bihar at this time.",
-     "The train has places to charge phones. Some of its coaches are air-conditioned, and some are not."
+     "India played New Zealand in a one-day cricket match on Friday. New Zealand won by 244 runs.",
+     "New Zealand scored 333 runs. India were all out for 89.",
+     "India are still ahead in the series, two wins to one. The last match is on Sunday."
     ]
    },
    "o": {
-    "t": "India's first Amrit Bharat 3.0 train runs from New Delhi to Patna",
+    "t": "New Zealand beat India by 244 runs in the fourth ODI",
     "b": [
-     "[[indian-railways|Indian Railways]] has run its first Amrit Bharat 3.0 train, from New Delhi to [[patna|Patna]]. It set off this week as a special service for [[chhath|Chhath Puja]], when there is a seasonal rush of travellers between Delhi and Bihar.",
-     "Amrit Bharat trains are designed with ordinary and middle-class passengers in mind. This is the first of them to mix air-conditioned coaches with coaches that have no air conditioning. The earlier versions had only sleeper and general coaches.",
-     "The train uses push-pull technology, which allows quicker acceleration. It also has improved suspension, modern toilets and mobile charging points. Reports did not say whether it will keep running as a regular service after the festival."
+     "New Zealand beat India by 244 runs in the fourth [[odi|one-day international]] in [[tauranga|Tauranga]] on Friday 13 November. Batting first, New Zealand scored 333, with Will Young making 125. India were then bowled out for 89.",
+     "Matt Henry took six [[wicket|wickets]] for just 27 runs. Three of them came in the very first over of India's innings, when Rohit Sharma, Virat Kohli and Shreyas Iyer were all out without scoring. An over is a set of six balls bowled by one bowler.",
+     "India still lead the five-match series 2-1. The last match is on Sunday at the same ground, so New Zealand can draw the series but cannot win it."
     ]
    },
-   "think": "If you designed a train for long journeys, what three things would you put in every coach?",
+   "think": "What can a team learn from a really bad day, and how should teammates treat each other afterwards?",
    "quiz": {
-    "q": "Which two cities did the first Amrit Bharat 3.0 train connect?",
+    "q": "How many wickets did Matt Henry take?",
     "a": [
-     "New Delhi and Patna",
-     "Mumbai and Pune",
-     "Chennai and Kolkata",
-     "Delhi and Jaipur"
+     "Six",
+     "Three",
+     "Ten",
+     "One"
     ],
     "c": 0
    },
    "src": [
     [
-     "Daily Pioneer, 12 Nov",
-     "https://dailypioneer.com/india/railways-runs-the-first-amrit-bharat-express-with-ac-coaches-on-delhi-patna-route"
+     "DD News, 13 Nov",
+     "https://ddnews.gov.in/en/young-henry-wreck-india-to-power-nz-to-244-run-win-in-4th-odi/"
     ],
     [
-     "Free Press Journal, 12 Nov",
-     "https://www.freepressjournal.in/india/indias-first-amrit-bharat-30-train-departs-from-new-delhi-to-patna-amidst-the-echo-of-chhath-songs"
-    ],
-    [
-     "Metro Rail News, 12 Nov",
-     "https://metrorailnews.in/amrit-bharat-express-3-0-ac-coaches-new-delhi-patna/"
+     "Al Jazeera, 13 Nov",
+     "https://www.aljazeera.com/sports/2026/11/13/matt-henry-will-young-new-zealand-india-fourth-odi"
     ]
    ]
   },
   {
-   "id": "in-blueflag",
-   "scope": "IN",
-   "cat": "planet",
-   "emoji": "🏖️",
-   "date": "2026-11-11",
-   "kind": "news",
-   "x": {
-    "t": "Three clean beaches win a Blue Flag",
-    "b": [
-     "Three beaches in [[maharashtra|Maharashtra]] have won a special prize. It is called the [[blue-flag|Blue Flag]].",
-     "A beach can win only if its water is clean. It must also be safe and look after nature.",
-     "The beaches are Ladghar, Guhagar and Shrivardhan. Their flags are coming all the way from the Netherlands!"
-    ]
-   },
-   "o": {
-    "t": "Three Konkan beaches in Maharashtra win the Blue Flag award",
-    "b": [
-     "Three beaches on [[maharashtra|Maharashtra]]'s [[konkan|Konkan]] coast have won the international [[blue-flag|Blue Flag]] award for the 2026-27 season. They are Ladghar and Guhagar in Ratnagiri district and Shrivardhan in Raigad district.",
-     "To earn the flag, a beach has to meet international standards. These cover clean water, cleanliness, safety for visitors, good facilities and the protection of [[biodiversity|biodiversity]], which means the variety of living things.",
-     "The Blue Flag season at the three beaches begins on 15 November. The official flags are being brought from the Netherlands, and a flag-hoisting ceremony will follow. Across India, 22 beaches have received the Blue Flag for this season. Of these, 13 are renewals and 9 are new, including the three in Maharashtra."
-    ]
-   },
-   "think": "What would you check to decide whether a beach, park or playground near you deserves a prize?",
-   "quiz": {
-    "q": "What must a beach have to win a Blue Flag?",
-    "a": [
-     "Clean water, safety and care for nature",
-     "The tallest waves",
-     "The most visitors",
-     "Blue sand"
-    ],
-    "c": 0
-   },
-   "src": [
-    [
-     "News On AIR, 11 Nov",
-     "https://newsonair.gov.in/maharashtras-ladghar-guhagar-and-shrivardhan-beaches-receive-international-blue-flag-award-for-2026-27/"
-    ],
-    [
-     "TravelBiz Monitor, 12 Nov",
-     "https://travelbizmonitor.com/top-stories/maharashtra-beaches-earn-international-blue-flag-certification/"
-    ],
-    [
-     "Lokshahi English, 12 Nov",
-     "https://english.lokshahi.com/maharashtra/three-konkan-beaches-win-prestigious-international-blue-flag-award-12804736"
-    ]
-   ]
-  },
-  {
-   "id": "in-isro",
-   "scope": "IN",
-   "cat": "space",
-   "emoji": "🔥",
-   "date": "2026-11-10",
-   "kind": "news",
-   "x": {
-    "t": "ISRO tests a rocket engine before it flies",
-    "b": [
-     "Before a rocket flies, its engine must be tested. [[isro|ISRO]] has just done that.",
-     "The engine was fired for 200 seconds in a test. It worked just as planned.",
-     "Later it will help launch a [[satellite|satellite]]. That satellite will help people find their way."
-    ]
-   },
-   "o": {
-    "t": "ISRO test-fires the engine for its next navigation satellite launch",
-    "b": [
-     "[[isro|ISRO]] has successfully tested the [[cryogenic|cryogenic engine]] for its next [[gslv|GSLV]] rocket. The space agency announced the result on 10 November. The test took place on 5 November at the ISRO Propulsion Complex in Mahendragiri, Tamil Nadu.",
-     "The engine was fired for 200 seconds. This check is called a flight acceptance test. ISRO said the main engine and its gas generator ignited as expected, and that the engine's performance matched the predictions made before the test.",
-     "The engine is meant for a mission called GSLV-F19. That rocket will carry NVS-04, a navigation [[satellite|satellite]]. It is the next satellite for [[navic|NavIC]], India's regional satellite navigation system, the magazine Voice&Data reports. NavIC provides positioning, navigation and timing services."
-    ]
-   },
-   "think": "Why do you think engineers test an engine on the ground before trusting it in a real launch?",
-   "quiz": {
-    "q": "For how long was the engine fired in the test?",
-    "a": [
-     "200 seconds",
-     "20 seconds",
-     "2 hours",
-     "5 days"
-    ],
-    "c": 0
-   },
-   "src": [
-    [
-     "ISRO, 10 Nov",
-     "https://www.isro.gov.in/Cryogenic_engine_test_GSLV.html"
-    ],
-    [
-     "Voice&Data, 11 Nov",
-     "https://www.voicendata.com/space/isro-completes-ce-75-cryogenic-engine-test-for-gslv-f19-mission-12801284"
-    ]
-   ]
-  },
-  {
-   "id": "in-prices",
-   "scope": "IN",
-   "cat": "business",
-   "emoji": "🧅",
-   "date": "2026-11-12",
-   "kind": "news",
-   "x": {
-    "t": "Why onions cost more this year",
-    "b": [
-     "Many things in the shops cost more than they did last year. When prices keep going up, it is called [[inflation|inflation]].",
-     "New numbers show that prices in India rose faster in October. Onions now cost more than double!",
-     "India's central bank is called the [[rbi|Reserve Bank of India]]. Part of its job is to keep prices steady."
-    ]
-   },
-   "o": {
-    "t": "Prices in India rise at their fastest pace in two years",
-    "b": [
-     "Prices in India were 6.09 per cent higher in October than a year earlier, government figures released on 12 November show. This measure is called retail [[inflation|inflation]]. It is the first time in two years that it has gone above 6 per cent.",
-     "Costlier food pushed the figure up. Food prices were 8.94 per cent higher than a year ago. Onions were about 116 per cent dearer, which means they cost more than double. Garlic, ginger and lemons also became much more expensive.",
-     "The [[rbi|Reserve Bank of India]] is required to keep inflation between 2 and 6 per cent, so the new figure is just above its upper limit. One of its tools is the [[interest-rate|interest rate]]. In October it raised its main rate by 0.25 percentage points, to 5.50 per cent. Higher rates make borrowing cost more, which can slow price rises."
-    ]
-   },
-   "think": "If something your family buys every week doubled in price, what could you do about it?",
-   "quiz": {
-    "q": "By about how much did onion prices rise in a year?",
-    "a": [
-     "About 116 per cent",
-     "About 6 per cent",
-     "About 2 per cent",
-     "About 50 per cent"
-    ],
-    "c": 0
-   },
-   "src": [
-    [
-     "PTI via ThePrint, 12 Nov",
-     "https://theprint.in/economy/retail-inflation-rises-to-two-year-high-of-6-09-pc-in-oct-breaches-rbis-upper-limit/3097042"
-    ],
-    [
-     "IANS via The Hans India, 12 Nov",
-     "https://www.thehansindia.com/news/cities/new-delhi/indias-retail-inflation-crosses-rbis-upper-limit-of-6-per-cent-in-october-1141433"
-    ]
-   ]
-  },
-  {
-   "id": "g-cop31",
-   "scope": "global",
-   "cat": "planet",
-   "emoji": "🌍",
-   "date": "2026-11-12",
-   "kind": "news",
-   "x": {
-    "t": "Leaders finish their speeches at the climate meeting",
-    "b": [
-     "Leaders have finished their speeches at [[cop|COP31]]. That is the big climate meeting in [[turkiye|Türkiye]].",
-     "They want different things. Small island countries want faster action. Poorer countries are asking for more money to help.",
-     "Now teams from the countries there must work out a plan that all can accept. The meeting is due to end on 20 November."
-    ]
-   },
-   "o": {
-    "t": "COP31: leaders leave and the hard bargaining begins",
-    "b": [
-     "The leaders' part of the [[cop|COP31]] climate summit in Antalya, [[turkiye|Türkiye]], ended on Thursday 12 November. The news agency Reuters said leaders had set out clashing priorities. Small island nations want fast, deep cuts in pollution. Developing countries want more money to deal with [[climate-change|climate change]]. Countries that produce oil and gas said [[fossil-fuels|fossil fuels]] should keep being used.",
-     "Türkiye's voluntary pledge to run more of the world on electricity has won some support. By the count of the news site Climate Home News, at least 14 countries have publicly backed it, including Australia, Germany, Norway, Ethiopia and Pakistan. Some, such as Seychelles, want it tied to clean electricity. An official list is expected next week.",
-     "Now negotiators take over. Chris Bowen of Australia, who is leading the negotiations, said his job is to steer [[consensus|consensus]], which means agreement by everyone. The summit is due to end on 20 November."
-    ]
-   },
-   "local": {
-    "IN": "By Climate Home News's count, India is not among the countries backing the electricity pledge so far. In its opening statement, India said finance from developed countries is central to climate action in developing countries."
-   },
-   "think": "Why might a small island country and an oil-producing country want different things from the same meeting?",
-   "quiz": {
-    "q": "About how many countries have publicly backed the electricity pledge so far?",
-    "a": [
-     "At least 14",
-     "Exactly 2",
-     "More than 150",
-     "None"
-    ],
-    "c": 0
-   },
-   "src": [
-    [
-     "Reuters via Yahoo News, 12 Nov",
-     "https://www.yahoo.com/news/articles/venezuela-tells-cop31-sovereign-pump-095747545.html"
-    ],
-    [
-     "Climate Home News, 12 Nov",
-     "https://www.climatechangenews.com/2026/11/12/cop31s-electrification-pledge-wins-support-with-caveats-on-clean-power-and-finance/"
-    ],
-    [
-     "Down To Earth, 10 Nov",
-     "https://www.downtoearth.org.in/climate-change/cop31-india-urges-developed-countries-to-fulfil-climate-finance-obligations"
-    ],
-    [
-     "University of Exeter via EurekAlert, 9 Nov",
-     "https://www.eurekalert.org/news-releases/1150611"
-    ],
-    [
-     "World Resources Institute, 12 Nov",
-     "https://www.wri.org/news/statement-cop31-leaders-summit-spotlights-electrification-and-transition-away-fossil-fuels"
-    ],
-    [
-     "Climate Home News, 5 Nov",
-     "https://www.climatechangenews.com/?p=92110"
-    ]
-   ]
-  },
-  {
-   "id": "g-romanleg",
-   "scope": "global",
-   "cat": "history",
-   "emoji": "🏛️",
-   "date": "2026-11-12",
-   "kind": "news",
-   "x": {
-    "t": "A golden leg and a missing statue",
-    "b": [
-     "About 200 years ago, a shiny metal leg was found in a bog in Scotland. A bog is wet, spongy ground.",
-     "Now experts think they know where it came from. It was probably part of a huge statue. The statue showed a Roman [[emperor|emperor]] on a horse!",
-     "But where is the rest of the statue? Nobody knows yet."
-    ]
-   },
-   "o": {
-    "t": "Bronze leg from a Scottish bog points to a lost Roman statue",
-    "b": [
-     "In 1820, a [[gilded|gilded]] [[bronze|bronze]] leg, complete with a boot, was dug out of a bog at Milsington, near Hawick in the Scottish Borders. For about 200 years, experts assumed it had been taken from a statue somewhere further south and carried north.",
-     "New research announced on 12 November tells a different story. Curators at National Museums Scotland now think the leg probably came from a huge statue of the [[emperor|emperor]] [[antoninus-pius|Antoninus Pius]] on horseback, which stood in the Scottish Borders in the 140s AD. At that time the [[romans|Romans]] were making their second attempt to conquer Scotland.",
-     "The top of the leg has no cut marks. That suggests the Romans took the statue apart carefully when they left, and that it was not smashed. The rest of the statue is still missing. From Saturday, the leg will be on show at the National Museum of Scotland in Edinburgh."
-    ]
-   },
-   "think": "If someone found the rest of the statue, how could they prove it belonged to this leg?",
-   "quiz": {
-    "q": "Where was the bronze leg found in 1820?",
-    "a": [
-     "In a bog in Scotland",
-     "In a museum in Rome",
-     "On a beach in Italy",
-     "Under a castle in Wales"
-    ],
-    "c": 0
-   },
-   "src": [
-    [
-     "PA Media via STV News, 12 Nov",
-     "https://news.stv.tv/scotland/statue-of-roman-emperor-once-stood-in-scottish-borders-research-suggests"
-    ],
-    [
-     "The Guardian via AOL, 12 Nov",
-     "https://www.aol.co.uk/articles/bronze-leg-found-scottish-bog-000103000.html"
-    ],
-    [
-     "Historic Environment Scotland, Antonine Wall",
-     "https://www.historicenvironment.scot/protect-and-care/protected-historic-places/world-heritage-sites/antonine-wall/"
-    ],
-    [
-     "Britannica, Antoninus Pius",
-     "https://www.britannica.com/biography/Antoninus-Pius"
-    ]
-   ]
-  },
-  {
-   "id": "g-frogs",
+   "id": "g-popmaths",
    "scope": "global",
    "cat": "science",
-   "emoji": "🐸",
-   "date": "2026-11-10",
-   "kind": "news",
-   "x": {
-    "t": "Who ate the frogs? A bone mystery is solved",
-    "b": [
-     "In England, a puzzle was found in an old ditch. It held about 8,000 tiny frog bones!",
-     "The bones are about 1,700 years old. How did so many frogs end up in one place?",
-     "Scientists looked closely at the bones. They think hunting birds, such as owls, caught the frogs and ate them."
-    ]
-   },
-   "o": {
-    "t": "Mystery of 8,000 frog bones in a Roman ditch is solved",
-    "b": [
-     "About 8,000 frog bones were found in one ditch during a road upgrade between Cambridge and Huntingdon, in England, between 2016 and 2018. [[radiocarbon|Radiocarbon dating]] showed the bones were about 1,700 years old, from Roman times. The ditch had filled up within a single year, so a great many frogs had died in a short time. It was a mystery for [[archaeology|archaeologists]].",
-     "A new study says [[bird-of-prey|birds of prey]] ate them. The damage on the bones matches bones eaten by hunting birds. The most likely suspects are short-eared owls and hen harriers. The team was led by Dr Paul Clarkson of Bournemouth University.",
-     "The scientists also measured the frogs' upper arm bones to estimate their ages. Most were young frogs that died in their first winter. At the time, the land nearby was wet and open, which suited both breeding frogs and hunting birds."
-    ]
-   },
-   "think": "What clues could the leftovers from your lunch give a scientist 1,000 years from now?",
-   "quiz": {
-    "q": "What do scientists think happened to the frogs?",
-    "a": [
-     "Birds of prey, such as owls, ate them",
-     "They froze in a snowstorm",
-     "Romans cooked them",
-     "They fell into a well"
-    ],
-    "c": 0
-   },
-   "src": [
-    [
-     "Bournemouth University via EurekAlert, 9 Nov",
-     "https://www.eurekalert.org/news-releases/1150945"
-    ],
-    [
-     "Cambridge Independent, 10 Nov",
-     "https://www.cambridgeindependent.co.uk/news/mystery-of-8-000-ancient-frog-bones-found-during-a14-upgrade-9490537/"
-    ]
-   ]
-  },
-  {
-   "id": "g-reef",
-   "scope": "global",
-   "cat": "nature",
-   "emoji": "🚢",
-   "date": "2026-11-11",
-   "kind": "news",
-   "x": {
-    "t": "A giant ship becomes a home for fish",
-    "b": [
-     "A very big old ship has been sunk on purpose. It now rests on the sea floor near [[florida|Florida]].",
-     "No explosives were used. Workers let water in until the ship slowly went down.",
-     "Fish and other sea animals can now make it their home. A sunken ship like this is called an [[artificial-reef|artificial reef]]."
-    ]
-   },
-   "o": {
-    "t": "Record-breaking ocean liner is sunk to become a giant reef",
-    "b": [
-     "A famous [[ocean-liner|ocean liner]], the SS United States, was sunk on purpose on 11 November in the Gulf of Mexico, off the coast of [[florida|Florida]]. The plan is for it to become the world's largest [[artificial-reef|artificial reef]]: a human-made home for sea life. At 302 metres long, the ship is more than 30 metres longer than the Titanic.",
-     "No explosives were used. Crews opened valves to let seawater flood in, and the ship sank over several hours, which was longer than planned. Before that, it had spent about a year being cleaned, with fuel, wiring and other unsafe materials taken out.",
-     "The ship made its first voyage in 1952 and set a speed record for crossing the Atlantic that still stands. It stopped sailing in 1969. Officials hope it will attract fish such as tuna and marlin, as well as divers. The project cost 13.5 million US dollars."
-    ]
-   },
-   "think": "Is it better to sink an old ship to make a reef, or to keep it as a museum? Why?",
-   "quiz": {
-    "q": "How was the SS United States sunk?",
-    "a": [
-     "By letting seawater flood in through valves",
-     "With explosives",
-     "By a storm",
-     "By hitting a rock"
-    ],
-    "c": 0
-   },
-   "src": [
-    [
-     "Associated Press via Mongabay, 11 Nov",
-     "https://news.mongabay.com/short-article/2026/11/this-ocean-liner-was-the-worlds-fastest-its-being-sunk-to-make-the-largest-artificial-reef/"
-    ],
-    [
-     "PhillyVoice, 12 Nov",
-     "https://www.phillyvoice.com/ss-united-states-sinking-florida/"
-    ],
-    [
-     "CBS News, 11 Nov",
-     "https://www.cbsnews.com/news/ss-united-states-sinking-ocean-floor-largest-artificial-reef-world-florida-gulf-coast/"
-    ],
-    [
-     "6abc Philadelphia with AP, 12 Nov",
-     "https://6abc.com/post/how-watch-ss-united-states-sinking-vessel-takes-final-journey-become-worlds-largest-artificial-reef-florida/20028524/"
-    ]
-   ]
-  },
-  {
-   "id": "g-starship",
-   "scope": "global",
-   "cat": "tech",
-   "emoji": "🚀",
+   "emoji": "🔢",
    "date": "2026-11-13",
-   "kind": "calendar",
-   "when": "Coming up: Friday in Texas, early Saturday in India",
+   "kind": "news",
    "x": {
-    "t": "Can a tower catch a giant rocket?",
+    "t": "A maths guess from 1960 about today did not come true",
     "b": [
-     "A company called [[spacex|SpaceX]] has a giant rocket named [[starship|Starship]]. It has two parts.",
-     "Most rockets are used once and thrown away. SpaceX wants to use Starship again and again.",
-     "So its launch tower has two big arms. On the next flight, they will try to catch both parts!"
+     "In 1960, three scientists did some maths. They looked at how fast the number of people on Earth was growing.",
+     "Their maths said the number would shoot up without end on one day. That day is today, Friday 13 November 2026!",
+     "It did not happen. The number of people kept growing, but more slowly."
     ]
    },
    "o": {
-    "t": "SpaceX plans to catch both halves of its Starship rocket",
+    "t": "A famous 1960 population sum about today got it wrong",
     "b": [
-     "[[spacex|SpaceX]] is preparing the 15th test flight of [[starship|Starship]], its giant two-part rocket. Launch is planned for no earlier than Friday 13 November from Starbase in Texas. In India, that would be about 4.15 am on Saturday. The date could still change.",
-     "The aim is something never done before: catching both parts of the rocket. The launch tower has two mechanical arms, nicknamed chopsticks. They are meant to catch the booster about six and a half minutes after liftoff. The upper part, called Ship, should circle Earth about 14 times and be caught about 22 and a half hours after launch.",
-     "Most rockets are thrown away after one flight. A [[reusable|reusable]] rocket can fly again. The flight will also carry 26 Starlink internet satellites into [[orbit|orbit]]. Ship will return to the launch site only if its systems are healthy. If not, it will come down in the sea."
+     "In 1960, three scientists led by [[von-foerster|Heinz von Foerster]] of the University of Illinois published a paper in the journal Science. Its title was \"Doomsday: Friday, 13 November, A.D. 2026\". Today is that date, and the world is fine.",
+     "The scientists studied estimates of the world's [[population|population]] over the past 2,000 years. They saw that each doubling had taken less time than the one before. If that pattern carried on, their curve said the number of people would rise without limit on this exact day. The dramatic title was partly meant to draw attention to how fast the population was growing.",
+     "Instead, population growth peaked in the early 1960s and has slowed since. The [[un|United Nations]] expects the world's population to reach a peak of just over 10 billion in the 2080s, and then slowly fall."
     ]
    },
-   "think": "What things at home do you throw away after one use that could be made reusable?",
+   "think": "Why is it hard to predict the future, even when you use good maths?",
    "quiz": {
-    "q": "What are the launch tower's catching arms nicknamed?",
+    "q": "What did the 1960 paper predict for 13 November 2026?",
     "a": [
-     "Chopsticks",
-     "Scissors",
-     "Tongs",
-     "Elbows"
+     "The number of people would rise without limit",
+     "The Moon would come closer to Earth",
+     "All the world's ice would melt",
+     "Every computer would stop working"
     ],
     "c": 0
    },
    "src": [
     [
-     "Space.com, 11 Nov",
-     "https://www.space.com/space-exploration/launches-spacecraft/spacex-starship-flight-15-1st-booster-ship-double-catch-full-recovery-what-time"
+     "ABC News (Australia), 13 Nov",
+     "https://www.abc.net.au/news/science/2026-11-13/world-has-avoided-a-predicted-population-doomsday/107320748"
     ],
     [
-     "WFTV, 8 Nov",
-     "https://www.wftv.com/news/local/spacex-plans-first-ever-catch-starship-spacecraft-during-next-launch/EATBSQ7XXRACFOQHNXIVI66UHQ/"
+     "Euronews, 12 Nov (updated 13 Nov)",
+     "https://www.euronews.com/2026/11/12/doomsday-studys-prediction-of-the-end-of-the-world-on-13-november-2026-fails"
     ],
     [
-     "Aerospace Global News, 9 Nov",
-     "https://aerospaceglobalnews.com/?p=56105"
-    ],
-    [
-     "Space.com live updates, 12 Nov",
-     "https://www.space.com/news/live/spacex-starship-flight-15-live-updates-nov-11-2026-starship-first-double-landing-attempt"
+     "Popular Science, 13 Oct",
+     "https://www.popsci.com/science/world-end-overpopulation-doomsday-november-2026/"
     ]
    ]
   },
   {
-   "id": "g-atp",
+   "id": "g-poisontips",
+   "scope": "global",
+   "cat": "history",
+   "emoji": "🏹",
+   "date": "2026-11-12",
+   "kind": "news",
+   "x": {
+    "t": "Ancient stone tips may have carried plant poison",
+    "b": [
+     "Long ago, a big lake sat in a place that is now desert. It was in [[saudi-arabia|Saudi Arabia]].",
+     "Hippos and camels lived near the lake. So did people!",
+     "Scientists found stone tips by the old lake. Some had tiny traces of a poison plant. People may have used them for hunting."
+    ]
+   },
+   "o": {
+    "t": "Ancient Arabian stone points may be the oldest poisoned weapons",
+    "b": [
+     "About 125,000 years ago, a lake of about 340 square kilometres lay in what is now the [[empty-quarter|Empty Quarter]] desert of [[saudi-arabia|Saudi Arabia]]. It was up to 29 metres deep. Scientists studying its old shoreline found more than 5,500 stone tools, along with bones of hippos, buffalo, camels, gazelles and oryx.",
+     "Some stone points carried [[residue|residues]] linked to a plant known as the arrow poison tree. That could make them the oldest known poisoned hunting weapons. Traces of resin, plant fibres and wood suggest the stone tips were fixed onto handles.",
+     "The study is a piece of [[archaeology|archaeology]] published in the journal Science on 12 November. It was led by Chris Clarkson of Griffith University in Australia, working with researchers from KAUST, a university in Saudi Arabia."
+    ]
+   },
+   "think": "What clues could a scientist find on an old tool to work out how people used it?",
+   "quiz": {
+    "q": "Which animal's bones were found near the ancient lake?",
+    "a": [
+     "Hippo",
+     "Penguin",
+     "Polar bear",
+     "Kangaroo"
+    ],
+    "c": 0
+   },
+   "src": [
+    [
+     "Live Science, 12 Nov",
+     "https://www.livescience.com/archaeology/middle-east/125-000-year-old-poisoned-stone-points-discovered-on-shore-of-ancient-lake-in-saudi-arabia"
+    ],
+    [
+     "Gizmodo, 12 Nov",
+     "https://gizmodo.com/prehistoric-humans-living-around-arabian-lake-may-have-crafted-poisonous-weapons-2000838919"
+    ],
+    [
+     "EurekAlert (KAUST and Griffith University), 12 Nov",
+     "https://www.eurekalert.org/news-releases/1151234"
+    ]
+   ]
+  },
+  {
+   "id": "g-kane",
    "scope": "global",
    "cat": "sports",
-   "emoji": "🎾",
+   "emoji": "⚽",
    "date": "2026-11-12",
    "kind": "news",
    "x": {
-    "t": "Tennis's best eight get ready for the finals",
+    "t": "Harry Kane sets an England record and scores the winner",
     "b": [
-     "Only eight singles players get into this tennis contest. They are the top eight of the whole year!",
-     "It is called the [[atp-finals|ATP Finals]]. It starts on Sunday in [[turin|Turin]], a city in Italy.",
-     "The players are split into two groups of four. Four of them have never played in it before."
+     "[[kane|Harry Kane]] plays football for England. On Thursday he played his 126th game for his country.",
+     "No man has played more games for England! He also scored the winning goal.",
+     "England beat Croatia 2-1 at [[wembley|Wembley]] stadium in London."
     ]
    },
    "o": {
-    "t": "ATP Finals draw: four first-timers, and no Sinner",
+    "t": "Harry Kane plays a record 126th game for England, and wins it",
     "b": [
-     "The draw for the [[atp-finals|ATP Finals]] was made on Thursday 12 November in [[turin|Turin]], Italy. The tournament brings together the top eight men's singles players of the season. It runs from 15 to 22 November on indoor hard courts.",
-     "The players are split into two groups of four. In this [[round-robin|round-robin]] stage, everyone plays everyone else in their group, and the top two from each group reach the semi-finals. Top seed Alexander Zverev and third seed Ben Shelton are in one group. Second seed Carlos Alcaraz and fourth seed Daniil Medvedev are in the other.",
-     "Four of the eight are playing the event for the first time. One famous name is missing: Jannik Sinner, the reigning champion, is out with a knee injury. The semi-finals are on 21 November and the final is on 22 November."
+     "[[kane|Harry Kane]] played his 126th game for England on Thursday 12 November. That makes him England's most-capped men's player. Each game a player plays for their country is called a [[cap|cap]]. Kane moved past the old record holder, goalkeeper Peter Shilton.",
+     "England beat Croatia 2-1 at [[wembley|Wembley]] in the [[nations-league|Nations League]]. Morgan Rogers scored first, Croatia's Petar Sučić made it 1-1, and Kane scored the winning goal from a penalty. It was his 92nd goal for England.",
+     "The win sends England into the quarter-finals. On Sunday they play Spain in Madrid to decide who finishes top of the group."
     ]
    },
-   "think": "Is a group stage, where one loss does not knock you out, fairer than a knockout? Why?",
+   "think": "Harry Kane has played for England 126 times. What is something you would like to keep doing for many years?",
    "quiz": {
-    "q": "How many singles players qualify for the ATP Finals?",
+    "q": "Whose record did Harry Kane pass?",
     "a": [
-     "Eight",
-     "Four",
-     "Sixteen",
-     "Thirty-two"
+     "Peter Shilton",
+     "Morgan Rogers",
+     "Petar Sučić",
+     "Wayne Rooney"
     ],
     "c": 0
    },
    "src": [
     [
-     "Tennis Majors, 12 Nov",
-     "https://www.tennismajors.com/atp/nitto-atp-finals-atp/atp-finals-draw-zverev-gets-us-open-final-rematch-with-shelton-alcaraz-drawn-with-medvedev-866813.html"
+     "The FA (England Football), 12 Nov",
+     "https://www.englandfootball.com/england/mens-senior-team/fixtures-results/2026-27/nations-league/england-v-croatia-uefa-nations-league-thursday-12-november-2026-match-centre"
     ],
     [
-     "Tennis365, 12 Nov",
-     "https://www.tennis365.com/tennis-news/atp-finals-draw-alexander-zverev-ben-shelton-carlos-alcaraz-daniil-medvedev"
+     "Sky Sports, 12 Nov",
+     "https://www.skysports.com/football/news/13611570/england-2-1-croatia-harry-kane-scores-winner-as-he-become-three-lions-record-appearance-maker-to-book-nations-league-quarter-final"
     ],
     [
-     "LTA, ATP Finals format",
-     "https://www.lta.org.uk/major-tennis-events/international-events/nitto-atp-finals/nitto-atp-finals-format/"
+     "Al Jazeera, 12 Nov",
+     "https://www.aljazeera.com/amp/sports/2026/11/12/italy-fight-back-to-beat-france-3-1-and-move-top-of-nations-league-group"
     ]
    ]
   },
   {
-   "id": "g-asean",
+   "id": "g-nkflag",
    "scope": "global",
    "cat": "world",
-   "emoji": "🤝",
-   "date": "2026-11-12",
+   "emoji": "🚩",
+   "date": "2026-11-13",
    "kind": "news",
    "x": {
-    "t": "Leaders of Asian neighbours will meet in Manila",
+    "t": "North Korea changes the shape of its flag",
     "b": [
-     "Countries that are neighbours often work together. In South-East Asia, a group called [[asean|ASEAN]] does this.",
-     "Its leaders will meet in [[manila|Manila]], in the [[philippines|Philippines]]. The meeting begins on Sunday.",
-     "Friends of the group are invited too. India is one of them."
+     "Every country's flag has a shape. Some flags are long and thin. Some are closer to a square.",
+     "[[north-korea|North Korea]] has made its flag a little less wide. The colours and the red star stay the same.",
+     "It is the first change to the flag's shape since 1948."
     ]
    },
    "o": {
-    "t": "Manila gets ready to host 19 leaders at the ASEAN Summit",
+    "t": "North Korea changes its flag's shape for the first time since 1948",
     "b": [
-     "The [[philippines|Philippines]] will host the 49th [[asean|ASEAN]] [[summit|Summit]] in [[manila|Manila]], opening on Sunday 15 November. On 11 November, the country's foreign ministry said at least 19 leaders of countries and world organisations had confirmed they would come.",
-     "ASEAN is a group of South-East Asian countries, among them Indonesia, Malaysia, Singapore, Thailand and Vietnam. Its meetings give the countries a place to talk through shared challenges and to cooperate. This year's host, President Ferdinand R. Marcos Jr. of the Philippines, chairs the summit.",
-     "After the main summit, the group meets its partner countries on 16 and 17 November. India is one of those partners, along with Australia, China, Japan, South Korea and others. At the end, the Philippines will hand the job of chair to Singapore, because the members take turns to lead the group."
+     "[[north-korea|North Korea]] has changed the shape of its national flag. Its revised [[constitution|constitution]], posted on a state website called Naenara, says the flag's height and width must now be in the [[ratio|ratio]] 1 to 1.65. Before, the ratio was 1 to 2.",
+     "That means the flag is now less wide. For every 1 metre of height, the flag used to be 2 metres wide. Now it is 1.65 metres wide. The new rule is in Article 166 of the constitution.",
+     "Reports say the central red field, the white and blue stripes and the red five-pointed star stay the same. It is the first change to the flag's proportions in 78 years, since the country was founded in 1948."
     ]
    },
-   "local": {
-    "IN": "India takes part as one of ASEAN's partner countries."
-   },
-   "think": "What problems are easier to solve when neighbours work together?",
+   "think": "If your class had its own flag, what would you put on it, and what shape would it be?",
    "quiz": {
-    "q": "Which country takes over as ASEAN chair after the Philippines?",
+    "q": "What is the new height-to-width ratio of North Korea's flag?",
     "a": [
-     "Singapore",
-     "India",
-     "Japan",
-     "Australia"
+     "1 to 1.65",
+     "1 to 2",
+     "1 to 1",
+     "2 to 3"
     ],
     "c": 0
    },
    "src": [
     [
-     "Philippine News Agency, 12 Nov",
-     "https://www.pna.gov.ph/article/19-world-leaders-confirmed-to-attend-asean-summit-in-manila-dfa"
+     "Korea Herald, 13 Nov",
+     "https://www.koreaherald.com/article/10936515"
     ],
     [
-     "Philstar.com, 12 Nov",
-     "https://www.philstar.com/headlines/2026/11/12/2569644/donald-trump-join-marcos-asean-leaders-manila-summit-nov-17"
+     "Yonhap via Korea Herald, 13 Nov",
+     "https://www.koreaherald.com/article/10936358"
     ],
     [
-     "Anadolu via anews, 11 Nov",
-     "https://www.anews.com.tr/world/2026/11/11/philippines-set-to-host-asean-summit-with-focus-on-collective-responses-to-shared-challenges"
-    ]
-   ]
-  },
-  {
-   "id": "g-chimps",
-   "scope": "global",
-   "cat": "nature",
-   "emoji": "🐵",
-   "date": "2026-11-10",
-   "kind": "news",
-   "x": {
-    "t": "Young chimps learn manners from grown-ups",
-    "b": [
-     "Have you ever blown a raspberry? [[chimpanzee|Chimpanzees]] make that funny lip noise too!",
-     "Wild chimps make it at a special time. They do it while cleaning each other's fur.",
-     "Scientists found that young chimps learn the right time from older chimps. It is a bit like how you learn words."
-    ]
-   },
-   "o": {
-    "t": "Chimpanzees learn when to 'blow a raspberry' from their elders",
-    "b": [
-     "[[chimpanzee|Chimpanzees]] make a sound with their lips that is a lot like a person blowing a raspberry. A new study in the science journal PNAS compared 91 chimpanzees to find out how they use it.",
-     "Wild chimpanzees in Taï National Park in [[ivory-coast|Côte d'Ivoire]] made the sound almost only during [[grooming|grooming]], when they clean each other's fur. Orphaned chimpanzees growing up at a [[sanctuary|sanctuary]] in Sierra Leone, with only others of their own age, used it in a much wider range of situations.",
-     "When an adult joined an orphan group, something changed. Over time, the group began to use the sound the way the adult did. Scientists had assumed such calls were inborn. The researchers, led by Antoine Valet, say this shows that chimpanzees can learn when to use a sound from those around them."
-    ]
-   },
-   "think": "Which words or habits have you picked up from older children or grown-ups without being taught?",
-   "quiz": {
-    "q": "When do wild chimpanzees mostly make the raspberry sound?",
-    "a": [
-     "While grooming",
-     "While sleeping",
-     "While climbing",
-     "While eating"
-    ],
-    "c": 0
-   },
-   "src": [
-    [
-     "University of Warwick, 10 Nov",
-     "https://warwick.ac.uk/news/pressreleases/chimpanzees-blowing-raspberries"
-    ],
-    [
-     "Popular Science, 9 Nov",
-     "https://www.popsci.com/environment/chimpanzees-blow-raspberries-learn-sounds/"
-    ],
-    [
-     "Max Planck Institute via EurekAlert, 9 Nov",
-     "https://www.eurekalert.org/news-releases/1150863"
+     "NK News, 12 Nov",
+     "https://www.nknews.org/2026/11/north-korea-modifies-national-flag-in-break-with-decades-old-design/"
     ]
    ]
   }
@@ -977,314 +705,296 @@
    "words",
    "A safe place where animals are looked after.",
    "A safe place where animals, such as orphaned chimpanzees, are cared for."
+  ],
+  "lakshya": [
+   "Lakshya Sen",
+   "people",
+   "A badminton player from India.",
+   "An Indian badminton player who competes in top tournaments around the world."
+  ],
+  "kumamoto": [
+   "Kumamoto",
+   "places",
+   "A city in Japan.",
+   "A city on the island of Kyushu, in southern Japan."
+  ],
+  "seed": [
+   "seed",
+   "words",
+   "A top player who is kept away from other top players early on.",
+   "A player ranked highly before a tournament and placed in the draw so the top players do not meet in the early rounds."
+  ],
+  "bengaluru": [
+   "Bengaluru",
+   "places",
+   "A big city in south India.",
+   "The capital city of Karnataka state, in south India."
+  ],
+  "namma-metro": [
+   "Namma Metro",
+   "civics",
+   "The metro trains in Bengaluru.",
+   "Bengaluru's metro rail system. Namma means 'our' in Kannada."
+  ],
+  "chief-minister": [
+   "Chief Minister",
+   "civics",
+   "The leader of a state's government.",
+   "The head of the government of an Indian state."
+  ],
+  "elevated": [
+   "elevated",
+   "words",
+   "Raised up high.",
+   "Built above the ground, for example on pillars over a road."
+  ],
+  "crore": [
+   "crore",
+   "words",
+   "A very big number: 1 with seven zeros after it.",
+   "An Indian unit for 10 million, written 1,00,00,000."
+  ],
+  "harmanpreet": [
+   "Harmanpreet Kaur",
+   "people",
+   "A cricket star who led India's women's team.",
+   "An Indian cricketer who captained India to the 2025 Women's ODI World Cup title."
+  ],
+  "wax-statue": [
+   "wax statue",
+   "words",
+   "A life-size model of a person made of wax.",
+   "A lifelike figure of a person, made from wax and painted to look real."
+  ],
+  "jaipur": [
+   "Jaipur",
+   "places",
+   "A city in Rajasthan, India.",
+   "The capital city of Rajasthan, in north-west India."
+  ],
+  "odi": [
+   "ODI",
+   "words",
+   "A cricket match between countries that lasts one day.",
+   "One Day International: a cricket match between countries in which each team bats for up to 50 overs."
+  ],
+  "wicket": [
+   "wicket",
+   "words",
+   "When the bowling team gets a batter out, it takes a wicket.",
+   "In cricket, taking a wicket means getting a batter out. A team is all out after losing 10 wickets."
+  ],
+  "tauranga": [
+   "Tauranga",
+   "places",
+   "A city in New Zealand, by the sea.",
+   "A coastal city on the North Island of New Zealand."
+  ],
+  "kane": [
+   "Harry Kane",
+   "people",
+   "A footballer who plays for England.",
+   "An English footballer who plays as a striker for England's national team."
+  ],
+  "cap": [
+   "cap",
+   "words",
+   "One game played for your country.",
+   "In football, each game a player plays for their national team is called a cap."
+  ],
+  "wembley": [
+   "Wembley",
+   "places",
+   "A huge football stadium in London.",
+   "England's national football stadium, in London."
+  ],
+  "nations-league": [
+   "Nations League",
+   "words",
+   "A football contest between teams from Europe.",
+   "The UEFA Nations League, a competition between the national teams of Europe."
+  ],
+  "von-foerster": [
+   "Heinz von Foerster",
+   "people",
+   "A scientist who did maths about the number of people on Earth.",
+   "An Austrian-American physicist at the University of Illinois who led the 1960 population paper."
+  ],
+  "population": [
+   "population",
+   "words",
+   "The number of people living in a place.",
+   "The total number of people living in a place, such as a country or the whole world."
+  ],
+  "saudi-arabia": [
+   "Saudi Arabia",
+   "places",
+   "A big country in western Asia with lots of desert.",
+   "A country that covers most of the Arabian Peninsula in western Asia."
+  ],
+  "empty-quarter": [
+   "Empty Quarter",
+   "places",
+   "A huge, sandy desert.",
+   "A vast sand desert in the south of the Arabian Peninsula, also called the Rub' al Khali."
+  ],
+  "residue": [
+   "residue",
+   "words",
+   "A tiny bit of something left behind.",
+   "A small trace of a substance left on a surface, which scientists can test."
+  ],
+  "north-korea": [
+   "North Korea",
+   "places",
+   "A country in East Asia.",
+   "A country in East Asia, on the northern half of the Korean Peninsula."
+  ],
+  "constitution": [
+   "constitution",
+   "civics",
+   "The most important set of rules for a country.",
+   "The main written set of rules that says how a country is run."
+  ],
+  "ratio": [
+   "ratio",
+   "words",
+   "A way to compare two numbers.",
+   "A way of comparing two amounts, such as a flag's height and width, written like 1 to 2 or 1:2."
   ]
  },
  "keys": {
-  "in-yog-gold": {
+  "in-lakshya": {
    "type": "number",
-   "v": "10",
-   "l": "medals for India at the Dakar Games so far: 2 gold, 3 silver and 5 bronze"
+   "v": "40 min",
+   "l": "how long Lakshya's quarterfinal win lasted"
   },
-  "in-amrit": {
+  "in-pinkline": {
    "type": "number",
-   "v": "22",
-   "l": "coaches on the new train, 9 of them air-conditioned"
+   "v": "7.5 km",
+   "l": "length of the new elevated stretch, with six stations"
   },
-  "in-blueflag": {
+  "in-odi-nz": {
    "type": "number",
-   "v": "22",
-   "l": "beaches in India with a Blue Flag for 2026-27, including 9 new ones"
+   "v": "244",
+   "l": "runs New Zealand won by"
   },
-  "in-isro": {
+  "g-popmaths": {
    "type": "number",
-   "v": "200 s",
-   "l": "how long the engine was fired during the test"
+   "v": "2080s",
+   "l": "when the UN expects world population to peak, at just over 10 billion"
   },
-  "in-prices": {
+  "g-poisontips": {
    "type": "number",
-   "v": "6.09%",
-   "l": "how much higher prices were in October than a year earlier"
+   "v": "125,000",
+   "l": "years ago, when the lake was there"
   },
-  "g-cop31": {
+  "g-kane": {
    "type": "number",
-   "v": "14",
-   "l": "countries that have publicly backed the electricity pledge so far, by Climate Home News's count"
+   "v": "126",
+   "l": "games Harry Kane has played for England, a men's record"
   },
-  "g-romanleg": {
+  "g-nkflag": {
    "type": "number",
-   "v": "1820",
-   "l": "the year the bronze leg was dug out of the bog"
-  },
-  "g-frogs": {
-   "type": "number",
-   "v": "8,000",
-   "l": "frog bones found in a single ditch"
-  },
-  "g-reef": {
-   "type": "number",
-   "v": "302 m",
-   "l": "the length of the SS United States, now on the sea floor"
-  },
-  "g-starship": {
-   "type": "number",
-   "v": "22.5 hours",
-   "l": "the planned time between launch and catching the upper part, called Ship"
-  },
-  "g-atp": {
-   "type": "number",
-   "v": "8",
-   "l": "singles players who qualify: the top eight of the season"
-  },
-  "g-asean": {
-   "type": "number",
-   "v": "19",
-   "l": "leaders of countries and world organisations confirmed so far, at the least"
-  },
-  "g-chimps": {
-   "type": "number",
-   "v": "91",
-   "l": "chimpanzees compared in the study, aged from newborn to 55"
+   "v": "1:1.65",
+   "l": "the flag's new height-to-width ratio, changed from 1:2"
   }
  },
  "xkeys": {
-  "in-yog-gold": {
+  "g-nkflag": {
    "type": "check",
-   "q": "How many gold medals did India's boxers win?",
+   "q": "Is North Korea's flag now wider or less wide than before?",
    "a": [
-    "Two",
-    "Five"
+    "Less wide",
+    "Wider"
    ],
    "c": 0,
-   "right": "Right! Two boxers, two golds.",
-   "wrong": "Not quite. Read it again!"
+   "right": "Yes! It used to be 2 times as wide as it is tall. Now it is 1.65 times.",
+   "wrong": "Not quite. The flag got a little less wide."
   },
-  "in-amrit": {
+  "g-popmaths": {
    "type": "check",
-   "q": "Where did the new train go?",
-   "a": [
-    "Patna",
-    "London"
-   ],
-   "c": 0,
-   "right": "Right! It went from New Delhi to Patna.",
-   "wrong": "Not quite. Read it again!"
-  },
-  "in-blueflag": {
-   "type": "check",
-   "q": "How many beaches in Maharashtra won a Blue Flag?",
-   "a": [
-    "Three",
-    "Thirty"
-   ],
-   "c": 0,
-   "right": "Right! Ladghar, Guhagar and Shrivardhan.",
-   "wrong": "Not quite. Read it again!"
-  },
-  "in-isro": {
-   "type": "check",
-   "q": "Did the engine fly into space during the test?",
+   "q": "Did the 1960 maths guess about today come true?",
    "a": [
     "No",
     "Yes"
    ],
    "c": 0,
-   "right": "Right! It was a test before the real flight.",
-   "wrong": "Not quite. Read it again!"
-  },
-  "in-prices": {
-   "type": "check",
-   "q": "What is it called when prices keep going up?",
-   "a": [
-    "Inflation",
-    "Vacation"
-   ],
-   "c": 0,
-   "right": "Right! It is called inflation.",
-   "wrong": "Not quite. Read it again!"
-  },
-  "g-romanleg": {
-   "type": "check",
-   "q": "Has the rest of the statue been found?",
-   "a": [
-    "No",
-    "Yes"
-   ],
-   "c": 0,
-   "right": "Right! It is still a mystery.",
-   "wrong": "Not quite. Read it again!"
-  },
-  "g-frogs": {
-   "type": "check",
-   "q": "What kind of animal probably ate the frogs?",
-   "a": [
-    "Birds",
-    "Sharks"
-   ],
-   "c": 0,
-   "right": "Right! Hunting birds, such as owls.",
-   "wrong": "Not quite. Read it again!"
-  },
-  "g-reef": {
-   "type": "check",
-   "q": "Was the ship sunk on purpose?",
-   "a": [
-    "Yes",
-    "No"
-   ],
-   "c": 0,
-   "right": "Right! It will be a home for sea life.",
-   "wrong": "Not quite. Read it again!"
-  },
-  "g-starship": {
-   "type": "check",
-   "q": "How many parts does Starship have?",
-   "a": [
-    "Two",
-    "Ten"
-   ],
-   "c": 0,
-   "right": "Right! A booster and an upper part called Ship.",
-   "wrong": "Not quite. Read it again!"
-  },
-  "g-atp": {
-   "type": "check",
-   "q": "How many singles players get in?",
-   "a": [
-    "Eight",
-    "Eighty"
-   ],
-   "c": 0,
-   "right": "Right! Only the top eight get in.",
-   "wrong": "Not quite. Read it again!"
-  },
-  "g-chimps": {
-   "type": "check",
-   "q": "Who do young chimps learn from?",
-   "a": [
-    "Older chimps",
-    "Fish"
-   ],
-   "c": 0,
-   "right": "Right! They copy their elders.",
-   "wrong": "Not quite. Read it again!"
+   "right": "Right! The number of people grew more slowly instead.",
+   "wrong": "Not this time. The guess was wrong, and growth slowed down."
   }
  },
  "deep": {
-  "in-yog-gold": {
-   "ctx": "An Olympic boxing bout has three rounds, and five judges do the scoring. A result of three judges to two is a split decision, and five to none is unanimous. India's two earlier Youth Olympic boxing medals, a silver and a bronze, both came at the Singapore Games in 2010, so it took 16 years to go one better.",
-   "ask": "Is it fair for a sport to be decided by judges' opinions, or should only things that can be measured count?",
+  "in-lakshya": {
+   "ctx": "A badminton match is the best of three games, and a game is won by reaching 21 points with a lead of at least two. Super 500 is one of the levels of tournament on badminton's world tour. Lakshya beat a home player in Japan to reach the last four.",
+   "ask": "Should young athletes play in as many tournaments as possible, or play fewer and rest more between them?",
    "jobs": [
-    "Boxing coach",
-    "Sports nutritionist",
-    "Referee or judge"
+    "Badminton coach",
+    "Sports physiotherapist",
+    "Sports data analyst"
    ]
   },
-  "in-amrit": {
-   "ctx": "The new train has 22 coaches. Nine are air-conditioned, six are sleeper coaches and four are general coaches, and there is also a pantry car. It was built at the Integral Coach Factory in Chennai. Push-pull means there is a locomotive at each end of the train, the trade site Metro Rail News reports.",
-   "ask": "Should railways spend more on comfortable new trains, or on running more ordinary trains so that nobody is left without a seat?",
+  "in-pinkline": {
+   "ctx": "Metro lines carry passengers on their own tracks, away from road traffic. This 7.5 km elevated stretch is the first part of the Pink Line to open, and it links with another line at Jayadeva Hospital station. Bengaluru's metro network is now more than 100 km long.",
+   "ask": "Should cities spend more on metro lines, which take years to build, or on buses, which can start running much sooner?",
    "jobs": [
-    "Railway engineer",
-    "Train driver (loco pilot)",
-    "Transport planner"
+    "Civil engineer",
+    "Urban transport planner",
+    "Metro train operator"
    ]
   },
-  "in-blueflag": {
-   "ctx": "The standards a Blue Flag beach must meet also include environmental conservation and sustainable tourism management. Maharashtra credits its environment and tourism departments, working with district administrations, local bodies and communities. The state says it will keep working to bring other eligible beaches up to international standards.",
-   "ask": "An award brings more tourists. Is that good for a clean beach, or does it put the beach at risk?",
+  "in-harmanpreet": {
+   "ctx": "India's women won their first ODI World Cup in November 2025, with Harmanpreet Kaur as captain. She has since stepped down as captain. She compared the win with 1983, the year India's men first won the World Cup.",
+   "ask": "Do statues and honours for sports stars inspire children to play, or would the money and attention do more good spent on training young players?",
    "jobs": [
-    "Marine biologist",
-    "Lifeguard",
-    "Environmental officer"
+    "Sculptor",
+    "Sports journalist",
+    "Cricket coach"
    ]
   },
-  "in-isro": {
-   "ctx": "The engine is the CE-7.5, which powers the GSLV's third stage, Voice&Data reports. It burns liquid hydrogen with liquid oxygen. GSLV stands for Geosynchronous Satellite Launch Vehicle. NavIC stands for Navigation with Indian Constellation, and it covers India and an area reaching about 1,500 km beyond its borders.",
-   "ask": "Should a country build its own satellite navigation system if it can already use another country's?",
+  "in-odi-nz": {
+   "ctx": "In an ODI each team can bat for up to 50 overs, and a team is all out when 10 batters have been dismissed. India lead the five-match series 2-1, so even if New Zealand win on Sunday, the series would end level.",
+   "ask": "After a heavy defeat, should a team change several players for the next match, or keep faith in the same side?",
    "jobs": [
-    "Propulsion engineer",
-    "Satellite navigation engineer",
-    "Test facility technician"
+    "Cricket analyst",
+    "Fast-bowling coach",
+    "Sports commentator"
    ]
   },
-  "in-prices": {
-   "ctx": "The figure comes from the consumer price index, which tracks the prices consumers pay for a basket of goods and services. Each month is compared with the same month a year earlier. Garlic was about 61 per cent dearer than a year ago and lemons about 47 per cent. The last time inflation was above 6 per cent was October 2024, when it was 6.25 per cent, the Press Trust of India reports.",
-   "ask": "When food prices jump, should a government step in to control them, or let them settle on their own?",
+  "g-popmaths": {
+   "ctx": "The 1960 paper used estimates of world population going back 2,000 years. Its curve only worked while growth kept speeding up. Growth peaked in the early 1960s, soon after the paper came out, so the prediction began to drift away from reality.",
+   "ask": "Is it helpful for scientists to use bold, dramatic predictions to get attention for a problem, or can that make people trust science less?",
    "jobs": [
-    "Economist",
+    "Demographer, who studies populations",
     "Statistician",
-    "Farm market analyst"
+    "Science journalist"
    ]
   },
-  "g-cop31": {
-   "ctx": "A report published this week, the Global Carbon Budget, projects that carbon dioxide from burning coal, oil and gas will dip by 0.4 per cent in 2026, to 38.2 billion tonnes. But total emissions, which also count changes in land use such as forest loss, are projected to rise to 43.3 billion tonnes, up from 42.8 billion tonnes last year. At COP31, countries still disagree about money for adapting to climate change and about what the final text should say on fossil fuels.",
-   "ask": "Should countries that grew rich by burning fossil fuels pay more to tackle climate change than countries that are still developing?",
-   "jobs": [
-    "Climate negotiator",
-    "Energy analyst",
-    "Environmental journalist"
-   ]
-  },
-  "g-romanleg": {
-   "ctx": "Antoninus Pius was Roman emperor from AD 138 to 161. Around AD 142 his army began building the Antonine Wall, a turf rampart about 60 km long across Scotland. The Romans held it for about 20 years before pulling back to Hadrian's Wall. Curator Fraser Hunter says the finding changes our understanding of this second Roman attempt to conquer Scotland.",
-   "ask": "The statue was put up by an invading army, but the leg was found in Scotland. Who should decide how objects like this are displayed, and whose story they tell?",
+  "g-poisontips": {
+   "ctx": "Bones of hippos and buffalo show that this part of Arabia, now a sandy desert, once had a large lake and plenty of water. The lake existed about 125,000 years ago. The poison evidence comes from traces on the stone points, which is why the scientists say they could be, rather than are, the oldest poisoned weapons.",
+   "ask": "Should scientists announce a possible 'oldest ever' find before they are completely sure, or wait for more proof?",
    "jobs": [
     "Archaeologist",
-    "Museum curator",
-    "Metal conservator"
+    "Chemist who studies ancient residues",
+    "Palaeontologist"
    ]
   },
-  "g-frogs": {
-   "ctx": "The study, in the journal Environmental Archaeology, was done with MOLA, short for Museum of London Archaeology. One of the authors is a zooarchaeologist, a scientist who studies animal bones from archaeological sites. Snail shells, pollen and charcoal from the site helped the team picture the landscape: wet ground left by retreating fen waters, with woodland cleared for grazing animals.",
-   "ask": "Roads and buildings often have to wait until archaeologists have checked the ground. Is that delay worth it?",
+  "g-kane": {
+   "ctx": "The Nations League is a competition for European national teams. England's win took them into the quarter-finals, and Sunday's match against Spain in Madrid decides who wins the group. Kane passed Peter Shilton, a goalkeeper, to set the new men's record.",
+   "ask": "Which is more impressive for a footballer: playing a record number of games for their country, or scoring a record number of goals?",
    "jobs": [
-    "Zooarchaeologist",
-    "Field archaeologist",
-    "Wildlife ecologist"
-   ]
-  },
-  "g-reef": {
-   "ctx": "The waters off this part of Florida already hold more than 500 artificial reefs. The previous largest was the aircraft carrier USS Oriskany, 278 metres long, sunk off Pensacola in 2006. Before the sinking, the liner's funnels and radar mast were removed for a planned museum about the ship. It had been docked in Philadelphia from 1996 until February 2025.",
-   "ask": "Is sinking a historic ship to help sea life a good use of it, or a loss of history that cannot be undone?",
-   "jobs": [
-    "Marine biologist",
-    "Salvage engineer",
-    "Scuba diving instructor"
-   ]
-  },
-  "g-starship": {
-   "ctx": "SpaceX first caught a Starship booster with the tower arms in October 2024, Aerospace Global News reports. Space.com says the previous flight, in September 2026, was Starship's first orbital test. SpaceX calls the goal of this flight the first full recovery of an orbital launch system.",
-   "ask": "Rocket launches are becoming more frequent. Who should decide how many satellites are allowed in the sky?",
-   "jobs": [
-    "Aerospace engineer",
-    "Flight controller",
-    "Robotics engineer"
-   ]
-  },
-  "g-atp": {
-   "ctx": "The two groups are called the John McEnroe Group and the Ivan Lendl Group. If a player withdraws, an alternate steps in: Alex de Minaur is first in line, then Taylor Fritz. The tournament is played at the Inalpi Arena and has been held in Turin since 2021, the website Tennis365 reports.",
-   "ask": "Should a sport's biggest prizes go to the players who are best over a whole year, or to whoever wins on the day?",
-   "jobs": [
-    "Tennis coach",
+    "Football scout",
     "Sports physiotherapist",
-    "Tournament director"
+    "Groundskeeper"
    ]
   },
-  "g-asean": {
-   "ctx": "The Manila meetings include the 21st East Asia Summit on 17 November. The Philippine foreign ministry said the turnout shows ASEAN's convening power and its role as a platform for dialogue and cooperation. The opening ceremony is at the Philippine International Convention Center in Pasay City.",
-   "ask": "Do regular meetings between leaders really solve problems, or are the important decisions made elsewhere?",
+  "g-nkflag": {
+   "ctx": "A fixed ratio means every copy of a flag, small or large, has exactly the same shape. North Korea's new ratio appears in its revised constitution, published on a state website. Reports say the colours and the star stay the same.",
+   "ask": "Should countries keep their national symbols exactly the same forever, or is it fine to update them over time?",
    "jobs": [
-    "Diplomat",
-    "Interpreter",
-    "Trade negotiator"
-   ]
-  },
-  "g-chimps": {
-   "ctx": "The study is described as the first evidence of a learned, shared convention in great ape calls. A convention is a habit that a group shares, such as the meaning of a word. The researchers say chimpanzees struggle to learn brand-new sounds, but can learn when to use the sounds they already make. The orphans in the study live at Tacugama Chimpanzee Sanctuary in Sierra Leone.",
-   "ask": "If animals pass on learned habits, should we say they have culture? What would count as proof?",
-   "jobs": [
-    "Primatologist",
-    "Animal behaviour researcher",
-    "Wildlife sanctuary keeper"
+    "Vexillologist, an expert on flags",
+    "Graphic designer",
+    "Historian"
    ]
   }
  },
@@ -2017,10 +1727,6 @@
     }
    ]
   }
- },
- "sketchFor": {
-  "g-cop31": "greenhouse",
-  "g-starship": "orbit"
  },
  "hiddenWords": [
   {

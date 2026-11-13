@@ -196,7 +196,27 @@ async function loadLiveEdition(){
     const E=await r.json(); if(E.date&&E.date>=EDITION_DATE&&document.documentElement.dataset.edition!==E.date+"-"+(E.edition||"am")) applyEdition(E);
   }catch(e){}
 }
-setTimeout(loadLiveEdition,50);
+window.__edReady=false;
+const _markReady=()=>{ if(window.__edReady) return; window.__edReady=true; dispatchEvent(new Event("ffmpa:edition")); };
+setTimeout(()=>loadLiveEdition().finally(_markReady),50);
+
+/* ===================== Launch screen ===================== */
+(function(){ const el=document.getElementById("splash"); if(!el) return;
+  const standalone=matchMedia("(display-mode: standalone)").matches||navigator.standalone===true||document.referrer.startsWith("android-app://");
+  let seen=false; try{ seen=sessionStorage.getItem("ffmpa-splash")==="1"; sessionStorage.setItem("ffmpa-splash","1"); }catch(e){}
+  if(seen&&!standalone){ el.classList.add("gone"); return; }
+  const lines=["Waking up the newsroom…","Checking every fact twice…","Sharpening the pencils…","Asking the editor…","Spinning up the globe…","Finding today's big story…"];
+  const ln=el.querySelector(".spline"), bar=el.querySelector(".spbar i"); let li=0;
+  const tick=setInterval(()=>{ li=(li+1)%lines.length; if(ln) ln.textContent=lines[li]; },750);
+  const t0=performance.now(), MIN=standalone?2300:1900, MAX=4200; let done=false;
+  setTimeout(()=>{ if(bar) bar.style.width="70%"; },200);
+  const finish=()=>{ if(done) return; done=true; clearInterval(tick); if(bar) bar.style.width="100%"; if(ln) ln.textContent=window.__edReady?"Today's edition is ready!":"Here's the latest edition";
+    setTimeout(()=>{ el.classList.add("out"); setTimeout(()=>el.classList.add("gone"),750); },260); };
+  const whenReady=()=>setTimeout(finish,Math.max(0,MIN-(performance.now()-t0)));
+  if(window.__edReady) whenReady(); else addEventListener("ffmpa:edition",whenReady,{once:true});
+  setTimeout(finish,MAX);
+  el.addEventListener("click",()=>{ if(performance.now()-t0>600) finish(); });
+})();
 
 
 /* ===================== Install as an app ===================== */

@@ -42,10 +42,12 @@ h=h.replace('<title>FFMPA Home</title>',f'<title>{TITLE}</title>\n<meta name="de
 # footer links for crawlers
 if '<a href="/schools/">' not in h: h=h.replace('<nav aria-label="Legal">','<nav aria-label="Legal"><a href="/schools/">For schools</a>',1)
 assert TITLE in h and 'application/ld+json' in h
-h=h.replace('<a class="btn line" href="#get">Android and iPhone</a>','<a class="btn line" href="#get" id="instBtn">Add to home screen</a>',1)
+h=h.replace('<a class="btn line" href="#get">Android and iPhone</a>','<a class="btn line" href="#get" id="instBtn">Download the app</a>',1)
 h=h.replace('<p>The Android app is coming to Google Play. Until then, the web app works in Chrome and can be added to your home screen.</p>','<p>Open ffmpa.com in Chrome and tap <b>Add to home screen</b>. It opens full screen like an app. A Google Play version is coming.</p>',1)
-INST='''<script>(function(){var ev=null,b=document.getElementById('instBtn');addEventListener('beforeinstallprompt',function(e){e.preventDefault();ev=e;if(b){b.textContent='Install the app';}});
-if(b)b.addEventListener('click',function(e){if(ev){e.preventDefault();ev.prompt();ev=null;}});
+INST='''<script>(function(){var ev=null,b=document.getElementById('instBtn');var sa=matchMedia('(display-mode: standalone)').matches||navigator.standalone;if(b&&sa){b.textContent='Open the app';b.href='/app/';}
+addEventListener('beforeinstallprompt',function(e){e.preventDefault();ev=e;});
+addEventListener('appinstalled',function(){if(b){b.textContent='Open the app';b.href='/app/';}});
+if(b)b.addEventListener('click',function(e){if(sa)return;if(ev){e.preventDefault();ev.prompt();ev.userChoice.then(function(c){if(c.outcome==='accepted'&&b){b.textContent='Open the app';b.href='/app/';}});ev=null;}});
 if('serviceWorker' in navigator&&location.protocol==='https:')addEventListener('load',function(){navigator.serviceWorker.register('/sw.js',{scope:'/'}).catch(function(){});});})();</script>'''
 h=h.replace('</head>',GA+'\n</head>',1).replace('</body>',INST+'\n'+GA_BANNER+'\n</body>',1)
 open(OUT+"/index.html","w").write(h)

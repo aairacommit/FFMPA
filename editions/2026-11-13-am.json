@@ -1,0 +1,2581 @@
+{
+ "schema": 1,
+ "date": "2026-11-13",
+ "edition": "am",
+ "countries": [
+  "IN"
+ ],
+ "stories": [
+  {
+   "id": "in-yog-gold",
+   "scope": "IN",
+   "cat": "sports",
+   "emoji": "🥊",
+   "date": "2026-11-12",
+   "kind": "news",
+   "x": {
+    "t": "Two golds for India's young boxers",
+    "b": [
+     "India's young boxers have won two gold medals! They won at the [[yog|Youth Olympic Games]] in [[dakar|Dakar]].",
+     "A boy from Manipur won his final first. Then a girl from Haryana won hers. No Indian boxer had won gold at these Games before.",
+     "India now has 10 medals in all."
+    ]
+   },
+   "o": {
+    "t": "India's boxers win two golds at the Youth Olympics",
+    "b": [
+     "India's boxers won two gold medals at the [[yog|Youth Olympic Games]] in [[dakar|Dakar]], Senegal, on Thursday 12 November. India had sent only two boxers to the Games, and both became champions. They are India's first Youth Olympic gold medals in boxing.",
+     "A boxer from Manipur won the men's 50 kg final against an opponent from Ireland. He lost the first round on all five judges' scorecards, then fought back to win by three judges to two. Later, a boxer from Haryana won the women's 48 kg final against an opponent from Algeria. Her win was [[unanimous|unanimous]]: all five judges chose her.",
+     "The two golds were India's first of these Games. They lift India's total to 10 medals: 2 gold, 3 silver and 5 bronze. India's only earlier Youth Olympic boxing medals were a silver and a bronze in 2010."
+    ]
+   },
+   "think": "The boxer from Manipur lost the first round but still won. What helps you keep going after a bad start?",
+   "quiz": {
+    "q": "How many medals has India won so far at the Youth Olympic Games in Dakar?",
+    "a": [
+     "10",
+     "8",
+     "2",
+     "13"
+    ],
+    "c": 0
+   },
+   "src": [
+    [
+     "myKhel, 12 Nov",
+     "https://www.mykhel.com/more-sports/youth-olympics-2026-manipurs-lairenlakpam-ambekar-meetei-scripts-history-wins-gold-in-mens-50kg-458797.html"
+    ],
+    [
+     "ANI via The Tribune, 13 Nov",
+     "https://www.tribuneindia.com/news/ambekar-meetei/gunjan-wins-historic-gold-as-indian-boxers-complete-golden-double-at-dakar-youth-olympics"
+    ],
+    [
+     "IANS via Prokerala, 12 Nov",
+     "https://www.prokerala.com/news/articles/a1836088.html"
+    ],
+    [
+     "myKhel (women's final), 12 Nov",
+     "https://www.mykhel.com/more-sports/gunjan-wins-indias-first-ever-womens-boxing-gold-at-youth-olympics-458811.html"
+    ],
+    [
+     "NBC Olympics, boxing rules",
+     "https://www.nbcolympics.com/news/boxing-101-olympic-rules-regulations-and-scoring"
+    ]
+   ]
+  },
+  {
+   "id": "in-amrit",
+   "scope": "IN",
+   "cat": "civics",
+   "emoji": "🚆",
+   "date": "2026-11-12",
+   "kind": "news",
+   "x": {
+    "t": "A new kind of train runs for a festival",
+    "b": [
+     "A new kind of train has made its first trip. It went from New Delhi to [[patna|Patna]].",
+     "It ran because of a festival called [[chhath|Chhath]]. Lots of people travel between Delhi and Bihar at this time.",
+     "The train has places to charge phones. Some of its coaches are air-conditioned, and some are not."
+    ]
+   },
+   "o": {
+    "t": "India's first Amrit Bharat 3.0 train runs from New Delhi to Patna",
+    "b": [
+     "[[indian-railways|Indian Railways]] has run its first Amrit Bharat 3.0 train, from New Delhi to [[patna|Patna]]. It set off this week as a special service for [[chhath|Chhath Puja]], when there is a seasonal rush of travellers between Delhi and Bihar.",
+     "Amrit Bharat trains are designed with ordinary and middle-class passengers in mind. This is the first of them to mix air-conditioned coaches with coaches that have no air conditioning. The earlier versions had only sleeper and general coaches.",
+     "The train uses push-pull technology, which allows quicker acceleration. It also has improved suspension, modern toilets and mobile charging points. Reports did not say whether it will keep running as a regular service after the festival."
+    ]
+   },
+   "think": "If you designed a train for long journeys, what three things would you put in every coach?",
+   "quiz": {
+    "q": "Which two cities did the first Amrit Bharat 3.0 train connect?",
+    "a": [
+     "New Delhi and Patna",
+     "Mumbai and Pune",
+     "Chennai and Kolkata",
+     "Delhi and Jaipur"
+    ],
+    "c": 0
+   },
+   "src": [
+    [
+     "Daily Pioneer, 12 Nov",
+     "https://dailypioneer.com/india/railways-runs-the-first-amrit-bharat-express-with-ac-coaches-on-delhi-patna-route"
+    ],
+    [
+     "Free Press Journal, 12 Nov",
+     "https://www.freepressjournal.in/india/indias-first-amrit-bharat-30-train-departs-from-new-delhi-to-patna-amidst-the-echo-of-chhath-songs"
+    ],
+    [
+     "Metro Rail News, 12 Nov",
+     "https://metrorailnews.in/amrit-bharat-express-3-0-ac-coaches-new-delhi-patna/"
+    ]
+   ]
+  },
+  {
+   "id": "in-blueflag",
+   "scope": "IN",
+   "cat": "planet",
+   "emoji": "🏖️",
+   "date": "2026-11-11",
+   "kind": "news",
+   "x": {
+    "t": "Three clean beaches win a Blue Flag",
+    "b": [
+     "Three beaches in [[maharashtra|Maharashtra]] have won a special prize. It is called the [[blue-flag|Blue Flag]].",
+     "A beach can win only if its water is clean. It must also be safe and look after nature.",
+     "The beaches are Ladghar, Guhagar and Shrivardhan. Their flags are coming all the way from the Netherlands!"
+    ]
+   },
+   "o": {
+    "t": "Three Konkan beaches in Maharashtra win the Blue Flag award",
+    "b": [
+     "Three beaches on [[maharashtra|Maharashtra]]'s [[konkan|Konkan]] coast have won the international [[blue-flag|Blue Flag]] award for the 2026-27 season. They are Ladghar and Guhagar in Ratnagiri district and Shrivardhan in Raigad district.",
+     "To earn the flag, a beach has to meet international standards. These cover clean water, cleanliness, safety for visitors, good facilities and the protection of [[biodiversity|biodiversity]], which means the variety of living things.",
+     "The Blue Flag season at the three beaches begins on 15 November. The official flags are being brought from the Netherlands, and a flag-hoisting ceremony will follow. Across India, 22 beaches have received the Blue Flag for this season. Of these, 13 are renewals and 9 are new, including the three in Maharashtra."
+    ]
+   },
+   "think": "What would you check to decide whether a beach, park or playground near you deserves a prize?",
+   "quiz": {
+    "q": "What must a beach have to win a Blue Flag?",
+    "a": [
+     "Clean water, safety and care for nature",
+     "The tallest waves",
+     "The most visitors",
+     "Blue sand"
+    ],
+    "c": 0
+   },
+   "src": [
+    [
+     "News On AIR, 11 Nov",
+     "https://newsonair.gov.in/maharashtras-ladghar-guhagar-and-shrivardhan-beaches-receive-international-blue-flag-award-for-2026-27/"
+    ],
+    [
+     "TravelBiz Monitor, 12 Nov",
+     "https://travelbizmonitor.com/top-stories/maharashtra-beaches-earn-international-blue-flag-certification/"
+    ],
+    [
+     "Lokshahi English, 12 Nov",
+     "https://english.lokshahi.com/maharashtra/three-konkan-beaches-win-prestigious-international-blue-flag-award-12804736"
+    ]
+   ]
+  },
+  {
+   "id": "in-isro",
+   "scope": "IN",
+   "cat": "space",
+   "emoji": "🔥",
+   "date": "2026-11-10",
+   "kind": "news",
+   "x": {
+    "t": "ISRO tests a rocket engine before it flies",
+    "b": [
+     "Before a rocket flies, its engine must be tested. [[isro|ISRO]] has just done that.",
+     "The engine was fired for 200 seconds in a test. It worked just as planned.",
+     "Later it will help launch a [[satellite|satellite]]. That satellite will help people find their way."
+    ]
+   },
+   "o": {
+    "t": "ISRO test-fires the engine for its next navigation satellite launch",
+    "b": [
+     "[[isro|ISRO]] has successfully tested the [[cryogenic|cryogenic engine]] for its next [[gslv|GSLV]] rocket. The space agency announced the result on 10 November. The test took place on 5 November at the ISRO Propulsion Complex in Mahendragiri, Tamil Nadu.",
+     "The engine was fired for 200 seconds. This check is called a flight acceptance test. ISRO said the main engine and its gas generator ignited as expected, and that the engine's performance matched the predictions made before the test.",
+     "The engine is meant for a mission called GSLV-F19. That rocket will carry NVS-04, a navigation [[satellite|satellite]]. It is the next satellite for [[navic|NavIC]], India's regional satellite navigation system, the magazine Voice&Data reports. NavIC provides positioning, navigation and timing services."
+    ]
+   },
+   "think": "Why do you think engineers test an engine on the ground before trusting it in a real launch?",
+   "quiz": {
+    "q": "For how long was the engine fired in the test?",
+    "a": [
+     "200 seconds",
+     "20 seconds",
+     "2 hours",
+     "5 days"
+    ],
+    "c": 0
+   },
+   "src": [
+    [
+     "ISRO, 10 Nov",
+     "https://www.isro.gov.in/Cryogenic_engine_test_GSLV.html"
+    ],
+    [
+     "Voice&Data, 11 Nov",
+     "https://www.voicendata.com/space/isro-completes-ce-75-cryogenic-engine-test-for-gslv-f19-mission-12801284"
+    ]
+   ]
+  },
+  {
+   "id": "in-prices",
+   "scope": "IN",
+   "cat": "business",
+   "emoji": "🧅",
+   "date": "2026-11-12",
+   "kind": "news",
+   "x": {
+    "t": "Why onions cost more this year",
+    "b": [
+     "Many things in the shops cost more than they did last year. When prices keep going up, it is called [[inflation|inflation]].",
+     "New numbers show that prices in India rose faster in October. Onions now cost more than double!",
+     "India's central bank is called the [[rbi|Reserve Bank of India]]. Part of its job is to keep prices steady."
+    ]
+   },
+   "o": {
+    "t": "Prices in India rise at their fastest pace in two years",
+    "b": [
+     "Prices in India were 6.09 per cent higher in October than a year earlier, government figures released on 12 November show. This measure is called retail [[inflation|inflation]]. It is the first time in two years that it has gone above 6 per cent.",
+     "Costlier food pushed the figure up. Food prices were 8.94 per cent higher than a year ago. Onions were about 116 per cent dearer, which means they cost more than double. Garlic, ginger and lemons also became much more expensive.",
+     "The [[rbi|Reserve Bank of India]] is required to keep inflation between 2 and 6 per cent, so the new figure is just above its upper limit. One of its tools is the [[interest-rate|interest rate]]. In October it raised its main rate by 0.25 percentage points, to 5.50 per cent. Higher rates make borrowing cost more, which can slow price rises."
+    ]
+   },
+   "think": "If something your family buys every week doubled in price, what could you do about it?",
+   "quiz": {
+    "q": "By about how much did onion prices rise in a year?",
+    "a": [
+     "About 116 per cent",
+     "About 6 per cent",
+     "About 2 per cent",
+     "About 50 per cent"
+    ],
+    "c": 0
+   },
+   "src": [
+    [
+     "PTI via ThePrint, 12 Nov",
+     "https://theprint.in/economy/retail-inflation-rises-to-two-year-high-of-6-09-pc-in-oct-breaches-rbis-upper-limit/3097042"
+    ],
+    [
+     "IANS via The Hans India, 12 Nov",
+     "https://www.thehansindia.com/news/cities/new-delhi/indias-retail-inflation-crosses-rbis-upper-limit-of-6-per-cent-in-october-1141433"
+    ]
+   ]
+  },
+  {
+   "id": "g-cop31",
+   "scope": "global",
+   "cat": "planet",
+   "emoji": "🌍",
+   "date": "2026-11-12",
+   "kind": "news",
+   "x": {
+    "t": "Leaders finish their speeches at the climate meeting",
+    "b": [
+     "Leaders have finished their speeches at [[cop|COP31]]. That is the big climate meeting in [[turkiye|Türkiye]].",
+     "They want different things. Small island countries want faster action. Poorer countries are asking for more money to help.",
+     "Now teams from the countries there must work out a plan that all can accept. The meeting is due to end on 20 November."
+    ]
+   },
+   "o": {
+    "t": "COP31: leaders leave and the hard bargaining begins",
+    "b": [
+     "The leaders' part of the [[cop|COP31]] climate summit in Antalya, [[turkiye|Türkiye]], ended on Thursday 12 November. The news agency Reuters said leaders had set out clashing priorities. Small island nations want fast, deep cuts in pollution. Developing countries want more money to deal with [[climate-change|climate change]]. Countries that produce oil and gas said [[fossil-fuels|fossil fuels]] should keep being used.",
+     "Türkiye's voluntary pledge to run more of the world on electricity has won some support. By the count of the news site Climate Home News, at least 14 countries have publicly backed it, including Australia, Germany, Norway, Ethiopia and Pakistan. Some, such as Seychelles, want it tied to clean electricity. An official list is expected next week.",
+     "Now negotiators take over. Chris Bowen of Australia, who is leading the negotiations, said his job is to steer [[consensus|consensus]], which means agreement by everyone. The summit is due to end on 20 November."
+    ]
+   },
+   "local": {
+    "IN": "By Climate Home News's count, India is not among the countries backing the electricity pledge so far. In its opening statement, India said finance from developed countries is central to climate action in developing countries."
+   },
+   "think": "Why might a small island country and an oil-producing country want different things from the same meeting?",
+   "quiz": {
+    "q": "About how many countries have publicly backed the electricity pledge so far?",
+    "a": [
+     "At least 14",
+     "Exactly 2",
+     "More than 150",
+     "None"
+    ],
+    "c": 0
+   },
+   "src": [
+    [
+     "Reuters via Yahoo News, 12 Nov",
+     "https://www.yahoo.com/news/articles/venezuela-tells-cop31-sovereign-pump-095747545.html"
+    ],
+    [
+     "Climate Home News, 12 Nov",
+     "https://www.climatechangenews.com/2026/11/12/cop31s-electrification-pledge-wins-support-with-caveats-on-clean-power-and-finance/"
+    ],
+    [
+     "Down To Earth, 10 Nov",
+     "https://www.downtoearth.org.in/climate-change/cop31-india-urges-developed-countries-to-fulfil-climate-finance-obligations"
+    ],
+    [
+     "University of Exeter via EurekAlert, 9 Nov",
+     "https://www.eurekalert.org/news-releases/1150611"
+    ],
+    [
+     "World Resources Institute, 12 Nov",
+     "https://www.wri.org/news/statement-cop31-leaders-summit-spotlights-electrification-and-transition-away-fossil-fuels"
+    ],
+    [
+     "Climate Home News, 5 Nov",
+     "https://www.climatechangenews.com/?p=92110"
+    ]
+   ]
+  },
+  {
+   "id": "g-romanleg",
+   "scope": "global",
+   "cat": "history",
+   "emoji": "🏛️",
+   "date": "2026-11-12",
+   "kind": "news",
+   "x": {
+    "t": "A golden leg and a missing statue",
+    "b": [
+     "About 200 years ago, a shiny metal leg was found in a bog in Scotland. A bog is wet, spongy ground.",
+     "Now experts think they know where it came from. It was probably part of a huge statue. The statue showed a Roman [[emperor|emperor]] on a horse!",
+     "But where is the rest of the statue? Nobody knows yet."
+    ]
+   },
+   "o": {
+    "t": "Bronze leg from a Scottish bog points to a lost Roman statue",
+    "b": [
+     "In 1820, a [[gilded|gilded]] [[bronze|bronze]] leg, complete with a boot, was dug out of a bog at Milsington, near Hawick in the Scottish Borders. For about 200 years, experts assumed it had been taken from a statue somewhere further south and carried north.",
+     "New research announced on 12 November tells a different story. Curators at National Museums Scotland now think the leg probably came from a huge statue of the [[emperor|emperor]] [[antoninus-pius|Antoninus Pius]] on horseback, which stood in the Scottish Borders in the 140s AD. At that time the [[romans|Romans]] were making their second attempt to conquer Scotland.",
+     "The top of the leg has no cut marks. That suggests the Romans took the statue apart carefully when they left, and that it was not smashed. The rest of the statue is still missing. From Saturday, the leg will be on show at the National Museum of Scotland in Edinburgh."
+    ]
+   },
+   "think": "If someone found the rest of the statue, how could they prove it belonged to this leg?",
+   "quiz": {
+    "q": "Where was the bronze leg found in 1820?",
+    "a": [
+     "In a bog in Scotland",
+     "In a museum in Rome",
+     "On a beach in Italy",
+     "Under a castle in Wales"
+    ],
+    "c": 0
+   },
+   "src": [
+    [
+     "PA Media via STV News, 12 Nov",
+     "https://news.stv.tv/scotland/statue-of-roman-emperor-once-stood-in-scottish-borders-research-suggests"
+    ],
+    [
+     "The Guardian via AOL, 12 Nov",
+     "https://www.aol.co.uk/articles/bronze-leg-found-scottish-bog-000103000.html"
+    ],
+    [
+     "Historic Environment Scotland, Antonine Wall",
+     "https://www.historicenvironment.scot/protect-and-care/protected-historic-places/world-heritage-sites/antonine-wall/"
+    ],
+    [
+     "Britannica, Antoninus Pius",
+     "https://www.britannica.com/biography/Antoninus-Pius"
+    ]
+   ]
+  },
+  {
+   "id": "g-frogs",
+   "scope": "global",
+   "cat": "science",
+   "emoji": "🐸",
+   "date": "2026-11-10",
+   "kind": "news",
+   "x": {
+    "t": "Who ate the frogs? A bone mystery is solved",
+    "b": [
+     "In England, a puzzle was found in an old ditch. It held about 8,000 tiny frog bones!",
+     "The bones are about 1,700 years old. How did so many frogs end up in one place?",
+     "Scientists looked closely at the bones. They think hunting birds, such as owls, caught the frogs and ate them."
+    ]
+   },
+   "o": {
+    "t": "Mystery of 8,000 frog bones in a Roman ditch is solved",
+    "b": [
+     "About 8,000 frog bones were found in one ditch during a road upgrade between Cambridge and Huntingdon, in England, between 2016 and 2018. [[radiocarbon|Radiocarbon dating]] showed the bones were about 1,700 years old, from Roman times. The ditch had filled up within a single year, so a great many frogs had died in a short time. It was a mystery for [[archaeology|archaeologists]].",
+     "A new study says [[bird-of-prey|birds of prey]] ate them. The damage on the bones matches bones eaten by hunting birds. The most likely suspects are short-eared owls and hen harriers. The team was led by Dr Paul Clarkson of Bournemouth University.",
+     "The scientists also measured the frogs' upper arm bones to estimate their ages. Most were young frogs that died in their first winter. At the time, the land nearby was wet and open, which suited both breeding frogs and hunting birds."
+    ]
+   },
+   "think": "What clues could the leftovers from your lunch give a scientist 1,000 years from now?",
+   "quiz": {
+    "q": "What do scientists think happened to the frogs?",
+    "a": [
+     "Birds of prey, such as owls, ate them",
+     "They froze in a snowstorm",
+     "Romans cooked them",
+     "They fell into a well"
+    ],
+    "c": 0
+   },
+   "src": [
+    [
+     "Bournemouth University via EurekAlert, 9 Nov",
+     "https://www.eurekalert.org/news-releases/1150945"
+    ],
+    [
+     "Cambridge Independent, 10 Nov",
+     "https://www.cambridgeindependent.co.uk/news/mystery-of-8-000-ancient-frog-bones-found-during-a14-upgrade-9490537/"
+    ]
+   ]
+  },
+  {
+   "id": "g-reef",
+   "scope": "global",
+   "cat": "nature",
+   "emoji": "🚢",
+   "date": "2026-11-11",
+   "kind": "news",
+   "x": {
+    "t": "A giant ship becomes a home for fish",
+    "b": [
+     "A very big old ship has been sunk on purpose. It now rests on the sea floor near [[florida|Florida]].",
+     "No explosives were used. Workers let water in until the ship slowly went down.",
+     "Fish and other sea animals can now make it their home. A sunken ship like this is called an [[artificial-reef|artificial reef]]."
+    ]
+   },
+   "o": {
+    "t": "Record-breaking ocean liner is sunk to become a giant reef",
+    "b": [
+     "A famous [[ocean-liner|ocean liner]], the SS United States, was sunk on purpose on 11 November in the Gulf of Mexico, off the coast of [[florida|Florida]]. The plan is for it to become the world's largest [[artificial-reef|artificial reef]]: a human-made home for sea life. At 302 metres long, the ship is more than 30 metres longer than the Titanic.",
+     "No explosives were used. Crews opened valves to let seawater flood in, and the ship sank over several hours, which was longer than planned. Before that, it had spent about a year being cleaned, with fuel, wiring and other unsafe materials taken out.",
+     "The ship made its first voyage in 1952 and set a speed record for crossing the Atlantic that still stands. It stopped sailing in 1969. Officials hope it will attract fish such as tuna and marlin, as well as divers. The project cost 13.5 million US dollars."
+    ]
+   },
+   "think": "Is it better to sink an old ship to make a reef, or to keep it as a museum? Why?",
+   "quiz": {
+    "q": "How was the SS United States sunk?",
+    "a": [
+     "By letting seawater flood in through valves",
+     "With explosives",
+     "By a storm",
+     "By hitting a rock"
+    ],
+    "c": 0
+   },
+   "src": [
+    [
+     "Associated Press via Mongabay, 11 Nov",
+     "https://news.mongabay.com/short-article/2026/11/this-ocean-liner-was-the-worlds-fastest-its-being-sunk-to-make-the-largest-artificial-reef/"
+    ],
+    [
+     "PhillyVoice, 12 Nov",
+     "https://www.phillyvoice.com/ss-united-states-sinking-florida/"
+    ],
+    [
+     "CBS News, 11 Nov",
+     "https://www.cbsnews.com/news/ss-united-states-sinking-ocean-floor-largest-artificial-reef-world-florida-gulf-coast/"
+    ],
+    [
+     "6abc Philadelphia with AP, 12 Nov",
+     "https://6abc.com/post/how-watch-ss-united-states-sinking-vessel-takes-final-journey-become-worlds-largest-artificial-reef-florida/20028524/"
+    ]
+   ]
+  },
+  {
+   "id": "g-starship",
+   "scope": "global",
+   "cat": "tech",
+   "emoji": "🚀",
+   "date": "2026-11-13",
+   "kind": "calendar",
+   "when": "Coming up: Friday in Texas, early Saturday in India",
+   "x": {
+    "t": "Can a tower catch a giant rocket?",
+    "b": [
+     "A company called [[spacex|SpaceX]] has a giant rocket named [[starship|Starship]]. It has two parts.",
+     "Most rockets are used once and thrown away. SpaceX wants to use Starship again and again.",
+     "So its launch tower has two big arms. On the next flight, they will try to catch both parts!"
+    ]
+   },
+   "o": {
+    "t": "SpaceX plans to catch both halves of its Starship rocket",
+    "b": [
+     "[[spacex|SpaceX]] is preparing the 15th test flight of [[starship|Starship]], its giant two-part rocket. Launch is planned for no earlier than Friday 13 November from Starbase in Texas. In India, that would be about 4.15 am on Saturday. The date could still change.",
+     "The aim is something never done before: catching both parts of the rocket. The launch tower has two mechanical arms, nicknamed chopsticks. They are meant to catch the booster about six and a half minutes after liftoff. The upper part, called Ship, should circle Earth about 14 times and be caught about 22 and a half hours after launch.",
+     "Most rockets are thrown away after one flight. A [[reusable|reusable]] rocket can fly again. The flight will also carry 26 Starlink internet satellites into [[orbit|orbit]]. Ship will return to the launch site only if its systems are healthy. If not, it will come down in the sea."
+    ]
+   },
+   "think": "What things at home do you throw away after one use that could be made reusable?",
+   "quiz": {
+    "q": "What are the launch tower's catching arms nicknamed?",
+    "a": [
+     "Chopsticks",
+     "Scissors",
+     "Tongs",
+     "Elbows"
+    ],
+    "c": 0
+   },
+   "src": [
+    [
+     "Space.com, 11 Nov",
+     "https://www.space.com/space-exploration/launches-spacecraft/spacex-starship-flight-15-1st-booster-ship-double-catch-full-recovery-what-time"
+    ],
+    [
+     "WFTV, 8 Nov",
+     "https://www.wftv.com/news/local/spacex-plans-first-ever-catch-starship-spacecraft-during-next-launch/EATBSQ7XXRACFOQHNXIVI66UHQ/"
+    ],
+    [
+     "Aerospace Global News, 9 Nov",
+     "https://aerospaceglobalnews.com/?p=56105"
+    ],
+    [
+     "Space.com live updates, 12 Nov",
+     "https://www.space.com/news/live/spacex-starship-flight-15-live-updates-nov-11-2026-starship-first-double-landing-attempt"
+    ]
+   ]
+  },
+  {
+   "id": "g-atp",
+   "scope": "global",
+   "cat": "sports",
+   "emoji": "🎾",
+   "date": "2026-11-12",
+   "kind": "news",
+   "x": {
+    "t": "Tennis's best eight get ready for the finals",
+    "b": [
+     "Only eight singles players get into this tennis contest. They are the top eight of the whole year!",
+     "It is called the [[atp-finals|ATP Finals]]. It starts on Sunday in [[turin|Turin]], a city in Italy.",
+     "The players are split into two groups of four. Four of them have never played in it before."
+    ]
+   },
+   "o": {
+    "t": "ATP Finals draw: four first-timers, and no Sinner",
+    "b": [
+     "The draw for the [[atp-finals|ATP Finals]] was made on Thursday 12 November in [[turin|Turin]], Italy. The tournament brings together the top eight men's singles players of the season. It runs from 15 to 22 November on indoor hard courts.",
+     "The players are split into two groups of four. In this [[round-robin|round-robin]] stage, everyone plays everyone else in their group, and the top two from each group reach the semi-finals. Top seed Alexander Zverev and third seed Ben Shelton are in one group. Second seed Carlos Alcaraz and fourth seed Daniil Medvedev are in the other.",
+     "Four of the eight are playing the event for the first time. One famous name is missing: Jannik Sinner, the reigning champion, is out with a knee injury. The semi-finals are on 21 November and the final is on 22 November."
+    ]
+   },
+   "think": "Is a group stage, where one loss does not knock you out, fairer than a knockout? Why?",
+   "quiz": {
+    "q": "How many singles players qualify for the ATP Finals?",
+    "a": [
+     "Eight",
+     "Four",
+     "Sixteen",
+     "Thirty-two"
+    ],
+    "c": 0
+   },
+   "src": [
+    [
+     "Tennis Majors, 12 Nov",
+     "https://www.tennismajors.com/atp/nitto-atp-finals-atp/atp-finals-draw-zverev-gets-us-open-final-rematch-with-shelton-alcaraz-drawn-with-medvedev-866813.html"
+    ],
+    [
+     "Tennis365, 12 Nov",
+     "https://www.tennis365.com/tennis-news/atp-finals-draw-alexander-zverev-ben-shelton-carlos-alcaraz-daniil-medvedev"
+    ],
+    [
+     "LTA, ATP Finals format",
+     "https://www.lta.org.uk/major-tennis-events/international-events/nitto-atp-finals/nitto-atp-finals-format/"
+    ]
+   ]
+  },
+  {
+   "id": "g-asean",
+   "scope": "global",
+   "cat": "world",
+   "emoji": "🤝",
+   "date": "2026-11-12",
+   "kind": "news",
+   "x": {
+    "t": "Leaders of Asian neighbours will meet in Manila",
+    "b": [
+     "Countries that are neighbours often work together. In South-East Asia, a group called [[asean|ASEAN]] does this.",
+     "Its leaders will meet in [[manila|Manila]], in the [[philippines|Philippines]]. The meeting begins on Sunday.",
+     "Friends of the group are invited too. India is one of them."
+    ]
+   },
+   "o": {
+    "t": "Manila gets ready to host 19 leaders at the ASEAN Summit",
+    "b": [
+     "The [[philippines|Philippines]] will host the 49th [[asean|ASEAN]] [[summit|Summit]] in [[manila|Manila]], opening on Sunday 15 November. On 11 November, the country's foreign ministry said at least 19 leaders of countries and world organisations had confirmed they would come.",
+     "ASEAN is a group of South-East Asian countries, among them Indonesia, Malaysia, Singapore, Thailand and Vietnam. Its meetings give the countries a place to talk through shared challenges and to cooperate. This year's host, President Ferdinand R. Marcos Jr. of the Philippines, chairs the summit.",
+     "After the main summit, the group meets its partner countries on 16 and 17 November. India is one of those partners, along with Australia, China, Japan, South Korea and others. At the end, the Philippines will hand the job of chair to Singapore, because the members take turns to lead the group."
+    ]
+   },
+   "local": {
+    "IN": "India takes part as one of ASEAN's partner countries."
+   },
+   "think": "What problems are easier to solve when neighbours work together?",
+   "quiz": {
+    "q": "Which country takes over as ASEAN chair after the Philippines?",
+    "a": [
+     "Singapore",
+     "India",
+     "Japan",
+     "Australia"
+    ],
+    "c": 0
+   },
+   "src": [
+    [
+     "Philippine News Agency, 12 Nov",
+     "https://www.pna.gov.ph/article/19-world-leaders-confirmed-to-attend-asean-summit-in-manila-dfa"
+    ],
+    [
+     "Philstar.com, 12 Nov",
+     "https://www.philstar.com/headlines/2026/11/12/2569644/donald-trump-join-marcos-asean-leaders-manila-summit-nov-17"
+    ],
+    [
+     "Anadolu via anews, 11 Nov",
+     "https://www.anews.com.tr/world/2026/11/11/philippines-set-to-host-asean-summit-with-focus-on-collective-responses-to-shared-challenges"
+    ]
+   ]
+  },
+  {
+   "id": "g-chimps",
+   "scope": "global",
+   "cat": "nature",
+   "emoji": "🐵",
+   "date": "2026-11-10",
+   "kind": "news",
+   "x": {
+    "t": "Young chimps learn manners from grown-ups",
+    "b": [
+     "Have you ever blown a raspberry? [[chimpanzee|Chimpanzees]] make that funny lip noise too!",
+     "Wild chimps make it at a special time. They do it while cleaning each other's fur.",
+     "Scientists found that young chimps learn the right time from older chimps. It is a bit like how you learn words."
+    ]
+   },
+   "o": {
+    "t": "Chimpanzees learn when to 'blow a raspberry' from their elders",
+    "b": [
+     "[[chimpanzee|Chimpanzees]] make a sound with their lips that is a lot like a person blowing a raspberry. A new study in the science journal PNAS compared 91 chimpanzees to find out how they use it.",
+     "Wild chimpanzees in Taï National Park in [[ivory-coast|Côte d'Ivoire]] made the sound almost only during [[grooming|grooming]], when they clean each other's fur. Orphaned chimpanzees growing up at a [[sanctuary|sanctuary]] in Sierra Leone, with only others of their own age, used it in a much wider range of situations.",
+     "When an adult joined an orphan group, something changed. Over time, the group began to use the sound the way the adult did. Scientists had assumed such calls were inborn. The researchers, led by Antoine Valet, say this shows that chimpanzees can learn when to use a sound from those around them."
+    ]
+   },
+   "think": "Which words or habits have you picked up from older children or grown-ups without being taught?",
+   "quiz": {
+    "q": "When do wild chimpanzees mostly make the raspberry sound?",
+    "a": [
+     "While grooming",
+     "While sleeping",
+     "While climbing",
+     "While eating"
+    ],
+    "c": 0
+   },
+   "src": [
+    [
+     "University of Warwick, 10 Nov",
+     "https://warwick.ac.uk/news/pressreleases/chimpanzees-blowing-raspberries"
+    ],
+    [
+     "Popular Science, 9 Nov",
+     "https://www.popsci.com/environment/chimpanzees-blow-raspberries-learn-sounds/"
+    ],
+    [
+     "Max Planck Institute via EurekAlert, 9 Nov",
+     "https://www.eurekalert.org/news-releases/1150863"
+    ]
+   ]
+  }
+ ],
+ "glossary": {
+  "cop": [
+   "COP",
+   "civics",
+   "A big yearly meeting where countries talk about climate change.",
+   "Conference of the Parties: the yearly summit of countries that signed the UN climate treaty of 1992. COP21 in 2015 produced the Paris Agreement."
+  ],
+  "turkiye": [
+   "Türkiye",
+   "places",
+   "A country that is partly in Europe and partly in Asia. In English it used to be called Turkey.",
+   "A country bridging Europe and Asia. Its capital is Ankara and its largest city is Istanbul. In 2022 the UN began using the name Türkiye at the government's request."
+  ],
+  "un": [
+   "United Nations",
+   "civics",
+   "A club of almost every country in the world that works for peace and helps people.",
+   "Founded in 1945 after the Second World War, with 193 member countries. Its family includes the Security Council, UNICEF and the World Health Organization."
+  ],
+  "climate-change": [
+   "Climate change",
+   "science",
+   "Earth slowly getting warmer over many years, mostly because people burn coal, oil and gas.",
+   "Long-term shifts in temperature and weather. Since the 1800s, burning fossil fuels has added carbon dioxide to the air, trapping heat. Earth is already more than 1°C warmer than before the industrial age."
+  ],
+  "paris-agreement": [
+   "Paris Agreement",
+   "civics",
+   "A promise made by countries in 2015 to slow down global warming.",
+   "A 2015 treaty in which countries agreed to keep warming well below 2°C and to try for 1.5°C, with each country setting its own targets."
+  ],
+  "fossil-fuels": [
+   "Fossil fuels",
+   "science",
+   "Coal, oil and gas. People burn them to make energy.",
+   "Coal, oil and natural gas, formed underground over millions of years. Burning them releases carbon dioxide, which traps heat."
+  ],
+  "yog": [
+   "Youth Olympic Games",
+   "words",
+   "An Olympic Games just for teenage athletes.",
+   "A version of the Olympic Games for teenage athletes. The 2026 Games are in Dakar, Senegal, from 31 October to 13 November."
+  ],
+  "dakar": [
+   "Dakar",
+   "places",
+   "A city in Senegal, a country in the west of Africa.",
+   "A city in Senegal, in West Africa, and the host of the 2026 Youth Olympic Games."
+  ],
+  "philippines": [
+   "Philippines",
+   "places",
+   "A country in Asia made up of thousands of islands.",
+   "A country in South-East Asia made up of thousands of islands, including Luzon and Mindoro."
+  ],
+  "satellite": [
+   "Satellite",
+   "science",
+   "Something that goes around a planet. People build satellites to take pictures and send signals.",
+   "An object that orbits a planet. Artificial satellites relay phone and TV signals, guide GPS and photograph Earth for weather and maps."
+  ],
+  "unanimous": [
+   "Unanimous",
+   "words",
+   "When everyone agrees.",
+   "Agreed by everyone. In boxing, a unanimous decision means every judge picked the same winner."
+  ],
+  "patna": [
+   "Patna",
+   "places",
+   "A city in India. It is the capital of the state of Bihar.",
+   "The capital city of the state of Bihar, in northern India."
+  ],
+  "chhath": [
+   "Chhath Puja",
+   "words",
+   "A festival. Lots of people travel between Delhi and Bihar for it.",
+   "A festival that brings a seasonal rush of travellers between Delhi and Bihar. This train ran as a special service for it."
+  ],
+  "indian-railways": [
+   "Indian Railways",
+   "civics",
+   "The organisation that runs India's trains.",
+   "India's national railway operator."
+  ],
+  "maharashtra": [
+   "Maharashtra",
+   "places",
+   "A state in India. Part of it is by the sea.",
+   "A state in India. Raigad and Ratnagiri are two of its coastal districts."
+  ],
+  "konkan": [
+   "Konkan",
+   "places",
+   "A long strip of land beside the sea in western India.",
+   "A coastal plain in western India, between the Arabian Sea and the Western Ghats. It includes the coast of Maharashtra."
+  ],
+  "blue-flag": [
+   "Blue Flag",
+   "words",
+   "A prize for beaches that are clean, safe and kind to nature.",
+   "An international award for beaches. It covers water quality, cleanliness, safety, facilities and protecting nature."
+  ],
+  "biodiversity": [
+   "Biodiversity",
+   "science",
+   "All the different plants and animals that live in a place.",
+   "The variety of living things in a place, from tiny creatures to plants, birds and fish."
+  ],
+  "isro": [
+   "ISRO",
+   "science",
+   "India's space agency.",
+   "The Indian Space Research Organisation, India's space agency."
+  ],
+  "cryogenic": [
+   "Cryogenic engine",
+   "tech",
+   "A rocket engine that burns very, very cold liquid fuel.",
+   "A rocket engine whose fuel has to stay extremely cold to remain liquid. This one burns liquid hydrogen with liquid oxygen."
+  ],
+  "gslv": [
+   "GSLV",
+   "tech",
+   "One of ISRO's rockets.",
+   "Geosynchronous Satellite Launch Vehicle: one of ISRO's rockets. Its third stage uses a cryogenic engine."
+  ],
+  "navic": [
+   "NavIC",
+   "tech",
+   "India's group of satellites that help people find their way.",
+   "Navigation with Indian Constellation: India's regional satellite navigation system."
+  ],
+  "inflation": [
+   "Inflation",
+   "words",
+   "When prices in the shops keep going up.",
+   "A rise in prices over time. It is usually given as a percentage: how much more things cost than a year ago."
+  ],
+  "rbi": [
+   "Reserve Bank of India",
+   "civics",
+   "India's central bank. It looks after the country's money.",
+   "India's central bank. It is required to keep inflation between 2 and 6 per cent, and it sets a main interest rate."
+  ],
+  "interest-rate": [
+   "Interest rate",
+   "words",
+   "The extra money you pay back when you borrow money.",
+   "The cost of borrowing money, shown as a percentage. When a central bank raises its rate, loans become more expensive."
+  ],
+  "consensus": [
+   "Consensus",
+   "words",
+   "When everyone in a group agrees.",
+   "Agreement by everyone in a group. If decisions need consensus, the wording must be something that all sides can accept."
+  ],
+  "emperor": [
+   "Emperor",
+   "words",
+   "The ruler of an empire, which is a group of many lands.",
+   "The ruler of an empire. Rome had emperors, among them Hadrian and Antoninus Pius."
+  ],
+  "antoninus-pius": [
+   "Antoninus Pius",
+   "people",
+   "A Roman emperor who ruled long, long ago.",
+   "Roman emperor from AD 138 to 161. Around AD 142 his army began building the Antonine Wall across Scotland."
+  ],
+  "romans": [
+   "Romans",
+   "people",
+   "People of ancient Rome. They ruled a huge empire long ago.",
+   "The people of ancient Rome. At its largest, their empire stretched from Britain to northern Africa."
+  ],
+  "bronze": [
+   "Bronze",
+   "science",
+   "A strong metal made by mixing other metals together.",
+   "A metal made by mixing copper with a smaller amount of tin."
+  ],
+  "gilded": [
+   "Gilded",
+   "words",
+   "Covered with a thin layer of gold.",
+   "Covered with a thin layer of gold, so that an object looks as if it is made of gold."
+  ],
+  "archaeology": [
+   "Archaeology",
+   "science",
+   "Learning about the past by digging up the things people left behind.",
+   "The scientific study of people in the past, through the objects, buildings and bones they left behind."
+  ],
+  "radiocarbon": [
+   "Radiocarbon dating",
+   "science",
+   "A way for scientists to find out how old the remains of living things are.",
+   "A technique for finding the age of remains that came from living things. It measures a kind of carbon called carbon-14."
+  ],
+  "bird-of-prey": [
+   "Bird of prey",
+   "science",
+   "A bird that hunts other animals for food, such as an owl.",
+   "A bird that hunts other animals for food. Short-eared owls and hen harriers are birds of prey."
+  ],
+  "florida": [
+   "Florida",
+   "places",
+   "A state in the United States. It has a coast on the Gulf.",
+   "A state in the United States. Destin, Pensacola and Panama City are on its Gulf coast."
+  ],
+  "artificial-reef": [
+   "Artificial reef",
+   "science",
+   "Something people put on the sea floor so sea animals can live there.",
+   "A human-made structure placed on the seabed to make a habitat for sea life. Old ships are sometimes cleaned and sunk for this."
+  ],
+  "ocean-liner": [
+   "Ocean liner",
+   "words",
+   "A big ship that carries people across the ocean.",
+   "A large ship that crosses oceans on a regular schedule between set ports. The SS United States carried passengers across the Atlantic."
+  ],
+  "spacex": [
+   "SpaceX",
+   "tech",
+   "The company that builds the Starship rocket.",
+   "The company that builds and flies Starship. Its launch site in Texas is called Starbase."
+  ],
+  "starship": [
+   "Starship",
+   "tech",
+   "A giant rocket with two parts, built by SpaceX.",
+   "SpaceX's giant two-part rocket: a booster called Super Heavy and an upper part called Ship. It is designed to be reused."
+  ],
+  "reusable": [
+   "Reusable rocket",
+   "tech",
+   "A rocket that can fly more than once.",
+   "A rocket that comes back after launch so that it can fly again and is not thrown away."
+  ],
+  "orbit": [
+   "Orbit",
+   "science",
+   "The path something takes as it goes round and round a planet.",
+   "The curved path of an object around a planet or star. One trip around Earth is one orbit."
+  ],
+  "atp-finals": [
+   "ATP Finals",
+   "words",
+   "A tennis contest for the top eight players of the year.",
+   "The tournament that ends the men's tennis season. The top eight singles players and the best eight doubles teams of the season qualify."
+  ],
+  "turin": [
+   "Turin",
+   "places",
+   "A city in Italy.",
+   "A city in north-western Italy. It has hosted the ATP Finals since 2021."
+  ],
+  "round-robin": [
+   "Round-robin",
+   "words",
+   "A contest where everyone in a group plays everyone else.",
+   "A format in which every player or team in a group plays all the others, with no instant knockout."
+  ],
+  "asean": [
+   "ASEAN",
+   "civics",
+   "A group of neighbouring countries in South-East Asia that work together.",
+   "The Association of Southeast Asian Nations. Its members take turns to chair the group."
+  ],
+  "manila": [
+   "Manila",
+   "places",
+   "The capital city of the Philippines.",
+   "The capital of the Philippines and the host of the 49th ASEAN Summit."
+  ],
+  "summit": [
+   "Summit",
+   "words",
+   "A big meeting between the leaders of countries.",
+   "A meeting between the leaders of countries or organisations."
+  ],
+  "chimpanzee": [
+   "Chimpanzee",
+   "science",
+   "A kind of ape that lives in Africa.",
+   "A great ape found across central and West Africa, for example in Taï National Park in Côte d'Ivoire."
+  ],
+  "ivory-coast": [
+   "Côte d'Ivoire",
+   "places",
+   "A country in Africa. It is also called Ivory Coast.",
+   "A country in West Africa, also called Ivory Coast. Taï National Park is there."
+  ],
+  "grooming": [
+   "Grooming",
+   "words",
+   "When animals clean each other's fur.",
+   "When animals clean each other's fur, for example by picking out parasites."
+  ],
+  "sanctuary": [
+   "Sanctuary",
+   "words",
+   "A safe place where animals are looked after.",
+   "A safe place where animals, such as orphaned chimpanzees, are cared for."
+  ]
+ },
+ "keys": {
+  "in-yog-gold": {
+   "type": "number",
+   "v": "10",
+   "l": "medals for India at the Dakar Games so far: 2 gold, 3 silver and 5 bronze"
+  },
+  "in-amrit": {
+   "type": "number",
+   "v": "22",
+   "l": "coaches on the new train, 9 of them air-conditioned"
+  },
+  "in-blueflag": {
+   "type": "number",
+   "v": "22",
+   "l": "beaches in India with a Blue Flag for 2026-27, including 9 new ones"
+  },
+  "in-isro": {
+   "type": "number",
+   "v": "200 s",
+   "l": "how long the engine was fired during the test"
+  },
+  "in-prices": {
+   "type": "number",
+   "v": "6.09%",
+   "l": "how much higher prices were in October than a year earlier"
+  },
+  "g-cop31": {
+   "type": "number",
+   "v": "14",
+   "l": "countries that have publicly backed the electricity pledge so far, by Climate Home News's count"
+  },
+  "g-romanleg": {
+   "type": "number",
+   "v": "1820",
+   "l": "the year the bronze leg was dug out of the bog"
+  },
+  "g-frogs": {
+   "type": "number",
+   "v": "8,000",
+   "l": "frog bones found in a single ditch"
+  },
+  "g-reef": {
+   "type": "number",
+   "v": "302 m",
+   "l": "the length of the SS United States, now on the sea floor"
+  },
+  "g-starship": {
+   "type": "number",
+   "v": "22.5 hours",
+   "l": "the planned time between launch and catching the upper part, called Ship"
+  },
+  "g-atp": {
+   "type": "number",
+   "v": "8",
+   "l": "singles players who qualify: the top eight of the season"
+  },
+  "g-asean": {
+   "type": "number",
+   "v": "19",
+   "l": "leaders of countries and world organisations confirmed so far, at the least"
+  },
+  "g-chimps": {
+   "type": "number",
+   "v": "91",
+   "l": "chimpanzees compared in the study, aged from newborn to 55"
+  }
+ },
+ "xkeys": {
+  "in-yog-gold": {
+   "type": "check",
+   "q": "How many gold medals did India's boxers win?",
+   "a": [
+    "Two",
+    "Five"
+   ],
+   "c": 0,
+   "right": "Right! Two boxers, two golds.",
+   "wrong": "Not quite. Read it again!"
+  },
+  "in-amrit": {
+   "type": "check",
+   "q": "Where did the new train go?",
+   "a": [
+    "Patna",
+    "London"
+   ],
+   "c": 0,
+   "right": "Right! It went from New Delhi to Patna.",
+   "wrong": "Not quite. Read it again!"
+  },
+  "in-blueflag": {
+   "type": "check",
+   "q": "How many beaches in Maharashtra won a Blue Flag?",
+   "a": [
+    "Three",
+    "Thirty"
+   ],
+   "c": 0,
+   "right": "Right! Ladghar, Guhagar and Shrivardhan.",
+   "wrong": "Not quite. Read it again!"
+  },
+  "in-isro": {
+   "type": "check",
+   "q": "Did the engine fly into space during the test?",
+   "a": [
+    "No",
+    "Yes"
+   ],
+   "c": 0,
+   "right": "Right! It was a test before the real flight.",
+   "wrong": "Not quite. Read it again!"
+  },
+  "in-prices": {
+   "type": "check",
+   "q": "What is it called when prices keep going up?",
+   "a": [
+    "Inflation",
+    "Vacation"
+   ],
+   "c": 0,
+   "right": "Right! It is called inflation.",
+   "wrong": "Not quite. Read it again!"
+  },
+  "g-romanleg": {
+   "type": "check",
+   "q": "Has the rest of the statue been found?",
+   "a": [
+    "No",
+    "Yes"
+   ],
+   "c": 0,
+   "right": "Right! It is still a mystery.",
+   "wrong": "Not quite. Read it again!"
+  },
+  "g-frogs": {
+   "type": "check",
+   "q": "What kind of animal probably ate the frogs?",
+   "a": [
+    "Birds",
+    "Sharks"
+   ],
+   "c": 0,
+   "right": "Right! Hunting birds, such as owls.",
+   "wrong": "Not quite. Read it again!"
+  },
+  "g-reef": {
+   "type": "check",
+   "q": "Was the ship sunk on purpose?",
+   "a": [
+    "Yes",
+    "No"
+   ],
+   "c": 0,
+   "right": "Right! It will be a home for sea life.",
+   "wrong": "Not quite. Read it again!"
+  },
+  "g-starship": {
+   "type": "check",
+   "q": "How many parts does Starship have?",
+   "a": [
+    "Two",
+    "Ten"
+   ],
+   "c": 0,
+   "right": "Right! A booster and an upper part called Ship.",
+   "wrong": "Not quite. Read it again!"
+  },
+  "g-atp": {
+   "type": "check",
+   "q": "How many singles players get in?",
+   "a": [
+    "Eight",
+    "Eighty"
+   ],
+   "c": 0,
+   "right": "Right! Only the top eight get in.",
+   "wrong": "Not quite. Read it again!"
+  },
+  "g-chimps": {
+   "type": "check",
+   "q": "Who do young chimps learn from?",
+   "a": [
+    "Older chimps",
+    "Fish"
+   ],
+   "c": 0,
+   "right": "Right! They copy their elders.",
+   "wrong": "Not quite. Read it again!"
+  }
+ },
+ "deep": {
+  "in-yog-gold": {
+   "ctx": "An Olympic boxing bout has three rounds, and five judges do the scoring. A result of three judges to two is a split decision, and five to none is unanimous. India's two earlier Youth Olympic boxing medals, a silver and a bronze, both came at the Singapore Games in 2010, so it took 16 years to go one better.",
+   "ask": "Is it fair for a sport to be decided by judges' opinions, or should only things that can be measured count?",
+   "jobs": [
+    "Boxing coach",
+    "Sports nutritionist",
+    "Referee or judge"
+   ]
+  },
+  "in-amrit": {
+   "ctx": "The new train has 22 coaches. Nine are air-conditioned, six are sleeper coaches and four are general coaches, and there is also a pantry car. It was built at the Integral Coach Factory in Chennai. Push-pull means there is a locomotive at each end of the train, the trade site Metro Rail News reports.",
+   "ask": "Should railways spend more on comfortable new trains, or on running more ordinary trains so that nobody is left without a seat?",
+   "jobs": [
+    "Railway engineer",
+    "Train driver (loco pilot)",
+    "Transport planner"
+   ]
+  },
+  "in-blueflag": {
+   "ctx": "The standards a Blue Flag beach must meet also include environmental conservation and sustainable tourism management. Maharashtra credits its environment and tourism departments, working with district administrations, local bodies and communities. The state says it will keep working to bring other eligible beaches up to international standards.",
+   "ask": "An award brings more tourists. Is that good for a clean beach, or does it put the beach at risk?",
+   "jobs": [
+    "Marine biologist",
+    "Lifeguard",
+    "Environmental officer"
+   ]
+  },
+  "in-isro": {
+   "ctx": "The engine is the CE-7.5, which powers the GSLV's third stage, Voice&Data reports. It burns liquid hydrogen with liquid oxygen. GSLV stands for Geosynchronous Satellite Launch Vehicle. NavIC stands for Navigation with Indian Constellation, and it covers India and an area reaching about 1,500 km beyond its borders.",
+   "ask": "Should a country build its own satellite navigation system if it can already use another country's?",
+   "jobs": [
+    "Propulsion engineer",
+    "Satellite navigation engineer",
+    "Test facility technician"
+   ]
+  },
+  "in-prices": {
+   "ctx": "The figure comes from the consumer price index, which tracks the prices consumers pay for a basket of goods and services. Each month is compared with the same month a year earlier. Garlic was about 61 per cent dearer than a year ago and lemons about 47 per cent. The last time inflation was above 6 per cent was October 2024, when it was 6.25 per cent, the Press Trust of India reports.",
+   "ask": "When food prices jump, should a government step in to control them, or let them settle on their own?",
+   "jobs": [
+    "Economist",
+    "Statistician",
+    "Farm market analyst"
+   ]
+  },
+  "g-cop31": {
+   "ctx": "A report published this week, the Global Carbon Budget, projects that carbon dioxide from burning coal, oil and gas will dip by 0.4 per cent in 2026, to 38.2 billion tonnes. But total emissions, which also count changes in land use such as forest loss, are projected to rise to 43.3 billion tonnes, up from 42.8 billion tonnes last year. At COP31, countries still disagree about money for adapting to climate change and about what the final text should say on fossil fuels.",
+   "ask": "Should countries that grew rich by burning fossil fuels pay more to tackle climate change than countries that are still developing?",
+   "jobs": [
+    "Climate negotiator",
+    "Energy analyst",
+    "Environmental journalist"
+   ]
+  },
+  "g-romanleg": {
+   "ctx": "Antoninus Pius was Roman emperor from AD 138 to 161. Around AD 142 his army began building the Antonine Wall, a turf rampart about 60 km long across Scotland. The Romans held it for about 20 years before pulling back to Hadrian's Wall. Curator Fraser Hunter says the finding changes our understanding of this second Roman attempt to conquer Scotland.",
+   "ask": "The statue was put up by an invading army, but the leg was found in Scotland. Who should decide how objects like this are displayed, and whose story they tell?",
+   "jobs": [
+    "Archaeologist",
+    "Museum curator",
+    "Metal conservator"
+   ]
+  },
+  "g-frogs": {
+   "ctx": "The study, in the journal Environmental Archaeology, was done with MOLA, short for Museum of London Archaeology. One of the authors is a zooarchaeologist, a scientist who studies animal bones from archaeological sites. Snail shells, pollen and charcoal from the site helped the team picture the landscape: wet ground left by retreating fen waters, with woodland cleared for grazing animals.",
+   "ask": "Roads and buildings often have to wait until archaeologists have checked the ground. Is that delay worth it?",
+   "jobs": [
+    "Zooarchaeologist",
+    "Field archaeologist",
+    "Wildlife ecologist"
+   ]
+  },
+  "g-reef": {
+   "ctx": "The waters off this part of Florida already hold more than 500 artificial reefs. The previous largest was the aircraft carrier USS Oriskany, 278 metres long, sunk off Pensacola in 2006. Before the sinking, the liner's funnels and radar mast were removed for a planned museum about the ship. It had been docked in Philadelphia from 1996 until February 2025.",
+   "ask": "Is sinking a historic ship to help sea life a good use of it, or a loss of history that cannot be undone?",
+   "jobs": [
+    "Marine biologist",
+    "Salvage engineer",
+    "Scuba diving instructor"
+   ]
+  },
+  "g-starship": {
+   "ctx": "SpaceX first caught a Starship booster with the tower arms in October 2024, Aerospace Global News reports. Space.com says the previous flight, in September 2026, was Starship's first orbital test. SpaceX calls the goal of this flight the first full recovery of an orbital launch system.",
+   "ask": "Rocket launches are becoming more frequent. Who should decide how many satellites are allowed in the sky?",
+   "jobs": [
+    "Aerospace engineer",
+    "Flight controller",
+    "Robotics engineer"
+   ]
+  },
+  "g-atp": {
+   "ctx": "The two groups are called the John McEnroe Group and the Ivan Lendl Group. If a player withdraws, an alternate steps in: Alex de Minaur is first in line, then Taylor Fritz. The tournament is played at the Inalpi Arena and has been held in Turin since 2021, the website Tennis365 reports.",
+   "ask": "Should a sport's biggest prizes go to the players who are best over a whole year, or to whoever wins on the day?",
+   "jobs": [
+    "Tennis coach",
+    "Sports physiotherapist",
+    "Tournament director"
+   ]
+  },
+  "g-asean": {
+   "ctx": "The Manila meetings include the 21st East Asia Summit on 17 November. The Philippine foreign ministry said the turnout shows ASEAN's convening power and its role as a platform for dialogue and cooperation. The opening ceremony is at the Philippine International Convention Center in Pasay City.",
+   "ask": "Do regular meetings between leaders really solve problems, or are the important decisions made elsewhere?",
+   "jobs": [
+    "Diplomat",
+    "Interpreter",
+    "Trade negotiator"
+   ]
+  },
+  "g-chimps": {
+   "ctx": "The study is described as the first evidence of a learned, shared convention in great ape calls. A convention is a habit that a group shares, such as the meaning of a word. The researchers say chimpanzees struggle to learn brand-new sounds, but can learn when to use the sounds they already make. The orphans in the study live at Tacugama Chimpanzee Sanctuary in Sierra Leone.",
+   "ask": "If animals pass on learned habits, should we say they have culture? What would count as proof?",
+   "jobs": [
+    "Primatologist",
+    "Animal behaviour researcher",
+    "Wildlife sanctuary keeper"
+   ]
+  }
+ },
+ "today": {
+  "born": [
+   {
+    "name": "Robert Louis Stevenson",
+    "year": 1850,
+    "what": "A Scottish writer, born in Edinburgh. He wrote the adventure story Treasure Island."
+   },
+   {
+    "name": "Maharaja Ranjit Singh",
+    "year": 1780,
+    "what": "The founder and first maharaja of the Sikh Empire. He was known as Sher-e-Punjab, the Lion of Punjab.",
+    "where": [
+     "IN"
+    ]
+   }
+  ],
+  "days": [
+   {
+    "name": "World Kindness Day",
+    "what": "A day for kind acts, big and small, held every year on 13 November. It was started in 1998 by the World Kindness Movement."
+   }
+  ],
+  "week": "Children's Day in India is tomorrow, Saturday 14 November. The Leonid meteor shower peaks on the night of 17 to 18 November."
+ },
+ "learn": {
+  "subject": "History",
+  "cat": "history",
+  "link": "From the Roman leg story",
+  "x": {
+   "t": "Rome's walls at the edge of the empire",
+   "b": [
+    "Long ago, the Romans ruled a huge empire. It reached from Britain all the way to northern Africa.",
+    "In the north of England, Roman soldiers built a wall from coast to coast. It is called Hadrian's Wall and it is 118 km long.",
+    "Later they built another wall further north, in Scotland. It was made of turf, which is earth with grass on it. The Romans kept that wall for only about 20 years."
+   ],
+   "remember": "The Romans built two great walls across Britain, at the edge of their empire.",
+   "q": "What was the wall in Scotland made of?",
+   "a": [
+    "Turf",
+    "Glass"
+   ],
+   "c": 0
+  },
+  "o": {
+   "t": "Rome's walls at the edge of the empire",
+   "b": [
+    "The Roman Empire was at its largest in the early 100s AD, under the emperor Trajan. It stretched from Britain in the north to northern Africa in the south, and east as far as the Euphrates River.",
+    "In northern England, the emperor Hadrian ordered a wall from coast to coast. Building began around AD 122. Hadrian's Wall ran for 118 km (73 miles) and was built mainly by soldiers.",
+    "The next emperor, Antoninus Pius, pushed further north. Around AD 142 his army began the Antonine Wall across central Scotland, from the Firth of Forth to the River Clyde. It was about 60 km long and made of turf, with a deep ditch in front. The Romans held it for only about 20 years. Both walls are now part of a UNESCO World Heritage Site.",
+    "At Vindolanda, a fort just south of Hadrian's Wall, people left letters written in ink on thin pieces of wood. One, about 1,900 years old, is an invitation to a birthday party."
+   ],
+   "remember": "Hadrian's Wall: begun about AD 122, 118 km long. Antonine Wall: begun about AD 142, about 60 km long, made of turf.",
+   "q": "Which emperor's army built the wall across central Scotland?",
+   "a": [
+    "Antoninus Pius",
+    "Hadrian",
+    "Trajan"
+   ],
+   "c": 0
+  }
+ },
+ "sketches": {
+  "smog": {
+   "t": "Why smog gets trapped",
+   "c": "#0B7F75",
+   "steps": [
+    {
+     "o": "Cars, factories, farm fires and firecrackers all put smoke into the air.",
+     "x": "Cars, fires and firecrackers put smoke into the air.",
+     "d": [
+      {
+       "l": [
+        8,
+        192,
+        312,
+        192
+       ]
+      },
+      {
+       "r": [
+        28,
+        152,
+        40,
+        40
+       ]
+      },
+      {
+       "p": "M24 152 L48 132 L72 152"
+      },
+      {
+       "r": [
+        92,
+        118,
+        30,
+        74
+       ]
+      },
+      {
+       "l": [
+        100,
+        132,
+        114,
+        132
+       ]
+      },
+      {
+       "l": [
+        100,
+        148,
+        114,
+        148
+       ]
+      },
+      {
+       "l": [
+        100,
+        164,
+        114,
+        164
+       ]
+      },
+      {
+       "r": [
+        158,
+        172,
+        46,
+        14
+       ]
+      },
+      {
+       "p": "M166 172 L172 162 L192 162 L198 172"
+      },
+      {
+       "c": [
+        170,
+        188,
+        5
+       ]
+      },
+      {
+       "c": [
+        192,
+        188,
+        5
+       ]
+      },
+      {
+       "r": [
+        246,
+        128,
+        16,
+        64
+       ]
+      },
+      {
+       "r": [
+        262,
+        160,
+        34,
+        32
+       ]
+      },
+      {
+       "p": "M254 122 q-9 -9 0 -18 q9 -9 0 -18",
+       "acc": 1
+      },
+      {
+       "p": "M210 176 q8 -6 14 -2 q6 4 12 -2",
+       "acc": 1
+      },
+      {
+       "t": [
+        268,
+        100,
+        "smoke"
+       ],
+       "acc": 1
+      }
+     ]
+    },
+    {
+     "o": "On cold, still nights a layer of warm air settles above the city and acts like a lid.",
+     "x": "On cold, still nights, warm air sits on top like a lid.",
+     "d": [
+      {
+       "p": "M12 66 q19 -9 38 0 t38 0 t38 0 t38 0 t38 0 t38 0 t38 0 t30 0"
+      },
+      {
+       "t": [
+        96,
+        52,
+        "warm air lid"
+       ]
+      },
+      {
+       "a": [
+        254,
+        84,
+        254,
+        72
+       ],
+       "acc": 1
+      },
+      {
+       "l": [
+        246,
+        70,
+        262,
+        70
+       ]
+      },
+      {
+       "t": [
+        20,
+        112,
+        "cold air"
+       ]
+      }
+     ]
+    },
+    {
+     "o": "The smoke cannot rise, so it spreads sideways and builds up as smog. Wind or rain is what finally clears it.",
+     "x": "The smoke is stuck. It spreads out and becomes smog. Wind or rain clears it.",
+     "d": [
+      {
+       "p": "M22 86 q16 -7 32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0",
+       "acc": 1
+      },
+      {
+       "p": "M34 98 q16 -7 32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0",
+       "acc": 1
+      },
+      {
+       "p": "M140 110 q16 -7 32 0 t32 0 t32 0 t32 0",
+       "acc": 1
+      },
+      {
+       "t": [
+        150,
+        82,
+        "smog"
+       ],
+       "acc": 1
+      },
+      {
+       "a": [
+        306,
+        28,
+        262,
+        28
+       ]
+      },
+      {
+       "a": [
+        306,
+        40,
+        270,
+        40
+       ]
+      },
+      {
+       "t": [
+        212,
+        22,
+        "wind"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "meteor": {
+   "t": "Why shooting stars glow",
+   "c": "#25317F",
+   "steps": [
+    {
+     "o": "A bit of space rock, often smaller than a pea, speeds towards Earth.",
+     "x": "A tiny space rock, smaller than a pea, flies towards Earth.",
+     "d": [
+      {
+       "p": "M0 204 Q160 156 320 204"
+      },
+      {
+       "t": [
+        138,
+        212,
+        "Earth"
+       ]
+      },
+      {
+       "p": "M0 150 Q160 102 320 150",
+       "acc": 1
+      },
+      {
+       "t": [
+        14,
+        138,
+        "air"
+       ],
+       "acc": 1
+      },
+      {
+       "c": [
+        276,
+        28,
+        5
+       ]
+      },
+      {
+       "a": [
+        266,
+        36,
+        236,
+        58
+       ]
+      },
+      {
+       "t": [
+        196,
+        22,
+        "space rock"
+       ]
+      }
+     ]
+    },
+    {
+     "o": "It hits the air at tens of kilometres per second and squeezes the air in front of it. Squeezed air gets extremely hot.",
+     "x": "It hits the air super fast and squashes it. Squashed air gets very hot.",
+     "d": [
+      {
+       "c": [
+        196,
+        92,
+        5
+       ]
+      },
+      {
+       "p": "M180 86 Q176 106 194 110",
+       "acc": 1
+      },
+      {
+       "p": "M172 82 Q166 110 192 118",
+       "acc": 1
+      },
+      {
+       "t": [
+        40,
+        96,
+        "squeezed, hot air"
+       ],
+       "acc": 1
+      },
+      {
+       "a": [
+        150,
+        98,
+        170,
+        100
+       ],
+       "acc": 1
+      }
+     ]
+    },
+    {
+     "o": "The heat makes the air and the rock glow, usually 70 to 100 km up. From the ground you see a bright streak.",
+     "x": "The hot air and rock glow. From the ground you see a bright streak!",
+     "d": [
+      {
+       "l": [
+        268,
+        36,
+        204,
+        86
+       ],
+       "acc": 1
+      },
+      {
+       "l": [
+        274,
+        44,
+        210,
+        92
+       ],
+       "acc": 1
+      },
+      {
+       "l": [
+        262,
+        30,
+        200,
+        78
+       ],
+       "acc": 1
+      },
+      {
+       "c": [
+        62,
+        150,
+        6
+       ]
+      },
+      {
+       "l": [
+        62,
+        156,
+        62,
+        174
+       ]
+      },
+      {
+       "l": [
+        62,
+        174,
+        55,
+        186
+       ]
+      },
+      {
+       "l": [
+        62,
+        174,
+        69,
+        186
+       ]
+      },
+      {
+       "l": [
+        62,
+        162,
+        76,
+        150
+       ]
+      },
+      {
+       "t": [
+        84,
+        146,
+        "look!"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "orbit": {
+   "t": "How a satellite stays up",
+   "c": "#6B35D8",
+   "steps": [
+    {
+     "o": "Throw a ball from a tall tower and gravity curves it down to the ground.",
+     "x": "Throw a ball. It curves down and lands.",
+     "d": [
+      {
+       "c": [
+        160,
+        122,
+        54
+       ]
+      },
+      {
+       "t": [
+        142,
+        128,
+        "Earth"
+       ]
+      },
+      {
+       "l": [
+        160,
+        68,
+        160,
+        54
+       ]
+      },
+      {
+       "l": [
+        154,
+        54,
+        166,
+        54
+       ]
+      },
+      {
+       "p": "M162 54 Q186 54 196 80",
+       "acc": 1
+      },
+      {
+       "t": [
+        172,
+        40,
+        "throw"
+       ]
+      }
+     ]
+    },
+    {
+     "o": "Throw it faster and it lands further away, because the ground curves away beneath it while it falls.",
+     "x": "Throw it faster. It lands further away, because Earth is round.",
+     "d": [
+      {
+       "p": "M162 54 Q224 58 214 118",
+       "acc": 1
+      },
+      {
+       "t": [
+        228,
+        62,
+        "faster"
+       ]
+      }
+     ]
+    },
+    {
+     "o": "At about 28,000 km an hour it falls around Earth and never lands. That endless fall is an orbit, and it is how satellites stay up.",
+     "x": "Go fast enough and it keeps falling around Earth without landing. That is an orbit!",
+     "d": [
+      {
+       "c": [
+        160,
+        122,
+        68
+       ],
+       "acc": 1
+      },
+      {
+       "r": [
+        223,
+        117,
+        10,
+        10
+       ]
+      },
+      {
+       "l": [
+        215,
+        122,
+        223,
+        122
+       ]
+      },
+      {
+       "l": [
+        233,
+        122,
+        241,
+        122
+       ]
+      },
+      {
+       "t": [
+        246,
+        110,
+        "satellite"
+       ]
+      },
+      {
+       "t": [
+        44,
+        56,
+        "orbit"
+       ],
+       "acc": 1
+      }
+     ]
+    }
+   ]
+  },
+  "greenhouse": {
+   "t": "Why the planet is warming",
+   "c": "#0B7F75",
+   "steps": [
+    {
+     "o": "Sunlight passes through the air and warms the land and the sea.",
+     "x": "Sunlight comes down and warms the Earth.",
+     "d": [
+      {
+       "p": "M0 202 Q160 162 320 202"
+      },
+      {
+       "t": [
+        140,
+        212,
+        "Earth"
+       ]
+      },
+      {
+       "c": [
+        46,
+        42,
+        17
+       ]
+      },
+      {
+       "l": [
+        46,
+        14,
+        46,
+        6
+       ]
+      },
+      {
+       "l": [
+        20,
+        42,
+        10,
+        42
+       ]
+      },
+      {
+       "l": [
+        27,
+        23,
+        20,
+        16
+       ]
+      },
+      {
+       "l": [
+        65,
+        23,
+        72,
+        16
+       ]
+      },
+      {
+       "l": [
+        27,
+        61,
+        20,
+        68
+       ]
+      },
+      {
+       "a": [
+        68,
+        58,
+        118,
+        162
+       ],
+       "acc": 1
+      },
+      {
+       "a": [
+        78,
+        48,
+        160,
+        150
+       ],
+       "acc": 1
+      },
+      {
+       "t": [
+        122,
+        92,
+        "sunlight"
+       ],
+       "acc": 1
+      }
+     ]
+    },
+    {
+     "o": "The warm Earth sends heat back up. Much of it escapes into space, which keeps the planet from overheating.",
+     "x": "The warm Earth sends heat back up into space.",
+     "d": [
+      {
+       "p": "M214 160 q-9 -11 0 -22 q9 -11 0 -22 q-9 -11 0 -22"
+      },
+      {
+       "a": [
+        214,
+        94,
+        214,
+        70
+       ]
+      },
+      {
+       "t": [
+        176,
+        58,
+        "heat escapes"
+       ]
+      }
+     ]
+    },
+    {
+     "o": "Gases such as carbon dioxide, from burning coal, oil and gas, act like a blanket. They trap more of the heat, so the planet slowly warms.",
+     "x": "Gases from burning coal, oil and gas act like a blanket. They keep more heat in, so Earth gets warmer.",
+     "d": [
+      {
+       "p": "M150 112 q18 -9 36 0 t36 0 t36 0 t36 0 t22 0",
+       "acc": 1
+      },
+      {
+       "p": "M158 124 q18 -9 36 0 t36 0 t36 0 t36 0",
+       "acc": 1
+      },
+      {
+       "t": [
+        226,
+        104,
+        "gas blanket"
+       ],
+       "acc": 1
+      },
+      {
+       "p": "M268 162 Q262 142 272 132",
+       "acc": 1
+      },
+      {
+       "a": [
+        274,
+        132,
+        292,
+        160
+       ],
+       "acc": 1
+      },
+      {
+       "t": [
+        236,
+        182,
+        "trapped heat"
+       ],
+       "acc": 1
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "sketchFor": {
+  "g-cop31": "greenhouse",
+  "g-starship": "orbit"
+ },
+ "hiddenWords": [
+  {
+   "k": "emperor",
+   "o": "Emperor comes from the Latin word imperator, which meant commander. It grew from the verb imperare, to command. The word came into English through French and has been used since the 1200s."
+  },
+  {
+   "k": "archaeology",
+   "o": "Archaeology comes from the Greek word arkhaios, meaning ancient. The Greek word arkhaiologia meant the study of ancient things. The word has been used in English since about 1600."
+  }
+ ],
+ "backThen": {
+  "y": 1913,
+  "t": "Rabindranath Tagore is named winner of the Nobel Prize",
+  "o": "On this day in 1913, the Nobel Prize in Literature was announced for the poet Rabindranath Tagore, who was born in Calcutta in 1861. He was the first person from outside Europe to win it. The prize praised his \"profoundly sensitive, fresh and beautiful verse\". His book of poems Gitanjali was among the work that won him the prize.",
+  "x": "On this day in 1913, a poet from India was named winner of the Nobel Prize in Literature. His name was Rabindranath Tagore. No one from outside Europe had won it before!",
+  "why": "It was the first time the literature prize went to a writer from outside Europe. The prize said Tagore had made his poetry, in his own English words, part of the literature of the West."
+ },
+ "bigStory": {
+  "week": "2026-11-09",
+  "story": "g-cop31",
+  "cat": "planet",
+  "sketch": "greenhouse",
+  "t": "Can the world agree to slow climate change?",
+  "sub": "COP31, the United Nations climate summit in Türkiye",
+  "x": {
+   "why": "Almost 200 countries are in one place to decide how to stop Earth getting too warm. What they agree will shape the world you grow up in."
+  },
+  "o": {
+   "why": "Almost 200 countries are in one place to decide how to turn climate promises into action. What they agree, or fail to agree, will shape the world you grow up in."
+  },
+  "facts": [
+   [
+    "~200",
+    "countries taking part"
+   ],
+   [
+    "1.5°C",
+    "the limit countries hope to keep to"
+   ],
+   [
+    "2.6°C",
+    "where current promises lead, says a UN report"
+   ],
+   [
+    "20 Nov",
+    "the day the talks are due to end"
+   ]
+  ],
+  "days": [
+   {
+    "d": "2026-11-09",
+    "h": "The summit opens",
+    "o": "COP31 opened in Antalya, a city on Türkiye's coast. In an unusual setup, Türkiye is the host while Australia leads the negotiations.",
+    "x": "The big meeting began in Antalya, a city by the sea in Türkiye. Türkiye is the host, and Australia is leading the talks."
+   },
+   {
+    "d": "2026-11-10",
+    "h": "A warning from the UN",
+    "o": "UN Secretary-General António Guterres urged leaders to get serious. A UN report projects about 2.6°C of warming this century on current promises, well above the Paris Agreement goal.",
+    "x": "The leader of the United Nations asked every country to get serious. A report says Earth is on track to warm more than countries promised."
+   },
+   {
+    "d": "2026-11-11",
+    "h": "World leaders arrive",
+    "o": "Leaders gather today and tomorrow. Organisers call this the implementation COP: less about new promises, more about keeping old ones. The United States did not send officials.",
+    "x": "Presidents and prime ministers arrive today. This meeting is about keeping old promises, and less about making new ones."
+   },
+   {
+    "d": "2026-11-12",
+    "h": "What do leaders promise?",
+    "o": "On the first day of speeches, UN chief António Guterres said the climate crisis is outrunning us. Türkiye asked countries to back a voluntary pledge to raise electricity's share of the world's energy use from about 23 per cent to 35 per cent by 2035. The head of the European Commission backed it. Others want it to say the electricity must be clean.",
+    "x": "Leaders gave speeches. The head of the United Nations said the world must move faster. Türkiye asked countries to run more cars, homes and factories on electricity."
+   },
+   {
+    "d": "2026-11-13",
+    "h": "The week in one page",
+    "o": "Leaders gave their speeches and went home. At least 14 countries have publicly backed the electricity pledge, by one news site's count, and a climate fund announced 94 million dollars to help developing countries electrify. But a fund for Pacific islands and a fund for tropical forests are still short of their targets, and countries still disagree about money for adapting to climate change. In week two, negotiators must agree a final text. The summit is due to end on 20 November.",
+    "x": "Leaders gave their speeches and went home. Some countries promised to run more things on electricity. Others asked for more money to help. Next week, countries must agree on a plan."
+   }
+  ],
+  "words": [
+   "cop",
+   "climate-change",
+   "paris-agreement",
+   "un"
+  ],
+  "poll": {
+   "q": "If you were a leader at COP31, what would you push for first?",
+   "a": [
+    [
+     "Cleaner energy",
+     "Most warming comes from burning coal, oil and gas for energy, so this is where the biggest cuts are."
+    ],
+    [
+     "Protecting forests",
+     "Trees take carbon dioxide out of the air, and forests are home to most land animals."
+    ],
+    [
+     "Helping places hit by floods and heat",
+     "Poorer countries have done the least to cause warming and are often hit hardest."
+    ],
+    [
+     "Cleaner transport",
+     "Cars, lorries, ships and planes burn a lot of fuel. Electric and shared travel cut that."
+    ]
+   ]
+  },
+  "talk": "Is it fair to ask every country to cut pollution by the same amount? Why, or why not?"
+ },
+ "puzzles": {
+  "week": "2026-11-09",
+  "sudoku": {
+   "o": {
+    "n": 6,
+    "br": 2,
+    "bc": 3,
+    "p": [
+     [
+      2,
+      0,
+      5,
+      6,
+      3,
+      0
+     ],
+     [
+      0,
+      1,
+      0,
+      5,
+      4,
+      0
+     ],
+     [
+      0,
+      0,
+      4,
+      1,
+      0,
+      5
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      3,
+      0,
+      6
+     ],
+     [
+      5,
+      6,
+      0,
+      0,
+      0,
+      0
+     ]
+    ],
+    "s": [
+     [
+      2,
+      4,
+      5,
+      6,
+      3,
+      1
+     ],
+     [
+      3,
+      1,
+      6,
+      5,
+      4,
+      2
+     ],
+     [
+      6,
+      3,
+      4,
+      1,
+      2,
+      5
+     ],
+     [
+      1,
+      5,
+      2,
+      4,
+      6,
+      3
+     ],
+     [
+      4,
+      2,
+      1,
+      3,
+      5,
+      6
+     ],
+     [
+      5,
+      6,
+      3,
+      2,
+      1,
+      4
+     ]
+    ]
+   },
+   "n": {
+    "n": 9,
+    "br": 3,
+    "bc": 3,
+    "p": [
+     [
+      0,
+      7,
+      0,
+      9,
+      4,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      6,
+      0,
+      2,
+      0,
+      0,
+      7,
+      0,
+      0,
+      8
+     ],
+     [
+      0,
+      8,
+      9,
+      2,
+      0,
+      0,
+      0,
+      1,
+      0
+     ],
+     [
+      0,
+      6,
+      7,
+      0,
+      1,
+      5,
+      0,
+      0,
+      4
+     ],
+     [
+      0,
+      5,
+      0,
+      3,
+      0,
+      4,
+      2,
+      7,
+      0
+     ],
+     [
+      0,
+      0,
+      3,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      9,
+      0,
+      5,
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     [
+      7,
+      0,
+      5,
+      0,
+      8,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      8,
+      0,
+      4,
+      0,
+      3,
+      9,
+      0,
+      5,
+      0
+     ]
+    ],
+    "s": [
+     [
+      5,
+      7,
+      1,
+      9,
+      4,
+      8,
+      6,
+      2,
+      3
+     ],
+     [
+      6,
+      3,
+      2,
+      1,
+      5,
+      7,
+      4,
+      9,
+      8
+     ],
+     [
+      4,
+      8,
+      9,
+      2,
+      6,
+      3,
+      5,
+      1,
+      7
+     ],
+     [
+      2,
+      6,
+      7,
+      8,
+      1,
+      5,
+      9,
+      3,
+      4
+     ],
+     [
+      1,
+      5,
+      8,
+      3,
+      9,
+      4,
+      2,
+      7,
+      6
+     ],
+     [
+      9,
+      4,
+      3,
+      7,
+      2,
+      6,
+      1,
+      8,
+      5
+     ],
+     [
+      3,
+      9,
+      6,
+      5,
+      7,
+      2,
+      8,
+      4,
+      1
+     ],
+     [
+      7,
+      2,
+      5,
+      4,
+      8,
+      1,
+      3,
+      6,
+      9
+     ],
+     [
+      8,
+      1,
+      4,
+      6,
+      3,
+      9,
+      7,
+      5,
+      2
+     ]
+    ]
+   },
+   "x": {
+    "n": 4,
+    "br": 2,
+    "bc": 2,
+    "p": [
+     [
+      1,
+      0,
+      0,
+      3
+     ],
+     [
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      3,
+      4
+     ],
+     [
+      3,
+      4,
+      0,
+      2
+     ]
+    ],
+    "s": [
+     [
+      1,
+      2,
+      4,
+      3
+     ],
+     [
+      4,
+      3,
+      2,
+      1
+     ],
+     [
+      2,
+      1,
+      3,
+      4
+     ],
+     [
+      3,
+      4,
+      1,
+      2
+     ]
+    ]
+   }
+  },
+  "words": {
+   "o": [
+    [
+     "ARMISTICE",
+     "An agreement to stop fighting (11 November 1918)"
+    ],
+    [
+     "SATELLITE",
+     "China wants these to do computing in space"
+    ],
+    [
+     "ASTRONAUT",
+     "NASA is looking for new ones"
+    ],
+    [
+     "LANTERN",
+     "German children carry one on St Martin's Day"
+    ],
+    [
+     "DISCOUNT",
+     "Money taken off the usual price"
+    ]
+   ],
+   "x": [
+    [
+     "SNOW",
+     "It fell early in Seoul"
+    ],
+    [
+     "MOON",
+     "NASA wants a base near its south pole"
+    ],
+    [
+     "COMET",
+     "Taurid fireballs come from one"
+    ],
+    [
+     "PLANE",
+     "It flew from Australia to France without stopping"
+    ],
+    [
+     "POPPY",
+     "A red flower for Remembrance Day"
+    ]
+   ]
+  }
+ },
+ "reporters": {
+  "week": "2026-11-09",
+  "t": "Report one kind thing you saw this week",
+  "why": "World Kindness Day is on Friday 13 November. The best reports appear on Sunday's front page.",
+  "tips": [
+   "Who did it?",
+   "What did they do?",
+   "Where did it happen?"
+  ],
+  "sample": [
+   {
+    "h": "Shopkeeper keeps a free water pot outside all summer",
+    "b": "People walking past stop to drink. He fills it three times a day.",
+    "by": "Reader, 10, India"
+   },
+   {
+    "h": "Year 4 class writes thank-you cards for the school cleaners",
+    "b": "Every child wrote one line. The cards were left on the cleaning trolley.",
+    "by": "Reader, 9, United Kingdom"
+   },
+   {
+    "h": "Neighbour teaches four children to ride bikes on Sunday mornings",
+    "b": "She brings her own tools and fixes the chains too.",
+    "by": "Reader, 12, Australia"
+   }
+  ]
+ }
+}

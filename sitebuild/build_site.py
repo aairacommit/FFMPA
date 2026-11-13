@@ -80,7 +80,7 @@ def page(path,title,desc,body,ldx=None):
 <style>{PAGE_CSS}</style>{GA}{'<script type="application/ld+json">'+json.dumps(ldx,ensure_ascii=False)+'</script>' if ldx else ''}</head>
 <body><header class="t"><div class="w"><a class="lg" href="/" aria-label="FFMPA home">ffmpa</a><a class="btn" href="/app/">Open the app</a></div></header>
 <main><div class="w"><p class="crumbs"><a href="/">FFMPA</a> / {html.escape(title.split(" | ")[0])}</p>{body}</div></main>
-<footer><div class="w"><a href="/">Home</a><a href="/schools/">For schools</a><a href="/safety/">Content standards</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/cookies/">Cookies</a><a href="/contact/">Contact</a><a href="/delete-account/">Delete account</a><p>© 2026 Founderfreedom Ventures LLP, Bangalore, India.</p></div></footer>{GA_BANNER}</body></html>'''
+<footer><div class="w"><a href="/">Home</a><a href="/s/">Today's stories</a><a href="/schools/">For schools</a><a href="/safety/">Content standards</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/cookies/">Cookies</a><a href="/contact/">Contact</a><a href="/delete-account/">Delete account</a><p>© 2026 Founderfreedom Ventures LLP, Bangalore, India.</p></div></footer>{GA_BANNER}</body></html>'''
     open(OUT+path+"index.html","w").write(t)
 SCHOOLS='''<h1>Kids news for the classroom</h1>
 <p class="lede">FFMPA Classroom mode turns each week's news into a ready class pack for primary and middle school teachers. It is free during early access and holds no pupil names.</p>
@@ -165,7 +165,7 @@ json.dump([{"relation":["delegate_permission/common.handle_all_urls"],"target":{
 pages=["/","/schools/","/safety/","/privacy/","/terms/","/cookies/","/contact/","/delete-account/"]
 open(OUT+"/sitemap.xml","w").write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+"".join(f"<url><loc>{BASE}{p}</loc><lastmod>2026-11-13</lastmod></url>\n" for p in pages)+"</urlset>\n")
 bots=["GPTBot","OAI-SearchBot","ChatGPT-User","ClaudeBot","Claude-SearchBot","Claude-User","PerplexityBot","Perplexity-User","Google-Extended","Applebot-Extended","CCBot","Bingbot","Googlebot"]
-open(OUT+"/robots.txt","w").write("User-agent: *\nAllow: /\n\n"+"".join(f"User-agent: {b}\nAllow: /\n\n" for b in bots)+f"Sitemap: {BASE}/sitemap.xml\n")
+open(OUT+"/robots.txt","w").write("User-agent: *\nAllow: /\n\n"+"".join(f"User-agent: {b}\nAllow: /\n\n" for b in bots)+f"Sitemap: {BASE}/sitemap.xml\nSitemap: {BASE}/s/sitemap.xml\n")
 open(OUT+"/llms.txt","w").write(f'''# FFMPA
 
 > FFMPA (ffmpa.com) is a news app for children aged 5 to 15, made by Founderfreedom Ventures LLP in Bengaluru, India. It publishes short, calm, real news stories twice a day, written at three reading levels and approved by a human editor.
@@ -200,4 +200,26 @@ open(OUT+"/llms.txt","w").write(f'''# FFMPA
 open(OUT+"/_headers","w").write("/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: strict-origin-when-cross-origin\n/assets/*\n  Cache-Control: public, max-age=604800\n/llms.txt\n  Content-Type: text/plain; charset=utf-8\n/.well-known/assetlinks.json\n  Content-Type: application/json\n  Access-Control-Allow-Origin: *\n")
 open(OUT+"/_redirects","w").write("/app /app/ 301\n/schools /schools/ 301\n/privacy /privacy/ 301\n/terms /terms/ 301\n/safety /safety/ 301\n/teachers /schools/ 301\n")
 open(OUT+"/_redirects","w").write("/teachers /schools/ 301\n/school /schools/ 301\n")
+# Public story pages live on Google Cloud Run (cloudrun/). Only /s/ goes through this worker; every other
+# path is served as static files, so _headers and _redirects keep working.
+NEWSROOM = "https://ffmpa-newsroom-317244127832.asia-south1.run.app"
+open(OUT+"/_worker.js", "w").write("""export default {
+  async fetch(request, env) {
+    const url = new URL(request.url);
+    if (url.pathname === "/s") return Response.redirect(url.origin + "/s/", 301);
+    if (url.pathname.startsWith("/s/")) {
+      try {
+        const r = await fetch("%s" + url.pathname + url.search, {
+          headers: { "Accept": request.headers.get("Accept") || "*/*", "User-Agent": request.headers.get("User-Agent") || "ffmpa-pages" },
+          cf: { cacheTtl: 300, cacheEverything: true } });
+        return new Response(r.body, { status: r.status, headers: r.headers });
+      } catch (e) {
+        return new Response("Stories are taking a break. Please try again in a minute.", { status: 503 });
+      }
+    }
+    return env.ASSETS.fetch(request);
+  }
+};
+""" % NEWSROOM)
+json.dump({"version": 1, "include": ["/s", "/s/*"], "exclude": []}, open(OUT+"/_routes.json", "w"))
 os.system(f"cd {OUT} && rm -f ../ffmpa-site.zip && zip -qr ../ffmpa-site.zip . && ls -la ../ffmpa-site.zip")

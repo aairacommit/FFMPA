@@ -41,3 +41,4 @@ User-agent: Googlebot
 Allow: /
 
 Sitemap: https://ffmpa.com/sitemap.xml
+Sitemap: https://ffmpa.com/s/sitemap.xml

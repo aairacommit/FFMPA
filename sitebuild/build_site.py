@@ -140,7 +140,12 @@ self.addEventListener("fetch",e=>{
   const u=new URL(r.url);
   if(u.hostname.includes("google-analytics")||u.hostname.includes("googletagmanager")) return;
   const fresh=r.mode==="navigate"||u.pathname.endsWith(".json")||u.hostname==="raw.githubusercontent.com";
-  if(fresh){ e.respondWith(fetch(r).then(res=>{ if(res.ok){ const cp=res.clone(); caches.open(V).then(c=>c.put(r,cp)); } return res; }).catch(()=>caches.match(r,{ignoreSearch:true}).then(m=>m||caches.match("/app/")))); return; }
+  /* edition files are stored under their plain address (no ?h=), and only the three newest edition files are kept */
+  const gh=u.hostname==="raw.githubusercontent.com", key=gh?u.origin+u.pathname:r;
+  const ED=/\/editions\/\d{4}-\d{2}-\d{2}-(am|pm)\.json$/;
+  const keep=c=>gh&&ED.test(u.pathname)?c.keys().then(ks=>{ const eds=ks.filter(k=>ED.test(new URL(k.url).pathname)).sort((a,b)=>a.url<b.url?-1:1);
+    return Promise.all(eds.slice(0,-3).filter(k=>new URL(k.url).pathname!==u.pathname).map(k=>c.delete(k))); }):null;
+  if(fresh){ e.respondWith(fetch(r).then(res=>{ if(res.ok){ const cp=res.clone(); caches.open(V).then(c=>c.put(key,cp).then(()=>keep(c))); } return res; }).catch(()=>caches.match(key,{ignoreSearch:true}).then(m=>m||(gh?Response.error():caches.match("/app/"))))); return; }
   if(u.origin===location.origin||u.hostname.endsWith("gstatic.com")||u.hostname.endsWith("googleapis.com")){
     e.respondWith(caches.match(r).then(m=>m||fetch(r).then(res=>{ if(res.ok||res.type==="opaque"){ const cp=res.clone(); caches.open(V).then(c=>c.put(r,cp)); } return res; })));
   }

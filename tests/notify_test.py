@@ -13,7 +13,7 @@ SUBS = {
     "d": {"tz": "America/Los_Angeles", "last_edition": "2026-11-13-am"},  # 4:30 pm: still morning edition: nothing
     "f": {"tz": "Asia/Kolkata", "last_edition": "2026-11-14-am"},      # that edition was rolled back: update quietly
     "g": {"tz": "Australia/Sydney", "last_edition": "2026-11-13-am"},  # 11:30 am: evening edition from 6 am: alert
-    "h": {"tz": "Europe/London", "last_edition": "2026-11-13-am"},     # 0:30 am: quiet hours: update, no alert
+    "h": {"tz": "Europe/London", "last_edition": "2026-11-13-am"},     # 0:30 am: quiet hours: alert held until 6 am
     "i": {"tz": None, "last_edition": "2026-11-13-am"},                # no time zone yet: treated as India
 }
 for k, v in SUBS.items():
@@ -66,7 +66,7 @@ checks = [
     ("alerts sent to a, g and i only", set(sent) == expect_sent),
     ("new device b remembered without alert", SUBS["b"]["last_edition"] == "2026-11-13-pm" and "b" not in sent),
     ("device on a rolled back edition is left alone, no alert", SUBS["f"]["last_edition"] == "2026-11-14-am" and "f" not in sent),
-    ("London in quiet hours: updated, no alert", SUBS["h"]["last_edition"] == "2026-11-13-pm" and "h" not in sent),
+    ("London in quiet hours: alert held, edition not consumed", SUBS["h"]["last_edition"] == "2026-11-13-am" and "h" not in sent),
     ("Los Angeles still on morning edition", SUBS["d"]["last_edition"] == "2026-11-13-am"),
     ("second run sends nothing", (sent.clear(), main.notify().get_json())[1]["sent"] == 0 and not sent),
     ("edition log unchanged", config["edition_log"] == LOG),
@@ -90,6 +90,10 @@ main.fetch_json = lambda url: {"date": "2026-11-13", "edition": "pm", "stories":
 main.notify()
 checks.append(("re-merged edition keeps its original time", config["edition_log"][-1] == LOG[-1]))
 checks.append(("nobody alerted twice after pm, am, pm (only j, never told, gets pm once)", sent == ["j"]))
+# 6:10 am London: the alert held overnight goes out once
+sent.clear(); main.time.time = lambda: NOW + 5 * 3600 + 40 * 60
+main.notify(); main.notify()
+checks.append(("held London alert sent once after 6 am", sent.count("h") == 1 and SUBS["h"]["last_edition"] == "2026-11-13-pm"))
 for name, ok in checks:
     print("PASS" if ok else "FAIL", name)
 print(json.dumps(res))

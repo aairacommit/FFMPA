@@ -199,21 +199,34 @@ async function loadLiveEdition(opts){
       log=await sbEditionLog(); if(log) pick=ffEditionFor(log,Date.now(),ffTz(),ADMIN.amTime,ADMIN.pmTime);
       if(!log&&cur) return;   /* schedule unreachable: keep what is showing rather than guess */
     }
+    /* any failure (offline, timeout, an HTML page instead of JSON) gives null, never an exception */
     const get=async url=>{ const ctl=new AbortController(); const tm=setTimeout(()=>ctl.abort(),6000);
-      try{ const r=await fetch(url+"?h="+Math.floor(Date.now()/3e5),{signal:ctl.signal,cache:"no-store"}); return r.ok?await r.json():null; }finally{ clearTimeout(tm); } };
+      try{ const r=await fetch(url+"?h="+Math.floor(Date.now()/3e5),{signal:ctl.signal,cache:"no-store"}); return r.ok?await r.json():null; }catch(e){ return null; }finally{ clearTimeout(tm); } };
+    const idOf=E=>E&&E.date?E.date+"-"+(E.edition||"am"):null;
+    const byId=id=>get(EDITION_URL.replace("latest.json",id+".json"));
     if(pick&&cur===pick.id){ if(window.FF_SLOT!==pick.slot){ window.FF_SLOT=pick.slot; renderTop(); } return; }
     /* never step back to an older edition unless the newer one was rolled back (no longer in the log) */
     if(pick&&cur&&cur>pick.id&&log.some(e=>e.id===cur)) return;
-    let E=pick?await get(EDITION_URL.replace("latest.json",pick.id+".json")):null;
-    if(!E||(E.date+"-"+(E.edition||"am"))!==(pick&&pick.id)){ if(cur||pick) return; E=await get(EDITION_URL); pick=null; }  /* latest.json only when there is no schedule and nothing showing */
+    /* a new edition while a child is in the middle of reading waits until the app is opened again (no download yet) */
+    if(pick&&cur&&opts&&opts.background&&typeof idx!=="undefined"&&idx>0){ window.FF_PENDING=true; return; }
+    let E=pick?await byId(pick.id):null;
+    if(!pick||idOf(E)!==pick.id){
+      if(cur) return;                        /* something is showing: keep it */
+      /* nothing showing yet: the last edition this device showed (cached for offline), then latest.json,
+         which is only used if it is not ahead of this family's schedule */
+      E=null; pick=null; let last=null; try{ last=localStorage.getItem("ffmpa-ed-last"); }catch(e){}
+      if(last&&/^\d{4}-\d{2}-\d{2}-(am|pm)$/.test(last)) E=await byId(last);
+      if(idOf(E)!==last) E=null;
+      if(!E){ const L2=await get(EDITION_URL); const want=log?ffEditionFor(log,Date.now(),ffTz(),ADMIN.amTime,ADMIN.pmTime):null;
+        if(L2&&(!want||idOf(L2)<=want.id)) E=L2; }
+    }
     if(!E||!E.date) return;
     const id=E.date+"-"+(E.edition||"am");
     if(cur===id) return;
     if(!pick&&cur&&E.date<EDITION_DATE) return;
-    /* a new edition while a child is in the middle of reading waits until the app is opened again */
     if(cur&&opts&&opts.background&&typeof idx!=="undefined"&&idx>0){ window.FF_PENDING=true; return; }
     window.FF_SLOT=pick?pick.slot:((E.edition==="pm")?"pm":"am"); window.FF_PENDING=false;
-    applyEdition(E);
+    if(applyEdition(E)){ try{ localStorage.setItem("ffmpa-ed-last",id); }catch(e){} }
   }catch(e){}
 }
 /* keep an open app on time: check every five minutes (applied when the child is not mid story), and whenever the app comes back to the screen */

@@ -6,7 +6,7 @@ Two jobs:
    works out which edition each device's time zone should be seeing now (6:00 am and 7:00 pm local release
    times, see visible_edition), and sends one web push when that changes. Pushes carry no data. Each device is
    claimed in the database before it is sent to, so overlapping runs never send twice, and a device is never moved
-   back to an older edition. No alerts 9 pm to 6 am. A rollback must be seen on two runs 5 minutes apart.
+   back to an older edition. No alerts 9 pm to 6 am (held until the first run after 6 am). A rollback must be seen on two runs 5 minutes apart.
 2. Public story pages. GET /s/ lists the last three days of stories; GET /s/<id> shows one story at the
    Thinkers level (ages 10 to 12) with its word explainers, think question and sources, marked up as a
    NewsArticle for search engines. Data is read from the public editions folder on GitHub.
@@ -144,7 +144,7 @@ def _zone(tz):
 
 def _hm(s, default):
     # release times must be 04:00 to 22:59: other hours can fall in a daylight saving gap or repeat
-    m = re.match(r"^(\d{1,2}):(\d{2})$", s or "")
+    m = re.fullmatch(r"(\d{1,2}):(\d{2})", s or "")
     return (int(m.group(1)), int(m.group(2))) if m and 4 <= int(m.group(1)) <= 22 and int(m.group(2)) < 60 else default
 
 def _parse(ts):
@@ -165,8 +165,12 @@ def visible_edition(log, now, tz, am_time="06:00", pm_time="19:00"):
     z = _zone(tz)
     am, pm = _hm(am_time, (6, 0)), _hm(pm_time, (19, 0))
     today = dt.datetime.fromtimestamp(now, z).date()
+    # walk every release from the day before the oldest logged edition (at most 14 days back), so the answer
+    # depends only on the log and the clock, never on where the walk happens to start
+    oldest = dt.datetime.fromtimestamp(min(L[0][0], now), z).date()
+    days = min(14, (today - oldest).days + 1)
     bounds = []
-    for back in range(4):
+    for back in range(days + 1):
         d = today - dt.timedelta(days=back)
         for (h, mi), slot in ((am, "am"), (pm, "pm")):
             local = dt.datetime(d.year, d.month, d.day, h, mi)
@@ -193,10 +197,9 @@ def visible_edition(log, now, tz, am_time="06:00", pm_time="19:00"):
         if not changed or not shown[1].endswith("-" + past[i][1]):
             end = min(now if i == len(past) - 1 else past[i + 1][0] - 0.001, past[i][0] + LATE_SECONDS)
             s_t = shown[0] if shown else float("-inf")
-            late = None
-            for seen, eid in L:
-                if seen <= end and seen > s_t and eid.endswith("-" + past[i][1]):
-                    late = (seen, eid)
+            # only the next unseen edition may arrive late, so a late arrival never jumps over one that is waiting
+            nxt = next(((seen, eid) for seen, eid in L if s_t < seen <= end), None)
+            late = nxt if nxt and nxt[0] > past[i][0] and nxt[1].endswith("-" + past[i][1]) else None
             if late:
                 shown, rel = late, past[i]
     if not shown:
@@ -297,13 +300,14 @@ def notify():
         # ids sort by date, then am before pm. A device is never moved back to an older edition (after a roll
         # back it simply waits for the next new one), so nobody is ever alerted twice for the same edition.
         newer = [m for m in due if vid > m["last_edition"]]
+        if is_quiet:
+            # hold the alert: these devices keep their old edition and are alerted at the first run after 6 am
+            quiet += len(newer)
+            continue
         for i in range(0, len(newer), 100):
             # claim first: only rows still on an older edition come back, so overlapping runs never both send
             claimed = sb_patch("push_subs", "id=in.(" + ",".join(m["id"] for m in newer[i:i + 100]) + f")&last_edition=lt.{vid}",
                                {"last_edition": vid})
-            if is_quiet:
-                quiet += len(claimed)
-                continue
             for c in claimed:
                 try:
                     r = http.post(c["endpoint"], headers={"Authorization": vapid_header(c["endpoint"], priv, pub, cache),
@@ -320,7 +324,7 @@ def notify():
         sb_delete("push_subs", "id=in.(" + ",".join(str(g) for g in gone[i:i + 100]) + ")")
     result = {"at": dt.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"), "by": "cloud-run", "latest": lid,
               "sent": sent, "failed": failed, "quiet": quiet, "removed": len(gone), "devices": len(subs), "zones": zones}
-    if sent or failed or quiet or gone:
+    if sent or failed or gone:  # held quiet-hour alerts alone do not rewrite the record every 10 minutes
         sb_upsert("app_config", {"key": "last_push", "value": result})
     return jsonify(result)
 

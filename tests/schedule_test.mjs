@@ -1,6 +1,6 @@
 // node tests/schedule_test.mjs  (checks src/schedule.js against tests/schedule_cases.json)
 import fs from "fs"; import vm from "vm";
-const ctx={}; vm.createContext(ctx); vm.runInContext(fs.readFileSync(new URL("../src/schedule.js",import.meta.url),"utf8")+";this.ffEditionFor=ffEditionFor;",ctx);
+const ctx={}; vm.createContext(ctx); vm.runInContext(fs.readFileSync(new URL("../src/schedule.js",import.meta.url),"utf8")+";this.ffEditionFor=ffEditionFor;this.ffLocalDate=ffLocalDate;this.ffZoned=ffZoned;",ctx);
 const C=JSON.parse(fs.readFileSync(new URL("./schedule_cases.json",import.meta.url),"utf8"));
 let bad=0;
 for(const c of C.cases){ const r=ctx.ffEditionFor(c.log||C.log,Date.parse(c.now),c.tz,"06:00","19:00");
@@ -75,6 +75,46 @@ console.log(`${C.cases.length-bad}/${C.cases.length} cases pass, ${out.length} g
   }
   console.log(`coverage: ${patterns.length*2*allZones.length-covFails}/${patterns.length*2*allZones.length} zone runs see every edition, never step back`);
   if(covFails) fails++;
+  // Random logs (late, very late, early and skipped merges) across daylight saving changes and the far ends of
+  // the world. Checks: never a step back, nothing missed, and no change except at a release or an arrival
+  // (in particular never at local midnight). Points are dumped for the Python check.
+  {
+    const fz=["Asia/Kolkata","America/New_York","Europe/London","Australia/Sydney","Pacific/Kiritimati","Pacific/Tongatapu","Pacific/Pago_Pago","Pacific/Auckland","Asia/Kathmandu","America/St_Johns","Australia/Lord_Howe","America/Los_Angeles","Pacific/Chatham"];
+    const wins=[["2026-10-28","2026-11-06"],["2026-10-20","2026-10-29"],["2027-03-31","2027-04-09"],["2026-09-30","2026-10-08"]];
+    let sd=11; const rr=()=>(sd=(sd*1103515245+12345)%2147483648)/2147483648;
+    const iso=ms=>new Date(ms).toISOString().replace(/\.\d+Z/,"Z");
+    let bk=0, ms=0, sp=0, runs=0; const dump=[];
+    for(let it=0; it<12; it++){
+      const [a,b]=wins[it%wins.length], d0=Date.parse(a+"T00:00:00Z"), dEnd=Date.parse(b+"T00:00:00Z");
+      const lg=[]; for(let t=d0; t<dEnd; t+=864e5){ const D=iso(t).slice(0,10);
+        if(rr()>0.1) lg.push({id:D+"-am",seen:iso(t+(45+Math.floor(rr()<0.2?rr()*600:rr()*60))*60e3)});
+        if(rr()>0.1) lg.push({id:D+"-pm",seen:iso(t+(825+Math.floor(rr()<0.2?rr()*500-200:rr()*60))*60e3)}); }
+      lg.sort((x,y)=>x.seen<y.seen?-1:1);
+      const st=d0+2*864e5, en=dEnd-864e5, arr=lg.map(e=>Date.parse(e.seen));
+      const must=lg.filter(e=>Date.parse(e.seen)>=st+864e5&&Date.parse(e.seen)<=en-2*864e5).map(e=>e.id);
+      const pts=[];
+      for(const tz of fz){ runs++;
+        let prev=null, prevT=null; const seenIds=new Set();
+        for(let t=st; t<=en; t+=15*60e3){
+          const r=ctx.ffEditionFor(lg,t,tz,"06:00","19:00"), id=r&&r.id;
+          if(Math.floor(t/60e3)%45===0) pts.push([tz,t,id,r&&r.slot]);
+          if(id) seenIds.add(id);
+          if(prev!==null&&id!==prev){
+            if(id<prev) bk++;
+            const [y,m,dd]=ctx.ffLocalDate(t,tz); let rel=false;
+            for(const back of [0,1]) for(const [h,mi] of [[6,0],[19,0]]){ const q=new Date(Date.UTC(y,m-1,dd-back)); const rt=ctx.ffZoned(q.getUTCFullYear(),q.getUTCMonth()+1,q.getUTCDate(),h,mi,tz); if(rt>prevT&&rt<=t) rel=true; }
+            if(!rel&&!arr.some(x=>x>prevT&&x<=t)){ sp++; if(sp<4) console.log("SPURIOUS CHANGE",tz,iso(t),prev,"->",id); }
+          }
+          prev=id; prevT=t;
+        }
+        const missed=must.filter(x=>!seenIds.has(x)); if(missed.length){ ms++; if(ms<4) console.log("MISSED",tz,missed.join(" ")); }
+      }
+      dump.push({log:lg,pts});
+    }
+    fs.writeFileSync("/tmp/schedule_fuzz.json",JSON.stringify(dump));
+    console.log(`fuzz: ${runs} zone runs, step backs ${bk}, missed ${ms}, changes outside a release or arrival ${sp}`);
+    if(bk||ms||sp) fails++;
+  }
   const g2=[]; for(const tz of Object.keys(zones)) for(let t=Date.parse("2026-11-16T00:00:00Z"); t<=Date.parse("2026-11-23T00:00:00Z"); t+=13*60*1000){ const r=ctx.ffEditionFor(log,t,tz,"06:00","19:00"); g2.push([tz,t,r?r.id:null,r?r.slot:null]); }
   fs.writeFileSync("/tmp/schedule_grid2.json",JSON.stringify({log,grid:g2}));
   if(fails) process.exit(1);

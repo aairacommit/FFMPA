@@ -132,6 +132,25 @@ main.fetch_json = lambda url: {"date": "2026-11-13", "edition": "am", "stories":
 main.time.time = lambda: T0; main.notify(); main.time.time = lambda: T0 + 400; main.notify()
 ids = [e["id"] for e in config["edition_log"]]
 checks.append(("an older edition merged late is added and the newer one kept", "2026-11-13-am" in ids and "2026-11-13-pm" in ids))
+# roll back while GitHub still serves the deleted file from its cache on the first run: the restored edition
+# (never logged) must still show at once once the rollback is confirmed
+GONE.clear(); config.pop("edition_log_pending", None); config.pop("edition_log_removed", None)
+config["edition_log"] = [x for x in LOG if x["id"] != "2026-11-13-am"]
+main.fetch_json = lambda url: {"date": "2026-11-13", "edition": "am", "stories": [1] * 12}
+T1 = dt.datetime(2026, 11, 13, 14, 30, tzinfo=dt.timezone.utc).timestamp() + 86400 * 0
+main.time.time = lambda: T1; main.notify()            # cached 200 for 13-pm
+GONE.add("2026-11-13-pm")
+main.time.time = lambda: T1 + 400; main.notify()      # now 404: wait 5 more minutes
+main.time.time = lambda: T1 + 800; main.notify()      # still 404: confirmed
+ids = [e["id"] for e in config["edition_log"]]
+vis = [main.visible_edition(config["edition_log"], T1 + 800, z) for z in ("America/New_York", "Europe/London", "Asia/Kolkata")]
+checks.append(("rollback with a cached deleted file: restored edition shows at once", "2026-11-13-pm" not in ids and all(v and v["id"] == "2026-11-13-am" for v in vis)))
+# a file seen gone only once (a false 404) never removes anything
+GONE.clear(); config.pop("edition_log_pending", None)
+config["edition_log"] = list(LOG)
+main.time.time = lambda: T1; GONE.add("2026-11-13-pm"); main.notify()
+GONE.clear(); main.time.time = lambda: T1 + 400; main.notify()
+checks.append(("a single false 404 removes nothing", config["edition_log"] == LOG))
 # a malformed pending value never crashes a run
 config["edition_log_pending"] = {"rollback_to": "2026-11-13-am", "at": "x"}
 try:

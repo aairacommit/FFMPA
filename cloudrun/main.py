@@ -15,6 +15,7 @@ Secrets: SUPABASE_SECRET_KEY comes from Secret Manager. Nothing personal is stor
 """
 import base64, datetime as dt, html, json, os, re, threading, time
 import requests
+from concurrent.futures import ThreadPoolExecutor
 from zoneinfo import ZoneInfo
 from flask import Flask, Response, abort, jsonify, request
 from cryptography.hazmat.primitives import hashes, serialization
@@ -263,22 +264,35 @@ def update_edition_log(now=None):
         p_at = None
     ids = [x["id"] for x in log]
     new = log
-    newer = [i for i in ids if i > lid]
-    gone = [i for i in newer if _edition_file_state(i) is False] if newer else []
-    if gone:                                                   # looks like a rollback
+    # An older edition than the newest logged one is current: either a rollback (the newer files are deleted
+    # from main) or an older edition merged late. Decide only after two runs at least 5 minutes apart, removing
+    # only files seen gone on both. Outside a pending decision this costs one request (the newest file).
+    newer = sorted((i for i in ids if i > lid), reverse=True)
+    if newer and (lid not in ids or pending.get("rollback_to") == lid or _edition_file_state(newer[0]) is False):
+        with ThreadPoolExecutor(max_workers=8) as ex:
+            gone = [i for i, st in zip(newer, ex.map(_edition_file_state, newer)) if st is False]
+        prev = pending.get("gone") if isinstance(pending.get("gone"), list) else []
         if pending.get("rollback_to") == lid and p_at is not None and now - p_at >= 300:
-            new = [x for x in log if x["id"] not in gone]
-            removed = (removed + [x for x in log if x["id"] in gone])[-20:]
-            if lid not in ids:                                 # restored edition no longer in the log
+            both = [i for i in gone if i in prev]
+            if both:                                           # confirmed rollback
+                new = [x for x in log if x["id"] not in both]
+                removed = (removed + [x for x in log if x["id"] in both])[-20:]
                 back = next((x for x in removed if x.get("id") == lid), None)
-                # its original time if known, otherwise noon UTC the day before its date, so it shows at once
+                # the restored edition shows at once: its original time if known, otherwise noon UTC the
+                # day before its date (also when it was added while the rollback was being confirmed)
                 seen = back["seen"] if back else _iso(dt.datetime(int(lid[0:4]), int(lid[5:7]), int(lid[8:10]), 12, tzinfo=dt.timezone.utc).timestamp() - 86400)
-                new = sorted(new + [{"id": lid, "seen": seen}], key=lambda x: x["seen"])[-20:]
+                new = sorted([x for x in new if x["id"] != lid] + [{"id": lid, "seen": seen}], key=lambda x: x["seen"])[-20:]
                 removed = [x for x in removed if x.get("id") != lid]
-            pending = {}
+                pending = {}
+            elif gone:                                         # gone now but not before: wait 5 more minutes
+                pending = {"rollback_to": lid, "at": now, "gone": gone}
+            else:                                              # nothing deleted: an older edition merged late
+                if lid not in ids:
+                    new = sorted(log + [{"id": lid, "seen": _iso(p_at)}], key=lambda x: x["seen"])[-20:]
+                pending = {}
         elif pending.get("rollback_to") != lid or p_at is None:
-            pending = {"rollback_to": lid, "at": now}
-    elif lid not in ids:                                       # a new edition, a late one, or one that came back
+            pending = {"rollback_to": lid, "at": now, "gone": gone}
+    elif lid not in ids:                                       # a new edition, or one that came back
         back = next((x for x in removed if x.get("id") == lid), None)
         seen = back["seen"] if back else _iso(now)
         new = sorted(log + [{"id": lid, "seen": seen}], key=lambda x: x["seen"])[-20:]

@@ -73,7 +73,7 @@ async function afterSignIn(tok){ const prev=store.get("ffmpa-session",null);
 async function createProfile(){ const s=snapshot(); s.id=session.uid; s.consent_at=new Date().toISOString();
   await sbFetch("/rest/v1/profiles",{method:"POST",body:s,headers:{Prefer:"resolution=merge-duplicates,return=minimal"},need:true}); _sset("ffmpa-synced-at",new Date().toISOString()); }
 function sbSignedOut(){ store.del(AUTH_KEY); if(session&&session.uid){ session=null; _sdel("ffmpa-session"); startWelcome("email"); } }
-async function sbSignOut(){ try{ await pushProfile(); await sbFetch("/auth/v1/logout",{method:"POST",need:true}); }catch(e){} _sdel(AUTH_KEY); clearLocalProgress(); }
+async function sbSignOut(){ await pushOff(); _sdel("ffmpa-alert-asked"); try{ await pushProfile(); await sbFetch("/auth/v1/logout",{method:"POST",need:true}); }catch(e){} _sdel(AUTH_KEY); clearLocalProgress(); }
 
 /* Boot: refresh from the cloud if another device saved newer progress; load shared admin settings. */
 async function sbBoot(){ if(!SB_ON) return;
@@ -124,7 +124,7 @@ function admHeaderNote(){ if(!SB_ON) return "Founderfreedom Ventures LLP · prot
 const _renderAdmin0=renderAdmin;
 renderAdmin=function(){ _renderAdmin0(); const o=$("#admOut"); if(o) o.onclick=e=>{ e.preventDefault(); admSignOut(); };
   if(SB_ON&&admSection==="dashboard"){ const m=$("#admMain"); if(!m) return; const p=document.createElement("div"); p.className="panel"; p.innerHTML=`<h2>Families and classes (live)</h2><div class="kpis" id="admLive"><div class="kpi"><b>…</b><span>Loading</span></div></div>`; const h=m.querySelector(".kpis"); if(h) h.after(p); else m.prepend(p);
-    rpc("admin_overview",{}, {as:ADMIN_AUTH_KEY}).then(r=>{ const x=(r&&r[0])||{}; const el=$("#admLive"); if(el) el.innerHTML=[["families","Family accounts"],["signed_in_7d","Signed in, last 7 days"],["reports_waiting","Young reporter reports waiting"],["classes","Classes"],["pupils","Pupils in classes"]].map(([k,l])=>`<div class="kpi"><b>${x[k]==null?"·":x[k]}</b><span>${l}</span></div>`).join(""); }).catch(()=>{ const el=$("#admLive"); if(el) el.innerHTML=`<p class="note">Could not load live numbers. Sign out and in again.</p>`; }); } };
+    rpc("admin_overview",{}, {as:ADMIN_AUTH_KEY}).then(r=>{ const x=(r&&r[0])||{}; const el=$("#admLive"); if(el) el.innerHTML=[["families","Family accounts"],["signed_in_7d","Signed in, last 7 days"],["reports_waiting","Young reporter reports waiting"],["classes","Classes"],["pupils","Pupils in classes"],["alert_devices","Devices with edition alerts"]].map(([k,l])=>`<div class="kpi"><b>${x[k]==null?"·":x[k]}</b><span>${l}</span></div>`).join(""); }).catch(()=>{ const el=$("#admLive"); if(el) el.innerHTML=`<p class="note">Could not load live numbers. Sign out and in again.</p>`; }); } };
 
 /* ---------- Young reporters ---------- */
 const mapReport=r=>({id:r.id,w:r.week,h:r.headline,b:r.body||"",status:r.status,age:r.age_band,country:r.country,at:r.created_at});
@@ -158,9 +158,39 @@ const _statQ0=statQ; statQ=function(ok){ const k=wkStats(); k.total++; if(ok) k.
 
 /* ---------- account: download and delete ---------- */
 function acctHTML(){ if(!signedIn()) return ""; return `<div class="set"><h3>Your account</h3><p class="note">Your family's settings and reading progress are saved to your account so they follow you to any device. We never store your child's photo, birthday or school.</p>
-  <div class="row" style="gap:8px;flex-wrap:wrap"><button class="btn ghost press" id="acDl" type="button">Download my data</button><button class="btn ghost press" id="acDel" type="button" style="color:#B42318">Delete account</button></div><p class="msg" id="acM" aria-live="polite"></p></div>`; }
-function wireAcct(){ const dl=$("#acDl"), del=$("#acDel"); if(!dl) return;
+  <h4 class="h4" style="margin:14px 0 6px">Edition alerts</h4><div id="alBox"><p class="note">Checking…</p></div>
+  <div class="row" style="gap:8px;flex-wrap:wrap;margin-top:14px"><button class="btn ghost press" id="acDl" type="button">Download my data</button><button class="btn ghost press" id="acDel" type="button" style="color:#B42318">Delete account</button></div><p class="msg" id="acM" aria-live="polite"></p></div>`; }
+function wireAcct(){ const dl=$("#acDl"), del=$("#acDel"); if(!dl) return; renderAlerts();
   dl.onclick=async()=>{ try{ const [p,r]=await Promise.all([sbFetch("/rest/v1/profiles?select=*&id=eq."+session.uid,{need:true}),sbFetch("/rest/v1/reports?select=week,headline,body,status,age_band,country,created_at",{need:true})]);
     const blob=new Blob([JSON.stringify({account:session.email,profile:p&&p[0],reports:r},null,2)],{type:"application/json"}); const a=document.createElement("a"); a.href=URL.createObjectURL(blob); a.download="ffmpa-my-data.json"; a.click(); setTimeout(()=>URL.revokeObjectURL(a.href),4000); }catch(e){ $("#acM").textContent=friendly(e); } };
   del.onclick=()=>{ $("#acM").innerHTML=`This deletes your account, your child's progress, reports and classes for good. <button class="btn press" id="acYes" type="button" style="background:#B42318;color:#fff;margin-top:8px">Yes, delete everything</button>`;
-    $("#acYes").onclick=async()=>{ $("#acYes").disabled=true; try{ await rpc("delete_my_account",{}); _sdel(AUTH_KEY); clearLocalProgress(); _sdel("ffmpa-session"); session=null; klass=null; closeSheet(); startWelcome("email"); }catch(e){ $("#acM").textContent=friendly(e); } }; }; }
+    $("#acYes").onclick=async()=>{ $("#acYes").disabled=true; try{ await pushOff(); await rpc("delete_my_account",{}); _sdel(AUTH_KEY); clearLocalProgress(); _sdel("ffmpa-session"); session=null; klass=null; closeSheet(); startWelcome("email"); }catch(e){ $("#acM").textContent=friendly(e); } }; }; }
+
+/* ---------- edition alerts (web push) ---------- */
+const pushOK=()=>SB_ON&&"serviceWorker" in navigator&&"PushManager" in window&&"Notification" in window;
+/* isIOS() is defined in bigs.js (install help) */
+const u8=s=>{ const b=atob((s+"=".repeat((4-s.length%4)%4)).replace(/-/g,"+").replace(/_/g,"/")); return Uint8Array.from(b,c=>c.charCodeAt(0)); };
+async function vapidKey(){ const r=await sbFetch("/rest/v1/app_config?select=value&key=eq.vapid_public",{auth:false}); return r&&r[0]&&r[0].value; }
+async function pushReg(){ return (await navigator.serviceWorker.getRegistration("/"))||(await navigator.serviceWorker.register("/sw.js",{scope:"/"})); }
+async function pushState(){ if(!pushOK()) return isIOS()?"ios":"unsupported"; if(Notification.permission==="denied") return "blocked";
+  try{ const reg=await navigator.serviceWorker.getRegistration("/"); const sub=reg&&await reg.pushManager.getSubscription(); return sub&&Notification.permission==="granted"?"on":"off"; }catch(e){ return "off"; } }
+async function pushOn(){ const key=await vapidKey(); if(!key) throw new Error("Alerts are being set up. Try again in a few minutes.");
+  const perm=await Notification.requestPermission(); if(perm!=="granted") return "blocked";
+  const reg=await pushReg(); await navigator.serviceWorker.ready; let sub=await reg.pushManager.getSubscription();
+  const want=u8(key); const same=sub&&sub.options&&sub.options.applicationServerKey&&new Uint8Array(sub.options.applicationServerKey).join()===want.join();
+  if(sub&&!same){ await sub.unsubscribe(); sub=null; }
+  if(!sub) sub=await reg.pushManager.subscribe({userVisibleOnly:true,applicationServerKey:want});
+  const j=sub.toJSON(); await rpc("save_push",{p_endpoint:j.endpoint,p_p256dh:j.keys.p256dh,p_auth:j.keys.auth,p_country:settings.country}); return "on"; }
+async function pushOff(){ try{ const reg=await navigator.serviceWorker.getRegistration("/"); const sub=reg&&await reg.pushManager.getSubscription(); if(sub){ try{ if(signedIn()) await rpc("drop_push",{p_endpoint:sub.endpoint}); }catch(e){} await sub.unsubscribe(); } }catch(e){} return "off"; }
+const ALERT_TXT={on:"On. You get one alert when each edition is ready, morning and evening.",off:"Off. Get one alert when each edition is ready, morning and evening.",blocked:"Blocked in this browser's settings. Allow notifications for ffmpa.com, then try again.",ios:"On iPhone and iPad, first add FFMPA to your Home Screen (Share, then Add to Home Screen), open it from there, then turn alerts on here.",unsupported:"This browser cannot show alerts. Try Chrome, or install the app."};
+async function renderAlerts(){ const box=$("#alBox"); if(!box) return; const st=await pushState();
+  box.innerHTML=`<p class="note" style="margin:0 0 8px">${ALERT_TXT[st]}</p>${st==="on"?`<button class="btn ghost press" id="alOff" type="button">Turn off alerts</button>`:st==="off"?`<button class="btn sun press" id="alOn" type="button">Turn on edition alerts</button>`:""}`;
+  const on=$("#alOn"), off=$("#alOff");
+  if(on) on.onclick=async()=>{ on.disabled=true; try{ await pushOn(); }catch(e){ box.insertAdjacentHTML("beforeend",`<p class="msg">${esc(e.message&&/set up/.test(e.message)?e.message:friendly(e))}</p>`); } renderAlerts(); };
+  if(off) off.onclick=async()=>{ off.disabled=true; await pushOff(); renderAlerts(); }; }
+/* one gentle offer, the first time a child reaches the end of an edition */
+const _recordEnd0=recordEnd; recordEnd=function(){ _recordEnd0(); if(!signedIn()||store.get("ffmpa-alert-asked",false)) return;
+  pushState().then(st=>{ if(st!=="off"&&st!=="ios") return; _sset("ffmpa-alert-asked",true);
+    setTimeout(()=>openSheet(`<span class="ttype" style="background:#EDE7FF;color:#4B21A6">New</span><h2 id="shTitle" style="margin-top:8px">Know when the <em class="v">next edition</em> lands</h2><p class="sub">One alert in the morning and one in the evening, only when fresh stories are ready. Nothing else, ever.</p>
+      <button class="btn sun press" id="alAsk" style="width:100%">Ask a grown-up to turn it on</button><button class="lk press" id="alNo" style="margin-top:12px">Not now</button>`,
+      ()=>{ $("#alNo").onclick=closeSheet; $("#alAsk").onclick=()=>askPin(()=>{ openSheet(`<h2 id="shTitle">Edition <em class="v">alerts</em></h2><div id="alBox"></div>`,()=>renderAlerts()); }); }),1400); }); };

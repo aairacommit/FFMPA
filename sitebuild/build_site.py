@@ -117,7 +117,7 @@ json.dump({"id":"/app/","name":"FFMPA Kids News","short_name":"FFMPA","descripti
  "screenshots":[{"src":f"/assets/screen-{k}.png","sizes":"780x1688","type":"image/png","form_factor":"narrow","label":l} for k,l in ((1,"Today's edition"),(2,"A story with tap-to-learn words"),(3,"A hand-drawn sketch explainer"))],
  "shortcuts":[{"name":"Today's edition","url":"/app/?source=shortcut","icons":[{"src":"/assets/icon-192.png","sizes":"192x192"}]}]},open(OUT+"/manifest.webmanifest","w"),indent=1)
 open(OUT+"/sw.js","w").write('''/* FFMPA service worker: makes the app installable and keeps the last edition readable offline. */
-const V="ffmpa-v1"; const SHELL=["/app/","/manifest.webmanifest","/assets/icon-192.png","/assets/icon-512.png"];
+const V="ffmpa-v2"; const SHELL=["/app/","/manifest.webmanifest","/assets/icon-192.png","/assets/icon-512.png"];
 self.addEventListener("install",e=>{ e.waitUntil(caches.open(V).then(c=>c.addAll(SHELL)).then(()=>self.skipWaiting())); });
 self.addEventListener("activate",e=>{ e.waitUntil(caches.keys().then(ks=>Promise.all(ks.filter(k=>k!==V).map(k=>caches.delete(k)))).then(()=>self.clients.claim())); });
 self.addEventListener("fetch",e=>{
@@ -130,6 +130,17 @@ self.addEventListener("fetch",e=>{
     e.respondWith(caches.match(r).then(m=>m||fetch(r).then(res=>{ if(res.ok||res.type==="opaque"){ const cp=res.clone(); caches.open(V).then(c=>c.put(r,cp)); } return res; })));
   }
 });
+/* Edition alerts: the push carries no data; we read the newest edition to write the message. */
+const EDITION="https://raw.githubusercontent.com/aairacommit/FFMPA/main/editions/latest.json";
+self.addEventListener("push",e=>{ e.waitUntil((async()=>{
+  let t="Today's news is ready", b="Fresh stories, checked by an editor. Tap to read.";
+  try{ const d=await fetch(EDITION+"?h="+Date.now(),{cache:"no-store"}).then(r=>r.json()); const n=(d.stories||[]).length; const top=(d.stories||[])[0];
+    t=d.edition==="pm"?"Your evening edition is ready":"Your morning edition is ready";
+    b=n+" new stories, checked by an editor."+(top?" First up: "+((top.o&&top.o.t)||top.t||""):""); }catch(_){}
+  await self.registration.showNotification(t,{body:b,icon:"/assets/icon-192.png",badge:"/assets/badge-96.png",tag:"ffmpa-edition",renotify:true,data:{url:"/app/?source=alert"}});
+})()); });
+self.addEventListener("notificationclick",e=>{ e.notification.close(); const url=(e.notification.data&&e.notification.data.url)||"/app/";
+  e.waitUntil(clients.matchAll({type:"window",includeUncontrolled:true}).then(ws=>{ for(const w of ws){ if(new URL(w.url).pathname.startsWith("/app")){ w.navigate(url).catch(()=>{}); return w.focus(); } } return clients.openWindow(url); })); });
 ''')
 pages=["/","/schools/","/safety/","/privacy/","/terms/","/cookies/","/contact/"]
 open(OUT+"/sitemap.xml","w").write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+"".join(f"<url><loc>{BASE}{p}</loc><lastmod>2026-11-11</lastmod></url>\n" for p in pages)+"</urlset>\n")

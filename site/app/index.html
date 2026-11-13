@@ -1606,7 +1606,8 @@ function renderTop(){
   const c=COUNTRIES[settings.country];
   document.documentElement.classList.toggle("explorers", settings.age==="x");
   $("#ctyPill").innerHTML = `${ico("pin")}${c.short}`;
-  $("#edPill").innerHTML = `${ico("sun")}<span class="lbl">Morning</span>`;
+  const pmSlot = (window.FF_SLOT||"am")==="pm";
+  $("#edPill").innerHTML = `${ico(pmSlot?"moon":"sun")}<span class="lbl">${pmSlot?"Evening":"Morning"}</span>`;
   $("#menuBtn").innerHTML = ico("menu");
   $("#helloH").innerHTML = `${c.greet}${settings.name?`, <em class="v">${esc(settings.name)}</em>`:""}`;
   $("#dWords").innerHTML = `${ico("star")}${words.size?`Words · ${words.size}`:"Words"}`;
@@ -1663,7 +1664,7 @@ function cardHTML(item){
   return `<article class="card"><div class="endcard">
     <div class="moon" aria-hidden="true"></div>
     <h2>You're all <em class="v">caught up.</em></h2>
-    <p>That's everything in this morning's edition. The evening edition arrives at ${fmtTime(ADMIN.pmTime)} ${c.tz}.</p>
+    <p>${(window.FF_SLOT||"am")==="pm"?`That's everything in this evening's edition. The next morning edition arrives at ${fmtTime(ADMIN.amTime)} your time.`:`That's everything in this morning's edition. The evening edition arrives at ${fmtTime(ADMIN.pmTime)} your time.`}</p>
     ${endSummaryHTML()}
     <div class="endgrid"><button class="btn sun press" data-quiz>Take today's quiz</button><button class="btn ghost press" data-open="puzzles">Weekly puzzle</button><button class="btn ghost press" data-open="progress">Your progress</button></div>
   </div></article>`;
@@ -1850,14 +1851,16 @@ function openEdition(){
   const c=COUNTRIES[settings.country];
   openSheet(`<h2 id="shTitle">Today's editions</h2><p class="sub">${niceDate(EDITION_DATE)} ${EDITION_DATE.slice(0,4)} · ${c.name}</p>
     <div class="list">
-      <div class="item"><b>Morning edition · ${fmtTime(ADMIN.amTime)} ${c.tz}</b><p>Now showing · ${stories().length} stories</p></div>
-      <div class="item"><b>Evening edition · ${fmtTime(ADMIN.pmTime)} ${c.tz}</b><p>Arrives later today with anything new since this morning.</p></div>
+      ${(window.FF_SLOT||"am")==="pm"?`<div class="item"><b>Morning edition · ${fmtTime(ADMIN.amTime)} your time</b><p>Arrives tomorrow morning with the latest news.</p></div>
+      <div class="item"><b>Evening edition · ${fmtTime(ADMIN.pmTime)} your time</b><p>Now showing · ${stories().length} stories</p></div>`:`<div class="item"><b>Morning edition · ${fmtTime(ADMIN.amTime)} your time</b><p>Now showing · ${stories().length} stories</p></div>
+      <div class="item"><b>Evening edition · ${fmtTime(ADMIN.pmTime)} your time</b><p>Arrives later today with anything new since this morning.</p></div>`}
     </div>
+    <p class="sub" style="margin-top:12px">New editions arrive on your own clock, wherever you are. Every story is checked before it is published.</p>
     <p class="sub" style="margin-top:12px">FFMPA only shows news from the last ${Math.round(ADMIN.freshHours/24)} days, so nothing you read is stale. Short explainers about dates this week are labelled.</p>`);
 }
 function openCountry(){
   openSheet(`<h2 id="shTitle">Where do you live?</h2><p class="sub">Your country is your local news. Everything else is world news.</p>
-    <div class="menu">${Object.entries(COUNTRIES).filter(([k])=>ADMIN.countries[k]).map(([k,c])=>`<button data-c="${k}" aria-pressed="${k===settings.country}"><span class="ic">${ico("pin")}</span><div>${c.name}<small>Editions at ${fmtTime(ADMIN.amTime)} and ${fmtTime(ADMIN.pmTime)} ${c.tz}</small></div></button>`).join("")}
+    <div class="menu">${Object.entries(COUNTRIES).filter(([k])=>ADMIN.countries[k]).map(([k,c])=>`<button data-c="${k}" aria-pressed="${k===settings.country}"><span class="ic">${ico("pin")}</span><div>${c.name}<small>Editions at ${fmtTime(ADMIN.amTime)} and ${fmtTime(ADMIN.pmTime)} your time</small></div></button>`).join("")}
     <button disabled style="opacity:.55"><span class="ic">${ico("globe")}</span><div>More countries coming soon</div></button></div>`,
     sh=> sh.querySelectorAll("[data-c]").forEach(b=> b.onclick=()=>{ settings.country=b.dataset.c; persist(); topic="all"; idx=0; closeSheet(); renderAll(); }));
 }
@@ -1990,6 +1993,65 @@ function openPlan(){
   const b=document.getElementById("plBuy"); if(b) b.onclick=()=>{ askPin(()=>{ openSheet(`<h2 id="shTitle">Payment comes <em class="v">at launch</em></h2><p class="sub">No money is taken yet. When the gateway is connected, this button opens ${gate} checkout.</p>`); }); };
 }
 const BUDDY = '<svg class="buddy" viewBox="0 0 48 48" aria-hidden="true" focusable="false"><path fill="url(#ffg)" d="M18 5h12a13 13 0 0 1 13 13v5a13 13 0 0 1-13 13H21l-8.5 7.5V35.2A13 13 0 0 1 5 23v-5A13 13 0 0 1 18 5z"/><g class="eyes"><ellipse cx="19" cy="19.5" rx="3.3" ry="4.1" fill="#fff"/><ellipse cx="29.5" cy="19.5" rx="3.3" ry="4.1" fill="#fff"/><g class="pup"><circle cx="19.9" cy="18.7" r="1.7" fill="#1B1340"/><circle cx="30.4" cy="18.7" r="1.7" fill="#1B1340"/></g></g><path class="smile" d="M19.6 27.4q4.9 4.3 9.8 0" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/><path class="spark" fill="#FFB020" stroke="#fff" stroke-width="1.2" stroke-linejoin="round" d="M42 1.8l1.5 3.7 3.7 1.5-3.7 1.5L42 12.2l-1.5-3.7-3.7-1.5 3.7-1.5z"/></svg>';
+/* ===================== Local edition schedule =====================
+   Editions are approved once (in India) but families see them on their own clock:
+   at the morning time (06:00) and the evening time (19:00) in their own time zone,
+   the app shows the newest edition that had been published by then. If nothing new
+   had been published by a release time, the next edition appears the moment it is
+   published, if it is the matching kind (a morning edition at the morning release, an evening edition at
+   the evening one) and it lands within 3 hours of the release time. So India's editions, approved around
+   6 am and 7 pm, appear as soon as they are ready, while other countries always get theirs at 6:00 and
+   7:00. Only the last four days are considered.
+
+   log: [{id:"2026-11-13-pm", seen:"2026-11-13T14:44:37Z"}, ...] (from the Cloud Run newsroom)
+   Returns {id, slot:"am"|"pm", at:<ms of the release time>} or null.
+   The same rules live in cloudrun/main.py (visible_edition); tests/schedule_cases.json checks both. */
+const FF_LATE_MS=3*3600*1000; /* a late edition skips the queue only within 3 hours of a release time */
+function ffTzOffset(ms,tz){
+  const f=new Intl.DateTimeFormat("en-US",{timeZone:tz,hourCycle:"h23",year:"numeric",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit",second:"2-digit"});
+  const p={}; f.formatToParts(new Date(ms)).forEach(x=>{ p[x.type]=x.value; });
+  return Date.UTC(+p.year,+p.month-1,+p.day,+p.hour%24,+p.minute,+p.second)-Math.floor(ms/1000)*1000;
+}
+function ffLocalDate(ms,tz){
+  const p={}; new Intl.DateTimeFormat("en-US",{timeZone:tz,year:"numeric",month:"2-digit",day:"2-digit"}).formatToParts(new Date(ms)).forEach(x=>{ p[x.type]=x.value; });
+  return [+p.year,+p.month,+p.day];
+}
+function ffZoned(y,m,d,hh,mm,tz){ /* local wall time in tz -> UTC ms (handles daylight saving) */
+  const guess=Date.UTC(y,m-1,d,hh,mm); let t=guess-ffTzOffset(guess,tz); t=guess-ffTzOffset(t,tz); return t;
+}
+function ffValidTz(tz){ try{ new Intl.DateTimeFormat("en-US",{timeZone:tz}); return true; }catch(e){ return false; } }
+function ffEditionFor(log,nowMs,tz,amTime,pmTime){
+  if(!Array.isArray(log)||!log.length) return null;
+  if(!tz||!ffValidTz(tz)) tz="Asia/Kolkata";
+  const hm=s=>{ const m=/^(\d{1,2}):(\d{2})$/.exec(s||""); return m?[+m[1],+m[2]]:null; };
+  const am=hm(amTime)||[6,0], pm=hm(pmTime)||[19,0];
+  const L=log.map(e=>({id:e.id,t:Date.parse(e.seen)})).filter(e=>e.id&&!isNaN(e.t)).sort((a,b)=>a.t-b.t);
+  if(!L.length) return null;
+  const bounds=[]; const [y,mo,d]=ffLocalDate(nowMs,tz);
+  for(let back=0;back<=3;back++){ const dt=new Date(Date.UTC(y,mo-1,d-back));
+    const Y=dt.getUTCFullYear(), M=dt.getUTCMonth()+1, D=dt.getUTCDate();
+    bounds.push({t:ffZoned(Y,M,D,am[0],am[1],tz),slot:"am"},{t:ffZoned(Y,M,D,pm[0],pm[1],tz),slot:"pm"}); }
+  const past=bounds.filter(b=>b.t<=nowMs).sort((a,b)=>a.t-b.t);
+  if(!past.length) return null;
+  const newest=t=>{ let r=null; for(const e of L){ if(e.t<=t) r=e; } return r; };
+  /* Walk the release times in order. At each one, release the newest published edition if it is
+     different from what families were already seeing; otherwise the slot is "waiting", and an
+     edition published during that slot is shown as soon as it is published. */
+  let shown=newest(past[0].t);
+  for(let i=1;i<past.length;i++){
+    const cand=newest(past[i].t);
+    const waiting=!cand||!shown||cand.id===shown.id;
+    if(!waiting) shown=cand;
+    else { /* waiting: a late edition of the matching kind (morning at the morning release, evening at the evening one) shows once published */
+      const end=Math.min(i===past.length-1?nowMs:past[i+1].t-1, past[i].t+FF_LATE_MS);
+      const sT=shown?(L.find(e=>e.id===shown.id)||{t:-Infinity}).t:-Infinity;
+      let late=null; for(const e of L){ if(e.t<=end&&e.t>sT&&e.id.endsWith("-"+past[i].slot)) late=e; }
+      if(late) shown=late; }
+  }
+  const B=past[past.length-1];
+  return shown?{id:shown.id,slot:B.slot,at:B.t}:null;
+}
+
 /* ================= Backend: Supabase (auth by email code, saved progress, reports, classes, admin) =================
    Plain fetch against Supabase Auth and PostgREST, no third-party script.
    Runs only on https://ffmpa.com style hosts. On file://, the claude.ai preview or with ?demo, the app keeps the
@@ -2081,7 +2143,7 @@ async function sbBoot(){ if(!SB_ON) return;
     const mine=store.get("ffmpa-synced-at","");
     if(p.updated_at&&(!mine||p.updated_at>mine)&&!sessionStorage.getItem("ffmpa-pulled")){ sessionStorage.setItem("ffmpa-pulled","1"); applyRemote(p); location.reload(); return; }
     if(klass&&!klass.id){ klass=null; _sdel("ffmpa-class"); }
-    classTick();
+    classTick(); pushTzRefresh();
   }catch(e){ if(e.status===401) sbSignedOut(); } }
 
 /* ---------- shared admin settings ---------- */
@@ -2165,6 +2227,10 @@ function wireAcct(){ const dl=$("#acDl"), del=$("#acDel"); if(!dl) return; rende
 const pushOK=()=>SB_ON&&"serviceWorker" in navigator&&"PushManager" in window&&"Notification" in window;
 /* isIOS() is defined in bigs.js (install help) */
 const u8=s=>{ const b=atob((s+"=".repeat((4-s.length%4)%4)).replace(/-/g,"+").replace(/_/g,"/")); return Uint8Array.from(b,c=>c.charCodeAt(0)); };
+function ffTz(){ try{ const z=Intl.DateTimeFormat().resolvedOptions().timeZone; return z&&ffValidTz(z)?z:"Asia/Kolkata"; }catch(e){ return "Asia/Kolkata"; } }
+async function sbEditionLog(){ /* when each edition first appeared (written by the Cloud Run newsroom); public */
+  try{ const r=await Promise.race([sbFetch("/rest/v1/app_config?select=value&key=eq.edition_log",{auth:false}),new Promise((_,j)=>setTimeout(()=>j(new Error("slow")),5000))]);
+    return r&&r[0]&&Array.isArray(r[0].value)?r[0].value:null; }catch(e){ return null; } }
 async function vapidKey(){ const r=await sbFetch("/rest/v1/app_config?select=value&key=eq.vapid_public",{auth:false}); return r&&r[0]&&r[0].value; }
 async function pushReg(){ return (await navigator.serviceWorker.getRegistration("/"))||(await navigator.serviceWorker.register("/sw.js",{scope:"/"})); }
 async function pushState(){ if(!pushOK()) return isIOS()?"ios":"unsupported"; if(Notification.permission==="denied") return "blocked";
@@ -2175,7 +2241,11 @@ async function pushOn(){ const key=await vapidKey(); if(!key) throw new Error("A
   const want=u8(key); const same=sub&&sub.options&&sub.options.applicationServerKey&&new Uint8Array(sub.options.applicationServerKey).join()===want.join();
   if(sub&&!same){ await sub.unsubscribe(); sub=null; }
   if(!sub) sub=await reg.pushManager.subscribe({userVisibleOnly:true,applicationServerKey:want});
-  const j=sub.toJSON(); await rpc("save_push",{p_endpoint:j.endpoint,p_p256dh:j.keys.p256dh,p_auth:j.keys.auth,p_country:settings.country}); return "on"; }
+  const j=sub.toJSON(); await rpc("save_push",{p_endpoint:j.endpoint,p_p256dh:j.keys.p256dh,p_auth:j.keys.auth,p_country:settings.country,p_tz:ffTz()}); store.set("ffmpa-push-tz",ffTz()); return "on"; }
+async function pushTzRefresh(){ /* alerts follow the device's time zone; update it if the family has travelled or moved */
+  try{ if(!pushOK()||Notification.permission!=="granted"||store.get("ffmpa-push-tz","")===ffTz()) return;
+    const reg=await navigator.serviceWorker.getRegistration("/"); const sub=reg&&await reg.pushManager.getSubscription(); if(!sub) return;
+    const j=sub.toJSON(); await rpc("save_push",{p_endpoint:j.endpoint,p_p256dh:j.keys.p256dh,p_auth:j.keys.auth,p_country:settings.country,p_tz:ffTz()}); store.set("ffmpa-push-tz",ffTz()); }catch(e){} }
 async function pushOff(){ try{ const reg=await navigator.serviceWorker.getRegistration("/"); const sub=reg&&await reg.pushManager.getSubscription(); if(sub){ try{ if(signedIn()) await rpc("drop_push",{p_endpoint:sub.endpoint}); }catch(e){} await sub.unsubscribe(); } }catch(e){} return "off"; }
 const ALERT_TXT={on:"On. You get one alert when each edition is ready, morning and evening.",off:"Off. Get one alert when each edition is ready, morning and evening.",blocked:"Blocked in this browser's settings. Allow notifications for ffmpa.com, then try again.",ios:"On iPhone and iPad, first add FFMPA to your Home Screen (Share, then Add to Home Screen), open it from there, then turn alerts on here.",unsupported:"This browser cannot show alerts. Try Chrome, or install the app."};
 async function renderAlerts(){ const box=$("#alBox"); if(!box) return; const st=await pushState();
@@ -3144,11 +3214,28 @@ function applyEdition(E){
 }
 async function loadLiveEdition(){
   if(!/^https?:$/.test(location.protocol)||/[?&]sample=1/.test(location.search)||/^(localhost|127\.)/.test(location.hostname)) return;
-  try{ const ctl=new AbortController(); const tm=setTimeout(()=>ctl.abort(),6000);
-    const r=await fetch(EDITION_URL+"?h="+Math.floor(Date.now()/3e5),{signal:ctl.signal,cache:"no-store"}); clearTimeout(tm); if(!r.ok) return;
-    const E=await r.json(); if(E.date&&E.date>=EDITION_DATE&&document.documentElement.dataset.edition!==E.date+"-"+(E.edition||"am")) applyEdition(E);
+  try{
+    /* Pick the edition for this family's own clock (6:00 am and 7:00 pm local, see schedule.js).
+       Without the schedule (prototype, or the log is unreachable) fall back to the newest edition. */
+    let pick=null;
+    if(typeof SB_ON!=="undefined"&&SB_ON&&typeof sbEditionLog==="function"){
+      const log=await sbEditionLog(); if(log) pick=ffEditionFor(log,Date.now(),ffTz(),ADMIN.amTime,ADMIN.pmTime);
+    }
+    const get=async url=>{ const ctl=new AbortController(); const tm=setTimeout(()=>ctl.abort(),6000);
+      try{ const r=await fetch(url+"?h="+Math.floor(Date.now()/3e5),{signal:ctl.signal,cache:"no-store"}); return r.ok?await r.json():null; }finally{ clearTimeout(tm); } };
+    let E=pick?await get(EDITION_URL.replace("latest.json",pick.id+".json")):null;
+    if(!E||(E.date+"-"+(E.edition||"am"))!==(pick&&pick.id)){ E=await get(EDITION_URL); pick=null; }
+    if(!E||!E.date) return;
+    const slot=pick?pick.slot:(E.edition==="pm"?"pm":"am");
+    const id=E.date+"-"+(E.edition||"am"), cur=document.documentElement.dataset.edition;
+    const slotChanged=window.FF_SLOT!==slot; window.FF_SLOT=slot;
+    if(cur!==id&&(pick||E.date>=EDITION_DATE)){ applyEdition(E); }
+    else if(slotChanged&&typeof renderTop==="function"){ renderTop(); }
   }catch(e){}
 }
+/* keep an open app on time: check again every five minutes and whenever it comes back to the screen */
+setInterval(()=>{ if(document.visibilityState==="visible") loadLiveEdition(); },5*60*1000);
+document.addEventListener("visibilitychange",()=>{ if(document.visibilityState==="visible") loadLiveEdition(); });
 window.__edReady=false;
 const _markReady=()=>{ if(window.__edReady) return; window.__edReady=true; dispatchEvent(new Event("ffmpa:edition")); };
 setTimeout(()=>loadLiveEdition().finally(_markReady),50);

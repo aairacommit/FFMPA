@@ -6,7 +6,7 @@ Two jobs:
    works out which edition each device's time zone should be seeing now (6:00 am and 7:00 pm local release
    times, see visible_edition), and sends one web push when that changes. Pushes carry no data. Each device is
    claimed in the database before it is sent to, so overlapping runs never send twice, and a device is never moved
-   back to an older edition. No alerts 9 pm to 6 am. A rollback must be seen on two runs in a row.
+   back to an older edition. No alerts 9 pm to 6 am. A rollback must be seen on two runs 5 minutes apart.
 2. Public story pages. GET /s/ lists the last three days of stories; GET /s/<id> shows one story at the
    Thinkers level (ages 10 to 12) with its word explainers, think question and sources, marked up as a
    NewsArticle for search engines. Data is read from the public editions folder on GitHub.
@@ -143,9 +143,9 @@ def _zone(tz):
         return ZoneInfo("Asia/Kolkata")
 
 def _hm(s, default):
-    # release times before 04:00 are not allowed: they could fall in a daylight saving gap
+    # release times must be 04:00 to 22:59: other hours can fall in a daylight saving gap or repeat
     m = re.match(r"^(\d{1,2}):(\d{2})$", s or "")
-    return (int(m.group(1)), int(m.group(2))) if m and 4 <= int(m.group(1)) <= 23 and int(m.group(2)) < 60 else default
+    return (int(m.group(1)), int(m.group(2))) if m and 4 <= int(m.group(1)) <= 22 and int(m.group(2)) < 60 else default
 
 def _parse(ts):
     return dt.datetime.fromisoformat(ts.replace("Z", "+00:00")).timestamp()
@@ -183,12 +183,13 @@ def visible_edition(log, now, tz, am_time="06:00", pm_time="19:00"):
                 r = (seen, eid)
         return r
 
-    shown, rel = None, None  # rel: the release at which the edition now showing first appeared
-    for i in range(len(past)):
-        cand = newest(past[i][0])
+    shown, rel = newest(past[0][0]), past[0]  # rel: the release at which the edition now showing appeared
+    for i in range(1, len(past)):
+        # editions published by this release that this family has not been shown yet, oldest first
+        waiting = [(seen, eid) for seen, eid in L if seen <= past[i][0] and (not shown or seen > shown[0])]
         changed = False
-        if cand and (not shown or cand[0] > shown[0]):
-            shown, rel, changed = cand, past[i], True
+        if waiting:
+            shown, rel, changed = (waiting[-2] if len(waiting) >= 3 else waiting[0]), past[i], True
         if not changed or not shown[1].endswith("-" + past[i][1]):
             end = min(now if i == len(past) - 1 else past[i + 1][0] - 0.001, past[i][0] + LATE_SECONDS)
             s_t = shown[0] if shown else float("-inf")
@@ -208,8 +209,8 @@ def _cfg(key, default):
 
 def update_edition_log(now=None):
     """Record when each edition first appeared on main (app_config edition_log, read by the app).
-    A rollback (latest.json going back to an older edition) must be seen on two runs in a row before the
-    newer entries are removed, so one stale read from GitHub's cache cannot hide an edition. Removed entries
+    A rollback (latest.json going back to an older edition) must be seen on two runs at least 5 minutes apart
+    before the newer entries are removed, so one stale read from GitHub's cache cannot hide an edition. Removed entries
     are remembered, and an edition that comes back keeps its original time."""
     now = now or time.time()
     e = fetch_json(RAW + "latest.json") or {}
@@ -224,12 +225,12 @@ def update_edition_log(now=None):
     ids = [x.get("id") for x in log]
     new = log
     if lid in ids and ids.index(lid) < len(ids) - 1:          # looks like a rollback
-        if pending.get("rollback_to") == lid:
+        if pending.get("rollback_to") == lid and now - float(pending.get("at") or now) >= 300:
             new = log[:ids.index(lid) + 1]
             removed = (removed + log[ids.index(lid) + 1:])[-20:]
             pending = {}
-        else:
-            pending = {"rollback_to": lid}
+        elif pending.get("rollback_to") != lid:
+            pending = {"rollback_to": lid, "at": now}
     elif lid not in ids:                                       # a new edition (or one that came back)
         back = next((x for x in removed if x.get("id") == lid), None)
         seen = back["seen"] if back else dt.datetime.fromtimestamp(now, dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
@@ -283,6 +284,9 @@ def notify():
         if not v:
             continue
         vid = v["id"]
+        # never alert for an edition newer than what main currently serves (a rollback may be in progress)
+        if EDITION_ID.match(lid or "") and vid > lid:
+            continue
         zones += 1
         hour = dt.datetime.fromtimestamp(now, _zone(tz)).hour
         is_quiet = hour >= QUIET[0] or hour < QUIET[1]

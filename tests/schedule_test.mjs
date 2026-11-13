@@ -49,6 +49,32 @@ console.log(`${C.cases.length-bad}/${C.cases.length} cases pass, ${out.length} g
     if(arrivals>allowed){ fails++; console.log("STEADY FAIL",tz,"off-slot changes:",arrivals); }
     else console.log("steady",tz,"off-slot changes:",arrivals);
   }
+  // Every zone sees every edition and never steps back, for several patterns of merge times (with jitter,
+  // late merges and a skipped edition), including the far ends of the world.
+  const allZones=[...Object.keys(zones),"Pacific/Honolulu","Pacific/Pago_Pago","Pacific/Auckland","Pacific/Kiritimati","America/Sao_Paulo","Asia/Dubai","Asia/Tokyo"];
+  const patterns=[[45,825],[150,960],[200,1000]];  // minutes after 00:00Z for am and pm merges
+  let seed=7; const rnd=()=>(seed=(seed*1103515245+12345)%2147483648)/2147483648;
+  let covFails=0;
+  for(const [am,pm] of patterns) for(const jitter of [0,40]){
+    const L2=[]; for(let d=14; d<=24; d++){ const D=`2026-11-${d}`, base=Date.parse(`${D}T00:00:00Z`);
+      const j=()=>Math.floor(rnd()*jitter)*60e3;
+      L2.push({id:`${D}-am`,seen:new Date(base+am*60e3+j()).toISOString().replace(".000","")});
+      if(d!==18) L2.push({id:`${D}-pm`,seen:new Date(base+pm*60e3+j()).toISOString().replace(".000","")}); }
+    const must=L2.filter(e=>Date.parse(e.seen)>=Date.parse("2026-11-16T12:00:00Z")&&Date.parse(e.seen)<=Date.parse("2026-11-21T00:00:00Z")).map(e=>e.id);
+    for(const tz of allZones){
+      const seen=new Set(); let prev=null, back=0;
+      // what shows can only change at a release (on the hour or half hour here) or when an edition lands
+      const times=[]; for(let t=Date.parse("2026-11-16T00:00:00Z"); t<=Date.parse("2026-11-23T00:00:00Z"); t+=30*60*1000) times.push(t+1000);
+      for(const e of L2) times.push(Date.parse(e.seen)+1000);
+      for(const t of times.sort((a,b)=>a-b)){
+        const r=ctx.ffEditionFor(L2,t,tz,"06:00","19:00"); const id=r&&r.id; if(!id) continue;
+        if(prev&&id<prev) back++; seen.add(id); prev=id; }
+      const missed=must.filter(x=>!seen.has(x));
+      if(back||missed.length){ covFails++; console.log("COVERAGE FAIL",tz,am,pm,jitter,"back:",back,"missed:",missed.join(" ")); }
+    }
+  }
+  console.log(`coverage: ${patterns.length*2*allZones.length-covFails}/${patterns.length*2*allZones.length} zone runs see every edition, never step back`);
+  if(covFails) fails++;
   const g2=[]; for(const tz of Object.keys(zones)) for(let t=Date.parse("2026-11-16T00:00:00Z"); t<=Date.parse("2026-11-23T00:00:00Z"); t+=13*60*1000){ const r=ctx.ffEditionFor(log,t,tz,"06:00","19:00"); g2.push([tz,t,r?r.id:null,r?r.slot:null]); }
   fs.writeFileSync("/tmp/schedule_grid2.json",JSON.stringify({log,grid:g2}));
   if(fails) process.exit(1);

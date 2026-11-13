@@ -205,7 +205,7 @@ async function loadLiveEdition(opts){
     /* never step back to an older edition unless the newer one was rolled back (no longer in the log) */
     if(pick&&cur&&cur>pick.id&&log.some(e=>e.id===cur)) return;
     let E=pick?await get(EDITION_URL.replace("latest.json",pick.id+".json")):null;
-    if(!E||(E.date+"-"+(E.edition||"am"))!==(pick&&pick.id)){ if(cur) return; E=await get(EDITION_URL); pick=null; }
+    if(!E||(E.date+"-"+(E.edition||"am"))!==(pick&&pick.id)){ if(cur||pick) return; E=await get(EDITION_URL); pick=null; }  /* latest.json only when there is no schedule and nothing showing */
     if(!E||!E.date) return;
     const id=E.date+"-"+(E.edition||"am");
     if(cur===id) return;

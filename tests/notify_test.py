@@ -73,16 +73,23 @@ checks = [
 ]
 # roll back: latest.json goes back to the morning edition. One read is not enough (could be a stale cache).
 main.fetch_json = lambda url: {"date": "2026-11-13", "edition": "am", "stories": [1] * 12}
+# a device that is still on the morning edition while the roll back is being confirmed must not be told about pm
+SUBS["j"] = {"id": "j", "tz": "America/New_York", "last_edition": "2026-11-13-am", "endpoint": "https://push.example/j"}
 main.notify()
 checks.append(("one stale read does not cut the log", [e["id"] for e in config["edition_log"]][-1] == "2026-11-13-pm"))
+checks.append(("no alert for an edition newer than main serves", "j" not in sent and SUBS["j"]["last_edition"] == "2026-11-13-am"))
+main.time.time = lambda: NOW + 60
 main.notify()
-checks.append(("a confirmed roll back removes the evening edition", [e["id"] for e in config["edition_log"]][-1] == "2026-11-13-am"))
+checks.append(("two reads a minute apart do not cut the log", [e["id"] for e in config["edition_log"]][-1] == "2026-11-13-pm"))
+main.time.time = lambda: NOW + 360
+main.notify()
+checks.append(("a roll back seen 5 minutes later removes the evening edition", [e["id"] for e in config["edition_log"]][-1] == "2026-11-13-am"))
 checks.append(("no alert for a rolled back edition", not sent))
 # the same edition is merged again: it keeps its original time and nobody is alerted twice
 main.fetch_json = lambda url: {"date": "2026-11-13", "edition": "pm", "stories": [1] * 8}
 main.notify()
 checks.append(("re-merged edition keeps its original time", config["edition_log"][-1] == LOG[-1]))
-checks.append(("nobody alerted twice after pm, am, pm", not sent))
+checks.append(("nobody alerted twice after pm, am, pm (only j, never told, gets pm once)", sent == ["j"]))
 for name, ok in checks:
     print("PASS" if ok else "FAIL", name)
 print(json.dumps(res))

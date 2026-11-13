@@ -189,29 +189,35 @@ function applyEdition(E){
   document.documentElement.dataset.edition=E.date+"-"+(E.edition||"am");
   renderAll(); return true;
 }
-async function loadLiveEdition(){
+async function loadLiveEdition(opts){
   if(!/^https?:$/.test(location.protocol)||/[?&]sample=1/.test(location.search)||/^(localhost|127\.)/.test(location.hostname)) return;
   try{
-    /* Pick the edition for this family's own clock (6:00 am and 7:00 pm local, see schedule.js).
-       Without the schedule (prototype, or the log is unreachable) fall back to the newest edition. */
-    let pick=null;
+    const cur=document.documentElement.dataset.edition;
+    /* Pick the edition for this family's own clock (6:00 am and 7:00 pm local, see schedule.js). */
+    let pick=null, log=null;
     if(typeof SB_ON!=="undefined"&&SB_ON&&typeof sbEditionLog==="function"){
-      const log=await sbEditionLog(); if(log) pick=ffEditionFor(log,Date.now(),ffTz(),ADMIN.amTime,ADMIN.pmTime);
+      log=await sbEditionLog(); if(log) pick=ffEditionFor(log,Date.now(),ffTz(),ADMIN.amTime,ADMIN.pmTime);
+      if(!log&&cur) return;   /* schedule unreachable: keep what is showing rather than guess */
     }
     const get=async url=>{ const ctl=new AbortController(); const tm=setTimeout(()=>ctl.abort(),6000);
       try{ const r=await fetch(url+"?h="+Math.floor(Date.now()/3e5),{signal:ctl.signal,cache:"no-store"}); return r.ok?await r.json():null; }finally{ clearTimeout(tm); } };
+    if(pick&&cur===pick.id){ if(window.FF_SLOT!==pick.slot){ window.FF_SLOT=pick.slot; renderTop(); } return; }
+    /* never step back to an older edition unless the newer one was rolled back (no longer in the log) */
+    if(pick&&cur&&cur>pick.id&&log.some(e=>e.id===cur)) return;
     let E=pick?await get(EDITION_URL.replace("latest.json",pick.id+".json")):null;
-    if(!E||(E.date+"-"+(E.edition||"am"))!==(pick&&pick.id)){ E=await get(EDITION_URL); pick=null; }
+    if(!E||(E.date+"-"+(E.edition||"am"))!==(pick&&pick.id)){ if(cur) return; E=await get(EDITION_URL); pick=null; }
     if(!E||!E.date) return;
-    const slot=pick?pick.slot:(E.edition==="pm"?"pm":"am");
-    const id=E.date+"-"+(E.edition||"am"), cur=document.documentElement.dataset.edition;
-    const slotChanged=window.FF_SLOT!==slot; window.FF_SLOT=slot;
-    if(cur!==id&&(pick||E.date>=EDITION_DATE)){ applyEdition(E); }
-    else if(slotChanged&&typeof renderTop==="function"){ renderTop(); }
+    const id=E.date+"-"+(E.edition||"am");
+    if(cur===id) return;
+    if(!pick&&cur&&E.date<EDITION_DATE) return;
+    /* a new edition while a child is in the middle of reading waits until the app is opened again */
+    if(cur&&opts&&opts.background&&typeof idx!=="undefined"&&idx>0){ window.FF_PENDING=true; return; }
+    window.FF_SLOT=pick?pick.slot:((E.edition==="pm")?"pm":"am"); window.FF_PENDING=false;
+    applyEdition(E);
   }catch(e){}
 }
-/* keep an open app on time: check again every five minutes and whenever it comes back to the screen */
-setInterval(()=>{ if(document.visibilityState==="visible") loadLiveEdition(); },5*60*1000);
+/* keep an open app on time: check every five minutes (applied when the child is not mid story), and whenever the app comes back to the screen */
+setInterval(()=>{ if(document.visibilityState==="visible") loadLiveEdition({background:true}); },5*60*1000);
 document.addEventListener("visibilitychange",()=>{ if(document.visibilityState==="visible") loadLiveEdition(); });
 window.__edReady=false;
 const _markReady=()=>{ if(window.__edReady) return; window.__edReady=true; dispatchEvent(new Event("ffmpa:edition")); };

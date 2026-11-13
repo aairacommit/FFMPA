@@ -15,13 +15,18 @@ for tz, t, gid, gslot in grid:
     r = visible_edition(C["log"], t / 1000, tz)
     if (r["id"] if r else None) != gid or (r["slot"] if r else None) != gslot:
         diff += 1
-        if diff < 5: print("GRID DIFF", tz, dt.datetime.utcfromtimestamp(t/1000), gid, gslot, r)
+        if diff < 5: print("GRID DIFF", tz, dt.datetime.fromtimestamp(t/1000, dt.timezone.utc), gid, gslot, r)
 g2 = json.load(open("/tmp/schedule_grid2.json")) if os.path.exists("/tmp/schedule_grid2.json") else {"log": [], "grid": []}
 for tz, t, gid, gslot in g2["grid"]:
     r = visible_edition(g2["log"], t / 1000, tz)
     if (r["id"] if r else None) != gid or (r["slot"] if r else None) != gslot:
         diff += 1
-        if diff < 5: print("STEADY DIFF", tz, dt.datetime.utcfromtimestamp(t/1000), gid, gslot, r)
+        if diff < 5: print("STEADY DIFF", tz, dt.datetime.fromtimestamp(t/1000, dt.timezone.utc), gid, gslot, r)
 grid = grid + g2["grid"]
+extra = json.load(open("/tmp/schedule_extra.json")) if os.path.exists("/tmp/schedule_extra.json") else []
+for why, log, tz, now, gid in extra:
+    r = visible_edition(log, ts(now), tz)
+    if not r or r["id"] != gid:
+        bad += 1; print("FAIL", why, r)
 print(f"{len(C['cases'])-bad}/{len(C['cases'])} cases pass, {len(grid)-diff}/{len(grid)} grid points match JS")
 sys.exit(1 if bad or diff else 0)

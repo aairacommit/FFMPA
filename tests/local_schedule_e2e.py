@@ -46,7 +46,8 @@ def run(tz, now_iso, expect_id, expect_label, log=LOG):
     return ok
 
 results = [
-    run("America/New_York", "2026-11-13T23:30:00Z", "2026-11-13-am", "Morning"),   # 6:30 pm ET: evening edition waits
+    run("America/New_York", "2026-11-13T23:30:00Z", "2026-11-13-am", "Morning"),
+    run("Australia/Sydney", "2026-11-13T20:00:00Z", "2026-11-13-pm", "Morning"),   # 7 am Sydney: India's evening file is their morning edition   # 6:30 pm ET: evening edition waits
     run("America/New_York", "2026-11-14T00:30:00Z", "2026-11-13-pm", "Evening"),   # 7:30 pm ET: released
     run("Asia/Kolkata", "2026-11-13T15:00:00Z", "2026-11-13-pm", "Evening"),       # 8:30 pm IST
     run("Europe/London", "2026-11-13T07:00:00Z", "2026-11-13-am", "Morning"),      # 7 am London

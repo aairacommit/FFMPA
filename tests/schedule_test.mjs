@@ -11,6 +11,25 @@ const out=[]; for(const tz of tzs){ for(let t=Date.parse("2026-11-11T00:00:00Z")
 fs.writeFileSync("/tmp/schedule_grid.json",JSON.stringify(out));
 console.log(`${C.cases.length-bad}/${C.cases.length} cases pass, ${out.length} grid points written`); if(bad) process.exit(1);
 
+// Reviewer cases (14 Nov): long logs, late editions, a one entry log
+{
+  const mk=(skipLate)=>{ const log=[]; for(let d=10; d<=19; d++){ const D=`2026-11-${d}`;
+    log.push({id:`${D}-am`,seen:`${D}T00:45:00Z`}); log.push({id:`${D}-pm`,seen:(skipLate&&d===17)?`${D}T17:00:00Z`:`${D}T13:45:00Z`}); } return log; };
+  const T=[
+    ["India 20:00 IST with a 10 day log shows that evening's edition", mk(false), "Asia/Kolkata", "2026-11-17T14:30:00Z", "2026-11-17-pm"],
+    ["India 07:00 IST with a 10 day log shows that morning's edition", mk(false), "Asia/Kolkata", "2026-11-18T01:30:00Z", "2026-11-18-am"],
+    ["India: evening edition merged at 22:30 IST, next morning 07:00 shows the new morning edition", mk(true), "Asia/Kolkata", "2026-11-18T01:30:00Z", "2026-11-18-am"],
+    ["India: the evening after a late evening edition is on time again", mk(true), "Asia/Kolkata", "2026-11-18T14:30:00Z", "2026-11-18-pm"],
+    ["Sydney with a one entry log still shows it", [{id:"2026-11-13-pm",seen:"2026-11-13T14:00:00Z"}], "Australia/Sydney", "2026-11-14T03:00:00Z", "2026-11-13-pm"],
+  ];
+  // late morning edition (after three review rounds, 09:30 IST): shown as soon as merged? no, more than 3 hours late: at 19:00 it is shown
+  const late=mk(false).map(e=>e.id==="2026-11-16-am"?{id:e.id,seen:"2026-11-16T04:00:00Z"}:e);
+  T.push(["India: morning edition merged at 09:30 IST appears by the evening release", late, "Asia/Kolkata", "2026-11-16T13:31:00Z", "2026-11-16-am"]);
+  T.push(["India: and the evening edition after it still arrives that evening", late, "Asia/Kolkata", "2026-11-16T14:30:00Z", "2026-11-16-pm"]);
+  let b2=0; for(const [why,log,tz,now,id] of T){ const r=ctx.ffEditionFor(log,Date.parse(now),tz,"06:00","19:00"); if(!r||r.id!==id){ b2++; console.log("FAIL",why,JSON.stringify(r)); } }
+  fs.writeFileSync("/tmp/schedule_extra.json",JSON.stringify(T));
+  console.log(`${T.length-b2}/${T.length} reviewer cases pass`); if(b2) process.exit(1);
+}
 // Steady state: editions merged daily around 6:15 am and 7:15 pm IST (00:45Z, 13:45Z); the 18 Nov evening one is skipped.
 {
   const log=[]; for(let d=14; d<=24; d++){ const D=`2026-11-${d}`;

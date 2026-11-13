@@ -30,7 +30,7 @@
       "tz": "Asia/Kolkata",
       "now": "2026-11-13T14:00:00Z",
       "id": "2026-11-13-am",
-      "slot": "pm"
+      "slot": "am"
     },
     {
       "why": "New York 7 am: the IST morning edition is released at 6 am ET",
@@ -86,14 +86,14 @@
       "tz": "Europe/Berlin",
       "now": "2026-11-13T04:59:00Z",
       "id": "2026-11-12-am",
-      "slot": "pm"
+      "slot": "am"
     },
     {
       "why": "India: an evening edition merged after 10 pm waits for the morning",
       "tz": "Asia/Kolkata",
       "now": "2026-11-13T17:00:00Z",
       "id": "2026-11-13-am",
-      "slot": "pm",
+      "slot": "am",
       "log": [
         {
           "id": "2026-11-11-am",

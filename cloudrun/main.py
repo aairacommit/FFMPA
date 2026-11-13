@@ -5,7 +5,8 @@ Two jobs:
    It records when each edition first appears on GitHub (app_config "edition_log", which the app also reads),
    works out which edition each device's time zone should be seeing now (6:00 am and 7:00 pm local release
    times, see visible_edition), and sends one web push when that changes. Pushes carry no data. Each device is
-   claimed in the database before it is sent to, so overlapping runs never send twice. No alerts 9 pm to 6 am.
+   claimed in the database before it is sent to, so overlapping runs never send twice, and a device is never moved
+   back to an older edition. No alerts 9 pm to 6 am. A rollback must be seen on two runs in a row.
 2. Public story pages. GET /s/ lists the last three days of stories; GET /s/<id> shows one story at the
    Thinkers level (ages 10 to 12) with its word explainers, think question and sources, marked up as a
    NewsArticle for search engines. Data is read from the public editions folder on GitHub.
@@ -142,8 +143,9 @@ def _zone(tz):
         return ZoneInfo("Asia/Kolkata")
 
 def _hm(s, default):
+    # release times before 04:00 are not allowed: they could fall in a daylight saving gap
     m = re.match(r"^(\d{1,2}):(\d{2})$", s or "")
-    return (int(m.group(1)), int(m.group(2))) if m else default
+    return (int(m.group(1)), int(m.group(2))) if m and 4 <= int(m.group(1)) <= 23 and int(m.group(2)) < 60 else default
 
 def _parse(ts):
     return dt.datetime.fromisoformat(ts.replace("Z", "+00:00")).timestamp()
@@ -168,7 +170,6 @@ def visible_edition(log, now, tz, am_time="06:00", pm_time="19:00"):
         d = today - dt.timedelta(days=back)
         for (h, mi), slot in ((am, "am"), (pm, "pm")):
             local = dt.datetime(d.year, d.month, d.day, h, mi)
-            # resolve the wall time in this zone the same way the app does (earliest valid instant)
             t = local.replace(tzinfo=z).timestamp()
             bounds.append((t, slot))
     past = sorted(b for b in bounds if b[0] <= now)
@@ -179,44 +180,70 @@ def visible_edition(log, now, tz, am_time="06:00", pm_time="19:00"):
         r = None
         for seen, eid in L:
             if seen <= t:
-                r = eid
+                r = (seen, eid)
         return r
 
-    shown = newest(past[0][0])
-    for i in range(1, len(past)):
+    shown, rel = None, None  # rel: the release at which the edition now showing first appeared
+    for i in range(len(past)):
         cand = newest(past[i][0])
-        waiting = (not cand) or (not shown) or cand == shown
-        if not waiting:
-            shown = cand
-        else:
+        changed = False
+        if cand and (not shown or cand[0] > shown[0]):
+            shown, rel, changed = cand, past[i], True
+        if not changed or not shown[1].endswith("-" + past[i][1]):
             end = min(now if i == len(past) - 1 else past[i + 1][0] - 0.001, past[i][0] + LATE_SECONDS)
-            s_t = next((seen for seen, eid in L if eid == shown), float("-inf")) if shown else float("-inf")
+            s_t = shown[0] if shown else float("-inf")
             late = None
             for seen, eid in L:
                 if seen <= end and seen > s_t and eid.endswith("-" + past[i][1]):
-                    late = eid
+                    late = (seen, eid)
             if late:
-                shown = late
+                shown, rel = late, past[i]
     if not shown:
         return None
-    return {"id": shown, "slot": past[-1][1], "at": past[-1][0]}
+    return {"id": shown[1], "slot": rel[1], "at": rel[0]}
+
+def _cfg(key, default):
+    row = sb_get("app_config", f"key=eq.{key}&select=value")
+    return row[0]["value"] if row and row[0].get("value") is not None else default
 
 def update_edition_log(now=None):
-    """Record when each edition was first seen on main. A rolled back edition drops out of the log."""
+    """Record when each edition first appeared on main (app_config edition_log, read by the app).
+    A rollback (latest.json going back to an older edition) must be seen on two runs in a row before the
+    newer entries are removed, so one stale read from GitHub's cache cannot hide an edition. Removed entries
+    are remembered, and an edition that comes back keeps its original time."""
     now = now or time.time()
     e = fetch_json(RAW + "latest.json") or {}
     lid = f"{e.get('date')}-{e.get('edition') or 'am'}"
-    row = sb_get("app_config", "key=eq.edition_log&select=value")
-    log = list(row[0]["value"]) if row and isinstance(row[0].get("value"), list) else []
+    log = _cfg("edition_log", [])
+    log = list(log) if isinstance(log, list) else []
     if not EDITION_ID.match(lid) or not e.get("stories"):
         return log, lid
+    pending0 = _cfg("edition_log_pending", {}) or {}
+    removed0 = _cfg("edition_log_removed", []) or []
+    pending, removed = dict(pending0), list(removed0)
     ids = [x.get("id") for x in log]
-    if lid in ids:
-        new = log[:ids.index(lid) + 1]
+    new = log
+    if lid in ids and ids.index(lid) < len(ids) - 1:          # looks like a rollback
+        if pending.get("rollback_to") == lid:
+            new = log[:ids.index(lid) + 1]
+            removed = (removed + log[ids.index(lid) + 1:])[-20:]
+            pending = {}
+        else:
+            pending = {"rollback_to": lid}
+    elif lid not in ids:                                       # a new edition (or one that came back)
+        back = next((x for x in removed if x.get("id") == lid), None)
+        seen = back["seen"] if back else dt.datetime.fromtimestamp(now, dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+        new = sorted(log + [{"id": lid, "seen": seen}], key=lambda x: x["seen"])[-20:]
+        removed = [x for x in removed if x.get("id") != lid]
+        pending = {}
     else:
-        new = (log + [{"id": lid, "seen": dt.datetime.fromtimestamp(now, dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")}])[-20:]
+        pending = {}
     if new != log:
         sb_upsert("app_config", {"key": "edition_log", "value": new})
+    if pending != pending0:
+        sb_upsert("app_config", {"key": "edition_log_pending", "value": pending})
+    if removed != removed0:
+        sb_upsert("app_config", {"key": "edition_log_removed", "value": removed})
     return new, lid
 
 def sb_patch(table, query, body):
@@ -250,26 +277,25 @@ def notify():
     for s in subs:
         groups.setdefault(s.get("tz") or "Asia/Kolkata", []).append(s)
     sent = failed = quiet = 0
-    gone, cache, shown = [], {}, {}
+    gone, cache, zones = [], {}, 0
     for tz, members in groups.items():
         v = visible_edition(log, now, tz, am_t, pm_t)
         if not v:
             continue
         vid = v["id"]
-        shown[tz] = vid
+        zones += 1
         hour = dt.datetime.fromtimestamp(now, _zone(tz)).hour
         is_quiet = hour >= QUIET[0] or hour < QUIET[1]
         fresh = [m["id"] for m in members if not m.get("last_edition")]
         due = [m for m in members if m.get("last_edition") and m["last_edition"] != vid]
         for i in range(0, len(fresh), 100):  # new devices: remember what they see, no alert
             sb_patch("push_subs", "id=in.(" + ",".join(fresh[i:i + 100]) + ")&last_edition=is.null", {"last_edition": vid})
-        newer = [m for m in due if vid > m["last_edition"]]   # ids sort by date then am < pm
-        older = [m["id"] for m in due if vid <= m["last_edition"]]  # after a roll back: update quietly
-        for i in range(0, len(older), 100):
-            sb_patch("push_subs", "id=in.(" + ",".join(older[i:i + 100]) + f")&last_edition=neq.{vid}", {"last_edition": vid})
+        # ids sort by date, then am before pm. A device is never moved back to an older edition (after a roll
+        # back it simply waits for the next new one), so nobody is ever alerted twice for the same edition.
+        newer = [m for m in due if vid > m["last_edition"]]
         for i in range(0, len(newer), 100):
-            # claim first: only rows still not on this edition come back, so two runs never both send
-            claimed = sb_patch("push_subs", "id=in.(" + ",".join(m["id"] for m in newer[i:i + 100]) + f")&last_edition=neq.{vid}",
+            # claim first: only rows still on an older edition come back, so overlapping runs never both send
+            claimed = sb_patch("push_subs", "id=in.(" + ",".join(m["id"] for m in newer[i:i + 100]) + f")&last_edition=lt.{vid}",
                                {"last_edition": vid})
             if is_quiet:
                 quiet += len(claimed)
@@ -277,7 +303,7 @@ def notify():
             for c in claimed:
                 try:
                     r = http.post(c["endpoint"], headers={"Authorization": vapid_header(c["endpoint"], priv, pub, cache),
-                                                          "TTL": "21600", "Urgency": "normal", "Content-Length": "0"}, timeout=15)
+                                                          "TTL": "7200", "Urgency": "normal", "Content-Length": "0"}, timeout=15)
                     if r.status_code in (404, 410):
                         gone.append(c["id"])
                     elif r.ok:
@@ -289,7 +315,7 @@ def notify():
     for i in range(0, len(gone), 100):
         sb_delete("push_subs", "id=in.(" + ",".join(str(g) for g in gone[i:i + 100]) + ")")
     result = {"at": dt.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"), "by": "cloud-run", "latest": lid,
-              "sent": sent, "failed": failed, "quiet": quiet, "removed": len(gone), "devices": len(subs), "showing": shown}
+              "sent": sent, "failed": failed, "quiet": quiet, "removed": len(gone), "devices": len(subs), "zones": zones}
     if sent or failed or quiet or gone:
         sb_upsert("app_config", {"key": "last_push", "value": result})
     return jsonify(result)

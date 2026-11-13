@@ -157,6 +157,9 @@ def visible_edition(log, now, tz, am_time="06:00", pm_time="19:00"):
     when within 3 hours after a release, otherwise at the next release. The newest showable edition wins."""
     z = _zone(tz)
     am, pm = _hm(am_time, (6, 0)), _hm(pm_time, (19, 0))
+    # the evening time must be 11 to 13 hours after the morning time; otherwise use 06:00 and 19:00
+    if not 660 <= (pm[0] * 60 + pm[1]) - (am[0] * 60 + am[1]) <= 780:
+        am, pm = (6, 0), (19, 0)
 
     def rel(d, slot):
         h, mi = am if slot == "am" else pm
@@ -182,9 +185,13 @@ def visible_edition(log, now, tz, am_time="06:00", pm_time="19:00"):
             eid, t = e.get("id") or "", _parse(e["seen"])
         except Exception:
             continue
-        if not EDITION_ID.match(eid) or t > now:
+        if not isinstance(eid, str) or not EDITION_ID.match(eid) or t > now:
             continue
-        due = rel(dt.date(int(eid[0:4]), int(eid[5:7]), int(eid[8:10])), eid[11:])
+        try:
+            day = dt.date(int(eid[0:4]), int(eid[5:7]), int(eid[8:10]))
+        except ValueError:                 # not a real date
+            continue
+        due = rel(day, eid[11:])
         if t <= due:                       # landed in time: shows when due
             show, slot, at = due, eid[11:], due
         else:
@@ -201,6 +208,24 @@ def _cfg(key, default):
     row = sb_get("app_config", f"key=eq.{key}&select=value")
     return row[0]["value"] if row and row[0].get("value") is not None else default
 
+def _valid_id(eid):
+    if not isinstance(eid, str) or not EDITION_ID.match(eid):
+        return False
+    try:
+        dt.date(int(eid[0:4]), int(eid[5:7]), int(eid[8:10]))
+        return True
+    except ValueError:
+        return False
+
+def _valid_entry(x):
+    if not isinstance(x, dict) or not _valid_id(x.get("id")) or not isinstance(x.get("seen"), str):
+        return False
+    try:
+        _parse(x["seen"])
+        return True
+    except Exception:
+        return False
+
 def update_edition_log(now=None):
     """Record when each edition first appeared on main (app_config edition_log, read by the app).
     A rollback (latest.json going back to an older edition) must be seen on two runs at least 5 minutes apart
@@ -209,19 +234,31 @@ def update_edition_log(now=None):
     now = now or time.time()
     e = fetch_json(RAW + "latest.json") or {}
     lid = f"{e.get('date')}-{e.get('edition') or 'am'}"
-    log = _cfg("edition_log", [])
-    log = list(log) if isinstance(log, list) else []
-    if not EDITION_ID.match(lid) or not e.get("stories"):
+    raw = _cfg("edition_log", [])
+    log = [x for x in (raw if isinstance(raw, list) else []) if _valid_entry(x)]
+    if not _valid_id(lid) or not e.get("stories"):
         return log, lid
     pending0 = _cfg("edition_log_pending", {}) or {}
     removed0 = _cfg("edition_log_removed", []) or []
+    removed0 = [x for x in removed0 if _valid_entry(x)] if isinstance(removed0, list) else []
+    pending0 = pending0 if isinstance(pending0, dict) else {}
     pending, removed = dict(pending0), list(removed0)
     ids = [x.get("id") for x in log]
     new = log
-    if lid in ids and ids.index(lid) < len(ids) - 1:          # looks like a rollback
+    if lid not in ids and ids and lid < max(ids):              # rollback to an edition no longer in the log
         if pending.get("rollback_to") == lid and now - float(pending.get("at") or now) >= 300:
-            new = log[:ids.index(lid) + 1]
-            removed = (removed + log[ids.index(lid) + 1:])[-20:]
+            back = next((x for x in removed if x.get("id") == lid), None)
+            seen = back["seen"] if back else dt.datetime.fromtimestamp(now, dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+            removed = (removed + [x for x in log if x["id"] > lid])[-20:]
+            removed = [x for x in removed if x.get("id") != lid]
+            new = sorted([x for x in log if x["id"] < lid] + [{"id": lid, "seen": seen}], key=lambda x: x["seen"])[-20:]
+            pending = {}
+        elif pending.get("rollback_to") != lid:
+            pending = {"rollback_to": lid, "at": now}
+    elif lid in ids and max(ids) > lid:                       # looks like a rollback
+        if pending.get("rollback_to") == lid and now - float(pending.get("at") or now) >= 300:
+            new = [x for x in log if x["id"] <= lid]
+            removed = (removed + [x for x in log if x["id"] > lid])[-20:]
             pending = {}
         elif pending.get("rollback_to") != lid:
             pending = {"rollback_to": lid, "at": now}
@@ -233,7 +270,7 @@ def update_edition_log(now=None):
         pending = {}
     else:
         pending = {}
-    if new != log:
+    if new != raw:   # also writes back a log with bad entries dropped
         sb_upsert("app_config", {"key": "edition_log", "value": new})
     if pending != pending0:
         sb_upsert("app_config", {"key": "edition_log_pending", "value": pending})

@@ -150,11 +150,10 @@ self.addEventListener("fetch",e=>{
     e.respondWith(caches.match(r).then(m=>m||fetch(r).then(res=>{ if(res.ok||res.type==="opaque"){ const cp=res.clone(); caches.open(V).then(c=>c.put(r,cp)); } return res; })));
   }
 });
-/* Edition alerts: the push carries no data. Alerts arrive on the family's own clock (6 am and 7 pm),
-   so the wording follows the local time rather than the newest file, which may not be released here yet. */
+/* Edition alerts: the push carries no data. Alerts arrive on the family's own clock, and the release times
+   can be changed by the admin, so the wording does not say morning or evening. */
 self.addEventListener("push",e=>{ e.waitUntil((async()=>{
-  const h=new Date().getHours(); const pm=h>=16||h<4;
-  const t=pm?"Your evening edition is ready":"Your morning edition is ready", b="Fresh stories, checked before they were published. Tap to read.";
+  const t="Your new FFMPA edition is ready", b="Fresh stories, checked before they were published. Tap to read.";
   await self.registration.showNotification(t,{body:b,icon:"/assets/icon-192.png",badge:"/assets/badge-96.png",tag:"ffmpa-edition",renotify:true,data:{url:"/app/?source=alert"}});
 })()); });
 self.addEventListener("notificationclick",e=>{ e.notification.close(); const url=(e.notification.data&&e.notification.data.url)||"/app/";

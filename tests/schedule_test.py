@@ -33,8 +33,8 @@ for run in fz:
             if diff < 5: print("FUZZ DIFF", tz, dt.datetime.fromtimestamp(t/1000, dt.timezone.utc), gid, gslot, r)
     grid = grid + [p[:4] for p in run["pts"]]
 extra = json.load(open("/tmp/schedule_extra.json")) if os.path.exists("/tmp/schedule_extra.json") else []
-for why, log, tz, now, gid in extra:
-    r = visible_edition(log, ts(now), tz)
+for why, log, tz, now, gid, *times in extra:
+    r = visible_edition(log, ts(now), tz, *(times or ["06:00", "19:00"]))
     if not r or r["id"] != gid:
         bad += 1; print("FAIL", why, r)
 print(f"{len(C['cases'])-bad}/{len(C['cases'])} cases pass, {len(grid)-diff}/{len(grid)} grid points match JS")

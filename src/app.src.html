@@ -1032,7 +1032,10 @@ function renderAdmin(){
       <div class="row"><button class="btn sun press" id="aSave">Save editions</button><span class="msg" id="aMsg" aria-live="polite"></span></div>`;
     $("#aFresh").oninput=e=>$("#aFreshV").textContent=e.target.value+" hours"; $("#aMax").oninput=e=>$("#aMaxV").textContent=e.target.value;
     $("#aSave").onclick=()=>{ const re=/^([01]\d|2[0-3]):[0-5]\d$/; if(!re.test($("#aAm").value)||!re.test($("#aPm").value)){ $("#aMsg").textContent="Use 24-hour times like 06:00 and 19:00."; return; }
-      ADMIN.amTime=$("#aAm").value; ADMIN.pmTime=$("#aPm").value; ADMIN.freshHours=+$("#aFresh").value; ADMIN.maxStories=+$("#aMax").value; m.querySelectorAll("[data-cty]").forEach(c=> ADMIN.countries[c.dataset.cty]=c.checked); saveAdmin(); $("#aMsg").textContent="Saved. The app now uses these settings."; };
+      { const okT=v=>/^\d{2}:\d{2}$/.test(v)&&+v.slice(0,2)>=4&&+v.slice(0,2)<=22&&+v.slice(3)<60, mins=v=>+v.slice(0,2)*60+ +v.slice(3);
+        const a=$("#aAm").value.trim(), p=$("#aPm").value.trim();
+        if(!okT(a)||!okT(p)||mins(p)-mins(a)<660||mins(p)-mins(a)>780){ $("#aMsg").textContent="Use times between 04:00 and 22:59, with the evening edition 11 to 13 hours after the morning edition (for example 06:00 and 19:00). Nothing was saved."; return; } }
+      ADMIN.amTime=$("#aAm").value.trim(); ADMIN.pmTime=$("#aPm").value.trim(); ADMIN.freshHours=+$("#aFresh").value; ADMIN.maxStories=+$("#aMax").value; m.querySelectorAll("[data-cty]").forEach(c=> ADMIN.countries[c.dataset.cty]=c.checked); saveAdmin(); $("#aMsg").textContent="Saved. The app now uses these settings."; };
   }
   if(admSection==="safety"){
     m.innerHTML=`<h1>Language and safety</h1><p class="sub">Any story containing a blocked word is held automatically and cannot be published until an editor rewrites it. Try adding the word smog and check the India edition.</p>

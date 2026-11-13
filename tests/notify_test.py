@@ -94,6 +94,23 @@ checks.append(("nobody alerted twice after pm, am, pm (only j, never told, gets 
 sent.clear(); main.time.time = lambda: NOW + 5 * 3600 + 40 * 60
 main.notify(); main.notify()
 checks.append(("held London alert sent once after 6 am", sent.count("h") == 1 and SUBS["h"]["last_edition"] == "2026-11-13-pm"))
+# malformed and impossible entries in the stored log never break a run
+config["edition_log"] = config["edition_log"] + [{"id": "2026-02-30-am", "seen": "2026-11-13T15:00:00Z"}, "junk", {"id": "2026-11-13-am"}]
+try:
+    main.notify(); ok = True
+except Exception as ex:
+    ok = False; print("notify crashed:", ex)
+checks.append(("bad log entries are dropped, run does not crash", ok and all(isinstance(x, dict) and x["id"] != "2026-02-30-am" for x in config["edition_log"])))
+# roll back to an edition that is no longer in the log: confirmed after 5 minutes, newer entries removed
+config["edition_log"] = [{"id": f"2026-11-{d:02d}-{k}", "seen": f"2026-11-{d:02d}T{'00:45' if k == 'am' else '13:45'}:00Z"} for d in range(4, 14) for k in ("am", "pm")]
+config.pop("edition_log_pending", None); config.pop("edition_log_removed", None)
+main.fetch_json = lambda url: {"date": "2026-11-03", "edition": "pm", "stories": [1] * 8}
+T0 = NOW + 7 * 3600
+main.time.time = lambda: T0; main.notify()
+first = [e["id"] for e in config["edition_log"]][-1]
+main.time.time = lambda: T0 + 400; main.notify()
+ids = [e["id"] for e in config["edition_log"]]
+checks.append(("roll back to an edition older than the log is detected and confirmed", first == "2026-11-13-pm" and ids == ["2026-11-03-pm"]))
 for name, ok in checks:
     print("PASS" if ok else "FAIL", name)
 print(json.dumps(res))

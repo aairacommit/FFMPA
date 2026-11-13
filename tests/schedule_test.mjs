@@ -26,11 +26,18 @@ console.log(`${C.cases.length-bad}/${C.cases.length} cases pass, ${out.length} g
   const late=mk(false).map(e=>e.id==="2026-11-16-am"?{id:e.id,seen:"2026-11-16T04:00:00Z"}:e);
   T.push(["India: morning edition merged at 09:30 IST appears by the evening release", late, "Asia/Kolkata", "2026-11-16T13:31:00Z", "2026-11-16-am"]);
   T.push(["India: and the evening edition after it still arrives that evening", late, "Asia/Kolkata", "2026-11-16T14:30:00Z", "2026-11-16-pm"]);
-  let b2=0; for(const [why,log,tz,now,id] of T){ const r=ctx.ffEditionFor(log,Date.parse(now),tz,"06:00","19:00"); if(!r||r.id!==id){ b2++; console.log("FAIL",why,JSON.stringify(r)); } }
+  let b2=0; for(const [why,log,tz,now,id,amT,pmT] of T){ const r=ctx.ffEditionFor(log,Date.parse(now),tz,amT||"06:00",pmT||"19:00"); if(!r||r.id!==id){ b2++; console.log("FAIL",why,JSON.stringify(r)); } }
   { const lag=JSON.parse(fs.readFileSync(new URL("./schedule_lag_log.json",import.meta.url),"utf8"));
     // one late merge (3 Nov pm at 07:00 IST on the 4th, 4 Nov am at 07:30 IST) must not leave India a day behind
     T.push(["India catches up the day after a late merge",lag,"Asia/Kolkata","2026-11-06T00:50:00Z","2026-11-06-am"]);
     T.push(["India shows the evening edition as it lands",lag,"Asia/Kolkata","2026-11-08T13:50:00Z","2026-11-08-pm"]); }
+  { const N=[]; for(let d=10; d<=16; d++){ const D=`2026-11-${d}`; N.push({id:`${D}-am`,seen:`${D}T00:45:00Z`},{id:`${D}-pm`,seen:`${D}T13:45:00Z`}); }
+    T.push(["an id that is not a real date is ignored",[...N,{id:"2026-02-30-am",seen:"2026-11-16T14:00:00Z"},{id:"2026-11-31-pm",seen:"2026-11-16T14:00:00Z"},{bad:1},null],"Asia/Kolkata","2026-11-16T15:00:00Z","2026-11-16-pm"]);
+    // admin times outside 04:00 to 22:59, or with the evening not 11 to 13 hours after the morning, fall back to 06:00 and 19:00
+    T.push(["admin 04:00 and 22:59 falls back (Tokyo still sees the morning edition)",N,"Asia/Tokyo","2026-11-15T10:30:00Z","2026-11-15-am","04:00","22:59"]);
+    T.push(["admin am after pm falls back (India sees the evening edition)",N,"Asia/Kolkata","2026-11-15T14:00:00Z","2026-11-15-pm","10:00","09:00"]);
+    T.push(["admin 07:00 and 19:30 is used (London morning at 07:00)",N,"Europe/London","2026-11-15T06:59:00Z","2026-11-14-pm","07:00","19:30"]);
+    T.push(["admin 07:00 and 19:30 is used (London morning at 07:00, after)",N,"Europe/London","2026-11-15T07:00:00Z","2026-11-15-am","07:00","19:30"]); }
   fs.writeFileSync("/tmp/schedule_extra.json",JSON.stringify(T));
   console.log(`${T.length-b2}/${T.length} reviewer cases pass`); if(b2) process.exit(1);
 }

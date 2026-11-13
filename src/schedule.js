@@ -7,7 +7,7 @@
    newest edition that is showable. Nothing depends on history, so the answer only changes at a release or
    when an edition lands, never steps back (unless an edition is rolled back) and never changes at midnight.
    In normal operation every zone sees every edition; an edition merged so late that a newer one is due by
-   the same release is superseded. Release times must be between 04:00 and 22:59.
+   the same release is superseded. Release times must be between 04:00 and 22:59, with the evening time 11 to 13 hours after the morning time.
 
    log: [{id:"2026-11-13-pm", seen:"2026-11-13T14:44:37Z"}, ...] (from the Cloud Run newsroom)
    Returns {id, slot:"am"|"pm", at:<ms>} or null: slot and at are the release the edition showed at on this
@@ -33,7 +33,10 @@ function ffEditionFor(log,nowMs,tz,amTime,pmTime){
   if(!tz||!ffValidTz(tz)) tz="Asia/Kolkata";
   /* release times must be 04:00 to 22:59: other hours can fall in a daylight saving gap or repeat */
   const hm=s=>{ const m=/^(\d{1,2}):(\d{2})$/.exec(s||""); return m&&+m[1]>=4&&+m[1]<=22&&+m[2]<60?[+m[1],+m[2]]:null; };
-  const am=hm(amTime)||[6,0], pm=hm(pmTime)||[19,0];
+  let am=hm(amTime)||[6,0], pm=hm(pmTime)||[19,0];
+  /* the evening time must be 11 to 13 hours after the morning time, or every zone could not see every
+     edition; anything else falls back to 06:00 and 19:00 (the admin form enforces the same) */
+  const gap=(pm[0]*60+pm[1])-(am[0]*60+am[1]); if(gap<660||gap>780){ am=[6,0]; pm=[19,0]; }
   const rel=(Y,M,D,slot)=>{ const [h,mi]=slot==="am"?am:pm; return ffZoned(Y,M,D,h,mi,tz); };
   /* the release just before t and the first release at or after t, on this family's clock */
   const around=t=>{ const [y,m,d]=ffLocalDate(t,tz); let prev=null, next=null;
@@ -45,6 +48,7 @@ function ffEditionFor(log,nowMs,tz,amTime,pmTime){
   for(const e of log){
     const t=e&&Date.parse(e.seen), m=/^(\d{4})-(\d{2})-(\d{2})-(am|pm)$/.exec((e&&e.id)||"");
     if(!m||isNaN(t)||t>nowMs) continue;
+    const dd=new Date(Date.UTC(+m[1],+m[2]-1,+m[3])); if(dd.getUTCMonth()!==+m[2]-1||dd.getUTCDate()!==+m[3]) continue; /* not a real date */
     const due=rel(+m[1],+m[2],+m[3],m[4]);
     let show, slot, at;
     if(t<=due){ show=due; slot=m[4]; at=due; }                       /* landed in time: shows when due */

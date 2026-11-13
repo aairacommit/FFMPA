@@ -6,7 +6,7 @@ Two jobs:
    works out which edition each device's time zone should be seeing now (6:00 am and 7:00 pm local release
    times, see visible_edition), and sends one web push when that changes. Pushes carry no data. Each device is
    claimed in the database before it is sent to, so overlapping runs never send twice, and a device is never moved
-   back to an older edition. No alerts 9 pm to 6 am (held until the first run after 6 am). A rollback must be seen on two runs 5 minutes apart.
+   back to an older edition. No alerts 9 pm to 6 am (held until the first run after 6 am). A rollback (newer edition files gone from main) must be seen on two runs 5 minutes apart.
 2. Public story pages. GET /s/ lists the last three days of stories; GET /s/<id> shows one story at the
    Thinkers level (ages 10 to 12) with its word explainers, think question and sources, marked up as a
    NewsArticle for search engines. Data is read from the public editions folder on GitHub.
@@ -226,45 +226,61 @@ def _valid_entry(x):
     except Exception:
         return False
 
+def _edition_file_state(eid):
+    """True if editions/<eid>.json is on main, False if GitHub says it is gone (404), None if unsure."""
+    try:
+        r = http.get(RAW + eid + ".json", params={"h": int(time.time())}, timeout=15)
+    except requests.RequestException:
+        return None
+    return True if r.ok else (False if r.status_code == 404 else None)
+
+def _iso(t):
+    return dt.datetime.fromtimestamp(t, dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
 def update_edition_log(now=None):
     """Record when each edition first appeared on main (app_config edition_log, read by the app).
-    A rollback (latest.json going back to an older edition) must be seen on two runs at least 5 minutes apart
-    before the newer entries are removed, so one stale read from GitHub's cache cannot hide an edition. Removed entries
-    are remembered, and an edition that comes back keeps its original time."""
+    A rollback is recognised only when newer editions' files are really gone from main (a revert deletes
+    them), seen on two runs at least 5 minutes apart, so a stale cached read never hides an edition and an
+    older edition merged late is simply added. Removed entries are remembered: an edition that comes back
+    keeps its original time, and an edition restored by a rollback shows at once."""
     now = now or time.time()
     e = fetch_json(RAW + "latest.json") or {}
     lid = f"{e.get('date')}-{e.get('edition') or 'am'}"
     raw = _cfg("edition_log", [])
     log = [x for x in (raw if isinstance(raw, list) else []) if _valid_entry(x)]
     if not _valid_id(lid) or not e.get("stories"):
+        if log != raw:   # write back a log with bad entries dropped
+            sb_upsert("app_config", {"key": "edition_log", "value": log})
         return log, lid
     pending0 = _cfg("edition_log_pending", {}) or {}
+    pending0 = pending0 if isinstance(pending0, dict) else {}
     removed0 = _cfg("edition_log_removed", []) or []
     removed0 = [x for x in removed0 if _valid_entry(x)] if isinstance(removed0, list) else []
-    pending0 = pending0 if isinstance(pending0, dict) else {}
     pending, removed = dict(pending0), list(removed0)
-    ids = [x.get("id") for x in log]
+    try:
+        p_at = float(pending.get("at"))
+    except (TypeError, ValueError):
+        p_at = None
+    ids = [x["id"] for x in log]
     new = log
-    if lid not in ids and ids and lid < max(ids):              # rollback to an edition no longer in the log
-        if pending.get("rollback_to") == lid and now - float(pending.get("at") or now) >= 300:
-            back = next((x for x in removed if x.get("id") == lid), None)
-            seen = back["seen"] if back else dt.datetime.fromtimestamp(now, dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-            removed = (removed + [x for x in log if x["id"] > lid])[-20:]
-            removed = [x for x in removed if x.get("id") != lid]
-            new = sorted([x for x in log if x["id"] < lid] + [{"id": lid, "seen": seen}], key=lambda x: x["seen"])[-20:]
+    newer = [i for i in ids if i > lid]
+    gone = [i for i in newer if _edition_file_state(i) is False] if newer else []
+    if gone:                                                   # looks like a rollback
+        if pending.get("rollback_to") == lid and p_at is not None and now - p_at >= 300:
+            new = [x for x in log if x["id"] not in gone]
+            removed = (removed + [x for x in log if x["id"] in gone])[-20:]
+            if lid not in ids:                                 # restored edition no longer in the log
+                back = next((x for x in removed if x.get("id") == lid), None)
+                # its original time if known, otherwise noon UTC the day before its date, so it shows at once
+                seen = back["seen"] if back else _iso(dt.datetime(int(lid[0:4]), int(lid[5:7]), int(lid[8:10]), 12, tzinfo=dt.timezone.utc).timestamp() - 86400)
+                new = sorted(new + [{"id": lid, "seen": seen}], key=lambda x: x["seen"])[-20:]
+                removed = [x for x in removed if x.get("id") != lid]
             pending = {}
-        elif pending.get("rollback_to") != lid:
+        elif pending.get("rollback_to") != lid or p_at is None:
             pending = {"rollback_to": lid, "at": now}
-    elif lid in ids and max(ids) > lid:                       # looks like a rollback
-        if pending.get("rollback_to") == lid and now - float(pending.get("at") or now) >= 300:
-            new = [x for x in log if x["id"] <= lid]
-            removed = (removed + [x for x in log if x["id"] > lid])[-20:]
-            pending = {}
-        elif pending.get("rollback_to") != lid:
-            pending = {"rollback_to": lid, "at": now}
-    elif lid not in ids:                                       # a new edition (or one that came back)
+    elif lid not in ids:                                       # a new edition, a late one, or one that came back
         back = next((x for x in removed if x.get("id") == lid), None)
-        seen = back["seen"] if back else dt.datetime.fromtimestamp(now, dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+        seen = back["seen"] if back else _iso(now)
         new = sorted(log + [{"id": lid, "seen": seen}], key=lambda x: x["seen"])[-20:]
         removed = [x for x in removed if x.get("id") != lid]
         pending = {}

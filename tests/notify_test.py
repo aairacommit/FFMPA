@@ -55,6 +55,10 @@ main.sb_upsert = lambda t, row: config.__setitem__(row["key"], row["value"])
 main.sb_insert = lambda t, row: True
 main.sb_delete = lambda t, q: None
 main.http.post = post
+GONE = set()   # edition files deleted from main (a revert deletes them)
+def get(url, params=None, timeout=None):
+    return R(404 if url.rsplit("/", 1)[1][:-5] in GONE else 200)
+main.http.get = get
 main.fetch_json = lambda url: {"date": "2026-11-13", "edition": "pm", "stories": [1] * 8}
 main.time.time = lambda: NOW
 main.load_keys = lambda: (main.ec.generate_private_key(main.ec.SECP256R1()), "pub")
@@ -71,7 +75,13 @@ checks = [
     ("second run sends nothing", (sent.clear(), main.notify().get_json())[1]["sent"] == 0 and not sent),
     ("edition log unchanged", config["edition_log"] == LOG),
 ]
-# roll back: latest.json goes back to the morning edition. One read is not enough (could be a stale cache).
+# a stale cached latest.json (older edition) while the evening file is still on main: never a rollback
+main.fetch_json = lambda url: {"date": "2026-11-13", "edition": "am", "stories": [1] * 12}
+main.notify(); main.time.time = lambda: NOW + 400; main.notify(); main.time.time = lambda: NOW
+checks.append(("stale latest.json with the newer file still on main never cuts the log", config["edition_log"] == LOG and not config.get("edition_log_pending")))
+# roll back: latest.json goes back to the morning edition and the evening file is deleted.
+# One read is not enough (could be a stale cache).
+GONE.add("2026-11-13-pm")
 main.fetch_json = lambda url: {"date": "2026-11-13", "edition": "am", "stories": [1] * 12}
 # a device that is still on the morning edition while the roll back is being confirmed must not be told about pm
 SUBS["j"] = {"id": "j", "tz": "America/New_York", "last_edition": "2026-11-13-am", "endpoint": "https://push.example/j"}
@@ -86,6 +96,7 @@ main.notify()
 checks.append(("a roll back seen 5 minutes later removes the evening edition", [e["id"] for e in config["edition_log"]][-1] == "2026-11-13-am"))
 checks.append(("no alert for a rolled back edition", not sent))
 # the same edition is merged again: it keeps its original time and nobody is alerted twice
+GONE.clear()
 main.fetch_json = lambda url: {"date": "2026-11-13", "edition": "pm", "stories": [1] * 8}
 main.notify()
 checks.append(("re-merged edition keeps its original time", config["edition_log"][-1] == LOG[-1]))
@@ -105,12 +116,29 @@ checks.append(("bad log entries are dropped, run does not crash", ok and all(isi
 config["edition_log"] = [{"id": f"2026-11-{d:02d}-{k}", "seen": f"2026-11-{d:02d}T{'00:45' if k == 'am' else '13:45'}:00Z"} for d in range(4, 14) for k in ("am", "pm")]
 config.pop("edition_log_pending", None); config.pop("edition_log_removed", None)
 main.fetch_json = lambda url: {"date": "2026-11-03", "edition": "pm", "stories": [1] * 8}
+GONE.update(e["id"] for e in config["edition_log"])
 T0 = NOW + 7 * 3600
 main.time.time = lambda: T0; main.notify()
 first = [e["id"] for e in config["edition_log"]][-1]
 main.time.time = lambda: T0 + 400; main.notify()
 ids = [e["id"] for e in config["edition_log"]]
 checks.append(("roll back to an edition older than the log is detected and confirmed", first == "2026-11-13-pm" and ids == ["2026-11-03-pm"]))
+vis = [main.visible_edition(config["edition_log"], T0 + 400, z) for z in ("Asia/Kolkata", "America/New_York", "Pacific/Kiritimati", "Pacific/Pago_Pago")]
+checks.append(("the restored edition shows at once in every zone", all(v and v["id"] == "2026-11-03-pm" for v in vis)))
+# an older edition merged late (a held morning PR merged after the evening one) is added, nothing removed
+GONE.clear(); config.pop("edition_log_pending", None); config.pop("edition_log_removed", None)
+config["edition_log"] = [x for x in LOG if x["id"] != "2026-11-13-am"]
+main.fetch_json = lambda url: {"date": "2026-11-13", "edition": "am", "stories": [1] * 12}
+main.time.time = lambda: T0; main.notify(); main.time.time = lambda: T0 + 400; main.notify()
+ids = [e["id"] for e in config["edition_log"]]
+checks.append(("an older edition merged late is added and the newer one kept", "2026-11-13-am" in ids and "2026-11-13-pm" in ids))
+# a malformed pending value never crashes a run
+config["edition_log_pending"] = {"rollback_to": "2026-11-13-am", "at": "x"}
+try:
+    main.notify(); ok = True
+except Exception as ex:
+    ok = False; print("crash:", ex)
+checks.append(("malformed pending value does not crash", ok))
 for name, ok in checks:
     print("PASS" if ok else "FAIL", name)
 print(json.dumps(res))

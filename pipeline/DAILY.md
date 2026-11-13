@@ -34,7 +34,7 @@ Read `pipeline/EDITORIAL.md` and `pipeline/SCHEMA.md` first, and open the newest
     - `PASS`: go to step 11.
     - `FIX`: make every listed change (or drop the story), run the validator again, commit and push to the same branch, then start a **new** reviewer agent with the same brief. At most three review rounds.
     - `REJECT`, or no `PASS` after three rounds, or you cannot start a reviewer agent at all: do not merge. Comment on the pull request with the reviewer's findings, leave it open for the owner, and say so in your final message. The previous edition stays live, which is fine.
-11. **Merge.** Paste the reviewer's final answer as a comment on the pull request, then squash merge it into `main` (for example `gh pr merge <number> --squash --delete-branch`, or the GitHub API). Confirm `editions/latest.json` on `main` now has date D and edition `am`.
+11. **Merge.** Paste the reviewer's final answer as a comment on the pull request, then squash merge it into `main` with the REST API (GraphQL, and so `gh pr merge` and `gh pr create`, are blocked in these sessions): `gh api -X PUT repos/aairacommit/FFMPA/pulls/<number>/merge -f merge_method=squash`, then `gh api -X DELETE repos/aairacommit/FFMPA/git/refs/heads/<branch>`. Open the pull request the same way: `gh api repos/aairacommit/FFMPA/pulls -f title=... -f head=<branch> -f base=main -f body=...`; comment with `gh api repos/aairacommit/FFMPA/issues/<number>/comments -f body=...`. Confirm `editions/latest.json` on `main` now has date D and edition `am`.
 12. **Stop.** Change nothing outside `editions/`. Never push to `main` directly except through the merge in step 11.
 
 ## Rolling back an edition

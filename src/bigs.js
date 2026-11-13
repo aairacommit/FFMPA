@@ -191,6 +191,8 @@ function applyEdition(E){
 }
 async function loadLiveEdition(opts){
   if(!/^https?:$/.test(location.protocol)||/[?&]sample=1/.test(location.search)||/^(localhost|127\.)/.test(location.hostname)) return;
+  /* only the most recently started load may change the screen (loads can overlap, e.g. after admin times arrive) */
+  const seq=window.FF_LOAD_SEQ=(window.FF_LOAD_SEQ||0)+1; const stale=()=>seq!==window.FF_LOAD_SEQ;
   try{
     const cur=document.documentElement.dataset.edition;
     /* Pick the edition for this family's own clock (6:00 am and 7:00 pm local, see schedule.js). */
@@ -204,6 +206,7 @@ async function loadLiveEdition(opts){
       try{ const r=await fetch(url+"?h="+Math.floor(Date.now()/3e5),{signal:ctl.signal,cache:"no-store"}); return r.ok?await r.json():null; }catch(e){ return null; }finally{ clearTimeout(tm); } };
     const idOf=E=>E&&E.date?E.date+"-"+(E.edition||"am"):null;
     const byId=id=>get(EDITION_URL.replace("latest.json",id+".json"));
+    if(stale()) return;
     if(pick&&cur===pick.id){ if(window.FF_SLOT!==pick.slot){ window.FF_SLOT=pick.slot; renderTop(); } return; }
     /* never step back to an older edition unless the newer one was rolled back (no longer in the log) */
     if(pick&&cur&&cur>pick.id&&log.some(e=>e.id===cur)) return;
@@ -224,6 +227,7 @@ async function loadLiveEdition(opts){
     const id=E.date+"-"+(E.edition||"am");
     if(cur===id) return;
     if(!pick&&cur&&E.date<EDITION_DATE) return;
+    if(stale()) return;
     if(cur&&opts&&opts.background&&typeof idx!=="undefined"&&idx>0){ window.FF_PENDING=true; return; }
     window.FF_SLOT=pick?pick.slot:((E.edition==="pm")?"pm":"am"); window.FF_PENDING=false;
     if(applyEdition(E)){ try{ localStorage.setItem("ffmpa-ed-last",id); }catch(e){} }

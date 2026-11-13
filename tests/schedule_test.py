@@ -25,12 +25,13 @@ for tz, t, gid, gslot in g2["grid"]:
 grid = grid + g2["grid"]
 fz = json.load(open("/tmp/schedule_fuzz.json")) if os.path.exists("/tmp/schedule_fuzz.json") else []
 for run in fz:
-    for tz, t, gid, gslot in run["pts"]:
-        r = visible_edition(run["log"], t / 1000, tz)
+    for tz, t, gid, gslot, n in run["pts"]:
+        lg = [e for e in run["log"] if ts(e["seen"]) * 1000 <= t][-20:]
+        r = visible_edition(lg, t / 1000, tz)
         if (r["id"] if r else None) != gid or (r["slot"] if r else None) != gslot:
             diff += 1
             if diff < 5: print("FUZZ DIFF", tz, dt.datetime.fromtimestamp(t/1000, dt.timezone.utc), gid, gslot, r)
-    grid = grid + run["pts"]
+    grid = grid + [p[:4] for p in run["pts"]]
 extra = json.load(open("/tmp/schedule_extra.json")) if os.path.exists("/tmp/schedule_extra.json") else []
 for why, log, tz, now, gid in extra:
     r = visible_edition(log, ts(now), tz)

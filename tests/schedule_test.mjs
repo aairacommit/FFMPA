@@ -27,6 +27,10 @@ console.log(`${C.cases.length-bad}/${C.cases.length} cases pass, ${out.length} g
   T.push(["India: morning edition merged at 09:30 IST appears by the evening release", late, "Asia/Kolkata", "2026-11-16T13:31:00Z", "2026-11-16-am"]);
   T.push(["India: and the evening edition after it still arrives that evening", late, "Asia/Kolkata", "2026-11-16T14:30:00Z", "2026-11-16-pm"]);
   let b2=0; for(const [why,log,tz,now,id] of T){ const r=ctx.ffEditionFor(log,Date.parse(now),tz,"06:00","19:00"); if(!r||r.id!==id){ b2++; console.log("FAIL",why,JSON.stringify(r)); } }
+  { const lag=JSON.parse(fs.readFileSync(new URL("./schedule_lag_log.json",import.meta.url),"utf8"));
+    // one late merge (3 Nov pm at 07:00 IST on the 4th, 4 Nov am at 07:30 IST) must not leave India a day behind
+    T.push(["India catches up the day after a late merge",lag,"Asia/Kolkata","2026-11-06T00:50:00Z","2026-11-06-am"]);
+    T.push(["India shows the evening edition as it lands",lag,"Asia/Kolkata","2026-11-08T13:50:00Z","2026-11-08-pm"]); }
   fs.writeFileSync("/tmp/schedule_extra.json",JSON.stringify(T));
   console.log(`${T.length-b2}/${T.length} reviewer cases pass`); if(b2) process.exit(1);
 }
@@ -80,7 +84,7 @@ console.log(`${C.cases.length-bad}/${C.cases.length} cases pass, ${out.length} g
   // (in particular never at local midnight). Points are dumped for the Python check.
   {
     const fz=["Asia/Kolkata","America/New_York","Europe/London","Australia/Sydney","Pacific/Kiritimati","Pacific/Tongatapu","Pacific/Pago_Pago","Pacific/Auckland","Asia/Kathmandu","America/St_Johns","Australia/Lord_Howe","America/Los_Angeles","Pacific/Chatham"];
-    const wins=[["2026-10-28","2026-11-06"],["2026-10-20","2026-10-29"],["2027-03-31","2027-04-09"],["2026-09-30","2026-10-08"]];
+    const wins=[["2026-10-24","2026-11-08"],["2026-10-16","2026-10-31"],["2027-03-27","2027-04-11"],["2026-09-26","2026-10-10"]];
     let sd=11; const rr=()=>(sd=(sd*1103515245+12345)%2147483648)/2147483648;
     const iso=ms=>new Date(ms).toISOString().replace(/\.\d+Z/,"Z");
     let bk=0, ms=0, sp=0, runs=0; const dump=[];
@@ -96,8 +100,9 @@ console.log(`${C.cases.length-bad}/${C.cases.length} cases pass, ${out.length} g
       for(const tz of fz){ runs++;
         let prev=null, prevT=null; const seenIds=new Set();
         for(let t=st; t<=en; t+=15*60e3){
-          const r=ctx.ffEditionFor(lg,t,tz,"06:00","19:00"), id=r&&r.id;
-          if(Math.floor(t/60e3)%45===0) pts.push([tz,t,id,r&&r.slot]);
+          const lgT=lg.filter(e=>Date.parse(e.seen)<=t).slice(-20);   // the real log: what has landed, newest 20
+          const r=ctx.ffEditionFor(lgT,t,tz,"06:00","19:00"), id=r&&r.id;
+          if(Math.floor(t/60e3)%45===0) pts.push([tz,t,id,r&&r.slot,lgT.length]);
           if(id) seenIds.add(id);
           if(prev!==null&&id!==prev){
             if(id<prev) bk++;
@@ -107,12 +112,16 @@ console.log(`${C.cases.length-bad}/${C.cases.length} cases pass, ${out.length} g
           }
           prev=id; prevT=t;
         }
-        const missed=must.filter(x=>!seenIds.has(x)); if(missed.length){ ms++; if(ms<4) console.log("MISSED",tz,missed.join(" ")); }
+        // A miss is only allowed when the next newer edition landed less than 10 hours later: that is the
+        // longest a late edition can wait for a release (06:00 + 3 h to 19:00), so the newer one supersedes it.
+        const missed=must.filter(x=>!seenIds.has(x)).filter(x=>{ const i=lg.findIndex(e=>e.id===x), nx=lg.filter(e=>e.id>x).sort((a,b)=>a.id<b.id?-1:1)[0];
+          return !nx||Date.parse(nx.seen)-Date.parse(lg[i].seen)>=10*3600e3; });
+        if(missed.length){ ms++; if(ms<4) console.log("MISSED",tz,missed.join(" ")); }
       }
       dump.push({log:lg,pts});
     }
     fs.writeFileSync("/tmp/schedule_fuzz.json",JSON.stringify(dump));
-    console.log(`fuzz: ${runs} zone runs, step backs ${bk}, missed ${ms}, changes outside a release or arrival ${sp}`);
+    console.log(`fuzz: ${runs} zone runs (20-entry log), step backs ${bk}, unexplained misses ${ms}, changes outside a release or arrival ${sp}`);
     if(bk||ms||sp) fails++;
   }
   const g2=[]; for(const tz of Object.keys(zones)) for(let t=Date.parse("2026-11-16T00:00:00Z"); t<=Date.parse("2026-11-23T00:00:00Z"); t+=13*60*1000){ const r=ctx.ffEditionFor(log,t,tz,"06:00","19:00"); g2.push([tz,t,r?r.id:null,r?r.slot:null]); }

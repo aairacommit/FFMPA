@@ -133,8 +133,8 @@ def stories():
 
 # ---------------------------------------------------------------- local edition schedule
 # Same rules as src/schedule.js (ffEditionFor). tests/schedule_cases.json checks both.
-LATE_SECONDS = 3 * 3600  # a late edition skips the queue only within 3 hours of a release time
-EDITION_ID = re.compile(r"^\d{4}-\d{2}-\d{2}-(am|pm)$")
+LATE_SECONDS = 3 * 3600  # a late edition landing up to 3 hours after a release shows as it lands
+EDITION_ID = re.compile(r"^\d{4}-\d{2}-\d{2}-(am|pm)\Z")
 
 def _zone(tz):
     try:
@@ -151,60 +151,51 @@ def _parse(ts):
     return dt.datetime.fromisoformat(ts.replace("Z", "+00:00")).timestamp()
 
 def visible_edition(log, now, tz, am_time="06:00", pm_time="19:00"):
-    """log: [{id, seen}], now: unix seconds. Returns {"id", "slot", "at"} or None."""
-    L = []
-    for e in log or []:
-        try:
-            if e.get("id"):
-                L.append((_parse(e["seen"]), e["id"]))
-        except Exception:
-            pass
-    if not L:
-        return None
-    L.sort()
+    """log: [{id, seen}], now: unix seconds. Returns {"id", "slot", "at"} or None. Same rules as
+    ffEditionFor in src/schedule.js: each edition is due at its own local release (D-am at the morning time
+    on day D, D-pm at the evening time); it shows when due if it landed by then; if later, as it lands
+    when within 3 hours after a release, otherwise at the next release. The newest showable edition wins."""
     z = _zone(tz)
     am, pm = _hm(am_time, (6, 0)), _hm(pm_time, (19, 0))
-    today = dt.datetime.fromtimestamp(now, z).date()
-    # walk every release from the day before the oldest logged edition (at most 14 days back), so the answer
-    # depends only on the log and the clock, never on where the walk happens to start
-    oldest = dt.datetime.fromtimestamp(min(L[0][0], now), z).date()
-    days = min(14, (today - oldest).days + 1)
-    bounds = []
-    for back in range(days + 1):
-        d = today - dt.timedelta(days=back)
-        for (h, mi), slot in ((am, "am"), (pm, "pm")):
-            local = dt.datetime(d.year, d.month, d.day, h, mi)
-            t = local.replace(tzinfo=z).timestamp()
-            bounds.append((t, slot))
-    past = sorted(b for b in bounds if b[0] <= now)
-    if not past:
-        return None
 
-    def newest(t):
-        r = None
-        for seen, eid in L:
-            if seen <= t:
-                r = (seen, eid)
-        return r
+    def rel(d, slot):
+        h, mi = am if slot == "am" else pm
+        return dt.datetime(d.year, d.month, d.day, h, mi).replace(tzinfo=z).timestamp()
 
-    shown, rel = newest(past[0][0]), past[0]  # rel: the release at which the edition now showing appeared
-    for i in range(1, len(past)):
-        # editions published by this release that this family has not been shown yet, oldest first
-        waiting = [(seen, eid) for seen, eid in L if seen <= past[i][0] and (not shown or seen > shown[0])]
-        changed = False
-        if waiting:
-            shown, rel, changed = (waiting[-2] if len(waiting) >= 3 else waiting[0]), past[i], True
-        if not changed or not shown[1].endswith("-" + past[i][1]):
-            end = min(now if i == len(past) - 1 else past[i + 1][0] - 0.001, past[i][0] + LATE_SECONDS)
-            s_t = shown[0] if shown else float("-inf")
-            # only the next unseen edition may arrive late, so a late arrival never jumps over one that is waiting
-            nxt = next(((seen, eid) for seen, eid in L if s_t < seen <= end), None)
-            late = nxt if nxt and nxt[0] > past[i][0] and nxt[1].endswith("-" + past[i][1]) else None
-            if late:
-                shown, rel = late, past[i]
-    if not shown:
-        return None
-    return {"id": shown[1], "slot": rel[1], "at": rel[0]}
+    def around(t):
+        """the release just before t and the first release after t, on this family's clock"""
+        d0 = dt.datetime.fromtimestamp(t, z).date()
+        prev = nxt = None
+        for k in (-1, 0, 1):
+            d = d0 + dt.timedelta(days=k)
+            for slot in ("am", "pm"):
+                r = rel(d, slot)
+                if r <= t:
+                    prev = (r, slot)
+                elif nxt is None:
+                    nxt = (r, slot)
+        return prev, nxt
+
+    best = None
+    for e in log or []:
+        try:
+            eid, t = e.get("id") or "", _parse(e["seen"])
+        except Exception:
+            continue
+        if not EDITION_ID.match(eid) or t > now:
+            continue
+        due = rel(dt.date(int(eid[0:4]), int(eid[5:7]), int(eid[8:10])), eid[11:])
+        if t <= due:                       # landed in time: shows when due
+            show, slot, at = due, eid[11:], due
+        else:
+            (p_t, p_slot), (n_t, n_slot) = around(t)
+            if t <= p_t + LATE_SECONDS:    # within 3 hours of a release: shows as it lands
+                show, slot, at = t, p_slot, p_t
+            else:                          # otherwise it waits for the next release
+                show, slot, at = n_t, n_slot, n_t
+        if show <= now and (best is None or eid > best["id"]):
+            best = {"id": eid, "slot": slot, "at": at}
+    return best
 
 def _cfg(key, default):
     row = sb_get("app_config", f"key=eq.{key}&select=value")

@@ -1,19 +1,19 @@
 /* ===================== Local edition schedule =====================
-   Editions are approved once (in India) but families see them on their own clock:
-   at the morning time (06:00) and the evening time (19:00) in their own time zone,
-   the app shows the newest edition that had been published by then. If nothing new
-   had been published by a release time, the next edition appears the moment it is
-   published, if it is the matching kind (a morning edition at the morning release, an evening edition at
-   the evening one) and it lands within 3 hours of the release time. So India's editions, approved around
-   6 am and 7 pm, appear as soon as they are ready, while other countries always get theirs at 6:00 and
-   7:00. Each release shows the next unseen edition, so none is skipped. Releases are walked from the day
-   before the oldest logged edition (at most 14 days). Release times must be between 04:00 and 22:59.
+   Editions are approved once (in India) but families see them on their own clock. Each edition has a due
+   time in the family's time zone: edition D-am at the morning time (06:00) on day D, D-pm at the evening
+   time (19:00) on day D. An edition shows at its due time if it has landed by then. If it lands after its
+   due time, it shows the moment it lands when that is within 3 hours after one of the family's releases
+   (so India sees editions as soon as they are approved), and otherwise at the family's next release. The family sees the
+   newest edition that is showable. Nothing depends on history, so the answer only changes at a release or
+   when an edition lands, never steps back (unless an edition is rolled back) and never changes at midnight.
+   In normal operation every zone sees every edition; an edition merged so late that a newer one is due by
+   the same release is superseded. Release times must be between 04:00 and 22:59.
 
    log: [{id:"2026-11-13-pm", seen:"2026-11-13T14:44:37Z"}, ...] (from the Cloud Run newsroom)
-   Returns {id, slot:"am"|"pm", at:<ms>} or null, where slot and at are the release at which that edition
-   appeared for this family (so the label says Morning or Evening on their own clock).
+   Returns {id, slot:"am"|"pm", at:<ms>} or null: slot and at are the release the edition showed at on this
+   family's clock (so the label says Morning or Evening for them).
    The same rules live in cloudrun/main.py (visible_edition); tests/schedule_cases.json checks both. */
-const FF_LATE_MS=3*3600*1000; /* a late edition skips the queue only within 3 hours of a release time */
+const FF_LATE_MS=3*3600*1000; /* a late edition landing up to 3 hours after a release shows as it lands */
 const FF_FMT={};
 function ffTzOffset(ms,tz){
   const f=FF_FMT[tz]||(FF_FMT[tz]=new Intl.DateTimeFormat("en-US",{timeZone:tz,hourCycle:"h23",year:"numeric",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit",second:"2-digit"}));
@@ -34,39 +34,24 @@ function ffEditionFor(log,nowMs,tz,amTime,pmTime){
   /* release times must be 04:00 to 22:59: other hours can fall in a daylight saving gap or repeat */
   const hm=s=>{ const m=/^(\d{1,2}):(\d{2})$/.exec(s||""); return m&&+m[1]>=4&&+m[1]<=22&&+m[2]<60?[+m[1],+m[2]]:null; };
   const am=hm(amTime)||[6,0], pm=hm(pmTime)||[19,0];
-  const L=log.map(e=>({id:e.id,t:Date.parse(e.seen)})).filter(e=>e.id&&!isNaN(e.t)).sort((a,b)=>a.t-b.t);
-  if(!L.length) return null;
-  /* Walk every release from the day before the oldest logged edition (at most 14 days back), so the answer
-     depends only on the log and the clock, never on where the walk happens to start. */
-  const bounds=[]; const [y,mo,d]=ffLocalDate(nowMs,tz);
-  const [oy,om,od]=ffLocalDate(Math.min(L[0].t,nowMs),tz);
-  const days=Math.min(14,Math.round((Date.UTC(y,mo-1,d)-Date.UTC(oy,om-1,od))/864e5)+1);
-  for(let back=0;back<=days;back++){ const dt=new Date(Date.UTC(y,mo-1,d-back));
-    const Y=dt.getUTCFullYear(), M=dt.getUTCMonth()+1, D=dt.getUTCDate();
-    bounds.push({t:ffZoned(Y,M,D,am[0],am[1],tz),slot:"am"},{t:ffZoned(Y,M,D,pm[0],pm[1],tz),slot:"pm"}); }
-  const past=bounds.filter(b=>b.t<=nowMs).sort((a,b)=>a.t-b.t);
-  if(!past.length) return null;
-  const newest=t=>{ let r=null; for(const e of L){ if(e.t<=t) r=e; } return r; };
-  /* Walk the release times in order. Each release shows the next edition this family has not seen (oldest
-     first, so no edition is skipped where an edition lands just after a release, as in Los Angeles; if three or
-     more are waiting it jumps to the second newest). If nothing new arrived, or what is showing is not of this
-     release's kind, an edition of this release's kind landing in the 3 hours after it shows as soon as it lands.
-     Requiring the matching kind stops a country drifting into showing every edition the moment it lands. */
-  /* rel: the release at which the edition now showing first appeared (gives the Morning/Evening label) */
-  let shown=newest(past[0].t), rel=past[0];
-  for(let i=1;i<past.length;i++){
-    /* editions published by this release that this family has not been shown yet, oldest first */
-    const waiting=L.filter(e=>e.t<=past[i].t&&(!shown||e.t>shown.t));
-    let changed=false;
-    if(waiting.length){ shown=waiting.length>=3?waiting[waiting.length-2]:waiting[0]; rel=past[i]; changed=true; }
-    if(!changed||!shown.id.endsWith("-"+past[i].slot)){
-      const end=Math.min(i===past.length-1?nowMs:past[i+1].t-1, past[i].t+FF_LATE_MS);
-      const sT=shown?shown.t:-Infinity;
-      /* only the next unseen edition may arrive late, so a late arrival never jumps over an edition that is waiting */
-      const nxt=L.find(e=>e.t>sT&&e.t<=end);
-      const late=nxt&&nxt.t>past[i].t&&nxt.id.endsWith("-"+past[i].slot)?nxt:null;
-      if(late){ shown=late; rel=past[i]; }
-    }
+  const rel=(Y,M,D,slot)=>{ const [h,mi]=slot==="am"?am:pm; return ffZoned(Y,M,D,h,mi,tz); };
+  /* the release just before t and the first release at or after t, on this family's clock */
+  const around=t=>{ const [y,m,d]=ffLocalDate(t,tz); let prev=null, next=null;
+    for(let k=-1;k<=1;k++){ const q=new Date(Date.UTC(y,m-1,d+k));
+      for(const slot of ["am","pm"]){ const r=rel(q.getUTCFullYear(),q.getUTCMonth()+1,q.getUTCDate(),slot);
+        if(r<=t) prev={t:r,slot}; else if(!next) next={t:r,slot}; } }
+    return [prev,next]; };
+  let best=null;
+  for(const e of log){
+    const t=e&&Date.parse(e.seen), m=/^(\d{4})-(\d{2})-(\d{2})-(am|pm)$/.exec((e&&e.id)||"");
+    if(!m||isNaN(t)||t>nowMs) continue;
+    const due=rel(+m[1],+m[2],+m[3],m[4]);
+    let show, slot, at;
+    if(t<=due){ show=due; slot=m[4]; at=due; }                       /* landed in time: shows when due */
+    else { const [p,n]=around(t);
+      if(t<=p.t+FF_LATE_MS){ show=t; slot=p.slot; at=p.t; }        /* within 3 hours of a release: shows as it lands */
+      else { show=n.t; slot=n.slot; at=n.t; } }                     /* otherwise it waits for the next release */
+    if(show<=nowMs&&(!best||e.id>best.id)) best={id:e.id,slot,at};
   }
-  return shown?{id:shown.id,slot:rel.slot,at:rel.t}:null;
+  return best;
 }

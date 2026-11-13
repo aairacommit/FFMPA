@@ -80,7 +80,7 @@ def page(path,title,desc,body,ldx=None):
 <style>{PAGE_CSS}</style>{GA}{'<script type="application/ld+json">'+json.dumps(ldx,ensure_ascii=False)+'</script>' if ldx else ''}</head>
 <body><header class="t"><div class="w"><a class="lg" href="/" aria-label="FFMPA home">ffmpa</a><a class="btn" href="/app/">Open the app</a></div></header>
 <main><div class="w"><p class="crumbs"><a href="/">FFMPA</a> / {html.escape(title.split(" | ")[0])}</p>{body}</div></main>
-<footer><div class="w"><a href="/">Home</a><a href="/schools/">For schools</a><a href="/safety/">Content standards</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/cookies/">Cookies</a><a href="/contact/">Contact</a><p>© 2026 Founderfreedom Ventures LLP, Bangalore, India.</p></div></footer>{GA_BANNER}</body></html>'''
+<footer><div class="w"><a href="/">Home</a><a href="/schools/">For schools</a><a href="/safety/">Content standards</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/cookies/">Cookies</a><a href="/contact/">Contact</a><a href="/delete-account/">Delete account</a><p>© 2026 Founderfreedom Ventures LLP, Bangalore, India.</p></div></footer>{GA_BANNER}</body></html>'''
     open(OUT+path+"index.html","w").write(t)
 SCHOOLS='''<h1>Kids news for the classroom</h1>
 <p class="lede">FFMPA Classroom mode turns each week's news into a ready class pack for primary and middle school teachers. It is free during early access and holds no pupil names.</p>
@@ -98,6 +98,18 @@ SCHOOLS='''<h1>Kids news for the classroom</h1>
 <h2>How to start</h2>
 <ol><li>Open the app and sign in with your email.</li><li>Tap Play, then Classroom, then "I am a teacher".</li><li>Name your class, pick a reading level and share the code.</li></ol>
 <p><a class="btn" href="/app/">Open the app</a></p>'''
+DELETE_ACCOUNT='''<h1>Delete your FFMPA account</h1>
+<p class="lede">FFMPA Kids News is made by Founderfreedom Ventures LLP. A parent or guardian can delete the family account and all of its data at any time, in the app or by email.</p>
+<h2>Delete it in the app (straight away)</h2>
+<ol><li>Open FFMPA on your phone or at <a href="/app/">ffmpa.com/app</a> and sign in with your email.</li><li>Tap the menu button, then <b>Grown-ups</b>, and enter your 4-digit PIN.</li><li>In Parent settings, find <b>Your account</b> and tap <b>Delete account</b>.</li><li>Tap <b>Yes, delete everything</b> to confirm.</li></ol>
+<p>You can also tap <b>Download my data</b> first if you want a copy.</p>
+<h2>Or ask us by email</h2>
+<p>Write to <a href="mailto:hello@ffmpa.com?subject=Delete%20my%20FFMPA%20account">hello@ffmpa.com</a> from the email address you sign in with and ask us to delete your account. We reply to confirm and delete it within 30 days.</p>
+<h2>What is deleted</h2>
+<ul><li>Your account and sign-in email</li><li>Your child's first name or nickname, settings, reading progress, quiz scores and streaks</li><li>Young reporter reports your child wrote</li><li>Classes you run as a teacher, and your child's place in any class</li><li>Edition alert subscriptions for your devices</li></ul>
+<h2>What we keep, and for how long</h2>
+<p>Nothing linked to your family is kept after deletion. Our hosting and email providers keep security logs, which can include an email address or IP address, for up to 90 days before they are removed automatically. Class totals a teacher has already seen are counts only and never named a child.</p>
+<p>Questions? See our <a href="/privacy/">privacy policy</a> or <a href="/contact/">contact us</a>.</p>'''
 
 async def main():
     async with async_playwright() as p:
@@ -110,6 +122,7 @@ async def main():
             body=f"<h1>{v['t']}</h1>"+re.sub(r'href="#(safety|privacy|terms|cookies|contact)"',r'href="/\1/"',v['h'])
             page(f"/{k}/", f"{v['t']} | FFMPA", descs[k], body)
         page("/schools/","Kids News for Schools and Classrooms | FFMPA","FFMPA Classroom mode: a weekly news quiz for the big screen, a printable worksheet and a discussion question, at three reading levels. No pupil names.",SCHOOLS)
+        page("/delete-account/","Delete your account | FFMPA","How a parent deletes an FFMPA Kids News account and all of its data, in the app or by email, and what is kept.",DELETE_ACCOUNT)
         for f in os.listdir(SRC+"/assets"):
             shutil.copy(SRC+"/assets/"+f, OUT+("/favicon.ico" if f=="favicon.ico" else "/assets/"+f))
         await b.close()
@@ -145,12 +158,12 @@ self.addEventListener("notificationclick",e=>{ e.notification.close(); const url
   e.waitUntil(clients.matchAll({type:"window",includeUncontrolled:true}).then(ws=>{ for(const w of ws){ if(new URL(w.url).pathname.startsWith("/app")){ w.navigate(url).catch(()=>{}); return w.focus(); } } return clients.openWindow(url); })); });
 ''')
 # Android app (Trusted Web Activity): lets com.ffmpa.app open ffmpa.com full screen.
-# First fingerprint: upload key from PWABuilder. Add the Play app signing key fingerprint from Play Console > App integrity.
-ANDROID_SHA256=["A3:A1:94:F6:15:44:39:29:54:3D:02:1B:56:5A:95:72:BB:DC:48:4F:35:4E:DA:A4:1B:BA:9D:4D:96:4E:19:6D"]
+# First: Play app signing key (Play Console > App integrity). Second: upload key from PWABuilder.
+ANDROID_SHA256=["51:D9:4C:DE:ED:60:E8:1E:01:CE:C9:45:10:21:64:B8:FD:C3:36:F6:BD:22:32:9E:B3:87:27:0F:EE:97:E1:2B","A3:A1:94:F6:15:44:39:29:54:3D:02:1B:56:5A:95:72:BB:DC:48:4F:35:4E:DA:A4:1B:BA:9D:4D:96:4E:19:6D"]
 os.makedirs(OUT+"/.well-known",exist_ok=True)
 json.dump([{"relation":["delegate_permission/common.handle_all_urls"],"target":{"namespace":"android_app","package_name":"com.ffmpa.app","sha256_cert_fingerprints":ANDROID_SHA256}}],open(OUT+"/.well-known/assetlinks.json","w"),indent=1)
-pages=["/","/schools/","/safety/","/privacy/","/terms/","/cookies/","/contact/"]
-open(OUT+"/sitemap.xml","w").write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+"".join(f"<url><loc>{BASE}{p}</loc><lastmod>2026-11-11</lastmod></url>\n" for p in pages)+"</urlset>\n")
+pages=["/","/schools/","/safety/","/privacy/","/terms/","/cookies/","/contact/","/delete-account/"]
+open(OUT+"/sitemap.xml","w").write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+"".join(f"<url><loc>{BASE}{p}</loc><lastmod>2026-11-13</lastmod></url>\n" for p in pages)+"</urlset>\n")
 bots=["GPTBot","OAI-SearchBot","ChatGPT-User","ClaudeBot","Claude-SearchBot","Claude-User","PerplexityBot","Perplexity-User","Google-Extended","Applebot-Extended","CCBot","Bingbot","Googlebot"]
 open(OUT+"/robots.txt","w").write("User-agent: *\nAllow: /\n\n"+"".join(f"User-agent: {b}\nAllow: /\n\n" for b in bots)+f"Sitemap: {BASE}/sitemap.xml\n")
 open(OUT+"/llms.txt","w").write(f'''# FFMPA
@@ -171,7 +184,7 @@ open(OUT+"/llms.txt","w").write(f'''# FFMPA
 - Schools: Classroom mode gives teachers a class code, a weekly quiz for the big screen and a printable worksheet. No pupil names are collected.
 - Young reporters: children can write a short report each week. A grown-up's PIN is needed to send it and an editor reads it before it appears.
 - Price: free during early access. Planned price: 100 rupees a year in India and 10 US dollars a year elsewhere.
-- Platforms: web app in any browser, installable on iPhone and iPad from Safari. Android app planned for Google Play.
+- Platforms: web app in any browser, installable on iPhone and iPad from Safari and on Android from Chrome. An Android app (com.ffmpa.app) is in review on Google Play.
 - Status: early access. A morning and an evening edition are published every day, each checked by an editor.
 
 ## Pages
@@ -182,6 +195,7 @@ open(OUT+"/llms.txt","w").write(f'''# FFMPA
 - [Privacy policy]({BASE}/privacy/)
 - [Terms of use]({BASE}/terms/)
 - [Contact]({BASE}/contact/)
+- [Delete your account]({BASE}/delete-account/)
 ''')
 open(OUT+"/_headers","w").write("/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: strict-origin-when-cross-origin\n/assets/*\n  Cache-Control: public, max-age=604800\n/llms.txt\n  Content-Type: text/plain; charset=utf-8\n/.well-known/assetlinks.json\n  Content-Type: application/json\n  Access-Control-Allow-Origin: *\n")
 open(OUT+"/_redirects","w").write("/app /app/ 301\n/schools /schools/ 301\n/privacy /privacy/ 301\n/terms /terms/ 301\n/safety /safety/ 301\n/teachers /schools/ 301\n")

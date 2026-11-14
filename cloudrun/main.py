@@ -229,8 +229,8 @@ def _valid_entry(x):
 
 def _edition_file_state(eid):
     """True if editions/<eid>.json is on main, False if GitHub says it is gone (404), None if unsure."""
-    try:
-        r = http.get(RAW + eid + ".json", params={"h": int(time.time())}, timeout=15)
+    try:   # plain requests.get: called from several threads at once
+        r = requests.get(RAW + eid + ".json", params={"h": int(time.time())}, timeout=10)
     except requests.RequestException:
         return None
     return True if r.ok else (False if r.status_code == 404 else None)
@@ -240,10 +240,12 @@ def _iso(t):
 
 def update_edition_log(now=None):
     """Record when each edition first appeared on main (app_config edition_log, read by the app).
-    A rollback is recognised only when newer editions' files are really gone from main (a revert deletes
-    them), seen on two runs at least 5 minutes apart, so a stale cached read never hides an edition and an
-    older edition merged late is simply added. Removed entries are remembered: an edition that comes back
-    keeps its original time, and an edition restored by a rollback shows at once."""
+    An edition is removed only when its file has been gone from main (a revert deletes it) for at least
+    5 minutes across runs, whatever latest.json says, so a stale cached read or one false 404 never hides an
+    edition, and a newer merge cannot cancel a rollback. An older edition than the newest logged one is added
+    only after 5 minutes with nothing deleted (a late merge, at its first sighting time), or when a rollback
+    is confirmed (then it shows at once everywhere). Logged times are never rewritten; an edition that comes
+    back keeps its original time."""
     now = now or time.time()
     e = fetch_json(RAW + "latest.json") or {}
     lid = f"{e.get('date')}-{e.get('edition') or 'am'}"
@@ -257,49 +259,58 @@ def update_edition_log(now=None):
     pending0 = pending0 if isinstance(pending0, dict) else {}
     removed0 = _cfg("edition_log_removed", []) or []
     removed0 = [x for x in removed0 if _valid_entry(x)] if isinstance(removed0, list) else []
-    pending, removed = dict(pending0), list(removed0)
-    try:
-        p_at = float(pending.get("at"))
-    except (TypeError, ValueError):
-        p_at = None
+    removed = list(removed0)
+    # pending: {"gone": {id: first time its file was seen deleted}, "older": {id: first time it was current}}
+    gone0 = pending0.get("gone") if isinstance(pending0.get("gone"), dict) else {}
+    older0 = pending0.get("older") if isinstance(pending0.get("older"), dict) else {}
+    def _t(v):
+        try:
+            return float(v)
+        except (TypeError, ValueError):
+            return None
+    gone0 = {k: _t(v) for k, v in gone0.items() if _t(v) is not None}
+    older0 = {k: _t(v) for k, v in older0.items() if _t(v) is not None}
     ids = [x["id"] for x in log]
-    new = log
-    # An older edition than the newest logged one is current: either a rollback (the newer files are deleted
-    # from main) or an older edition merged late. Decide only after two runs at least 5 minutes apart, removing
-    # only files seen gone on both. Outside a pending decision this costs one request (the newest file).
-    newer = sorted((i for i in ids if i > lid), reverse=True)
-    if newer and (lid not in ids or pending.get("rollback_to") == lid or _edition_file_state(newer[0]) is False):
+    newer = sorted(i for i in ids if i > lid)
+    # Which logged files to check this run: every id already suspected, and, when an older edition than the
+    # newest logged one is current, all newer ids (normally just the newest one, one request).
+    check = set(i for i in gone0 if i in ids)
+    if newer and (lid not in ids or check or _edition_file_state(newer[-1]) is False):
+        check |= set(newer)
+    check = sorted(check)
+    if check:
         with ThreadPoolExecutor(max_workers=8) as ex:
-            gone = [i for i, st in zip(newer, ex.map(_edition_file_state, newer)) if st is False]
-        prev = pending.get("gone") if isinstance(pending.get("gone"), list) else []
-        if pending.get("rollback_to") == lid and p_at is not None and now - p_at >= 300:
-            both = [i for i in gone if i in prev]
-            if both:                                           # confirmed rollback
-                new = [x for x in log if x["id"] not in both]
-                removed = (removed + [x for x in log if x["id"] in both])[-20:]
-                back = next((x for x in removed if x.get("id") == lid), None)
-                # the restored edition shows at once: its original time if known, otherwise noon UTC the
-                # day before its date (also when it was added while the rollback was being confirmed)
-                seen = back["seen"] if back else _iso(dt.datetime(int(lid[0:4]), int(lid[5:7]), int(lid[8:10]), 12, tzinfo=dt.timezone.utc).timestamp() - 86400)
-                new = sorted([x for x in new if x["id"] != lid] + [{"id": lid, "seen": seen}], key=lambda x: x["seen"])[-20:]
-                removed = [x for x in removed if x.get("id") != lid]
-                pending = {}
-            elif gone:                                         # gone now but not before: wait 5 more minutes
-                pending = {"rollback_to": lid, "at": now, "gone": gone}
-            else:                                              # nothing deleted: an older edition merged late
-                if lid not in ids:
-                    new = sorted(log + [{"id": lid, "seen": _iso(p_at)}], key=lambda x: x["seen"])[-20:]
-                pending = {}
-        elif pending.get("rollback_to") != lid or p_at is None:
-            pending = {"rollback_to": lid, "at": now, "gone": gone}
-    elif lid not in ids:                                       # a new edition, or one that came back
-        back = next((x for x in removed if x.get("id") == lid), None)
-        seen = back["seen"] if back else _iso(now)
-        new = sorted(log + [{"id": lid, "seen": seen}], key=lambda x: x["seen"])[-20:]
-        removed = [x for x in removed if x.get("id") != lid]
-        pending = {}
+            states = dict(zip(check, ex.map(_edition_file_state, check)))
     else:
-        pending = {}
+        states = {}
+    # an id stays suspected while its file is deleted (or unsure); it is removed after 5 minutes deleted
+    gone = {i: (gone0.get(i) or now) for i, st in states.items() if st is False or (st is None and i in gone0)}
+    confirmed = [i for i, t0 in gone.items() if states.get(i) is False and now - t0 >= 300]
+    new = log
+    if confirmed:
+        new = [x for x in log if x["id"] not in confirmed]
+        removed = (removed + [x for x in log if x["id"] in confirmed])[-20:]
+        for i in confirmed:
+            gone.pop(i)
+    older = {}
+    cur_ids = [x["id"] for x in new]
+    if lid not in cur_ids:
+        back = next((x for x in removed if x.get("id") == lid), None)
+        seen = None
+        if back:                                          # came back: keeps its original time
+            seen = back["seen"]
+        elif confirmed and lid < min(confirmed):          # restored by a rollback: shows at once everywhere
+            seen = _iso(dt.datetime(int(lid[0:4]), int(lid[5:7]), int(lid[8:10]), 12, tzinfo=dt.timezone.utc).timestamp() - 86400)
+        elif not cur_ids or lid > max(cur_ids):           # a new edition
+            seen = _iso(now)
+        elif not gone and lid in older0 and now - older0[lid] >= 300:
+            seen = _iso(older0[lid])                      # an older edition merged late, nothing deleted
+        else:
+            older = {lid: older0.get(lid, now)}           # wait: could still be a rollback
+        if seen:
+            new = sorted(new + [{"id": lid, "seen": seen}], key=lambda x: x["seen"])[-20:]
+            removed = [x for x in removed if x.get("id") != lid]
+    pending = {k: v for k, v in (("gone", gone), ("older", older)) if v}
     if new != raw:   # also writes back a log with bad entries dropped
         sb_upsert("app_config", {"key": "edition_log", "value": new})
     if pending != pending0:

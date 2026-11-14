@@ -59,6 +59,7 @@ GONE = set()   # edition files deleted from main (a revert deletes them)
 def get(url, params=None, timeout=None):
     return R(404 if url.rsplit("/", 1)[1][:-5] in GONE else 200)
 main.http.get = get
+main.requests.get = get   # the file check uses requests.get directly (thread safe)
 main.fetch_json = lambda url: {"date": "2026-11-13", "edition": "pm", "stories": [1] * 8}
 main.time.time = lambda: NOW
 main.load_keys = lambda: (main.ec.generate_private_key(main.ec.SECP256R1()), "pub")
@@ -151,6 +152,20 @@ config["edition_log"] = list(LOG)
 main.time.time = lambda: T1; GONE.add("2026-11-13-pm"); main.notify()
 GONE.clear(); main.time.time = lambda: T1 + 400; main.notify()
 checks.append(("a single false 404 removes nothing", config["edition_log"] == LOG))
+# revert 13-pm, then 14-am is merged before the rollback is confirmed: 13-pm is still removed
+GONE.clear(); config.pop("edition_log_pending", None); config.pop("edition_log_removed", None)
+config["edition_log"] = [{"id": "2026-11-13-am", "seen": "2026-11-13T00:10:00Z"}, {"id": "2026-11-13-pm", "seen": "2026-11-13T13:00:00Z"}]
+main.fetch_json = lambda url: {"date": "2026-11-13", "edition": "am", "stories": [1] * 12}
+GONE.add("2026-11-13-pm"); main.time.time = lambda: T1; main.notify()
+main.fetch_json = lambda url: {"date": "2026-11-14", "edition": "am", "stories": [1] * 12}
+main.time.time = lambda: T1 + 600; main.notify(); main.time.time = lambda: T1 + 1200; main.notify()
+checks.append(("a newer merge does not cancel a rollback", [x["id"] for x in config["edition_log"]] == ["2026-11-13-am", "2026-11-14-am"]))
+# a rollback never rewrites the time of an edition already in the log
+GONE.clear(); config.pop("edition_log_pending", None); config.pop("edition_log_removed", None)
+config["edition_log"] = [{"id": "2026-11-12-pm", "seen": "2026-11-12T13:30:00Z"}, {"id": "2026-11-13-am", "seen": "2026-11-13T10:00:00Z"}, {"id": "2026-11-13-pm", "seen": "2026-11-13T13:00:00Z"}]
+main.fetch_json = lambda url: {"date": "2026-11-13", "edition": "am", "stories": [1] * 12}
+GONE.add("2026-11-13-pm"); main.time.time = lambda: T1; main.notify(); main.time.time = lambda: T1 + 600; main.notify()
+checks.append(("a rollback keeps the logged time of the restored edition", config["edition_log"] == [{"id": "2026-11-12-pm", "seen": "2026-11-12T13:30:00Z"}, {"id": "2026-11-13-am", "seen": "2026-11-13T10:00:00Z"}]))
 # a malformed pending value never crashes a run
 config["edition_log_pending"] = {"rollback_to": "2026-11-13-am", "at": "x"}
 try:

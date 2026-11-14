@@ -1,0 +1,1399 @@
+{
+ "schema": 1,
+ "date": "2026-11-14",
+ "edition": "pm",
+ "countries": [
+  "IN"
+ ],
+ "stories": [
+  {
+   "id": "g-groundstop",
+   "scope": "global",
+   "cat": "tech",
+   "emoji": "✈️",
+   "date": "2026-11-14",
+   "kind": "news",
+   "x": {
+    "t": "Planes across the US wait on the ground for hours",
+    "b": [
+     "On Friday, flights all over the United States were told to wait on the ground. [[air-traffic-control|Air traffic control]] centres help keep planes safe. These centres had a problem with their communication systems.",
+     "The stop ended after more than four hours. Then planes could take off again.",
+     "Thousands of flights were cancelled. Many more were late. A top official said an old system had failed."
+    ]
+   },
+   "o": {
+    "t": "US flights held on the ground after air traffic control problem",
+    "b": [
+     "The US [[faa|Federal Aviation Administration (FAA)]] ordered a nationwide [[ground-stop|ground stop]] on Friday 13 November, US time. That meant flights across the United States were held on the ground. It was the first nationwide ground stop in the country since January 2023.",
+     "The cause was a communications problem at Air Route Traffic Control Centers, which handle flights going across the country. [[air-traffic-control|Air traffic controllers]] give instructions to pilots by radio. The stop was lifted after more than four hours, but thousands of flights were cancelled and many more were delayed.",
+     "US Transportation Secretary Sean Duffy said an old system had failed. Homeland Security Secretary Markwayne Mullin said the problem did not appear to be a [[cyberattack|cyberattack]], which is an attack on computer systems."
+    ]
+   },
+   "think": "When something important stops working, why is it sometimes better to wait than to rush?",
+   "quiz": {
+    "q": "How long did the ground stop last?",
+    "a": [
+     "About 30 minutes",
+     "More than four hours",
+     "Two whole days",
+     "One week"
+    ],
+    "c": 1
+   },
+   "src": [
+    [
+     "ABC News, 14 Nov",
+     "https://abcnews.com/US/nationwide-ground-stop-ordered-airports-faa/story?id=138121848"
+    ],
+    [
+     "Al Jazeera, 14 Nov",
+     "https://www.aljazeera.com/news/2026/11/14/faa-ground-stop-lifted-why-were-us-flights-grounded-and-whats-next"
+    ],
+    [
+     "Yahoo News, 14 Nov",
+     "https://www.yahoo.com/news/us/article/faa-says-nationwide-ground-stop-is-over-after-thousands-of-flights-canceled-021133009.html"
+    ],
+    [
+     "CNN via KSL, 13 Nov",
+     "https://www.ksl.com/article/51645749/faa-issues-nationwide-ground-stop-for-all-flights-due-to-extrodinary-circumstances-and-safety"
+    ],
+    [
+     "Britannica Dictionary",
+     "https://www.britannica.com/dictionary/air-traffic-control"
+    ]
+   ]
+  },
+  {
+   "id": "in-lakshya-final",
+   "scope": "IN",
+   "cat": "sports",
+   "emoji": "🏸",
+   "date": "2026-11-14",
+   "kind": "news",
+   "x": {
+    "t": "Lakshya Sen wins his semifinal and reaches the final",
+    "b": [
+     "[[lakshya|Lakshya Sen]] is a badminton player from India. On Saturday he won his semifinal in Japan. The winner of a semifinal plays in the final.",
+     "He beat Alwi Farhan from Indonesia. Lakshya had lost to him twice before. This time Lakshya won two games to one.",
+     "Now he will play in the final. It is his second final in a row."
+    ]
+   },
+   "o": {
+    "t": "Lakshya Sen beats Alwi Farhan to reach the Kumamoto Masters final",
+    "b": [
+     "India's [[lakshya|Lakshya Sen]] is into the men's singles final of the Kumamoto Masters Japan, a [[super-500|Super 500]] tournament. Super 500 is one level of tournament on badminton's world tour. On Saturday 14 November he beat Alwi Farhan of Indonesia 21-12, 15-21, 21-11 in the semifinal.",
+     "Farhan is ranked world No. 10 and was the sixth [[seed|seed]], which means he was one of the top players, who are kept apart so the best do not meet in the early rounds. Lakshya had lost both of their earlier matches without winning a single game.",
+     "It is his second men's singles final in a row, after he won the Hylo Open. He is trying to reach the top eight of badminton's World Tour rankings, which would earn him a place at the World Tour Finals in Hangzhou, China."
+    ]
+   },
+   "think": "Lakshya lost to Farhan twice, then beat him. What helps you keep trying after you lose at something?",
+   "quiz": {
+    "q": "Who did Lakshya Sen beat in the semifinal?",
+    "a": [
+     "Kunlavut Vitidsarn of Thailand",
+     "Kidambi Srikanth of India",
+     "Koki Watanabe of Japan",
+     "Alwi Farhan of Indonesia"
+    ],
+    "c": 3
+   },
+   "src": [
+    [
+     "ANI, 14 Nov",
+     "https://www.aninews.in/news/sports/others/japan-masters-lakshya-sen-beats-indonesias-alwi-farhan-to-enter-final20261114092520/"
+    ],
+    [
+     "PTI via ThePrint, 14 Nov",
+     "https://theprint.in/sport/lakshya-storms-into-kumamoto-masters-japan-final/3098501/"
+    ],
+    [
+     "Dainik Jagran, 14 Nov",
+     "https://www.thedailyjagran.com/sports/news/lakshya-sen-reaches-second-straight-final-beats-world-no-10-alwi-farhan-at-kumamoto-masters-japan-10336267"
+    ],
+    [
+     "ANI via The Tribune, 14 Nov",
+     "https://www.tribuneindia.com/news/alwi-farhan/japan-masters-lakshya-sen-beats-indonesias-alwi-farhan-to-enter-final"
+    ]
+   ]
+  },
+  {
+   "id": "g-voyager",
+   "scope": "global",
+   "cat": "space",
+   "emoji": "🛰️",
+   "date": "2026-11-14",
+   "kind": "calendar",
+   "when": "Wednesday 18 November",
+   "x": {
+    "t": "Voyager 1 will soon be one light-day from Earth",
+    "b": [
+     "Voyager 1 is a spacecraft. It left Earth in 1977.",
+     "On Wednesday, it will be one [[light-day|light-day]] from Earth. Light takes a whole day to go that far. A signal from Earth will take a whole day too.",
+     "On Tuesday after sunset, NASA invites people to flash a light. Ask a grown-up to help. The flashes spell VGR, a short name for Voyager, in [[morse-code|Morse code]]."
+    ]
+   },
+   "o": {
+    "t": "Voyager 1 reaches one light-day from Earth on Wednesday",
+    "b": [
+     "On Wednesday 18 November, NASA's Voyager 1 spacecraft will be one [[light-day|light-day]] from Earth. A light-day is a distance: how far light travels in 24 hours. That is about 25.9 billion kilometres, so a signal sent from Earth will take a whole day to reach it.",
+     "Voyager 1 was launched in 1977. In 2012 it entered [[interstellar|interstellar space]], beyond the heliopause, the place where the Sun's constant flow of material stops affecting its surroundings.",
+     "To mark the moment, NASA is inviting people everywhere to join an activity called Shine Bright. On Tuesday 17 November after sunset, they can use a phone, tablet or torch to flash VGR, Voyager's call sign or short name, in [[morse-code|Morse code]]. A NASA website can make phones and tablets flash it for them."
+    ]
+   },
+   "think": "If you could send a message that took a whole day to arrive, what would you say?",
+   "quiz": {
+    "q": "On 18 November, how long will a signal from Earth take to reach Voyager 1?",
+    "a": [
+     "One second",
+     "One hour",
+     "A whole day",
+     "One year"
+    ],
+    "c": 2
+   },
+   "src": [
+    [
+     "NASA, 10 Nov (updated 13 Nov)",
+     "https://www.nasa.gov/news-release/nasa-invites-media-public-to-join-voyager-1-one-light-day-activities/"
+    ],
+    [
+     "EarthSky, 10 Nov",
+     "https://earthsky.org/space/voyager-1-1-light-day-from-earth-november-17-18-2026/"
+    ],
+    [
+     "IFLScience, 19 Jun",
+     "https://iflscience.com/its-official-voyager-1-will-cross-the-1-light-day-threshold-on-november-18-2026-82733"
+    ],
+    [
+     "NASA Space Place",
+     "https://spaceplace.nasa.gov/interstellar/en/"
+    ]
+   ]
+  },
+  {
+   "id": "in-u19-final",
+   "scope": "IN",
+   "cat": "sports",
+   "emoji": "🏏",
+   "date": "2026-11-14",
+   "kind": "news",
+   "x": {
+    "t": "India's young cricketers win the Asia Cup",
+    "b": [
+     "India's [[under-19|under-19]] cricket team has won the Asia Cup. They beat Pakistan in Oman on Saturday.",
+     "Pakistan batted first and scored 337 runs. So India needed 338 runs to win. India got those runs in the last [[over|over]] of the match.",
+     "India won by one [[wicket|wicket]]. Nine of their batters were out by then. It was a very close match."
+    ]
+   },
+   "o": {
+    "t": "India's under-19 team wins Asia Cup by one wicket",
+    "b": [
+     "India beat Pakistan by one [[wicket|wicket]] in the final of the [[under-19|Under-19]] Asia Cup, played at Al Amerat in Oman on Saturday 14 November. In cricket, a team loses a wicket each time one of its batters is out, and Under-19 means the players are younger than 19. India won back the title from Pakistan, who had won the last tournament.",
+     "Pakistan batted first and scored 337 runs for the loss of 9 wickets in their 50 [[over|overs]]. An over is six balls bowled by one bowler. That set India a target of 338, the number of runs they needed to win.",
+     "India reached the target in the final over, finishing on 339 for the loss of 9 wickets. Both teams scored more than 330 runs, and the result was decided only at the very end of the match."
+    ]
+   },
+   "think": "Have you ever played a game that was close right to the end? How can both teams be good sports when a game is that close?",
+   "quiz": {
+    "q": "How many runs did India need to win the match?",
+    "a": [
+     "237",
+     "100",
+     "338",
+     "500"
+    ],
+    "c": 2
+   },
+   "src": [
+    [
+     "PTI via The Tribune, 14 Nov",
+     "https://www.tribuneindia.com/news/cricket/u-19-asia-cup-india-beat-pakistan-by-one-wicket-in-last-ball-thriller-to-regain-title"
+    ],
+    [
+     "ANI via The Tribune, 14 Nov",
+     "https://www.tribuneindia.com/news/acc-asia-cup/diwali-fireworks-continue-in-oman-india-u-19-pull-off-1-wicket-cliffhanger-against-pakistan-to-clinch-asia-cup-title"
+    ],
+    [
+     "IANS, 13 Nov",
+     "https://ianslive.in/u-19-asia-cup-india-eye-record-ninth-title-with-revenge-against-arch-rival-pakistan-preview--20261113162055"
+    ],
+    [
+     "Arab News, 21 Dec 2025",
+     "https://www.arabnews.pk/node/2627034/pakistan"
+    ],
+    [
+     "Britannica",
+     "https://www.britannica.com/sports/cricket-sport"
+    ]
+   ]
+  },
+  {
+   "id": "g-summit",
+   "scope": "global",
+   "cat": "world",
+   "emoji": "🤝",
+   "date": "2026-11-14",
+   "kind": "news",
+   "olderOnly": true,
+   "sensitive": "politics",
+   "x": {
+    "t": "Three world leaders plan to meet and talk",
+    "b": [
+     "The leaders of three countries plan to meet next week. The leaders are from the United States, China and Russia.",
+     "The meeting will be in [[shenzhen|Shenzhen]], a city in China. It will take place during a bigger summit there, called [[apec|APEC]].",
+     "The United States wants to talk about having fewer very powerful weapons. A meeting is a chance to talk. It is not yet a deal."
+    ]
+   },
+   "o": {
+    "t": "Leaders of the US, China and Russia plan a three-way meeting",
+    "b": [
+     "The White House says US President Donald Trump, China's President Xi Jinping and Russia's President Vladimir Putin will hold a three-way meeting next week. It would be their first three-way [[summit|summit]], a meeting between the leaders of countries.",
+     "The meeting will take place in [[shenzhen|Shenzhen]], China, on the sidelines of the summit of the [[apec|Asia-Pacific Economic Cooperation]] group, known as APEC. On the sidelines means it is a separate meeting held at the same time and place. Before going to China, Trump will attend another summit, in the Philippines.",
+     "Trump plans to discuss reducing [[nuclear-weapons|nuclear weapons]], extremely powerful weapons that get their energy from the centre of atoms. A meeting is a chance to talk, not yet an agreement, so many people will be watching to see what the leaders decide."
+    ]
+   },
+   "think": "Why might leaders choose to meet in person instead of sending messages to each other?",
+   "quiz": {
+    "q": "Where will the three leaders meet?",
+    "a": [
+     "Moscow, Russia",
+     "New York, United States",
+     "Shenzhen, China",
+     "Manila, Philippines"
+    ],
+    "c": 2
+   },
+   "src": [
+    [
+     "AFP via Yahoo News, 14 Nov",
+     "https://sg.news.yahoo.com/trump-xi-putin-hold-historic-003400795.html"
+    ],
+    [
+     "Al Jazeera, 14 Nov",
+     "https://www.aljazeera.com/news/2026/11/14/trump-xi-and-putin-to-hold-first-three-way-summit-in-china"
+    ],
+    [
+     "CBS News, 14 Nov",
+     "https://www.cbsnews.com/news/trump-putin-xi-jinping-meeting-china-us-russia-talks/"
+    ],
+    [
+     "Inquirer, 14 Nov",
+     "https://www.inquirer.net/495619/live-updates-asean-summit-2026-and-related-meetings-nov-14-2026/"
+    ]
+   ]
+  },
+  {
+   "id": "in-chhath",
+   "scope": "IN",
+   "cat": "culture",
+   "emoji": "🌅",
+   "date": "2026-11-14",
+   "kind": "calendar",
+   "when": "13 to 16 November 2026",
+   "x": {
+    "t": "Chhath: a festival of offerings to the Sun",
+    "b": [
+     "Chhath is a four-day festival. It is mainly celebrated in [[bihar|Bihar]] and other parts of India. Today is the second day, called [[kharna|Kharna]].",
+     "People pray to the Sun God, [[surya|Surya]]. They give thanks and pray for their family's health.",
+     "On Sunday, people gather by rivers and ponds at sunset. They make an offering to the Sun. On Monday, they make another offering at sunrise."
+    ]
+   },
+   "o": {
+    "t": "Chhath, the festival of offerings to the Sun, reaches its second day",
+    "b": [
+     "Chhath is a four-day festival dedicated to worshipping the Sun God, [[surya|Surya]]. It is celebrated mainly in [[bihar|Bihar]] and several other parts of the country. For those who celebrate, it is a time to give thanks and pray for family health and well-being.",
+     "It began on Friday with Nahay Khay: a ritual bath, a clean home and a simple meal. Today is [[kharna|Kharna]], the second day. People fast all day, then eat kheer made with jaggery, and roti, in the evening. A fast of about 36 hours without food or water follows.",
+     "On Sunday, people gather at rivers, ponds and [[ghats|ghats]], steps that lead down to the water, to make an offering called [[arghya|arghya]] to the Sun at sunset. They carry fruit and other offerings in bamboo baskets. On Monday, standing in the water, they make another offering at sunrise. Then the fast ends."
+    ]
+   },
+   "think": "Chhath is a time to give thanks. What is something you feel thankful for, and how do you show it?",
+   "quiz": {
+    "q": "At what times of day do people make offerings to the Sun during Chhath?",
+    "a": [
+     "At midday and midnight",
+     "Only at lunchtime",
+     "Only at midnight",
+     "At sunset and sunrise"
+    ],
+    "c": 3
+   },
+   "src": [
+    [
+     "ANI, 13 Nov",
+     "https://aninews.in/news/national/general-news/chhath-mahaparv-begins-across-country-with-nahay-khay-devotees-throng-sun-temples-to-offer-prayers20261113094821/"
+    ],
+    [
+     "IANS via The Hans India, 13 Nov",
+     "https://www.thehansindia.com/news/national/chhath-festival-begins-with-nahay-khay-devotees-observe-rituals-of-purity-devotion-1141734"
+    ],
+    [
+     "India TV News, 10 Nov",
+     "https://www.indiatvnews.com/lifestyle/spirituality/chhath-puja-2026-calendar-when-are-nahay-khay-kharna-sandhya-arghya-and-usha-arghya-2026-11-10-1059127"
+    ],
+    [
+     "Daily Jagran, 2 Nov",
+     "https://www.thedailyjagran.com/spiritual/chhath-puja-2026-date-when-is-nahaye-khaye-kharna-sandhya-arghya-and-usha-arghya-10334828"
+    ],
+    [
+     "News On AIR, 2024",
+     "https://newsonair.gov.in/festival-of-chhath-puja-begins-today"
+    ]
+   ]
+  },
+  {
+   "id": "g-diabetesday",
+   "scope": "global",
+   "cat": "science",
+   "emoji": "🔵",
+   "date": "2026-11-14",
+   "kind": "calendar",
+   "when": "14 November every year",
+   "x": {
+    "t": "Today is World Diabetes Day",
+    "b": [
+     "Today is World Diabetes Day. [[diabetes|Diabetes]] is when the body has trouble controlling its sugar level.",
+     "The day is on the birthday of [[banting|Frederick Banting]]. He and Charles Best discovered [[insulin|insulin]]. Insulin helps the body use sugar.",
+     "This year the day is about finding diabetes early. Many people who have diabetes do not know it yet."
+    ]
+   },
+   "o": {
+    "t": "World Diabetes Day puts the spotlight on finding diabetes early",
+    "b": [
+     "Today, 14 November, is World Diabetes Day. [[diabetes|Diabetes]] is a lifelong condition in which the body has trouble controlling its sugar level. The International Diabetes Federation (IDF) and the World Health Organization (WHO) created the day in 1991. The date is the birthday of [[banting|Frederick Banting]], who discovered [[insulin|insulin]] with Charles Best. Insulin is a hormone, a chemical messenger made in the body. It controls the amount of sugar and moves it into cells, where it is used for energy.",
+     "There is more than one type of diabetes. One type, called type 2, usually develops slowly and may cause few signs, so it can go unnoticed for years. More than four in ten people with diabetes do not know they have it.",
+     "This year's theme is Early action on diabetes. The focus is on finding diabetes early, also known as early diagnosis."
+    ]
+   },
+   "think": "If a classmate has diabetes, how could you be a kind and helpful friend?",
+   "quiz": {
+    "q": "What is this year's World Diabetes Day about?",
+    "a": [
+     "Building new hospitals",
+     "Finding diabetes early",
+     "Running races",
+     "Planting trees"
+    ],
+    "c": 1
+   },
+   "src": [
+    [
+     "World Health Organization",
+     "https://www.who.int/campaigns/world-diabetes-day/2026"
+    ],
+    [
+     "International Diabetes Federation, 4 Mar",
+     "https://idf.org/news/wdd-2026-27/"
+    ],
+    [
+     "World Diabetes Day (IDF)",
+     "https://worlddiabetesday.org/about-wdd/"
+    ],
+    [
+     "UN News, 14 Nov 2007",
+     "https://news.un.org/en/story/2007/11/239582-global-landmarks-light-blue-mark-first-un-world-diabetes-day"
+    ],
+    [
+     "NHS 111 Wales",
+     "https://111.wales.nhs.uk/encyclopaedia/d/article/diabetes"
+    ]
+   ]
+  }
+ ],
+ "glossary": {
+  "faa": [
+   "FAA",
+   "civics",
+   "The group in charge of keeping flying safe in the United States.",
+   "The Federal Aviation Administration, the US government agency whose job is to keep air travel safe and running smoothly."
+  ],
+  "ground-stop": [
+   "ground stop",
+   "words",
+   "When planes are told to stay on the ground for a while.",
+   "An order that keeps certain flights, or all of them, on the ground for a period of time."
+  ],
+  "air-traffic-control": [
+   "air traffic control",
+   "tech",
+   "People on the ground who guide planes by radio and help keep flying safe.",
+   "The people and systems that guide planes by radio, staying in touch with pilots to keep air traffic moving safely and in order."
+  ],
+  "cyberattack": [
+   "cyberattack",
+   "tech",
+   "When someone breaks into computers on purpose to cause harm.",
+   "An attempt to break into a computer system illegally, in order to cause damage or harm."
+  ],
+  "lakshya": [
+   "Lakshya Sen",
+   "people",
+   "A badminton player from India.",
+   "An Indian badminton player who competes in top tournaments around the world."
+  ],
+  "seed": [
+   "seed",
+   "words",
+   "A top player who is kept away from other top players early on.",
+   "A player ranked highly before a tournament and placed in the draw so the top players do not meet in the early rounds."
+  ],
+  "super-500": [
+   "Super 500",
+   "words",
+   "A kind of big badminton tournament.",
+   "The name for one level of tournament on badminton's world tour."
+  ],
+  "light-day": [
+   "Light-day",
+   "science",
+   "How far light travels in one whole day. It is a very long way.",
+   "A unit of distance: how far light travels in 24 hours, about 25.9 billion kilometres."
+  ],
+  "interstellar": [
+   "Interstellar space",
+   "science",
+   "Space between the stars, past the place where the Sun's flow of material stops reaching.",
+   "Space beyond the heliopause, the place where the Sun's constant flow of material and its magnetic field stop affecting their surroundings."
+  ],
+  "morse-code": [
+   "Morse code",
+   "words",
+   "A code that spells letters with short and long signals.",
+   "A code that spells out letters using short and long signals, such as flashes of light or beeps."
+  ],
+  "wicket": [
+   "wicket",
+   "words",
+   "In cricket, a team loses a wicket each time one of its batters is out.",
+   "In cricket, a team loses a wicket each time one of its batters is out; the bowling side is said to take that wicket."
+  ],
+  "under-19": [
+   "under-19",
+   "words",
+   "An under-19 team is for players younger than 19.",
+   "A team or competition only for players younger than 19."
+  ],
+  "over": [
+   "over",
+   "words",
+   "In cricket, an over is six balls bowled by one bowler.",
+   "In cricket, an over is a set of six balls bowled by one bowler. In this final, each team could bat for up to 50 overs."
+  ],
+  "summit": [
+   "Summit",
+   "words",
+   "A big meeting between the leaders of countries.",
+   "A meeting between the leaders of countries."
+  ],
+  "shenzhen": [
+   "Shenzhen",
+   "places",
+   "A city in China.",
+   "A city in China, where the three-way meeting will be held."
+  ],
+  "apec": [
+   "APEC",
+   "civics",
+   "Short for Asia-Pacific Economic Cooperation. Its big summit is being held in Shenzhen.",
+   "Asia-Pacific Economic Cooperation, a group whose summit is being held in Shenzhen."
+  ],
+  "nuclear-weapons": [
+   "nuclear weapons",
+   "science",
+   "Very powerful weapons.",
+   "Extremely powerful weapons that explode by releasing energy from nuclear reactions in the centres of atoms."
+  ],
+  "surya": [
+   "Surya",
+   "words",
+   "The Sun God. At Chhath, people make offerings to Surya.",
+   "The Sun God. Chhath is dedicated to the worship of Surya and Chhathi Maiya."
+  ],
+  "bihar": [
+   "Bihar",
+   "places",
+   "A state in India where Chhath is mainly celebrated.",
+   "A state of India. Chhath is celebrated mainly in Bihar and several other parts of the country."
+  ],
+  "kharna": [
+   "Kharna",
+   "words",
+   "The second day of Chhath. In the evening, people eat kheer and roti.",
+   "The second day of Chhath. People fast through the day and break the fast in the evening with kheer made with jaggery, and roti."
+  ],
+  "ghats": [
+   "Ghats",
+   "places",
+   "Steps that lead down to a river or pond.",
+   "Steps leading down to a river, pond or lake, where people gather to make Chhath offerings."
+  ],
+  "arghya": [
+   "Arghya",
+   "words",
+   "An offering made to the Sun at Chhath.",
+   "An offering made to the Sun during Chhath: to the setting Sun on the third day and to the rising Sun at dawn on the fourth."
+  ],
+  "diabetes": [
+   "Diabetes",
+   "science",
+   "When the body has trouble controlling its sugar level.",
+   "A lifelong condition in which the body has trouble controlling its sugar level, because of problems with insulin."
+  ],
+  "insulin": [
+   "Insulin",
+   "science",
+   "Something the body makes that helps it use sugar for energy.",
+   "A hormone made in the body that moves sugar into cells, where it is used for energy."
+  ],
+  "banting": [
+   "Frederick Banting",
+   "people",
+   "He and Charles Best discovered insulin.",
+   "The man who discovered insulin with Charles Best. World Diabetes Day, 14 November, is held on his birthday."
+  ],
+  "robot": [
+   "Robot",
+   "tech",
+   "A machine that can do jobs by itself or with a person guiding it.",
+   "A machine that can carry out tasks automatically or under remote control."
+  ],
+  "comet": [
+   "Comet",
+   "science",
+   "A ball of ice and dust that travels around the Sun.",
+   "A body of ice, rock and dust that orbits the Sun. Near the Sun it can grow a long, glowing tail."
+  ],
+  "cop": [
+   "COP",
+   "civics",
+   "A big yearly meeting where countries talk about climate change.",
+   "Conference of the Parties: the yearly summit of countries that signed the UN climate treaty of 1992. COP21 in 2015 produced the Paris Agreement."
+  ],
+  "climate-change": [
+   "Climate change",
+   "science",
+   "Earth slowly getting warmer over many years, mostly because people burn coal, oil and gas.",
+   "Long-term shifts in temperature and weather. Since the 1800s, burning fossil fuels has added carbon dioxide to the air, trapping heat. Earth is already more than 1°C warmer than before the industrial age."
+  ],
+  "paris-agreement": [
+   "Paris Agreement",
+   "civics",
+   "A promise made by countries in 2015 to slow down global warming.",
+   "A 2015 treaty in which countries agreed to keep warming well below 2°C and to try for 1.5°C, with each country setting its own targets."
+  ],
+  "un": [
+   "United Nations",
+   "civics",
+   "A club of almost every country in the world that works for peace and helps people.",
+   "Founded in 1945 after the Second World War, with 193 member countries. The Security Council is one of its main bodies. UNICEF and the World Health Organization are part of the wider UN family."
+  ]
+ },
+ "keys": {
+  "g-groundstop": {
+   "type": "number",
+   "v": "4+ hours",
+   "l": "how long the nationwide ground stop lasted"
+  },
+  "in-lakshya-final": {
+   "type": "number",
+   "v": "No. 10",
+   "l": "Alwi Farhan's world ranking; Lakshya had never won a game against him before"
+  },
+  "g-voyager": {
+   "type": "number",
+   "v": "25.9 billion km",
+   "l": "about how far Voyager 1 will be from Earth on 18 November"
+  },
+  "in-u19-final": {
+   "type": "number",
+   "v": "1 wicket",
+   "l": "India's winning margin in the Under-19 Asia Cup final"
+  },
+  "in-chhath": {
+   "type": "number",
+   "v": "4 days",
+   "l": "length of Chhath, from Nahay Khay to Usha Arghya"
+  },
+  "g-diabetesday": {
+   "type": "number",
+   "v": "1991",
+   "l": "year the IDF and the WHO created World Diabetes Day"
+  }
+ },
+ "xkeys": {
+  "g-groundstop": {
+   "type": "check",
+   "q": "Why did planes wait on the ground?",
+   "a": [
+    "The weather was too sunny",
+    "Control centres had a communication problem"
+   ],
+   "c": 1,
+   "right": "Right! The control centres had a problem with their communication systems.",
+   "wrong": "Not quite. The control centres had a problem with their communication systems."
+  },
+  "in-lakshya-final": {
+   "type": "check",
+   "q": "Had Lakshya beaten Farhan before this match?",
+   "a": [
+    "Yes",
+    "No"
+   ],
+   "c": 1,
+   "right": "Right! He had lost to him twice before, but this time he won.",
+   "wrong": "Not quite. He had lost to him twice before. This time he won."
+  },
+  "g-voyager": {
+   "type": "check",
+   "q": "What will people flash on Tuesday?",
+   "a": [
+    "A flag",
+    "A light"
+   ],
+   "c": 1,
+   "right": "Right! A phone or a torch will do.",
+   "wrong": "Not quite. People will flash a light, like a phone or a torch."
+  },
+  "in-u19-final": {
+   "type": "check",
+   "q": "Which team won the Under-19 Asia Cup?",
+   "a": [
+    "Pakistan",
+    "India"
+   ],
+   "c": 1,
+   "right": "Right! India won by just one wicket.",
+   "wrong": "Not quite. India won, by just one wicket."
+  },
+  "g-summit": {
+   "type": "check",
+   "q": "Is a meeting the same as a deal?",
+   "a": [
+    "Yes, always",
+    "No, not yet"
+   ],
+   "c": 1,
+   "right": "Right! A meeting is a chance to talk. A deal is not made yet.",
+   "wrong": "Not quite. A meeting is a chance to talk. It is not yet a deal."
+  },
+  "in-chhath": {
+   "type": "check",
+   "q": "During Chhath, people make offerings to...",
+   "a": [
+    "The Moon",
+    "The Sun"
+   ],
+   "c": 1,
+   "right": "Right! Offerings are made to the Sun at sunset and at sunrise.",
+   "wrong": "Not quite. Chhath offerings are made to the Sun."
+  },
+  "g-diabetesday": {
+   "type": "check",
+   "q": "Is World Diabetes Day held on someone's birthday?",
+   "a": [
+    "No",
+    "Yes"
+   ],
+   "c": 1,
+   "right": "Yes! It is on the birthday of Frederick Banting, who helped discover insulin.",
+   "wrong": "Not quite. It is on the birthday of Frederick Banting, who helped discover insulin."
+  }
+ },
+ "deep": {
+  "g-groundstop": {
+   "ctx": "Air Route Traffic Control Centers handle flights crossing the United States, and this was the first nationwide ground stop there since January 2023. Officials said parts of an ageing system had become overloaded. Reports differ slightly on how long the stop lasted, from more than four hours to nearly five.",
+   "ask": "Should a country replace its old air traffic systems all at once, which is faster but risky, or upgrade them bit by bit while they keep running, which takes longer?",
+   "jobs": [
+    "Air traffic controller",
+    "Network engineer",
+    "Airline operations manager"
+   ]
+  },
+  "in-lakshya-final": {
+   "ctx": "This was Lakshya's first win over Farhan: he had lost both of their earlier matches without winning a game. It is also his second final in a row, after his Hylo Open title. Reaching the top eight of badminton's World Tour rankings would qualify him for the World Tour Finals in Hangzhou, China.",
+   "ask": "Is it better for a player to study an opponent who has beaten them before, or to focus only on their own game?",
+   "jobs": [
+    "Badminton coach",
+    "Sports psychologist",
+    "Sports journalist"
+   ]
+  },
+  "g-voyager": {
+   "ctx": "Voyager 1 was launched in 1977 and entered interstellar space in 2012. NASA says it is the most distant human-made object. On 18 November it will be about 25.9 billion kilometres away, so far that light needs a full day to cover the distance.",
+   "ask": "Voyager 1 has been flying for nearly 50 years. Should space agencies keep very old missions running for as long as they can, or put that money and effort into new spacecraft?",
+   "jobs": [
+    "Spacecraft engineer",
+    "Radio astronomer",
+    "Mission controller"
+   ]
+  },
+  "in-u19-final": {
+   "ctx": "Pakistan were the defending champions, having won the last Under-19 Asia Cup. This time they batted first and made 337 for 9 in 50 overs, and India finished on 339 for 9 in the final over. Because 50 overs is 300 balls, India needed more than one run for every ball to win.",
+   "ask": "In a run chase, is it better for the team batting second to play safely and protect its wickets, or to score quickly and take more risks?",
+   "jobs": [
+    "Cricket coach",
+    "Sports data analyst",
+    "Cricket umpire"
+   ]
+  },
+  "g-summit": {
+   "ctx": "The White House announced the meeting, which AFP calls the first-ever three-way meeting between these leaders and Al Jazeera calls unprecedented. Before reaching China, Trump will attend the ASEAN summit in the Philippines. Reducing nuclear weapons and Iran are expected to be discussed, but Ukraine is not.",
+   "ask": "Do three-way talks make agreement easier, because everyone is in the same room, or harder, because there are more views to balance?",
+   "jobs": [
+    "Diplomat",
+    "Interpreter",
+    "International relations researcher"
+   ]
+  },
+  "in-chhath": {
+   "ctx": "Chhath is dedicated to Surya and Chhathi Maiya and is celebrated mainly in Bihar and several other parts of the country. Its four days are Nahay Khay, Kharna, Sandhya Arghya and Usha Arghya. In 2026 it runs from Friday 13 to Monday 16 November and ends after the dawn offering to the rising Sun, when the fast is broken, a step called Paran.",
+   "ask": "Chhath takes days of careful preparation, from cleaning homes to fasting and cooking. Do traditions that take a lot of effort mean more because of that effort, or can a simple celebration mean just as much?",
+   "jobs": [
+    "Cultural historian",
+    "Photojournalist",
+    "Traditional sweet maker"
+   ]
+  },
+  "g-diabetesday": {
+   "ctx": "The International Diabetes Federation and the World Health Organization created World Diabetes Day in 1991, and its date honours Frederick Banting, who discovered insulin with Charles Best. Type 2 diabetes can develop slowly, and its signs can be mild and go unnoticed for years. The two bodies give slightly different figures: the WHO says more than 40% of people with diabetes do not know they have it, while the IDF says almost 1 in 2.",
+   "ask": "Should countries offer free diabetes checks to everyone, even people who feel well, or focus their money on people who already show signs?",
+   "jobs": [
+    "Endocrinologist",
+    "Diabetes specialist nurse",
+    "Dietitian"
+   ]
+  }
+ },
+ "today": {
+  "born": [
+   {
+    "name": "Claude Monet",
+    "year": 1840,
+    "what": "A French painter, born in Paris. He was a leader of the art style called Impressionism and is known for his paintings of water lilies."
+   },
+   {
+    "name": "Astrid Lindgren",
+    "year": 1907,
+    "what": "A Swedish writer for children. She created Pippi Longstocking."
+   },
+   {
+    "name": "Jawaharlal Nehru",
+    "year": 1889,
+    "what": "India's first Prime Minister. Children's Day in India is held on his birthday.",
+    "where": [
+     "IN"
+    ]
+   }
+  ],
+  "days": [
+   {
+    "name": "Children's Day",
+    "what": "India celebrates Children's Day, also called Bal Diwas, on the birthday of Jawaharlal Nehru, the country's first Prime Minister.",
+    "where": [
+     "IN"
+    ]
+   },
+   {
+    "name": "World Diabetes Day",
+    "what": "Marked every year on 14 November. It was created in 1991 by the International Diabetes Federation and the World Health Organization. The date is the birthday of Frederick Banting, a Canadian doctor who helped to discover insulin."
+   }
+  ],
+  "week": "The Leonid meteor shower is expected to peak around 17 and 18 November. World Children's Day is on Friday 20 November."
+ },
+ "learn": {
+  "subject": "Science",
+  "cat": "space",
+  "link": "From the Leonids story",
+  "x": {
+   "t": "Why do meteor showers happen?",
+   "b": [
+    "A comet is a ball of ice and dust that travels around the Sun. It leaves a trail of dust behind it.",
+    "Sometimes Earth passes through one of these trails. Bits of dust hit our air very fast and glow. We see them as shooting stars.",
+    "When this happens, it is called a meteor shower. The Leonids are a meteor shower that comes every November."
+   ],
+   "remember": "A meteor shower happens when Earth passes through the dust trail of a comet.",
+   "q": "What leaves the trail of dust that makes a meteor shower?",
+   "a": [
+    "A comet",
+    "The Moon"
+   ],
+   "c": 0
+  },
+  "o": {
+   "t": "Why do meteor showers happen?",
+   "b": [
+    "A comet is a body of ice, rock and dust that orbits the Sun. It leaves a stream of dust and small bits along its path.",
+    "A meteor shower happens when Earth passes through one of these streams. The bits hit the air at great speed and glow. Leonid meteors travel at about 71 kilometres per second.",
+    "The meteors of one shower seem to spread out from one point in the sky. A shower is named after the constellation where that point lies. The Leonids are named after Leo, the Lion.",
+    "The Leonids come from comet Tempel-Tuttle, which orbits the Sun about every 33 years and is next due back in 2031. The word comet comes from a Greek phrase meaning long-haired star, because a comet's tail looked like streaming hair."
+   ],
+   "remember": "A comet leaves a stream of dust. Earth passes through it. The dust glows as meteors. The Leonids come from comet Tempel-Tuttle.",
+   "q": "Why is the shower called the Leonids?",
+   "a": [
+    "It was discovered by a man named Leo",
+    "Its meteors seem to come from the constellation Leo",
+    "It can only be seen from a city called Leon"
+   ],
+   "c": 1
+  }
+ },
+ "backThen": {
+  "y": 1969,
+  "t": "Apollo 12 is struck by lightning on its way to the Moon",
+  "o": "On this day in 1969, Apollo 12 lifted off from Florida with three astronauts: Pete Conrad, Richard Gordon and Alan Bean. In the first minute of the flight, the rocket was struck by lightning twice, and many of the spacecraft's systems went offline. A flight controller on the ground, John Aaron, called for a seldom-used switch to be changed. Alan Bean flipped it, the data came back and the flight went on. Five days later, on 19 November, Conrad and Bean landed in the Moon's Ocean of Storms.",
+  "x": "On this day in 1969, a rocket set off for the Moon with three astronauts. Lightning hit it twice! Flipping one switch helped to fix the problem. Five days later, two of the astronauts landed on the Moon.",
+  "why": "Apollo 12 was the second mission to land people on the Moon. It is remembered for the way a team on the ground and a crew in space fixed a serious problem together, in moments."
+ },
+ "hiddenWords": [
+  {
+   "k": "robot",
+   "o": "Robot comes from a play written in 1920 by the Czech writer Karel Čapek, called R.U.R., which is short for Rossum's Universal Robots. The Czech word robota means forced labour or drudgery."
+  },
+  {
+   "k": "comet",
+   "o": "Comet comes from a Greek phrase meaning long-haired star. It grew from the Greek word kome, the hair of the head. A comet's tail looked like streaming hair."
+  },
+  {
+   "k": "summit",
+   "o": "Summit comes from the Latin word summus, which means highest. It came into English through a French word meaning a little top, and summit came to mean the highest point of something, especially the top of a mountain. Today it also means a big meeting of top leaders."
+  }
+ ],
+ "bigStory": {
+  "week": "2026-11-09",
+  "story": "g-cop31",
+  "cat": "planet",
+  "sketch": "greenhouse",
+  "t": "Can the world agree to slow climate change?",
+  "sub": "COP31, the United Nations climate summit in Türkiye",
+  "x": {
+   "why": "Almost 200 countries are in one place to decide how to stop Earth getting too warm. What they agree will shape the world you grow up in."
+  },
+  "o": {
+   "why": "Almost 200 countries are in one place to decide how to turn climate promises into action. What they agree, or fail to agree, will shape the world you grow up in."
+  },
+  "facts": [
+   [
+    "~200",
+    "countries taking part"
+   ],
+   [
+    "1.5°C",
+    "the limit countries hope to keep to"
+   ],
+   [
+    "2.6°C",
+    "where current promises lead, says a UN report"
+   ],
+   [
+    "20 Nov",
+    "the day the talks are due to end"
+   ]
+  ],
+  "days": [
+   {
+    "d": "2026-11-09",
+    "h": "The summit opens",
+    "o": "COP31 opened in Antalya, a city on Türkiye's coast. In an unusual setup, Türkiye is the host while Australia leads the negotiations.",
+    "x": "The big meeting began in Antalya, a city by the sea in Türkiye. Türkiye is the host, and Australia is leading the talks."
+   },
+   {
+    "d": "2026-11-10",
+    "h": "A warning from the UN",
+    "o": "UN Secretary-General António Guterres urged leaders to get serious. A UN report projects about 2.6°C of warming this century on current promises, well above the Paris Agreement goal.",
+    "x": "The leader of the United Nations asked every country to get serious. A report says Earth is on track to warm more than countries promised."
+   },
+   {
+    "d": "2026-11-11",
+    "h": "World leaders arrive",
+    "o": "Leaders gather today and tomorrow. Organisers call this the implementation COP: less about new promises, more about keeping old ones. The United States did not send officials.",
+    "x": "Presidents and prime ministers arrive today. This meeting is about keeping old promises, and less about making new ones."
+   },
+   {
+    "d": "2026-11-12",
+    "h": "What do leaders promise?",
+    "o": "On the first day of speeches, UN chief António Guterres said the climate crisis is outrunning us. Türkiye asked countries to back a voluntary pledge to raise electricity's share of the world's energy use from about 23 per cent to 35 per cent by 2035. The head of the European Commission backed it. Others want it to say the electricity must be clean.",
+    "x": "Leaders gave speeches. The head of the United Nations said the world must move faster. Türkiye asked countries to run more cars, homes and factories on electricity."
+   },
+   {
+    "d": "2026-11-13",
+    "h": "The week in one page",
+    "o": "Leaders gave their speeches and went home. At least 14 countries have publicly backed the electricity pledge, by one news site's count, and a climate fund announced 94 million dollars to help developing countries electrify. But a fund for Pacific islands and a fund for tropical forests are still short of their targets, and countries still disagree about money for adapting to climate change. In week two, negotiators must agree a final text. The summit is due to end on 20 November.",
+    "x": "Leaders gave their speeches and went home. Some countries promised to run more things on electricity. Others asked for more money to help. Next week, countries must agree on a plan."
+   }
+  ],
+  "words": [
+   "cop",
+   "climate-change",
+   "paris-agreement",
+   "un"
+  ],
+  "poll": {
+   "q": "If you were a leader at COP31, what would you push for first?",
+   "a": [
+    [
+     "Cleaner energy",
+     "Most warming comes from burning coal, oil and gas for energy, so this is where the biggest cuts are."
+    ],
+    [
+     "Protecting forests",
+     "Trees take carbon dioxide out of the air, and forests are home to most land animals."
+    ],
+    [
+     "Helping places hit by floods and heat",
+     "Poorer countries have done the least to cause warming and are often hit hardest."
+    ],
+    [
+     "Cleaner transport",
+     "Cars, lorries, ships and planes burn a lot of fuel. Electric and shared travel cut that."
+    ]
+   ]
+  },
+  "talk": "Is it fair to ask every country to cut pollution by the same amount? Why, or why not?"
+ },
+ "puzzles": {
+  "week": "2026-11-09",
+  "sudoku": {
+   "o": {
+    "n": 6,
+    "br": 2,
+    "bc": 3,
+    "p": [
+     [
+      2,
+      0,
+      5,
+      6,
+      3,
+      0
+     ],
+     [
+      0,
+      1,
+      0,
+      5,
+      4,
+      0
+     ],
+     [
+      0,
+      0,
+      4,
+      1,
+      0,
+      5
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      3,
+      0,
+      6
+     ],
+     [
+      5,
+      6,
+      0,
+      0,
+      0,
+      0
+     ]
+    ],
+    "s": [
+     [
+      2,
+      4,
+      5,
+      6,
+      3,
+      1
+     ],
+     [
+      3,
+      1,
+      6,
+      5,
+      4,
+      2
+     ],
+     [
+      6,
+      3,
+      4,
+      1,
+      2,
+      5
+     ],
+     [
+      1,
+      5,
+      2,
+      4,
+      6,
+      3
+     ],
+     [
+      4,
+      2,
+      1,
+      3,
+      5,
+      6
+     ],
+     [
+      5,
+      6,
+      3,
+      2,
+      1,
+      4
+     ]
+    ]
+   },
+   "n": {
+    "n": 9,
+    "br": 3,
+    "bc": 3,
+    "p": [
+     [
+      0,
+      7,
+      0,
+      9,
+      4,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      6,
+      0,
+      2,
+      0,
+      0,
+      7,
+      0,
+      0,
+      8
+     ],
+     [
+      0,
+      8,
+      9,
+      2,
+      0,
+      0,
+      0,
+      1,
+      0
+     ],
+     [
+      0,
+      6,
+      7,
+      0,
+      1,
+      5,
+      0,
+      0,
+      4
+     ],
+     [
+      0,
+      5,
+      0,
+      3,
+      0,
+      4,
+      2,
+      7,
+      0
+     ],
+     [
+      0,
+      0,
+      3,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      9,
+      0,
+      5,
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     [
+      7,
+      0,
+      5,
+      0,
+      8,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      8,
+      0,
+      4,
+      0,
+      3,
+      9,
+      0,
+      5,
+      0
+     ]
+    ],
+    "s": [
+     [
+      5,
+      7,
+      1,
+      9,
+      4,
+      8,
+      6,
+      2,
+      3
+     ],
+     [
+      6,
+      3,
+      2,
+      1,
+      5,
+      7,
+      4,
+      9,
+      8
+     ],
+     [
+      4,
+      8,
+      9,
+      2,
+      6,
+      3,
+      5,
+      1,
+      7
+     ],
+     [
+      2,
+      6,
+      7,
+      8,
+      1,
+      5,
+      9,
+      3,
+      4
+     ],
+     [
+      1,
+      5,
+      8,
+      3,
+      9,
+      4,
+      2,
+      7,
+      6
+     ],
+     [
+      9,
+      4,
+      3,
+      7,
+      2,
+      6,
+      1,
+      8,
+      5
+     ],
+     [
+      3,
+      9,
+      6,
+      5,
+      7,
+      2,
+      8,
+      4,
+      1
+     ],
+     [
+      7,
+      2,
+      5,
+      4,
+      8,
+      1,
+      3,
+      6,
+      9
+     ],
+     [
+      8,
+      1,
+      4,
+      6,
+      3,
+      9,
+      7,
+      5,
+      2
+     ]
+    ]
+   },
+   "x": {
+    "n": 4,
+    "br": 2,
+    "bc": 2,
+    "p": [
+     [
+      1,
+      0,
+      0,
+      3
+     ],
+     [
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      3,
+      4
+     ],
+     [
+      3,
+      4,
+      0,
+      2
+     ]
+    ],
+    "s": [
+     [
+      1,
+      2,
+      4,
+      3
+     ],
+     [
+      4,
+      3,
+      2,
+      1
+     ],
+     [
+      2,
+      1,
+      3,
+      4
+     ],
+     [
+      3,
+      4,
+      1,
+      2
+     ]
+    ]
+   }
+  },
+  "words": {
+   "o": [
+    [
+     "ARMISTICE",
+     "An agreement to stop fighting (11 November 1918)"
+    ],
+    [
+     "SATELLITE",
+     "China wants these to do computing in space"
+    ],
+    [
+     "ASTRONAUT",
+     "NASA is looking for new ones"
+    ],
+    [
+     "LANTERN",
+     "German children carry one on St Martin's Day"
+    ],
+    [
+     "DISCOUNT",
+     "Money taken off the usual price"
+    ]
+   ],
+   "x": [
+    [
+     "SNOW",
+     "It fell early in Seoul"
+    ],
+    [
+     "MOON",
+     "NASA wants a base near its south pole"
+    ],
+    [
+     "COMET",
+     "Taurid fireballs come from one"
+    ],
+    [
+     "PLANE",
+     "It flew from Australia to France without stopping"
+    ],
+    [
+     "POPPY",
+     "A red flower for Remembrance Day"
+    ]
+   ]
+  }
+ },
+ "reporters": {
+  "week": "2026-11-09",
+  "t": "Report one kind thing you saw this week",
+  "why": "World Kindness Day is on Friday 13 November. The best reports appear on Sunday's front page.",
+  "tips": [
+   "Who did it?",
+   "What did they do?",
+   "Where did it happen?"
+  ],
+  "sample": [
+   {
+    "h": "Shopkeeper keeps a free water pot outside all summer",
+    "b": "People walking past stop to drink. He fills it three times a day.",
+    "by": "Reader, 10, India"
+   },
+   {
+    "h": "Year 4 class writes thank-you cards for the school cleaners",
+    "b": "Every child wrote one line. The cards were left on the cleaning trolley.",
+    "by": "Reader, 9, United Kingdom"
+   },
+   {
+    "h": "Neighbour teaches four children to ride bikes on Sunday mornings",
+    "b": "She brings her own tools and fixes the chains too.",
+    "by": "Reader, 12, Australia"
+   }
+  ]
+ }
+}

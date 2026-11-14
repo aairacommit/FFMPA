@@ -275,14 +275,16 @@ def update_edition_log(now=None):
     # Which logged files to check this run: every id already suspected, and, when an older edition than the
     # newest logged one is current, all newer ids (normally just the newest one, one request).
     check = set(i for i in gone0 if i in ids)
-    if newer and (lid not in ids or check or _edition_file_state(newer[-1]) is False):
-        check |= set(newer)
-    check = sorted(check)
+    states = {}
+    if newer:
+        if not (lid not in ids or check):
+            states[newer[-1]] = _edition_file_state(newer[-1])   # the gate: one request
+        if lid not in ids or check or states.get(newer[-1]) is False:
+            check |= set(newer)
+    check = sorted(i for i in check if i not in states)
     if check:
         with ThreadPoolExecutor(max_workers=8) as ex:
-            states = dict(zip(check, ex.map(_edition_file_state, check)))
-    else:
-        states = {}
+            states.update(zip(check, ex.map(_edition_file_state, check)))
     # an id stays suspected while its file is deleted (or unsure); it is removed after 5 minutes deleted
     gone = {i: (gone0.get(i) or now) for i, st in states.items() if st is False or (st is None and i in gone0)}
     confirmed = [i for i, t0 in gone.items() if states.get(i) is False and now - t0 >= 300]
@@ -297,14 +299,17 @@ def update_edition_log(now=None):
     if lid not in cur_ids:
         back = next((x for x in removed if x.get("id") == lid), None)
         seen = None
-        if back:                                          # came back: keeps its original time
-            seen = back["seen"]
+        if back:
+            # came back: keeps its original time, but only once its file is really on main again (a stale
+            # latest.json naming a reverted edition must not bring it back)
+            if lid not in confirmed and _edition_file_state(lid) is True:
+                seen = back["seen"]
         elif confirmed and lid < min(confirmed):          # restored by a rollback: shows at once everywhere
             seen = _iso(dt.datetime(int(lid[0:4]), int(lid[5:7]), int(lid[8:10]), 12, tzinfo=dt.timezone.utc).timestamp() - 86400)
         elif not cur_ids or lid > max(cur_ids):           # a new edition
             seen = _iso(now)
-        elif not gone and lid in older0 and now - older0[lid] >= 300:
-            seen = _iso(older0[lid])                      # an older edition merged late, nothing deleted
+        elif not gone and lid in older0 and now - older0[lid] >= 300 and all(states.get(i) is True for i in newer):
+            seen = _iso(older0[lid])                      # an older edition merged late: every newer file is there
         else:
             older = {lid: older0.get(lid, now)}           # wait: could still be a rollback
         if seen:

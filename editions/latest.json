@@ -1,712 +1,492 @@
 {
  "schema": 1,
  "date": "2026-11-14",
- "edition": "am",
+ "edition": "pm",
  "countries": [
   "IN"
  ],
  "stories": [
   {
-   "id": "in-childrensday",
-   "scope": "IN",
-   "cat": "history",
-   "emoji": "🎈",
-   "date": "2026-11-14",
-   "kind": "calendar",
-   "when": "Today",
-   "x": {
-    "t": "Happy Children's Day! Why is it today?",
-    "b": [
-     "Today is [[childrens-day|Children's Day]] in India. It is also called Bal Diwas.",
-     "It is the birthday of [[nehru|Jawaharlal Nehru]]. He was India's first [[prime-minister|Prime Minister]]. Children fondly called him Chacha Nehru.",
-     "He said the children of today will make the India of tomorrow. That means you!"
-    ]
-   },
-   "o": {
-    "t": "Why India celebrates Children's Day on 14 November",
-    "b": [
-     "Today, 14 November, is [[childrens-day|Children's Day]] in India, also known as Bal Diwas. The date is the birthday of [[nehru|Jawaharlal Nehru]], who was born on 14 November 1889 in Allahabad, the city now called Prayagraj.",
-     "Nehru became the first [[prime-minister|Prime Minister]] of independent India in 1947 and held the job until he died in 1964. Children fondly called him Chacha Nehru. He said that the children of today will make the India of tomorrow.",
-     "The world has a day for children too. The [[un|United Nations]] marks World Children's Day on 20 November. That is the date on which it adopted, or formally agreed, two agreements on children's rights: the Declaration of the Rights of the Child in 1959 and the Convention on the Rights of the Child in 1989."
-    ]
-   },
-   "think": "Nehru said children will make the India of tomorrow. What is one thing you would like to make better?",
-   "quiz": {
-    "q": "What did children fondly call Jawaharlal Nehru?",
-    "a": [
-     "Bapu",
-     "Chacha Nehru",
-     "Netaji",
-     "Gurudev"
-    ],
-    "c": 1
-   },
-   "src": [
-    [
-     "India TV News, 14 Nov 2025",
-     "https://www.indiatvnews.com/education/news/happy-children-s-day-2025-history-and-significance-why-is-it-celebrated-on-november-14-2025-11-14-1016937"
-    ],
-    [
-     "The Tribune, 14 Nov 2024",
-     "https://www.tribuneindia.com/news/trending/celebrating-childrens-day-honoring-nehrus-legacy-of-love-and-vision-for-indias-future/amp"
-    ],
-    [
-     "Britannica Kids",
-     "https://kids.britannica.com/kids/article/Jawaharlal-Nehru/353524"
-    ],
-    [
-     "United Nations",
-     "https://www.un.org/en/observances/world-childrens-day/background"
-    ]
-   ]
-  },
-  {
-   "id": "in-vandebharat",
-   "scope": "IN",
-   "cat": "civics",
-   "emoji": "🚆",
-   "date": "2026-11-13",
-   "kind": "news",
-   "x": {
-    "t": "A new fast train links Bengaluru and Goa",
-    "b": [
-     "A new train set off on Friday. It is a [[vande-bharat|Vande Bharat]] train.",
-     "It links [[bengaluru|Bengaluru]], Mangaluru and Madgaon in [[goa|Goa]]. On the way, it stops at towns in coastal Karnataka. Coastal means near the sea.",
-     "A hilly part of the track now has electric power. So electric engines can pull trains there, in place of diesel ones."
-    ]
-   },
-   "o": {
-    "t": "New Vande Bharat train links Bengaluru, Mangaluru and Goa",
-    "b": [
-     "A new [[vande-bharat|Vande Bharat]] Express has been launched to link [[bengaluru|Bengaluru]] with Mangaluru and with Madgaon in [[goa|Goa]]. Prime Minister Narendra Modi flagged it off from Bengaluru on Friday 13 November. Flagging off means giving the official signal for something to start, such as a train's first run.",
-     "The train's stops include Hassan, Sakleshpur, Mangaluru, Udupi, Murdeshwar, Gokarna and Karwar. The train also serves coastal Karnataka, the part of the state near the sea.",
-     "On the same day, the electrification of a 55 km hill stretch of the line, between Sakleshpur and Subrahmanya Road, was formally opened. A hill stretch like this is called a [[ghat|ghat section]]. [[electrification|Electrification]] means fitting a railway with electric power, so that electric engines can replace diesel ones. With this stretch done, the whole railway from Bengaluru to Mangaluru is electrified. Four redeveloped stations were also opened: Chamarajanagar, Chikkamagaluru, Sakleshpur and Subrahmanya Road."
-    ]
-   },
-   "think": "Would you rather travel by train beside the sea or through the hills? Why?",
-   "quiz": {
-    "q": "The new train links Bengaluru and Mangaluru with Madgaon. In which state is Madgaon?",
-    "a": [
-     "Kerala",
-     "Maharashtra",
-     "Goa",
-     "Tamil Nadu"
-    ],
-    "c": 2
-   },
-   "src": [
-    [
-     "ANI via Awaz The Voice, 13 Nov",
-     "https://awazthevoice.in/india-news/pm-modi-inaugurates-vande-bharat-services-linking-bengaluru-mangaluru-margao-70766.html"
-    ],
-    [
-     "IANS via Vividh Bharathi, 13 Nov",
-     "https://vividhbharathi.com/pm-modi-launches-development-projects-worth-rs-15600-crore-in-ktaka-flags-off-bluru-mangaluru-madgaon-vande-bharat/"
-    ],
-    [
-     "The Hans India, 14 Nov",
-     "https://www.thehansindia.com/news/cities/bengaluru/modi-flags-off-bengaluru-mangaluru-madgaon-vande-bharat-virtually-1141876"
-    ]
-   ]
-  },
-  {
-   "id": "in-planetarium",
-   "scope": "IN",
-   "cat": "space",
-   "emoji": "🔭",
-   "date": "2026-11-13",
-   "kind": "news",
-   "x": {
-    "t": "India gets its first LED dome planetarium",
-    "b": [
-     "A [[planetarium|planetarium]] is a theatre with a dome for a ceiling. You sit inside and look up at pictures of the night sky.",
-     "The Prime Minister opened a new one in [[mysuru|Mysuru]] on Friday. It has a 15-metre dome.",
-     "The dome is lined with tiny lights called [[led|LEDs]]. There are 4.2 [[crore|crore]] of them! Together they make pictures of space."
-    ]
-   },
-   "o": {
-    "t": "India's first LED dome planetarium is inaugurated in Mysuru",
-    "b": [
-     "India's first LED dome [[planetarium|planetarium]] was inaugurated, or formally opened, in [[mysuru|Mysuru]], Karnataka, on Friday 13 November by Prime Minister Narendra Modi. It is called the COSMOS-Mysuru Planetarium and was built by the [[iia|Indian Institute of Astrophysics]]. It stands on the University of Mysore campus.",
-     "A planetarium is a dome-shaped theatre that shows the night sky. Conventional, or ordinary, planetariums use a projector to throw pictures onto a plain dome. This one works differently. Its tilted 15-metre dome is lined with about 6,150 panels of [[led|LEDs]], which are tiny electric lights. There are 4.2 [[crore|crore]] LEDs in all, and the panels can be controlled in real time.",
-     "Its Sky Theatre will show programmes about astronomy, the study of stars, planets and space, including a film that links the history of Mysuru with astronomy. Shows will be in Kannada, English and Hindi."
-    ]
-   },
-   "think": "If you could make a show for the dome, which part of space would you show first?",
-   "quiz": {
-    "q": "How big is the planetarium's dome?",
-    "a": [
-     "5 metres",
-     "50 metres",
-     "15 metres",
-     "150 metres"
-    ],
-    "c": 2
-   },
-   "src": [
-    [
-     "ANI, 13 Nov",
-     "https://aninews.in/news/national/general-news/pm-modi-inaugurates-indias-first-led-dome-planetarium-in-mysuru-nirmala-sitharaman-hails-scientific-milestone20261113171330/"
-    ],
-    [
-     "IANS via Ommcom News, 13 Nov",
-     "https://ommcomnews.com/india-news/pm-modi-inaugurates-indias-first-led-dome-planetarium-in-karnatakas-mysuru/"
-    ],
-    [
-     "News Karnataka, 13 Nov",
-     "https://newskarnataka.com/mysuru/pm-modi-dedicates-indias-first-led-dome-planetarium-in-mysuru/13112026/"
-    ]
-   ]
-  },
-  {
-   "id": "in-museum",
-   "scope": "IN",
-   "cat": "culture",
-   "emoji": "🏛️",
-   "date": "2026-11-11",
-   "kind": "news",
-   "x": {
-    "t": "Two grand old buildings will become a giant museum",
-    "b": [
-     "Two grand old buildings stand in New [[delhi|Delhi]]. They are called North Block and South Block.",
-     "They were used as government offices. Now they will become a huge [[museum|museum]].",
-     "The museum will tell the story of India. Its first gallery should open in the second half of 2027."
-    ]
-   },
-   "o": {
-    "t": "Delhi's North Block and South Block to become a giant museum",
-    "b": [
-     "India's government has approved a plan to turn two buildings in New [[delhi|Delhi]] into a huge [[museum|museum]]. A group of senior ministers led by Prime Minister Narendra Modi, called the [[cabinet|Cabinet]] Committee on Economic Affairs, approved it on Wednesday 11 November. It will be called the Yuge Yugeen Bharat Museum, and it is expected to cost 3,230 [[crore|crore]] rupees.",
-     "The buildings are North Block and South Block. They will be reused as a museum, and their historic architecture will be kept. The museum will tell the story of India's civilisation.",
-     "The work will be done in stages up to 2030-31. The first gallery, called Adornment, is expected to open in North Block in the second half of 2027. The museum is designed to handle up to one crore visitors a year. The government says it will have the largest display area of any museum in the world."
-    ]
-   },
-   "think": "If you could choose one object to tell the story of your family, what would it be?",
-   "quiz": {
-    "q": "When is the museum's first gallery expected to open?",
-    "a": [
-     "In the second half of 2026",
-     "In the second half of 2027",
-     "In 2030",
-     "In 2035"
-    ],
-    "c": 1
-   },
-   "src": [
-    [
-     "PTI via Business Standard, 11 Nov",
-     "https://www.business-standard.com/india-news/cabinet-nod-to-development-of-yuge-yugeen-museum-at-cost-of-3-230-cr-126111100977_1.html"
-    ],
-    [
-     "DD News, 11 Nov",
-     "https://ddnews.gov.in/en/cabinet-approves-rs-3230-crore-yuge-yugeen-bharat-museum-at-north-south-block-complex-in-new-delhi/"
-    ]
-   ]
-  },
-  {
-   "id": "in-trap-silver",
-   "scope": "IN",
-   "cat": "sports",
-   "emoji": "🎯",
-   "date": "2026-11-12",
-   "kind": "news",
-   "x": {
-    "t": "Vivaan Kapoor wins a silver medal in shooting",
-    "b": [
-     "[[vivaan|Vivaan Kapoor]] is a shooter from [[jaipur|Jaipur]]. He won a silver medal on Thursday.",
-     "His sport is called [[trap|trap]]. Targets fly through the air, and shooters try to hit them.",
-     "In the final, Vivaan hit 29 targets out of 30. So did a shooter from Kuwait! They had a tie-breaker, and Vivaan came second. His medal also wins India a place at the 2028 Olympic Games."
-    ]
-   },
-   "o": {
-    "t": "Vivaan Kapoor wins trap silver and an Olympic place for India",
-    "b": [
-     "India's [[vivaan|Vivaan Kapoor]], who is 24 and from [[jaipur|Jaipur]], won the silver medal in men's [[trap|trap]] at the shooting World Championship in [[doha|Doha]], Qatar, on Thursday 12 November. In trap, shooters fire at targets that fly through the air.",
-     "The final was very close. Vivaan and Abdulrahman Alfaihan of Kuwait each hit 29 of their 30 targets. That led to a shoot-off, which is a tie-breaker to decide the winner. Alfaihan won it 3-2 and took gold. Earlier, Vivaan had scored 120 out of 125 in qualifying and needed a shoot-off to reach the final, in sixth place.",
-     "The silver also earns India a [[quota|quota place]], which is a spot for the country at the 2028 Olympic Games in Los Angeles. It is India's third in shooting so far. The second came a day earlier, when an Indian rifle shooter won a bronze medal."
-    ]
-   },
-   "think": "Vivaan came very close to gold. Would you feel proud or disappointed? Can you feel both at once?",
-   "quiz": {
-    "q": "How many of his 30 targets did Vivaan hit in the final?",
-    "a": [
-     "30",
-     "19",
-     "9",
-     "29"
-    ],
-    "c": 3
-   },
-   "src": [
-    [
-     "PTI via The Bridge, 12 Nov",
-     "https://thebridge.in/shooting/issf-world-cships-vivaan-kapoor-trap-silver-olympics-quota-58345"
-    ],
-    [
-     "ANI via The Tribune, 12 Nov",
-     "https://www.tribuneindia.com/news/2028-olympic-games/vivaan-kapoor-secures-indias-third-la28-olympic-quota-after-silver-win-in-doha-mens-trap-final"
-    ],
-    [
-     "The Logical Indian, 13 Nov",
-     "https://thelogicalindian.com/vivaan-kapoor-issf-silver-133730/"
-    ],
-    [
-     "PTI via ThePrint, 11 Nov",
-     "https://theprint.in/sport/rifle-shooter-niraj-kumar-secures-la-olympics-quota-with-bronze-in-mens-50m-3-position/3096076/"
-    ]
-   ]
-  },
-  {
-   "id": "g-starship-launch",
+   "id": "g-groundstop",
    "scope": "global",
    "cat": "tech",
-   "emoji": "🚀",
-   "date": "2026-11-13",
+   "emoji": "✈️",
+   "date": "2026-11-14",
    "kind": "news",
    "x": {
-    "t": "Giant rocket flies, but the booster catch is called off",
+    "t": "Planes across the US wait on the ground for hours",
     "b": [
-     "The giant rocket [[starship|Starship]] blasted off on Friday from Texas.",
-     "A tower was meant to catch its bottom part, the [[booster|booster]]. But the catch was called off. The booster came down in the sea.",
-     "The top part, called Ship, kept flying. The plan is for the tower to try to catch it when it comes back."
+     "On Friday, flights all over the United States were told to wait on the ground. [[air-traffic-control|Air traffic control]] centres help keep planes safe. These centres had a problem with their communication systems.",
+     "So planes waited on the ground. The stop ended after more than four hours.",
+     "Thousands of flights were cancelled. Many more were late. A top official said an old system had failed."
     ]
    },
    "o": {
-    "t": "Starship launches, but the booster catch is called off",
+    "t": "US flights held on the ground after air traffic control problem",
     "b": [
-     "[[spacex|SpaceX]] launched its giant [[starship|Starship]] rocket on its 15th test flight on Friday 13 November from Starbase in Texas. In India it was about 4.15 am on Saturday. The plan was to catch both parts of the rocket with the launch tower's mechanical arms.",
-     "The booster catch did not happen. The lower part, the [[booster|booster]], was meant to fly back to the tower. Instead, the catch was called off and the booster came down in the Gulf of Mexico. SpaceX has caught three boosters before.",
-     "The upper part, called Ship, carried on to space with 26 Starlink internet [[satellite|satellites]] on board. SpaceX said it reached [[orbit|orbit]]. The plan is for Ship to fly for about 22 hours and then return to Starbase, where the tower will try to catch it. That would be the first attempt to catch a Ship."
+     "The US [[faa|Federal Aviation Administration (FAA)]] ordered a nationwide [[ground-stop|ground stop]] on Friday 13 November, US time. That meant flights across the United States were held on the ground. It was the first nationwide ground stop in the country since January 2023.",
+     "The cause was a communications problem at Air Route Traffic Control Centers, which handle flights going across the country. [[air-traffic-control|Air traffic controllers]] give instructions to pilots by radio. The stop was lifted after more than four hours, but thousands of flights were cancelled and many more were delayed.",
+     "US Transportation Secretary Sean Duffy said an old system had failed. Homeland Security Secretary Markwayne Mullin said the problem did not appear to be a [[cyberattack|cyberattack]], which is an attack on computer systems."
     ]
    },
-   "think": "The booster catch did not happen this time. Why do you think engineers test things again and again?",
+   "think": "When something important stops working, why is it sometimes better to wait than to rush?",
    "quiz": {
-    "q": "What is the top part of the Starship rocket called?",
+    "q": "How long did the ground stop last?",
     "a": [
-     "Booster",
-     "Tower",
-     "Starbase",
-     "Ship"
+     "About 30 minutes",
+     "More than four hours",
+     "Two whole days",
+     "One week"
+    ],
+    "c": 1
+   },
+   "src": [
+    [
+     "ABC News, 14 Nov",
+     "https://abcnews.com/US/nationwide-ground-stop-ordered-airports-faa/story?id=138121848"
+    ],
+    [
+     "Al Jazeera, 14 Nov",
+     "https://www.aljazeera.com/news/2026/11/14/faa-ground-stop-lifted-why-were-us-flights-grounded-and-whats-next"
+    ],
+    [
+     "Yahoo News, 14 Nov",
+     "https://www.yahoo.com/news/us/article/faa-says-nationwide-ground-stop-is-over-after-thousands-of-flights-canceled-021133009.html"
+    ],
+    [
+     "CNN via KSL, 13 Nov",
+     "https://www.ksl.com/article/51645749/faa-issues-nationwide-ground-stop-for-all-flights-due-to-extrodinary-circumstances-and-safety"
+    ],
+    [
+     "Britannica Dictionary",
+     "https://www.britannica.com/dictionary/air-traffic-control"
+    ]
+   ]
+  },
+  {
+   "id": "in-lakshya-final",
+   "scope": "IN",
+   "cat": "sports",
+   "emoji": "🏸",
+   "date": "2026-11-14",
+   "kind": "news",
+   "x": {
+    "t": "Lakshya Sen wins his semifinal and reaches the final",
+    "b": [
+     "[[lakshya|Lakshya Sen]] is a badminton player from India. On Saturday he won his semifinal in Japan. The winner of a semifinal plays in the final.",
+     "He beat Alwi Farhan from Indonesia. Lakshya had lost to him twice before. This time Lakshya won two games to one.",
+     "Now he will play in the final. It is his second final in a row."
+    ]
+   },
+   "o": {
+    "t": "Lakshya Sen beats Alwi Farhan to reach the Kumamoto Masters final",
+    "b": [
+     "India's [[lakshya|Lakshya Sen]] is into the men's singles final of the Kumamoto Masters Japan, a [[super-500|Super 500]] tournament. Super 500 is one level of tournament on badminton's world tour. On Saturday 14 November he beat Alwi Farhan of Indonesia 21-12, 15-21, 21-11 in the semifinal.",
+     "Farhan is ranked world No. 10 and was the sixth [[seed|seed]], which means he was one of the top players, who are kept apart so the best do not meet in the early rounds. Lakshya had lost both of their earlier matches without winning a single game.",
+     "It is his second men's singles final in a row, after he won the Hylo Open. He is trying to reach the top eight of badminton's World Tour rankings, which would earn him a place at the World Tour Finals in Hangzhou, China. Next, he plays in the final."
+    ]
+   },
+   "think": "Lakshya lost to Farhan twice, then beat him. What helps you keep trying after you lose at something?",
+   "quiz": {
+    "q": "Who did Lakshya Sen beat in the semifinal?",
+    "a": [
+     "Kunlavut Vitidsarn of Thailand",
+     "Kidambi Srikanth of India",
+     "Koki Watanabe of Japan",
+     "Alwi Farhan of Indonesia"
     ],
     "c": 3
    },
    "src": [
     [
-     "CBS News, 13 Nov",
-     "https://www.cbsnews.com/news/spacex-launches-starship-flight-rocket/"
+     "ANI, 14 Nov",
+     "https://www.aninews.in/news/sports/others/japan-masters-lakshya-sen-beats-indonesias-alwi-farhan-to-enter-final20261114092520/"
     ],
     [
-     "AP via WDIO, 13 Nov",
-     "https://www.wdio.com/ap-top-news/spacexs-attempt-for-a-starship-double-catch-is-thwarted-when-the-booster-ends-up-in-gulf-of-mexico/"
+     "PTI via ThePrint, 14 Nov",
+     "https://theprint.in/sport/lakshya-storms-into-kumamoto-masters-japan-final/3098501/"
     ],
     [
-     "Space.com, 13 Nov",
-     "https://www.space.com/space-exploration/launches-spacecraft/spacex-starship-flight-15-chopsticks-double-catch-super-heavy-ship"
+     "Dainik Jagran, 14 Nov",
+     "https://www.thedailyjagran.com/sports/news/lakshya-sen-reaches-second-straight-final-beats-world-no-10-alwi-farhan-at-kumamoto-masters-japan-10336267"
+    ],
+    [
+     "ANI via The Tribune, 14 Nov",
+     "https://www.tribuneindia.com/news/alwi-farhan/japan-masters-lakshya-sen-beats-indonesias-alwi-farhan-to-enter-final"
     ]
    ]
   },
   {
-   "id": "g-dakar",
-   "scope": "global",
-   "cat": "sports",
-   "emoji": "🏅",
-   "date": "2026-11-13",
-   "kind": "news",
-   "x": {
-    "t": "The first Olympic event in Africa comes to an end",
-    "b": [
-     "A big sports event ended on Friday. It was the [[yog|Youth Olympic Games]] in [[dakar|Dakar]].",
-     "Dakar is in [[senegal|Senegal]], a country in Africa. No Olympic event had been held in Africa before!",
-     "About 2,700 young athletes took part. India's team won 10 medals."
-    ]
-   },
-   "o": {
-    "t": "The first Olympic event held in Africa ends in Senegal",
-    "b": [
-     "The [[yog|Youth Olympic Games]] in [[dakar|Dakar]], [[senegal|Senegal]], ended on Friday 13 November. They were the first Olympic event to be held in Africa. The Games began on 31 October.",
-     "About 2,700 athletes took part, in 25 sports and 153 medal events. The events were spread across Dakar, Diamniadio and the beach town of Saly. Sports on the programme included [[wushu|wushu]] and baseball5, a simpler form of baseball. At the closing ceremony in the Games village in Diamniadio, the flame of the Games was put out.",
-     "Kirsty Coventry, the president of the [[ioc|International Olympic Committee]] and a former swimmer from Zimbabwe, said the Games had gone better than expected. India's young athletes won 10 medals: two gold, three silver and five bronze. It was India's second-best Youth Olympics, after the 13 medals of 2018."
-    ]
-   },
-   "local": {
-    "IN": "India won 10 medals in Dakar, including its first boxing golds at a Youth Olympics."
-   },
-   "think": "If your town hosted a sports event for the whole world, what would you want visitors to see?",
-   "quiz": {
-    "q": "The Dakar Games were the first Olympic event held on which continent?",
-    "a": [
-     "Asia",
-     "Africa",
-     "Europe",
-     "South America"
-    ],
-    "c": 1
-   },
-   "src": [
-    [
-     "AP via Yahoo Sports, 13 Nov",
-     "https://sports.yahoo.com/articles/youth-olympic-games-end-senegal-195758270.html"
-    ],
-    [
-     "allAfrica, 13 Nov",
-     "https://allafrica.com/stories/202611130334.html"
-    ],
-    [
-     "ANI, 13 Nov",
-     "https://www.aninews.in/news/sports/others/indian-contingent-concludes-dakar-youth-olympics-campaign-with-10-medals20261113104917/"
-    ],
-    [
-     "IANS via The Hans India, 13 Nov",
-     "https://www.thehansindia.com/sports/youth-olympics-india-conclude-campaign-with-win-10-medals-record-historic-boxing-double-1141737"
-    ]
-   ]
-  },
-  {
-   "id": "g-figurines",
-   "scope": "global",
-   "cat": "history",
-   "emoji": "🏺",
-   "date": "2026-11-11",
-   "kind": "news",
-   "x": {
-    "t": "Children helped make clay animals up to 15,000 years ago",
-    "b": [
-     "Long, long ago, people shaped little animals and people out of clay.",
-     "[[archaeology|Archaeologists]] have studied these tiny models. Some are birds. The oldest are about 15,000 years old!",
-     "The clay still has fingerprints on it. The prints show that children helped to make the models, as well as grown-ups."
-    ]
-   },
-   "o": {
-    "t": "Fingerprints show children helped make ancient clay figures",
-    "b": [
-     "Small clay figures of birds, animals and people have been found at three ancient sites in what is now Israel. They were made between about 15,000 and 11,500 years ago. A study published on 11 November in the journal PLOS One says they are the earliest known tradition of clay [[figurine|figurines]] in the Middle East.",
-     "The makers were the [[natufians|Natufians]]. They were [[hunter-gatherer|hunter-gatherers]], people who get their food by hunting and collecting wild plants. The Natufians were among the first people to settle in villages, before farming began. Natufian figures found before this were mostly made of bone or stone.",
-     "The clay kept a record of who shaped it. Fingerprints left in the clay show that children took part as well as adults. Some figures still have traces of red colour. One of the researchers is Laurent Davin, an [[archaeology|archaeologist]] at the Hebrew University of Jerusalem."
-    ]
-   },
-   "think": "If someone found something you made, thousands of years from now, what would you want it to be?",
-   "quiz": {
-    "q": "What shows that children helped make the figures?",
-    "a": [
-     "Fingerprints in the clay",
-     "Names written on them",
-     "Toys found nearby",
-     "Old paintings"
-    ],
-    "c": 0
-   },
-   "src": [
-    [
-     "PLOS via EurekAlert, 11 Nov",
-     "https://www.eurekalert.org/news-releases/1150485"
-    ],
-    [
-     "Popular Science, 11 Nov",
-     "https://www.popsci.com/science/oldest-clay-figures-middle-east/"
-    ],
-    [
-     "HeritageDaily, 11 Nov",
-     "https://www.heritagedaily.com/2026/11/15000-year-old-clay-figurines-rewrite-origins-of-symbolic-art-in-southwest-asia/159991"
-    ]
-   ]
-  },
-  {
-   "id": "g-whaleshark",
-   "scope": "global",
-   "cat": "nature",
-   "emoji": "🦈",
-   "date": "2026-11-11",
-   "kind": "news",
-   "x": {
-    "t": "A small detour for ships could keep whale sharks safe",
-    "b": [
-     "[[whale-shark|Whale sharks]] are very big fish. Sometimes big ships hit them by accident.",
-     "Scientists had an idea. What if ships went around the places where whale sharks gather?",
-     "They tested it on a computer. On long trips, the ships needed only a tiny bit more fuel."
-    ]
-   },
-   "o": {
-    "t": "Ships could steer around whale sharks at little extra cost",
-    "b": [
-     "Big ships sometimes hit sea animals by accident. This is called a [[ship-strike|ship strike]], and it has been recorded for at least 75 kinds of sea animal. [[whale-shark|Whale sharks]] are at risk because they spend almost half their time near the surface. They also gather at certain places, some of them close to shipping routes.",
-     "Scientists led by Dr Ryan Reisinger of the University of Southampton tested an idea. Many cargo ships already use computer software to plan their routes. The team added maps of whale shark gathering places to that software and tested eight sea crossings on a computer. A test like this is called a [[simulation|simulation]].",
-     "On voyages longer than six days, going around the whale sharks used at most 1 per cent more fuel. On shorter crossings, slowing down inside those areas used less fuel than going around. The study was published on 11 November."
-    ]
-   },
-   "think": "Would you take a slightly longer way to school to keep an animal safe? What if it took much longer?",
-   "quiz": {
-    "q": "How did the scientists test their idea?",
-    "a": [
-     "On a computer",
-     "By sailing real ships",
-     "In a giant water tank",
-     "By following whale sharks in boats"
-    ],
-    "c": 0
-   },
-   "src": [
-    [
-     "University of Southampton via EurekAlert, 10 Nov",
-     "https://www.eurekalert.org/news-releases/1151143"
-    ],
-    [
-     "The Maritime Executive, 13 Nov",
-     "https://maritime-executive.com/article/study-shipping-can-avoid-endangered-species-habitat-at-minimal-cost"
-    ]
-   ]
-  },
-  {
-   "id": "g-nodules",
-   "scope": "global",
-   "cat": "science",
-   "emoji": "🌊",
-   "date": "2026-11-11",
-   "kind": "news",
-   "x": {
-    "t": "Tiny animals found living inside deep-sea lumps",
-    "b": [
-     "Deep at the bottom of the Pacific Ocean lie dark lumps. Each one is about as big as a fist.",
-     "Scientists opened 244 of them. Inside were more than 4,000 tiny animals!",
-     "The animals are smaller than one millimetre. They live in little cracks inside the lumps."
-    ]
-   },
-   "o": {
-    "t": "Thousands of tiny animals found living inside deep-sea nodules",
-    "b": [
-     "Far down on the muddy floor of the Pacific Ocean, 4,000 to 6,000 metres deep, lie dark lumps about the size of a fist. They are called [[nodule|nodules]], and they are made of iron and [[manganese|manganese]] oxides, which are metals joined with oxygen. They often grow only a few millimetres in a million years.",
-     "Scientists collected 244 nodules from an area called the Clarion-Clipperton Zone and opened them in a laboratory. In the cracks and pores they found 4,139 tiny animals, smaller than a millimetre. The animals inside were different from those in the mud around the nodules.",
-     "The study was published on 11 November in the journal Scientific Reports. Nodules also contain nickel, cobalt and copper, which makes them a target for mining. The scientists say that because nodules form so slowly, [[deep-sea-mining|deep-sea mining]] would remove this home for good."
-    ]
-   },
-   "think": "Why might a tiny animal live inside a hard lump instead of in the soft mud?",
-   "quiz": {
-    "q": "How many nodules did the scientists open?",
-    "a": [
-     "24",
-     "244",
-     "2,440",
-     "4,139"
-    ],
-    "c": 1
-   },
-   "src": [
-    [
-     "MARUM via EurekAlert, 11 Nov",
-     "https://www.eurekalert.org/news-releases/1151260"
-    ],
-    [
-     "Ocean News & Technology, 11 Nov",
-     "https://oceannews.com/news/science-technology/marum-study-finds-nodule-crevices-host-distinct-deep-sea-organisms/"
-    ],
-    [
-     "BNNVARA Vroege Vogels, 11 Nov",
-     "https://www.bnnvara.nl/vroegevogels/artikelen/kleine-zeedieren-blijken-in-mangaanknollen-uit-de-diepzee-te-leven"
-    ]
-   ]
-  },
-  {
-   "id": "g-botticelli",
-   "scope": "global",
-   "cat": "culture",
-   "emoji": "🖼️",
-   "date": "2026-11-12",
-   "kind": "news",
-   "x": {
-    "t": "A very old painting is cleaned and put on show",
-    "b": [
-     "[[botticelli|Sandro Botticelli]] was a famous painter from Italy. He lived a long time ago.",
-     "One of his paintings is about 550 years old. Experts cleaned off old, yellow [[varnish|varnish]].",
-     "This week it went on show at a museum in [[oxford|Oxford]], England. Now people can visit it."
-    ]
-   },
-   "o": {
-    "t": "A cleaned-up Botticelli goes on show after nearly leaving Britain",
-    "b": [
-     "A painting made around 1470 by the Italian artist [[botticelli|Sandro Botticelli]] has gone on public display this week at the Ashmolean Museum in [[oxford|Oxford]], England. It is called The Virgin and Child Enthroned.",
-     "The painting was sold in London in December 2024 for 9.7 million pounds. In May 2025 the UK government put a temporary [[export-bar|export bar]] on it. That is a pause on sending an important artwork abroad, to give a UK museum time to try to buy it. A private collection based in London, the Klesch Collection, bought it and has lent it to the Ashmolean for three years.",
-     "Over the summer, experts called conservators removed yellowed [[varnish|varnish]] and paint that had been added later. The painting was shown at the Ashmolean before, in 1934 to 1935. Back then it was thought to come from Botticelli's workshop. Now it is believed to be by Botticelli himself."
-    ]
-   },
-   "think": "Should a beautiful old painting be kept where everyone can visit it? Why?",
-   "quiz": {
-    "q": "In which city has the painting gone on show?",
-    "a": [
-     "London",
-     "Florence",
-     "Oxford",
-     "Paris"
-    ],
-    "c": 2
-   },
-   "src": [
-    [
-     "The Art Newspaper, 12 Nov",
-     "https://www.theartnewspaper.com/2026/11/12/botticelli-painting-saved-from-leaving-uk-goes-on-view-in-oxford"
-    ],
-    [
-     "Finestre sull'Arte, 11 Nov",
-     "https://www.finestresullarte.info/en/ancient-art/a-rediscovered-botticelli-it-was-in-danger-of-leaving-the-united-kingdom-but-is-now-on-display-in-oxford"
-    ],
-    [
-     "Ashmolean Museum",
-     "https://www.ashmolean.org/botticelli-the-virgin-and-child-enthroned"
-    ]
-   ]
-  },
-  {
-   "id": "g-endeavour",
+   "id": "g-voyager",
    "scope": "global",
    "cat": "space",
    "emoji": "🛰️",
-   "date": "2026-11-13",
-   "kind": "news",
+   "date": "2026-11-14",
+   "kind": "calendar",
+   "when": "Wednesday 18 November",
    "x": {
-    "t": "A real space shuttle stands tall in a new museum",
+    "t": "Voyager 1 will soon be one light-day from Earth",
     "b": [
-     "[[endeavour|Endeavour]] is a real [[space-shuttle|space shuttle]]. It flew to space 25 times.",
-     "Now it has a new home in [[los-angeles|Los Angeles]]. The new building opened on Friday.",
-     "The shuttle stands pointing up, as if ready to launch. It is about as tall as a 20-floor building!"
+     "Voyager 1 is a spacecraft. It left Earth in 1977.",
+     "On Wednesday, it will be one [[light-day|light-day]] from Earth. Light takes a whole day to go that far. A signal from Earth will take a whole day too.",
+     "On Tuesday after sunset, NASA invites people to flash a light. Ask a grown-up to help. The flashes spell VGR, a short name for Voyager, in [[morse-code|Morse code]]."
     ]
    },
    "o": {
-    "t": "Space shuttle Endeavour goes on show standing ready for launch",
+    "t": "Voyager 1 reaches one light-day from Earth on Wednesday",
     "b": [
-     "The [[space-shuttle|space shuttle]] [[endeavour|Endeavour]] has a new home. On Friday 13 November, the California Science Center in [[los-angeles|Los Angeles]] opened a huge new building to the public. It is called the Samuel Oschin Air and Space Center.",
-     "Inside, Endeavour stands upright in launch position, about 20 storeys tall. It is joined to a real external fuel tank and real solid rocket boosters. The Science Center says it is the only complete, authentic space shuttle system on display in the world.",
-     "Visitors can look down on the shuttle from a platform with a glass floor. They can also ride a 45-foot (about 14-metre) slide that imitates a shuttle's return to Earth. Entry is free, but visitors must book a time. Booking online costs a small fee. Endeavour flew 25 missions to space. In 2012 it was moved through the streets of Los Angeles to the Science Center."
+     "On Wednesday 18 November, NASA's Voyager 1 spacecraft will be one [[light-day|light-day]] from Earth. A light-day is a distance: how far light travels in 24 hours. That is about 25.9 billion kilometres, so a signal sent from Earth will take a whole day to reach it.",
+     "Voyager 1 was launched in 1977. In 2012 it entered [[interstellar|interstellar space]], beyond the heliopause, the place where the Sun's constant flow of material stops affecting its surroundings. Most of its instruments are now switched off to save power.",
+     "To mark the moment, NASA is inviting people everywhere to join an activity called Shine Bright. On Tuesday 17 November after sunset, they can use a phone, tablet or torch to flash VGR, Voyager's call sign or short name, in [[morse-code|Morse code]]. A NASA website can make phones and tablets flash it for them."
     ]
    },
-   "think": "Which would you try first: the glass floor above the shuttle, or the slide? Why?",
+   "think": "If you could send a message that took a whole day to arrive, what would you say?",
    "quiz": {
-    "q": "How is Endeavour displayed in its new home?",
+    "q": "On 18 November, how long will a signal from Earth take to reach Voyager 1?",
     "a": [
-     "Lying flat on its wheels",
-     "Hanging upside down",
-     "Standing upright, as if ready to launch",
-     "Floating in a pool"
+     "One second",
+     "One hour",
+     "A whole day",
+     "One year"
     ],
     "c": 2
    },
    "src": [
     [
-     "ABC7 Los Angeles, 13 Nov",
-     "https://abc7.com/post/space-shuttle-endeavour-new-la-home-opens-california-science-center-exposition-park/20038657/"
+     "NASA, 10 Nov (updated 13 Nov)",
+     "https://www.nasa.gov/news-release/nasa-invites-media-public-to-join-voyager-1-one-light-day-activities/"
     ],
     [
-     "LAist, 13 Nov",
-     "https://laist.com/brief/news/los-angeles-activities/space-shuttle-endeavour-launches-its-final-chapter-at-the-ca-science-center-how-to-explore-its-home"
+     "EarthSky, 10 Nov",
+     "https://earthsky.org/space/voyager-1-1-light-day-from-earth-november-17-18-2026/"
     ],
     [
-     "KCRA 3, 11 Nov",
-     "https://www.kcra.com/article/los-angeles-california-science-center-endeavour-gallery/74406849"
+     "IFLScience, 19 Jun",
+     "https://iflscience.com/its-official-voyager-1-will-cross-the-1-light-day-threshold-on-november-18-2026-82733"
     ],
     [
-     "NASA, STS-134 mission page",
-     "https://www.nasa.gov/mission/sts-134/"
-    ],
-    [
-     "Space.com, Endeavour reference page",
-     "https://www.space.com/18123-space-shuttle-endeavour.html"
+     "NASA Space Place",
+     "https://spaceplace.nasa.gov/interstellar/en/"
     ]
    ]
   },
   {
-   "id": "g-leonids",
+   "id": "g-summit",
    "scope": "global",
-   "cat": "space",
-   "emoji": "🌠",
+   "cat": "world",
+   "emoji": "🤝",
    "date": "2026-11-14",
-   "kind": "calendar",
-   "when": "Coming up: early on 17 and 18 November",
+   "kind": "news",
+   "olderOnly": true,
+   "sensitive": "politics",
    "x": {
-    "t": "Shooting stars are coming next week",
+    "t": "Three world leaders plan to meet and talk",
     "b": [
-     "Next week you may see shooting stars! They are called the [[leonids|Leonids]].",
-     "A shooting star is not a star. It is a tiny bit of dust from a [[comet|comet]]. It glows as it zooms into our air.",
-     "The best time to look is very early on Tuesday and Wednesday mornings. Look between midnight and sunrise. Ask a grown-up to watch with you."
+     "The leaders of three countries plan to meet next week. The leaders are from the United States, China and Russia.",
+     "The meeting will be in [[shenzhen|Shenzhen]], a city in China. It will take place during a bigger summit there, called [[apec|APEC]].",
+     "The United States wants to talk about having fewer very powerful weapons. A meeting is a chance to talk. It is not yet a deal."
     ]
    },
    "o": {
-    "t": "Leonid meteor shower peaks next week, with the Moon out of the way",
+    "t": "Leaders of the US, China and Russia plan a three-way meeting",
     "b": [
-     "The [[leonids|Leonid]] [[meteor|meteor]] shower is expected to peak around 17 and 18 November. A meteor shower happens when Earth passes through a stream of dust and bits left behind by a [[comet|comet]]. The bits glow as they speed into the air, and we see them as shooting stars.",
-     "The Leonids come from a comet called Tempel-Tuttle, which goes around the Sun about once every 33 years. The meteors seem to come from the [[constellation|constellation]] Leo, the Lion, which gives the shower its name.",
-     "This year the Moon sets around midnight, so its light should not spoil the view. The best time to watch is between midnight and dawn on the mornings of Tuesday 17 and Wednesday 18 November. Under a dark sky you might see between 3 and 15 meteors an hour. You do not need a telescope. Find a dark place and look across the whole sky."
+     "The White House says US President Donald Trump, China's President Xi Jinping and Russia's President Vladimir Putin will hold a three-way meeting next week. It would be their first three-way [[summit|summit]], a meeting between the leaders of countries.",
+     "The meeting will take place in [[shenzhen|Shenzhen]], China, on the sidelines of the summit of the [[apec|Asia-Pacific Economic Cooperation]] group, known as APEC. On the sidelines means it is a separate meeting held at the same time and place. Before going to China, Trump will attend another summit, in the Philippines.",
+     "Trump plans to discuss reducing [[nuclear-weapons|nuclear weapons]], extremely powerful weapons that get their energy from the centre of atoms. A meeting is a chance to talk, not yet an agreement, so many people will be watching to see what the leaders decide."
     ]
    },
-   "think": "Why do you think people have always looked up at the night sky and told stories about it?",
+   "think": "Why might leaders choose to meet in person instead of sending messages to each other?",
    "quiz": {
-    "q": "When is the best time to look for the Leonids?",
+    "q": "Where will the three leaders meet?",
     "a": [
-     "Just after sunset",
-     "At midday",
-     "Only when the Moon is full",
-     "After midnight, before the Sun comes up"
+     "Moscow, Russia",
+     "New York, United States",
+     "Shenzhen, China",
+     "Manila, Philippines"
+    ],
+    "c": 2
+   },
+   "src": [
+    [
+     "AFP via Yahoo News, 14 Nov",
+     "https://sg.news.yahoo.com/trump-xi-putin-hold-historic-003400795.html"
+    ],
+    [
+     "Al Jazeera, 14 Nov",
+     "https://www.aljazeera.com/news/2026/11/14/trump-xi-and-putin-to-hold-first-three-way-summit-in-china"
+    ],
+    [
+     "CBS News, 14 Nov",
+     "https://www.cbsnews.com/news/trump-putin-xi-jinping-meeting-china-us-russia-talks/"
+    ],
+    [
+     "Inquirer, 14 Nov",
+     "https://www.inquirer.net/495619/live-updates-asean-summit-2026-and-related-meetings-nov-14-2026/"
+    ]
+   ]
+  },
+  {
+   "id": "in-chhath",
+   "scope": "IN",
+   "cat": "culture",
+   "emoji": "🌅",
+   "date": "2026-11-14",
+   "kind": "calendar",
+   "when": "13 to 16 November 2026",
+   "x": {
+    "t": "Chhath: a festival of offerings to the Sun",
+    "b": [
+     "Chhath is a four-day festival. It is mainly celebrated in [[bihar|Bihar]] and other parts of India. Today is the second day, called [[kharna|Kharna]].",
+     "People pray to the Sun God, [[surya|Surya]]. They give thanks and pray for their family's health.",
+     "On Sunday, people gather by rivers and ponds at sunset. They make an offering to the Sun. On Monday, they make another offering at sunrise."
+    ]
+   },
+   "o": {
+    "t": "Chhath, the festival of offerings to the Sun, reaches its second day",
+    "b": [
+     "Chhath is a four-day festival dedicated to worshipping the Sun God, [[surya|Surya]]. It is celebrated mainly in [[bihar|Bihar]] and several other parts of the country. For those who celebrate, it is a time to give thanks and pray for family health and well-being.",
+     "It began on Friday with Nahay Khay: a ritual bath, a clean home and a simple meal. Today is [[kharna|Kharna]], the second day. People fast all day, then eat kheer made with jaggery, and roti, in the evening. A fast of about 36 hours without food or water follows.",
+     "On Sunday, people gather at [[ghats|ghats]], the banks of rivers and ponds, to make an offering called [[arghya|arghya]] to the Sun at sunset. They carry homemade thekua and fruit in bamboo baskets. On Monday, standing in the water, they make another offering at sunrise. Then the fast ends."
+    ]
+   },
+   "think": "Chhath is a time to give thanks. What is something you feel thankful for, and how do you show it?",
+   "quiz": {
+    "q": "At what times of day do people make offerings to the Sun during Chhath?",
+    "a": [
+     "At midday and midnight",
+     "Only at lunchtime",
+     "Only at midnight",
+     "At sunset and sunrise"
     ],
     "c": 3
    },
    "src": [
     [
-     "Space.com, updated 5 Nov",
-     "https://www.space.com/leonid-meteor-shower"
+     "ANI, 13 Nov",
+     "https://aninews.in/news/national/general-news/chhath-mahaparv-begins-across-country-with-nahay-khay-devotees-throng-sun-temples-to-offer-prayers20261113094821/"
     ],
     [
-     "EarthSky, updated 13 Nov",
-     "https://earthsky.org/astronomy-essentials/everything-you-need-to-know-leonid-meteor-shower/"
+     "IANS via The Hans India, 13 Nov",
+     "https://www.thehansindia.com/news/national/chhath-festival-begins-with-nahay-khay-devotees-observe-rituals-of-purity-devotion-1141734"
     ],
     [
-     "NASA",
-     "https://science.nasa.gov/solar-system/meteors-meteorites/leonids/"
+     "India TV News, 10 Nov",
+     "https://www.indiatvnews.com/lifestyle/spirituality/chhath-puja-2026-calendar-when-are-nahay-khay-kharna-sandhya-arghya-and-usha-arghya-2026-11-10-1059127"
+    ],
+    [
+     "Daily Jagran, 2 Nov",
+     "https://www.thedailyjagran.com/spiritual/chhath-puja-2026-date-when-is-nahaye-khaye-kharna-sandhya-arghya-and-usha-arghya-10334828"
+    ],
+    [
+     "News On AIR, 2024",
+     "https://newsonair.gov.in/festival-of-chhath-puja-begins-today"
     ]
    ]
   },
   {
-   "id": "g-robots",
+   "id": "g-diabetesday",
    "scope": "global",
-   "cat": "tech",
-   "emoji": "🤖",
-   "date": "2026-11-11",
-   "kind": "news",
+   "cat": "science",
+   "emoji": "🔵",
+   "date": "2026-11-14",
+   "kind": "calendar",
+   "when": "14 November every year",
    "x": {
-    "t": "Bendy robots can join up to make a bigger robot",
+    "t": "Today is World Diabetes Day",
     "b": [
-     "Engineers have built a bendy [[robot|robot]]. Its body is shaped like a tube.",
-     "It has gripping claws at both ends. The claws can pick things up.",
-     "Its claws can also grab another robot. Then the robots join up and work as one!"
+     "Today is World Diabetes Day. [[diabetes|Diabetes]] is when the body has trouble controlling its sugar level.",
+     "The day is on the birthday of [[banting|Frederick Banting]]. He and Charles Best discovered [[insulin|insulin]]. Insulin helps the body use sugar.",
+     "This year the day is about finding diabetes early. Many people who have diabetes do not know it yet."
     ]
    },
    "o": {
-    "t": "Bendy robots link up, claw to claw, to make bigger robots",
+    "t": "World Diabetes Day puts the spotlight on finding diabetes early",
     "b": [
-     "Engineers at Colorado State University have built bendy [[robot|robots]] that can join together to make bigger ones. Each robot has a body shaped like a tube, with gripping claws at both ends. The study was published on 11 November in the journal Nature Machine Intelligence.",
-     "The robots are built using an idea called [[tensegrity|tensegrity]]: stiff rods held in place by a web of stretched cables, in place of rigid joints. This lets each robot bend, stretch and collapse. A claw can grab an object, or it can lock onto another robot. In tests, a longer robot looped itself around a pipe.",
-     "For now, a person must steer the robots by [[remote-control|remote control]]. The team is led by Associate Professor Jianguo Zhao. The researchers say robots like these could one day help with [[search-and-rescue|search and rescue]], or with exploring space."
+     "Today, 14 November, is World Diabetes Day. [[diabetes|Diabetes]] is a lifelong condition in which the body has trouble controlling its sugar level. The International Diabetes Federation (IDF) and the World Health Organization (WHO) created the day in 1991. The date is the birthday of [[banting|Frederick Banting]], who discovered [[insulin|insulin]] with Charles Best. Insulin is a hormone, a chemical messenger made in the body. It controls the amount of sugar and moves it into cells, where it is used for energy.",
+     "Type 2 diabetes usually develops slowly and may cause few signs, so it can go unnoticed for years. More than four in ten people with diabetes do not know they have it.",
+     "This year's theme is Early action on diabetes. The focus is on finding diabetes early, also known as early diagnosis."
     ]
    },
-   "think": "If you could link up with friends to become one bigger machine, what job would you do together?",
+   "think": "If a classmate has diabetes, how could you be a kind and helpful friend?",
    "quiz": {
-    "q": "What does each robot have at both ends?",
+    "q": "What is this year's World Diabetes Day about?",
     "a": [
-     "Gripping claws",
-     "Wheels",
-     "Cameras",
-     "Magnets"
+     "Building new hospitals",
+     "Finding diabetes early",
+     "Running races",
+     "Planting trees"
     ],
-    "c": 0
+    "c": 1
    },
    "src": [
     [
-     "Colorado State University via EurekAlert, 11 Nov",
-     "https://www.eurekalert.org/news-releases/1151140"
+     "World Health Organization",
+     "https://www.who.int/campaigns/world-diabetes-day/2026"
     ],
     [
-     "Popular Science, 12 Nov",
-     "https://www.popsci.com/technology/robotic-slugs-fuse-together/"
+     "International Diabetes Federation, 4 Mar",
+     "https://idf.org/news/wdd-2026-27/"
+    ],
+    [
+     "World Diabetes Day (IDF)",
+     "https://worlddiabetesday.org/about-wdd/"
+    ],
+    [
+     "UN News, 14 Nov 2007",
+     "https://news.un.org/en/story/2007/11/239582-global-landmarks-light-blue-mark-first-un-world-diabetes-day"
+    ],
+    [
+     "NHS 111 Wales",
+     "https://111.wales.nhs.uk/encyclopaedia/d/article/diabetes"
     ]
    ]
   }
  ],
  "glossary": {
+  "faa": [
+   "FAA",
+   "civics",
+   "The group in charge of keeping flying safe in the United States.",
+   "The Federal Aviation Administration, the US government agency whose job is to keep air travel safe and running smoothly."
+  ],
+  "ground-stop": [
+   "ground stop",
+   "words",
+   "When planes are told to stay on the ground for a while.",
+   "An order that keeps certain flights, or all of them, on the ground for a period of time."
+  ],
+  "air-traffic-control": [
+   "air traffic control",
+   "tech",
+   "People on the ground who guide planes by radio and help keep flying safe.",
+   "The people and systems that guide planes by radio, staying in touch with pilots to keep air traffic moving safely and in order."
+  ],
+  "cyberattack": [
+   "cyberattack",
+   "tech",
+   "When someone breaks into computers on purpose to cause harm.",
+   "An attempt to break into a computer system illegally, in order to cause damage or harm."
+  ],
+  "lakshya": [
+   "Lakshya Sen",
+   "people",
+   "A badminton player from India.",
+   "An Indian badminton player who competes in top tournaments around the world."
+  ],
+  "seed": [
+   "seed",
+   "words",
+   "A top player who is kept away from other top players early on.",
+   "A player ranked highly before a tournament and placed in the draw so the top players do not meet in the early rounds."
+  ],
+  "super-500": [
+   "Super 500",
+   "words",
+   "A kind of big badminton tournament.",
+   "The name for one level of tournament on badminton's world tour."
+  ],
+  "light-day": [
+   "Light-day",
+   "science",
+   "How far light travels in one whole day. It is a very long way.",
+   "A unit of distance: how far light travels in 24 hours, about 25.9 billion kilometres."
+  ],
+  "interstellar": [
+   "Interstellar space",
+   "science",
+   "Space between the stars, past the place where the Sun's flow of material stops reaching.",
+   "Space beyond the heliopause, the place where the Sun's constant flow of material and its magnetic field stop affecting their surroundings."
+  ],
+  "morse-code": [
+   "Morse code",
+   "words",
+   "A code that spells letters with short and long signals.",
+   "A code that spells out letters using short and long signals, such as flashes of light or beeps."
+  ],
+  "summit": [
+   "Summit",
+   "words",
+   "A big meeting between the leaders of countries.",
+   "A meeting between the leaders of countries."
+  ],
+  "shenzhen": [
+   "Shenzhen",
+   "places",
+   "A city in China.",
+   "A city in China, where the three-way meeting will be held."
+  ],
+  "apec": [
+   "APEC",
+   "civics",
+   "Short for Asia-Pacific Economic Cooperation. Its big summit is being held in Shenzhen.",
+   "Asia-Pacific Economic Cooperation, a group whose summit is being held in Shenzhen."
+  ],
+  "nuclear-weapons": [
+   "nuclear weapons",
+   "science",
+   "Very powerful weapons.",
+   "Extremely powerful weapons that explode by releasing energy from nuclear reactions in the centres of atoms."
+  ],
+  "surya": [
+   "Surya",
+   "words",
+   "The Sun God. At Chhath, people make offerings to Surya.",
+   "The Sun God. Chhath is dedicated to the worship of Surya and Chhathi Maiya."
+  ],
+  "bihar": [
+   "Bihar",
+   "places",
+   "A state in India where Chhath is mainly celebrated.",
+   "A state of India. Chhath is celebrated mainly in Bihar and several other parts of the country."
+  ],
+  "kharna": [
+   "Kharna",
+   "words",
+   "The second day of Chhath. In the evening, people eat kheer and roti.",
+   "The second day of Chhath. People fast through the day and break the fast in the evening with kheer made with jaggery, and roti."
+  ],
+  "ghats": [
+   "Ghats",
+   "places",
+   "Places on the banks of rivers and ponds.",
+   "The banks of rivers, ponds and other water bodies, where people gather to make Chhath offerings."
+  ],
+  "arghya": [
+   "Arghya",
+   "words",
+   "An offering made to the Sun at Chhath.",
+   "An offering made to the Sun during Chhath: to the setting Sun on the third day and to the rising Sun at dawn on the fourth."
+  ],
+  "diabetes": [
+   "Diabetes",
+   "science",
+   "When the body has trouble controlling its sugar level.",
+   "A lifelong condition in which the body has trouble controlling its sugar level, because of problems with insulin."
+  ],
+  "insulin": [
+   "Insulin",
+   "science",
+   "Something the body makes that helps it use sugar for energy.",
+   "A hormone made in the body that moves sugar into cells, where it is used for energy."
+  ],
+  "banting": [
+   "Frederick Banting",
+   "people",
+   "He and Charles Best discovered insulin.",
+   "The man who discovered insulin with Charles Best. World Diabetes Day, 14 November, is held on his birthday."
+  ],
+  "robot": [
+   "Robot",
+   "tech",
+   "A machine that can do jobs by itself or with a person guiding it.",
+   "A machine that can carry out tasks automatically or under remote control."
+  ],
+  "comet": [
+   "Comet",
+   "science",
+   "A ball of ice and dust that travels around the Sun.",
+   "A body of ice, rock and dust that orbits the Sun. Near the Sun it can grow a long, glowing tail."
+  ],
   "cop": [
    "COP",
    "civics",
@@ -730,598 +510,156 @@
    "civics",
    "A club of almost every country in the world that works for peace and helps people.",
    "Founded in 1945 after the Second World War, with 193 member countries. The Security Council is one of its main bodies. UNICEF and the World Health Organization are part of the wider UN family."
-  ],
-  "archaeology": [
-   "Archaeology",
-   "science",
-   "Learning about the past by digging up the things people left behind.",
-   "The scientific study of people in the past, through the objects, buildings and bones they left behind."
-  ],
-  "bengaluru": [
-   "Bengaluru",
-   "places",
-   "A big city in south India.",
-   "The capital city of Karnataka state, in south India."
-  ],
-  "booster": [
-   "Booster",
-   "tech",
-   "The bottom part of a rocket. It lifts the rocket off the ground.",
-   "The lower stage of a rocket, which provides the push to lift it off the ground. Starship's booster is called Super Heavy."
-  ],
-  "botticelli": [
-   "Sandro Botticelli",
-   "people",
-   "A famous painter who lived in Italy long ago.",
-   "A painter of the Italian Renaissance, born in Florence around 1445. He died in 1510."
-  ],
-  "cabinet": [
-   "Cabinet",
-   "civics",
-   "The group of top ministers who help lead the government.",
-   "The group of ministers who are the main advisers to the head of a government."
-  ],
-  "childrens-day": [
-   "Children's Day",
-   "words",
-   "A day to celebrate children. In India it is on 14 November.",
-   "In India, Children's Day, or Bal Diwas, is celebrated on 14 November, the birthday of Jawaharlal Nehru."
-  ],
-  "comet": [
-   "Comet",
-   "science",
-   "A ball of ice and dust that travels around the Sun.",
-   "A body of ice, rock and dust that orbits the Sun. Near the Sun it can grow a long, glowing tail."
-  ],
-  "constellation": [
-   "Constellation",
-   "science",
-   "A group of stars that makes a pattern in the sky.",
-   "A group of stars that forms a pattern in the night sky and has a name, such as Leo, the Lion."
-  ],
-  "crore": [
-   "crore",
-   "words",
-   "A very big number: 1 with seven zeros after it.",
-   "An Indian unit for 10 million, written 1,00,00,000."
-  ],
-  "dakar": [
-   "Dakar",
-   "places",
-   "A city in Senegal, a country in the west of Africa.",
-   "A city in Senegal, in West Africa, and the host of the 2026 Youth Olympic Games."
-  ],
-  "deep-sea-mining": [
-   "Deep-sea mining",
-   "words",
-   "Collecting metals from the bottom of the sea.",
-   "Collecting metal-rich material, such as nodules, from the deep seafloor."
-  ],
-  "delhi": [
-   "Delhi",
-   "places",
-   "India's capital city, where the national government meets.",
-   "India's National Capital Territory, with over 30 million people in its wider region. New Delhi, inside it, is the seat of India's government and Parliament."
-  ],
-  "doha": [
-   "Doha",
-   "places",
-   "A city in the country of Qatar.",
-   "The capital city of Qatar, a country in western Asia."
-  ],
-  "electrification": [
-   "Electrification",
-   "tech",
-   "Giving a railway electric power, so electric trains can run on it.",
-   "Fitting a railway line with electric power so that electric engines can be used in place of diesel ones."
-  ],
-  "endeavour": [
-   "Endeavour",
-   "tech",
-   "A space shuttle that flew to space 25 times.",
-   "A NASA space shuttle. It flew 25 missions to space, the last one in 2011."
-  ],
-  "export-bar": [
-   "Export bar",
-   "civics",
-   "A rule that stops a special artwork from leaving a country for a while.",
-   "A temporary stop on sending an important artwork abroad, to give a buyer inside the country time to buy it."
-  ],
-  "figurine": [
-   "Figurine",
-   "words",
-   "A small model of a person or an animal.",
-   "A small statue or model, often of a person or an animal."
-  ],
-  "ghat": [
-   "Ghat section",
-   "words",
-   "A part of a railway that climbs through hills.",
-   "A stretch of railway or road that runs through hills or mountains."
-  ],
-  "goa": [
-   "Goa",
-   "places",
-   "A state in India, by the sea.",
-   "A state on the south-western coast of India. Madgaon, also called Margao, is a city in Goa."
-  ],
-  "hunter-gatherer": [
-   "Hunter-gatherer",
-   "words",
-   "A person who finds food by hunting animals and picking wild plants.",
-   "A person who lives by hunting and by gathering wild plants, not by farming."
-  ],
-  "iia": [
-   "Indian Institute of Astrophysics",
-   "science",
-   "A group of scientists in India who study the stars and space.",
-   "An Indian research institute that studies astronomy and astrophysics. It built the COSMOS-Mysuru Planetarium."
-  ],
-  "ioc": [
-   "International Olympic Committee",
-   "civics",
-   "The group in charge of the Olympic Games.",
-   "The organisation that is responsible for the Olympic Games."
-  ],
-  "jaipur": [
-   "Jaipur",
-   "places",
-   "A city in Rajasthan, India.",
-   "The capital city of Rajasthan, in north-west India."
-  ],
-  "led": [
-   "LED",
-   "tech",
-   "A tiny electric light.",
-   "Short for light-emitting diode: a small electronic part that gives out light when electricity passes through it."
-  ],
-  "leonids": [
-   "Leonids",
-   "science",
-   "Shooting stars that can be seen every November.",
-   "A meteor shower seen every November. Its meteors seem to come from the constellation Leo."
-  ],
-  "los-angeles": [
-   "Los Angeles",
-   "places",
-   "A big city in the United States.",
-   "A city in California, in the United States."
-  ],
-  "manganese": [
-   "Manganese",
-   "science",
-   "A kind of metal.",
-   "A metallic chemical element. It is found in deep-sea nodules."
-  ],
-  "meteor": [
-   "Meteor",
-   "science",
-   "A shooting star: a streak of light in the night sky.",
-   "The streak of light seen when a small piece of rock or dust from space enters Earth's atmosphere at high speed. It is also called a shooting star."
-  ],
-  "museum": [
-   "Museum",
-   "words",
-   "A place that keeps and shows interesting and important things.",
-   "A building in which interesting and valuable things, such as works of art or historical or scientific objects, are collected and shown to the public."
-  ],
-  "mysuru": [
-   "Mysuru",
-   "places",
-   "A city in the state of Karnataka, in India.",
-   "A city in the Indian state of Karnataka. It is also known as Mysore."
-  ],
-  "natufians": [
-   "Natufians",
-   "people",
-   "People who lived a very long time ago, before there were farms.",
-   "Hunter-gatherers who lived at the eastern end of the Mediterranean Sea, including what is now Israel, before farming began. They were among the first people to settle in villages."
-  ],
-  "nehru": [
-   "Jawaharlal Nehru",
-   "people",
-   "India's first Prime Minister. Children called him Chacha Nehru.",
-   "The first Prime Minister of independent India, from 1947 to 1964. He was born on 14 November 1889."
-  ],
-  "nodule": [
-   "Nodule",
-   "science",
-   "A dark, hard lump that lies on the deep sea floor.",
-   "A fist-sized lump of iron and manganese oxides that forms very slowly on the deep seafloor. Also called a manganese nodule."
-  ],
-  "orbit": [
-   "Orbit",
-   "science",
-   "The path something takes as it goes round and round a planet.",
-   "The curved path of an object around a planet or star. One trip around Earth is one orbit."
-  ],
-  "oxford": [
-   "Oxford",
-   "places",
-   "A city in England.",
-   "A city in England. The Ashmolean Museum is there."
-  ],
-  "planetarium": [
-   "Planetarium",
-   "science",
-   "A room with a dome for a ceiling. Pictures of the stars and planets are shown on it.",
-   "A building or room with a dome-shaped ceiling on which images of the stars and planets are projected or shown."
-  ],
-  "prime-minister": [
-   "Prime Minister",
-   "civics",
-   "The leader of a country's government.",
-   "The head of the government in countries such as India and the United Kingdom."
-  ],
-  "quota": [
-   "Quota place",
-   "words",
-   "A place saved for a country at a big contest.",
-   "A spot at the Olympic Games that an athlete wins for his or her country."
-  ],
-  "remote-control": [
-   "Remote control",
-   "tech",
-   "Steering a machine from far away.",
-   "Controlling a machine from a distance."
-  ],
-  "robot": [
-   "Robot",
-   "tech",
-   "A machine that can do jobs by itself or with a person guiding it.",
-   "A machine that can carry out tasks automatically or under remote control."
-  ],
-  "satellite": [
-   "Satellite",
-   "science",
-   "Something that goes around a planet. People build satellites to take pictures and send signals.",
-   "An object that orbits a planet. Artificial satellites relay phone and TV signals, guide GPS and photograph Earth for weather and maps."
-  ],
-  "search-and-rescue": [
-   "Search and rescue",
-   "words",
-   "Looking for people who are lost or stuck, and helping them.",
-   "The work of finding and helping people who are lost, trapped or in danger."
-  ],
-  "senegal": [
-   "Senegal",
-   "places",
-   "A country in the west of Africa.",
-   "A country in West Africa. Dakar is its capital."
-  ],
-  "ship-strike": [
-   "Ship strike",
-   "words",
-   "When a ship hits a sea animal by accident.",
-   "A collision between a ship and a sea animal, such as a whale, dolphin or whale shark."
-  ],
-  "simulation": [
-   "Simulation",
-   "tech",
-   "A pretend test, often run on a computer.",
-   "A model, often on a computer, that imitates something real, so that an idea can be tested without doing it for real."
-  ],
-  "space-shuttle": [
-   "Space shuttle",
-   "tech",
-   "A spacecraft that could fly to space and come back to fly again.",
-   "A reusable NASA spacecraft. The plane-like part, called the orbiter, launched with a big external fuel tank and two solid rocket boosters."
-  ],
-  "spacex": [
-   "SpaceX",
-   "tech",
-   "The company that builds the Starship rocket.",
-   "The company that builds and flies Starship. Its launch site in Texas is called Starbase."
-  ],
-  "starship": [
-   "Starship",
-   "tech",
-   "A giant rocket with two parts, built by SpaceX.",
-   "SpaceX's giant two-part rocket: a booster called Super Heavy and an upper part called Ship. It is designed to be reused."
-  ],
-  "tensegrity": [
-   "Tensegrity",
-   "tech",
-   "A way of building with stiff rods and tightly pulled cables.",
-   "A way of building in which stiff rods are held in place by a web of stretched cables."
-  ],
-  "trap": [
-   "Trap",
-   "words",
-   "A shooting sport. Shooters try to hit targets that fly through the air.",
-   "A shotgun shooting event in which shooters fire at targets that fly through the air."
-  ],
-  "vande-bharat": [
-   "Vande Bharat",
-   "tech",
-   "A fast, modern train that links cities in India.",
-   "A semi-high-speed train that runs between cities in India."
-  ],
-  "varnish": [
-   "Varnish",
-   "words",
-   "A clear coat put over a painting to protect it. It can turn yellow when it gets old.",
-   "A clear coating put over a painting to protect it. Over many years it can turn yellow."
-  ],
-  "vivaan": [
-   "Vivaan Kapoor",
-   "people",
-   "A trap shooter from Jaipur, India.",
-   "An Indian trap shooter from Jaipur. He won silver at the World Championship in Doha in November 2026."
-  ],
-  "whale-shark": [
-   "Whale shark",
-   "science",
-   "A very, very big fish. It is a shark, not a whale.",
-   "The largest fish in the world. It is a shark, not a whale."
-  ],
-  "wushu": [
-   "Wushu",
-   "words",
-   "A sport from China that uses martial arts moves.",
-   "A sport that grew out of Chinese martial arts. In some events, athletes perform routines that judges mark with scores."
-  ],
-  "yog": [
-   "Youth Olympic Games",
-   "words",
-   "An Olympic Games just for teenage athletes.",
-   "A version of the Olympic Games for teenage athletes. The 2026 Games were held in Dakar, Senegal, from 31 October to 13 November."
   ]
  },
  "keys": {
-  "in-childrensday": {
+  "g-groundstop": {
    "type": "number",
-   "v": "20 Nov",
-   "l": "World Children's Day, marked by the United Nations"
+   "v": "4+ hours",
+   "l": "how long the nationwide ground stop lasted"
   },
-  "in-vandebharat": {
+  "in-lakshya-final": {
    "type": "number",
-   "v": "55 km",
-   "l": "length of the hill stretch that is now electrified"
+   "v": "No. 10",
+   "l": "Alwi Farhan's world ranking; Lakshya had never won a game against him before"
   },
-  "in-planetarium": {
+  "g-voyager": {
    "type": "number",
-   "v": "4.2 crore",
-   "l": "tiny LED lights on the dome"
+   "v": "25.9 billion km",
+   "l": "about how far Voyager 1 will be from Earth on 18 November"
   },
-  "in-museum": {
+  "in-chhath": {
    "type": "number",
-   "v": "1 crore",
-   "l": "the most visitors a year the museum is designed to handle"
+   "v": "4 days",
+   "l": "length of Chhath, from Nahay Khay to Usha Arghya"
   },
-  "in-trap-silver": {
+  "g-diabetesday": {
    "type": "number",
-   "v": "29/30",
-   "l": "targets Vivaan hit in the final"
-  },
-  "g-starship-launch": {
-   "type": "number",
-   "v": "124 m",
-   "l": "height of the full Starship rocket"
-  },
-  "g-dakar": {
-   "type": "number",
-   "v": "2,700",
-   "l": "young athletes who took part, about"
-  },
-  "g-figurines": {
-   "type": "number",
-   "v": "15,000",
-   "l": "years ago, when the oldest figures were made"
-  },
-  "g-whaleshark": {
-   "type": "number",
-   "v": "1%",
-   "l": "the most extra fuel needed on voyages longer than six days"
-  },
-  "g-nodules": {
-   "type": "number",
-   "v": "4,139",
-   "l": "tiny animals found inside 244 nodules"
-  },
-  "g-botticelli": {
-   "type": "number",
-   "v": "c. 1470",
-   "l": "about when Botticelli made the painting"
-  },
-  "g-endeavour": {
-   "type": "number",
-   "v": "25",
-   "l": "missions Endeavour flew to space"
-  },
-  "g-leonids": {
-   "type": "number",
-   "v": "33 years",
-   "l": "time comet Tempel-Tuttle takes to go around the Sun, about"
-  },
-  "g-robots": {
-   "type": "number",
-   "v": "600 g",
-   "l": "about what each robot weighs without batteries"
+   "v": "1991",
+   "l": "year the IDF and the WHO created World Diabetes Day"
   }
  },
  "xkeys": {
-  "in-childrensday": {
+  "g-groundstop": {
    "type": "check",
-   "q": "Whose birthday is on Children's Day in India?",
+   "q": "Why did planes wait on the ground?",
    "a": [
-    "Jawaharlal Nehru",
-    "Mahatma Gandhi"
-   ],
-   "c": 0,
-   "right": "Right! Children called him Chacha Nehru.",
-   "wrong": "Not quite. It is the birthday of Jawaharlal Nehru."
-  },
-  "in-planetarium": {
-   "type": "check",
-   "q": "What is the new dome lined with?",
-   "a": [
-    "Mirrors",
-    "Tiny lights"
+    "The weather was too sunny",
+    "Control centres had a communication problem"
    ],
    "c": 1,
-   "right": "Right! About 4.2 crore tiny LED lights.",
-   "wrong": "Not quite. The dome is lined with tiny LED lights."
+   "right": "Right! The control centres had a problem with their communication systems.",
+   "wrong": "Not quite. The control centres had a problem with their communication systems."
   },
-  "g-starship-launch": {
+  "in-lakshya-final": {
    "type": "check",
-   "q": "Where did the booster come down?",
+   "q": "Had Lakshya beaten Farhan before this match?",
    "a": [
-    "In the sea",
-    "On the tower"
-   ],
-   "c": 0,
-   "right": "Right! The catch was called off, and it came down in the sea.",
-   "wrong": "Not this time. The catch was called off."
-  },
-  "g-dakar": {
-   "type": "check",
-   "q": "Where were the Youth Olympic Games held?",
-   "a": [
-    "In Europe",
-    "In Africa"
+    "Yes",
+    "No"
    ],
    "c": 1,
-   "right": "Right! In Dakar, in Senegal.",
-   "wrong": "Not quite. They were in Dakar, in Africa."
+   "right": "Right! He had lost to him twice before, but this time he won.",
+   "wrong": "Not quite. He had lost to him twice before. This time he won."
   },
-  "g-leonids": {
+  "g-voyager": {
    "type": "check",
-   "q": "Is a shooting star really a star?",
+   "q": "What will people flash on Tuesday?",
+   "a": [
+    "A flag",
+    "A light"
+   ],
+   "c": 1,
+   "right": "Right! A phone or a torch will do.",
+   "wrong": "Not quite. People will flash a light, like a phone or a torch."
+  },
+  "g-summit": {
+   "type": "check",
+   "q": "Is a meeting the same as a deal?",
+   "a": [
+    "Yes, always",
+    "No, not yet"
+   ],
+   "c": 1,
+   "right": "Right! A meeting is a chance to talk. A deal is not made yet.",
+   "wrong": "Not quite. A meeting is a chance to talk. It is not yet a deal."
+  },
+  "in-chhath": {
+   "type": "check",
+   "q": "During Chhath, people make offerings to...",
+   "a": [
+    "The Moon",
+    "The Sun"
+   ],
+   "c": 1,
+   "right": "Right! Offerings are made to the Sun at sunset and at sunrise.",
+   "wrong": "Not quite. Chhath offerings are made to the Sun."
+  },
+  "g-diabetesday": {
+   "type": "check",
+   "q": "Is World Diabetes Day held on someone's birthday?",
    "a": [
     "No",
     "Yes"
    ],
-   "c": 0,
-   "right": "Right! It is a tiny bit of dust that glows.",
-   "wrong": "Not quite. It is a tiny bit of dust that glows."
+   "c": 1,
+   "right": "Yes! It is on the birthday of Frederick Banting, who helped discover insulin.",
+   "wrong": "Not quite. It is on the birthday of Frederick Banting, who helped discover insulin."
   }
  },
  "deep": {
-  "in-childrensday": {
-   "ctx": "Nehru led India's government from 1947 until his death in 1964. The United Nations General Assembly recommended a Universal Children's Day in 1954. It is now called World Children's Day and is marked on 20 November, the date of two UN agreements on children's rights, made in 1959 and 1989.",
-   "ask": "Is one special day a year a good way to show that children matter, or would it be better to give children more say in decisions all year round?",
+  "g-groundstop": {
+   "ctx": "Air Route Traffic Control Centers handle flights crossing the United States, and this was the first nationwide ground stop there since January 2023. Officials said parts of an ageing system had become overloaded. Reports differ slightly on how long the stop lasted, from more than four hours to nearly five.",
+   "ask": "Should a country replace its old air traffic systems all at once, which is faster but risky, or upgrade them bit by bit while they keep running, which takes longer?",
    "jobs": [
-    "Teacher",
-    "Child rights lawyer",
-    "Paediatrician"
+    "Air traffic controller",
+    "Network engineer",
+    "Airline operations manager"
    ]
   },
-  "in-vandebharat": {
-   "ctx": "Trains can be pulled by diesel engines or by electric engines. The chairman of the Railway Board said electrification will reduce dependence on diesel, the news agency ANI reported. The new train was one part of a set of projects worth more than 15,600 crore rupees that were launched in Karnataka on the same day.",
-   "ask": "When there is limited money for railways, should it go first to faster new trains, or to improving the tracks and stations that ordinary trains already use?",
+  "in-lakshya-final": {
+   "ctx": "This was Lakshya's first win over Farhan: he had lost both of their earlier matches without winning a game. It is also his second final in a row, after his Hylo Open title. Reaching the top eight of badminton's World Tour rankings would qualify him for the World Tour Finals in Hangzhou, China.",
+   "ask": "Is it better for a player to study an opponent who has beaten them before, or to focus only on their own game?",
    "jobs": [
-    "Locomotive pilot",
-    "Railway electrical engineer",
-    "Transport planner"
-   ]
-  },
-  "in-planetarium": {
-   "ctx": "Conventional planetariums shine pictures onto a plain dome with a projector. Here the dome itself is made of LED panels, which can be controlled in real time. The centre is meant for astronomy education, research and training, for students and the public. The reports do not say when the public can start visiting.",
-   "ask": "Is it better to learn about the night sky inside a planetarium, or outdoors under the real sky, even where city lights hide most of the stars?",
-   "jobs": [
-    "Astronomer",
-    "Planetarium show producer",
-    "Electronics engineer"
-   ]
-  },
-  "in-museum": {
-   "ctx": "The Prime Minister first announced the museum on 18 May 2023. The plan covers a built-up area of about 1,78,509 square metres. The claim that it will have the world's largest museum display area is the government's own description.",
-   "ask": "Should famous government buildings be opened up as museums for everyone, or kept for the work of government they were built for?",
-   "jobs": [
-    "Museum curator",
-    "Conservation architect",
-    "Exhibition designer"
-   ]
-  },
-  "in-trap-silver": {
-   "ctx": "The championship was held at the Lusail Shooting Complex in Qatar. A quota place belongs to the country and not to the shooter who wins it, the news site The Logical Indian explains, so the shooter must still get through India's own selection to go to the Games. India's three shooting places for Los Angeles so far have come in pistol, rifle and shotgun events.",
-   "ask": "Should a place at the Olympics belong to the athlete who earned it, or to the country, which can then pick whoever is in the best form?",
-   "jobs": [
-    "Shooting coach",
+    "Badminton coach",
     "Sports psychologist",
     "Sports journalist"
    ]
   },
-  "g-starship-launch": {
-   "ctx": "Starship stands 124 metres tall. Its booster is 72 metres of that, and the Ship on top is 52 metres. NASA is counting on a version of Starship to land astronauts on the Moon, as early as 2028.",
-   "ask": "When a test flight only half works, is it fair to call it a failure, or is finding problems exactly what a test is for?",
+  "g-voyager": {
+   "ctx": "Voyager 1 was launched in 1977 and entered interstellar space in 2012. NASA says it is the most distant human-made object. On 18 November it will be about 25.9 billion kilometres away, so far that light needs a full day to cover the distance.",
+   "ask": "Most of Voyager 1's instruments are now switched off to save power. Should space agencies keep very old missions running for as long as they can, or put that money and effort into new spacecraft?",
    "jobs": [
-    "Aerospace engineer",
-    "Flight controller",
-    "Propulsion engineer"
+    "Spacecraft engineer",
+    "Radio astronomer",
+    "Mission controller"
    ]
   },
-  "g-dakar": {
-   "ctx": "The athletes at the Dakar Games were aged 14 to 17. The Associated Press reported that China won the most gold medals, 18, and that Senegal, the host, won five. India's medals included its first boxing golds at a Youth Olympics.",
-   "ask": "Hosting a big sports event costs a country a lot of money. Is the pride and attention worth it, or would the money do more good spent on local sports fields and coaches?",
+  "g-summit": {
+   "ctx": "The White House announced the meeting, which AFP calls the first-ever three-way meeting between these leaders and Al Jazeera calls unprecedented. Before reaching China, Trump will attend the ASEAN summit in the Philippines. Reducing nuclear weapons and Iran are expected to be discussed, but Ukraine is not.",
+   "ask": "Do three-way talks make agreement easier, because everyone is in the same room, or harder, because there are more views to balance?",
    "jobs": [
-    "Event manager",
-    "Sports physiotherapist",
-    "Sports broadcaster"
+    "Diplomat",
+    "Interpreter",
+    "International relations researcher"
    ]
   },
-  "g-figurines": {
-   "ctx": "Farming is thought to have begun in the region around 11,500 years ago, and clay figures were thought to become common only then. The pieces had all been heated, but the researchers do not yet know whether that was done on purpose. The team identified more than 150 clay pieces, 15 of them figurines.",
-   "ask": "Were these little figures more likely to be toys, art or something used in ceremonies, and how could we ever find out?",
+  "in-chhath": {
+   "ctx": "Chhath is dedicated to Surya and Chhathi Maiya and is celebrated mainly in Bihar and several other parts of the country. Its four days are Nahay Khay, Kharna, Sandhya Arghya and Usha Arghya. In 2026 it runs from Friday 13 to Monday 16 November and ends after the dawn offering to the rising Sun, when the fast is broken, a step called Paran.",
+   "ask": "Chhath takes days of careful preparation, from cleaning homes to fasting and cooking. Do traditions that take a lot of effort mean more because of that effort, or can a simple celebration mean just as much?",
    "jobs": [
-    "Archaeologist",
-    "Museum conservator",
-    "Fingerprint analyst"
+    "Cultural historian",
+    "Photojournalist",
+    "Traditional sweet maker"
    ]
   },
-  "g-whaleshark": {
-   "ctx": "The study appeared in the journal Royal Society Open Science. It was a computer study, so it does not mean ships have changed course. The study's competing-interests statement says one author is on the board of a company called Theyr and another works there. Theyr makes the route-planning software used in the study. The team says the same method could be used for whales and dolphins.",
-   "ask": "Should shipping companies be made to avoid the places where sea animals gather, or should each company be left to choose?",
+  "g-diabetesday": {
+   "ctx": "The International Diabetes Federation and the World Health Organization created World Diabetes Day in 1991, and its date honours Frederick Banting, who discovered insulin with Charles Best. Type 2 diabetes can develop slowly, and its signs can be mild and go unnoticed for years. The two bodies give slightly different figures: the WHO says more than 40% of people with diabetes do not know they have it, while the IDF says almost 1 in 2.",
+   "ask": "Should countries offer free diabetes checks to everyone, even people who feel well, or focus their money on people who already show signs?",
    "jobs": [
-    "Marine biologist",
-    "Ship's navigator",
-    "Route-planning software developer"
-   ]
-  },
-  "g-nodules": {
-   "ctx": "The study's lead authors include Dr Tanja Stratmann of the University of Bremen. The deep seafloor here is soft mud, so nodules are among the few hard surfaces. Nickel, cobalt and copper are metals used in industry, which is why nodules are a target for deep-sea mining. The scientists do not yet know whether the animals found inside nodules can survive anywhere else.",
-   "ask": "The metals in nodules are useful, but mining them removes a home that took millions of years to form. How should people weigh the two?",
-   "jobs": [
-    "Deep-sea biologist",
-    "Underwater robot pilot",
-    "Marine policy adviser"
-   ]
-  },
-  "g-botticelli": {
-   "ctx": "Sandro Botticelli was born in Florence in 1445 and died in 1510, the art magazine Finestre sull'Arte notes. In the UK, an expert committee advises the government on whether an artwork is important enough for its export to be paused. The price a UK buyer had to match was just over 10.2 million pounds, including tax.",
-   "ask": "Should a country be able to stop a privately owned artwork from being sold abroad, or should owners be free to sell to anyone, anywhere?",
-   "jobs": [
-    "Art conservator",
-    "Museum curator",
-    "Art historian"
-   ]
-  },
-  "g-endeavour": {
-   "ctx": "A full shuttle 'stack' is the plane-like orbiter, a big external fuel tank and two solid rocket boosters. Building the lower floors and lifting the shuttle's parts into place took six months, the museum's curator told KCRA. The external tank on show is the only flight-certified tank of its kind remaining.",
-   "ask": "Is a museum the best use of a retired spacecraft, or should the money go to building new spacecraft before looking after old ones?",
-   "jobs": [
-    "Museum exhibit designer",
-    "Structural engineer",
-    "Science educator"
-   ]
-  },
-  "g-leonids": {
-   "ctx": "Leonid meteors travel at about 71 kilometres per second, according to NASA figures quoted by Space.com. Space.com and EarthSky give the peak as the night of 17 to 18 November, while NASA's page lists the night before, so the early hours of both Tuesday and Wednesday are worth a look. Comet Tempel-Tuttle is next due to return in 2031. The sources also differ on how many meteors to expect: NASA says often about three an hour, while EarthSky says 10 to 15 under a dark sky with no Moon.",
-   "ask": "City lights hide most of the stars. Should towns dim their lights at night so people can see the sky, or do bright streets matter more?",
-   "jobs": [
-    "Planetary scientist",
-    "Science writer",
-    "Lighting designer"
-   ]
-  },
-  "g-robots": {
-   "ctx": "Locking together with claws avoids using magnets, which can fail. Popular Science reports that each robot weighs about 600 grams without batteries. The robots are still being tested, in the laboratory and outdoors. They are not rescue robots in use.",
-   "ask": "Should rescue robots be allowed to decide things for themselves in an emergency, or should a person always stay in control?",
-   "jobs": [
-    "Robotics engineer",
-    "Mechanical engineer",
-    "Search and rescue technician"
+    "Endocrinologist",
+    "Diabetes specialist nurse",
+    "Dietitian"
    ]
   }
  },
@@ -1398,678 +736,12 @@
    "c": 1
   }
  },
- "sketches": {
-  "smog": {
-   "t": "Why smog gets trapped",
-   "c": "#0B7F75",
-   "steps": [
-    {
-     "o": "Cars, factories, farm fires and firecrackers all put smoke into the air.",
-     "x": "Cars, fires and firecrackers put smoke into the air.",
-     "d": [
-      {
-       "l": [
-        8,
-        192,
-        312,
-        192
-       ]
-      },
-      {
-       "r": [
-        28,
-        152,
-        40,
-        40
-       ]
-      },
-      {
-       "p": "M24 152 L48 132 L72 152"
-      },
-      {
-       "r": [
-        92,
-        118,
-        30,
-        74
-       ]
-      },
-      {
-       "l": [
-        100,
-        132,
-        114,
-        132
-       ]
-      },
-      {
-       "l": [
-        100,
-        148,
-        114,
-        148
-       ]
-      },
-      {
-       "l": [
-        100,
-        164,
-        114,
-        164
-       ]
-      },
-      {
-       "r": [
-        158,
-        172,
-        46,
-        14
-       ]
-      },
-      {
-       "p": "M166 172 L172 162 L192 162 L198 172"
-      },
-      {
-       "c": [
-        170,
-        188,
-        5
-       ]
-      },
-      {
-       "c": [
-        192,
-        188,
-        5
-       ]
-      },
-      {
-       "r": [
-        246,
-        128,
-        16,
-        64
-       ]
-      },
-      {
-       "r": [
-        262,
-        160,
-        34,
-        32
-       ]
-      },
-      {
-       "p": "M254 122 q-9 -9 0 -18 q9 -9 0 -18",
-       "acc": 1
-      },
-      {
-       "p": "M210 176 q8 -6 14 -2 q6 4 12 -2",
-       "acc": 1
-      },
-      {
-       "t": [
-        268,
-        100,
-        "smoke"
-       ],
-       "acc": 1
-      }
-     ]
-    },
-    {
-     "o": "On cold, still nights a layer of warm air settles above the city and acts like a lid.",
-     "x": "On cold, still nights, warm air sits on top like a lid.",
-     "d": [
-      {
-       "p": "M12 66 q19 -9 38 0 t38 0 t38 0 t38 0 t38 0 t38 0 t38 0 t30 0"
-      },
-      {
-       "t": [
-        96,
-        52,
-        "warm air lid"
-       ]
-      },
-      {
-       "a": [
-        254,
-        84,
-        254,
-        72
-       ],
-       "acc": 1
-      },
-      {
-       "l": [
-        246,
-        70,
-        262,
-        70
-       ]
-      },
-      {
-       "t": [
-        20,
-        112,
-        "cold air"
-       ]
-      }
-     ]
-    },
-    {
-     "o": "The smoke cannot rise, so it spreads sideways and builds up as smog. Wind or rain is what finally clears it.",
-     "x": "The smoke is stuck. It spreads out and becomes smog. Wind or rain clears it.",
-     "d": [
-      {
-       "p": "M22 86 q16 -7 32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0",
-       "acc": 1
-      },
-      {
-       "p": "M34 98 q16 -7 32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0",
-       "acc": 1
-      },
-      {
-       "p": "M140 110 q16 -7 32 0 t32 0 t32 0 t32 0",
-       "acc": 1
-      },
-      {
-       "t": [
-        150,
-        82,
-        "smog"
-       ],
-       "acc": 1
-      },
-      {
-       "a": [
-        306,
-        28,
-        262,
-        28
-       ]
-      },
-      {
-       "a": [
-        306,
-        40,
-        270,
-        40
-       ]
-      },
-      {
-       "t": [
-        212,
-        22,
-        "wind"
-       ]
-      }
-     ]
-    }
-   ]
-  },
-  "meteor": {
-   "t": "Why shooting stars glow",
-   "c": "#25317F",
-   "steps": [
-    {
-     "o": "A bit of space rock, often smaller than a pea, speeds towards Earth.",
-     "x": "A tiny space rock, smaller than a pea, flies towards Earth.",
-     "d": [
-      {
-       "p": "M0 204 Q160 156 320 204"
-      },
-      {
-       "t": [
-        138,
-        212,
-        "Earth"
-       ]
-      },
-      {
-       "p": "M0 150 Q160 102 320 150",
-       "acc": 1
-      },
-      {
-       "t": [
-        14,
-        138,
-        "air"
-       ],
-       "acc": 1
-      },
-      {
-       "c": [
-        276,
-        28,
-        5
-       ]
-      },
-      {
-       "a": [
-        266,
-        36,
-        236,
-        58
-       ]
-      },
-      {
-       "t": [
-        196,
-        22,
-        "space rock"
-       ]
-      }
-     ]
-    },
-    {
-     "o": "It hits the air at tens of kilometres per second and squeezes the air in front of it. Squeezed air gets extremely hot.",
-     "x": "It hits the air super fast and squashes it. Squashed air gets very hot.",
-     "d": [
-      {
-       "c": [
-        196,
-        92,
-        5
-       ]
-      },
-      {
-       "p": "M180 86 Q176 106 194 110",
-       "acc": 1
-      },
-      {
-       "p": "M172 82 Q166 110 192 118",
-       "acc": 1
-      },
-      {
-       "t": [
-        40,
-        96,
-        "squeezed, hot air"
-       ],
-       "acc": 1
-      },
-      {
-       "a": [
-        150,
-        98,
-        170,
-        100
-       ],
-       "acc": 1
-      }
-     ]
-    },
-    {
-     "o": "The heat makes the air and the rock glow, usually 70 to 100 km up. From the ground you see a bright streak.",
-     "x": "The hot air and rock glow. From the ground you see a bright streak!",
-     "d": [
-      {
-       "l": [
-        268,
-        36,
-        204,
-        86
-       ],
-       "acc": 1
-      },
-      {
-       "l": [
-        274,
-        44,
-        210,
-        92
-       ],
-       "acc": 1
-      },
-      {
-       "l": [
-        262,
-        30,
-        200,
-        78
-       ],
-       "acc": 1
-      },
-      {
-       "c": [
-        62,
-        150,
-        6
-       ]
-      },
-      {
-       "l": [
-        62,
-        156,
-        62,
-        174
-       ]
-      },
-      {
-       "l": [
-        62,
-        174,
-        55,
-        186
-       ]
-      },
-      {
-       "l": [
-        62,
-        174,
-        69,
-        186
-       ]
-      },
-      {
-       "l": [
-        62,
-        162,
-        76,
-        150
-       ]
-      },
-      {
-       "t": [
-        84,
-        146,
-        "look!"
-       ]
-      }
-     ]
-    }
-   ]
-  },
-  "orbit": {
-   "t": "How a satellite stays up",
-   "c": "#6B35D8",
-   "steps": [
-    {
-     "o": "Throw a ball from a tall tower and gravity curves it down to the ground.",
-     "x": "Throw a ball. It curves down and lands.",
-     "d": [
-      {
-       "c": [
-        160,
-        122,
-        54
-       ]
-      },
-      {
-       "t": [
-        142,
-        128,
-        "Earth"
-       ]
-      },
-      {
-       "l": [
-        160,
-        68,
-        160,
-        54
-       ]
-      },
-      {
-       "l": [
-        154,
-        54,
-        166,
-        54
-       ]
-      },
-      {
-       "p": "M162 54 Q186 54 196 80",
-       "acc": 1
-      },
-      {
-       "t": [
-        172,
-        40,
-        "throw"
-       ]
-      }
-     ]
-    },
-    {
-     "o": "Throw it faster and it lands further away, because the ground curves away beneath it while it falls.",
-     "x": "Throw it faster. It lands further away, because Earth is round.",
-     "d": [
-      {
-       "p": "M162 54 Q224 58 214 118",
-       "acc": 1
-      },
-      {
-       "t": [
-        228,
-        62,
-        "faster"
-       ]
-      }
-     ]
-    },
-    {
-     "o": "At about 28,000 km an hour it falls around Earth and never lands. That endless fall is an orbit, and it is how satellites stay up.",
-     "x": "Go fast enough and it keeps falling around Earth without landing. That is an orbit!",
-     "d": [
-      {
-       "c": [
-        160,
-        122,
-        68
-       ],
-       "acc": 1
-      },
-      {
-       "r": [
-        223,
-        117,
-        10,
-        10
-       ]
-      },
-      {
-       "l": [
-        215,
-        122,
-        223,
-        122
-       ]
-      },
-      {
-       "l": [
-        233,
-        122,
-        241,
-        122
-       ]
-      },
-      {
-       "t": [
-        246,
-        110,
-        "satellite"
-       ]
-      },
-      {
-       "t": [
-        44,
-        56,
-        "orbit"
-       ],
-       "acc": 1
-      }
-     ]
-    }
-   ]
-  },
-  "greenhouse": {
-   "t": "Why the planet is warming",
-   "c": "#0B7F75",
-   "steps": [
-    {
-     "o": "Sunlight passes through the air and warms the land and the sea.",
-     "x": "Sunlight comes down and warms the Earth.",
-     "d": [
-      {
-       "p": "M0 202 Q160 162 320 202"
-      },
-      {
-       "t": [
-        140,
-        212,
-        "Earth"
-       ]
-      },
-      {
-       "c": [
-        46,
-        42,
-        17
-       ]
-      },
-      {
-       "l": [
-        46,
-        14,
-        46,
-        6
-       ]
-      },
-      {
-       "l": [
-        20,
-        42,
-        10,
-        42
-       ]
-      },
-      {
-       "l": [
-        27,
-        23,
-        20,
-        16
-       ]
-      },
-      {
-       "l": [
-        65,
-        23,
-        72,
-        16
-       ]
-      },
-      {
-       "l": [
-        27,
-        61,
-        20,
-        68
-       ]
-      },
-      {
-       "a": [
-        68,
-        58,
-        118,
-        162
-       ],
-       "acc": 1
-      },
-      {
-       "a": [
-        78,
-        48,
-        160,
-        150
-       ],
-       "acc": 1
-      },
-      {
-       "t": [
-        122,
-        92,
-        "sunlight"
-       ],
-       "acc": 1
-      }
-     ]
-    },
-    {
-     "o": "The warm Earth sends heat back up. Much of it escapes into space, which keeps the planet from overheating.",
-     "x": "The warm Earth sends heat back up into space.",
-     "d": [
-      {
-       "p": "M214 160 q-9 -11 0 -22 q9 -11 0 -22 q-9 -11 0 -22"
-      },
-      {
-       "a": [
-        214,
-        94,
-        214,
-        70
-       ]
-      },
-      {
-       "t": [
-        176,
-        58,
-        "heat escapes"
-       ]
-      }
-     ]
-    },
-    {
-     "o": "Gases such as carbon dioxide, from burning coal, oil and gas, act like a blanket. They trap more of the heat, so the planet slowly warms.",
-     "x": "Gases from burning coal, oil and gas act like a blanket. They keep more heat in, so Earth gets warmer.",
-     "d": [
-      {
-       "p": "M150 112 q18 -9 36 0 t36 0 t36 0 t36 0 t22 0",
-       "acc": 1
-      },
-      {
-       "p": "M158 124 q18 -9 36 0 t36 0 t36 0 t36 0",
-       "acc": 1
-      },
-      {
-       "t": [
-        226,
-        104,
-        "gas blanket"
-       ],
-       "acc": 1
-      },
-      {
-       "p": "M268 162 Q262 142 272 132",
-       "acc": 1
-      },
-      {
-       "a": [
-        274,
-        132,
-        292,
-        160
-       ],
-       "acc": 1
-      },
-      {
-       "t": [
-        236,
-        182,
-        "trapped heat"
-       ],
-       "acc": 1
-      }
-     ]
-    }
-   ]
-  }
- },
- "sketchFor": {
-  "g-leonids": "meteor",
-  "g-starship-launch": "orbit"
+ "backThen": {
+  "y": 1969,
+  "t": "Apollo 12 is struck by lightning on its way to the Moon",
+  "o": "On this day in 1969, Apollo 12 lifted off from Florida with three astronauts: Pete Conrad, Richard Gordon and Alan Bean. In the first minute of the flight, the rocket was struck by lightning twice, and many of the spacecraft's systems went offline. A flight controller on the ground, John Aaron, called for a seldom-used switch to be changed. Alan Bean flipped it, the data came back and the flight went on. Five days later, on 19 November, Conrad and Bean landed in the Moon's Ocean of Storms.",
+  "x": "On this day in 1969, a rocket set off for the Moon with three astronauts. Lightning hit it twice! Flipping one switch helped to fix the problem. Five days later, two of the astronauts landed on the Moon.",
+  "why": "Apollo 12 was the second mission to land people on the Moon. It is remembered for the way a team on the ground and a crew in space fixed a serious problem together, in moments."
  },
  "hiddenWords": [
   {
@@ -2079,15 +751,12 @@
   {
    "k": "comet",
    "o": "Comet comes from a Greek phrase meaning long-haired star. It grew from the Greek word kome, the hair of the head. A comet's tail looked like streaming hair."
+  },
+  {
+   "k": "summit",
+   "o": "Summit comes from the Latin word summus, which means highest. It came into English through a French word meaning a little top, and summit came to mean the highest point of something, especially the top of a mountain. Today it also means a big meeting of top leaders."
   }
  ],
- "backThen": {
-  "y": 1969,
-  "t": "Apollo 12 is struck by lightning on its way to the Moon",
-  "o": "On this day in 1969, Apollo 12 lifted off from Florida with three astronauts: Pete Conrad, Richard Gordon and Alan Bean. In the first minute of the flight, the rocket was struck by lightning twice, and many of the spacecraft's systems went offline. A flight controller on the ground, John Aaron, called for a seldom-used switch to be changed. Alan Bean flipped it, the data came back and the flight went on. Five days later, on 19 November, Conrad and Bean landed in the Moon's Ocean of Storms.",
-  "x": "On this day in 1969, a rocket set off for the Moon with three astronauts. Lightning hit it twice! Flipping one switch helped to fix the problem. Five days later, two of the astronauts landed on the Moon.",
-  "why": "Apollo 12 was the second mission to land people on the Moon. It is remembered for the way a team on the ground and a crew in space fixed a serious problem together, in moments."
- },
  "bigStory": {
   "week": "2026-11-09",
   "story": "g-cop31",

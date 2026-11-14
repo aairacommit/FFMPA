@@ -17,7 +17,7 @@
     "t": "Planes across the US wait on the ground for hours",
     "b": [
      "On Friday, flights all over the United States were told to wait on the ground. [[air-traffic-control|Air traffic control]] centres help keep planes safe. These centres had a problem with their communication systems.",
-     "So planes waited on the ground. The stop ended after more than four hours.",
+     "The stop ended after more than four hours. Then planes could take off again.",
      "Thousands of flights were cancelled. Many more were late. A top official said an old system had failed."
     ]
    },
@@ -303,7 +303,7 @@
     "b": [
      "Chhath is a four-day festival dedicated to worshipping the Sun God, [[surya|Surya]]. It is celebrated mainly in [[bihar|Bihar]] and several other parts of the country. For those who celebrate, it is a time to give thanks and pray for family health and well-being.",
      "It began on Friday with Nahay Khay: a ritual bath, a clean home and a simple meal. Today is [[kharna|Kharna]], the second day. People fast all day, then eat kheer made with jaggery, and roti, in the evening. A fast of about 36 hours without food or water follows.",
-     "On Sunday, people gather at [[ghats|ghats]], the banks of rivers and ponds, to make an offering called [[arghya|arghya]] to the Sun at sunset. They carry fruit and other offerings in bamboo baskets. On Monday, standing in the water, they make another offering at sunrise. Then the fast ends."
+     "On Sunday, people gather at rivers, ponds and [[ghats|ghats]], steps that lead down to the water, to make an offering called [[arghya|arghya]] to the Sun at sunset. They carry fruit and other offerings in bamboo baskets. On Monday, standing in the water, they make another offering at sunrise. Then the fast ends."
     ]
    },
    "think": "Chhath is a time to give thanks. What is something you feel thankful for, and how do you show it?",
@@ -523,8 +523,8 @@
   "ghats": [
    "Ghats",
    "places",
-   "Places on the banks of rivers and ponds.",
-   "The banks of rivers, ponds and other water bodies, where people gather to make Chhath offerings."
+   "Steps that lead down to a river or pond.",
+   "Steps leading down to a river, pond or lake, where people gather to make Chhath offerings."
   ],
   "arghya": [
    "Arghya",

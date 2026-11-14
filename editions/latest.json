@@ -136,7 +136,7 @@
     "t": "Voyager 1 reaches one light-day from Earth on Wednesday",
     "b": [
      "On Wednesday 18 November, NASA's Voyager 1 spacecraft will be one [[light-day|light-day]] from Earth. A light-day is a distance: how far light travels in 24 hours. That is about 25.9 billion kilometres, so a signal sent from Earth will take a whole day to reach it.",
-     "Voyager 1 was launched in 1977. In 2012 it entered [[interstellar|interstellar space]], beyond the heliopause, the place where the Sun's constant flow of material stops affecting its surroundings. Most of its instruments are now switched off to save power.",
+     "Voyager 1 was launched in 1977. In 2012 it entered [[interstellar|interstellar space]], beyond the heliopause, the place where the Sun's constant flow of material stops affecting its surroundings.",
      "To mark the moment, NASA is inviting people everywhere to join an activity called Shine Bright. On Tuesday 17 November after sunset, they can use a phone, tablet or torch to flash VGR, Voyager's call sign or short name, in [[morse-code|Morse code]]. A NASA website can make phones and tablets flash it for them."
     ]
    },
@@ -719,7 +719,7 @@
   },
   "g-voyager": {
    "ctx": "Voyager 1 was launched in 1977 and entered interstellar space in 2012. NASA says it is the most distant human-made object. On 18 November it will be about 25.9 billion kilometres away, so far that light needs a full day to cover the distance.",
-   "ask": "Most of Voyager 1's instruments are now switched off to save power. Should space agencies keep very old missions running for as long as they can, or put that money and effort into new spacecraft?",
+   "ask": "Voyager 1 has been flying for nearly 50 years. Should space agencies keep very old missions running for as long as they can, or put that money and effort into new spacecraft?",
    "jobs": [
     "Spacecraft engineer",
     "Radio astronomer",

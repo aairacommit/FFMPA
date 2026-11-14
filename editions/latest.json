@@ -27,19 +27,19 @@
     "b": [
      "Today, 14 November, is [[childrens-day|Children's Day]] in India, also known as Bal Diwas. The date is the birthday of [[nehru|Jawaharlal Nehru]], who was born on 14 November 1889 in Allahabad, the city now called Prayagraj.",
      "Nehru became the first [[prime-minister|Prime Minister]] of independent India in 1947 and held the job until he died in 1964. Children fondly called him Chacha Nehru. He said that the children of today will make the India of tomorrow.",
-     "The world has a day for children too. The [[un|United Nations]] marks World Children's Day on 20 November. That is the date on which it adopted the Declaration of the Rights of the Child in 1959 and the Convention on the Rights of the Child in 1989."
+     "The world has a day for children too. The [[un|United Nations]] marks World Children's Day on 20 November. That is the date on which it adopted, or formally agreed, two agreements on children's rights: the Declaration of the Rights of the Child in 1959 and the Convention on the Rights of the Child in 1989."
     ]
    },
    "think": "Nehru said children will make the India of tomorrow. What is one thing you would like to make better?",
    "quiz": {
-    "q": "In which year was Jawaharlal Nehru born?",
+    "q": "What did children fondly call Jawaharlal Nehru?",
     "a": [
-     "1889",
-     "1947",
-     "1959",
-     "1964"
+     "Bapu",
+     "Chacha Nehru",
+     "Netaji",
+     "Gurudev"
     ],
-    "c": 0
+    "c": 1
    },
    "src": [
     [
@@ -80,19 +80,19 @@
     "b": [
      "A new [[vande-bharat|Vande Bharat]] Express has been launched to link [[bengaluru|Bengaluru]] with Mangaluru and with Madgaon in [[goa|Goa]]. Prime Minister Narendra Modi flagged it off from Bengaluru on Friday 13 November. Flagging off means giving the official signal for something to start, such as a train's first run.",
      "The train's stops include Hassan, Sakleshpur, Mangaluru, Udupi, Murdeshwar, Gokarna and Karwar. The train also serves coastal Karnataka, the part of the state near the sea.",
-     "On the same day, the electrification of a 55 km hill stretch of the line, between Sakleshpur and Subrahmanya Road, was inaugurated. A hill stretch like this is called a [[ghat|ghat section]]. [[electrification|Electrification]] means fitting a railway with electric power, so that electric engines can replace diesel ones. With this stretch done, the whole railway from Bengaluru to Mangaluru is electrified. Four redeveloped stations were also opened: Chamarajanagar, Chikkamagaluru, Sakleshpur and Subrahmanya Road."
+     "On the same day, the electrification of a 55 km hill stretch of the line, between Sakleshpur and Subrahmanya Road, was formally opened. A hill stretch like this is called a [[ghat|ghat section]]. [[electrification|Electrification]] means fitting a railway with electric power, so that electric engines can replace diesel ones. With this stretch done, the whole railway from Bengaluru to Mangaluru is electrified. Four redeveloped stations were also opened: Chamarajanagar, Chikkamagaluru, Sakleshpur and Subrahmanya Road."
     ]
    },
    "think": "Would you rather travel by train beside the sea or through the hills? Why?",
    "quiz": {
-    "q": "Which two places does the newly electrified 55 km hill stretch run between?",
+    "q": "The new train links Bengaluru and Mangaluru with Madgaon. In which state is Madgaon?",
     "a": [
-     "Sakleshpur and Subrahmanya Road",
-     "Udupi and Karwar",
-     "Hassan and Bengaluru",
-     "Gokarna and Madgaon"
+     "Kerala",
+     "Maharashtra",
+     "Goa",
+     "Tamil Nadu"
     ],
-    "c": 0
+    "c": 2
    },
    "src": [
     [
@@ -127,21 +127,21 @@
    "o": {
     "t": "India's first LED dome planetarium is inaugurated in Mysuru",
     "b": [
-     "India's first LED dome [[planetarium|planetarium]] was inaugurated, or formally opened, in [[mysuru|Mysuru]], Karnataka, on Friday 13 November by Prime Minister Narendra Modi. It is called the COSMOS-Mysuru Planetarium and was built by the [[iia|Indian Institute of Astrophysics]]. It stands on the University of Mysore campus, at the foot of the Chamundi Hills.",
+     "India's first LED dome [[planetarium|planetarium]] was inaugurated, or formally opened, in [[mysuru|Mysuru]], Karnataka, on Friday 13 November by Prime Minister Narendra Modi. It is called the COSMOS-Mysuru Planetarium and was built by the [[iia|Indian Institute of Astrophysics]]. It stands on the University of Mysore campus.",
      "A planetarium is a dome-shaped theatre that shows the night sky. Conventional, or ordinary, planetariums use a projector to throw pictures onto a plain dome. This one works differently. Its tilted 15-metre dome is lined with about 6,150 panels of [[led|LEDs]], which are tiny electric lights. There are 4.2 [[crore|crore]] LEDs in all, and the panels can be controlled in real time.",
-     "Its Sky Theatre will show programmes about [[astronomy|astronomy]], including a film that links the history of Mysuru with astronomy. Shows will be in Kannada, English and Hindi."
+     "Its Sky Theatre will show programmes about astronomy, the study of stars, planets and space, including a film that links the history of Mysuru with astronomy. Shows will be in Kannada, English and Hindi."
     ]
    },
    "think": "If you could make a show for the dome, which part of space would you show first?",
    "quiz": {
     "q": "How big is the planetarium's dome?",
     "a": [
-     "15 metres",
      "5 metres",
      "50 metres",
+     "15 metres",
      "150 metres"
     ],
-    "c": 0
+    "c": 2
    },
    "src": [
     [
@@ -185,12 +185,12 @@
    "quiz": {
     "q": "When is the museum's first gallery expected to open?",
     "a": [
-     "In the second half of 2027",
      "In the second half of 2026",
+     "In the second half of 2027",
      "In 2030",
      "In 2035"
     ],
-    "c": 0
+    "c": 1
    },
    "src": [
     [
@@ -215,8 +215,7 @@
     "b": [
      "[[vivaan|Vivaan Kapoor]] is a shooter from [[jaipur|Jaipur]]. He won a silver medal on Thursday.",
      "His sport is called [[trap|trap]]. Targets fly through the air, and shooters try to hit them.",
-     "In the final, Vivaan hit 29 targets out of 30. So did a shooter from Kuwait! They had a tie-breaker, and Vivaan came second.",
-     "His medal also wins India a place at the 2028 Olympic Games."
+     "In the final, Vivaan hit 29 targets out of 30. So did a shooter from Kuwait! They had a tie-breaker, and Vivaan came second. His medal also wins India a place at the 2028 Olympic Games."
     ]
    },
    "o": {
@@ -231,12 +230,12 @@
    "quiz": {
     "q": "How many of his 30 targets did Vivaan hit in the final?",
     "a": [
-     "29",
      "30",
      "19",
-     "9"
+     "9",
+     "29"
     ],
-    "c": 0
+    "c": 3
    },
    "src": [
     [
@@ -282,14 +281,14 @@
    },
    "think": "The booster catch did not happen this time. Why do you think engineers test things again and again?",
    "quiz": {
-    "q": "Where did the booster come down?",
+    "q": "What is the top part of the Starship rocket called?",
     "a": [
-     "In the Gulf of Mexico",
-     "On the launch tower",
-     "In the Pacific Ocean",
-     "In a desert"
+     "Booster",
+     "Tower",
+     "Starbase",
+     "Ship"
     ],
-    "c": 0
+    "c": 3
    },
    "src": [
     [
@@ -336,12 +335,12 @@
    "quiz": {
     "q": "The Dakar Games were the first Olympic event held on which continent?",
     "a": [
-     "Africa",
      "Asia",
+     "Africa",
      "Europe",
      "South America"
     ],
-    "c": 0
+    "c": 1
    },
    "src": [
     [
@@ -436,12 +435,12 @@
    },
    "think": "Would you take a slightly longer way to school to keep an animal safe? What if it took much longer?",
    "quiz": {
-    "q": "How many sea crossings did the scientists test on a computer?",
+    "q": "How did the scientists test their idea?",
     "a": [
-     "Eight",
-     "Two",
-     "Eighty",
-     "Eight hundred"
+     "On a computer",
+     "By sailing real ships",
+     "In a giant water tank",
+     "By following whale sharks in boats"
     ],
     "c": 0
    },
@@ -474,21 +473,21 @@
    "o": {
     "t": "Thousands of tiny animals found living inside deep-sea nodules",
     "b": [
-     "Far down on the muddy floor of the Pacific Ocean, 4,000 to 6,000 metres deep, lie dark lumps about the size of a fist. They are called [[nodule|nodules]], and they are made of iron and [[manganese|manganese]] oxides. They often grow only a few millimetres in a million years.",
-     "Scientists collected 244 nodules from an area called the Clarion-Clipperton Zone and opened them in a laboratory. In the cracks and pores they found 4,139 tiny animals, smaller than a millimetre. That is about 17 in each nodule. The animals inside were different from those in the mud around the nodules.",
+     "Far down on the muddy floor of the Pacific Ocean, 4,000 to 6,000 metres deep, lie dark lumps about the size of a fist. They are called [[nodule|nodules]], and they are made of iron and [[manganese|manganese]] oxides, which are metals joined with oxygen. They often grow only a few millimetres in a million years.",
+     "Scientists collected 244 nodules from an area called the Clarion-Clipperton Zone and opened them in a laboratory. In the cracks and pores they found 4,139 tiny animals, smaller than a millimetre. The animals inside were different from those in the mud around the nodules.",
      "The study was published on 11 November in the journal Scientific Reports. Nodules also contain nickel, cobalt and copper, which makes them a target for mining. The scientists say that because nodules form so slowly, [[deep-sea-mining|deep-sea mining]] would remove this home for good."
     ]
    },
    "think": "Why might a tiny animal live inside a hard lump instead of in the soft mud?",
    "quiz": {
-    "q": "About how many tiny animals lived in each nodule, on average?",
+    "q": "How many nodules did the scientists open?",
     "a": [
-     "17",
-     "2",
-     "170",
-     "1,700"
+     "24",
+     "244",
+     "2,440",
+     "4,139"
     ],
-    "c": 0
+    "c": 1
    },
    "src": [
     [
@@ -530,14 +529,14 @@
    },
    "think": "Should a beautiful old painting be kept where everyone can visit it? Why?",
    "quiz": {
-    "q": "When was the painting shown at the Ashmolean before now?",
+    "q": "In which city has the painting gone on show?",
     "a": [
-     "1934 to 1935",
-     "1470 to 1471",
-     "1903 to 1904",
-     "2024 to 2025"
+     "London",
+     "Florence",
+     "Oxford",
+     "Paris"
     ],
-    "c": 0
+    "c": 2
    },
    "src": [
     [
@@ -581,12 +580,12 @@
    "quiz": {
     "q": "How is Endeavour displayed in its new home?",
     "a": [
-     "Standing upright, as if ready to launch",
      "Lying flat on its wheels",
      "Hanging upside down",
+     "Standing upright, as if ready to launch",
      "Floating in a pool"
     ],
-    "c": 0
+    "c": 2
    },
    "src": [
     [
@@ -637,14 +636,14 @@
    },
    "think": "Why do you think people have always looked up at the night sky and told stories about it?",
    "quiz": {
-    "q": "Which comet leaves the dust that makes the Leonids?",
+    "q": "When is the best time to look for the Leonids?",
     "a": [
-     "Tempel-Tuttle",
-     "Halley",
-     "Hale-Bopp",
-     "Encke"
+     "Just after sunset",
+     "At midday",
+     "Only when the Moon is full",
+     "After midnight, before the Sun comes up"
     ],
-    "c": 0
+    "c": 3
    },
    "src": [
     [
@@ -737,12 +736,6 @@
    "science",
    "Learning about the past by digging up the things people left behind.",
    "The scientific study of people in the past, through the objects, buildings and bones they left behind."
-  ],
-  "astronomy": [
-   "Astronomy",
-   "science",
-   "The study of stars, planets and everything in space.",
-   "The science of everything beyond Earth: stars, planets, galaxies and the universe itself."
   ],
   "bengaluru": [
    "Bengaluru",
@@ -1163,10 +1156,10 @@
    "type": "check",
    "q": "What is the new dome lined with?",
    "a": [
-    "Tiny lights",
-    "Mirrors"
+    "Mirrors",
+    "Tiny lights"
    ],
-   "c": 0,
+   "c": 1,
    "right": "Right! About 4.2 crore tiny LED lights.",
    "wrong": "Not quite. The dome is lined with tiny LED lights."
   },
@@ -1185,10 +1178,10 @@
    "type": "check",
    "q": "Where were the Youth Olympic Games held?",
    "a": [
-    "In Africa",
-    "In Europe"
+    "In Europe",
+    "In Africa"
    ],
-   "c": 0,
+   "c": 1,
    "right": "Right! In Dakar, in Senegal.",
    "wrong": "Not quite. They were in Dakar, in Africa."
   },
@@ -1398,11 +1391,11 @@
    "remember": "A comet leaves a stream of dust. Earth passes through it. The dust glows as meteors. The Leonids come from comet Tempel-Tuttle.",
    "q": "Why is the shower called the Leonids?",
    "a": [
-    "Its meteors seem to come from the constellation Leo",
     "It was discovered by a man named Leo",
+    "Its meteors seem to come from the constellation Leo",
     "It can only be seen from a city called Leon"
    ],
-   "c": 0
+   "c": 1
   }
  },
  "sketches": {

@@ -83,7 +83,7 @@
     "b": [
      "India's [[lakshya|Lakshya Sen]] is into the men's singles final of the Kumamoto Masters Japan, a [[super-500|Super 500]] tournament. Super 500 is one level of tournament on badminton's world tour. On Saturday 14 November he beat Alwi Farhan of Indonesia 21-12, 15-21, 21-11 in the semifinal.",
      "Farhan is ranked world No. 10 and was the sixth [[seed|seed]], which means he was one of the top players, who are kept apart so the best do not meet in the early rounds. Lakshya had lost both of their earlier matches without winning a single game.",
-     "It is his second men's singles final in a row, after he won the Hylo Open. He is trying to reach the top eight of badminton's World Tour rankings, which would earn him a place at the World Tour Finals in Hangzhou, China. Next, he plays in the final."
+     "It is his second men's singles final in a row, after he won the Hylo Open. He is trying to reach the top eight of badminton's World Tour rankings, which would earn him a place at the World Tour Finals in Hangzhou, China."
     ]
    },
    "think": "Lakshya lost to Farhan twice, then beat him. What helps you keep trying after you lose at something?",
@@ -171,6 +171,63 @@
    ]
   },
   {
+   "id": "in-u19-final",
+   "scope": "IN",
+   "cat": "sports",
+   "emoji": "🏏",
+   "date": "2026-11-14",
+   "kind": "news",
+   "x": {
+    "t": "India's young cricketers win the Asia Cup",
+    "b": [
+     "India's [[under-19|under-19]] cricket team has won the Asia Cup. They beat Pakistan in Oman on Saturday.",
+     "Pakistan batted first and scored 337 runs. So India needed 338 runs to win. India got those runs in the last [[over|over]] of the match.",
+     "India won by one [[wicket|wicket]]. Nine of their batters were out by then. It was a very close match."
+    ]
+   },
+   "o": {
+    "t": "India's under-19 team wins Asia Cup by one wicket",
+    "b": [
+     "India beat Pakistan by one [[wicket|wicket]] in the final of the [[under-19|Under-19]] Asia Cup, played at Al Amerat in Oman on Saturday 14 November. In cricket, a team loses a wicket each time one of its batters is out, and Under-19 means the players are younger than 19. India won back the title from Pakistan, who had won the last tournament.",
+     "Pakistan batted first and scored 337 runs for the loss of 9 wickets in their 50 [[over|overs]]. An over is six balls bowled by one bowler. That set India a target of 338, the number of runs they needed to win.",
+     "India reached the target in the final over, finishing on 339 for the loss of 9 wickets. Both teams scored more than 330 runs, and the result was decided only at the very end of the match."
+    ]
+   },
+   "think": "Have you ever played a game that was close right to the end? How can both teams be good sports when a game is that close?",
+   "quiz": {
+    "q": "How many runs did India need to win the match?",
+    "a": [
+     "237",
+     "100",
+     "338",
+     "500"
+    ],
+    "c": 2
+   },
+   "src": [
+    [
+     "PTI via The Tribune, 14 Nov",
+     "https://www.tribuneindia.com/news/cricket/u-19-asia-cup-india-beat-pakistan-by-one-wicket-in-last-ball-thriller-to-regain-title"
+    ],
+    [
+     "ANI via The Tribune, 14 Nov",
+     "https://www.tribuneindia.com/news/acc-asia-cup/diwali-fireworks-continue-in-oman-india-u-19-pull-off-1-wicket-cliffhanger-against-pakistan-to-clinch-asia-cup-title"
+    ],
+    [
+     "IANS, 13 Nov",
+     "https://ianslive.in/u-19-asia-cup-india-eye-record-ninth-title-with-revenge-against-arch-rival-pakistan-preview--20261113162055"
+    ],
+    [
+     "Arab News, 21 Dec 2025",
+     "https://www.arabnews.pk/node/2627034/pakistan"
+    ],
+    [
+     "Britannica",
+     "https://www.britannica.com/sports/cricket-sport"
+    ]
+   ]
+  },
+  {
    "id": "g-summit",
    "scope": "global",
    "cat": "world",
@@ -246,7 +303,7 @@
     "b": [
      "Chhath is a four-day festival dedicated to worshipping the Sun God, [[surya|Surya]]. It is celebrated mainly in [[bihar|Bihar]] and several other parts of the country. For those who celebrate, it is a time to give thanks and pray for family health and well-being.",
      "It began on Friday with Nahay Khay: a ritual bath, a clean home and a simple meal. Today is [[kharna|Kharna]], the second day. People fast all day, then eat kheer made with jaggery, and roti, in the evening. A fast of about 36 hours without food or water follows.",
-     "On Sunday, people gather at [[ghats|ghats]], the banks of rivers and ponds, to make an offering called [[arghya|arghya]] to the Sun at sunset. They carry homemade thekua and fruit in bamboo baskets. On Monday, standing in the water, they make another offering at sunrise. Then the fast ends."
+     "On Sunday, people gather at [[ghats|ghats]], the banks of rivers and ponds, to make an offering called [[arghya|arghya]] to the Sun at sunset. They carry fruit and other offerings in bamboo baskets. On Monday, standing in the water, they make another offering at sunrise. Then the fast ends."
     ]
    },
    "think": "Chhath is a time to give thanks. What is something you feel thankful for, and how do you show it?",
@@ -303,7 +360,7 @@
     "t": "World Diabetes Day puts the spotlight on finding diabetes early",
     "b": [
      "Today, 14 November, is World Diabetes Day. [[diabetes|Diabetes]] is a lifelong condition in which the body has trouble controlling its sugar level. The International Diabetes Federation (IDF) and the World Health Organization (WHO) created the day in 1991. The date is the birthday of [[banting|Frederick Banting]], who discovered [[insulin|insulin]] with Charles Best. Insulin is a hormone, a chemical messenger made in the body. It controls the amount of sugar and moves it into cells, where it is used for energy.",
-     "Type 2 diabetes usually develops slowly and may cause few signs, so it can go unnoticed for years. More than four in ten people with diabetes do not know they have it.",
+     "There is more than one type of diabetes. One type, called type 2, usually develops slowly and may cause few signs, so it can go unnoticed for years. More than four in ten people with diabetes do not know they have it.",
      "This year's theme is Early action on diabetes. The focus is on finding diabetes early, also known as early diagnosis."
     ]
    },
@@ -402,6 +459,24 @@
    "words",
    "A code that spells letters with short and long signals.",
    "A code that spells out letters using short and long signals, such as flashes of light or beeps."
+  ],
+  "wicket": [
+   "wicket",
+   "words",
+   "In cricket, a team loses a wicket each time one of its batters is out.",
+   "In cricket, a team loses a wicket each time one of its batters is out; the bowling side is said to take that wicket."
+  ],
+  "under-19": [
+   "under-19",
+   "words",
+   "An under-19 team is for players younger than 19.",
+   "A team or competition only for players younger than 19."
+  ],
+  "over": [
+   "over",
+   "words",
+   "In cricket, an over is six balls bowled by one bowler.",
+   "In cricket, an over is a set of six balls bowled by one bowler. In this final, each team could bat for up to 50 overs."
   ],
   "summit": [
    "Summit",
@@ -528,6 +603,11 @@
    "v": "25.9 billion km",
    "l": "about how far Voyager 1 will be from Earth on 18 November"
   },
+  "in-u19-final": {
+   "type": "number",
+   "v": "1 wicket",
+   "l": "India's winning margin in the Under-19 Asia Cup final"
+  },
   "in-chhath": {
    "type": "number",
    "v": "4 days",
@@ -572,6 +652,17 @@
    "c": 1,
    "right": "Right! A phone or a torch will do.",
    "wrong": "Not quite. People will flash a light, like a phone or a torch."
+  },
+  "in-u19-final": {
+   "type": "check",
+   "q": "Which team won the Under-19 Asia Cup?",
+   "a": [
+    "Pakistan",
+    "India"
+   ],
+   "c": 1,
+   "right": "Right! India won by just one wicket.",
+   "wrong": "Not quite. India won, by just one wicket."
   },
   "g-summit": {
    "type": "check",
@@ -633,6 +724,15 @@
     "Spacecraft engineer",
     "Radio astronomer",
     "Mission controller"
+   ]
+  },
+  "in-u19-final": {
+   "ctx": "Pakistan were the defending champions, having won the last Under-19 Asia Cup. This time they batted first and made 337 for 9 in 50 overs, and India finished on 339 for 9 in the final over. Because 50 overs is 300 balls, India needed more than one run for every ball to win.",
+   "ask": "In a run chase, is it better for the team batting second to play safely and protect its wickets, or to score quickly and take more risks?",
+   "jobs": [
+    "Cricket coach",
+    "Sports data analyst",
+    "Cricket umpire"
    ]
   },
   "g-summit": {

@@ -22,10 +22,18 @@ console.log(`${C.cases.length-bad}/${C.cases.length} cases pass, ${out.length} g
     ["India: the evening after a late evening edition is on time again", mk(true), "Asia/Kolkata", "2026-11-18T14:30:00Z", "2026-11-18-pm"],
     ["Sydney with a one entry log still shows it", [{id:"2026-11-13-pm",seen:"2026-11-13T14:00:00Z"}], "Australia/Sydney", "2026-11-14T03:00:00Z", "2026-11-13-pm"],
   ];
-  // late morning edition (after three review rounds, 09:30 IST): shown as soon as merged? no, more than 3 hours late: at 19:00 it is shown
+  // late morning edition (after three review rounds, 09:30 IST): daytime, so shown as soon as it is merged
   const late=mk(false).map(e=>e.id==="2026-11-16-am"?{id:e.id,seen:"2026-11-16T04:00:00Z"}:e);
   T.push(["India: morning edition merged at 09:30 IST appears by the evening release", late, "Asia/Kolkata", "2026-11-16T13:31:00Z", "2026-11-16-am"]);
   T.push(["India: and the evening edition after it still arrives that evening", late, "Asia/Kolkata", "2026-11-16T14:30:00Z", "2026-11-16-pm"]);
+  T.push(["India: morning edition merged at 09:30 IST shows at once", late, "Asia/Kolkata", "2026-11-16T04:01:00Z", "2026-11-16-am"]);
+  { const base=[{id:"2026-11-13-pm",seen:"2026-11-13T14:44:37Z"}];
+    T.push(["India: 14 Nov morning edition merged at 11:50 IST shows at once", [...base,{id:"2026-11-14-am",seen:"2026-11-14T06:20:01Z"}], "Asia/Kolkata", "2026-11-14T06:21:00Z", "2026-11-14-am"]);
+    // London: a late edition landing at 20:59 shows at once (daytime); one landing at 22:30 (night, over 3 hours
+    // after the 19:00 release) waits for 06:00
+    T.push(["London: late edition landing 20:59 local shows at once", [...base,{id:"2026-11-14-am",seen:"2026-11-14T20:59:00Z"}], "Europe/London", "2026-11-14T20:59:30Z", "2026-11-14-am"]);
+    T.push(["London: late edition landing 22:30 local waits for the next release", [...base,{id:"2026-11-14-am",seen:"2026-11-14T22:30:00Z"}], "Europe/London", "2026-11-14T23:30:00Z", "2026-11-13-pm"]);
+    T.push(["London: and shows at 06:00", [...base,{id:"2026-11-14-am",seen:"2026-11-14T22:30:00Z"}], "Europe/London", "2026-11-15T06:00:30Z", "2026-11-14-am"]); }
   let b2=0; for(const [why,log,tz,now,id,amT,pmT] of T){ const r=ctx.ffEditionFor(log,Date.parse(now),tz,amT||"06:00",pmT||"19:00"); if(!r||r.id!==id){ b2++; console.log("FAIL",why,JSON.stringify(r)); } }
   { const lag=JSON.parse(fs.readFileSync(new URL("./schedule_lag_log.json",import.meta.url),"utf8"));
     // one late merge (3 Nov pm at 07:00 IST on the 4th, 4 Nov am at 07:30 IST) must not leave India a day behind

@@ -1987,8 +1987,9 @@ const BUDDY = '<svg class="buddy" viewBox="0 0 48 48" aria-hidden="true" focusab
    Editions are approved once (in India) but families see them on their own clock. Each edition has a due
    time in the family's time zone: edition D-am at the morning time (06:00) on day D, D-pm at the evening
    time (19:00) on day D. An edition shows at its due time if it has landed by then. If it lands after its
-   due time, it shows the moment it lands when that is within 3 hours after one of the family's releases
-   (so India sees editions as soon as they are approved), and otherwise at the family's next release. The family sees the
+   due time, it shows the moment it lands when that is in the daytime (06:00 to 20:59 local) or within
+   3 hours after one of the family's releases, and otherwise (at night) at the family's next release. So
+   India sees editions as soon as they are approved, even when one is merged hours late. The family sees the
    newest edition that is showable. Nothing depends on history, so the answer only changes at a release or
    when an edition lands, never steps back (unless an edition is rolled back) and never changes at midnight.
    In normal operation every zone sees every edition; an edition merged so late that a newer one is due by
@@ -1999,6 +2000,7 @@ const BUDDY = '<svg class="buddy" viewBox="0 0 48 48" aria-hidden="true" focusab
    family's clock (so the label says Morning or Evening for them).
    The same rules live in cloudrun/main.py (visible_edition); tests/schedule_cases.json checks both. */
 const FF_LATE_MS=3*3600*1000; /* a late edition landing up to 3 hours after a release shows as it lands */
+const FF_DAY=[6,21];          /* ...and so does one landing in the daytime, 06:00 to 20:59 local */
 const FF_FMT={};
 function ffTzOffset(ms,tz){
   const f=FF_FMT[tz]||(FF_FMT[tz]=new Intl.DateTimeFormat("en-US",{timeZone:tz,hourCycle:"h23",year:"numeric",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit",second:"2-digit"}));
@@ -2038,7 +2040,9 @@ function ffEditionFor(log,nowMs,tz,amTime,pmTime){
     let show, slot, at;
     if(t<=due){ show=due; slot=m[4]; at=due; }                       /* landed in time: shows when due */
     else { const [p,n]=around(t);
-      if(t<=p.t+FF_LATE_MS){ show=t; slot=p.slot; at=p.t; }        /* within 3 hours of a release: shows as it lands */
+      const h=new Date(t+ffTzOffset(t,tz)).getUTCHours();
+      /* late: shows as it lands in the daytime (06:00 to 20:59 local) or within 3 hours of a release */
+      if(t<=p.t+FF_LATE_MS||(h>=FF_DAY[0]&&h<FF_DAY[1])){ show=t; slot=p.slot; at=p.t; }
       else { show=n.t; slot=n.slot; at=n.t; } }                     /* otherwise it waits for the next release */
     if(show<=nowMs&&(!best||e.id>best.id)) best={id:e.id,slot,at};
   }

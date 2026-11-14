@@ -6,7 +6,7 @@ from playwright.sync_api import sync_playwright
 
 ROOT = os.path.join(os.path.dirname(__file__), "..")
 APP = open(os.path.join(ROOT, "src", "index.html")).read()
-LATEST = json.load(open(os.path.join(ROOT, "editions", "latest.json")))
+LATEST = json.load(open(os.path.join(ROOT, "editions", "2026-11-13-pm.json")))  # fixed test data (latest.json moves on)
 AM = json.load(open(os.path.join(ROOT, "editions", "2026-11-13-am.json")))
 LOG = json.load(open(os.path.join(ROOT, "tests", "schedule_cases.json")))["log"]
 FILES = {"2026-11-13-am.json": AM, "2026-11-13-pm.json": LATEST, "latest.json": LATEST}

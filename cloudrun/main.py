@@ -135,6 +135,7 @@ def stories():
 # ---------------------------------------------------------------- local edition schedule
 # Same rules as src/schedule.js (ffEditionFor). tests/schedule_cases.json checks both.
 LATE_SECONDS = 3 * 3600  # a late edition landing up to 3 hours after a release shows as it lands
+DAY = (6, 21)            # ...and so does one landing in the daytime, 06:00 to 20:59 local
 EDITION_ID = re.compile(r"^\d{4}-\d{2}-\d{2}-(am|pm)\Z")
 
 def _zone(tz):
@@ -155,7 +156,8 @@ def visible_edition(log, now, tz, am_time="06:00", pm_time="19:00"):
     """log: [{id, seen}], now: unix seconds. Returns {"id", "slot", "at"} or None. Same rules as
     ffEditionFor in src/schedule.js: each edition is due at its own local release (D-am at the morning time
     on day D, D-pm at the evening time); it shows when due if it landed by then; if later, as it lands
-    when within 3 hours after a release, otherwise at the next release. The newest showable edition wins."""
+    in the daytime (06:00 to 20:59 local) or within 3 hours after a release, otherwise at the next release.
+    The newest showable edition wins."""
     z = _zone(tz)
     am, pm = _hm(am_time, (6, 0)), _hm(pm_time, (19, 0))
     # the evening time must be 11 to 13 hours after the morning time; otherwise use 06:00 and 19:00
@@ -197,7 +199,9 @@ def visible_edition(log, now, tz, am_time="06:00", pm_time="19:00"):
             show, slot, at = due, eid[11:], due
         else:
             (p_t, p_slot), (n_t, n_slot) = around(t)
-            if t <= p_t + LATE_SECONDS:    # within 3 hours of a release: shows as it lands
+            hour = dt.datetime.fromtimestamp(t, z).hour
+            # late: shows as it lands in the daytime (06:00 to 20:59 local) or within 3 hours of a release
+            if t <= p_t + LATE_SECONDS or DAY[0] <= hour < DAY[1]:
                 show, slot, at = t, p_slot, p_t
             else:                          # otherwise it waits for the next release
                 show, slot, at = n_t, n_slot, n_t

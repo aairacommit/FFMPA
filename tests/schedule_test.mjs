@@ -48,17 +48,19 @@ console.log(`${C.cases.length-bad}/${C.cases.length} cases pass, ${out.length} g
   const zones={"Asia/Kolkata":5.5,"America/New_York":-5,"America/Los_Angeles":-8,"Europe/London":0,"Europe/Berlin":1,"Asia/Seoul":9,"Australia/Sydney":11};
   let fails=0;
   for(const [tz,off] of Object.entries(zones)){
-    let arrivals=0;  // how many times an edition appeared outside 6:00 / 7:00 local (+/- 1 minute)
+    let arrivals=0, nightChanges=0;  // changes outside 6:00 / 7:00 local, and those at night (21:00 to 6:00)
     let prev=null;
     for(let t=Date.parse("2026-11-16T00:00:00Z"); t<=Date.parse("2026-11-23T00:00:00Z"); t+=60*1000){
       const r=ctx.ffEditionFor(log,t,tz,"06:00","19:00"); const id=r&&r.id;
       if(prev&&id!==prev){ const local=new Date(t+off*3600e3); const hm=local.getUTCHours()*60+local.getUTCMinutes();
-        if(hm!==360&&hm!==1140) arrivals++; }
+        if(hm!==360&&hm!==1140){ arrivals++; if((hm<360||hm>=1260)&&!(hm>1140&&hm<=1320)) nightChanges++; } }
       prev=id;
     }
-    const allowed=tz==="Asia/Kolkata"?14:2;  // India: editions land after 6:00 / 7:00 and show at once; elsewhere at most the skip
-    if(arrivals>allowed){ fails++; console.log("STEADY FAIL",tz,"off-slot changes:",arrivals); }
-    else console.log("steady",tz,"off-slot changes:",arrivals);
+    // Off-slot changes are allowed only in the daytime (a late edition shows as it lands) or within 3 hours
+    // of a release; never at night. Europe and the Americas should see none at all in steady state.
+    const westNone=["America/New_York","America/Los_Angeles","Europe/London","Europe/Berlin"].includes(tz);
+    if(nightChanges||(westNone&&arrivals)){ fails++; console.log("STEADY FAIL",tz,"off-slot changes:",arrivals,"at night:",nightChanges); }
+    else console.log("steady",tz,"off-slot changes:",arrivals,"(none at night)");
   }
   // Every zone sees every edition and never steps back, for several patterns of merge times (with jitter,
   // late merges and a skipped edition), including the far ends of the world.

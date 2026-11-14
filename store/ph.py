@@ -23,7 +23,7 @@ def phones(shots, xs=(560, 880), ys=(80, 60), rot=(-3, 3)):
 
 SLIDES = [
     ("1_hero", "#5B35E8", "#1E0F5C", '<div class="lg">ffmpa</div>', "Real news,", "made for kids",
-     "A calm morning and evening edition for ages 5 to 15. Every story checked by a human editor.", ["1_today", "2_story"]),
+     "A calm morning and evening edition for ages 5 to 15. Every story fact checked before it goes out.", ["1_today", "2_story"]),
     ("2_levels", "#0B7F75", "#05433E", "", "One story,", "three reading levels",
      "Explorers (5 to 9), Thinkers (10 to 12) and Navigators (13 to 15) read the same news at the right depth.", ["9_explorers", "10_navigators"]),
     ("3_learn", "#D9481E", "#6E1E07", "", "News that", "explains itself",
@@ -42,12 +42,12 @@ h1{position:absolute;left:50px;top:34px;font-size:40px;font-weight:800;letter-sp
 .run{background:linear-gradient(135deg,#1A73E8,#0B4FB3);border-color:#8AB4F8;box-shadow:0 0 0 6px rgba(138,180,248,.15)}
 .tag{display:inline-block;background:#FFD84D;color:#1B1340;font-weight:800;font-size:13px;border-radius:99px;padding:3px 10px;margin-bottom:8px}
 svg{position:absolute;inset:0}</style>
-<h1>How FFMPA works <span>on Google Cloud Run</span></h1><div class="sub">Twice a day: draft, human approval, publish, alert. Nothing personal leaves the database.</div>
+<h1>How FFMPA works <span>on Google Cloud Run</span></h1><div class="sub">Twice a day: draft, fact check, review, publish, alert. Nothing personal leaves the database.</div>
 <svg width="1270" height="760"><defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#8AB4F8"/></marker></defs>
 <g stroke="#8AB4F8" stroke-width="3" fill="none" marker-end="url(#a)">
 <path d="M290 225 H360"/><path d="M590 225 H660"/><path d="M780 305 V338"/><path d="M660 425 H560"/><path d="M900 425 H980"/><path d="M780 520 V588"/><path d="M445 588 V530"/><path d="M1100 365 V335"/></g></svg>
-<div class="b" style="left:50px;top:150px;width:240px"><h3>Daily draft</h3>Scheduled agent gathers news from the last 3 days, writes 3 reading levels, runs fact and safety checks<small>5:10 am and 5:10 pm IST</small></div>
-<div class="b" style="left:360px;top:150px;width:230px"><h3>Editor approval</h3>Draft opens a pull request on GitHub. A human merges it to publish<small>editions/latest.json</small></div>
+<div class="b" style="left:50px;top:150px;width:240px"><h3>Daily draft</h3>Scheduled agent gathers news from the last 3 days, writes 3 reading levels, runs fact and safety checks<small>4:10 am and 5:10 pm IST</small></div>
+<div class="b" style="left:360px;top:150px;width:230px"><h3>Independent review</h3>Fact check, standards and review agents; merged only on a pass<small>editions/latest.json</small></div>
 <div class="b" style="left:660px;top:150px;width:240px"><h3>Cloud Scheduler</h3>Calls the newsroom every 10 minutes<small>idempotent: each edition sent once</small></div>
 <div class="b run" style="left:660px;top:340px;width:240px;height:180px"><span class="tag">CLOUD RUN</span><h3>ffmpa-newsroom</h3>Python service: edition alerts and public story pages<small>asia-south1, scales to zero</small></div>
 <div class="b" style="left:330px;top:340px;width:230px;height:190px"><h3>Supabase (Mumbai)</h3>Families, progress, classes and push subscriptions, protected by row level security</div>

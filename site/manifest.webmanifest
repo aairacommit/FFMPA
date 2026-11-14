@@ -2,7 +2,7 @@
  "id": "/app/",
  "name": "FFMPA Kids News",
  "short_name": "FFMPA",
- "description": "Real news made for kids aged 5 to 15. Short, calm stories at three reading levels, twice a day, checked by human editors. No links out, no tracking. Free to start.",
+ "description": "Real news made for kids aged 5 to 15. Short, calm stories at three reading levels, twice a day, fact checked before they go out. No links out, no tracking. Free to start.",
  "start_url": "/app/?source=homescreen",
  "scope": "/",
  "display": "standalone",

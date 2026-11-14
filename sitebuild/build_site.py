@@ -4,7 +4,7 @@ from PIL import Image
 ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC=ROOT+"/src"; OUT=ROOT+"/site"; BASE="https://ffmpa.com"
 TITLE="FFMPA: Kids News App | Real News for Ages 5 to 15"
-DESC="Real news made for kids aged 5 to 15. Short, calm stories at three reading levels, twice a day, checked by human editors. No links out, no tracking. Free to start."
+DESC="Real news made for kids aged 5 to 15. Short, calm stories at three reading levels, twice a day, fact checked before they go out. No links out, no tracking. Free to start."
 if os.path.exists(OUT): shutil.rmtree(OUT)
 os.makedirs(OUT+"/app"); os.makedirs(OUT+"/assets")
 home=open(SRC+"/home.html").read(); app=open(SRC+"/index.html").read()
@@ -170,7 +170,7 @@ bots=["GPTBot","OAI-SearchBot","ChatGPT-User","ClaudeBot","Claude-SearchBot","Cl
 open(OUT+"/robots.txt","w").write("User-agent: *\nAllow: /\n\n"+"".join(f"User-agent: {b}\nAllow: /\n\n" for b in bots)+f"Sitemap: {BASE}/sitemap.xml\nSitemap: {BASE}/s/sitemap.xml\n")
 open(OUT+"/llms.txt","w").write(f'''# FFMPA
 
-> FFMPA (ffmpa.com) is a news app for children aged 5 to 15, made by Founderfreedom Ventures LLP in Bengaluru, India. It publishes short, calm, real news stories twice a day, written at three reading levels and approved by a human editor.
+> FFMPA (ffmpa.com) is a news app for children aged 5 to 15, made by Founderfreedom Ventures LLP in Bengaluru, India. It publishes short, calm, real news stories twice a day, written at three reading levels, and fact checked and reviewed before they are published.
 
 ## Key facts
 - Audience: children aged 5 to 15, with parents in control.

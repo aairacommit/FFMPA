@@ -1,6 +1,6 @@
 # FFMPA
 
-> FFMPA (ffmpa.com) is a news app for children aged 5 to 15, made by Founderfreedom Ventures LLP in Bengaluru, India. It publishes short, calm, real news stories twice a day, written at three reading levels and approved by a human editor.
+> FFMPA (ffmpa.com) is a news app for children aged 5 to 15, made by Founderfreedom Ventures LLP in Bengaluru, India. It publishes short, calm, real news stories twice a day, written at three reading levels, and fact checked and reviewed before they are published.
 
 ## Key facts
 - Audience: children aged 5 to 15, with parents in control.

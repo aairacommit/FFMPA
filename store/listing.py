@@ -1,8 +1,8 @@
 TITLE="FFMPA: Daily News for Kids"
-SHORT="Real news for kids aged 5 to 15. Calm daily stories, checked by real editors."
+SHORT="Real news for kids aged 5 to 15. Calm daily stories, fact checked every edition."
 FULL="""Real news, made for kids.
 
-FFMPA gives children aged 5 to 15 a short, calm edition of real news every morning and evening. Every story is written for their reading level and approved by a human editor before it goes out. No endless feed: the edition ends, and so does screen time.
+FFMPA gives children aged 5 to 15 a short, calm edition of real news every morning and evening. Every story is written for their reading level and fact checked and reviewed before it goes out. No endless feed: the edition ends, and so does screen time.
 
 WHY FAMILIES CHOOSE FFMPA
 • Three reading levels: Explorers (5 to 9), Thinkers (10 to 12) and Navigators (13 to 15)

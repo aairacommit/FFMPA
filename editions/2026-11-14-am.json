@@ -522,7 +522,7 @@
    "o": {
     "t": "A cleaned-up Botticelli goes on show after nearly leaving Britain",
     "b": [
-     "A painting made in the 1470s by the Italian artist [[botticelli|Sandro Botticelli]] has gone on public display this week at the Ashmolean Museum in [[oxford|Oxford]], England. It is called The Virgin and Child Enthroned.",
+     "A painting made around 1470 by the Italian artist [[botticelli|Sandro Botticelli]] has gone on public display this week at the Ashmolean Museum in [[oxford|Oxford]], England. It is called The Virgin and Child Enthroned.",
      "The painting was sold in London in December 2024 for 9.7 million pounds. In May 2025 the UK government put a temporary [[export-bar|export bar]] on it. That is a pause on sending an important artwork abroad, to give a UK museum time to try to buy it. A private collection based in London, the Klesch Collection, bought it and has lent it to the Ashmolean for three years.",
      "Over the summer, experts called conservators removed yellowed [[varnish|varnish]] and paint that had been added later. The painting was shown at the Ashmolean before, in 1934 to 1935. Back then it was thought to come from Botticelli's workshop. Now it is believed to be by Botticelli himself."
     ]
@@ -631,7 +631,7 @@
     "b": [
      "The [[leonids|Leonid]] [[meteor|meteor]] shower is expected to peak around 17 and 18 November. A meteor shower happens when Earth passes through a stream of dust and bits left behind by a [[comet|comet]]. The bits glow as they speed into the air, and we see them as shooting stars.",
      "The Leonids come from a comet called Tempel-Tuttle, which goes around the Sun about once every 33 years. The meteors seem to come from the [[constellation|constellation]] Leo, the Lion, which gives the shower its name.",
-     "This year the Moon sets around midnight, so its light should not spoil the view. The best time to watch is between midnight and dawn on the mornings of Tuesday 17 and Wednesday 18 November. Under a dark sky you might see 10 to 15 meteors an hour. You do not need a telescope. Find a dark place and look across the whole sky."
+     "This year the Moon sets around midnight, so its light should not spoil the view. The best time to watch is between midnight and dawn on the mornings of Tuesday 17 and Wednesday 18 November. Under a dark sky you might see between 3 and 15 meteors an hour. You do not need a telescope. Find a dark place and look across the whole sky."
     ]
    },
    "think": "Why do you think people have always looked up at the night sky and told stories about it?",
@@ -1121,8 +1121,8 @@
   },
   "g-botticelli": {
    "type": "number",
-   "v": "1470s",
-   "l": "when Botticelli made the painting"
+   "v": "c. 1470",
+   "l": "about when Botticelli made the painting"
   },
   "g-endeavour": {
    "type": "number",
@@ -1307,7 +1307,7 @@
    ]
   },
   "g-leonids": {
-   "ctx": "Leonid meteors travel at about 71 kilometres per second, according to NASA figures quoted by Space.com. Space.com and EarthSky give the peak as the night of 17 to 18 November, while NASA's page lists the night before, so the early hours of both Tuesday and Wednesday are worth a look. Comet Tempel-Tuttle is next due to return in 2031.",
+   "ctx": "Leonid meteors travel at about 71 kilometres per second, according to NASA figures quoted by Space.com. Space.com and EarthSky give the peak as the night of 17 to 18 November, while NASA's page lists the night before, so the early hours of both Tuesday and Wednesday are worth a look. Comet Tempel-Tuttle is next due to return in 2031. The sources also differ on how many meteors to expect: NASA says often about three an hour, while EarthSky says 10 to 15 under a dark sky with no Moon.",
    "ask": "City lights hide most of the stars. Should towns dim their lights at night so people can see the sky, or do bright streets matter more?",
    "jobs": [
     "Planetary scientist",

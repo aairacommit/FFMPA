@@ -1361,7 +1361,7 @@ const S = [
 ];
 
 
-/* Key boxes: one optional, tappable reading aid per story (drafted with the story, approved by the editor) */
+/* Key boxes: one optional, tappable reading aid per story (drafted with the story, passed by the newsroom review) */
 const KEYS = {
  "in-air":{type:"number", v:"~400", l:"AQI in Delhi on 9 November: Very poor", scale:"aqi", sel:4},
  "in-chess":{type:"number", v:"24 Nov", l:"the title match starts, and it can run until 12 December"},
@@ -1916,7 +1916,7 @@ function renderWelcome(){
   const w=$("#welcome"), top=`<div class="wsun" aria-hidden="true"><svg class="buddy" viewBox="0 0 48 48" aria-hidden="true" focusable="false"><path fill="url(#ffg)" d="M18 5h12a13 13 0 0 1 13 13v5a13 13 0 0 1-13 13H21l-8.5 7.5V35.2A13 13 0 0 1 5 23v-5A13 13 0 0 1 18 5z"/><g class="eyes"><ellipse cx="19" cy="19.5" rx="3.3" ry="4.1" fill="#fff"/><ellipse cx="29.5" cy="19.5" rx="3.3" ry="4.1" fill="#fff"/><g class="pup"><circle cx="19.9" cy="18.7" r="1.7" fill="#1B1340"/><circle cx="30.4" cy="18.7" r="1.7" fill="#1B1340"/></g></g><path class="smile" d="M19.6 27.4q4.9 4.3 9.8 0" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/><path class="spark" fill="#FFB020" stroke="#fff" stroke-width="1.2" stroke-linejoin="round" d="M42 1.8l1.5 3.7 3.7 1.5-3.7 1.5L42 12.2l-1.5-3.7-3.7-1.5 3.7-1.5z"/></svg></div>`;
   const fine=`<p class="wfine">By continuing you agree to the <a href="#terms">Terms of use</a> and <a href="#privacy">Privacy policy</a> of Founderfreedom Ventures LLP.</p>`;
   if(ob.step==="email"){
-    w.innerHTML=`${top}<h1 id="wcTitle">Real news, <em class="v">made for kids.</em></h1><p class="lede">Swipe through short, calm stories for ages 5 to 15. Two editions a day, only the last 3 days of news, every story checked by a real editor.</p><div class="trust"><span>${ico("shield")}Checked by editors</span><span>${ico("lock")}No links out</span><span>${ico("star")}No ads that follow kids</span></div>
+    w.innerHTML=`${top}<h1 id="wcTitle">Real news, <em class="v">made for kids.</em></h1><p class="lede">Swipe through short, calm stories for ages 5 to 15. Two editions a day, only the last 3 days of news, every story fact checked and reviewed before it goes out.</p><div class="trust"><span>${ico("shield")}Fact checked</span><span>${ico("lock")}No links out</span><span>${ico("star")}No ads that follow kids</span></div>
       <form class="wbox" id="wF" novalidate><h2>Grown-ups, start here</h2>
         <label class="field" for="wE">Your email address<input type="email" id="wE" autocomplete="email" placeholder="you@example.com" value="${esc(ob.email)}"></label>
         <p class="note">No password. We email you a 6-digit code each time you sign in.</p><p class="err" id="wErr" aria-live="polite"></p>
@@ -2434,7 +2434,7 @@ const SKETCHES={
 const SKETCH_FOR={"g-cop31":"greenhouse","in-air":"smog","g-sky":"meteor","learn:2026-11-11":"meteor","cn-cloud":"orbit"};
 
 
-/* ===== Big Story of the week: one topic followed all week. Written by the pipeline, approved by an editor. ===== */
+/* ===== Big Story of the week: one topic followed all week. Written by the pipeline, passed by the newsroom review. ===== */
 const BIGSTORY={
  "2026-11-09":{story:"g-cop31", cat:"planet", sketch:"greenhouse",
   t:"Can the world agree to slow climate change?", sub:"COP31, the United Nations climate summit in Türkiye",
@@ -3301,7 +3301,7 @@ const LEGAL = {
   safety:{t:"Content and safety standards", h:`
     <p class="summary">FFMPA exists to give children real news without the parts that frighten, confuse or harm them. These are the rules every story must pass before it reaches a child.</p>
     <h3>1. Freshness</h3>
-    <ul><li>Two editions a day, at 6:00 AM and 7:00 PM in the child's country.</li><li>Only news first reported in the last 72 hours. Older stories are removed automatically.</li><li>Short explainers about dates in the coming week (festivals, observances, sky events) are clearly labelled as such.</li><li>Each edition holds 12 to 20 stories, mixing local news for the child's country with world news.</li></ul>
+    <ul><li>Two editions a day, at 6:00 AM and 7:00 PM in the child's country.</li><li>Only news first reported in the last 72 hours. Older stories are removed automatically.</li><li>Short explainers about dates in the coming week (festivals, observances, sky events) are clearly labelled as such.</li><li>Morning editions hold 12 to 15 stories and evening editions 6 to 10, mixing local news for the child's country with world news.</li></ul>
     <h3>2. How a story is made</h3>
     <ul><li>Stories are gathered from established news organisations, wire services, official bodies and scientific institutions.</li><li>Every fact must appear in at least two reputable sources, or one primary source such as an official statement.</li><li>Each edition is researched and written with AI assistance. Before it is published it must pass separate checks: every claim is checked against its sources, a standards check covers safety, fairness and reading level, and a final independent review must pass it. Our editor can withdraw any edition at any time.</li><li>Sources are named under every story.</li></ul>
     <h3>3. Language rules</h3>
@@ -3406,11 +3406,11 @@ function renderAdmin(){
       <div class="kpis"><div class="kpi"><b>${count("published")}</b><span>Published stories</span></div><div class="kpi"><b>${count("draft")}</b><span>Waiting for review</span></div><div class="kpi"><b>${count("held")}</b><span>Held by language filter</span></div><div class="kpi"><b>${count("stale")}</b><span>Expired (older than ${ADMIN.freshHours} h)</span></div><div class="kpi"><b>${Object.values(ADMIN.countries).filter(Boolean).length}</b><span>Live countries</span></div><div class="kpi"><b>${ADMIN.sponsors.filter(a=>a.status==="approved").length}</b><span>Approved sponsor cards</span></div></div>
       <div class="panel"><h2>Stories per country edition</h2><div class="tablewrap"><table class="adm-table"><thead><tr><th>Country</th><th>Local</th><th>World</th><th>Edition times</th><th>Status</th></tr></thead><tbody>
       ${Object.entries(COUNTRIES).map(([k,c])=>{ const loc=rows.filter(r=>r.s.scope===k&&r.st==="published").length, wor=rows.filter(r=>r.s.scope==="global"&&r.st==="published").length; return `<tr><td>${c.name}</td><td>${loc}</td><td>${wor}</td><td>${fmtTime(ADMIN.amTime)} and ${fmtTime(ADMIN.pmTime)} ${c.tz}</td><td>${ADMIN.countries[k]?'<span class="status st-published">Live</span>':'<span class="status st-rejected">Off</span>'}</td></tr>`; }).join("")}</tbody></table></div>
-      <p class="sub" style="margin:10px 0 0">Target is 12 to 20 stories per edition. This sample edition is smaller because it was built by hand for the prototype.</p></div>
-      <div class="panel"><h2>Next runs</h2><p style="margin:0">Morning edition drafted from 4:10 am IST, evening from 5:10 pm IST. Each is fact checked and reviewed, merged only on a pass, and families see it at ${fmtTime(ADMIN.amTime)} and ${fmtTime(ADMIN.pmTime)} their own time. Roll back any edition by reverting it on GitHub.</p></div>`;
+      <p class="sub" style="margin:10px 0 0">Target is 12 to 15 stories in a morning edition and 6 to 10 in an evening edition. This sample edition is smaller because it was built by hand for the prototype.</p></div>
+      <div class="panel"><h2>Next runs</h2><p style="margin:0">Morning edition drafted from 4:10 AM IST, evening from 5:10 PM IST. Each is fact checked and reviewed, merged only on a pass, and families see it at ${fmtTime(ADMIN.amTime)} and ${fmtTime(ADMIN.pmTime)} their own time. Roll back any edition by reverting it on GitHub.</p></div>`;
   }
   if(admSection==="stories"){
-    m.innerHTML=`<h1>Stories</h1><p class="sub">Every story needs editor approval. Expired and filtered stories can never be published.</p>
+    m.innerHTML=`<h1>Stories</h1><p class="sub">Every story must pass the fact check, standards check and independent review. Expired and filtered stories can never be published.</p>
       <div class="panel"><div class="tablewrap"><table class="adm-table"><thead><tr><th>Story (Thinkers headline)</th><th>Edition</th><th>Date</th><th>Sources</th><th>Status</th><th>Action</th></tr></thead><tbody>
       ${rows.map(r=>`<tr><td>${r.s.o.t}${r.held?`<br><small style="color:#4B21A6">Filter matched: "${esc(r.held)}"</small>`:""}</td><td>${r.s.scope==="global"?"World":COUNTRIES[r.s.scope].short}</td><td>${r.s.date}${r.s.kind==="calendar"?"<br><small>Explainer</small>":""}</td><td>${r.s.src.length}</td>
         <td><span class="status st-${r.st}">${({published:"Published",draft:"In review",rejected:"Rejected",held:"Held by filter",stale:"Expired"})[r.st]}</span></td>
@@ -3507,16 +3507,16 @@ function renderAdmin(){
     m.innerHTML=`<h1>Daily pipeline</h1><p class="sub">Scheduled Claude sessions research, write, fact check and review each edition (pipeline/NEWSROOM.md); only an edition that passes the independent review is published.</p>
       <div class="panel"><h2>Each run, twice a day per country</h2><ol style="margin:0;padding-left:20px;line-height:1.7">
         <li>Collect: search trusted sources for news first reported in the last ${ADMIN.freshHours} hours, for the country and the world.</li>
-        <li>Select: pick 12 to 20 stories by importance, variety and child relevance; drop blocked topics.</li>
+        <li>Select: the analyst picks 12 to 15 stories (morning) or 6 to 10 (evening) by importance, variety and usefulness to children; blocked topics are dropped.</li>
         <li>Verify: confirm each fact in two sources; record source links and dates.</li>
         <li>Write: Explorers and Thinkers versions, the Navigators deeper layer (context, question, jobs), glossary terms, a Think about it question and a quiz question.</li>
         <li>Image: attach only a free-to-use photo (public domain, Creative Commons, or an official press or government library) and record its credit and licence. If none exists, the story runs with its colour band and no photo.</li>
         <li>Screen: run the blocked word list and safety rules; flag anything borderline.</li>
-        <li>Push: insert rows into Supabase with status in_review.</li>
+        <li>Publish: a pull request on GitHub, merged only when the independent reviewer passes it.</li>
         <li>Review: separate fact checker, standards editor and reviewer agents; only a pass is merged, and the owner can roll it back.</li></ol></div>
       <div class="panel"><h2>Run log (sample)</h2><div class="tablewrap"><table class="adm-table"><thead><tr><th>Run</th><th>Drafted</th><th>Held</th><th>Approved</th><th>Result</th></tr></thead><tbody>
         ${Object.entries(COUNTRIES).filter(([k])=>ADMIN.countries[k]).map(([k,c])=>{ const r=rows.filter(x=>x.s.scope===k||x.s.scope==="global"); return `<tr><td>11 Nov · Morning · ${c.short}</td><td>${r.length}</td><td>${r.filter(x=>x.st==="held").length}</td><td>${r.filter(x=>x.st==="published").length}</td><td><span class="status st-published">Published 6:00 AM ${c.tz}</span></td></tr>`; }).join("")}
-        <tr><td>11 Nov · Evening · all</td><td>Scheduled</td><td>·</td><td>·</td><td><span class="status st-draft">Runs 6:15 PM local</span></td></tr></tbody></table></div></div>`;
+        <tr><td>11 Nov · Evening · all</td><td>Scheduled</td><td>·</td><td>·</td><td><span class="status st-draft">Drafted from 5:10 PM IST</span></td></tr></tbody></table></div></div>`;
   }
 }
 

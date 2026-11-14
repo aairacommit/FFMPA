@@ -426,7 +426,7 @@ def page(title, desc, path, body, ld=None, status=200):
 <link rel="icon" href="{SITE}/favicon.ico"><link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@700&family=Geist:wght@400;600;700&display=swap" rel="stylesheet">
 <style>{CSS}</style>{ldj}</head><body><header><div class="w"><a class="lg" href="{SITE}/">ffmpa</a><a class="btn" href="{SITE}/app/">Open the app</a></div></header>
 <main><div class="w">{body}</div></main><footer><div class="w"><a href="{SITE}/">Home</a><a href="{SITE}/s/">Today's stories</a><a href="{SITE}/safety/">Content standards</a><a href="{SITE}/privacy/">Privacy</a>
-<p>Real news for kids aged 5 to 15, checked by an editor. © 2026 Founderfreedom Ventures LLP, Bangalore, India.</p></div></footer></body></html>"""
+<p>Real news for kids aged 5 to 15, fact checked before it goes out. © 2026 Founderfreedom Ventures LLP, Bangalore, India.</p></div></footer></body></html>"""
     return Response(t, status=status, mimetype="text/html", headers={"Cache-Control": "public, max-age=300"})
 
 def plain(text):
@@ -451,12 +451,12 @@ def story_index():
                   f'<div class="meta">{"India" if s.get("scope")=="IN" else "World"} · {html.escape(s.get("cat",""))} · {nice_date(s.get("date"))}</div></li>'
                   for s, _ in items)
     body = (f'<p class="meta">Updated with every edition</p><h1>Today\'s news for kids</h1>'
-            f'<p>Short, calm stories from the last three days, written for ages 10 to 12 and checked by an editor. '
+            f'<p>Short, calm stories from the last three days, written for ages 10 to 12, fact checked and reviewed. '
             f'In the app every story also comes at an easier level for ages 5 to 9 and a deeper one for ages 13 to 15.</p>'
             f'<ul class="list">{lis or "<li>No stories right now. Please check back soon.</li>"}</ul>')
     ld = {"@context": "https://schema.org", "@type": "CollectionPage", "name": "Today's news for kids", "url": f"{SITE}/s/",
           "publisher": {"@type": "Organization", "name": "FFMPA", "url": SITE}}
-    return page("Today's News for Kids | FFMPA", "Real news for kids aged 5 to 15: short, calm stories from the last three days, checked by an editor.", "/s/", body, ld)
+    return page("Today's News for Kids | FFMPA", "Real news for kids aged 5 to 15: short, calm stories from the last three days, fact checked and reviewed.", "/s/", body, ld)
 
 @app.get("/s/<sid>")
 def story(sid):
@@ -480,13 +480,13 @@ def story(sid):
             f'<h1>{html.escape(title)}</h1>' + "".join(f"<p>{marked(p)}</p>" for p in paras)
             + (f'<div class="box"><h2>Words in this story</h2><dl>{wl}</dl></div>' if wl else "")
             + (f'<div class="box"><h2>Think about it</h2><p>{html.escape(s["think"])}</p></div>' if s.get("think") else "")
-            + (f'<p class="meta">Sources: {src}. Written for children and approved by an FFMPA editor.</p>' if src else "")
+            + (f'<p class="meta">Sources: {src}. Written for children with AI assistance, then fact checked and reviewed.</p>' if src else "")
             + f'<p><a class="btn" href="{SITE}/app/?source=story">Read this at your level in the app</a></p><p><a href="/s/">More stories</a></p>')
     desc = plain(paras[0])[:155] if paras else title
     ld = {"@context": "https://schema.org", "@type": "NewsArticle", "headline": title[:110], "description": desc,
           "datePublished": s.get("date"), "dateModified": e.get("date"), "inLanguage": "en", "isAccessibleForFree": True,
           "audience": {"@type": "PeopleAudience", "suggestedMinAge": 10, "suggestedMaxAge": 12},
-          "author": {"@type": "Organization", "name": "FFMPA editors"},
+          "author": {"@type": "Organization", "name": "FFMPA"},
           "publisher": {"@type": "Organization", "name": "FFMPA", "url": SITE, "logo": {"@type": "ImageObject", "url": f"{SITE}/assets/icon-512.png"}},
           "mainEntityOfPage": f"{SITE}/s/{sid}"}
     return page(f"{title} | FFMPA kids news", desc, f"/s/{sid}", body, ld)

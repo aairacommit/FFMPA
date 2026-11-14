@@ -179,7 +179,7 @@ const SKETCHES={
 const SKETCH_FOR={"g-cop31":"greenhouse","in-air":"smog","g-sky":"meteor","learn:2026-11-11":"meteor","cn-cloud":"orbit"};
 
 
-/* ===== Big Story of the week: one topic followed all week. Written by the pipeline, approved by an editor. ===== */
+/* ===== Big Story of the week: one topic followed all week. Written by the pipeline, passed by the newsroom review. ===== */
 const BIGSTORY={
  "2026-11-09":{story:"g-cop31", cat:"planet", sketch:"greenhouse",
   t:"Can the world agree to slow climate change?", sub:"COP31, the United Nations climate summit in Türkiye",

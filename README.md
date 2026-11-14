@@ -9,6 +9,6 @@ Real news made for kids aged 5 to 15. https://ffmpa.com
 
 ## How an edition goes live
 1. A scheduled task drafts the morning edition and opens a pull request.
-2. A person reads the pull request. Merging it publishes the edition. Closing it publishes nothing.
+2. Newsroom agents fact check and review the draft (pipeline/NEWSROOM.md). Only a PASS from the independent reviewer is merged, and merging publishes it.
 
-Nothing reaches children without that merge.
+The owner can roll back any edition by reverting it on GitHub.

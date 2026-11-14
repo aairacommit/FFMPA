@@ -474,7 +474,7 @@ const S = [
 ];
 
 
-/* Key boxes: one optional, tappable reading aid per story (drafted with the story, approved by the editor) */
+/* Key boxes: one optional, tappable reading aid per story (drafted with the story, passed by the newsroom review) */
 const KEYS = {
  "in-air":{type:"number", v:"~400", l:"AQI in Delhi on 9 November: Very poor", scale:"aqi", sel:4},
  "in-chess":{type:"number", v:"24 Nov", l:"the title match starts, and it can run until 12 December"},

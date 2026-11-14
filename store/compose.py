@@ -3,7 +3,7 @@ from playwright.sync_api import sync_playwright
 S="/home/claude/store"
 b64=lambda p: "data:image/png;base64,"+base64.b64encode(open(p,"rb").read()).decode()
 FR=[("1_today","Real news,","made for kids","A calm daily edition for ages 5 to 15","#5B35E8","#2A1580"),
-    ("2_story","Short stories,","checked by editors","Local and world news, twice a day","#0B7F75","#05433E"),
+    ("2_story","Short stories,","fact checked daily","Local and world news, twice a day","#0B7F75","#05433E"),
     ("3_word","Tap any word","to learn it","Build a word bank while you read","#D9481E","#7A2208"),
     ("4_sketch","Hard ideas,","drawn simply","Sketch explainers in three easy steps","#2D5BC0","#14306E"),
     ("5_big","One Big Story,","all week long","Follow it day by day, then decide what you think","#0F8A5F","#064A32"),

@@ -119,16 +119,15 @@
     "t": "Stripes show Odisha's new tiger was seen in another state",
     "b": [
      "A male tiger was seen in a forest in Odisha on 9 November. The forest is called Debrigarh.",
-     "Forest officials in Chhattisgarh shared photos from [[camera-trap|camera traps]]. Every tiger has its own [[stripe-pattern|stripes]], like a fingerprint. The stripes matched. It is the same tiger seen in Chhattisgarh last year.",
-     "Now Debrigarh has asked a national tiger group for records of the tiger's travels."
+     "Forest officials in Chhattisgarh shared photos from [[camera-trap|camera traps]]. Every tiger has its own [[stripe-pattern|stripes]], like a fingerprint. The stripes matched. It is the same tiger seen in Chhattisgarh last year."
     ]
    },
    "o": {
     "t": "Stripes reveal Odisha's new tiger was earlier seen in Chhattisgarh",
     "b": [
      "A male tiger seen in Odisha's Debrigarh [[wildlife-sanctuary|Wildlife Sanctuary]] on 9 November has been identified. Forest officials say it is the same tiger recorded in 2025 in Chhattisgarh's Udanti-Sitanadi Tiger Reserve. A wildlife sanctuary is a protected area where wild animals can live safely.",
-     "Officials matched the tiger's [[stripe-pattern|stripe pattern]] using [[camera-trap|camera-trap]] photos shared by Chhattisgarh's forest department. A camera trap is a camera in the wild that takes a picture when an animal moves in front of it. This way, experts can tell one tiger from another without catching it.",
-     "Officials think the tiger may first have come from Maharashtra, but they say this is only an early guess. To learn more, Debrigarh has asked the [[ntca|National Tiger Conservation Authority]], a national body that works to protect tigers, for the tiger's movement records."
+     "Officials matched the tiger's [[stripe-pattern|stripe pattern]] using [[camera-trap|camera-trap]] photos shared by forest officials in Chhattisgarh. A camera trap is a camera in the wild that takes a picture when an animal moves in front of it. This way, experts can tell one tiger from another without catching it.",
+     "Officials think the tiger may first have come from Maharashtra, but they say this is only an early guess."
     ]
    },
    "think": "Why might it help when forest teams from different states share what they know?",
@@ -252,6 +251,10 @@
      "https://www.inquirer.net/495734/live-updates-asean-summit-2026-and-related-meetings-nov-15-2026/"
     ],
     [
+     "Prime Minister of Canada, 15 Nov",
+     "https://www.pm.gc.ca/en/news/news-releases/2026/11/15/prime-minister-carney-announces-canadas-landmark-contribution-protect"
+    ],
+    [
      "Reuters via TimesLIVE, 15 Nov",
      "https://www.timeslive.co.za/news/world/2026-11-15-canada-pledges-up-to-3925m-for-brazil-led-tropical-forest-fund/"
     ],
@@ -277,16 +280,16 @@
     "t": "Look for Mars and Jupiter close together before sunrise",
     "b": [
      "Two [[planet|planets]] look close together this week. They are Mars and Jupiter. Look before sunrise on Monday or Tuesday, with a grown-up.",
-     "Jupiter is the brighter one. They are about one [[degree|degree]] apart. Your little finger at arm's length covers about that much.",
+     "Jupiter is the brighter one. They are about one [[degree|degree]] apart.",
      "They only look close. Really, they are very far apart. Look again on 22 November. They will be grouped with a star called Regulus."
     ]
    },
    "o": {
     "t": "Mars and Jupiter meet in the morning sky this week",
     "b": [
-     "Before sunrise in mid-November, the [[planet|planets]] Mars and Jupiter appear about one [[degree|degree]] apart, their closest this month. A degree is a way to measure how far apart things look in the sky. Your little finger held at arm's length covers about one degree.",
+     "Before sunrise in mid-November, the [[planet|planets]] Mars and Jupiter appear about one [[degree|degree]] apart, their closest this month. A degree is a way to measure how far apart things look in the sky.",
      "Both appear near Regulus, the brightest star in the [[constellation|constellation]] Leo, and Jupiter is the brighter of the two planets. They only look close together: in space they are very far apart. Planets move around the Sun, so their positions among the stars slowly change.",
-     "The mornings up to Tuesday 17 November are a good time to look, with an adult, and no telescope is needed. On the morning of 22 November, Mars, Jupiter and Regulus will be grouped tightly together, so it is worth looking again."
+     "The mornings up to Tuesday 17 November are a good time to look, with an adult. On the morning of 22 November, Mars, Jupiter and Regulus will be grouped tightly together, so it is worth looking again."
     ]
    },
    "think": "If two things look close together in the sky, how could you find out how far apart they really are?",
@@ -424,12 +427,6 @@
    "A protected place where wild animals can live safely.",
    "A protected area set aside for wild animals and plants, where activities that could harm them are limited."
   ],
-  "ntca": [
-   "National Tiger Conservation Authority",
-   "civics",
-   "A group in India that works to protect tigers.",
-   "An Indian government body that works to protect tigers and oversees the country's tiger reserves."
-  ],
   "odi": [
    "ODI",
    "words",
@@ -475,8 +472,8 @@
   "degree": [
    "degree",
    "science",
-   "A way to measure how far apart things look in the sky. Your little finger at arm's length covers about one degree.",
-   "A unit for measuring angles. In the sky it shows how far apart two objects appear: a little finger held at arm's length covers about one degree."
+   "A way to measure how far apart things look in the sky.",
+   "A unit for measuring angles. In the sky it shows how far apart two objects appear."
   ],
   "constellation": [
    "constellation",
@@ -518,7 +515,7 @@
    "United Nations",
    "civics",
    "A club of almost every country in the world that works for peace and helps people.",
-   "Founded in 1945, it has 193 member countries. The Security Council is one of its main bodies."
+   "An international organisation, founded in 1945, where countries work together for peace and to help people. It has 193 member countries. The Security Council is one of its main bodies."
   ],
   "climate-change": [
    "climate change",
@@ -675,7 +672,7 @@
    ]
   },
   "in-debrigarh-tiger": {
-   "ctx": "The male tiger seen in Debrigarh Wildlife Sanctuary on 9 November was recorded in Chhattisgarh's Udanti-Sitanadi Tiger Reserve in 2025, and officials matched it using camera-trap photos shared by Chhattisgarh's forest department. Officials think it may first have come from Maharashtra, but call this an early guess, and Debrigarh has asked the National Tiger Conservation Authority for the tiger's movement records.",
+   "ctx": "The male tiger seen in Debrigarh Wildlife Sanctuary on 9 November was recorded in Chhattisgarh's Udanti-Sitanadi Tiger Reserve in 2025, and officials matched it using camera-trap photos shared by forest officials in Chhattisgarh. Officials think it may first have come from Maharashtra, but call this an early guess.",
    "ask": "Should tigers that cross from one state to another be looked after by a national body, or by the forest team of each state they enter?",
    "jobs": [
     "Wildlife biologist",
@@ -1328,28 +1325,12 @@
  "reporters": {
   "week": "2026-11-09",
   "t": "Report one kind thing you saw this week",
-  "why": "World Kindness Day is on Friday 13 November. The best reports appear on Sunday's front page.",
+  "why": "World Kindness Day was on Friday 13 November. The best reports appear on Sunday's front page.",
   "tips": [
    "Who did it?",
    "What did they do?",
    "Where did it happen?"
   ],
-  "sample": [
-   {
-    "h": "Shopkeeper keeps a free water pot outside all summer",
-    "b": "People walking past stop to drink. He fills it three times a day.",
-    "by": "Reader, 10, India"
-   },
-   {
-    "h": "Year 4 class writes thank-you cards for the school cleaners",
-    "b": "Every child wrote one line. The cards were left on the cleaning trolley.",
-    "by": "Reader, 9, United Kingdom"
-   },
-   {
-    "h": "Neighbour teaches four children to ride bikes on Sunday mornings",
-    "b": "She brings her own tools and fixes the chains too.",
-    "by": "Reader, 12, Australia"
-   }
-  ]
+  "sample": []
  }
 }

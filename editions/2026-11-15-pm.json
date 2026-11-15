@@ -288,7 +288,7 @@
     "t": "Mars and Jupiter meet in the morning sky this week",
     "b": [
      "Before sunrise in mid-November, the [[planet|planets]] Mars and Jupiter appear about one [[degree|degree]] apart, their closest this month. A degree is a way to measure how far apart things look in the sky.",
-     "Both appear near Regulus, the brightest star in the [[constellation|constellation]] Leo, and Jupiter is the brighter of the two planets. They only look close together: in space they are very far apart. Planets move around the Sun, so their positions among the stars slowly change.",
+     "Both appear near a bright star called Regulus, and Jupiter is the brighter of the two planets. They only look close together: in space they are very far apart. Planets move around the Sun, so their positions among the stars slowly change.",
      "The morning of Monday 16 November, when they are closest, is a good time to look, with an adult. On the morning of 22 November, Mars, Jupiter and Regulus will be grouped tightly together, so it is worth looking again."
     ]
    },
@@ -474,12 +474,6 @@
    "science",
    "A way to measure how far apart things look in the sky.",
    "A unit for measuring angles. In the sky it shows how far apart two objects appear."
-  ],
-  "constellation": [
-   "constellation",
-   "science",
-   "A group of stars that makes a pattern in the sky.",
-   "A group of stars that forms a named pattern in the night sky, such as Leo, the Lion."
   ],
   "khelo-india": [
    "Khelo India",
@@ -699,7 +693,7 @@
    ]
   },
   "g-mars-jupiter": {
-   "ctx": "Before sunrise in mid-November, Mars and Jupiter appear about 1 degree apart, their closest this month, near Regulus, the brightest star in Leo. Planets move around the Sun, so their positions among the background stars change over days and weeks. On the morning of 22 November, Mars, Jupiter and Regulus will be grouped tightly together.",
+   "ctx": "Before sunrise in mid-November, Mars and Jupiter appear about 1 degree apart, their closest this month, near a bright star called Regulus. Planets move around the Sun, so their positions among the background stars change over days and weeks. On the morning of 22 November, Mars, Jupiter and Regulus will be grouped tightly together.",
    "ask": "Is it worth getting up very early to see the planets with your own eyes, when you could look at a clearer photo online later?",
    "jobs": [
     "Astronomer",

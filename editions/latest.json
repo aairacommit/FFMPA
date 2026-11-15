@@ -1,748 +1,503 @@
 {
  "schema": 1,
  "date": "2026-11-15",
- "edition": "am",
+ "edition": "pm",
  "countries": [
   "IN"
  ],
  "stories": [
   {
-   "id": "g-starship-catch",
-   "scope": "global",
-   "cat": "tech",
-   "emoji": "🚀",
-   "date": "2026-11-14",
+   "id": "in-lakshya-kumamoto",
+   "scope": "IN",
+   "cat": "sports",
+   "emoji": "🏸",
+   "date": "2026-11-15",
    "kind": "news",
    "x": {
-    "t": "Giant arms catch a spaceship back from space",
+    "t": "Lakshya Sen fights back to win a title in Japan",
     "b": [
-     "A giant spaceship called Starship flew around Earth about 14 times. On Saturday, it came back to Texas.",
-     "Huge arms on the launch tower caught it in the air. It was the first catch of a [[starship|Starship]] back from circling Earth.",
-     "The rocket's bottom part, the [[booster|booster]], was not caught. It came down in the sea. A rocket that is caught can fly again."
+     "Indian [[badminton|badminton]] player Lakshya Sen won a big title in Japan on Sunday. He beat Koki Watanabe, the home crowd's favourite.",
+     "Lakshya lost the first game. He stayed calm and won the next two games.",
+     "It is his second title in a row. The win earns him [[ranking-points|points]]. They could help him reach a big event at the end of the season."
     ]
    },
    "o": {
-    "t": "SpaceX catches a Starship back from orbit for the first time",
+    "t": "Lakshya Sen comes from behind to win Kumamoto Masters Japan",
     "b": [
-     "SpaceX, a rocket company, caught its [[starship|Starship]] spaceship in mid-air on Saturday 14 November, Texas time. Giant mechanical arms on the launch tower at Starbase, in South Texas, grabbed it. It was the first time a Starship returning from [[orbit|orbit]], a path around Earth, had been caught.",
-     "The ship lifted off on Friday on the 15th Starship test flight. It circled Earth about 14 times and released 26 [[satellite|satellites]], machines that travel around Earth. Its [[heat-shield|heat shield]], which protects it from heat on the way down, was reported to be in good shape.",
-     "The [[booster|booster]], the lower part that lifts the rocket off the ground, was not caught. It steered away from the tower and came down in the Gulf of Mexico. SpaceX had planned to catch both parts. A rocket that is caught can be used again."
+     "India's Lakshya Sen won the Kumamoto Masters Japan on Sunday, 15 November. In the final in Kumamoto, Japan, he beat Koki Watanabe of Japan, the home favourite, 13-21, 21-18, 21-14. A home favourite is a local player the crowd most hopes will win.",
+     "Lakshya lost the first game but stayed steady and won the next two. The match lasted 1 hour 4 minutes. The tournament is a [[super-500|Super 500]] event, one level of tournament on badminton's world tour. It is run by the [[bwf|BWF]], the Badminton World Federation, which organises top international badminton.",
+     "It is his second title in a row, after the Hylo Open in Germany earlier this month. The win earned him 9,200 [[ranking-points|ranking points]], which players collect by doing well in tournaments. These points improve his chance of reaching the BWF World Tour Finals in Hangzhou, a season-ending event for top players."
     ]
    },
-   "think": "If something you tried half worked and half failed, would you call it a success? Why?",
+   "think": "What helps you stay calm and keep going when something starts badly?",
    "quiz": {
-    "q": "What caught the Starship spaceship when it came back?",
+    "q": "Which game of the final did Lakshya Sen lose?",
     "a": [
-     "A huge net on a boat",
-     "A helicopter with a hook",
-     "Giant arms on the launch tower",
-     "A parachute and a crane"
+     "The first game",
+     "The second game",
+     "The third game",
+     "He did not lose any game"
     ],
-    "c": 2
+    "c": 0
    },
    "src": [
     [
-     "AP via ABC News, 14 Nov",
-     "https://abcnews.com/Technology/wireStory/spacexs-starship-returns-orbit-captured-launch-pad-arms-138148467"
+     "IANS via Telangana Today, 15 Nov",
+     "https://telanganatoday.com/lakshya-sen-becomes-first-indian-to-win-kumamoto-masters-title"
     ],
     [
-     "Space.com, 14 Nov",
-     "https://www.space.com/space-exploration/launches-spacecraft/spacex-chopsticks-catch-starship-upper-stage-flight-14"
+     "PTI via Deccan Chronicle, 15 Nov",
+     "https://www.deccanchronicle.com/sports/lakshya-sen-beats-koki-watanabe-to-win-kumamoto-masters-japan-open-2004611"
     ],
     [
-     "Teslarati, 14 Nov",
-     "https://www.teslarati.com/spacex-catches-starship-first/"
+     "All India Radio, 15 Nov",
+     "https://newsonair.gov.in/lakshya-sen-clinches-kumamoto-masters-japan-mens-singles-title/"
     ]
    ]
   },
   {
-   "id": "in-birsa",
-   "scope": "IN",
-   "cat": "history",
+   "id": "g-forest-fund",
+   "scope": "global",
+   "cat": "planet",
    "emoji": "🌳",
    "date": "2026-11-15",
-   "kind": "calendar",
-   "when": "Sunday 15 November",
-   "x": {
-    "t": "Why India remembers Birsa Munda today",
-    "b": [
-     "Today is Janjatiya Gaurav Divas in India. It remembers [[tribe|tribal]] [[freedom-fighter|freedom fighters]].",
-     "The date is the birthday of [[birsa-munda|Birsa Munda]]. He was born on 15 November 1875. Back then, Britain ruled India. He led a big group of people against that rule. He stood up for the rights of tribal people.",
-     "The state of [[jharkhand|Jharkhand]] began on this date too, in 2000. Birsa Munda's birthplace is in Jharkhand."
-    ]
-   },
-   "o": {
-    "t": "Why 15 November is Janjatiya Gaurav Divas",
-    "b": [
-     "Today, 15 November, is observed across India as Janjatiya Gaurav Divas. The day remembers [[freedom-fighter|freedom fighters]], people who struggled for freedom, from India's [[tribe|tribal]] communities. A tribe is a community that shares ancestors, a language and customs. The Union Cabinet, the group of senior ministers in India's national government, approved the day on 10 November 2021.",
-     "The date was chosen because it is the birthday of [[birsa-munda|Birsa Munda]]. He was born on 15 November 1875 at Ulihatu, in what is now [[jharkhand|Jharkhand]], and belonged to the Munda tribe. At that time Britain ruled India. He led a movement, meaning many people working together for a change, against British rule and for the rights of tribal people.",
-     "Jharkhand shares the date. It was separated from the state of [[bihar|Bihar]] and became India's 28th state on 15 November 2000. So its statehood day falls on Birsa Munda's birthday."
-    ]
-   },
-   "think": "Whose story from your own town, village or family do you think more people should know?",
-   "quiz": {
-    "q": "Whose birthday is on 15 November, the date of Janjatiya Gaurav Divas?",
-    "a": [
-     "Jawaharlal Nehru",
-     "Mahatma Gandhi",
-     "Sachin Tendulkar",
-     "Birsa Munda"
-    ],
-    "c": 3
-   },
-   "src": [
-    [
-     "PIB, Cabinet release, 10 Nov 2021",
-     "https://pib.gov.in/PressReleasePage.aspx?PRID=1770508"
-    ],
-    [
-     "My Kolkata Edugraph (The Telegraph), 11 Nov 2021",
-     "https://obeta.ttef.in/jharkhand/birsa-mundas-birth-anniversary-on-november-15-declared-as-janjatiya-gaurav-divas/cid/1838307"
-    ],
-    [
-     "ThePrint, 15 Nov 2019",
-     "https://theprint.in/theprint-profile/birsa-munda-freedom-fighter-dharti-abba-who-championed-tribal-rights/321466"
-    ],
-    [
-     "ANI via Free Press Journal, 15 Nov 2025",
-     "https://www.freepressjournal.in/amp/india/pm-modi-pays-tribute-to-birsa-munda-on-his-150th-birth-anniversary-extends-greetings-on-jharkhand-statehood-day"
-    ],
-    [
-     "PIB, Ministry of Tribal Affairs, 16 Nov 2021",
-     "https://pib.gov.in/PressReleasePage.aspx?PRID=1772251"
-    ],
-    [
-     "Government of Jharkhand",
-     "https://www.jharkhand.gov.in/home/AboutState"
-    ],
-    [
-     "Britannica",
-     "https://www.britannica.com/place/Jharkhand/Government-and-society"
-    ],
-    [
-     "Merriam-Webster Dictionary, freedom fighter",
-     "https://www.merriam-webster.com/dictionary/freedom%20fighter"
-    ],
-    [
-     "Oxford Learner's Dictionaries, freedom fighter",
-     "https://www.oxfordlearnersdictionaries.com/definition/english/freedom-fighter"
-    ]
-   ]
-  },
-  {
-   "id": "g-cop31",
-   "scope": "global",
-   "cat": "planet",
-   "emoji": "🌍",
-   "date": "2026-11-14",
    "kind": "news",
    "x": {
-    "t": "The big climate meeting reaches its halfway point",
+    "t": "Canada gives money to help protect tropical forests",
     "b": [
-     "A meeting about [[climate-change|climate change]] is halfway through. It is called [[cop|COP31]]. It is in Antalya, Türkiye.",
-     "The team running the talks has shared a first [[outline|outline]] of a possible final agreement. An outline lists the main points.",
-     "Two of the biggest questions are still open. One is about money to help countries. The other is about [[fossil-fuels|coal, oil and gas]]. The talks are due to end on 20 November."
+     "Canada has promised money to help protect [[tropical-forest|tropical forests]]. It will give up to 560 million Canadian dollars over four years.",
+     "Canada's leader shared the news on Sunday. These forests are home to many plants and animals.",
+     "The money will go to a special [[fund|fund]]. A fund is money kept for one job. This fund began in Brazil last year. It gives money when forests are kept standing."
     ]
    },
    "o": {
-    "t": "COP31 at halfway: a first outline, and big questions left",
+    "t": "Canada pledges up to C$560 million for tropical forests",
     "b": [
-     "The United Nations (UN) climate summit, [[cop|COP31]], has reached its halfway point. This big meeting of countries is taking place in Antalya, Türkiye, from 9 to 20 November. The presidency, the team that runs the talks, has shared a first [[outline|outline]] of a possible final text. An outline lists the main points, so it is not yet a draft, a first full version.",
-     "Big subjects are still undecided. One is [[fossil-fuels|fossil fuels]]: coal, oil and gas. Another is climate finance, the money that helps countries deal with [[climate-change|climate change]].",
-     "At the last summit, COP30, countries agreed to at least triple [[adaptation|adaptation]] finance by 2035. Adaptation means preparing for the effects of a changing climate. Countries have not yet settled how to measure that money. The UN says that even tripled, it would cover less than a third of what developing countries need. Those are countries with less money."
+     "Canada has pledged, or promised, up to 560 million Canadian dollars (C$560 million) over four years to the Tropical Forest Forever Facility. This is a [[fund|fund]], money set aside for one purpose. It aims to keep [[tropical-forest|tropical forests]] standing by paying for forest protection once the results have been checked.",
+     "Canada's leader, Prime Minister Mark Carney, announced the pledge on 15 November in Manila, the Philippines. He was meeting Brazil's President Luiz Inacio Lula da Silva at the ASEAN Summit, a meeting of Southeast Asian leaders. The fund was launched at COP30, a climate conference in Brazil in November 2025.",
+     "Canada's government says the fund is co-led by Brazil and Norway. It says at least 20% of payments would go to [[indigenous-peoples|Indigenous Peoples]] and local communities. The pledge is part of Canada's promise of more than C$13 billion in climate money for [[developing-countries|developing countries]] by 2031."
     ]
    },
-   "think": "When a big group has to agree on one plan, what helps everyone feel that the plan is fair?",
+   "think": "If you looked after a forest, what would help you keep it healthy?",
    "quiz": {
-    "q": "What has the team running the COP31 talks shared?",
+    "q": "Over how many years will Canada give the money?",
     "a": [
-     "A finished agreement signed by every country",
-     "A new map of the world",
-     "A first outline of a possible final agreement",
-     "A list of prize winners"
+     "One year",
+     "Four years",
+     "Ten years",
+     "Forty years"
     ],
-    "c": 2
+    "c": 1
    },
    "src": [
     [
-     "UN News, 13 Nov",
-     "https://news.un.org/en/story/2026/11/1168802"
+     "Prime Minister of Canada, 15 Nov",
+     "https://www.pm.gc.ca/en/news/news-releases/2026/11/15/prime-minister-carney-announces-canadas-landmark-contribution-protect"
     ],
     [
-     "Climate Home News, 14 Nov",
-     "https://www.climatechangenews.com/2026/11/14/cop31-bulletin-day-6-limited-progress-as-ministers-arrive-in-antalya/"
+     "Reuters via TimesLIVE, 15 Nov",
+     "https://www.timeslive.co.za/news/world/2026-11-15-canada-pledges-up-to-3925m-for-brazil-led-tropical-forest-fund/"
     ],
     [
-     "Climate Home News, 5 Nov",
-     "https://www.climatechangenews.com/2026/11/05/cop31-briefing-what-to-expect-from-the-antalya-climate-summit/"
+     "TRT World, 15 Nov",
+     "https://trtworld.com/article/717a9de0c4ee"
+    ],
+    [
+     "CTV News via CP24, 15 Nov",
+     "https://www.cp24.com/news/canada/2026/11/15/carney-unveils-forest-pledge-after-skipping-two-cop-summits/"
     ]
    ]
   },
   {
-   "id": "in-exports",
-   "scope": "IN",
-   "cat": "business",
-   "emoji": "🚢",
-   "date": "2026-11-13",
-   "kind": "news",
-   "x": {
-    "t": "India sells a record amount of goods to the world",
-    "b": [
-     "India sells things it makes and grows to other countries. These are called [[exports|exports]]. In October, India sold more goods than in any month before.",
-     "India also buys things from other countries. These are called [[imports|imports]].",
-     "In October, India still bought more than it sold. That gap is called a [[trade-deficit|trade deficit]]. One reason is that oil has become costlier."
-    ]
-   },
-   "o": {
-    "t": "India's goods exports set a monthly record in October",
-    "b": [
-     "India's [[exports|exports]], the goods and services it sells to other countries, reached 89.99 billion US dollars in October. That is about 30 per cent more than in October 2025, when the total was 69.27 billion. The commerce ministry gave the figures on Friday 13 November.",
-     "Goods are things that are made or grown. Services are work done for others. Goods exports were 49.47 billion dollars, the highest monthly figure on record. Services exports were 40.51 billion.",
-     "India's [[imports|imports]], what it buys from abroad, came to 110.07 billion dollars, so it bought more than it sold. That gap is called a [[trade-deficit|trade deficit]]. It shrank to 20.09 billion dollars, from 25.15 billion a year earlier. Imports cost more partly because [[crude-oil|crude oil]], oil as it comes from the ground, has become costlier. India imports about 85 per cent of its oil."
-    ]
-   },
-   "think": "Look around your home. Which things do you think were made in India, and which came from another country?",
-   "quiz": {
-    "q": "What do we call the things a country sells to other countries?",
-    "a": [
-     "Imports",
-     "Deficits",
-     "Taxes",
-     "Exports"
-    ],
-    "c": 3
-   },
-   "src": [
-    [
-     "PTI via ThePrint, 13 Nov",
-     "https://theprint.in/economy/indias-exports-up-29-9-pc-to-record-usd-89-99-bn-in-oct-trade-deficit-narrows/3098045/"
-    ],
-    [
-     "IANS via The Hans India, 13 Nov",
-     "https://www.thehansindia.com/news/cities/new-delhi/indias-merchandise-exports-rise-to-record-high-of-4947-billion-in-oct-despite-global-shocks-1141764"
-    ],
-    [
-     "Reuters via Business Standard, 13 Nov",
-     "https://www.business-standard.com/amp/economy/news/india-s-oct-merchandise-trade-deficit-rose-to-one-year-high-of-39-88-bn-126111300803_1.html"
-    ]
-   ]
-  },
-  {
-   "id": "g-portugal-reserve",
-   "scope": "global",
-   "cat": "planet",
-   "emoji": "🌊",
-   "date": "2026-11-12",
-   "kind": "news",
-   "x": {
-    "t": "Portugal agrees to protect a huge part of the sea",
-    "b": [
-     "Portugal's government has agreed to create a huge new [[marine-reserve|sea reserve]]. It is in the Atlantic Ocean, between Madeira and mainland Portugal.",
-     "It covers about 173,000 square kilometres. Under the water are mountains called [[seamount|seamounts]]. [[coral|Corals]] and sponges live there in cold, deep water.",
-     "The government says careful fishing will be balanced with protecting nature. Portugal wants to protect 30% of its sea by 2028."
-    ]
-   },
-   "o": {
-    "t": "Portugal approves a vast reserve to protect underwater mountains",
-    "b": [
-     "Portugal's Council of Ministers, the group that leads the government, approved the creation of a new [[marine-reserve|marine reserve]] on 12 November. That is an area of sea where nature is protected. It covers about 173,000 square kilometres of the Atlantic Ocean.",
-     "It takes in the Madeira-Tore [[seamount|seamount]] complex, a group of underwater mountains between [[madeira|Madeira]] and mainland Portugal. It protects deep-sea [[habitat|habitats]], the homes of living things. These include sponges, cold-water [[coral|corals]], which are small sea animals, and threatened species, meaning kinds of living things at risk of disappearing.",
-     "The government says it will balance protecting nature with sustainable traditional fishing, meaning fishing that does not take too much. The reserve will raise the protected share of Portugal's waters to about 25%, Reuters reports. Portugal's target is 30% by 2028. The United Nations goal is at least 30% of the world's oceans by 2030."
-    ]
-   },
-   "think": "If you could protect one wild place, on land or at sea, which would you choose and why?",
-   "quiz": {
-    "q": "What are seamounts?",
-    "a": [
-     "Mountains under the sea",
-     "Very large fishing boats",
-     "Islands made of ice",
-     "Rivers that flow into the ocean"
-    ],
-    "c": 0
-   },
-   "src": [
-    [
-     "Reuters via WHBL, 13 Nov",
-     "https://whbl.com/2026/11/13/portugal-moves-closer-to-30-ocean-protection-goal-with-new-reserve/"
-    ],
-    [
-     "Lusa via Green Savers, 13 Nov",
-     "https://greensavers.sapo.pt/conselho-de-ministros-formaliza-criacao-da-reserva-natural-marinha-rei-dom-carlos/"
-    ],
-    [
-     "Dinheiro Vivo / Diário de Notícias, 20 Jan 2026",
-     "https://dinheirovivo.dn.pt/economia/nova-reserva-marinha-na-madeira-tem-o-dobro-da-rea-continental-e-das-maiores-da-unio-europeia"
-    ],
-    [
-     "Britannica, Madeira Island",
-     "https://www.britannica.com/place/Madeira-Island"
-    ]
-   ]
-  },
-  {
-   "id": "in-hornedfrogs",
+   "id": "in-debrigarh-tiger",
    "scope": "IN",
    "cat": "nature",
-   "emoji": "🐸",
-   "date": "2026-11-12",
+   "emoji": "🐅",
+   "date": "2026-11-15",
    "kind": "news",
    "x": {
-    "t": "Five new kinds of small frog found in India",
+    "t": "Stripes show Odisha's new tiger was seen in another state",
     "b": [
-     "Scientists have found five new [[species|kinds]] of small frog in India. They were found in Arunachal Pradesh, in the eastern [[himalayas|Himalayas]].",
-     "They belong to a group called horned frogs. One of them eats snails. It is the first frog known in India to do that.",
-     "The team worked outdoors for five years. People living nearby helped. One frog is named after the Tanii community."
+     "A male tiger was seen in a forest in Odisha on 9 November. The forest is called Debrigarh.",
+     "Forest officials in Chhattisgarh shared photos from [[camera-trap|camera traps]]. Every tiger has its own [[stripe-pattern|stripes]], like a fingerprint. The stripes matched. It is the same tiger seen in Chhattisgarh last year."
     ]
    },
    "o": {
-    "t": "Scientists name five new horned frogs from Arunachal Pradesh",
+    "t": "Stripes reveal Odisha's new tiger was earlier seen in Chhattisgarh",
     "b": [
-     "Scientists have named five new [[species|species]] of small horned frogs from Arunachal Pradesh, in India's eastern [[himalayas|Himalayas]]. A species is one kind of living thing. The team came from the University of Delhi and Harvard University. Sonali Garg led the research, and S D Biju is a co-author, one of the study's writers.",
-     "The discovery followed five years of [[fieldwork|fieldwork]], which means studying nature outdoors. The results appeared in Royal Society Open Science, a [[journal|journal]]. That is a magazine where researchers share their findings. The frogs belong to a group named Jingophrys, and the find more than doubles its number of known species.",
-     "One of them, Jingophrys tanogogo, is the first frog known in India to eat snails. Local communities supported the work, and some species are named for them. The Tanii horned frog's name joins the Tanii community's name with an Apatani word for frog."
+     "A male tiger seen in Odisha's Debrigarh [[wildlife-sanctuary|Wildlife Sanctuary]] on 9 November has been identified. Forest officials say it is the same tiger recorded in 2025 in Chhattisgarh's Udanti-Sitanadi Tiger Reserve. A wildlife sanctuary is a protected area where wild animals can live safely.",
+     "Officials matched the tiger's [[stripe-pattern|stripe pattern]] using [[camera-trap|camera-trap]] photos shared by forest officials in Chhattisgarh. A camera trap is a camera in the wild that takes a picture when an animal moves in front of it. This way, experts can tell one tiger from another without catching it.",
+     "Officials think the tiger may first have come from Maharashtra, but they say this is only an early guess."
     ]
    },
-   "think": "Why might it matter to people when an animal is named after their community?",
+   "think": "Why might it help when forest teams from different states share what they know?",
    "quiz": {
-    "q": "One of the new frogs is the first known in India to eat which food?",
+    "q": "How did officials work out which tiger it was?",
     "a": [
-     "Bananas",
-     "Seaweed",
-     "Honey",
-     "Snails"
+     "By its roar",
+     "By its stripe pattern",
+     "By its footprints",
+     "By its age"
     ],
-    "c": 3
+    "c": 1
    },
    "src": [
     [
-     "BBC News via Yahoo, 12 Nov",
-     "https://www.yahoo.com/news/science/articles/five-miniature-frog-species-found-110723136.html"
+     "UNI, 15 Nov",
+     "https://www.uniindia.com/east-india/wildlife-debrigarh-tiger-odisha/246054"
     ],
     [
-     "NorthEast Now, 12 Nov",
-     "https://nenow.in/environment/indias-first-snail-eating-frog-discovered-in-arunachal-pradesh.html"
-    ],
-    [
-     "Harvard Museum of Comparative Zoology, 12 Nov",
-     "https://www.mcz.harvard.edu/news/2026/11/five-new-miniature-frog-species-found-eastern-himalayas"
+     "Ommcom News, 15 Nov",
+     "https://ommcomnews.com/odisha-news/tiger-spotted-in-odishas-debrigarh-earlier-recorded-in-chhattisgarh/"
     ]
    ]
   },
   {
-   "id": "g-msoutage",
+   "id": "in-odi-series",
+   "scope": "IN",
+   "cat": "sports",
+   "emoji": "🏏",
+   "date": "2026-11-15",
+   "kind": "news",
+   "x": {
+    "t": "India's bowlers help win the cricket series in New Zealand",
+    "b": [
+     "India beat New Zealand by 22 runs in a [[odi|one-day]] cricket match on Sunday. It was the last match of the series. India won three matches and New Zealand won one.",
+     "India scored only 209 runs. That is not a big score. But India's bowlers kept getting batters out, taking [[wicket|wickets]] again and again.",
+     "In the match before, India scored just 89 runs. This time the team bounced back."
+    ]
+   },
+   "o": {
+    "t": "India's bowlers protect a low score to win ODI series 3-1",
+    "b": [
+     "India beat New Zealand by 22 runs in the fifth and final [[odi|One Day International (ODI)]] on Sunday, 15 November, at Bay Oval in Mount Maunganui, New Zealand. The win gave India the series 3-1. One match ended with no result. A series is a set of matches between the same two teams.",
+     "In the fourth ODI, India had been all out for 89. A team is all out when ten of its batters are out, losing ten [[wicket|wickets]]. This time India made 209 all out, a low total. Axar Patel and Ishan Kishan top-scored with 46 each.",
+     "Then India's bowlers bowled New Zealand out for 187, so India defended, or protected, their low score. Arshdeep Singh took 3 wickets for 30 runs. It was New Zealand's first home ODI series loss in seven years, and India's first away ODI series win with Gautam Gambhir as head coach."
+    ]
+   },
+   "think": "In a team sport, how can one part of the team help when another part has a bad day?",
+   "quiz": {
+    "q": "By how many runs did India win the final match?",
+    "a": [
+     "12 runs",
+     "22 runs",
+     "89 runs",
+     "209 runs"
+    ],
+    "c": 1
+   },
+   "src": [
+    [
+     "PTI via ThePrint, 15 Nov",
+     "https://theprint.in/sport/india-beat-new-zealand-by-22-runs-win-odi-series-3-1/3099340/"
+    ],
+    [
+     "AFP via Gulf News, 15 Nov",
+     "https://gulfnews.com/sport/cricket/arshdeep-singh-stars-as-india-beat-new-zealand-to-clinch-odi-series-1.500748082"
+    ],
+    [
+     "ESPNcricinfo, 15 Nov",
+     "https://www.espn.com/cricket/series/24469/report/1539441/new-zealand-vs-india-5th-odi-24469"
+    ],
+    [
+     "Outlook India, 15 Nov",
+     "https://www.outlookindia.com/sports/cricket/india-vs-new-zealand-5th-odi-live-score-squad-ind-vs-nz-scorecard-bay-oval-mount-maunganui-latest-updates"
+    ]
+   ]
+  },
+  {
+   "id": "g-asean-summit",
    "scope": "global",
-   "cat": "tech",
-   "emoji": "📧",
-   "date": "2026-11-14",
+   "cat": "world",
+   "emoji": "🤝",
+   "date": "2026-11-15",
    "kind": "news",
+   "olderOnly": true,
+   "sensitive": "politics",
    "x": {
-    "t": "Email stopped for many people around the world",
+    "t": "Southeast Asian leaders meet in the Philippines",
     "b": [
-     "On Thursday, email stopped working for many people around the world. They use Outlook, an email service from a company called Microsoft. Some work apps had problems too.",
-     "A break like this is called an [[outage|outage]]. It lasted more than a day. Microsoft said the fault came from earlier work to upgrade its [[network|network]].",
-     "Microsoft said sorry. On Saturday, it said the service was working again."
+     "Leaders from Southeast Asia began a big meeting on Sunday. Their group of 11 countries is called [[asean|ASEAN]].",
+     "The [[summit|summit]] is in [[manila|Manila]], a city in the Philippines. The Philippines leads the group this year. Next year, Singapore takes a turn.",
+     "The leaders will talk about trade, safety and energy. These are problems the countries share."
     ]
    },
    "o": {
-    "t": "Microsoft says email outage is over after more than a day",
+    "t": "Southeast Asian leaders open their 49th summit in Manila",
     "b": [
-     "Email and work apps stopped for many people around the world on Thursday 12 November. The problem affected Microsoft 365, a set of online tools. They include Outlook email and the Teams app for calls, meetings and chats. Businesses and governments were hit. A break in a service like this is called an [[outage|outage]].",
-     "The outage lasted more than 24 hours. Microsoft said the fault was introduced during an earlier upgrade to its [[network|network]], a system of computers linked together so they can share information. It showed up after a later network change. The company said it was not a [[cyberattack|cyberattack]], which is an attempt to break into computer systems to cause harm.",
-     "Microsoft apologised on Friday. On Saturday 14 November, it said service had been restored. The company has promised a full report once it has reviewed what went wrong."
+     "The 49th [[asean|ASEAN]] [[summit|summit]] opened on Sunday, 15 November, in [[manila|Manila]], the capital of the Philippines. ASEAN stands for the Association of Southeast Asian Nations, a group of 11 countries. A summit is a meeting of top leaders. President Ferdinand Marcos Jr. of the Philippines led the opening.",
+     "ASEAN has a rotating chair, which means the job of leading the group passes from one member country to another. The Philippines holds the chair this year, and Singapore will take over in 2027.",
+     "The [[agenda|agenda]], the list of topics for the leaders to discuss, includes trade, security and energy. Leaders from outside the group are coming too. Canada's Prime Minister Mark Carney met Brazil's President Luiz Inacio Lula da Silva in Manila on Sunday. US President Donald Trump is due to arrive on Tuesday."
     ]
    },
-   "local": {
-    "IN": "In India, email support for customers of the airlines IndiGo and Air India was affected."
-   },
-   "think": "If email and messaging apps stopped for a day, how would you get an important message to someone?",
+   "think": "If everyone in your class took turns being class leader, what would be good about it, and what would be hard?",
    "quiz": {
-    "q": "What did Microsoft say caused the outage?",
+    "q": "Which country takes over as ASEAN chair in 2027?",
     "a": [
-     "A fault from an earlier network upgrade",
-     "A big storm",
-     "A power cut in one city",
-     "A lost password"
+     "The Philippines",
+     "Singapore",
+     "Canada",
+     "Norway"
     ],
-    "c": 0
+    "c": 1
    },
    "src": [
     [
-     "AP via NBC Chicago, 13 Nov",
-     "https://www.nbcchicago.com/news/local/what-caused-the-outlook-outage-microsoft-issues-apology-after-some-services-restored/4016408/"
+     "The Manila Times (with AFP), 15 Nov",
+     "https://www.manilatimes.net/2026/11/15/news/global-powers-converge-in-manila-as-asean-summit-kicks-off/2470176"
     ],
     [
-     "ABC News, 13 Nov",
-     "https://abcnews.com/US/outlook-down-microsoft-outage-reported-mail/story?id=138088203"
+     "Philippine Daily Inquirer, 15 Nov",
+     "https://www.inquirer.net/495734/live-updates-asean-summit-2026-and-related-meetings-nov-15-2026/"
     ],
     [
-     "CBS News with AP, 14 Nov",
-     "https://www.cbsnews.com/news/microsoft-battling-major-outage/"
+     "Prime Minister of Canada, 15 Nov",
+     "https://www.pm.gc.ca/en/news/news-releases/2026/11/15/prime-minister-carney-announces-canadas-landmark-contribution-protect"
     ],
     [
-     "Reuters via RTE, 13 Nov",
-     "https://www.rte.ie/news/business/2026/1113/1599061-microsoft-tech-outage/"
+     "Reuters via TimesLIVE, 15 Nov",
+     "https://www.timeslive.co.za/news/world/2026-11-15-canada-pledges-up-to-3925m-for-brazil-led-tropical-forest-fund/"
     ],
     [
-     "Digital Trends, 14 Nov",
-     "https://www.digitaltrends.com/computing/microsoft-365-outage-resolved/"
+     "TRT World, 15 Nov",
+     "https://www.trtworld.com/article/88ba8abdf2d0"
     ],
     [
-     "The Jerusalem Post with Reuters, 14 Nov",
-     "https://www.jpost.com/business-and-innovation/tech-and-start-ups/article-914847"
-    ],
-    [
-     "Merriam-Webster Dictionary",
-     "https://merriam-webster.com/dictionary/outage"
+     "The Star (Malaysia), 15 Jul 2026",
+     "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/07/15/both-sides-to-ensure-smooth-transition-as-singapore-takes-over-from-philippines-as-asean-chair-pm-wong"
     ]
    ]
   },
   {
-   "id": "in-sportsawards",
+   "id": "g-mars-jupiter",
+   "scope": "global",
+   "cat": "space",
+   "emoji": "🪐",
+   "date": "2026-11-15",
+   "kind": "calendar",
+   "when": "Before sunrise on 16 November",
+   "x": {
+    "t": "Look for Mars and Jupiter close together before sunrise",
+    "b": [
+     "Two [[planet|planets]] look close together this week. They are Mars and Jupiter. Look before sunrise on Monday, with a grown-up.",
+     "Jupiter is the brighter one. They are about one [[degree|degree]] apart.",
+     "They only look close. Really, they are very far apart. Look again on 22 November. They will be grouped with a star called Regulus."
+    ]
+   },
+   "o": {
+    "t": "Mars and Jupiter meet in the morning sky this week",
+    "b": [
+     "Before sunrise in mid-November, the [[planet|planets]] Mars and Jupiter appear about one [[degree|degree]] apart, their closest this month. A degree is a way to measure how far apart things look in the sky.",
+     "Both appear near a bright star called Regulus, and Jupiter is the brighter of the two planets. They only look close together: in space they are very far apart. Planets move around the Sun, so their positions among the stars slowly change.",
+     "The morning of Monday 16 November, when they are closest, is a good time to look, with an adult. On the morning of 22 November, Mars, Jupiter and Regulus will be grouped tightly together, so it is worth looking again."
+    ]
+   },
+   "think": "If two things look close together in the sky, how could you find out how far apart they really are?",
+   "quiz": {
+    "q": "Which of the two planets looks brighter?",
+    "a": [
+     "Mars",
+     "Jupiter",
+     "Saturn",
+     "Venus"
+    ],
+    "c": 1
+   },
+   "src": [
+    [
+     "BBC Sky at Night Magazine, 3 Nov (updated 11 Nov)",
+     "https://www.skyatnightmagazine.com/news/mars-jupiter-november-2026"
+    ],
+    [
+     "Star Walk, 13 Nov",
+     "https://starwalk.space/en/news/planetary-alignment-november-2026"
+    ]
+   ]
+  },
+  {
+   "id": "in-khelo-mascot",
    "scope": "IN",
    "cat": "sports",
    "emoji": "🏅",
-   "date": "2026-11-13",
+   "date": "2026-11-15",
    "kind": "news",
    "x": {
-    "t": "India's President gives awards to top sports players",
+    "t": "Meet Neelamani, the mascot for India's youth sports games",
     "b": [
-     "On Friday, India's [[president|President]], Droupadi Murmu, gave out the National Sports Awards. The [[arjuna-award|Arjuna Award]] honours top players. It went to 17 of them.",
-     "They play many sports, like chess, [[kabaddi|kabaddi]], rowing and hockey. Divya Deshmukh and Vidit Gujrathi play chess. Tejaswin Shankar does athletics.",
-     "Nobody got the top award, the Khel Ratna, this time. Coaches, who train players, got the Dronacharya Award."
+     "The [[khelo-india|Khelo India]] Youth Games will be held in Telangana from 11 to 22 December. About 8,000 people will take part.",
+     "On Sunday, leaders showed the games' [[mascot|mascot]]. It is called Neelamani. It has a crest, a beak and blue and turquoise feathers.",
+     "Neelamani stands for being lively, brave, quick and proud. The games start in less than four weeks."
     ]
    },
    "o": {
-    "t": "17 sportspeople receive the Arjuna Award from the President",
+    "t": "Khelo India Youth Games reveal mascot Neelamani and new logo",
     "b": [
-     "India's [[president|President]], Droupadi Murmu, presented the National Sports Awards on Friday 13 November. The ceremony was held at [[rashtrapati-bhavan|Rashtrapati Bhavan]], the President's official home. The [[arjuna-award|Arjuna Award]], which honours top players, went to 17 sportspeople.",
-     "They come from many sports. Divya Deshmukh and Vidit Gujrathi are chess players, and Tejaswin Shankar competes in athletics. Others play badminton, boxing, hockey, [[kabaddi|kabaddi]], rowing and shooting. The list also includes [[para-sport|para shooting]], which is shooting for athletes with disabilities, and deaf shooting, for athletes who are deaf.",
-     "A selection committee, a group that recommends who should win, was led by a retired judge. Nobody received the Khel Ratna, India's top sports award, this time. The last year with no Khel Ratna was 2014. Coaches, the people who train and guide players, were honoured as well, with the Dronacharya Award."
+     "The logo and [[mascot|mascot]] of the 8th [[khelo-india|Khelo India]] Youth Games were unveiled on Sunday, 15 November, by India's Sports Minister Mansukh Mandaviya and Telangana Chief Minister A. Revanth Reddy. Telangana will host the Games from 11 to 22 December 2026 in Hyderabad, Khammam, Karimnagar, Hanumakonda, Mahabubnagar and Nizamabad. About 8,000 athletes and participants will take part.",
+     "There will be 29 [[discipline|disciplines]], or types of sport: 27 competitive and 2 [[demonstration-sport|demonstration]] events, which are shown to the public but are not part of the main competition. Softball is a competitive sport for the first time, and sailing is one of the two demonstration events.",
+     "The mascot, Neelamani, stands for being vibrant, courageous, agile and proud. It has a crest, a beak and blue and turquoise feathers. The logo shows symbols of Telangana's heritage, such as the Buddha statue at Hussain Sagar and the Tangedu flower, with seven sporting figures."
     ]
    },
-   "think": "If you could give an award to someone who helped you learn a sport or a skill, who would it be, and why?",
+   "think": "If you designed a mascot for your town or school, what would it look like, and why?",
    "quiz": {
-    "q": "How many sportspeople received the Arjuna Award?",
+    "q": "What is the name of the Games' mascot?",
     "a": [
-     "7",
-     "17",
-     "70",
-     "170"
-    ],
-    "c": 1
-   },
-   "src": [
-    [
-     "UNI, 13 Nov",
-     "https://www.uniindia.com/sports/sports-arjuna-awards-president/244317"
-    ],
-    [
-     "PTI via DD India, 13 Nov",
-     "https://ddindia.co.in/2026/11/president-murmu-gives-away-national-sports-awards-at-rashtrapati-bhavan/"
-    ],
-    [
-     "The News Mill, with ANI inputs, 13 Nov",
-     "https://thenewsmill.com/2026/11/athletes-and-coaches-depart-for-rashtrapati-bhavan-to-receive-national-sports-awards/"
-    ],
-    [
-     "PTI via The Meghalayan Express, 13 Nov",
-     "https://themeghalayanexpress.com/president-murmu-gives-away-national-sports-awards-at-rashtrapati-bhavan/"
-    ],
-    [
-     "Olympics.com, National Sports Awards",
-     "https://olympics.com/en/news/national-sports-awards-india"
-    ]
-   ]
-  },
-  {
-   "id": "in-pslv-test",
-   "scope": "IN",
-   "cat": "space",
-   "emoji": "🚀",
-   "date": "2026-11-12",
-   "kind": "news",
-   "x": {
-    "t": "India tests an improved rocket part on the ground",
-    "b": [
-     "On Thursday, India's space agency [[isro|ISRO]] tested a rocket part on the ground. Rockets are built in sections called [[rocket-stage|stages]]. This part is the third stage of the PSLV rocket.",
-     "Two earlier PSLV flights had problems in the third stage. So engineers changed its design and updated their checks.",
-     "This time, the motor was fired without flying. ISRO said the test was a success. More tests are planned."
-    ]
-   },
-   "o": {
-    "t": "ISRO tests new version of PSLV third stage on the ground",
-    "b": [
-     "India's space agency, [[isro|ISRO]], says it successfully tested the third stage of its PSLV rocket on Thursday 12 November. A [[rocket-stage|stage]] is a section of a rocket that is dropped once its fuel is used up, making the rocket lighter. The test took place at the Satish Dhawan Space Centre in Sriharikota.",
-     "It was a [[static-test|static test]]: a ground test in which the motor is fired without flying. The third stage is a [[solid-motor|solid motor]], which burns a solid fuel mixture packed inside a cylinder. ISRO said the test followed anomalies, meaning problems, in this stage on two earlier missions. News reports say both missions failed.",
-     "Engineers improved the [[nozzle|nozzle]], the part at the end of the motor that directs hot gas out. They also added extra sealing and updated their checks on materials and assembly. ISRO says more tests are planned once it has studied the data."
-    ]
-   },
-   "think": "When something you have made does not work, how do you find out what went wrong?",
-   "quiz": {
-    "q": "Which part of the PSLV rocket did ISRO test on the ground?",
-    "a": [
-     "The first stage",
-     "The satellite on top",
-     "The third stage",
-     "The launch tower"
-    ],
-    "c": 2
-   },
-   "src": [
-    [
-     "ISRO, 12 Nov",
-     "https://www.isro.gov.in/Ground_test_of_third_stage_of_PSLV_PS3.html"
-    ],
-    [
-     "ANI, 12 Nov",
-     "https://aninews.in/news/national/general-news/isro-successfully-conducts-ground-static-test-of-pslvs-third-stage-at-sriharikota20261112225218/"
-    ],
-    [
-     "The Tribune, 12 Nov",
-     "https://www.tribuneindia.com/news/science-technology/isro-successfully-conducts-ground-test-of-pslv-third-stage-at-sriharikota/"
-    ],
-    [
-     "Deccan Chronicle, 12 Nov",
-     "https://www.deccanchronicle.com/southern-states/andhra-pradesh/isro-successfully-tests-upgraded-pslv-third-stage-after-mission-setbacks-2003889"
-    ],
-    [
-     "Spaceflight Now, 12 Jan 2026",
-     "https://spaceflightnow.com/2026/01/12/indias-pslv-suffers-second-consecutive-launch-failure-16-satellites-lost/"
-    ],
-    [
-     "The Week, 12 Jan 2026",
-     "https://www.theweek.in/news/sci-tech/2026/01/12/pslv-failure-explainer-isro.html"
-    ],
-    [
-     "NASA Glenn Research Center, Solid Rocket Engine",
-     "https://www.grc.nasa.gov/www/K-12/airplane/srockth.html"
-    ],
-    [
-     "NASA Glenn Research Center, Booster Staging",
-     "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/stage"
-    ]
-   ]
-  },
-  {
-   "id": "g-haaland",
-   "scope": "global",
-   "cat": "sports",
-   "emoji": "⚽",
-   "date": "2026-11-14",
-   "kind": "news",
-   "x": {
-    "t": "Haaland scores as Norway beat Wales",
-    "b": [
-     "Norway beat Wales 3-1 at football on Saturday. The game was played in Oslo.",
-     "Erling Haaland scored Norway's third goal from a [[penalty|penalty]]. A penalty is a free shot at goal.",
-     "It was his 23rd goal in the [[nations-league|Nations League]]. No player has scored more. He has 66 goals in 60 games for his [[national-team|country's team]]."
-    ]
-   },
-   "o": {
-    "t": "Haaland's 23rd Nations League goal helps Norway beat Wales 3-1",
-    "b": [
-     "Norway beat Wales 3-1 in Oslo on Saturday 14 November. The match was part of the [[nations-league|Nations League]], a competition for the [[national-team|national teams]] of Europe. A national team is made up of players chosen to play for their country.",
-     "Norway scored first in the 59th minute and again in the 68th. The second goal came after a pass from Erling Haaland. Wales scored in the 79th minute. Then, in the 88th minute, Haaland scored from a [[penalty|penalty]]. That is a free shot with only the goalkeeper to beat, given after a [[foul|foul]], which means breaking the rules.",
-     "It was Haaland's 23rd Nations League goal, more than any other player has scored in the competition. He now has 66 goals in 60 games for Norway. That works out at more than one goal a game."
-    ]
-   },
-   "think": "Would you rather score the goal or make the pass that sets it up? Why?",
-   "quiz": {
-    "q": "How many Nations League goals has Erling Haaland now scored?",
-    "a": [
-     "13",
-     "23",
-     "33",
-     "43"
-    ],
-    "c": 1
-   },
-   "src": [
-    [
-     "UEFA.com, 14 Nov",
-     "https://www.uefa.com/uefanationsleague/news/02ab-220e66a3c090-9304054ed1ca-1000--uefa-nations-league-matchday-5-round-up-denmark-beat-por/"
-    ],
-    [
-     "AP via Arab News, 14 Nov",
-     "https://www.arabnews.com/football/haaland-back-on-target-to-seal-norways-3-1-win-over-wales-in-nations-league-3011939"
-    ],
-    [
-     "Anadolu via anews, 14 Nov",
-     "https://www.anews.com.tr/sport/2026/11/14/haaland-scores-assists-as-norway-beat-wales-3-1-in-nations-league"
-    ],
-    [
-     "beIN Sports, 14 Nov",
-     "https://www.beinsports.com/en-us/soccer/uefa-nations-league/articles/norway-3-1-wales-haaland-keeps-quarter-final-hopes-alive-2026-11-14"
-    ],
-    [
-     "The Independent via LiveScore",
-     "https://www.livescore.com/en/news/football/more/wales-suffer-big-nations-league-blow-in-norway-as-erling-haaland-extends-record-the-independent/"
-    ]
-   ]
-  },
-  {
-   "id": "g-electron100",
-   "scope": "global",
-   "cat": "space",
-   "emoji": "🛰️",
-   "date": "2026-11-14",
-   "kind": "news",
-   "x": {
-    "t": "A small rocket called Electron reaches 100 launches",
-    "b": [
-     "A small kind of rocket called [[electron-rocket|Electron]] was launched for the 100th time on Saturday. It took off from New Zealand.",
-     "The rocket is 18 metres tall. It carried a [[satellite|satellite]] for a company in Japan.",
-     "The satellite makes pictures of Earth using [[radar|radar]]. Radar can see through clouds. It can see at night too."
-    ]
-   },
-   "o": {
-    "t": "Small Electron rocket makes its 100th launch from New Zealand",
-    "b": [
-     "A rocket called [[electron-rocket|Electron]] made its 100th launch on Saturday 14 November. It lifted off at 6.30 pm local time from the [[mahia-peninsula|Māhia Peninsula]] in New Zealand. Electron, from the company Rocket Lab, is 18 metres tall.",
-     "It carried a [[satellite|satellite]], a machine that travels around Earth, for the Japanese company iQPS. The satellite, YAMATSUMI-II, went into [[orbit|orbit]], a path around Earth, about 575 kilometres up. It pictures Earth using [[radar|radar]], which sends out radio waves and reads the ones that bounce back. So it can see through cloud and at night.",
-     "Electron first flew in 2017. That test flight failed, and the first success came in January 2018. Rocket Lab says Electron reached 100 launches faster than any other commercially developed rocket, meaning one developed by a business. This was its 11th launch for iQPS, which plans a group of about 36 radar satellites."
-    ]
-   },
-   "think": "If you could take a picture of any place on Earth from space, at any time, what would you look at and why?",
-   "quiz": {
-    "q": "How many Electron launches have there now been?",
-    "a": [
-     "100",
-     "12",
-     "50",
-     "1,000"
+     "Neelamani",
+     "Tangedu",
+     "Hussain Sagar",
+     "Khammam"
     ],
     "c": 0
    },
    "src": [
     [
-     "Space.com, 14 Nov",
-     "https://www.space.com/space-exploration/launches-spacecraft/rocket-lab-100th-launch-iqps-electron-sar-satellite"
+     "PIB, 15 Nov",
+     "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2336512&reg=48&lang=2"
     ],
     [
-     "Rocket Lab press release via StockTitan, 14 Nov",
-     "https://www.stocktitan.net/news/RKLB/rocket-lab-hits-100-electron-launches-fastest-commercial-rocket-to-0r5olk0ol3kf.html"
-    ],
-    [
-     "Starlust, 14 Nov",
-     "https://starlust.org/rocket-lab-completes-100th-mission-of-electron-rocket-faster-than-any-commercial-launch-vehicle/"
-    ],
-    [
-     "New Space Economy, 13 Nov",
-     "https://newspaceeconomy.ca/2026/11/13/rocket-lab-electron-100th-launch-november-14-2026"
-    ]
-   ]
-  },
-  {
-   "id": "g-rocky",
-   "scope": "global",
-   "cat": "culture",
-   "emoji": "🎬",
-   "date": "2026-11-13",
-   "kind": "news",
-   "x": {
-    "t": "570 people dress as one film hero and set a record",
-    "b": [
-     "On Friday, 570 people dressed up as the same film character. His name is [[rocky-balboa|Rocky Balboa]].",
-     "They stood on the steps of a big art museum in [[philadelphia|Philadelphia]]. Each wore a black hat and grey clothes.",
-     "Everyone was counted. It was a new [[world-record|world record]]. Then the crowd ran up the steps."
-    ]
-   },
-   "o": {
-    "t": "570 fans dressed as Rocky set a world record in Philadelphia",
-    "b": [
-     "A crowd of 570 people set a [[guinness-world-records|Guinness World Record]] on Friday 13 November in [[philadelphia|Philadelphia]], a city in the United States. It is the record for the largest gathering of people dressed as [[rocky-balboa|Rocky Balboa]], the main character of the film Rocky.",
-     "They met on the steps of the Philadelphia Museum of Art. The costume was a black knitted hat, a grey sweatshirt and sweatpants, which are soft clothes for exercise. It also had black high-top shoes, which cover the ankle. At least 250 people were needed for the record, and more than twice that number came.",
-     "The event marked 50 years since the film came out in 1976, with the actor Sylvester Stallone. After the count was done, people ran up the museum steps."
-    ]
-   },
-   "think": "If your town tried to set a friendly world record, what would you choose, and who would join in?",
-   "quiz": {
-    "q": "How many people dressed as Rocky Balboa for the record?",
-    "a": [
-     "57",
-     "570",
-     "5,700",
-     "57,000"
-    ],
-    "c": 1
-   },
-   "src": [
-    [
-     "AP via CP24, 14 Nov",
-     "https://cp24.com/news/world/2026/11/14/50-years-after-iconic-film-a-gathering-of-rocky-fans-in-philadelphia-breaks-a-world-record"
-    ],
-    [
-     "CBS News Philadelphia, 13 Nov",
-     "https://cbsnews.com/philadelphia/news/rocky-guinness-world-record-philadelphia-art-museum"
-    ],
-    [
-     "The Philadelphia Inquirer, 13 Nov",
-     "https://inquirer.com/arts/guinness-world-record-rocky-balboa-dress-up-celebration-20261113.html"
+     "ANI via The Tribune, 15 Nov",
+     "https://www.tribuneindia.com/news/sports/khelo-india-youth-games-2026-sports-minister-mansukh-mandaviya-telangana-cm-revanth-reddy-unveil-logo-and-mascot"
     ]
    ]
   }
  ],
  "glossary": {
-  "starship": [
-   "Starship",
-   "tech",
-   "A very big rocket and spaceship made by the company SpaceX.",
-   "A rocket system made by the company SpaceX. It has two parts: a booster called Super Heavy at the bottom and a ship, also called Starship, on top."
+  "badminton": [
+   "badminton",
+   "words",
+   "A game where players hit a feathered shuttle over a high net with rackets.",
+   "A racket sport in which players hit a shuttlecock back and forth over a high net. A point is won when the shuttlecock lands on the other side's court."
   ],
-  "orbit": [
-   "orbit",
+  "super-500": [
+   "Super 500",
+   "words",
+   "A kind of big badminton tournament.",
+   "The name for one level of tournament on badminton's world tour."
+  ],
+  "bwf": [
+   "BWF",
+   "civics",
+   "The group that runs badminton around the world.",
+   "The Badminton World Federation, the organisation that governs badminton around the world and runs its top international tournaments."
+  ],
+  "ranking-points": [
+   "ranking points",
+   "words",
+   "Points players win by doing well in tournaments.",
+   "Points that players earn based on how far they go in tournaments. They are added up to rank players and decide who qualifies for some events."
+  ],
+  "tropical-forest": [
+   "tropical forest",
    "science",
-   "The path something follows as it goes round and round a planet, moon or star.",
-   "The curved path an object follows around a planet, moon or star, held there by gravity."
+   "A forest in a hot, wet part of the world, near the equator, the line around Earth's middle.",
+   "A forest in the tropics, the warm region around the equator. Tropical forests are home to a huge variety of plants and animals."
   ],
-  "booster": [
-   "booster",
-   "tech",
-   "The bottom part of a rocket, which gives the big push to lift it off the ground.",
-   "The first, lower part of a rocket. It gives the main push at liftoff and then separates from the part above it."
-  ],
-  "heat-shield": [
-   "heat shield",
-   "tech",
-   "A cover that keeps a spaceship from getting too hot when it comes back to Earth.",
-   "A protective layer on a spacecraft. It stops the craft overheating as it rushes back down through the air."
-  ],
-  "satellite": [
-   "satellite",
-   "tech",
-   "A machine sent into space that travels round and round Earth.",
-   "A machine sent into orbit around Earth or another body. Satellites are used for jobs such as communication, taking pictures and studying weather."
-  ],
-  "freedom-fighter": [
-   "freedom fighter",
+  "fund": [
+   "fund",
    "words",
-   "A person who takes part in a struggle for their people's freedom.",
-   "A person who takes part in a struggle for political freedom. In India, the term is used for people who opposed British rule."
+   "Money that is kept together for one special job.",
+   "A sum of money collected and set aside for a particular purpose, often with contributions from several givers."
   ],
-  "tribe": [
-   "tribe",
-   "words",
-   "A group of families who share a language, customs and a long history together.",
-   "A community of people who share ancestors, a language and customs."
-  ],
-  "birsa-munda": [
-   "Birsa Munda",
+  "indigenous-peoples": [
+   "Indigenous Peoples",
    "people",
-   "A leader of the Munda tribe who stood up to British rule in India.",
-   "A leader from the Munda tribe, born in 1875 in what is now Jharkhand. He led a movement against British rule and for the rights of tribal people."
+   "The first people to live in a place, and their families today.",
+   "Groups whose ancestors lived in a place before others arrived, and who often keep their own languages and ways of life."
   ],
-  "jharkhand": [
-   "Jharkhand",
-   "places",
-   "A state of India.",
-   "A state of India. It was separated from Bihar and became a state in 2000."
+  "developing-countries": [
+   "developing countries",
+   "civics",
+   "Countries that are still building things like roads, schools and hospitals.",
+   "Countries where people on average earn less money, and where industries and services such as roads, schools and hospitals are still growing."
   ],
-  "bihar": [
-   "Bihar",
+  "camera-trap": [
+   "camera trap",
+   "tech",
+   "A camera left in a forest. It takes a photo when an animal walks past.",
+   "A camera fixed in a wild place that takes a photo or video automatically when an animal moves in front of it. Scientists use camera traps to study animals without disturbing them."
+  ],
+  "stripe-pattern": [
+   "stripe pattern",
+   "science",
+   "Every tiger has its own stripes, a bit like a fingerprint.",
+   "The arrangement of a tiger's stripes. No two tigers have the same pattern, a bit like human fingerprints, so experts can use photos to tell tigers apart."
+  ],
+  "wildlife-sanctuary": [
+   "wildlife sanctuary",
    "places",
-   "A state of India.",
-   "A state of India. Jharkhand was part of Bihar until 2000."
+   "A protected place where wild animals can live safely.",
+   "A protected area set aside for wild animals and plants, where activities that could harm them are limited."
+  ],
+  "odi": [
+   "ODI",
+   "words",
+   "A cricket match between countries that is played in one day.",
+   "One Day International: a cricket match between countries in which each team bats for up to 50 overs."
+  ],
+  "wicket": [
+   "wicket",
+   "words",
+   "In cricket, the bowling team takes a wicket each time it gets a batter out.",
+   "In cricket, a team loses a wicket each time one of its batters is out; the bowling side is said to take that wicket. A team is all out when ten batters are out."
+  ],
+  "asean": [
+   "ASEAN",
+   "civics",
+   "A group of countries in Southeast Asia that work together.",
+   "Short for the Association of Southeast Asian Nations, a group of countries in Southeast Asia that cooperate on trade, safety and other shared issues."
+  ],
+  "summit": [
+   "summit",
+   "words",
+   "A meeting of the top leaders of countries.",
+   "A meeting of top leaders, such as presidents and prime ministers, to talk about important issues. The word also means the top of a mountain."
+  ],
+  "manila": [
+   "Manila",
+   "places",
+   "The capital city of the Philippines.",
+   "The capital city of the Philippines, on the island of Luzon."
+  ],
+  "agenda": [
+   "agenda",
+   "words",
+   "A list of things to talk about at a meeting.",
+   "A list of the topics to be discussed or decided at a meeting, usually agreed before it starts."
+  ],
+  "planet": [
+   "planet",
+   "science",
+   "A big round world that travels around the Sun, like Earth or Mars.",
+   "A large, round object that travels in a path around a star. Earth, Mars and Jupiter are planets that travel around the Sun."
+  ],
+  "degree": [
+   "degree",
+   "science",
+   "A way to measure how far apart things look in the sky.",
+   "A unit for measuring angles. In the sky it shows how far apart two objects appear."
+  ],
+  "khelo-india": [
+   "Khelo India",
+   "civics",
+   "A plan in India to get more young people playing sport. The name means \"Play India\".",
+   "A national programme in India that encourages sport. Its name means \"Play India\" in Hindi, and its Youth Games are a multi-sport event for young athletes."
+  ],
+  "mascot": [
+   "mascot",
+   "words",
+   "A fun character that stands for a team or an event.",
+   "A character, often an animal or bird, chosen to represent a team or event and bring it good luck and fun."
+  ],
+  "discipline": [
+   "discipline",
+   "words",
+   "One kind of sport at a big sports event.",
+   "In sport, one type of sport or event within a larger competition, such as swimming or athletics."
+  ],
+  "demonstration-sport": [
+   "demonstration sport",
+   "words",
+   "A sport shown at an event so people can see it.",
+   "A sport played at a big event mainly to show it to the public, rather than as one of the main competition sports."
   ],
   "cop": [
    "COP",
@@ -750,17 +505,11 @@
    "A big meeting where countries talk about climate change.",
    "Short for Conference of the Parties: the United Nations climate summit, where countries meet to agree on action on climate change."
   ],
-  "outline": [
-   "outline",
-   "words",
-   "A short list of the main points of a plan.",
-   "A short summary that gives the main points of a plan or a piece of writing, without the full detail."
-  ],
-  "fossil-fuels": [
-   "fossil fuels",
-   "science",
-   "Coal, oil and gas. People burn them to make energy.",
-   "Coal, oil and gas. Burning them releases greenhouse gases, which trap the Sun's heat."
+  "un": [
+   "United Nations",
+   "civics",
+   "A club of almost every country in the world that works for peace and helps people.",
+   "An international organisation, founded in 1945, where countries work together for peace and to help people. It has 193 member countries. The Security Council is one of its main bodies."
   ],
   "climate-change": [
    "climate change",
@@ -768,548 +517,293 @@
    "Earth is slowly getting warmer, and the weather is changing with it.",
    "The long-term warming of the Earth and the changes in weather that come with it. Burning fossil fuels is the main cause."
   ],
-  "adaptation": [
-   "adaptation",
-   "science",
-   "Changing how we do things to cope with a changing climate.",
-   "Adjusting to the effects of a changing climate, such as floods and droughts."
-  ],
-  "exports": [
-   "exports",
-   "words",
-   "Things a country sells to other countries.",
-   "Goods and services that one country sells to buyers in other countries."
-  ],
-  "imports": [
-   "imports",
-   "words",
-   "Things a country buys from other countries.",
-   "Goods and services that one country buys from sellers in other countries."
-  ],
-  "trade-deficit": [
-   "trade deficit",
-   "words",
-   "When a country buys more from other countries than it sells to them.",
-   "The gap when the value of a country's imports is bigger than the value of its exports over a period of time."
-  ],
-  "crude-oil": [
-   "crude oil",
-   "science",
-   "Oil as it comes out of the ground.",
-   "Oil in its natural state, as it comes out of the ground."
-  ],
-  "marine-reserve": [
-   "marine reserve",
-   "science",
-   "A part of the sea where nature is kept safe.",
-   "An area of sea that is protected by law so that the animals and plants living there are kept safe."
-  ],
-  "seamount": [
-   "seamount",
-   "science",
-   "A mountain that sits under the sea.",
-   "An underwater mountain that rises from the ocean floor."
-  ],
-  "coral": [
-   "coral",
-   "science",
-   "A tiny sea animal that lives in big groups. Many kinds build a hard home.",
-   "A small sea animal that lives in large groups. Many corals build hard skeletons, which can pile up into reefs."
-  ],
-  "madeira": [
-   "Madeira",
-   "places",
-   "A group of islands in the Atlantic Ocean that belongs to Portugal.",
-   "A group of Portuguese islands in the Atlantic Ocean. The largest island is also called Madeira."
-  ],
-  "habitat": [
-   "habitat",
-   "science",
-   "The place where an animal or plant lives.",
-   "The natural home of an animal or plant, which gives it the food, water and shelter it needs."
-  ],
-  "species": [
-   "species",
-   "science",
-   "One kind of living thing, such as a tiger or a house sparrow.",
-   "A group of living things that are alike and can breed with each other. Scientists give each species a two-part scientific name."
-  ],
-  "himalayas": [
-   "Himalayas",
-   "places",
-   "A range of very high mountains in Asia.",
-   "A great mountain range in Asia that includes the highest mountains on Earth."
-  ],
-  "fieldwork": [
-   "fieldwork",
-   "science",
-   "Studying nature outdoors, where plants and animals live.",
-   "Research that is done outdoors in the real world, by watching and collecting information, instead of in a laboratory or office."
-  ],
-  "journal": [
-   "journal",
-   "words",
-   "A magazine where scientists share what they have found.",
-   "A magazine that publishes new research. Other experts usually check each study before it is printed."
-  ],
-  "outage": [
-   "outage",
-   "words",
-   "A time when something people use, like power or the internet, stops working.",
-   "A period when a service, such as electricity or an online service, is interrupted and does not work."
-  ],
-  "network": [
-   "network",
+  "satellite": [
+   "satellite",
    "tech",
-   "A group of computers joined together so they can share information.",
-   "A system of computers and other devices that are linked together so they can share information."
-  ],
-  "cyberattack": [
-   "cyberattack",
-   "tech",
-   "When someone breaks into computers on purpose to cause harm.",
-   "An attempt to break into a computer system illegally, in order to cause damage or harm."
-  ],
-  "president": [
-   "President",
-   "civics",
-   "The person who is the head of a country such as India.",
-   "The head of state of a republic, which is a country without a king or queen. India's President is its head of state."
-  ],
-  "arjuna-award": [
-   "Arjuna Award",
-   "words",
-   "An award that India gives to top sports players.",
-   "One of India's National Sports Awards. It is given to sportspeople."
-  ],
-  "rashtrapati-bhavan": [
-   "Rashtrapati Bhavan",
-   "places",
-   "The big house where India's President lives and works.",
-   "The official home of the President of India, in New Delhi."
-  ],
-  "kabaddi": [
-   "kabaddi",
-   "words",
-   "A team game where a player runs across to tag the other team and tries to get back.",
-   "A team sport in which players take turns to cross into the other team's half, tag opponents and return without being caught."
-  ],
-  "para-sport": [
-   "para sport",
-   "words",
-   "Sport played by athletes with disabilities.",
-   "Sport for athletes with disabilities. Para shooting is the form of shooting for these athletes."
-  ],
-  "isro": [
-   "ISRO",
-   "science",
-   "India's space agency.",
-   "The Indian Space Research Organisation, India's space agency."
-  ],
-  "rocket-stage": [
-   "rocket stage",
-   "science",
-   "One section of a rocket. A rocket drops each section when its fuel is used up.",
-   "A section of a rocket. When a stage has used up its fuel it is dropped, which makes the rocket lighter and helps it reach the speed needed to circle Earth."
-  ],
-  "static-test": [
-   "static test",
-   "science",
-   "A test where a rocket motor is fired on the ground and does not fly.",
-   "A ground test in which a rocket motor is fired while it stays in place, without flying."
-  ],
-  "solid-motor": [
-   "solid motor",
-   "science",
-   "A rocket motor that burns a solid mixture, not a liquid.",
-   "A rocket motor in which the fuel and the oxidiser it needs to burn are mixed into a solid and packed inside a cylinder."
-  ],
-  "nozzle": [
-   "nozzle",
-   "science",
-   "The opening at the end of a pipe or motor where gas or liquid comes out.",
-   "A shaped opening at the end of a pipe or motor that directs the flow of gas or liquid coming out."
-  ],
-  "penalty": [
-   "penalty",
-   "words",
-   "A free shot at goal in football, with only the goalkeeper in the way.",
-   "In football, a free shot at goal with only the goalkeeper to beat. It is given when a team breaks the rules close to its own goal."
-  ],
-  "nations-league": [
-   "Nations League",
-   "words",
-   "A football contest between teams from Europe.",
-   "The UEFA Nations League, a competition between the national teams of Europe."
-  ],
-  "national-team": [
-   "national team",
-   "words",
-   "A team of players picked to play for their country.",
-   "A team of players chosen to represent their country in matches against other countries."
-  ],
-  "foul": [
-   "foul",
-   "words",
-   "Something a player does that breaks the rules of the game.",
-   "An action that breaks the rules of a sport, such as tripping or pushing an opponent in football."
-  ],
-  "electron-rocket": [
-   "Electron",
-   "tech",
-   "A small rocket from the company Rocket Lab.",
-   "A rocket from the company Rocket Lab, used to carry satellites into orbit. It is 18 metres tall."
-  ],
-  "mahia-peninsula": [
-   "Māhia Peninsula",
-   "places",
-   "A piece of land in New Zealand that sticks out into the sea.",
-   "A peninsula in New Zealand. A peninsula is a piece of land almost surrounded by water. Rocket Lab launches rockets from there."
-  ],
-  "radar": [
-   "radar",
-   "tech",
-   "A tool that finds things by sending out radio waves and catching them when they bounce back.",
-   "A system that sends out radio waves and measures the ones that bounce back, to find or picture objects."
-  ],
-  "rocky-balboa": [
-   "Rocky Balboa",
-   "people",
-   "The main character in a film called Rocky. He is not a real person.",
-   "The made-up main character of the film Rocky, which came out in 1976 with the actor Sylvester Stallone."
-  ],
-  "philadelphia": [
-   "Philadelphia",
-   "places",
-   "A big city in the United States.",
-   "A large city in the state of Pennsylvania, in the eastern United States."
-  ],
-  "guinness-world-records": [
-   "Guinness World Records",
-   "words",
-   "A group that keeps a list of world records and checks new ones.",
-   "An organisation that keeps a list of world records. It checks that each new record follows its rules before the record counts."
-  ],
-  "world-record": [
-   "world record",
-   "words",
-   "The best, biggest or fastest that anyone in the world has done.",
-   "The best result ever officially recorded anywhere in the world for a particular feat."
+   "A machine sent into space that travels round and round Earth.",
+   "A machine sent into orbit around Earth or another body. Satellites are used for jobs such as communication, taking pictures and studying weather."
   ],
   "paris-agreement": [
    "Paris Agreement",
    "civics",
    "A promise made by countries in 2015 to slow down global warming.",
    "A 2015 agreement in which countries agreed to keep warming well below 2°C and to try for 1.5°C, with each country setting its own targets."
-  ],
-  "un": [
-   "United Nations",
-   "civics",
-   "A club of almost every country in the world that works for peace and helps people.",
-   "Founded in 1945, it has 193 member countries. The Security Council is one of its main bodies."
   ]
  },
  "keys": {
-  "g-starship-catch": {
+  "in-lakshya-kumamoto": {
    "type": "number",
-   "v": "About 14",
-   "l": "times the ship circled Earth before it was caught"
+   "v": "13-21, 21-18, 21-14",
+   "l": "the game scores in the final: Lakshya Sen lost the first game, then won the next two"
   },
-  "in-birsa": {
+  "g-forest-fund": {
    "type": "number",
-   "v": "1875",
-   "l": "the year Birsa Munda was born, on 15 November"
+   "v": "C$560 million",
+   "l": "the most Canada will give the tropical forest fund over four years"
   },
-  "g-cop31": {
+  "in-odi-series": {
    "type": "number",
-   "v": "3 times",
-   "l": "how much countries agreed, at least, to raise adaptation money by 2035"
+   "v": "22",
+   "l": "runs: how much India won by, even though they scored only 209"
   },
-  "in-exports": {
+  "g-asean-summit": {
    "type": "number",
-   "v": "$89.99 billion",
-   "l": "goods and services India sold to other countries in October"
+   "v": "11",
+   "l": "member countries in ASEAN"
   },
-  "g-portugal-reserve": {
+  "g-mars-jupiter": {
    "type": "number",
-   "v": "173,000 sq km",
-   "l": "about the size of Portugal's new marine reserve"
+   "v": "1 degree",
+   "l": "about how far apart Mars and Jupiter look before sunrise this week"
   },
-  "in-hornedfrogs": {
+  "in-khelo-mascot": {
    "type": "number",
-   "v": "5",
-   "l": "new species of horned frog named after five years of fieldwork"
+   "v": "29",
+   "l": "disciplines at the Games: 27 competitive and 2 demonstration"
   },
-  "g-msoutage": {
+  "in-debrigarh-tiger": {
    "type": "number",
-   "v": "24+ hours",
-   "l": "how long the outage lasted"
-  },
-  "in-sportsawards": {
-   "type": "number",
-   "v": "17",
-   "l": "sportspeople who received the Arjuna Award"
-  },
-  "g-haaland": {
-   "type": "number",
-   "v": "23",
-   "l": "Haaland's Nations League goals, more than any other player"
-  },
-  "g-electron100": {
-   "type": "number",
-   "v": "100",
-   "l": "launches of the Electron rocket so far"
-  },
-  "g-rocky": {
-   "type": "number",
-   "v": "570",
-   "l": "people dressed as Rocky Balboa on the museum steps"
+   "v": "9 November",
+   "l": "the day the tiger was seen in Debrigarh Wildlife Sanctuary"
   }
  },
  "xkeys": {
-  "g-starship-catch": {
+  "in-lakshya-kumamoto": {
    "type": "check",
-   "q": "What happened to the booster, the rocket's bottom part?",
+   "q": "Did Lakshya win or lose the first game?",
    "a": [
-    "It came down in the sea",
-    "The tower caught it"
-   ],
-   "c": 0,
-   "right": "Right! The booster was not caught. It came down in the sea.",
-   "wrong": "Not quite. The booster was not caught. It came down in the sea."
-  },
-  "in-birsa": {
-   "type": "check",
-   "q": "Which state began on 15 November 2000?",
-   "a": [
-    "Kerala",
-    "Jharkhand"
+    "He won it",
+    "He lost it"
    ],
    "c": 1,
-   "right": "Right! Jharkhand began on 15 November 2000.",
-   "wrong": "Not quite. Jharkhand began on 15 November 2000."
+   "right": "Right! He lost the first game, then won the next two.",
+   "wrong": "Not quite. He lost the first game, then won the next two."
   },
-  "g-cop31": {
+  "g-forest-fund": {
    "type": "check",
-   "q": "Is the first outline a finished agreement?",
+   "q": "What is Canada's money for?",
    "a": [
-    "No, it is a list of main points",
-    "Yes, it is all finished"
+    "Protecting forests",
+    "Building roads"
    ],
    "c": 0,
-   "right": "Right! An outline is a list of main points, and two big questions are still open.",
-   "wrong": "Not quite. An outline is a list of main points, and two big questions are still open."
+   "right": "Right! The money will help protect tropical forests.",
+   "wrong": "Not quite. The money will help protect tropical forests."
   },
-  "in-exports": {
+  "in-debrigarh-tiger": {
    "type": "check",
-   "q": "What is a trade deficit?",
+   "q": "How did officials know which tiger it was?",
    "a": [
-    "When a country sells more than it buys",
-    "When a country buys more than it sells"
+    "Its stripe pattern",
+    "Its loud roar"
+   ],
+   "c": 0,
+   "right": "Right! Officials matched its stripe pattern in photos.",
+   "wrong": "Not quite. Officials matched its stripe pattern in photos."
+  },
+  "in-odi-series": {
+   "type": "check",
+   "q": "How many runs did India win by?",
+   "a": [
+    "22 runs",
+    "89 runs"
+   ],
+   "c": 0,
+   "right": "Right! India won by 22 runs.",
+   "wrong": "Not quite. India won by 22 runs. The 89 was their score in the match before."
+  },
+  "g-asean-summit": {
+   "type": "check",
+   "q": "Which country leads the group this year?",
+   "a": [
+    "Singapore",
+    "The Philippines"
    ],
    "c": 1,
-   "right": "Right! A trade deficit is the gap when a country buys more than it sells.",
-   "wrong": "Not quite. A trade deficit is the gap when a country buys more than it sells."
+   "right": "Right! The Philippines leads this year. Singapore is next.",
+   "wrong": "Not quite. The Philippines leads this year. Singapore takes a turn next year."
   },
-  "g-portugal-reserve": {
+  "g-mars-jupiter": {
    "type": "check",
-   "q": "Where do the corals and sponges in this story live?",
+   "q": "Which planet looks brighter?",
    "a": [
-    "In warm, shallow pools",
-    "In cold, deep water"
+    "Mars",
+    "Jupiter"
    ],
    "c": 1,
-   "right": "Right! These corals and sponges live in cold, deep water.",
-   "wrong": "Not quite. These corals and sponges live in cold, deep water."
+   "right": "Right! Jupiter is the brighter one.",
+   "wrong": "Not quite. Jupiter is the brighter of the two."
   },
-  "in-hornedfrogs": {
+  "in-khelo-mascot": {
    "type": "check",
-   "q": "How long did the team work outdoors?",
+   "q": "Which state will host the games?",
    "a": [
-    "Five days",
-    "Five years"
-   ],
-   "c": 1,
-   "right": "Right! The team worked outdoors for five years.",
-   "wrong": "Not quite. The team worked outdoors for five years."
-  },
-  "g-msoutage": {
-   "type": "check",
-   "q": "How long did the outage last?",
-   "a": [
-    "More than a day",
-    "About ten minutes"
+    "Telangana",
+    "Kerala"
    ],
    "c": 0,
-   "right": "Right! The outage lasted more than a day.",
-   "wrong": "Not quite. The outage lasted more than a day."
-  },
-  "in-sportsawards": {
-   "type": "check",
-   "q": "Who got the Dronacharya Award?",
-   "a": [
-    "Coaches",
-    "Referees"
-   ],
-   "c": 0,
-   "right": "Right! Coaches, who train players, got the Dronacharya Award.",
-   "wrong": "Not quite. Coaches, who train players, got the Dronacharya Award."
-  },
-  "in-pslv-test": {
-   "type": "check",
-   "q": "Did the motor fly during the test?",
-   "a": [
-    "No, it was fired on the ground",
-    "Yes, it flew into space"
-   ],
-   "c": 0,
-   "right": "Right! The motor was fired on the ground, without flying.",
-   "wrong": "Not quite. The motor was fired on the ground, without flying."
-  },
-  "g-haaland": {
-   "type": "check",
-   "q": "Which team won the game in Oslo?",
-   "a": [
-    "Norway",
-    "Wales"
-   ],
-   "c": 0,
-   "right": "Right! Norway beat Wales 3-1.",
-   "wrong": "Not quite. Norway beat Wales 3-1."
-  },
-  "g-electron100": {
-   "type": "check",
-   "q": "What can the radar satellite do?",
-   "a": [
-    "Take pictures only on sunny days",
-    "See through clouds and at night"
-   ],
-   "c": 1,
-   "right": "Right! Radar can see through clouds, and it can see at night too.",
-   "wrong": "Not quite. Radar can see through clouds, and it can see at night too."
-  },
-  "g-rocky": {
-   "type": "check",
-   "q": "Where did the people gather?",
-   "a": [
-    "On the steps of an art museum",
-    "Inside a football stadium"
-   ],
-   "c": 0,
-   "right": "Right! They stood on the steps of a big art museum in Philadelphia.",
-   "wrong": "Not quite. They stood on the steps of a big art museum in Philadelphia."
+   "right": "Right! Telangana will host the games in December.",
+   "wrong": "Not quite. Telangana will host the games in December."
   }
  },
  "deep": {
-  "g-starship-catch": {
-   "ctx": "This was the 15th Starship test flight, and SpaceX had planned to catch both the booster and the ship. The company has caught the Super Heavy booster three times before, but it had never caught a ship. AP reports SpaceX said the booster's engines stopped firing too soon on the way back down, so it steered away from the tower and came down in the Gulf of Mexico. Space.com reports a low-fuel alarm.",
-   "ask": "Is it better to test new rockets by flying them often and learning from what goes wrong, or to wait until engineers are surer that everything will work?",
+  "in-lakshya-kumamoto": {
+   "ctx": "Lakshya Sen's win at the Kumamoto Masters Japan, a BWF Super 500 event, came straight after his title at the Hylo Open in Germany earlier this month. The 9,200 ranking points from the win improve his chance of reaching the BWF World Tour Finals in Hangzhou.",
+   "ask": "Is it better for a top player to enter many tournaments to collect ranking points, or to play fewer and save energy for the biggest events?",
    "jobs": [
-    "Aerospace engineer",
-    "Flight controller",
-    "Materials scientist"
+    "Badminton coach",
+    "Sports physiotherapist (helps athletes stay fit and recover from injuries)",
+    "Sports psychologist (helps athletes stay calm and focused)"
    ]
   },
-  "in-birsa": {
-   "ctx": "The Union Cabinet approved Janjatiya Gaurav Divas on 10 November 2021, and it was marked on 15 November that year, Birsa Munda's birth anniversary. Birsa Munda, who belonged to the Munda tribe, led a movement against British rule and for the rights of tribal people. Jharkhand, where he was born, was separated from Bihar and became India's 28th state on 15 November 2000.",
-   "ask": "Is a national day of remembrance the best way to keep a historical figure's story alive, or do school lessons, museums and local traditions do more?",
+  "g-forest-fund": {
+   "ctx": "The Tropical Forest Forever Facility was launched at COP30 in Brazil in November 2025. Canada's pledge of up to C$560 million over four years is part of its promise of more than C$13 billion in climate money for developing countries by 2031. Canada's government says the fund is co-led by Brazil and Norway and would pay only for verified results.",
+   "ask": "Is paying countries and communities to keep their forests standing the best way to protect them, or should countries protect their own forests with their own laws and money?",
    "jobs": [
-    "Historian",
-    "Museum curator",
-    "Anthropologist"
+    "Forest ecologist",
+    "Climate finance analyst",
+    "Remote sensing scientist (who uses satellite images to check forests)"
    ]
   },
-  "g-cop31": {
-   "ctx": "COP31 runs in Antalya, Türkiye, from 9 to 20 November, and the presidency's first outline of a final text is not yet a real draft. At COP30, countries agreed to at least triple adaptation finance by 2035, but they still disagree on how to measure it, including the starting figure to count from. UN News reports that tripling would meet less than a third of what developing countries need; Climate Home News, citing a UN report, says about a third.",
-   "ask": "When countries cannot agree, is it better to accept a weaker agreement that everyone signs, or to hold out for a stronger one that might not be agreed at all?",
+  "in-debrigarh-tiger": {
+   "ctx": "The male tiger seen in Debrigarh Wildlife Sanctuary on 9 November was recorded in Chhattisgarh's Udanti-Sitanadi Tiger Reserve in 2025, and officials matched it using camera-trap photos shared by forest officials in Chhattisgarh. Officials think it may first have come from Maharashtra, but call this an early guess.",
+   "ask": "Should tigers that cross from one state to another be looked after by a national body, or by the forest team of each state they enter?",
    "jobs": [
-    "Climate negotiator",
-    "Climate scientist",
-    "Environmental economist"
+    "Wildlife biologist",
+    "Forest ranger",
+    "Wildlife photographer"
    ]
   },
-  "in-exports": {
-   "ctx": "India's overall trade deficit, which counts goods and services together, narrowed to 20.09 billion dollars in October from 25.15 billion a year earlier. The deficit for goods alone moved the other way: IANS and Reuters report it widened to 39.88 billion dollars from 30.21 billion in September. IANS links this to costlier crude oil and shipping; Reuters also points to festive-season gold buying. India imports about 85 per cent of its oil.",
-   "ask": "Is a trade deficit always a problem for a country, or can buying more than it sells be fine if the things it buys help it to grow?",
+  "in-odi-series": {
+   "ctx": "India were all out for 89 in the fourth ODI, then bounced back to win the fifth and final match at Bay Oval by 22 runs. The result was New Zealand's first home ODI series loss in seven years, and India's first away ODI series win with Gautam Gambhir as head coach.",
+   "ask": "In a one-day cricket match, does a team's batting or its bowling matter more for winning?",
    "jobs": [
-    "Economist",
-    "Export manager",
-    "Customs officer"
-   ]
-  },
-  "g-portugal-reserve": {
-   "ctx": "The reserve includes an underwater area called Gorringe, about 22,900 square kilometres in size and about 200 km off the coast. Reuters reports that the reserve will raise the protected share of Portuguese waters to about 25%, against a national target of 30% by 2028. Portugal is also working towards a United Nations goal of protecting at least 30% of the world's oceans by 2030.",
-   "ask": "Should fishing be allowed inside a marine reserve as long as it is done carefully, or should some parts of the sea be left completely alone?",
-   "jobs": [
-    "Marine biologist",
-    "Oceanographer",
-    "Fisheries manager"
-   ]
-  },
-  "in-hornedfrogs": {
-   "ctx": "The five species belong to the horned frog group Jingophrys, and the study in Royal Society Open Science more than doubles the number of known species in that group. The team from the University of Delhi and Harvard University made the discoveries after five years of fieldwork in Northeast India. Local communities supported that work, and some of the frogs are named for them.",
-   "ask": "Should a new species be named after the people and communities who helped to find it, or should its name describe the animal itself?",
-   "jobs": [
-    "Herpetologist (a scientist who studies frogs and reptiles)",
-    "Taxonomist (a scientist who names and sorts species)",
-    "Conservation biologist"
-   ]
-  },
-  "g-msoutage": {
-   "ctx": "The fault centred on Exchange Online, Microsoft's cloud email service (one that runs on the company's computers and is reached over the internet), so features that depend on it were hit while others kept working. Those affected included government bodies in Japan and Britain's NHS health service. Microsoft said the issue was introduced during an earlier network capacity upgrade and surfaced after a recent network change, and it has promised a full report after its review.",
-   "ask": "When so many organisations rely on one company's online tools, should they also pay for a backup from a different company, even if it costs more and is rarely needed?",
-   "jobs": [
-    "Network engineer",
-    "Site reliability engineer",
-    "IT support technician"
-   ]
-  },
-  "in-sportsawards": {
-   "ctx": "India's National Sports Awards honour players and coaches: the Arjuna Award goes to sportspeople and the Dronacharya Award to coaches. This time the 17 Arjuna awardees came from sports that include chess, kabaddi, rowing, para shooting and deaf shooting. UNI and PTI report that no Khel Ratna was given, and that the last year without one was 2014.",
-   "ask": "Should a country's top sports awards go mainly to people who win the biggest medals, or also to people who help a less well known sport to grow?",
-   "jobs": [
-    "Sports coach",
-    "Sports physiotherapist",
-    "Sports journalist"
-   ]
-  },
-  "in-pslv-test": {
-   "ctx": "The PSLV, or Polar Satellite Launch Vehicle, has four stages, and its first and third stages use solid motors. ISRO's statement speaks only of anomalies in the third stage on the PSLV-C61 and PSLV-C62 missions. Spaceflight Now and The Week reported in January 2026 that both missions had failed, and that the 16 satellites on PSLV-C62 did not reach orbit, the path a satellite follows around Earth.",
-   "ask": "After a rocket has failed, should a space agency stop all flights of that rocket until every planned test is finished, or fly again once the main fix has passed a ground test?",
-   "jobs": [
-    "Rocket propulsion engineer",
-    "Quality assurance engineer",
-    "Non-destructive testing technician"
-   ]
-  },
-  "g-haaland": {
-   "ctx": "Haaland also made the pass for Norway's second goal, so he had a part in two of the three. His 66 goals in 60 games for Norway work out at more than one a game. Norway had lost to Wales when the two teams met in October.",
-   "ask": "Is a great goalscorer better judged by the records they set, or by how much they help their team to win?",
-   "jobs": [
-    "Football coach",
+    "Cricket coach",
     "Sports data analyst",
-    "Referee"
+    "Pitch curator (prepares and looks after cricket pitches)"
    ]
   },
-  "g-electron100": {
-   "ctx": "Electron first flew in 2017, and its first successful flight came in January 2018. It can carry up to 300 kilograms, and Rocket Lab says it reached 100 launches faster than any other commercially developed rocket. This mission was named The Mountain God Rises, and its radar satellite can picture the Earth by day, at night and through cloud.",
-   "ask": "Radar satellites can picture any place on Earth at any time and in any weather. Is that mostly a good thing, or should there be rules about who may take and use such pictures?",
+  "g-asean-summit": {
+   "ctx": "ASEAN, the Association of Southeast Asian Nations, has 11 members, and the role of chair rotates among them. The Philippines holds the chair this year and opened the 49th summit in Manila on 15 November, and Singapore takes over in 2027. Topics on the agenda include trade, security, the South China Sea, Myanmar and energy.",
+   "ask": "Should neighbouring countries try to agree on shared problems as a group, even when that is slow, or is it better for each country to decide for itself?",
    "jobs": [
-    "Rocket propulsion engineer",
-    "Remote sensing scientist",
-    "Satellite operator"
+    "Diplomat",
+    "Conference interpreter (who translates speeches between languages)",
+    "Trade economist"
    ]
   },
-  "g-rocky": {
-   "ctx": "The film Rocky came out in 1976, with the actor Sylvester Stallone, and this gathering marked 50 years since then. At least 250 people were needed for the record, and 570 took part on the steps of the Philadelphia Museum of Art. AP reports that people ran up the steps after the record was confirmed.",
-   "ask": "Is a record for the largest dress-up gathering a real achievement, like a sporting record, or is its value mainly in bringing people together for a day?",
+  "g-mars-jupiter": {
+   "ctx": "Before sunrise in mid-November, Mars and Jupiter appear about 1 degree apart, their closest this month, near a bright star called Regulus. Planets move around the Sun, so their positions among the background stars change over days and weeks. On the morning of 22 November, Mars, Jupiter and Regulus will be grouped tightly together.",
+   "ask": "Is it worth getting up very early to see the planets with your own eyes, when you could look at a clearer photo online later?",
    "jobs": [
-    "Event planner",
-    "Museum curator",
-    "Costume designer"
+    "Astronomer",
+    "Planetarium educator",
+    "Astrophotographer"
+   ]
+  },
+  "in-khelo-mascot": {
+   "ctx": "The 8th Khelo India Youth Games will be hosted by Telangana from 11 to 22 December 2026 across six cities, with about 8,000 athletes and participants. Of the 29 disciplines, 27 are competitive and 2 are demonstration events, and softball becomes a competitive sport for the first time.",
+   "ask": "Should youth games keep adding new sports to give more young athletes a chance, or keep fewer sports so each one gets more attention and support?",
+   "jobs": [
+    "Graphic designer (designs logos and mascots)",
+    "Sports event manager",
+    "Physical education teacher"
    ]
   }
  },
+ "today": {
+  "days": [
+   {
+    "name": "Janjatiya Gaurav Divas",
+    "what": "India observes 15 November as Janjatiya Gaurav Divas, a day that remembers tribal freedom fighters. The date is the birth anniversary of Birsa Munda.",
+    "where": [
+     "IN"
+    ]
+   },
+   {
+    "name": "Jharkhand Statehood Day",
+    "what": "Jharkhand was separated from Bihar and became India's 28th state on 15 November 2000.",
+    "where": [
+     "IN"
+    ]
+   }
+  ],
+  "born": [
+   {
+    "name": "William Herschel",
+    "year": 1738,
+    "what": "An astronomer, born in Hanover, Germany. He first worked as a musician. He built his own telescopes and discovered the planet Uranus in 1781."
+   },
+   {
+    "name": "Georgia O'Keeffe",
+    "year": 1887,
+    "what": "A painter known for her large paintings of flowers, the skyscrapers of New York and the landscapes of New Mexico."
+   },
+   {
+    "name": "Sania Mirza",
+    "year": 1986,
+    "what": "An Indian tennis player, born in Mumbai. She began playing tennis at the age of six.",
+    "where": [
+     "IN"
+    ]
+   }
+  ],
+  "week": "The Leonid meteor shower is expected to peak around 17 and 18 November. World Children's Day is on Friday 20 November."
+ },
+ "learn": {
+  "subject": "Geography",
+  "cat": "science",
+  "link": "Why do mountains like the Himalayas exist?",
+  "x": {
+   "t": "How are mountains made?",
+   "b": [
+    "Earth's outer layer is broken into huge pieces called plates. The plates move very slowly, only a few centimetres a year.",
+    "Where two plates push together, the ground can fold and rise. Over a very long time, this makes mountains. The Himalayas were made this way.",
+    "Mountains wear down too. Water, wind and ice break the rock and carry the bits away."
+   ],
+   "remember": "Mountains rise where Earth's plates push together. Water, wind and ice slowly wear them down.",
+   "q": "What can happen where two plates push together?",
+   "a": [
+    "The ground can fold and rise into mountains",
+    "The ground turns into ice"
+   ],
+   "c": 0
+  },
+  "o": {
+   "t": "How are mountains made, and how do they wear down?",
+   "b": [
+    "Earth's outer layer is broken into large slabs called tectonic plates. They move slowly, at average speeds of a few centimetres a year.",
+    "Where two plates push together, the crust, the rocky outer layer, can fold and be forced upward. Mountains made this way are called fold mountains. The Himalayas rose where the Indian plate collided with the Eurasian plate. The collision began about 40 to 50 million years ago. The Himalayas are still rising, by more than 1 centimetre a year according to the US Geological Survey.",
+    "Mount Everest, in the Himalayas, is the highest mountain in the world, at about 8,849 metres above sea level. High on the mountain, near the top, are limestone rocks that formed on an ancient sea floor.",
+    "Mountains wear down as well. Weathering breaks rock into smaller pieces. Erosion is when water, wind or ice carry those pieces away. Rivers carry the pieces down to the sea."
+   ],
+   "remember": "Colliding plates push mountains up. Weathering breaks rock down, and erosion carries the pieces away.",
+   "q": "What is the difference between weathering and erosion?",
+   "a": [
+    "Weathering carries rock away, and erosion breaks it down",
+    "They are two words for an earthquake",
+    "Weathering breaks rock down, and erosion carries the pieces away"
+   ],
+   "c": 2
+  }
+ },
+ "backThen": {
+  "y": 1971,
+  "t": "Intel announces its first microprocessor, the 4004",
+  "o": "On 15 November 1971, the company Intel announced a new chip, the 4004, in an advertisement in a publication called Electronic News. The 4004 was a microprocessor, which is a computer's processor built onto a single chip. It grew out of work for Busicom, a company that made calculators. Intel says the chip held more than 2,000 transistors, which are tiny switches, and was about the size of a little fingernail.",
+  "x": "On this day in 1971, a company called Intel showed the world a new computer chip. It was called the 4004. It grew out of work for a company that made calculators.",
+  "why": "Intel says engineers could buy the 4004 and program it for many different devices. A microprocessor is the kind of chip that does the main work inside a computer."
+ },
+ "hiddenWords": [
+  {
+   "k": "satellite",
+   "o": "Satellite comes from the Latin word satelles, which means an attendant: someone who escorts or follows an important person. A satellite follows a planet around in the same way."
+  },
+  {
+   "k": "planet",
+   "o": "Planet comes from the Greek word planetes, which means wanderers. Ancient sky watchers saw a few bright lights move across the background of stars that seemed fixed in place, so they called them wanderers."
+  }
+ ],
  "bigStory": {
   "week": "2026-11-09",
   "story": "g-cop31",
@@ -1825,790 +1319,12 @@
  "reporters": {
   "week": "2026-11-09",
   "t": "Report one kind thing you saw this week",
-  "why": "World Kindness Day is on Friday 13 November. The best reports appear on Sunday's front page.",
+  "why": "World Kindness Day was on Friday 13 November. The best reports will appear on the front page soon.",
   "tips": [
    "Who did it?",
    "What did they do?",
    "Where did it happen?"
   ],
-  "sample": [
-   {
-    "h": "Shopkeeper keeps a free water pot outside all summer",
-    "b": "People walking past stop to drink. He fills it three times a day.",
-    "by": "Reader, 10, India"
-   },
-   {
-    "h": "Year 4 class writes thank-you cards for the school cleaners",
-    "b": "Every child wrote one line. The cards were left on the cleaning trolley.",
-    "by": "Reader, 9, United Kingdom"
-   },
-   {
-    "h": "Neighbour teaches four children to ride bikes on Sunday mornings",
-    "b": "She brings her own tools and fixes the chains too.",
-    "by": "Reader, 12, Australia"
-   }
-  ]
- },
- "sketches": {
-  "smog": {
-   "t": "Why smog gets trapped",
-   "c": "#0B7F75",
-   "steps": [
-    {
-     "o": "Cars, factories, farm fires and firecrackers all put smoke into the air.",
-     "x": "Cars, fires and firecrackers put smoke into the air.",
-     "d": [
-      {
-       "l": [
-        8,
-        192,
-        312,
-        192
-       ]
-      },
-      {
-       "r": [
-        28,
-        152,
-        40,
-        40
-       ]
-      },
-      {
-       "p": "M24 152 L48 132 L72 152"
-      },
-      {
-       "r": [
-        92,
-        118,
-        30,
-        74
-       ]
-      },
-      {
-       "l": [
-        100,
-        132,
-        114,
-        132
-       ]
-      },
-      {
-       "l": [
-        100,
-        148,
-        114,
-        148
-       ]
-      },
-      {
-       "l": [
-        100,
-        164,
-        114,
-        164
-       ]
-      },
-      {
-       "r": [
-        158,
-        172,
-        46,
-        14
-       ]
-      },
-      {
-       "p": "M166 172 L172 162 L192 162 L198 172"
-      },
-      {
-       "c": [
-        170,
-        188,
-        5
-       ]
-      },
-      {
-       "c": [
-        192,
-        188,
-        5
-       ]
-      },
-      {
-       "r": [
-        246,
-        128,
-        16,
-        64
-       ]
-      },
-      {
-       "r": [
-        262,
-        160,
-        34,
-        32
-       ]
-      },
-      {
-       "p": "M254 122 q-9 -9 0 -18 q9 -9 0 -18",
-       "acc": 1
-      },
-      {
-       "p": "M210 176 q8 -6 14 -2 q6 4 12 -2",
-       "acc": 1
-      },
-      {
-       "t": [
-        268,
-        100,
-        "smoke"
-       ],
-       "acc": 1
-      }
-     ]
-    },
-    {
-     "o": "On cold, still nights a layer of warm air settles above the city and acts like a lid.",
-     "x": "On cold, still nights, warm air sits on top like a lid.",
-     "d": [
-      {
-       "p": "M12 66 q19 -9 38 0 t38 0 t38 0 t38 0 t38 0 t38 0 t38 0 t30 0"
-      },
-      {
-       "t": [
-        96,
-        52,
-        "warm air lid"
-       ]
-      },
-      {
-       "a": [
-        254,
-        84,
-        254,
-        72
-       ],
-       "acc": 1
-      },
-      {
-       "l": [
-        246,
-        70,
-        262,
-        70
-       ]
-      },
-      {
-       "t": [
-        20,
-        112,
-        "cold air"
-       ]
-      }
-     ]
-    },
-    {
-     "o": "The smoke cannot rise, so it spreads sideways and builds up as smog. Wind or rain is what finally clears it.",
-     "x": "The smoke is stuck. It spreads out and becomes smog. Wind or rain clears it.",
-     "d": [
-      {
-       "p": "M22 86 q16 -7 32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0",
-       "acc": 1
-      },
-      {
-       "p": "M34 98 q16 -7 32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0",
-       "acc": 1
-      },
-      {
-       "p": "M140 110 q16 -7 32 0 t32 0 t32 0 t32 0",
-       "acc": 1
-      },
-      {
-       "t": [
-        150,
-        82,
-        "smog"
-       ],
-       "acc": 1
-      },
-      {
-       "a": [
-        306,
-        28,
-        262,
-        28
-       ]
-      },
-      {
-       "a": [
-        306,
-        40,
-        270,
-        40
-       ]
-      },
-      {
-       "t": [
-        212,
-        22,
-        "wind"
-       ]
-      }
-     ]
-    }
-   ]
-  },
-  "meteor": {
-   "t": "Why shooting stars glow",
-   "c": "#25317F",
-   "steps": [
-    {
-     "o": "A bit of space rock, often smaller than a pea, speeds towards Earth.",
-     "x": "A tiny space rock, smaller than a pea, flies towards Earth.",
-     "d": [
-      {
-       "p": "M0 204 Q160 156 320 204"
-      },
-      {
-       "t": [
-        138,
-        212,
-        "Earth"
-       ]
-      },
-      {
-       "p": "M0 150 Q160 102 320 150",
-       "acc": 1
-      },
-      {
-       "t": [
-        14,
-        138,
-        "air"
-       ],
-       "acc": 1
-      },
-      {
-       "c": [
-        276,
-        28,
-        5
-       ]
-      },
-      {
-       "a": [
-        266,
-        36,
-        236,
-        58
-       ]
-      },
-      {
-       "t": [
-        196,
-        22,
-        "space rock"
-       ]
-      }
-     ]
-    },
-    {
-     "o": "It hits the air at tens of kilometres per second and squeezes the air in front of it. Squeezed air gets extremely hot.",
-     "x": "It hits the air super fast and squashes it. Squashed air gets very hot.",
-     "d": [
-      {
-       "c": [
-        196,
-        92,
-        5
-       ]
-      },
-      {
-       "p": "M180 86 Q176 106 194 110",
-       "acc": 1
-      },
-      {
-       "p": "M172 82 Q166 110 192 118",
-       "acc": 1
-      },
-      {
-       "t": [
-        40,
-        96,
-        "squeezed, hot air"
-       ],
-       "acc": 1
-      },
-      {
-       "a": [
-        150,
-        98,
-        170,
-        100
-       ],
-       "acc": 1
-      }
-     ]
-    },
-    {
-     "o": "The heat makes the air and the rock glow, usually 70 to 100 km up. From the ground you see a bright streak.",
-     "x": "The hot air and rock glow. From the ground you see a bright streak!",
-     "d": [
-      {
-       "l": [
-        268,
-        36,
-        204,
-        86
-       ],
-       "acc": 1
-      },
-      {
-       "l": [
-        274,
-        44,
-        210,
-        92
-       ],
-       "acc": 1
-      },
-      {
-       "l": [
-        262,
-        30,
-        200,
-        78
-       ],
-       "acc": 1
-      },
-      {
-       "c": [
-        62,
-        150,
-        6
-       ]
-      },
-      {
-       "l": [
-        62,
-        156,
-        62,
-        174
-       ]
-      },
-      {
-       "l": [
-        62,
-        174,
-        55,
-        186
-       ]
-      },
-      {
-       "l": [
-        62,
-        174,
-        69,
-        186
-       ]
-      },
-      {
-       "l": [
-        62,
-        162,
-        76,
-        150
-       ]
-      },
-      {
-       "t": [
-        84,
-        146,
-        "look!"
-       ]
-      }
-     ]
-    }
-   ]
-  },
-  "orbit": {
-   "t": "How a satellite stays up",
-   "c": "#6B35D8",
-   "steps": [
-    {
-     "o": "Throw a ball from a tall tower and gravity curves it down to the ground.",
-     "x": "Throw a ball. It curves down and lands.",
-     "d": [
-      {
-       "c": [
-        160,
-        122,
-        54
-       ]
-      },
-      {
-       "t": [
-        142,
-        128,
-        "Earth"
-       ]
-      },
-      {
-       "l": [
-        160,
-        68,
-        160,
-        54
-       ]
-      },
-      {
-       "l": [
-        154,
-        54,
-        166,
-        54
-       ]
-      },
-      {
-       "p": "M162 54 Q186 54 196 80",
-       "acc": 1
-      },
-      {
-       "t": [
-        172,
-        40,
-        "throw"
-       ]
-      }
-     ]
-    },
-    {
-     "o": "Throw it faster and it lands further away, because the ground curves away beneath it while it falls.",
-     "x": "Throw it faster. It lands further away, because Earth is round.",
-     "d": [
-      {
-       "p": "M162 54 Q224 58 214 118",
-       "acc": 1
-      },
-      {
-       "t": [
-        228,
-        62,
-        "faster"
-       ]
-      }
-     ]
-    },
-    {
-     "o": "At about 28,000 km an hour it falls around Earth and never lands. That endless fall is an orbit, and it is how satellites stay up.",
-     "x": "Go fast enough and it keeps falling around Earth without landing. That is an orbit!",
-     "d": [
-      {
-       "c": [
-        160,
-        122,
-        68
-       ],
-       "acc": 1
-      },
-      {
-       "r": [
-        223,
-        117,
-        10,
-        10
-       ]
-      },
-      {
-       "l": [
-        215,
-        122,
-        223,
-        122
-       ]
-      },
-      {
-       "l": [
-        233,
-        122,
-        241,
-        122
-       ]
-      },
-      {
-       "t": [
-        246,
-        110,
-        "satellite"
-       ]
-      },
-      {
-       "t": [
-        44,
-        56,
-        "orbit"
-       ],
-       "acc": 1
-      }
-     ]
-    }
-   ]
-  },
-  "greenhouse": {
-   "t": "Why the planet is warming",
-   "c": "#0B7F75",
-   "steps": [
-    {
-     "o": "Sunlight passes through the air and warms the land and the sea.",
-     "x": "Sunlight comes down and warms the Earth.",
-     "d": [
-      {
-       "p": "M0 202 Q160 162 320 202"
-      },
-      {
-       "t": [
-        140,
-        212,
-        "Earth"
-       ]
-      },
-      {
-       "c": [
-        46,
-        42,
-        17
-       ]
-      },
-      {
-       "l": [
-        46,
-        14,
-        46,
-        6
-       ]
-      },
-      {
-       "l": [
-        20,
-        42,
-        10,
-        42
-       ]
-      },
-      {
-       "l": [
-        27,
-        23,
-        20,
-        16
-       ]
-      },
-      {
-       "l": [
-        65,
-        23,
-        72,
-        16
-       ]
-      },
-      {
-       "l": [
-        27,
-        61,
-        20,
-        68
-       ]
-      },
-      {
-       "a": [
-        68,
-        58,
-        118,
-        162
-       ],
-       "acc": 1
-      },
-      {
-       "a": [
-        78,
-        48,
-        160,
-        150
-       ],
-       "acc": 1
-      },
-      {
-       "t": [
-        122,
-        92,
-        "sunlight"
-       ],
-       "acc": 1
-      }
-     ]
-    },
-    {
-     "o": "The warm Earth sends heat back up. Much of it escapes into space, which keeps the planet from overheating.",
-     "x": "The warm Earth sends heat back up into space.",
-     "d": [
-      {
-       "p": "M214 160 q-9 -11 0 -22 q9 -11 0 -22 q-9 -11 0 -22"
-      },
-      {
-       "a": [
-        214,
-        94,
-        214,
-        70
-       ]
-      },
-      {
-       "t": [
-        176,
-        58,
-        "heat escapes"
-       ]
-      }
-     ]
-    },
-    {
-     "o": "Gases such as carbon dioxide, from burning coal, oil and gas, act like a blanket. They trap more of the heat, so the planet slowly warms.",
-     "x": "Gases from burning coal, oil and gas act like a blanket. They keep more heat in, so Earth gets warmer.",
-     "d": [
-      {
-       "p": "M150 112 q18 -9 36 0 t36 0 t36 0 t36 0 t22 0",
-       "acc": 1
-      },
-      {
-       "p": "M158 124 q18 -9 36 0 t36 0 t36 0 t36 0",
-       "acc": 1
-      },
-      {
-       "t": [
-        226,
-        104,
-        "gas blanket"
-       ],
-       "acc": 1
-      },
-      {
-       "p": "M268 162 Q262 142 272 132",
-       "acc": 1
-      },
-      {
-       "a": [
-        274,
-        132,
-        292,
-        160
-       ],
-       "acc": 1
-      },
-      {
-       "t": [
-        236,
-        182,
-        "trapped heat"
-       ],
-       "acc": 1
-      }
-     ]
-    }
-   ]
-  }
- },
- "sketchFor": {
-  "g-starship-catch": "orbit",
-  "g-cop31": "greenhouse"
- },
- "today": {
-  "days": [
-   {
-    "name": "Janjatiya Gaurav Divas",
-    "what": "India observes 15 November as Janjatiya Gaurav Divas, a day that remembers tribal freedom fighters. The date is the birth anniversary of Birsa Munda.",
-    "where": [
-     "IN"
-    ]
-   },
-   {
-    "name": "Jharkhand Statehood Day",
-    "what": "Jharkhand was separated from Bihar and became India's 28th state on 15 November 2000.",
-    "where": [
-     "IN"
-    ]
-   }
-  ],
-  "born": [
-   {
-    "name": "William Herschel",
-    "year": 1738,
-    "what": "An astronomer, born in Hanover, Germany. He first worked as a musician. He built his own telescopes and discovered the planet Uranus in 1781."
-   },
-   {
-    "name": "Georgia O'Keeffe",
-    "year": 1887,
-    "what": "A painter known for her large paintings of flowers, the skyscrapers of New York and the landscapes of New Mexico."
-   },
-   {
-    "name": "Sania Mirza",
-    "year": 1986,
-    "what": "An Indian tennis player, born in Mumbai. She began playing tennis at the age of six.",
-    "where": [
-     "IN"
-    ]
-   }
-  ],
-  "week": "The Leonid meteor shower is expected to peak around 17 and 18 November. World Children's Day is on Friday 20 November."
- },
- "learn": {
-  "subject": "Geography",
-  "cat": "science",
-  "link": "From the horned frogs story, set in the eastern Himalayas",
-  "x": {
-   "t": "How are mountains made?",
-   "b": [
-    "Earth's outer layer is broken into huge pieces called plates. The plates move very slowly, only a few centimetres a year.",
-    "Where two plates push together, the ground can fold and rise. Over a very long time, this makes mountains. The Himalayas were made this way.",
-    "Mountains wear down too. Water, wind and ice break the rock and carry the bits away."
-   ],
-   "remember": "Mountains rise where Earth's plates push together. Water, wind and ice slowly wear them down.",
-   "q": "What can happen where two plates push together?",
-   "a": [
-    "The ground can fold and rise into mountains",
-    "The ground turns into ice"
-   ],
-   "c": 0
-  },
-  "o": {
-   "t": "How are mountains made, and how do they wear down?",
-   "b": [
-    "Earth's outer layer is broken into large slabs called tectonic plates. They move slowly, at average speeds of a few centimetres a year.",
-    "Where two plates push together, the crust, the rocky outer layer, can fold and be forced upward. Mountains made this way are called fold mountains. The Himalayas rose where the Indian plate collided with the Eurasian plate. The collision began about 40 to 50 million years ago. The Himalayas are still rising, by more than 1 centimetre a year according to the US Geological Survey.",
-    "Mount Everest, in the Himalayas, is the highest mountain in the world, at about 8,849 metres above sea level. High on the mountain are rocks that formed on an ancient sea floor, including a band of limestone just below the top.",
-    "Mountains wear down as well. Weathering breaks rock into smaller pieces. Erosion is when water, wind or ice carry those pieces away. Rivers carry the pieces down to the sea."
-   ],
-   "remember": "Colliding plates push mountains up. Weathering breaks rock down, and erosion carries the pieces away.",
-   "q": "What is the difference between weathering and erosion?",
-   "a": [
-    "Weathering carries rock away, and erosion breaks it down",
-    "They are two words for an earthquake",
-    "Weathering breaks rock down, and erosion carries the pieces away"
-   ],
-   "c": 2
-  }
- },
- "backThen": {
-  "y": 1971,
-  "t": "Intel announces its first microprocessor, the 4004",
-  "o": "On 15 November 1971, the company Intel announced a new chip, the 4004, in an advertisement in a publication called Electronic News. The 4004 was a microprocessor, which is a computer's processor built onto a single chip. It grew out of work for Busicom, a company that made calculators. Intel says the chip held 2,300 transistors, which are tiny switches, and was about the size of a little fingernail.",
-  "x": "On this day in 1971, a company called Intel showed the world a new computer chip. It was called the 4004. It grew out of work for a company that made calculators.",
-  "why": "Intel says engineers could buy the 4004 and program it for many different devices. A microprocessor is the kind of chip that does the main work inside a computer."
- },
- "hiddenWords": [
-  {
-   "k": "satellite",
-   "o": "Satellite comes from the Latin word satelles, which means an attendant: someone who escorts or follows an important person. A satellite follows a planet around in the same way."
-  }
- ]
+  "sample": []
+ }
 }

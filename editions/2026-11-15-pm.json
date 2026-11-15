@@ -1,0 +1,1355 @@
+{
+ "schema": 1,
+ "date": "2026-11-15",
+ "edition": "pm",
+ "countries": [
+  "IN"
+ ],
+ "stories": [
+  {
+   "id": "in-lakshya-kumamoto",
+   "scope": "IN",
+   "cat": "sports",
+   "emoji": "🏸",
+   "date": "2026-11-15",
+   "kind": "news",
+   "x": {
+    "t": "Lakshya Sen fights back to win a title in Japan",
+    "b": [
+     "Indian [[badminton|badminton]] player Lakshya Sen won a big title in Japan on Sunday. He beat Koki Watanabe, the home crowd's favourite.",
+     "Lakshya lost the first game. He stayed calm and won the next two games.",
+     "It is his second title in a row. The win earns him [[ranking-points|points]]. They could help him reach a big event at the end of the season."
+    ]
+   },
+   "o": {
+    "t": "Lakshya Sen comes from behind to win Kumamoto Masters Japan",
+    "b": [
+     "India's Lakshya Sen won the Kumamoto Masters Japan on Sunday, 15 November. In the final in Kumamoto, Japan, he beat Koki Watanabe of Japan, the home favourite, 13-21, 21-18, 21-14. A home favourite is a local player the crowd most hopes will win.",
+     "Lakshya lost the first game but stayed steady and won the next two. The match lasted 1 hour 4 minutes. The tournament is a [[super-500|Super 500]] event run by the [[bwf|BWF]], the Badminton World Federation, which organises top international badminton.",
+     "It is his second title in a row, after the Hylo Open in Germany earlier this month. The win earned him 9,200 [[ranking-points|ranking points]], which players collect by doing well in tournaments. These points improve his chance of reaching the BWF World Tour Finals in Hangzhou, a season-ending event for top players."
+    ]
+   },
+   "think": "What helps you stay calm and keep going when something starts badly?",
+   "quiz": {
+    "q": "Which game of the final did Lakshya Sen lose?",
+    "a": [
+     "The first game",
+     "The second game",
+     "The third game",
+     "He did not lose any game"
+    ],
+    "c": 0
+   },
+   "src": [
+    [
+     "IANS via Telangana Today, 15 Nov",
+     "https://telanganatoday.com/lakshya-sen-becomes-first-indian-to-win-kumamoto-masters-title"
+    ],
+    [
+     "PTI via Deccan Chronicle, 15 Nov",
+     "https://www.deccanchronicle.com/sports/lakshya-sen-beats-koki-watanabe-to-win-kumamoto-masters-japan-open-2004611"
+    ],
+    [
+     "All India Radio, 15 Nov",
+     "https://newsonair.gov.in/lakshya-sen-clinches-kumamoto-masters-japan-mens-singles-title/"
+    ]
+   ]
+  },
+  {
+   "id": "g-forest-fund",
+   "scope": "global",
+   "cat": "planet",
+   "emoji": "🌳",
+   "date": "2026-11-15",
+   "kind": "news",
+   "x": {
+    "t": "Canada gives money to help protect tropical forests",
+    "b": [
+     "Canada has promised money to help protect [[tropical-forest|tropical forests]]. It will give up to 560 million Canadian dollars over four years.",
+     "Canada's leader shared the news on Sunday. These forests are home to many plants and animals.",
+     "The money will go to a special [[fund|fund]]. A fund is money kept for one job. This fund began in Brazil last year. It gives money when forests are kept standing."
+    ]
+   },
+   "o": {
+    "t": "Canada pledges up to C$560 million for tropical forests",
+    "b": [
+     "Canada has pledged, or promised, up to 560 million Canadian dollars (C$560 million) over four years to the Tropical Forest Forever Facility. This is a [[fund|fund]], money set aside for one purpose. It aims to keep [[tropical-forest|tropical forests]] standing by paying for forest protection once the results have been checked.",
+     "Canada's leader, Prime Minister Mark Carney, announced the pledge on 15 November in Manila, the Philippines. He was meeting Brazil's President Luiz Inacio Lula da Silva at the ASEAN Summit, a meeting of Southeast Asian leaders. The fund was launched at COP30, a climate conference in Brazil in November 2025.",
+     "Canada's government says the fund is co-led by Brazil and Norway. It says at least 20% of payments would go to [[indigenous-peoples|Indigenous Peoples]] and local communities. The pledge is part of Canada's promise of more than C$13 billion in climate money for [[developing-countries|developing countries]] by 2031."
+    ]
+   },
+   "think": "If you looked after a forest, what would help you keep it healthy?",
+   "quiz": {
+    "q": "Over how many years will Canada give the money?",
+    "a": [
+     "One year",
+     "Four years",
+     "Ten years",
+     "Forty years"
+    ],
+    "c": 1
+   },
+   "src": [
+    [
+     "Prime Minister of Canada, 15 Nov",
+     "https://www.pm.gc.ca/en/news/news-releases/2026/11/15/prime-minister-carney-announces-canadas-landmark-contribution-protect"
+    ],
+    [
+     "Reuters via TimesLIVE, 15 Nov",
+     "https://www.timeslive.co.za/news/world/2026-11-15-canada-pledges-up-to-3925m-for-brazil-led-tropical-forest-fund/"
+    ],
+    [
+     "TRT World, 15 Nov",
+     "https://trtworld.com/article/717a9de0c4ee"
+    ],
+    [
+     "CTV News via CP24, 15 Nov",
+     "https://www.cp24.com/news/canada/2026/11/15/carney-unveils-forest-pledge-after-skipping-two-cop-summits/"
+    ]
+   ]
+  },
+  {
+   "id": "in-debrigarh-tiger",
+   "scope": "IN",
+   "cat": "nature",
+   "emoji": "🐅",
+   "date": "2026-11-15",
+   "kind": "news",
+   "x": {
+    "t": "Stripes show Odisha's new tiger was seen in another state",
+    "b": [
+     "A male tiger was seen in a forest in Odisha on 9 November. The forest is called Debrigarh.",
+     "Forest officials in Chhattisgarh shared photos from [[camera-trap|camera traps]]. Every tiger has its own [[stripe-pattern|stripes]], like a fingerprint. The stripes matched. It is the same tiger seen in Chhattisgarh last year.",
+     "Now Debrigarh has asked a national tiger group for records of the tiger's travels."
+    ]
+   },
+   "o": {
+    "t": "Stripes reveal Odisha's new tiger was earlier seen in Chhattisgarh",
+    "b": [
+     "A male tiger seen in Odisha's Debrigarh [[wildlife-sanctuary|Wildlife Sanctuary]] on 9 November has been identified. Forest officials say it is the same tiger recorded in 2025 in Chhattisgarh's Udanti-Sitanadi Tiger Reserve. A wildlife sanctuary is a protected area where wild animals can live safely.",
+     "Officials matched the tiger's [[stripe-pattern|stripe pattern]] using [[camera-trap|camera-trap]] photos shared by Chhattisgarh's forest department. A camera trap is a camera in the wild that takes a picture when an animal moves in front of it. This way, experts can tell one tiger from another without catching it.",
+     "Officials think the tiger may first have come from Maharashtra, but they say this is only an early guess. To learn more, Debrigarh has asked the [[ntca|National Tiger Conservation Authority]], a national body that works to protect tigers, for the tiger's movement records."
+    ]
+   },
+   "think": "Why might it help when forest teams from different states share what they know?",
+   "quiz": {
+    "q": "How did officials work out which tiger it was?",
+    "a": [
+     "By its roar",
+     "By its stripe pattern",
+     "By its footprints",
+     "By its age"
+    ],
+    "c": 1
+   },
+   "src": [
+    [
+     "UNI, 15 Nov",
+     "https://www.uniindia.com/east-india/wildlife-debrigarh-tiger-odisha/246054"
+    ],
+    [
+     "Ommcom News, 15 Nov",
+     "https://ommcomnews.com/odisha-news/tiger-spotted-in-odishas-debrigarh-earlier-recorded-in-chhattisgarh/"
+    ]
+   ]
+  },
+  {
+   "id": "in-odi-series",
+   "scope": "IN",
+   "cat": "sports",
+   "emoji": "🏏",
+   "date": "2026-11-15",
+   "kind": "news",
+   "x": {
+    "t": "India's bowlers help win the cricket series in New Zealand",
+    "b": [
+     "India beat New Zealand by 22 runs in a [[odi|one-day]] cricket match on Sunday. It was the last match of the series. India won three matches and New Zealand won one.",
+     "India scored only 209 runs. That is not a big score. But India's bowlers kept getting batters out, taking [[wicket|wickets]] again and again.",
+     "In the match before, India scored just 89 runs. This time the team bounced back."
+    ]
+   },
+   "o": {
+    "t": "India's bowlers protect a low score to win ODI series 3-1",
+    "b": [
+     "India beat New Zealand by 22 runs in the fifth and final [[odi|One Day International (ODI)]] on Sunday, 15 November, at Bay Oval in Mount Maunganui, New Zealand. The win gave India the series 3-1. A series is a set of matches between the same two teams.",
+     "In the fourth ODI, India had been all out for 89. A team is all out when ten of its batters are out, losing ten [[wicket|wickets]]. This time India made 209 all out, a low total. Axar Patel and Ishan Kishan top-scored with 46 each.",
+     "Then India's bowlers bowled New Zealand out for 187, so India defended, or protected, their low score. Arshdeep Singh took 3 wickets for 30 runs. It was New Zealand's first home ODI series loss in seven years, and India's first away ODI series win with Gautam Gambhir as head coach."
+    ]
+   },
+   "think": "In a team sport, how can one part of the team help when another part has a bad day?",
+   "quiz": {
+    "q": "By how many runs did India win the final match?",
+    "a": [
+     "12 runs",
+     "22 runs",
+     "89 runs",
+     "209 runs"
+    ],
+    "c": 1
+   },
+   "src": [
+    [
+     "PTI via ThePrint, 15 Nov",
+     "https://theprint.in/sport/india-beat-new-zealand-by-22-runs-win-odi-series-3-1/3099340/"
+    ],
+    [
+     "AFP via Gulf News, 15 Nov",
+     "https://gulfnews.com/sport/cricket/arshdeep-singh-stars-as-india-beat-new-zealand-to-clinch-odi-series-1.500748082"
+    ],
+    [
+     "ESPNcricinfo, 15 Nov",
+     "https://www.espn.com/cricket/series/24469/report/1539441/new-zealand-vs-india-5th-odi-24469"
+    ],
+    [
+     "Outlook India, 15 Nov",
+     "https://www.outlookindia.com/sports/cricket/india-vs-new-zealand-5th-odi-live-score-squad-ind-vs-nz-scorecard-bay-oval-mount-maunganui-latest-updates"
+    ]
+   ]
+  },
+  {
+   "id": "g-asean-summit",
+   "scope": "global",
+   "cat": "world",
+   "emoji": "🤝",
+   "date": "2026-11-15",
+   "kind": "news",
+   "olderOnly": true,
+   "sensitive": "politics",
+   "x": {
+    "t": "Southeast Asian leaders meet in the Philippines",
+    "b": [
+     "Leaders from Southeast Asia began a big meeting on Sunday. Their group of 11 countries is called [[asean|ASEAN]].",
+     "The [[summit|summit]] is in [[manila|Manila]], a city in the Philippines. The Philippines leads the group this year. Next year, Singapore takes a turn.",
+     "The leaders will talk about trade, safety and energy. These are problems the countries share."
+    ]
+   },
+   "o": {
+    "t": "Southeast Asian leaders open their 49th summit in Manila",
+    "b": [
+     "The 49th [[asean|ASEAN]] [[summit|summit]] opened on Sunday, 15 November, in [[manila|Manila]], the capital of the Philippines. ASEAN stands for the Association of Southeast Asian Nations, a group of 11 countries. A summit is a meeting of top leaders. President Ferdinand Marcos Jr. of the Philippines led the opening.",
+     "ASEAN has a rotating chair, which means the job of leading the group passes from one member country to another. The Philippines holds the chair this year, and Singapore will take over in 2027.",
+     "The [[agenda|agenda]], the list of topics for the leaders to discuss, includes trade, security and energy. Leaders from outside the group are coming too. Canada's Prime Minister Mark Carney met Brazil's President Luiz Inacio Lula da Silva in Manila on Sunday. US President Donald Trump is due to arrive on Tuesday."
+    ]
+   },
+   "think": "If your class took turns choosing a leader, what would be good about it, and what would be hard?",
+   "quiz": {
+    "q": "Which country takes over as ASEAN chair in 2027?",
+    "a": [
+     "The Philippines",
+     "Singapore",
+     "Canada",
+     "Norway"
+    ],
+    "c": 1
+   },
+   "src": [
+    [
+     "The Manila Times (with AFP), 15 Nov",
+     "https://www.manilatimes.net/2026/11/15/news/global-powers-converge-in-manila-as-asean-summit-kicks-off/2470176"
+    ],
+    [
+     "Philippine Daily Inquirer, 15 Nov",
+     "https://www.inquirer.net/495734/live-updates-asean-summit-2026-and-related-meetings-nov-15-2026/"
+    ],
+    [
+     "Reuters via TimesLIVE, 15 Nov",
+     "https://www.timeslive.co.za/news/world/2026-11-15-canada-pledges-up-to-3925m-for-brazil-led-tropical-forest-fund/"
+    ],
+    [
+     "TRT World, 15 Nov",
+     "https://www.trtworld.com/article/88ba8abdf2d0"
+    ],
+    [
+     "The Star (Malaysia), 15 Jul 2026",
+     "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/07/15/both-sides-to-ensure-smooth-transition-as-singapore-takes-over-from-philippines-as-asean-chair-pm-wong"
+    ]
+   ]
+  },
+  {
+   "id": "g-mars-jupiter",
+   "scope": "global",
+   "cat": "space",
+   "emoji": "🪐",
+   "date": "2026-11-15",
+   "kind": "calendar",
+   "when": "Before sunrise on 16 and 17 November",
+   "x": {
+    "t": "Look for Mars and Jupiter close together before sunrise",
+    "b": [
+     "Two [[planet|planets]] look close together this week. They are Mars and Jupiter. Look before sunrise on Monday or Tuesday, with a grown-up.",
+     "Jupiter is the brighter one. They are about one [[degree|degree]] apart. Your little finger at arm's length covers about that much.",
+     "They only look close. Really, they are very far apart. Look again on 22 November. They will be grouped with a star called Regulus."
+    ]
+   },
+   "o": {
+    "t": "Mars and Jupiter meet in the morning sky this week",
+    "b": [
+     "Before sunrise in mid-November, the [[planet|planets]] Mars and Jupiter appear about one [[degree|degree]] apart, their closest this month. A degree is a way to measure how far apart things look in the sky. Your little finger held at arm's length covers about one degree.",
+     "Both appear near Regulus, the brightest star in the [[constellation|constellation]] Leo, and Jupiter is the brighter of the two planets. They only look close together: in space they are very far apart. Planets move around the Sun, so their positions among the stars slowly change.",
+     "The mornings up to Tuesday 17 November are a good time to look, with an adult, and no telescope is needed. On the morning of 22 November, Mars, Jupiter and Regulus will be grouped tightly together, so it is worth looking again."
+    ]
+   },
+   "think": "If two things look close together in the sky, how could you find out how far apart they really are?",
+   "quiz": {
+    "q": "Which of the two planets looks brighter?",
+    "a": [
+     "Mars",
+     "Jupiter",
+     "Saturn",
+     "Venus"
+    ],
+    "c": 1
+   },
+   "src": [
+    [
+     "BBC Sky at Night Magazine, 3 Nov (updated 11 Nov)",
+     "https://www.skyatnightmagazine.com/news/mars-jupiter-november-2026"
+    ],
+    [
+     "Star Walk, 13 Nov",
+     "https://starwalk.space/en/news/planetary-alignment-november-2026"
+    ]
+   ]
+  },
+  {
+   "id": "in-khelo-mascot",
+   "scope": "IN",
+   "cat": "sports",
+   "emoji": "🏅",
+   "date": "2026-11-15",
+   "kind": "news",
+   "x": {
+    "t": "Meet Neelamani, the mascot for India's youth sports games",
+    "b": [
+     "The [[khelo-india|Khelo India]] Youth Games will be held in Telangana from 11 to 22 December. About 8,000 people will take part.",
+     "On Sunday, leaders showed the games' [[mascot|mascot]]. It is called Neelamani. It has a crest, a beak and blue and turquoise feathers.",
+     "Neelamani stands for being lively, brave, quick and proud. The games start in less than four weeks."
+    ]
+   },
+   "o": {
+    "t": "Khelo India Youth Games reveal mascot Neelamani and new logo",
+    "b": [
+     "The logo and [[mascot|mascot]] of the 8th [[khelo-india|Khelo India]] Youth Games were unveiled on Sunday, 15 November, by India's Sports Minister Mansukh Mandaviya and Telangana Chief Minister A. Revanth Reddy. Telangana will host the Games from 11 to 22 December 2026 in Hyderabad, Khammam, Karimnagar, Hanumakonda, Mahabubnagar and Nizamabad. About 8,000 athletes and participants will take part.",
+     "There will be 29 [[discipline|disciplines]], or types of sport: 27 competitive and 2 [[demonstration-sport|demonstration]] events, which are shown to the public but are not part of the main competition. Softball is a competitive sport for the first time, while sailing and Karra Samu are demonstration events.",
+     "The mascot, Neelamani, stands for being vibrant, courageous, agile and proud. It has a crest, a beak and blue and turquoise feathers. The logo includes the Gandhi Tower, the Kakatiya Kala Thoranam, the Buddha statue at Hussain Sagar, the Tangedu flower and seven sporting figures."
+    ]
+   },
+   "think": "If you designed a mascot for your town or school, what would it look like, and why?",
+   "quiz": {
+    "q": "What is the name of the Games' mascot?",
+    "a": [
+     "Neelamani",
+     "Tangedu",
+     "Hussain Sagar",
+     "Khammam"
+    ],
+    "c": 0
+   },
+   "src": [
+    [
+     "PIB, 15 Nov",
+     "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2336512&reg=48&lang=2"
+    ],
+    [
+     "ANI via The Tribune, 15 Nov",
+     "https://www.tribuneindia.com/news/sports/khelo-india-youth-games-2026-sports-minister-mansukh-mandaviya-telangana-cm-revanth-reddy-unveil-logo-and-mascot"
+    ]
+   ]
+  }
+ ],
+ "glossary": {
+  "badminton": [
+   "badminton",
+   "words",
+   "A game where players hit a feathered shuttle over a high net with rackets.",
+   "A racket sport in which players hit a shuttlecock back and forth over a high net. A point is won when the shuttlecock lands on the other side's court."
+  ],
+  "super-500": [
+   "Super 500",
+   "words",
+   "A kind of big badminton tournament.",
+   "The name for one level of tournament on badminton's world tour."
+  ],
+  "bwf": [
+   "BWF",
+   "civics",
+   "The group that runs badminton around the world.",
+   "The Badminton World Federation, the organisation that governs badminton around the world and runs its top international tournaments."
+  ],
+  "ranking-points": [
+   "ranking points",
+   "words",
+   "Points players win by doing well in tournaments.",
+   "Points that players earn based on how far they go in tournaments. They are added up to rank players and decide who qualifies for some events."
+  ],
+  "tropical-forest": [
+   "tropical forest",
+   "science",
+   "A forest in a hot, wet part of the world, near the equator, the line around Earth's middle.",
+   "A forest in the tropics, the warm region around the equator. Tropical forests are home to a huge variety of plants and animals."
+  ],
+  "fund": [
+   "fund",
+   "words",
+   "Money that is kept together for one special job.",
+   "A sum of money collected and set aside for a particular purpose, often with contributions from several givers."
+  ],
+  "indigenous-peoples": [
+   "Indigenous Peoples",
+   "people",
+   "The first people to live in a place, and their families today.",
+   "Groups whose ancestors lived in a place before others arrived, and who often keep their own languages and ways of life."
+  ],
+  "developing-countries": [
+   "developing countries",
+   "civics",
+   "Countries that are still building things like roads, schools and hospitals.",
+   "Countries where people on average earn less money, and where industries and services such as roads, schools and hospitals are still growing."
+  ],
+  "camera-trap": [
+   "camera trap",
+   "tech",
+   "A camera left in a forest. It takes a photo when an animal walks past.",
+   "A camera fixed in a wild place that takes a photo or video automatically when an animal moves in front of it. Scientists use camera traps to study animals without disturbing them."
+  ],
+  "stripe-pattern": [
+   "stripe pattern",
+   "science",
+   "Every tiger has its own stripes, a bit like a fingerprint.",
+   "The arrangement of a tiger's stripes. No two tigers have the same pattern, a bit like human fingerprints, so experts can use photos to tell tigers apart."
+  ],
+  "wildlife-sanctuary": [
+   "wildlife sanctuary",
+   "places",
+   "A protected place where wild animals can live safely.",
+   "A protected area set aside for wild animals and plants, where activities that could harm them are limited."
+  ],
+  "ntca": [
+   "National Tiger Conservation Authority",
+   "civics",
+   "A group in India that works to protect tigers.",
+   "An Indian government body that works to protect tigers and oversees the country's tiger reserves."
+  ],
+  "odi": [
+   "ODI",
+   "words",
+   "A cricket match between countries that is played in one day.",
+   "One Day International: a cricket match between countries in which each team bats for up to 50 overs."
+  ],
+  "wicket": [
+   "wicket",
+   "words",
+   "In cricket, the bowling team takes a wicket each time it gets a batter out.",
+   "In cricket, a team loses a wicket each time one of its batters is out; the bowling side is said to take that wicket. A team is all out when ten batters are out."
+  ],
+  "asean": [
+   "ASEAN",
+   "civics",
+   "A group of countries in Southeast Asia that work together.",
+   "Short for the Association of Southeast Asian Nations, a group of countries in Southeast Asia that cooperate on trade, safety and other shared issues."
+  ],
+  "summit": [
+   "summit",
+   "words",
+   "A meeting of the top leaders of countries.",
+   "A meeting of top leaders, such as presidents and prime ministers, to talk about important issues. The word also means the top of a mountain."
+  ],
+  "manila": [
+   "Manila",
+   "places",
+   "The capital city of the Philippines.",
+   "The capital city of the Philippines, on the island of Luzon."
+  ],
+  "agenda": [
+   "agenda",
+   "words",
+   "A list of things to talk about at a meeting.",
+   "A list of the topics to be discussed or decided at a meeting, usually agreed before it starts."
+  ],
+  "planet": [
+   "planet",
+   "science",
+   "A big round world that travels around the Sun, like Earth or Mars.",
+   "A large, round object that travels in a path around a star. Earth, Mars and Jupiter are planets that travel around the Sun."
+  ],
+  "degree": [
+   "degree",
+   "science",
+   "A way to measure how far apart things look in the sky. Your little finger at arm's length covers about one degree.",
+   "A unit for measuring angles. In the sky it shows how far apart two objects appear: a little finger held at arm's length covers about one degree."
+  ],
+  "constellation": [
+   "constellation",
+   "science",
+   "A group of stars that makes a pattern in the sky.",
+   "A group of stars that forms a named pattern in the night sky, such as Leo, the Lion."
+  ],
+  "khelo-india": [
+   "Khelo India",
+   "civics",
+   "A plan in India to get more young people playing sport. The name means \"Play India\".",
+   "A national programme in India that encourages sport. Its name means \"Play India\" in Hindi, and its Youth Games are a multi-sport event for young athletes."
+  ],
+  "mascot": [
+   "mascot",
+   "words",
+   "A fun character that stands for a team or an event.",
+   "A character, often an animal or bird, chosen to represent a team or event and bring it good luck and fun."
+  ],
+  "discipline": [
+   "discipline",
+   "words",
+   "One kind of sport at a big sports event.",
+   "In sport, one type of sport or event within a larger competition, such as swimming or athletics."
+  ],
+  "demonstration-sport": [
+   "demonstration sport",
+   "words",
+   "A sport shown at an event so people can see it.",
+   "A sport played at a big event mainly to show it to the public, rather than as one of the main competition sports."
+  ],
+  "cop": [
+   "COP",
+   "civics",
+   "A big meeting where countries talk about climate change.",
+   "Short for Conference of the Parties: the United Nations climate summit, where countries meet to agree on action on climate change."
+  ],
+  "un": [
+   "United Nations",
+   "civics",
+   "A club of almost every country in the world that works for peace and helps people.",
+   "Founded in 1945, it has 193 member countries. The Security Council is one of its main bodies."
+  ],
+  "climate-change": [
+   "climate change",
+   "science",
+   "Earth is slowly getting warmer, and the weather is changing with it.",
+   "The long-term warming of the Earth and the changes in weather that come with it. Burning fossil fuels is the main cause."
+  ],
+  "satellite": [
+   "satellite",
+   "tech",
+   "A machine sent into space that travels round and round Earth.",
+   "A machine sent into orbit around Earth or another body. Satellites are used for jobs such as communication, taking pictures and studying weather."
+  ],
+  "paris-agreement": [
+   "Paris Agreement",
+   "civics",
+   "A promise made by countries in 2015 to slow down global warming.",
+   "A 2015 agreement in which countries agreed to keep warming well below 2°C and to try for 1.5°C, with each country setting its own targets."
+  ]
+ },
+ "keys": {
+  "in-lakshya-kumamoto": {
+   "type": "number",
+   "v": "13-21, 21-18, 21-14",
+   "l": "the game scores in the final: Lakshya Sen lost the first game, then won the next two"
+  },
+  "g-forest-fund": {
+   "type": "number",
+   "v": "C$560 million",
+   "l": "the most Canada will give the tropical forest fund over four years"
+  },
+  "in-odi-series": {
+   "type": "number",
+   "v": "22",
+   "l": "runs: how much India won by, even though they scored only 209"
+  },
+  "g-asean-summit": {
+   "type": "number",
+   "v": "11",
+   "l": "member countries in ASEAN"
+  },
+  "g-mars-jupiter": {
+   "type": "number",
+   "v": "1 degree",
+   "l": "about how far apart Mars and Jupiter look before sunrise this week"
+  },
+  "in-khelo-mascot": {
+   "type": "number",
+   "v": "29",
+   "l": "disciplines at the Games: 27 competitive and 2 demonstration"
+  },
+  "in-debrigarh-tiger": {
+   "type": "number",
+   "v": "9 November",
+   "l": "the day the tiger was seen in Debrigarh Wildlife Sanctuary"
+  }
+ },
+ "xkeys": {
+  "in-lakshya-kumamoto": {
+   "type": "check",
+   "q": "Did Lakshya win or lose the first game?",
+   "a": [
+    "He won it",
+    "He lost it"
+   ],
+   "c": 1,
+   "right": "Right! He lost the first game, then won the next two.",
+   "wrong": "Not quite. He lost the first game, then won the next two."
+  },
+  "g-forest-fund": {
+   "type": "check",
+   "q": "What is Canada's money for?",
+   "a": [
+    "Protecting forests",
+    "Building roads"
+   ],
+   "c": 0,
+   "right": "Right! The money will help protect tropical forests.",
+   "wrong": "Not quite. The money will help protect tropical forests."
+  },
+  "in-debrigarh-tiger": {
+   "type": "check",
+   "q": "How did officials know which tiger it was?",
+   "a": [
+    "Its stripe pattern",
+    "Its loud roar"
+   ],
+   "c": 0,
+   "right": "Right! Officials matched its stripe pattern in photos.",
+   "wrong": "Not quite. Officials matched its stripe pattern in photos."
+  },
+  "in-odi-series": {
+   "type": "check",
+   "q": "How many runs did India win by?",
+   "a": [
+    "22 runs",
+    "89 runs"
+   ],
+   "c": 0,
+   "right": "Right! India won by 22 runs.",
+   "wrong": "Not quite. India won by 22 runs. The 89 was their score in the match before."
+  },
+  "g-asean-summit": {
+   "type": "check",
+   "q": "Which country leads the group this year?",
+   "a": [
+    "Singapore",
+    "The Philippines"
+   ],
+   "c": 1,
+   "right": "Right! The Philippines leads this year. Singapore is next.",
+   "wrong": "Not quite. The Philippines leads this year. Singapore takes a turn next year."
+  },
+  "g-mars-jupiter": {
+   "type": "check",
+   "q": "Which planet looks brighter?",
+   "a": [
+    "Mars",
+    "Jupiter"
+   ],
+   "c": 1,
+   "right": "Right! Jupiter is the brighter one.",
+   "wrong": "Not quite. Jupiter is the brighter of the two."
+  },
+  "in-khelo-mascot": {
+   "type": "check",
+   "q": "Which state will host the games?",
+   "a": [
+    "Telangana",
+    "Kerala"
+   ],
+   "c": 0,
+   "right": "Right! Telangana will host the games in December.",
+   "wrong": "Not quite. Telangana will host the games in December."
+  }
+ },
+ "deep": {
+  "in-lakshya-kumamoto": {
+   "ctx": "Lakshya Sen's win at the Kumamoto Masters Japan, a BWF Super 500 event, came straight after his title at the Hylo Open in Germany earlier this month. The 9,200 ranking points from the win improve his chance of reaching the BWF World Tour Finals in Hangzhou.",
+   "ask": "Is it better for a top player to enter many tournaments to collect ranking points, or to play fewer and save energy for the biggest events?",
+   "jobs": [
+    "Badminton coach",
+    "Sports physiotherapist (helps athletes stay fit and recover from injuries)",
+    "Sports psychologist (helps athletes stay calm and focused)"
+   ]
+  },
+  "g-forest-fund": {
+   "ctx": "The Tropical Forest Forever Facility was launched at COP30 in Brazil in November 2025. Canada's pledge of up to C$560 million over four years is part of its promise of more than C$13 billion in climate money for developing countries by 2031. Canada's government says the fund is co-led by Brazil and Norway and would pay only for verified results.",
+   "ask": "Is paying countries and communities to keep their forests standing the best way to protect them, or should countries protect their own forests with their own laws and money?",
+   "jobs": [
+    "Forest ecologist",
+    "Climate finance analyst",
+    "Remote sensing scientist (who uses satellite images to check forests)"
+   ]
+  },
+  "in-debrigarh-tiger": {
+   "ctx": "The male tiger seen in Debrigarh Wildlife Sanctuary on 9 November was recorded in Chhattisgarh's Udanti-Sitanadi Tiger Reserve in 2025, and officials matched it using camera-trap photos shared by Chhattisgarh's forest department. Officials think it may first have come from Maharashtra, but call this an early guess, and Debrigarh has asked the National Tiger Conservation Authority for the tiger's movement records.",
+   "ask": "Should tigers that cross from one state to another be looked after by a national body, or by the forest team of each state they enter?",
+   "jobs": [
+    "Wildlife biologist",
+    "Forest ranger",
+    "Wildlife photographer"
+   ]
+  },
+  "in-odi-series": {
+   "ctx": "India were all out for 89 in the fourth ODI, then bounced back to win the fifth and final match at Bay Oval by 22 runs. The result was New Zealand's first home ODI series loss in seven years, and India's first away ODI series win with Gautam Gambhir as head coach.",
+   "ask": "In a one-day cricket match, does a team's batting or its bowling matter more for winning?",
+   "jobs": [
+    "Cricket coach",
+    "Sports data analyst",
+    "Pitch curator (prepares and looks after cricket pitches)"
+   ]
+  },
+  "g-asean-summit": {
+   "ctx": "ASEAN, the Association of Southeast Asian Nations, has 11 members, and the role of chair rotates among them. The Philippines holds the chair this year and opened the 49th summit in Manila on 15 November, and Singapore takes over in 2027. Topics on the agenda include trade, security, the South China Sea, Myanmar and energy.",
+   "ask": "Should neighbouring countries try to agree on shared problems as a group, even when that is slow, or is it better for each country to decide for itself?",
+   "jobs": [
+    "Diplomat",
+    "Conference interpreter (who translates speeches between languages)",
+    "Trade economist"
+   ]
+  },
+  "g-mars-jupiter": {
+   "ctx": "Before sunrise in mid-November, Mars and Jupiter appear about 1 degree apart, their closest this month, near Regulus, the brightest star in Leo. Planets move around the Sun, so their positions among the background stars change over days and weeks. On the morning of 22 November, Mars, Jupiter and Regulus will be grouped tightly together.",
+   "ask": "Is it worth getting up very early to see the planets with your own eyes, when you could look at a clearer photo online later?",
+   "jobs": [
+    "Astronomer",
+    "Planetarium educator",
+    "Astrophotographer"
+   ]
+  },
+  "in-khelo-mascot": {
+   "ctx": "The 8th Khelo India Youth Games will be hosted by Telangana from 11 to 22 December 2026 across six cities, with about 8,000 athletes and participants. Of the 29 disciplines, 27 are competitive and 2 are demonstration events, and softball becomes a competitive sport for the first time.",
+   "ask": "Should youth games keep adding new sports to give more young athletes a chance, or keep fewer sports so each one gets more attention and support?",
+   "jobs": [
+    "Graphic designer (designs logos and mascots)",
+    "Sports event manager",
+    "Physical education teacher"
+   ]
+  }
+ },
+ "today": {
+  "days": [
+   {
+    "name": "Janjatiya Gaurav Divas",
+    "what": "India observes 15 November as Janjatiya Gaurav Divas, a day that remembers tribal freedom fighters. The date is the birth anniversary of Birsa Munda.",
+    "where": [
+     "IN"
+    ]
+   },
+   {
+    "name": "Jharkhand Statehood Day",
+    "what": "Jharkhand was separated from Bihar and became India's 28th state on 15 November 2000.",
+    "where": [
+     "IN"
+    ]
+   }
+  ],
+  "born": [
+   {
+    "name": "William Herschel",
+    "year": 1738,
+    "what": "An astronomer, born in Hanover, Germany. He first worked as a musician. He built his own telescopes and discovered the planet Uranus in 1781."
+   },
+   {
+    "name": "Georgia O'Keeffe",
+    "year": 1887,
+    "what": "A painter known for her large paintings of flowers, the skyscrapers of New York and the landscapes of New Mexico."
+   },
+   {
+    "name": "Sania Mirza",
+    "year": 1986,
+    "what": "An Indian tennis player, born in Mumbai. She began playing tennis at the age of six.",
+    "where": [
+     "IN"
+    ]
+   }
+  ],
+  "week": "The Leonid meteor shower is expected to peak around 17 and 18 November. World Children's Day is on Friday 20 November."
+ },
+ "learn": {
+  "subject": "Geography",
+  "cat": "science",
+  "link": "Why do mountains like the Himalayas exist?",
+  "x": {
+   "t": "How are mountains made?",
+   "b": [
+    "Earth's outer layer is broken into huge pieces called plates. The plates move very slowly, only a few centimetres a year.",
+    "Where two plates push together, the ground can fold and rise. Over a very long time, this makes mountains. The Himalayas were made this way.",
+    "Mountains wear down too. Water, wind and ice break the rock and carry the bits away."
+   ],
+   "remember": "Mountains rise where Earth's plates push together. Water, wind and ice slowly wear them down.",
+   "q": "What can happen where two plates push together?",
+   "a": [
+    "The ground can fold and rise into mountains",
+    "The ground turns into ice"
+   ],
+   "c": 0
+  },
+  "o": {
+   "t": "How are mountains made, and how do they wear down?",
+   "b": [
+    "Earth's outer layer is broken into large slabs called tectonic plates. They move slowly, at average speeds of a few centimetres a year.",
+    "Where two plates push together, the crust, the rocky outer layer, can fold and be forced upward. Mountains made this way are called fold mountains. The Himalayas rose where the Indian plate collided with the Eurasian plate. The collision began about 40 to 50 million years ago. The Himalayas are still rising, by more than 1 centimetre a year according to the US Geological Survey.",
+    "Mount Everest, in the Himalayas, is the highest mountain in the world, at about 8,849 metres above sea level. High on the mountain, right up to the top, are limestone rocks that formed on an ancient sea floor.",
+    "Mountains wear down as well. Weathering breaks rock into smaller pieces. Erosion is when water, wind or ice carry those pieces away. Rivers carry the pieces down to the sea."
+   ],
+   "remember": "Colliding plates push mountains up. Weathering breaks rock down, and erosion carries the pieces away.",
+   "q": "What is the difference between weathering and erosion?",
+   "a": [
+    "Weathering carries rock away, and erosion breaks it down",
+    "They are two words for an earthquake",
+    "Weathering breaks rock down, and erosion carries the pieces away"
+   ],
+   "c": 2
+  }
+ },
+ "backThen": {
+  "y": 1971,
+  "t": "Intel announces its first microprocessor, the 4004",
+  "o": "On 15 November 1971, the company Intel announced a new chip, the 4004, in an advertisement in a publication called Electronic News. The 4004 was a microprocessor, which is a computer's processor built onto a single chip. It grew out of work for Busicom, a company that made calculators. Intel says the chip held more than 2,000 transistors, which are tiny switches, and was about the size of a little fingernail.",
+  "x": "On this day in 1971, a company called Intel showed the world a new computer chip. It was called the 4004. It grew out of work for a company that made calculators.",
+  "why": "Intel says engineers could buy the 4004 and program it for many different devices. A microprocessor is the kind of chip that does the main work inside a computer."
+ },
+ "hiddenWords": [
+  {
+   "k": "satellite",
+   "o": "Satellite comes from the Latin word satelles, which means an attendant: someone who escorts or follows an important person. A satellite follows a planet around in the same way."
+  },
+  {
+   "k": "summit",
+   "o": "Summit comes from the Latin word summus, which means highest. It reached English in the 1400s through the Old French word som, which means top. A summit first meant the top of something, like a mountain. Today it also means a meeting of top leaders."
+  }
+ ],
+ "bigStory": {
+  "week": "2026-11-09",
+  "story": "g-cop31",
+  "cat": "planet",
+  "sketch": "greenhouse",
+  "t": "Can the world agree to slow climate change?",
+  "sub": "COP31, the United Nations climate summit in Türkiye",
+  "x": {
+   "why": "Almost 200 countries are in one place to decide how to stop Earth getting too warm. What they agree will shape the world you grow up in."
+  },
+  "o": {
+   "why": "Almost 200 countries are in one place to decide how to turn climate promises into action. What they agree, or fail to agree, will shape the world you grow up in."
+  },
+  "facts": [
+   [
+    "~200",
+    "countries taking part"
+   ],
+   [
+    "1.5°C",
+    "the limit countries hope to keep to"
+   ],
+   [
+    "2.6°C",
+    "where current promises lead, says a UN report"
+   ],
+   [
+    "20 Nov",
+    "the day the talks are due to end"
+   ]
+  ],
+  "days": [
+   {
+    "d": "2026-11-09",
+    "h": "The summit opens",
+    "o": "COP31 opened in Antalya, a city on Türkiye's coast. In an unusual setup, Türkiye is the host while Australia leads the negotiations.",
+    "x": "The big meeting began in Antalya, a city by the sea in Türkiye. Türkiye is the host, and Australia is leading the talks."
+   },
+   {
+    "d": "2026-11-10",
+    "h": "A warning from the UN",
+    "o": "UN Secretary-General António Guterres urged leaders to get serious. A UN report projects about 2.6°C of warming this century on current promises, well above the Paris Agreement goal.",
+    "x": "The leader of the United Nations asked every country to get serious. A report says Earth is on track to warm more than countries promised."
+   },
+   {
+    "d": "2026-11-11",
+    "h": "World leaders arrive",
+    "o": "Leaders gather today and tomorrow. Organisers call this the implementation COP: less about new promises, more about keeping old ones. The United States did not send officials.",
+    "x": "Presidents and prime ministers arrive today. This meeting is about keeping old promises, and less about making new ones."
+   },
+   {
+    "d": "2026-11-12",
+    "h": "What do leaders promise?",
+    "o": "On the first day of speeches, UN chief António Guterres said the climate crisis is outrunning us. Türkiye asked countries to back a voluntary pledge to raise electricity's share of the world's energy use from about 23 per cent to 35 per cent by 2035. The head of the European Commission backed it. Others want it to say the electricity must be clean.",
+    "x": "Leaders gave speeches. The head of the United Nations said the world must move faster. Türkiye asked countries to run more cars, homes and factories on electricity."
+   },
+   {
+    "d": "2026-11-13",
+    "h": "The week in one page",
+    "o": "Leaders gave their speeches and went home. At least 14 countries have publicly backed the electricity pledge, by one news site's count, and a climate fund announced 94 million dollars to help developing countries electrify. But a fund for Pacific islands and a fund for tropical forests are still short of their targets, and countries still disagree about money for adapting to climate change. In week two, negotiators must agree a final text. The summit is due to end on 20 November.",
+    "x": "Leaders gave their speeches and went home. Some countries promised to run more things on electricity. Others asked for more money to help. Next week, countries must agree on a plan."
+   }
+  ],
+  "words": [
+   "cop",
+   "climate-change",
+   "paris-agreement",
+   "un"
+  ],
+  "poll": {
+   "q": "If you were a leader at COP31, what would you push for first?",
+   "a": [
+    [
+     "Cleaner energy",
+     "Most warming comes from burning coal, oil and gas for energy, so this is where the biggest cuts are."
+    ],
+    [
+     "Protecting forests",
+     "Trees take carbon dioxide out of the air, and forests are home to most land animals."
+    ],
+    [
+     "Helping places hit by floods and heat",
+     "Poorer countries have done the least to cause warming and are often hit hardest."
+    ],
+    [
+     "Cleaner transport",
+     "Cars, lorries, ships and planes burn a lot of fuel. Electric and shared travel cut that."
+    ]
+   ]
+  },
+  "talk": "Is it fair to ask every country to cut pollution by the same amount? Why, or why not?"
+ },
+ "puzzles": {
+  "week": "2026-11-09",
+  "sudoku": {
+   "o": {
+    "n": 6,
+    "br": 2,
+    "bc": 3,
+    "p": [
+     [
+      2,
+      0,
+      5,
+      6,
+      3,
+      0
+     ],
+     [
+      0,
+      1,
+      0,
+      5,
+      4,
+      0
+     ],
+     [
+      0,
+      0,
+      4,
+      1,
+      0,
+      5
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      3,
+      0,
+      6
+     ],
+     [
+      5,
+      6,
+      0,
+      0,
+      0,
+      0
+     ]
+    ],
+    "s": [
+     [
+      2,
+      4,
+      5,
+      6,
+      3,
+      1
+     ],
+     [
+      3,
+      1,
+      6,
+      5,
+      4,
+      2
+     ],
+     [
+      6,
+      3,
+      4,
+      1,
+      2,
+      5
+     ],
+     [
+      1,
+      5,
+      2,
+      4,
+      6,
+      3
+     ],
+     [
+      4,
+      2,
+      1,
+      3,
+      5,
+      6
+     ],
+     [
+      5,
+      6,
+      3,
+      2,
+      1,
+      4
+     ]
+    ]
+   },
+   "n": {
+    "n": 9,
+    "br": 3,
+    "bc": 3,
+    "p": [
+     [
+      0,
+      7,
+      0,
+      9,
+      4,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      6,
+      0,
+      2,
+      0,
+      0,
+      7,
+      0,
+      0,
+      8
+     ],
+     [
+      0,
+      8,
+      9,
+      2,
+      0,
+      0,
+      0,
+      1,
+      0
+     ],
+     [
+      0,
+      6,
+      7,
+      0,
+      1,
+      5,
+      0,
+      0,
+      4
+     ],
+     [
+      0,
+      5,
+      0,
+      3,
+      0,
+      4,
+      2,
+      7,
+      0
+     ],
+     [
+      0,
+      0,
+      3,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      9,
+      0,
+      5,
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     [
+      7,
+      0,
+      5,
+      0,
+      8,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      8,
+      0,
+      4,
+      0,
+      3,
+      9,
+      0,
+      5,
+      0
+     ]
+    ],
+    "s": [
+     [
+      5,
+      7,
+      1,
+      9,
+      4,
+      8,
+      6,
+      2,
+      3
+     ],
+     [
+      6,
+      3,
+      2,
+      1,
+      5,
+      7,
+      4,
+      9,
+      8
+     ],
+     [
+      4,
+      8,
+      9,
+      2,
+      6,
+      3,
+      5,
+      1,
+      7
+     ],
+     [
+      2,
+      6,
+      7,
+      8,
+      1,
+      5,
+      9,
+      3,
+      4
+     ],
+     [
+      1,
+      5,
+      8,
+      3,
+      9,
+      4,
+      2,
+      7,
+      6
+     ],
+     [
+      9,
+      4,
+      3,
+      7,
+      2,
+      6,
+      1,
+      8,
+      5
+     ],
+     [
+      3,
+      9,
+      6,
+      5,
+      7,
+      2,
+      8,
+      4,
+      1
+     ],
+     [
+      7,
+      2,
+      5,
+      4,
+      8,
+      1,
+      3,
+      6,
+      9
+     ],
+     [
+      8,
+      1,
+      4,
+      6,
+      3,
+      9,
+      7,
+      5,
+      2
+     ]
+    ]
+   },
+   "x": {
+    "n": 4,
+    "br": 2,
+    "bc": 2,
+    "p": [
+     [
+      1,
+      0,
+      0,
+      3
+     ],
+     [
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      3,
+      4
+     ],
+     [
+      3,
+      4,
+      0,
+      2
+     ]
+    ],
+    "s": [
+     [
+      1,
+      2,
+      4,
+      3
+     ],
+     [
+      4,
+      3,
+      2,
+      1
+     ],
+     [
+      2,
+      1,
+      3,
+      4
+     ],
+     [
+      3,
+      4,
+      1,
+      2
+     ]
+    ]
+   }
+  },
+  "words": {
+   "o": [
+    [
+     "ARMISTICE",
+     "An agreement to stop fighting (11 November 1918)"
+    ],
+    [
+     "SATELLITE",
+     "China wants these to do computing in space"
+    ],
+    [
+     "ASTRONAUT",
+     "NASA is looking for new ones"
+    ],
+    [
+     "LANTERN",
+     "German children carry one on St Martin's Day"
+    ],
+    [
+     "DISCOUNT",
+     "Money taken off the usual price"
+    ]
+   ],
+   "x": [
+    [
+     "SNOW",
+     "It fell early in Seoul"
+    ],
+    [
+     "MOON",
+     "NASA wants a base near its south pole"
+    ],
+    [
+     "COMET",
+     "Taurid fireballs come from one"
+    ],
+    [
+     "PLANE",
+     "It flew from Australia to France without stopping"
+    ],
+    [
+     "POPPY",
+     "A red flower for Remembrance Day"
+    ]
+   ]
+  }
+ },
+ "reporters": {
+  "week": "2026-11-09",
+  "t": "Report one kind thing you saw this week",
+  "why": "World Kindness Day is on Friday 13 November. The best reports appear on Sunday's front page.",
+  "tips": [
+   "Who did it?",
+   "What did they do?",
+   "Where did it happen?"
+  ],
+  "sample": [
+   {
+    "h": "Shopkeeper keeps a free water pot outside all summer",
+    "b": "People walking past stop to drink. He fills it three times a day.",
+    "by": "Reader, 10, India"
+   },
+   {
+    "h": "Year 4 class writes thank-you cards for the school cleaners",
+    "b": "Every child wrote one line. The cards were left on the cleaning trolley.",
+    "by": "Reader, 9, United Kingdom"
+   },
+   {
+    "h": "Neighbour teaches four children to ride bikes on Sunday mornings",
+    "b": "She brings her own tools and fixes the chains too.",
+    "by": "Reader, 12, Australia"
+   }
+  ]
+ }
+}

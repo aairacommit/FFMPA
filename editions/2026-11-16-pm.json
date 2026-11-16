@@ -24,7 +24,7 @@
    "o": {
     "t": "Storm expected to reach Andhra coast on Friday as states get ready",
     "b": [
-     "India's weather office, the [[imd|IMD]], expects a storm over the [[bay-of-bengal|Bay of Bengal]] to reach the [[andhra-pradesh|Andhra Pradesh]] coast between Nellore and Tuni by about noon on Friday 20 November. That gives four days of warning.",
+     "India's weather office, the [[imd|IMD]], expects a storm over the [[bay-of-bengal|Bay of Bengal]] to reach the [[andhra-pradesh|Andhra Pradesh]] coast between Nellore and Tuni by about noon on Friday 20 November.",
      "On Monday it was a deep [[depression|depression]], a strong area of low air pressure with wind and rain. It was expected to become a [[cyclone|cyclonic storm]], a stronger spinning storm, that evening, and be named Akvan. It should reach land as a very severe cyclonic storm, with winds of 120 to 130 kilometres an hour and gusts, or sudden bursts, of up to 145 kilometres an hour.",
      "Fishermen have been told not to go to sea, to keep safe. Odisha has 24-hour control rooms and rescue teams on standby. Andhra Pradesh's Chief Minister, N Chandrababu Naidu, the head of the state government, told officials to take safety measures early. People are urged to follow official updates."
     ]
@@ -118,7 +118,7 @@
     "t": "Rare right whale count falls to about 382, but calves bring hope",
     "b": [
      "There were about 382 North Atlantic right whales in 2025, about 2% fewer than the year before, says a yearly estimate released on Monday 16 November. It comes from the North Atlantic Right Whale Consortium, a group of US and Canadian scientists and organisations that study and protect the whales.",
-     "The whales give birth in winter off the south-east US and feed off New England and Canada. They eat [[copepod|copepods]], tiny sea animals. [[whaling|Whaling]], or hunting whales, made them very rare, until hunting them mostly stopped in the 1930s. Today the main dangers are getting tangled in fishing gear and being hit by ships. Warming water has moved their food, so whales go where there are fewer protections.",
+     "The whales give birth in winter off the south-east US and feed off New England and Canada. They eat [[copepod|copepods]], tiny sea animals. [[whaling|Whaling]], or hunting whales, made them very rare long ago. Today the main dangers are getting tangled in fishing gear and being hit by ships. Warming water has moved their food, so whales go where there are fewer protections.",
      "The hopeful news: 24 [[calf|calves]] were born in the 2025 to 2026 calving season, one of the best on record. The consortium meets in Nova Scotia this week."
     ]
    },
@@ -277,7 +277,7 @@
     "b": [
      "The Antalya AI Pledge was launched on Monday 16 November at [[cop|COP31]], the United Nations climate summit in Antalya, Türkiye. Türkiye developed it with the [[itu|ITU]], the UN agency for digital technology. Signing is voluntary, or optional.",
      "[[ai|AI]], or artificial intelligence, runs on computers that use lots of electricity and water. The pledge aims to use AI to fight [[climate-change|climate change]] while shrinking AI's own harm to the planet. It asks for clean power for AI computers and data centres, the buildings that hold them, and for measuring and reporting AI's effect on the environment.",
-     "Signers will first check progress together at next year's COP in Ethiopia. Support so far is limited. A first draft, or first full version, of the summit's main agreement was due early this week, and countries still disagree on new energy targets. Talks are due to end on Friday 20 November."
+     "Signers will first check progress together at next year's COP in Ethiopia. Support so far is limited. Countries still disagree on new energy targets, and the talks are due to end on Friday 20 November."
     ]
    },
    "think": "Every app and game runs on real computers that use energy. Should people think about that when they use them? Why or why not?",
@@ -904,7 +904,7 @@
    "whaling",
    "words",
    "Hunting whales.",
-   "The hunting of whales. Whaling made North Atlantic right whales very rare, until hunting them mostly stopped in the 1930s."
+   "The hunting of whales. Whaling made North Atlantic right whales very rare long ago."
   ],
   "icc": [
    "ICC",
@@ -948,23 +948,17 @@
    "A contest where everyone in a group plays everyone else.",
    "A format in which every player or team in a group plays all the others, with no instant knockout."
   ],
-  "light-day": [
-   "light-day",
-   "science",
-   "How far light travels in one whole day. It is a very long way.",
-   "A unit of distance: how far light travels in 24 hours, about 25.9 billion kilometres."
-  ],
   "deep-space-network": [
    "Deep Space Network",
    "tech",
    "The system NASA uses to talk to faraway spacecraft.",
    "NASA's system for communicating with distant spacecraft such as Voyager 1. It is managed by the Jet Propulsion Laboratory."
   ],
-  "orbit": [
-   "orbit",
-   "science",
-   "The path something follows as it goes round and round a planet, moon or star.",
-   "The curved path an object follows around a planet, moon or star, held there by gravity."
+  "jpl": [
+   "Jet Propulsion Laboratory",
+   "places",
+   "A NASA centre in California. The Voyager 1 mission is run from there.",
+   "A NASA laboratory in Pasadena, California. The Voyager mission is run from there."
   ],
   "interstellar": [
    "interstellar space",
@@ -972,11 +966,17 @@
    "The space between the stars.",
    "Space beyond the heliopause, the place where the Sun's constant flow of material and its magnetic field stop affecting their surroundings."
   ],
-  "jpl": [
-   "Jet Propulsion Laboratory",
-   "places",
-   "A NASA centre in California. The Voyager 1 mission is run from there.",
-   "A NASA laboratory in Pasadena, California. The Voyager mission is run from there."
+  "orbit": [
+   "orbit",
+   "science",
+   "The path something follows as it goes round and round a planet, moon or star.",
+   "The curved path an object follows around a planet, moon or star, held there by gravity."
+  ],
+  "light-day": [
+   "light-day",
+   "science",
+   "How far light travels in one whole day. It is a very long way.",
+   "A unit of distance: how far light travels in 24 hours, about 25.9 billion kilometres."
   ]
  },
  "today": {

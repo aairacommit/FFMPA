@@ -17,9 +17,9 @@
    "x": {
     "t": "Meet Voyager 1, the spacecraft that left Earth 49 years ago",
     "b": [
-     "Meet Voyager 1, a spacecraft. It was launched on 5 September 1977.",
+     "Voyager 1 is a spacecraft. It was launched on 5 September 1977.",
      "It flew past the planets Jupiter and Saturn. In 1990, it took a picture of Earth.",
-     "On Wednesday, it will be one [[light-day|light-day]] away. Light needs a whole day to go that far. A radio signal from Earth will take 24 hours. On Tuesday after sunset, people can flash a torch. Ask a grown-up to help."
+     "On Wednesday, it will be one [[light-day|light-day]] away. Light needs a whole day to go that far. A radio signal will take 24 hours. On Tuesday after sunset, people can flash a torch for Voyager. Ask a grown-up to help."
     ]
    },
    "o": {
@@ -433,7 +433,7 @@
     "t": "40 Amazon internet satellites lost as Vulcan rocket fails",
     "b": [
      "A Vulcan rocket lifted off from [[cape-canaveral|Cape Canaveral]] in Florida, USA, on Sunday 15 November. It carried 40 [[satellite|satellites]], machines that travel around Earth. About 10 minutes into the flight, there was a problem. The rocket's maker, United Launch Alliance (ULA), said the rocket failed to deliver the satellites to [[orbit|orbit]], a path around Earth. They were lost.",
-     "The satellites were for [[amazon-leo|Amazon Leo]], a network, or linked group, of internet satellites that belongs to the company Amazon. Amazon plans more than 3,200, and about 400 had reached space before Sunday. Amazon Leo is designed to compete with Starlink, run by the company SpaceX.",
+     "The satellites were for [[amazon-leo|Amazon Leo]], a network, or linked group, of internet satellites that belongs to the company Amazon. Amazon plans more than 3,000, and about 400 had reached space before Sunday. Amazon Leo is designed to compete with Starlink, run by the company SpaceX.",
      "This was Vulcan's fifth flight, and its first in nine months. Amazon had booked 38 Vulcan flights. ULA says it does not yet know the cause. It says it will work with its customer and other organisations to find out what happened."
     ]
    },
@@ -444,7 +444,7 @@
      "4",
      "14",
      "40",
-     "3,200"
+     "3,000"
     ],
     "c": 2
    },
@@ -683,7 +683,7 @@
    "Amazon Leo",
    "tech",
    "A group of internet satellites that belongs to the company Amazon.",
-   "The company Amazon's network of internet satellites. Amazon plans more than 3,200 of them, and it is designed to compete with Starlink."
+   "The company Amazon's network of internet satellites. Amazon plans more than 3,000 of them, and it is designed to compete with Starlink."
   ],
   "andhra-pradesh": [
    "Andhra Pradesh",

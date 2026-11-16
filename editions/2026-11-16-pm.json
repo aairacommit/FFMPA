@@ -16,7 +16,7 @@
    "x": {
     "t": "Helpers get ready as a storm heads towards India's coast",
     "b": [
-     "India's [[imd|weather office]] is watching a storm at sea. It is expected to become a [[cyclone|cyclone]] on Monday evening. Then it will be called Akvan.",
+     "India's [[imd|weather office]] is watching a storm at sea. On Monday it was expected to become a [[cyclone|cyclone]] that evening and be called Akvan.",
      "It should reach the coast of [[andhra-pradesh|Andhra Pradesh]] on Friday. That gives four days to get ready.",
      "Fishermen were told to stay on shore to keep safe. Rescue teams in Odisha are ready to help. Families should follow official updates, because forecasts can change."
     ]
@@ -599,7 +599,7 @@
    ]
   },
   "g-right-whales": {
-   "ctx": "AP reports that the population fell by about a quarter between 2010 and 2020. Only about 73 of the whales are breeding females, and three of the mothers in the latest calving season were having a calf for the first time. Scientists from the New England Aquarium help work out the estimate each year.",
+   "ctx": "Only about 73 of the whales are breeding females, and three of the mothers in the latest calving season were having a calf for the first time. Scientists from the New England Aquarium help work out the estimate each year.",
    "ask": "Fishing crews and ships work in the same waters where right whales live: how should people balance fishing jobs with protecting a whale this rare?",
    "jobs": [
     "Marine biologist",
@@ -617,7 +617,7 @@
    ]
   },
   "g-ai-pledge": {
-   "ctx": "The COP31 presidency's website says the pledge was first announced in New York in September. The ITU says it was formally launched on Monday at a COP31 meeting on AI. The ITU says signers choose at least one of four kinds of commitment, which also include designing and buying AI responsibly, and money and technical help so developing countries can use AI for climate action.",
+   "ctx": "Signers are due to report back on progress at next year's summit in Addis Ababa, Ethiopia. AFP and Climate Home News report that the pledge has not yet attracted wide support.",
    "ask": "Supporters say a voluntary pledge starts shared action, while critics say promises without firm checks may be too vague: is a voluntary promise a good first step, or should limits on AI's harm to the planet be required?",
    "jobs": [
     "Data centre engineer",
@@ -635,7 +635,7 @@
    ]
   },
   "in-wpi": {
-   "ctx": "The government says the current WPI series, released on 15 June 2026, uses 2022-23 as its base year in place of 2011-12. It says manufactured products make up about 63% of the index, primary articles about 23% and fuel and power about 14%. Business Standard reports that Madan Sabnavis, chief economist at Bank of Baroda, said companies have passed on only a limited part of the input cost increase to consumers.",
+   "ctx": "The government says the current WPI series, released on 15 June 2026, uses 2022-23 as its base year in place of 2011-12. It says manufactured products make up about 63% of the index, primary articles about 23% and fuel and power about 14%.",
    "ask": "When the cost of fuel and electricity rises, should businesses pass the extra cost on to shoppers straight away, or absorb some of it for a while?",
    "jobs": [
     "Economist",
@@ -644,7 +644,7 @@
    ]
   },
   "g-haze": {
-   "ctx": "Kompas reports that the fires burned for nearly four months. Kompas and Al Jazeera report that, as well as revoking permits, Indonesian authorities have charged 11 companies.",
+   "ctx": "Kompas and Al Jazeera report that the fires burned for months. As well as revoking permits, Indonesian authorities have charged 11 companies, and 23 more are set to be charged.",
    "ask": "When smoke from one country's fires reaches its neighbours, should that country carry the main responsibility, or should the whole region share the work of stopping it?",
    "jobs": [
     "Firefighter",
@@ -952,17 +952,17 @@
    "A contest where everyone in a group plays everyone else.",
    "A format in which every player or team in a group plays all the others, with no instant knockout."
   ],
-  "light-day": [
-   "light-day",
-   "science",
-   "How far light travels in one whole day. It is a very long way.",
-   "A unit of distance: how far light travels in 24 hours, about 25.9 billion kilometres."
-  ],
   "interstellar": [
    "interstellar space",
    "science",
    "The space between the stars.",
    "Space beyond the heliopause, the place where the Sun's constant flow of material and its magnetic field stop affecting their surroundings."
+  ],
+  "deep-space-network": [
+   "Deep Space Network",
+   "tech",
+   "The system NASA uses to talk to faraway spacecraft.",
+   "NASA's system for communicating with distant spacecraft such as Voyager 1. It is managed by the Jet Propulsion Laboratory."
   ],
   "jpl": [
    "Jet Propulsion Laboratory",
@@ -970,11 +970,11 @@
    "A NASA centre in California. The Voyager 1 mission is run from there.",
    "A NASA laboratory in Pasadena, California. The Voyager mission is run from there."
   ],
-  "deep-space-network": [
-   "Deep Space Network",
-   "tech",
-   "The system NASA uses to talk to faraway spacecraft.",
-   "NASA's system for communicating with distant spacecraft such as Voyager 1. It is managed by the Jet Propulsion Laboratory."
+  "light-day": [
+   "light-day",
+   "science",
+   "How far light travels in one whole day. It is a very long way.",
+   "A unit of distance: how far light travels in 24 hours, about 25.9 billion kilometres."
   ],
   "orbit": [
    "orbit",

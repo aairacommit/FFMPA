@@ -96,6 +96,10 @@
     [
      "Down To Earth, 16 Nov",
      "https://www.downtoearth.org.in/climate-change/daily-weather-tracker-bay-of-bengal-depression-set-to-become-cyclone-akvan-andhra-pradesh-on-alert"
+    ],
+    [
+     "WMO, Northern Indian Ocean cyclone names",
+     "https://public.wmo.int/node/22296"
     ]
    ]
   },
@@ -948,17 +952,11 @@
    "A contest where everyone in a group plays everyone else.",
    "A format in which every player or team in a group plays all the others, with no instant knockout."
   ],
-  "deep-space-network": [
-   "Deep Space Network",
-   "tech",
-   "The system NASA uses to talk to faraway spacecraft.",
-   "NASA's system for communicating with distant spacecraft such as Voyager 1. It is managed by the Jet Propulsion Laboratory."
-  ],
-  "jpl": [
-   "Jet Propulsion Laboratory",
-   "places",
-   "A NASA centre in California. The Voyager 1 mission is run from there.",
-   "A NASA laboratory in Pasadena, California. The Voyager mission is run from there."
+  "light-day": [
+   "light-day",
+   "science",
+   "How far light travels in one whole day. It is a very long way.",
+   "A unit of distance: how far light travels in 24 hours, about 25.9 billion kilometres."
   ],
   "interstellar": [
    "interstellar space",
@@ -966,17 +964,23 @@
    "The space between the stars.",
    "Space beyond the heliopause, the place where the Sun's constant flow of material and its magnetic field stop affecting their surroundings."
   ],
+  "jpl": [
+   "Jet Propulsion Laboratory",
+   "places",
+   "A NASA centre in California. The Voyager 1 mission is run from there.",
+   "A NASA laboratory in Pasadena, California. The Voyager mission is run from there."
+  ],
+  "deep-space-network": [
+   "Deep Space Network",
+   "tech",
+   "The system NASA uses to talk to faraway spacecraft.",
+   "NASA's system for communicating with distant spacecraft such as Voyager 1. It is managed by the Jet Propulsion Laboratory."
+  ],
   "orbit": [
    "orbit",
    "science",
    "The path something follows as it goes round and round a planet, moon or star.",
    "The curved path an object follows around a planet, moon or star, held there by gravity."
-  ],
-  "light-day": [
-   "light-day",
-   "science",
-   "How far light travels in one whole day. It is a very long way.",
-   "A unit of distance: how far light travels in 24 hours, about 25.9 billion kilometres."
   ]
  },
  "today": {
@@ -1018,7 +1022,7 @@
  "learn": {
   "subject": "Science",
   "cat": "space",
-  "link": "From the Voyager 1 story: a light-day is how far light travels in 24 hours",
+  "link": "From this week's Big Story: a light-day is how far light travels in 24 hours",
   "x": {
    "t": "How fast is light?",
    "b": [
@@ -1054,7 +1058,7 @@
  "backThen": {
   "y": 1974,
   "t": "A radio message is beamed from Earth towards the stars",
-  "o": "On 16 November 1974, a radio message was sent into space from the Arecibo Observatory in Puerto Rico. It was sent during a ceremony to mark a major upgrade to the observatory's radio telescope. A team that included the astronomers Frank Drake and Carl Sagan created it. The message included a simple picture of a human and a diagram of the solar system. It was aimed at M13, a cluster of stars more than 20,000 light-years away.",
+  "o": "On 16 November 1974, a radio message was sent into space from the Arecibo Observatory in Puerto Rico. It was sent during a ceremony to mark a major upgrade to the observatory's radio telescope. The astronomer Frank Drake wrote it. The message included a simple picture of a human and a diagram of the solar system. It was aimed at M13, a cluster of stars more than 20,000 light-years away.",
   "x": "On this day in 1974, scientists sent a radio message into space. They sent it from the Arecibo Observatory in Puerto Rico. The message had a simple picture of a person in it.",
   "why": "A radio message travels at the speed of light. A light-year is how far light travels in one year, so the message needs more than 20,000 years to reach those stars. That shows how big space is."
  },

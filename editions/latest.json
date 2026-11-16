@@ -305,10 +305,6 @@
      "https://www.itu.int/initiatives/green-digital-action/form-pledges/"
     ],
     [
-     "COP31 Presidency, 21 Sep",
-     "https://cop31.tr/news-detail/cop31-presidency-launches-35-by-35-and-antalya-ai-pledges"
-    ],
-    [
      "Bloomberg via Energy Connects, 28 Oct",
      "https://www.energyconnects.com/news/utilities/2026/october/ai-is-part-of-solution-for-climate-change-cop31-pledge-says/"
     ],
@@ -580,13 +576,17 @@
     [
      "Pragativadi, 16 Nov",
      "https://pragativadi.com/honouring-the-fourth-pillar-national-press-day-2026-spotlights-ethical-reporting/"
+    ],
+    [
+     "PIB backgrounder, 16 Nov 2025",
+     "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/nov/doc20251116694501.pdf"
     ]
    ]
   }
  ],
  "deep": {
   "in-akvan": {
-   "ctx": "On 16 November the IMD said the storm should cross the coast between Nellore and Tuni around noon on Friday; landfall is when a storm's centre crosses the coast. Storm names come from a list kept by the WMO/ESCAP Panel on Tropical Cyclones, with 13 countries contributing names that are used in a fixed order, and Akvan was contributed by Iran. This would be Andhra Pradesh's third cyclone in less than a month, after Arnab and Murasu.",
+   "ctx": "On 16 November the IMD said the storm should cross the coast between Nellore and Tuni around noon on Friday. Storm names come from a list kept by the WMO/ESCAP Panel on Tropical Cyclones, with 13 countries contributing names that are used in a fixed order, and Akvan was contributed by Iran. This would be Andhra Pradesh's third cyclone in less than a month, after Arnab and Murasu.",
    "ask": "Fishermen were told to stay ashore days before the storm is due, even though forecasts can change: is it better to warn people early, or to wait until a forecast is more certain?",
    "jobs": [
     "Meteorologist (a scientist who studies and forecasts the weather)",
@@ -948,11 +948,11 @@
    "A contest where everyone in a group plays everyone else.",
    "A format in which every player or team in a group plays all the others, with no instant knockout."
   ],
-  "deep-space-network": [
-   "Deep Space Network",
-   "tech",
-   "The system NASA uses to talk to faraway spacecraft.",
-   "NASA's system for communicating with distant spacecraft such as Voyager 1. It is managed by the Jet Propulsion Laboratory."
+  "light-day": [
+   "light-day",
+   "science",
+   "How far light travels in one whole day. It is a very long way.",
+   "A unit of distance: how far light travels in 24 hours, about 25.9 billion kilometres."
   ],
   "jpl": [
    "Jet Propulsion Laboratory",
@@ -960,11 +960,11 @@
    "A NASA centre in California. The Voyager 1 mission is run from there.",
    "A NASA laboratory in Pasadena, California. The Voyager mission is run from there."
   ],
-  "light-day": [
-   "light-day",
+  "interstellar": [
+   "interstellar space",
    "science",
-   "How far light travels in one whole day. It is a very long way.",
-   "A unit of distance: how far light travels in 24 hours, about 25.9 billion kilometres."
+   "The space between the stars.",
+   "Space beyond the heliopause, the place where the Sun's constant flow of material and its magnetic field stop affecting their surroundings."
   ],
   "orbit": [
    "orbit",
@@ -972,11 +972,11 @@
    "The path something follows as it goes round and round a planet, moon or star.",
    "The curved path an object follows around a planet, moon or star, held there by gravity."
   ],
-  "interstellar": [
-   "interstellar space",
-   "science",
-   "The space between the stars.",
-   "Space beyond the heliopause, the place where the Sun's constant flow of material and its magnetic field stop affecting their surroundings."
+  "deep-space-network": [
+   "Deep Space Network",
+   "tech",
+   "The system NASA uses to talk to faraway spacecraft.",
+   "NASA's system for communicating with distant spacecraft such as Voyager 1. It is managed by the Jet Propulsion Laboratory."
   ]
  },
  "today": {

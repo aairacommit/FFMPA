@@ -1,503 +1,866 @@
 {
  "schema": 1,
- "date": "2026-11-15",
+ "date": "2026-11-16",
  "edition": "pm",
  "countries": [
   "IN"
  ],
  "stories": [
   {
-   "id": "in-lakshya-kumamoto",
-   "scope": "IN",
-   "cat": "sports",
-   "emoji": "🏸",
-   "date": "2026-11-15",
-   "kind": "news",
-   "x": {
-    "t": "Lakshya Sen fights back to win a title in Japan",
-    "b": [
-     "Indian [[badminton|badminton]] player Lakshya Sen won a big title in Japan on Sunday. He beat Koki Watanabe, the home crowd's favourite.",
-     "Lakshya lost the first game. He stayed calm and won the next two games.",
-     "It is his second title in a row. The win earns him [[ranking-points|points]]. They could help him reach a big event at the end of the season."
-    ]
-   },
-   "o": {
-    "t": "Lakshya Sen comes from behind to win Kumamoto Masters Japan",
-    "b": [
-     "India's Lakshya Sen won the Kumamoto Masters Japan on Sunday, 15 November. In the final in Kumamoto, Japan, he beat Koki Watanabe of Japan, the home favourite, 13-21, 21-18, 21-14. A home favourite is a local player the crowd most hopes will win.",
-     "Lakshya lost the first game but stayed steady and won the next two. The match lasted 1 hour 4 minutes. The tournament is a [[super-500|Super 500]] event, one level of tournament on badminton's world tour. It is run by the [[bwf|BWF]], the Badminton World Federation, which organises top international badminton.",
-     "It is his second title in a row, after the Hylo Open in Germany earlier this month. The win earned him 9,200 [[ranking-points|ranking points]], which players collect by doing well in tournaments. These points improve his chance of reaching the BWF World Tour Finals in Hangzhou, a season-ending event for top players."
-    ]
-   },
-   "think": "What helps you stay calm and keep going when something starts badly?",
-   "quiz": {
-    "q": "Which game of the final did Lakshya Sen lose?",
-    "a": [
-     "The first game",
-     "The second game",
-     "The third game",
-     "He did not lose any game"
-    ],
-    "c": 0
-   },
-   "src": [
-    [
-     "IANS via Telangana Today, 15 Nov",
-     "https://telanganatoday.com/lakshya-sen-becomes-first-indian-to-win-kumamoto-masters-title"
-    ],
-    [
-     "PTI via Deccan Chronicle, 15 Nov",
-     "https://www.deccanchronicle.com/sports/lakshya-sen-beats-koki-watanabe-to-win-kumamoto-masters-japan-open-2004611"
-    ],
-    [
-     "All India Radio, 15 Nov",
-     "https://newsonair.gov.in/lakshya-sen-clinches-kumamoto-masters-japan-mens-singles-title/"
-    ]
-   ]
-  },
-  {
-   "id": "g-forest-fund",
-   "scope": "global",
-   "cat": "planet",
-   "emoji": "🌳",
-   "date": "2026-11-15",
-   "kind": "news",
-   "x": {
-    "t": "Canada gives money to help protect tropical forests",
-    "b": [
-     "Canada has promised money to help protect [[tropical-forest|tropical forests]]. It will give up to 560 million Canadian dollars over four years.",
-     "Canada's leader shared the news on Sunday. These forests are home to many plants and animals.",
-     "The money will go to a special [[fund|fund]]. A fund is money kept for one job. This fund began in Brazil last year. It gives money when forests are kept standing."
-    ]
-   },
-   "o": {
-    "t": "Canada pledges up to C$560 million for tropical forests",
-    "b": [
-     "Canada has pledged, or promised, up to 560 million Canadian dollars (C$560 million) over four years to the Tropical Forest Forever Facility. This is a [[fund|fund]], money set aside for one purpose. It aims to keep [[tropical-forest|tropical forests]] standing by paying for forest protection once the results have been checked.",
-     "Canada's leader, Prime Minister Mark Carney, announced the pledge on 15 November in Manila, the Philippines. He was meeting Brazil's President Luiz Inacio Lula da Silva at the ASEAN Summit, a meeting of Southeast Asian leaders. The fund was launched at COP30, a climate conference in Brazil in November 2025.",
-     "Canada's government says the fund is co-led by Brazil and Norway. It says at least 20% of payments would go to [[indigenous-peoples|Indigenous Peoples]] and local communities. The pledge is part of Canada's promise of more than C$13 billion in climate money for [[developing-countries|developing countries]] by 2031."
-    ]
-   },
-   "think": "If you looked after a forest, what would help you keep it healthy?",
-   "quiz": {
-    "q": "Over how many years will Canada give the money?",
-    "a": [
-     "One year",
-     "Four years",
-     "Ten years",
-     "Forty years"
-    ],
-    "c": 1
-   },
-   "src": [
-    [
-     "Prime Minister of Canada, 15 Nov",
-     "https://www.pm.gc.ca/en/news/news-releases/2026/11/15/prime-minister-carney-announces-canadas-landmark-contribution-protect"
-    ],
-    [
-     "Reuters via TimesLIVE, 15 Nov",
-     "https://www.timeslive.co.za/news/world/2026-11-15-canada-pledges-up-to-3925m-for-brazil-led-tropical-forest-fund/"
-    ],
-    [
-     "TRT World, 15 Nov",
-     "https://trtworld.com/article/717a9de0c4ee"
-    ],
-    [
-     "CTV News via CP24, 15 Nov",
-     "https://www.cp24.com/news/canada/2026/11/15/carney-unveils-forest-pledge-after-skipping-two-cop-summits/"
-    ]
-   ]
-  },
-  {
-   "id": "in-debrigarh-tiger",
+   "id": "in-akvan",
    "scope": "IN",
    "cat": "nature",
-   "emoji": "🐅",
-   "date": "2026-11-15",
+   "emoji": "🌀",
+   "date": "2026-11-16",
    "kind": "news",
    "x": {
-    "t": "Stripes show Odisha's new tiger was seen in another state",
+    "t": "Helpers get ready as a storm heads towards India's coast",
     "b": [
-     "A male tiger was seen in a forest in Odisha on 9 November. The forest is called Debrigarh.",
-     "Forest officials in Chhattisgarh shared photos from [[camera-trap|camera traps]]. Every tiger has its own [[stripe-pattern|stripes]], like a fingerprint. The stripes matched. It is the same tiger seen in Chhattisgarh last year."
+     "India's [[imd|weather office]] is watching a storm at sea. It is expected to become a [[cyclone|cyclone]] on Monday evening. Then it will be called Akvan.",
+     "It should reach the coast of [[andhra-pradesh|Andhra Pradesh]] on Friday. That gives four days to get ready.",
+     "Fishermen were told to stay on shore to keep safe. Rescue teams in Odisha are ready to help. Families should follow official updates, because forecasts can change."
     ]
    },
    "o": {
-    "t": "Stripes reveal Odisha's new tiger was earlier seen in Chhattisgarh",
+    "t": "Storm expected to reach Andhra coast on Friday as states get ready",
     "b": [
-     "A male tiger seen in Odisha's Debrigarh [[wildlife-sanctuary|Wildlife Sanctuary]] on 9 November has been identified. Forest officials say it is the same tiger recorded in 2025 in Chhattisgarh's Udanti-Sitanadi Tiger Reserve. A wildlife sanctuary is a protected area where wild animals can live safely.",
-     "Officials matched the tiger's [[stripe-pattern|stripe pattern]] using [[camera-trap|camera-trap]] photos shared by forest officials in Chhattisgarh. A camera trap is a camera in the wild that takes a picture when an animal moves in front of it. This way, experts can tell one tiger from another without catching it.",
-     "Officials think the tiger may first have come from Maharashtra, but they say this is only an early guess."
+     "India's weather office, the [[imd|IMD]], expects a storm over the [[bay-of-bengal|Bay of Bengal]] to reach the [[andhra-pradesh|Andhra Pradesh]] coast between Nellore and Tuni by about noon on Friday 20 November. That gives four days of warning.",
+     "On Monday it was a deep [[depression|depression]], a strong area of low air pressure with wind and rain. It was expected to become a [[cyclone|cyclonic storm]], a stronger spinning storm, that evening, and be named Akvan. It should reach land as a very severe cyclonic storm, with winds of 120 to 130 kilometres an hour and gusts, or sudden bursts, of up to 145.",
+     "Fishermen have been told not to go to sea, to keep safe. Odisha has 24-hour control rooms and rescue teams on standby. Andhra Pradesh's Chief Minister, N Chandrababu Naidu, the head of the state government, told officials to take safety measures early. People are urged to follow official updates."
     ]
    },
-   "think": "Why might it help when forest teams from different states share what they know?",
+   "think": "If your family had four days to get ready for a big storm, what would you do first, and why?",
    "quiz": {
-    "q": "How did officials work out which tiger it was?",
+    "q": "On which day is the storm expected to reach the coast?",
     "a": [
-     "By its roar",
-     "By its stripe pattern",
-     "By its footprints",
-     "By its age"
+     "Monday",
+     "Tuesday",
+     "Friday",
+     "Sunday"
     ],
-    "c": 1
+    "c": 2
    },
    "src": [
     [
-     "UNI, 15 Nov",
-     "https://www.uniindia.com/east-india/wildlife-debrigarh-tiger-odisha/246054"
+     "OMMCOM News, 16 Nov",
+     "https://ommcomnews.com/odisha-news/deep-depression-to-cross-ap-coast-between-nellore-tuni-by-nov-20-noon-imd/"
     ],
     [
-     "Ommcom News, 15 Nov",
-     "https://ommcomnews.com/odisha-news/tiger-spotted-in-odishas-debrigarh-earlier-recorded-in-chhattisgarh/"
+     "The Federal, 16 Nov",
+     "https://thefederal.com/category/news/cyclone-akvan-bay-of-bengal-east-coast-rainfall-weather-forecast-imd-263072"
+    ],
+    [
+     "The Federal, 15 Nov",
+     "https://thefederal.com/category/news/cyclone-akvan-imd-warns-heavy-rainfall-andhra-odisha-bengal-263029"
+    ],
+    [
+     "The Watchers, 16 Nov",
+     "https://watchers.news/2026/11/16/cyclone-akvan-landfall-forecast-nellore-tuni-andhra-pradesh-november-20-india/"
+    ],
+    [
+     "ETV Bharat, 16 Nov",
+     "https://www.etvbharat.com/en/bharat/cyclone-akvan-imd-update-very-severe-storm-to-reach-andhra-pradesh-coast-on-november-19-heavy-rain-in-odisha-andhra-tamil-nadu-puducherry-enn26111601377"
+    ],
+    [
+     "Outlook India, 16 Nov",
+     "https://outlookindia.com/national/cyclone-akvan-explained-bay-of-bengal-storm-tracker-andhra-pradesh-odisha-rainfall-forecast-cyclone-naming-process"
+    ],
+    [
+     "Outlook Traveller, 16 Nov",
+     "https://www.outlooktraveller.com/News/cyclone-akvan-update-andhra-pradesh-odisha-brace-for-possible-severe-storm"
+    ],
+    [
+     "PTI via ThePrint, 16 Nov",
+     "https://theprint.in/india/natures-fury-andhra-likely-to-face-third-cyclone-in-3-weeks-as-depression-gains-momentum/3099887/"
+    ],
+    [
+     "PTI via Telangana Today, 16 Nov",
+     "https://telanganatoday.com/naidu-asks-officials-to-monitor-bay-of-bengal-weather-system"
+    ],
+    [
+     "South Matters, 16 Nov",
+     "https://www.southmatters.com/andhrapradesh/andhra-pradesh-cyclone-alert-chandrababu-review-november-2026/"
+    ],
+    [
+     "india.com, 16 Nov",
+     "https://www.india.com/news/india/cyclone-akvan-deep-depression-bay-of-bengal-andhra-pradesh-west-bengal-tamil-nadu-odisha-andhra-pradesh-imd-weather-update-heavy-rainfall-8545215/"
+    ],
+    [
+     "OdishaBytes, 15 Nov",
+     "https://odishabytes.com/ganjam-on-high-alert-as-cyclone-akvan-threat-looms-no-sunday-holiday-for-govt-employees/"
+    ],
+    [
+     "DT Next, 16 Nov",
+     "https://www.dtnext.in/news/tamilnadu/tamil-nadu-or-andhra-bloggers-imd-divided-over-akvans-trajectory"
+    ],
+    [
+     "Down To Earth, 16 Nov",
+     "https://www.downtoearth.org.in/climate-change/daily-weather-tracker-bay-of-bengal-depression-set-to-become-cyclone-akvan-andhra-pradesh-on-alert"
     ]
    ]
   },
   {
-   "id": "in-odi-series",
+   "id": "g-right-whales",
+   "scope": "global",
+   "cat": "nature",
+   "emoji": "🐋",
+   "date": "2026-11-16",
+   "kind": "news",
+   "x": {
+    "t": "Scientists count about 382 rare right whales",
+    "b": [
+     "North Atlantic right whales are rare. Scientists count them each year to see how they are doing. In 2025, there were about 382.",
+     "That is slightly fewer than the year before. The whales can get tangled in fishing gear. Ships can also hit them.",
+     "There is good news too. In the latest season, 24 baby whales, called [[calf|calves]], were born. That is one of the best seasons on record."
+    ]
+   },
+   "o": {
+    "t": "Rare right whale count falls to about 382, but calves bring hope",
+    "b": [
+     "There were about 382 North Atlantic right whales in 2025, about 2% fewer than the year before, says a yearly estimate released on Monday 16 November. It comes from the North Atlantic Right Whale Consortium, a group of US and Canadian scientists and organisations that study and protect the whales.",
+     "The whales give birth in winter off the south-east US and feed off New England and Canada. They eat [[copepod|copepods]], tiny sea animals. [[whaling|Whaling]], or hunting whales, made them very rare, until hunting them mostly stopped in the 1930s. Today the main dangers are getting tangled in fishing gear and being hit by ships. Warming water has moved their food, so whales go where there are fewer protections.",
+     "The hopeful news: 24 [[calf|calves]] were born in the 2025 to 2026 calving season, one of the best on record. The consortium meets in Nova Scotia this week."
+    ]
+   },
+   "think": "When there are only a few hundred of an animal left, why might every single one matter?",
+   "quiz": {
+    "q": "About how many North Atlantic right whales were there in 2025?",
+    "a": [
+     "About 38",
+     "About 3,820",
+     "About 38,200",
+     "About 382"
+    ],
+    "c": 3
+   },
+   "src": [
+    [
+     "AP via Yahoo News, 16 Nov",
+     "https://ca.news.yahoo.com/rare-north-atlantic-whale-population-101220833.html"
+    ],
+    [
+     "Maine Public, 16 Nov",
+     "https://www.mainepublic.org/environment-and-outdoors/2026-11-16/right-whale-population-dipped-again-in-2025-new-estimate-shows"
+    ],
+    [
+     "The Canadian Press via 650 CKOM, 16 Nov",
+     "https://www.ckom.com/2026/11/16/strong-calving-season-provides-glimmer-of-hope-for-endangered-right-whales/"
+    ],
+    [
+     "Connecticut Public, 16 Nov",
+     "https://www.ctpublic.org/2026-11-16/north-atlantic-right-whale-population-struggles-to-rebound"
+    ],
+    [
+     "NOAA Fisheries, updated 29 Jul",
+     "https://www.fisheries.noaa.gov/species/north-atlantic-right-whale"
+    ],
+    [
+     "New England Aquarium, 1 Dec 2025 (updated 28 Oct)",
+     "https://www.neaq.org/2025-2026-north-atlantic-right-whale-mother-and-calf-pairs/"
+    ],
+    [
+     "North Atlantic Right Whale Consortium, partners page",
+     "https://www.narwc.org/partners.html"
+    ]
+   ]
+  },
+  {
+   "id": "in-icc",
    "scope": "IN",
    "cat": "sports",
    "emoji": "🏏",
-   "date": "2026-11-15",
+   "date": "2026-11-16",
    "kind": "news",
    "x": {
-    "t": "India's bowlers help win the cricket series in New Zealand",
+    "t": "Cricket's big contests in India now have dates",
     "b": [
-     "India beat New Zealand by 22 runs in a [[odi|one-day]] cricket match on Sunday. It was the last match of the series. India won three matches and New Zealand won one.",
-     "India scored only 209 runs. That is not a big score. But India's bowlers kept getting batters out, taking [[wicket|wickets]] again and again.",
-     "In the match before, India scored just 89 runs. This time the team bounced back."
+     "The [[icc|ICC]] runs world cricket. Its leaders met in Bali, Indonesia, to plan ahead.",
+     "They set dates for two big men's contests in India. The Champions Trophy starts on 9 October 2029. India will share the World Cup with Bangladesh. It starts on 9 October 2031. India was picked to host both in 2021.",
+     "Jay Shah, from India, will lead the ICC again. No one stood against him."
     ]
    },
    "o": {
-    "t": "India's bowlers protect a low score to win ODI series 3-1",
+    "t": "Dates set for India's 2029 and 2031 cricket events; Shah stays chair",
     "b": [
-     "India beat New Zealand by 22 runs in the fifth and final [[odi|One Day International (ODI)]] on Sunday, 15 November, at Bay Oval in Mount Maunganui, New Zealand. The win gave India the series 3-1. One match ended with no result. A series is a set of matches between the same two teams.",
-     "In the fourth ODI, India had been all out for 89. A team is all out when ten of its batters are out, losing ten [[wicket|wickets]]. This time India made 209 all out, a low total. Axar Patel and Ishan Kishan top-scored with 46 each.",
-     "Then India's bowlers bowled New Zealand out for 187, so India defended, or protected, their low score. Arshdeep Singh took 3 wickets for 30 runs. It was New Zealand's first home ODI series loss in seven years, and India's first away ODI series win with Gautam Gambhir as head coach."
+     "The [[icc|International Cricket Council (ICC)]], which runs world cricket, held board meetings in Bali, Indonesia. On Sunday 15 November the board set dates for its men's tournaments up to 2035. India will host the Champions Trophy from 9 to 28 October 2029. India and Bangladesh will host the Men's Cricket World Cup, played as [[odi|one-day internationals]], from 9 October to 23 November 2031.",
+     "The hosts were first chosen in 2021; the news is the dates. On Monday 16 November the ICC said Jay Shah of India had been reappointed as its [[chair|chair]], or leader, for a second term. He was unopposed: no one stood against him.",
+     "Cricket returns at the Los Angeles 2028 Olympics. Two qualifying events, which decide who gets a place, are set for early 2028: the men's in Bangladesh and the women's in the USA. Only the winner of each goes to Los Angeles."
     ]
    },
-   "think": "In a team sport, how can one part of the team help when another part has a bad day?",
+   "think": "Why might sports organisers want to fix the dates of big contests years ahead?",
    "quiz": {
-    "q": "By how many runs did India win the final match?",
+    "q": "Which country will host the 2031 Men's Cricket World Cup with India?",
     "a": [
-     "12 runs",
-     "22 runs",
-     "89 runs",
-     "209 runs"
+     "Australia",
+     "Sri Lanka",
+     "Bangladesh",
+     "England"
     ],
-    "c": 1
+    "c": 2
    },
    "src": [
     [
-     "PTI via ThePrint, 15 Nov",
-     "https://theprint.in/sport/india-beat-new-zealand-by-22-runs-win-odi-series-3-1/3099340/"
+     "ICC, 16 Nov",
+     "https://www.icc-cricket.com/media-releases/icc-board-confirms-jay-shah-s-unopposed-reappointment-as-chair-for-second-term"
     ],
     [
-     "AFP via Gulf News, 15 Nov",
-     "https://gulfnews.com/sport/cricket/arshdeep-singh-stars-as-india-beat-new-zealand-to-clinch-odi-series-1.500748082"
+     "ICC, 15 Nov",
+     "https://www.icc-cricket.com/media-releases/icc-unveils-global-events-roadmap-and-qualification-pathways"
     ],
     [
-     "ESPNcricinfo, 15 Nov",
-     "https://www.espn.com/cricket/series/24469/report/1539441/new-zealand-vs-india-5th-odi-24469"
+     "Reuters via Dawn, 16 Nov",
+     "https://www.dawn.com/news/2044904/indias-jay-shah-elected-for-second-term-as-icc-chair"
     ],
     [
-     "Outlook India, 15 Nov",
-     "https://www.outlookindia.com/sports/cricket/india-vs-new-zealand-5th-odi-live-score-squad-ind-vs-nz-scorecard-bay-oval-mount-maunganui-latest-updates"
+     "The Express Tribune, 16 Nov",
+     "https://tribune.com.pk/story/2640574/icc-board-reappoints-jay-shah-for-second-term-as-chairman"
+    ],
+    [
+     "The Hans India, 16 Nov",
+     "https://www.thehansindia.com/sports/cricket/jay-shah-reappointed-as-icc-chairman-for-second-term-elected-unopposed-1142665"
+    ],
+    [
+     "The Business Standard (Bangladesh), 16 Nov",
+     "https://www.tbsnews.net/sports/cricket/jay-shah-reappointed-icc-chairman-second-successive-term-1603986"
+    ],
+    [
+     "SportsAdda, 16 Nov",
+     "https://www.sportsadda.asia/cricket/news/jay-shah-was-the-only-name-in-bali-and-india-now-have-dates-for-the-2029-champions-trophy-and-the-2031-world-cup/"
+    ],
+    [
+     "PTI via The Tribune, 15 Nov",
+     "https://www.tribuneindia.com/news/cricket/india-to-host-2029-champions-trophy-co-host-2031-odi-world-cup-icc-unveils-calendar-till-2035"
+    ],
+    [
+     "IANS, 15 Nov",
+     "https://ianslive.in/icc-approves-la28-olympic-qualification-events-mens-and-womens-qualifiers-to-be-held-in-usa-bangladesh--20261115191032"
+    ],
+    [
+     "CricTracker, 15 Nov",
+     "https://www.crictracker.com/cricket-news/icc-locks-in-dates-for-major-mens-tournaments-from-2028-to-2035-2380/"
+    ],
+    [
+     "The Cricket News via Yahoo Sports, 15 Nov",
+     "https://sports.yahoo.com/articles/icc-mens-calendar-2028-2035-143001186.html"
+    ],
+    [
+     "AAP via cricket.com.au, 17 Nov 2021",
+     "https://www.cricket.com.au/news/3313852/icc-announces-host-nations-of-next-10-mens-tournaments"
+    ],
+    [
+     "Lokmat Times, 16 Nov 2021",
+     "https://www.lokmattimes.com/cricket/news/india-to-host-three-major-mens-icc-events-in-2024-31-window-a475"
+    ],
+    [
+     "Dhaka Tribune, 17 Nov 2021",
+     "https://www.dhakatribune.com/sport/cricket/317826/bangladesh-to-co-host-2031-icc-world-cup-with"
     ]
    ]
   },
   {
-   "id": "g-asean-summit",
+   "id": "g-ai-pledge",
    "scope": "global",
-   "cat": "world",
-   "emoji": "🤝",
-   "date": "2026-11-15",
+   "cat": "tech",
+   "emoji": "🤖",
+   "date": "2026-11-16",
    "kind": "news",
-   "olderOnly": true,
-   "sensitive": "politics",
    "x": {
-    "t": "Southeast Asian leaders meet in the Philippines",
+    "t": "A new promise aims to make AI kinder to the planet",
     "b": [
-     "Leaders from Southeast Asia began a big meeting on Sunday. Their group of 11 countries is called [[asean|ASEAN]].",
-     "The [[summit|summit]] is in [[manila|Manila]], a city in the Philippines. The Philippines leads the group this year. Next year, Singapore takes a turn.",
-     "The leaders will talk about trade, safety and energy. These are problems the countries share."
+     "[[ai|AI]] apps run on big computers that use lots of electricity and water.",
+     "On Monday, a climate meeting called [[cop|COP31]] launched a new promise. It asks people to use AI to fight [[climate-change|climate change]]. It also asks AI computers to use clean power, to harm the planet less.",
+     "Nobody has to sign it. Only a few countries have signed. They will check how they are doing next year."
     ]
    },
    "o": {
-    "t": "Southeast Asian leaders open their 49th summit in Manila",
+    "t": "Climate talks launch a voluntary pledge to make AI greener",
     "b": [
-     "The 49th [[asean|ASEAN]] [[summit|summit]] opened on Sunday, 15 November, in [[manila|Manila]], the capital of the Philippines. ASEAN stands for the Association of Southeast Asian Nations, a group of 11 countries. A summit is a meeting of top leaders. President Ferdinand Marcos Jr. of the Philippines led the opening.",
-     "ASEAN has a rotating chair, which means the job of leading the group passes from one member country to another. The Philippines holds the chair this year, and Singapore will take over in 2027.",
-     "The [[agenda|agenda]], the list of topics for the leaders to discuss, includes trade, security and energy. Leaders from outside the group are coming too. Canada's Prime Minister Mark Carney met Brazil's President Luiz Inacio Lula da Silva in Manila on Sunday. US President Donald Trump is due to arrive on Tuesday."
+     "The Antalya AI Pledge was launched on Monday 16 November at [[cop|COP31]], the United Nations climate summit in Antalya, Türkiye. Türkiye developed it with the [[itu|ITU]], the UN agency for digital technology. Signing is voluntary, or optional.",
+     "[[ai|AI]], or artificial intelligence, runs on computers that use lots of electricity and water. The pledge aims to use AI to fight [[climate-change|climate change]] while shrinking AI's own harm to the planet. It asks for clean power for AI computers and data centres, the buildings that hold them, and for measuring and reporting AI's effect on the environment.",
+     "Signers will first check progress together at next year's COP in Ethiopia. Support so far is limited. A first draft, or first full version, of the summit's main agreement was due early this week, and countries still disagree on new energy targets. Talks are due to end on Friday 20 November."
     ]
    },
-   "think": "If everyone in your class took turns being class leader, what would be good about it, and what would be hard?",
+   "think": "Every app and game runs on real computers that use energy. Should people think about that when they use them? Why or why not?",
    "quiz": {
-    "q": "Which country takes over as ASEAN chair in 2027?",
+    "q": "What do the computers behind AI use a lot of?",
     "a": [
-     "The Philippines",
-     "Singapore",
-     "Canada",
-     "Norway"
+     "Sand and salt",
+     "Electricity and water",
+     "Paper and ink",
+     "Paint and glue"
     ],
     "c": 1
    },
    "src": [
     [
-     "The Manila Times (with AFP), 15 Nov",
-     "https://www.manilatimes.net/2026/11/15/news/global-powers-converge-in-manila-as-asean-summit-kicks-off/2470176"
+     "AFP via Yahoo News, 16 Nov",
+     "https://www.yahoo.com/news/science/articles/un-climate-chief-warns-ai-104437775.html"
     ],
     [
-     "Philippine Daily Inquirer, 15 Nov",
-     "https://www.inquirer.net/495734/live-updates-asean-summit-2026-and-related-meetings-nov-15-2026/"
+     "Climate Home News, 16 Nov",
+     "https://www.climatechangenews.com/2026/11/16/cop31-bulletin-day-7-sharp-divisions-lower-expectations-for-cop-outcome/"
     ],
     [
-     "Prime Minister of Canada, 15 Nov",
-     "https://www.pm.gc.ca/en/news/news-releases/2026/11/15/prime-minister-carney-announces-canadas-landmark-contribution-protect"
+     "ITU, Antalya AI Pledge page, updated 16 Nov",
+     "https://www.itu.int/initiatives/green-digital-action/form-pledges/"
     ],
     [
-     "Reuters via TimesLIVE, 15 Nov",
-     "https://www.timeslive.co.za/news/world/2026-11-15-canada-pledges-up-to-3925m-for-brazil-led-tropical-forest-fund/"
+     "COP31 Presidency, 21 Sep",
+     "https://cop31.tr/news-detail/cop31-presidency-launches-35-by-35-and-antalya-ai-pledges"
     ],
     [
-     "TRT World, 15 Nov",
-     "https://www.trtworld.com/article/88ba8abdf2d0"
+     "Bloomberg via Energy Connects, 28 Oct",
+     "https://www.energyconnects.com/news/utilities/2026/october/ai-is-part-of-solution-for-climate-change-cop31-pledge-says/"
     ],
     [
-     "The Star (Malaysia), 15 Jul 2026",
-     "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/07/15/both-sides-to-ensure-smooth-transition-as-singapore-takes-over-from-philippines-as-asean-chair-pm-wong"
+     "COP31 Presidency and ITU via Mirage News, 16 Nov",
+     "https://www.miragenews.com/cop31s-antalya-ai-pledge-targets-ais-climate-1777840/"
+    ],
+    [
+     "Hurriyet Daily News, 16 Nov",
+     "https://www.hurriyetdailynews.com/cop31-turns-to-ministers-for-deal-on-finance-energy-229443"
+    ],
+    [
+     "AFP via Arab News Pakistan, 16 Nov",
+     "https://www.arabnews.pk/world/cop31-draft-deal-calls-for-accelerated-action-to-exit-fossil-fuels-3007184"
     ]
    ]
   },
   {
-   "id": "g-mars-jupiter",
+   "id": "g-atp-finals",
    "scope": "global",
-   "cat": "space",
-   "emoji": "🪐",
-   "date": "2026-11-15",
-   "kind": "calendar",
-   "when": "Before sunrise on 16 November",
-   "x": {
-    "t": "Look for Mars and Jupiter close together before sunrise",
-    "b": [
-     "Two [[planet|planets]] look close together this week. They are Mars and Jupiter. Look before sunrise on Monday, with a grown-up.",
-     "Jupiter is the brighter one. They are about one [[degree|degree]] apart.",
-     "They only look close. Really, they are very far apart. Look again on 22 November. They will be grouped with a star called Regulus."
-    ]
-   },
-   "o": {
-    "t": "Mars and Jupiter meet in the morning sky this week",
-    "b": [
-     "Before sunrise in mid-November, the [[planet|planets]] Mars and Jupiter appear about one [[degree|degree]] apart, their closest this month. A degree is a way to measure how far apart things look in the sky.",
-     "Both appear near a bright star called Regulus, and Jupiter is the brighter of the two planets. They only look close together: in space they are very far apart. Planets move around the Sun, so their positions among the stars slowly change.",
-     "The morning of Monday 16 November, when they are closest, is a good time to look, with an adult. On the morning of 22 November, Mars, Jupiter and Regulus will be grouped tightly together, so it is worth looking again."
-    ]
-   },
-   "think": "If two things look close together in the sky, how could you find out how far apart they really are?",
-   "quiz": {
-    "q": "Which of the two planets looks brighter?",
-    "a": [
-     "Mars",
-     "Jupiter",
-     "Saturn",
-     "Venus"
-    ],
-    "c": 1
-   },
-   "src": [
-    [
-     "BBC Sky at Night Magazine, 3 Nov (updated 11 Nov)",
-     "https://www.skyatnightmagazine.com/news/mars-jupiter-november-2026"
-    ],
-    [
-     "Star Walk, 13 Nov",
-     "https://starwalk.space/en/news/planetary-alignment-november-2026"
-    ]
-   ]
-  },
-  {
-   "id": "in-khelo-mascot",
-   "scope": "IN",
    "cat": "sports",
-   "emoji": "🏅",
-   "date": "2026-11-15",
+   "emoji": "🎾",
+   "date": "2026-11-16",
    "kind": "news",
    "x": {
-    "t": "Meet Neelamani, the mascot for India's youth sports games",
+    "t": "A tennis player tries again and gets his first win",
     "b": [
-     "The [[khelo-india|Khelo India]] Youth Games will be held in Telangana from 11 to 22 December. About 8,000 people will take part.",
-     "On Sunday, leaders showed the games' [[mascot|mascot]]. It is called Neelamani. It has a crest, a beak and blue and turquoise feathers.",
-     "Neelamani stands for being lively, brave, quick and proud. The games start in less than four weeks."
+     "Only eight of the season's best men's tennis players get into the [[atp-finals|ATP Finals]]. They play in two groups of four. It is in [[turin|Turin]], Italy.",
+     "Ben Shelton from the USA first played here last year. He lost all his group matches. On Sunday he beat Arthur Fils from France. It was his first win here.",
+     "World number one Alexander Zverev also won. The final is on 22 November."
     ]
    },
    "o": {
-    "t": "Khelo India Youth Games reveal mascot Neelamani and new logo",
+    "t": "Shelton earns first ATP Finals win; world No. 1 Zverev also wins",
     "b": [
-     "The logo and [[mascot|mascot]] of the 8th [[khelo-india|Khelo India]] Youth Games were unveiled on Sunday, 15 November, by India's Sports Minister Mansukh Mandaviya and Telangana Chief Minister A. Revanth Reddy. Telangana will host the Games from 11 to 22 December 2026 in Hyderabad, Khammam, Karimnagar, Hanumakonda, Mahabubnagar and Nizamabad. About 8,000 athletes and participants will take part.",
-     "There will be 29 [[discipline|disciplines]], or types of sport: 27 competitive and 2 [[demonstration-sport|demonstration]] events, which are shown to the public but are not part of the main competition. Softball is a competitive sport for the first time, and sailing is one of the two demonstration events.",
-     "The mascot, Neelamani, stands for being vibrant, courageous, agile and proud. It has a crest, a beak and blue and turquoise feathers. The logo shows symbols of Telangana's heritage, such as the Buddha statue at Hussain Sagar and the Tangedu flower, with seven sporting figures."
+     "The [[atp-finals|ATP Finals]] began in Turin, Italy, on Sunday 15 November. World number one Alexander Zverev of Germany beat Spain's Rafael Jodar in two [[set|sets]], 6-4, 6-4. A set is one part of a tennis match.",
+     "Later, Ben Shelton of the USA beat France's Arthur Fils 6-2, 3-6, 6-3. It was his first win at the ATP Finals. When he first played at the event last year, he lost all his group matches.",
+     "Only eight of the season's best singles players qualify. They are split into two groups of four, and in this [[round-robin|round-robin]] format each player plays the other three in the group. The top two in each group reach the semi-finals, the round before the final. The final is on Sunday 22 November. Shelton plays Zverev on Tuesday."
     ]
    },
-   "think": "If you designed a mascot for your town or school, what would it look like, and why?",
+   "think": "Ben Shelton lost every group match last year, then came back and won. What is something you got better at by trying again?",
    "quiz": {
-    "q": "What is the name of the Games' mascot?",
+    "q": "What happened in Ben Shelton's group matches at the ATP Finals last year?",
     "a": [
-     "Neelamani",
-     "Tangedu",
-     "Hussain Sagar",
-     "Khammam"
+     "He won all his group matches",
+     "He lost all his group matches",
+     "He did not play any matches",
+     "He won the title"
     ],
-    "c": 0
+    "c": 1
    },
    "src": [
     [
-     "PIB, 15 Nov",
-     "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2336512&reg=48&lang=2"
+     "ATP Tour, 15 Nov",
+     "https://www.atptour.com/en/news/nitto-atp-finals-2026-results"
     ],
     [
-     "ANI via The Tribune, 15 Nov",
-     "https://www.tribuneindia.com/news/sports/khelo-india-youth-games-2026-sports-minister-mansukh-mandaviya-telangana-cm-revanth-reddy-unveil-logo-and-mascot"
+     "ATP Tour, 15 Nov",
+     "https://www.atptour.com/en/news/shelton-fils-nitto-atp-finals-2026-sunday"
+    ],
+    [
+     "ATP Tour, 9 Nov",
+     "https://www.atptour.com/en/news/nitto-atp-finals-2026-history-draw-schedule"
+    ],
+    [
+     "AP via ABC News, 15 Nov",
+     "https://abcnews.com/Sports/wireStory/zverev-opens-atp-finals-convincing-win-jodar-shelton-138158825"
+    ],
+    [
+     "Field Level Media, 15 Nov",
+     "https://fieldlevelmedia.com/atp-tour/ben-shelton-alexander-zverev-prevail-on-first-day-of-atp-finals/"
+    ],
+    [
+     "IANS via Morung Express, 16 Nov",
+     "https://www.morungexpress.com/shelton-overcomes-fils-challenge-for-first-win-in-atp-finals"
+    ],
+    [
+     "dpa via Yahoo Sports, 15 Nov",
+     "https://sports.yahoo.com/articles/zverev-wins-over-jodar-shelton-231848504.html"
+    ],
+    [
+     "AFP via Malay Mail, 16 Nov",
+     "https://www.malaymail.com/news/sports/2026/11/16/world-number-one-zverev-too-strong-for-debutant-jodar-in-atp-finals/243456"
+    ],
+    [
+     "Tennis Majors, 15 Nov",
+     "https://www.tennismajors.com/atp/nitto-atp-finals-atp/atp-finals-2026-format-round-robin-qualification-tie-break-rules-866947.html"
+    ],
+    [
+     "LTA, 11 Nov",
+     "https://www.lta.org.uk/fan-zone/nitto-atp-finals/news/preview-player-list-format-how-to-watch/"
+    ],
+    [
+     "Tennis Majors, match page, 17 Nov",
+     "https://www.tennismajors.com/matches/atp/nitto-atp-finals/alexander-zverev-vs-ben-shelton-6"
+    ]
+   ]
+  },
+  {
+   "id": "in-wpi",
+   "scope": "IN",
+   "cat": "business",
+   "emoji": "📈",
+   "date": "2026-11-16",
+   "kind": "news",
+   "x": {
+    "t": "Prices that businesses pay for goods go up faster",
+    "b": [
+     "Businesses sell goods to each other in big amounts. The price they pay is called the [[wholesale|wholesale]] price. It is not the price you pay in a shop.",
+     "In October, India's wholesale prices were 12.29% higher than a year before. That rise is bigger than in September.",
+     "Fuel and power prices went up the most. The government said oil, gas, metals and some foods also pushed prices up."
+    ]
+   },
+   "o": {
+    "t": "Wholesale prices rise faster in October, pushed by fuel and power",
+    "b": [
+     "India's [[wpi|Wholesale Price Index]] (WPI) rose 12.29% in October compared with a year earlier, up from 11.39% in September, figures from the Ministry of Commerce and Industry showed on Monday 16 November. The WPI tracks the average change in prices of goods sold in bulk, or large amounts, between businesses. These are called [[wholesale|wholesale]] prices.",
+     "The biggest rise was in fuel and power, at 32.84%, up from 25.85% in September. The ministry said higher prices for oil, gas, electricity, basic metals, chemicals and food products pushed [[inflation|inflation]], the rise in prices over time, up.",
+     "Wholesale prices are different from retail prices, the prices shoppers pay in shops. Retail inflation was 6.09% in October, above the 6% upper limit set for the [[rbi|Reserve Bank of India]]. The WPI is published by the ministry's Office of the Economic Adviser."
+    ]
+   },
+   "think": "Think of something your family buys often. What steps do you think it goes through before it reaches the shop?",
+   "quiz": {
+    "q": "How much higher were India's wholesale prices in October than a year before?",
+    "a": [
+     "6.09%",
+     "9.54%",
+     "11.39%",
+     "12.29%"
+    ],
+    "c": 3
+   },
+   "src": [
+    [
+     "The Tribune, 16 Nov",
+     "https://www.tribuneindia.com/news/business/wholesale-inflation-rises-to-12-29-in-october-on-higher-fuel-power-prices/"
+    ],
+    [
+     "Xinhua, 16 Nov",
+     "https://english.news.cn/20261116/4570bdc54fd8469bad1407f403ae951a/c.html"
+    ],
+    [
+     "Business Standard, 16 Nov",
+     "https://www.business-standard.com/amp/economy/news/wholesale-inflation-october-2026-series-high-fuel-power-prices-126111601037_1.html"
+    ],
+    [
+     "PTI via The Federal, 16 Nov",
+     "https://thefederal.com/category/business/wpi-inflation-rises-to-1229-per-cent-in-october-on-higher-fuel-food-prices-263088"
+    ],
+    [
+     "Press Information Bureau, 15 Jun",
+     "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2272872&reg=48&lang=1"
+    ],
+    [
+     "Office of the Economic Adviser, WPI manual",
+     "https://eaindustry.nic.in/uploaded_files/wpi/WPI_PPI_Manual.pdf"
+    ],
+    [
+     "Business Standard, What is WPI based inflation, 30 Oct",
+     "https://www.business-standard.com/about/what-is-wpi-based-inflation"
+    ],
+    [
+     "Reserve Bank of India, Monetary policy overview, updated 16 Nov",
+     "https://www.rbi.org.in/scripts/fs_overview.aspx?fn=2752"
+    ]
+   ]
+  },
+  {
+   "id": "g-haze",
+   "scope": "global",
+   "cat": "planet",
+   "emoji": "🌫️",
+   "date": "2026-11-15",
+   "kind": "news",
+   "x": {
+    "t": "Indonesia says sorry to its neighbours for wildfire smoke",
+    "b": [
+     "Smoke can drift from one country to another. Wildfires in Indonesia burned for months. The smoke reached Singapore and Malaysia.",
+     "On Sunday, Indonesia's leader said sorry to them for the smoke. He spoke at a meeting of [[asean|Southeast Asian]] leaders.",
+     "Indonesia sent 71,000 firefighters to fight the fires. It also plans a new team to stop fires before they start."
+    ]
+   },
+   "o": {
+    "t": "Indonesia says sorry for wildfire haze and turns to prevention",
+    "b": [
+     "Smoke does not stop at borders. Indonesia's President Prabowo Subianto apologised to Singapore and Malaysia for [[haze|haze]], smoky air, from months of wildfires in Indonesia. He spoke on Sunday 15 November at the 49th [[asean|ASEAN]] Summit in Manila, a meeting of the Association of Southeast Asian Nations. The fires burned mainly on Sumatra, Borneo and Papua.",
+     "Prabowo said Indonesia had deployed 71,000 firefighters. The government has also revoked, or cancelled, 17 land permits held by companies, and 26 more companies are being investigated. Indonesia says it will keep taking firm action against companies linked to the fires.",
+     "Indonesia is also preparing a new agency to strengthen wildfire prevention, which means stopping fires before they start."
+    ]
+   },
+   "think": "If something from your home bothered your neighbours by accident, what would you do to make it right?",
+   "quiz": {
+    "q": "How many firefighters did Indonesia send to fight the fires?",
+    "a": [
+     "7,100",
+     "710",
+     "71,000",
+     "710,000"
+    ],
+    "c": 2
+   },
+   "src": [
+    [
+     "Kompas, 15 Nov",
+     "https://go.kompas.com/read/2026/11/15/211938074/at-asean-summit-prabowo-apologizes-for-indonesias-forest-fires-affecting"
+    ],
+    [
+     "AFP via Malay Mail, 16 Nov",
+     "https://www.malaymail.com/news/world/2026/11/16/indonesias-prabowo-tells-asean-summit-haze-not-our-fault-but-apologises-to-malaysia-singapore/243447"
+    ],
+    [
+     "Al Jazeera, 16 Nov",
+     "https://www.aljazeera.com/news/2026/11/16/indonesian-president-apologises-to-singapore-malaysia-for-wildfire-haze"
+    ],
+    [
+     "GMA News, 16 Nov",
+     "https://www.gmanetwork.com/news/topstories/nation/1009636/live-updates-49th-asean-summit-and-related-summits-nov-16-2026/story/"
+    ]
+   ]
+  },
+  {
+   "id": "in-press-day",
+   "scope": "IN",
+   "cat": "civics",
+   "emoji": "📰",
+   "date": "2026-11-16",
+   "kind": "calendar",
+   "when": "Every year on 16 November",
+   "x": {
+    "t": "A special day for news, and the group that keeps it fair",
+    "b": [
+     "Every year on 16 November, India marks National Press Day. The press means newspapers and reporters. On this day in 1966, the [[press-council|Press Council of India]] began work. That was 60 years ago.",
+     "The Press Council is like a referee for news. It looks into complaints to keep reporting fair.",
+     "It also stands up for [[press-freedom|reporters' freedom]] to share the news."
+    ]
+   },
+   "o": {
+    "t": "National Press Day: 60 years of the Press Council of India",
+    "b": [
+     "India marks National Press Day every year on 16 November. It is the date the [[press-council|Press Council of India]] (PCI) began functioning, or started work, in 1966. This year marks 60 years since then.",
+     "The PCI is an independent body. Its job is to make sure the press, meaning newspapers and journalists, keeps high standards and reports honestly and fairly. It examines complaints that journalists have broken the rules of good reporting. It also works to protect [[press-freedom|press freedom]], the freedom of journalists to report without outside interference.",
+     "This year's theme is \"Journalism: Populist or Responsible\". It asks whether news should chase what is popular or be responsible."
+    ]
+   },
+   "think": "If a friend tells you a surprising piece of news, how could you check whether it is true?",
+   "quiz": {
+    "q": "In which year did the Press Council of India begin its work?",
+    "a": [
+     "1947",
+     "1966",
+     "1990",
+     "2026"
+    ],
+    "c": 1
+   },
+   "src": [
+    [
+     "News On AIR, 16 Nov",
+     "https://newsonair.gov.in/today-is-national-press-day/"
+    ],
+    [
+     "India Today NE, 16 Nov",
+     "https://www.indiatodayne.in/national/story/national-press-day-2026-a-reminder-of-the-presss-role-in-upholding-democracy-and-public-accountability-1475834-2026-11-16"
+    ],
+    [
+     "Sentinel Assam, 16 Nov",
+     "https://www.sentinelassam.com/north-east-india-news/assam-news/national-press-day-2026-india-marks-60-years-of-the-press-council-of-india"
+    ],
+    [
+     "Pragativadi, 16 Nov",
+     "https://pragativadi.com/honouring-the-fourth-pillar-national-press-day-2026-spotlights-ethical-reporting/"
+    ],
+    [
+     "Press Information Bureau, 16 Nov",
+     "https://www.pib.gov.in/aboutfactchecke.aspx?reg=1"
     ]
    ]
   }
  ],
+ "deep": {
+  "in-akvan": {
+   "ctx": "The IMD added the Nellore to Tuni stretch and the Friday time for landfall, when a storm's centre crosses the coast, in its 08:30 IST bulletin on 16 November; earlier bulletins gave no landfall point. Storm names come from a list kept by the WMO/ESCAP Panel on Tropical Cyclones, with 13 countries contributing names that are used in a fixed order, and Akvan was contributed by Iran. This would be Andhra Pradesh's third cyclone in less than a month, after Arnab and Murasu. Earlier reports on 16 November, based on the 05:30 IST update, said it could become an extremely severe cyclonic storm; the later 08:30 IST bulletin said very severe.",
+   "ask": "Fishermen were told to stay ashore days before the storm is due, even though forecasts can change: is it better to warn people early, or to wait until a forecast is more certain?",
+   "jobs": [
+    "Meteorologist (a scientist who studies and forecasts the weather)",
+    "Disaster response team member",
+    "Emergency control room operator"
+   ]
+  },
+  "g-right-whales": {
+   "ctx": "AP reports that the population fell by about a quarter between 2010 and 2020. Only about 73 of the whales are breeding females, and three of the mothers in the latest calving season were having a calf for the first time. Scientists from the New England Aquarium help work out the estimate each year.",
+   "ask": "Fishing crews and ships work in the same waters where right whales live: how should people balance fishing jobs with protecting a whale this rare?",
+   "jobs": [
+    "Marine biologist",
+    "Fisheries scientist",
+    "Fishing gear designer"
+   ]
+  },
+  "in-icc": {
+   "ctx": "The ICC also set dates for other men's events, including the 2028 men's T20 World Cup in Australia and New Zealand, from 12 October to 12 November 2028. Each Olympic qualifier will have eight teams in two groups of four, and the two group winners will play a final for the one place at Los Angeles 2028. Shah has been ICC chair since 2024 and was formerly secretary of India's cricket board, the BCCI.",
+   "ask": "Is it better to choose the hosts of big sports events about ten years ahead, or closer to the time, when plans are more certain?",
+   "jobs": [
+    "Sports event manager",
+    "Cricket pitch curator (the person who prepares the playing surface)",
+    "Sports journalist"
+   ]
+  },
+  "g-ai-pledge": {
+   "ctx": "The COP31 presidency's website says the pledge was first announced in New York in September. The ITU says it was formally launched on Monday at a COP31 meeting on AI. The ITU says signers choose at least one of four kinds of commitment, which also include designing and buying AI responsibly, and money and technical help so developing countries can use AI for climate action.",
+   "ask": "Supporters say a voluntary pledge starts shared action, while critics say promises without firm checks may be too vague: is a voluntary promise a good first step, or should limits on AI's harm to the planet be required?",
+   "jobs": [
+    "Data centre engineer",
+    "Climate scientist",
+    "Renewable energy engineer"
+   ]
+  },
+  "g-atp-finals": {
+   "ctx": "Both of Sunday's matches were in the John McEnroe Group; the other group starts on Monday, with Carlos Alcaraz against Frances Tiafoe and Daniil Medvedev against Flavio Cobolli. Zverev won this title in 2018 and 2021. Jannik Sinner, who won the last two editions, is not playing because of a knee injury.",
+   "ask": "Is a round-robin, where one loss does not knock a player out, fairer than a knockout, where every match could be the last?",
+   "jobs": [
+    "Tennis coach",
+    "Tennis umpire",
+    "Sports physiotherapist"
+   ]
+  },
+  "in-wpi": {
+   "ctx": "The government says the current WPI series, released on 15 June 2026, uses 2022-23 as its base year in place of 2011-12. It says manufactured products make up about 63% of the index, primary articles about 23% and fuel and power about 14%. Business Standard reports that Madan Sabnavis, chief economist at Bank of Baroda, said companies have passed on only a limited part of the input cost increase to consumers.",
+   "ask": "When the cost of fuel and electricity rises, should businesses pass the extra cost on to shoppers straight away, or absorb some of it for a while?",
+   "jobs": [
+    "Economist",
+    "Statistician",
+    "Supply chain manager"
+   ]
+  },
+  "g-haze": {
+   "ctx": "Kompas reports that the fires burned for nearly four months. Kompas and Al Jazeera report that, as well as revoking permits, Indonesian authorities have charged 11 companies.",
+   "ask": "When smoke from one country's fires reaches its neighbours, should that country carry the main responsibility, or should the whole region share the work of stopping it?",
+   "jobs": [
+    "Firefighter",
+    "Forest ranger",
+    "Air quality scientist"
+   ]
+  },
+  "in-press-day": {
+   "ctx": "The Press Council of India examines complaints about breaches of journalistic norms and works to safeguard press freedom. According to the Press Information Bureau, its Fact Check Unit was set up in November 2019 to check claims about the Government of India, labels them Fake, Misleading or True, and lets anyone send in a doubtful item.",
+   "ask": "Should news give people what they most want to read, or what they most need to know?",
+   "jobs": [
+    "Journalist",
+    "Fact-checker",
+    "Newspaper editor"
+   ]
+  }
+ },
+ "keys": {
+  "in-akvan": {
+   "type": "number",
+   "v": "4 days",
+   "l": "of warning between Monday's forecast and the storm's expected arrival on Friday 20 November"
+  },
+  "g-right-whales": {
+   "type": "number",
+   "v": "382",
+   "l": "North Atlantic right whales in 2025, the latest yearly estimate"
+  },
+  "in-icc": {
+   "type": "number",
+   "v": "2029",
+   "l": "year India hosts the Champions Trophy, from 9 to 28 October"
+  },
+  "g-atp-finals": {
+   "type": "number",
+   "v": "8",
+   "l": "singles players who qualify for the ATP Finals"
+  },
+  "in-wpi": {
+   "type": "number",
+   "v": "12.29%",
+   "l": "India's wholesale inflation in October 2026, up from 11.39% in September"
+  },
+  "g-haze": {
+   "type": "number",
+   "v": "71,000",
+   "l": "firefighters Indonesia deployed against the wildfires"
+  },
+  "in-press-day": {
+   "type": "number",
+   "v": "60",
+   "l": "years since the Press Council of India began its work on 16 November 1966"
+  }
+ },
+ "xkeys": {
+  "in-akvan": {
+   "type": "check",
+   "q": "Why were fishermen told to stay on shore?",
+   "a": [
+    "To go shopping",
+    "To keep safe"
+   ],
+   "c": 1,
+   "right": "Right! Fishermen were told to stay on shore to keep safe.",
+   "wrong": "Not quite. Fishermen were told to stay on shore to keep safe."
+  },
+  "g-right-whales": {
+   "type": "check",
+   "q": "Were many baby right whales born in the latest season?",
+   "a": [
+    "Yes, 24 were born",
+    "No, none were born"
+   ],
+   "c": 0,
+   "right": "Right! 24 calves were born, one of the best seasons on record.",
+   "wrong": "Not quite. 24 calves were born, one of the best seasons on record."
+  },
+  "in-icc": {
+   "type": "check",
+   "q": "Will Jay Shah lead the ICC again?",
+   "a": [
+    "No, someone new will lead it",
+    "Yes, he will lead it again"
+   ],
+   "c": 1,
+   "right": "Right! Jay Shah will lead the ICC again. No one stood against him.",
+   "wrong": "Not quite. Jay Shah will lead the ICC again."
+  },
+  "g-ai-pledge": {
+   "type": "check",
+   "q": "Does everyone have to sign the new promise?",
+   "a": [
+    "Yes, everyone must sign",
+    "No, nobody has to sign"
+   ],
+   "c": 1,
+   "right": "Right! Nobody has to sign the promise. It is a choice.",
+   "wrong": "Not quite. Nobody has to sign the promise. It is a choice."
+  },
+  "g-atp-finals": {
+   "type": "check",
+   "q": "Who did Ben Shelton beat on Sunday?",
+   "a": [
+    "Alexander Zverev",
+    "Arthur Fils"
+   ],
+   "c": 1,
+   "right": "Right! Ben Shelton beat Arthur Fils from France.",
+   "wrong": "Not quite. Ben Shelton beat Arthur Fils from France."
+  },
+  "in-wpi": {
+   "type": "check",
+   "q": "Is the wholesale price the same as the price you pay in a shop?",
+   "a": [
+    "Yes, it is the same",
+    "No, it is different"
+   ],
+   "c": 1,
+   "right": "Right! The wholesale price is not the price you pay in a shop.",
+   "wrong": "Not quite. The wholesale price is not the price you pay in a shop."
+  },
+  "g-haze": {
+   "type": "check",
+   "q": "Which neighbours did Indonesia say sorry to?",
+   "a": [
+    "Singapore and Malaysia",
+    "India and China"
+   ],
+   "c": 0,
+   "right": "Right! The smoke reached Singapore and Malaysia, so Indonesia said sorry to them.",
+   "wrong": "Not quite. Indonesia said sorry to Singapore and Malaysia."
+  },
+  "in-press-day": {
+   "type": "check",
+   "q": "What is the Press Council like?",
+   "a": [
+    "A referee for news",
+    "A school for singers"
+   ],
+   "c": 0,
+   "right": "Right! The Press Council is like a referee for news.",
+   "wrong": "Not quite. The Press Council is like a referee for news."
+  }
+ },
  "glossary": {
-  "badminton": [
-   "badminton",
-   "words",
-   "A game where players hit a feathered shuttle over a high net with rackets.",
-   "A racket sport in which players hit a shuttlecock back and forth over a high net. A point is won when the shuttlecock lands on the other side's court."
-  ],
-  "super-500": [
-   "Super 500",
-   "words",
-   "A kind of big badminton tournament.",
-   "The name for one level of tournament on badminton's world tour."
-  ],
-  "bwf": [
-   "BWF",
+  "imd": [
+   "IMD",
    "civics",
-   "The group that runs badminton around the world.",
-   "The Badminton World Federation, the organisation that governs badminton around the world and runs its top international tournaments."
+   "India's weather office. It watches the weather and warns people about storms.",
+   "The India Meteorological Department, India's weather office. It forecasts the weather, tracks storms and names cyclones over the north Indian Ocean."
   ],
-  "ranking-points": [
-   "ranking points",
-   "words",
-   "Points players win by doing well in tournaments.",
-   "Points that players earn based on how far they go in tournaments. They are added up to rank players and decide who qualifies for some events."
-  ],
-  "tropical-forest": [
-   "tropical forest",
+  "cyclone": [
+   "cyclone",
    "science",
-   "A forest in a hot, wet part of the world, near the equator, the line around Earth's middle.",
-   "A forest in the tropics, the warm region around the equator. Tropical forests are home to a huge variety of plants and animals."
+   "A big spinning storm. It forms over the sea and brings strong wind and rain.",
+   "A large storm that forms over the sea, with strong winds turning around a centre. India's weather office calls a system a cyclonic storm when its winds reach 62 kilometres an hour."
   ],
-  "fund": [
-   "fund",
-   "words",
-   "Money that is kept together for one special job.",
-   "A sum of money collected and set aside for a particular purpose, often with contributions from several givers."
+  "andhra-pradesh": [
+   "Andhra Pradesh",
+   "places",
+   "A state in India. It has a coast on the Bay of Bengal.",
+   "A state in India with a coast on the Bay of Bengal."
   ],
-  "indigenous-peoples": [
-   "Indigenous Peoples",
-   "people",
-   "The first people to live in a place, and their families today.",
-   "Groups whose ancestors lived in a place before others arrived, and who often keep their own languages and ways of life."
+  "bay-of-bengal": [
+   "Bay of Bengal",
+   "places",
+   "A big part of the sea to the east of India.",
+   "A large part of the north Indian Ocean, to the east of India. Andhra Pradesh and Odisha have coasts on it."
   ],
-  "developing-countries": [
-   "developing countries",
+  "depression": [
+   "depression",
+   "science",
+   "In weather, a patch of low air pressure with wind and rain. It is weaker than a cyclone.",
+   "In weather, an area of low air pressure that brings wind and rain. Over the sea, a depression can strengthen into a cyclonic storm."
+  ],
+  "press-council": [
+   "Press Council of India",
    "civics",
-   "Countries that are still building things like roads, schools and hospitals.",
-   "Countries where people on average earn less money, and where industries and services such as roads, schools and hospitals are still growing."
+   "A group that helps keep news in India honest and fair. It is like a referee for news.",
+   "An independent body that works to keep India's press to high standards of journalism, examines complaints about breaking the rules of good reporting, and protects press freedom. It began functioning on 16 November 1966."
   ],
-  "camera-trap": [
-   "camera trap",
+  "press-freedom": [
+   "press freedom",
+   "civics",
+   "The freedom of reporters to tell people the news.",
+   "The freedom of newspapers and journalists to report the news without outside interference."
+  ],
+  "wholesale": [
+   "wholesale",
+   "words",
+   "Selling goods in big amounts to businesses, not to shoppers.",
+   "The sale of goods in bulk, or large amounts, between businesses, before the goods reach shoppers."
+  ],
+  "wpi": [
+   "Wholesale Price Index",
+   "civics",
+   "A number that shows how fast the prices of goods sold in big amounts are changing.",
+   "India's monthly measure of the average change in prices of goods sold in bulk between businesses. It is published by the Office of the Economic Adviser in the Ministry of Commerce and Industry."
+  ],
+  "inflation": [
+   "inflation",
+   "words",
+   "When prices in the shops keep going up.",
+   "A rise in prices over time. It is usually given as a percentage: how much more things cost than a year ago."
+  ],
+  "rbi": [
+   "Reserve Bank of India",
+   "civics",
+   "India's central bank. It looks after the country's money.",
+   "India's central bank. Its target is to keep inflation at 4 per cent, within a band of 2 to 6 per cent, and it sets a main interest rate."
+  ],
+  "ai": [
+   "AI",
    "tech",
-   "A camera left in a forest. It takes a photo when an animal walks past.",
-   "A camera fixed in a wild place that takes a photo or video automatically when an animal moves in front of it. Scientists use camera traps to study animals without disturbing them."
-  ],
-  "stripe-pattern": [
-   "stripe pattern",
-   "science",
-   "Every tiger has its own stripes, a bit like a fingerprint.",
-   "The arrangement of a tiger's stripes. No two tigers have the same pattern, a bit like human fingerprints, so experts can use photos to tell tigers apart."
-  ],
-  "wildlife-sanctuary": [
-   "wildlife sanctuary",
-   "places",
-   "A protected place where wild animals can live safely.",
-   "A protected area set aside for wild animals and plants, where activities that could harm them are limited."
-  ],
-  "odi": [
-   "ODI",
-   "words",
-   "A cricket match between countries that is played in one day.",
-   "One Day International: a cricket match between countries in which each team bats for up to 50 overs."
-  ],
-  "wicket": [
-   "wicket",
-   "words",
-   "In cricket, the bowling team takes a wicket each time it gets a batter out.",
-   "In cricket, a team loses a wicket each time one of its batters is out; the bowling side is said to take that wicket. A team is all out when ten batters are out."
-  ],
-  "asean": [
-   "ASEAN",
-   "civics",
-   "A group of countries in Southeast Asia that work together.",
-   "Short for the Association of Southeast Asian Nations, a group of countries in Southeast Asia that cooperate on trade, safety and other shared issues."
-  ],
-  "summit": [
-   "summit",
-   "words",
-   "A meeting of the top leaders of countries.",
-   "A meeting of top leaders, such as presidents and prime ministers, to talk about important issues. The word also means the top of a mountain."
-  ],
-  "manila": [
-   "Manila",
-   "places",
-   "The capital city of the Philippines.",
-   "The capital city of the Philippines, on the island of Luzon."
-  ],
-  "agenda": [
-   "agenda",
-   "words",
-   "A list of things to talk about at a meeting.",
-   "A list of the topics to be discussed or decided at a meeting, usually agreed before it starts."
-  ],
-  "planet": [
-   "planet",
-   "science",
-   "A big round world that travels around the Sun, like Earth or Mars.",
-   "A large, round object that travels in a path around a star. Earth, Mars and Jupiter are planets that travel around the Sun."
-  ],
-  "degree": [
-   "degree",
-   "science",
-   "A way to measure how far apart things look in the sky.",
-   "A unit for measuring angles. In the sky it shows how far apart two objects appear."
-  ],
-  "khelo-india": [
-   "Khelo India",
-   "civics",
-   "A plan in India to get more young people playing sport. The name means \"Play India\".",
-   "A national programme in India that encourages sport. Its name means \"Play India\" in Hindi, and its Youth Games are a multi-sport event for young athletes."
-  ],
-  "mascot": [
-   "mascot",
-   "words",
-   "A fun character that stands for a team or an event.",
-   "A character, often an animal or bird, chosen to represent a team or event and bring it good luck and fun."
-  ],
-  "discipline": [
-   "discipline",
-   "words",
-   "One kind of sport at a big sports event.",
-   "In sport, one type of sport or event within a larger competition, such as swimming or athletics."
-  ],
-  "demonstration-sport": [
-   "demonstration sport",
-   "words",
-   "A sport shown at an event so people can see it.",
-   "A sport played at a big event mainly to show it to the public, rather than as one of the main competition sports."
+   "Artificial intelligence: computer programs that can learn and make choices.",
+   "Artificial intelligence: computer systems that learn patterns from data to recognise images, understand language or make predictions."
   ],
   "cop": [
    "COP",
@@ -505,224 +868,130 @@
    "A big meeting where countries talk about climate change.",
    "Short for Conference of the Parties: the United Nations climate summit, where countries meet to agree on action on climate change."
   ],
-  "un": [
-   "United Nations",
-   "civics",
-   "A club of almost every country in the world that works for peace and helps people.",
-   "An international organisation, founded in 1945, where countries work together for peace and to help people. It has 193 member countries. The Security Council is one of its main bodies."
-  ],
   "climate-change": [
    "climate change",
    "science",
    "Earth is slowly getting warmer, and the weather is changing with it.",
    "The long-term warming of the Earth and the changes in weather that come with it. Burning fossil fuels is the main cause."
   ],
-  "satellite": [
-   "satellite",
-   "tech",
-   "A machine sent into space that travels round and round Earth.",
-   "A machine sent into orbit around Earth or another body. Satellites are used for jobs such as communication, taking pictures and studying weather."
-  ],
-  "paris-agreement": [
-   "Paris Agreement",
+  "itu": [
+   "ITU",
    "civics",
-   "A promise made by countries in 2015 to slow down global warming.",
-   "A 2015 agreement in which countries agreed to keep warming well below 2°C and to try for 1.5°C, with each country setting its own targets."
+   "A part of the United Nations that works on phones, the internet and other digital technology.",
+   "The International Telecommunication Union, the United Nations agency for digital technology. It worked with Türkiye on the Antalya AI Pledge."
+  ],
+  "asean": [
+   "ASEAN",
+   "civics",
+   "A group of countries in Southeast Asia that work together.",
+   "Short for the Association of Southeast Asian Nations, a group of countries in Southeast Asia that cooperate on trade, safety and other shared issues."
+  ],
+  "haze": [
+   "haze",
+   "science",
+   "Smoke or dust in the air that makes it look cloudy and hard to see far.",
+   "Smoke, dust or other tiny particles in the air that make it look cloudy. Smoke haze from big wildfires can drift across borders to other countries."
+  ],
+  "copepod": [
+   "copepod",
+   "science",
+   "A tiny sea animal. Right whales eat lots of them.",
+   "A tiny crustacean, a small animal with a hard outer shell, that lives in the sea. Copepods are the main food of North Atlantic right whales."
+  ],
+  "calf": [
+   "calf",
+   "science",
+   "A baby whale.",
+   "A young whale. Right whale mothers give birth to their calves in winter."
+  ],
+  "whaling": [
+   "whaling",
+   "words",
+   "Hunting whales.",
+   "The hunting of whales. Whaling made North Atlantic right whales very rare, until hunting them mostly stopped in the 1930s."
+  ],
+  "icc": [
+   "ICC",
+   "civics",
+   "The group that runs world cricket and plans its big contests.",
+   "The International Cricket Council, the body that runs world cricket. Its board chooses the hosts and dates of world tournaments."
+  ],
+  "odi": [
+   "ODI",
+   "words",
+   "A cricket match between countries that is played in one day.",
+   "One Day International: a cricket match between countries in which each team bats for up to 50 overs."
+  ],
+  "chair": [
+   "chair",
+   "words",
+   "The person who leads a group and its meetings.",
+   "The person who leads an organisation's board and runs its meetings."
+  ],
+  "atp-finals": [
+   "ATP Finals",
+   "words",
+   "A tennis contest at the end of the year for eight of the best men's players.",
+   "The tournament that ends the men's tennis season. Eight of the season's best singles players qualify and play in two groups of four."
+  ],
+  "turin": [
+   "Turin",
+   "places",
+   "A city in Italy.",
+   "A city in Italy where the ATP Finals are being played."
+  ],
+  "set": [
+   "set",
+   "words",
+   "One part of a tennis match.",
+   "One part of a tennis match, made up of games. Players have to win sets to win the match."
+  ],
+  "round-robin": [
+   "round-robin",
+   "words",
+   "A contest where everyone in a group plays everyone else.",
+   "A format in which every player or team in a group plays all the others, with no instant knockout."
+  ],
+  "light-day": [
+   "light-day",
+   "science",
+   "How far light travels in one whole day. It is a very long way.",
+   "A unit of distance: how far light travels in 24 hours, about 25.9 billion kilometres."
+  ],
+  "deep-space-network": [
+   "Deep Space Network",
+   "tech",
+   "The system NASA uses to talk to faraway spacecraft.",
+   "NASA's system for communicating with distant spacecraft such as Voyager 1. It is managed by the Jet Propulsion Laboratory."
+  ],
+  "orbit": [
+   "orbit",
+   "science",
+   "The path something follows as it goes round and round a planet, moon or star.",
+   "The curved path an object follows around a planet, moon or star, held there by gravity."
+  ],
+  "interstellar": [
+   "interstellar space",
+   "science",
+   "The space between the stars.",
+   "Space beyond the heliopause, the place where the Sun's constant flow of material and its magnetic field stop affecting their surroundings."
+  ],
+  "jpl": [
+   "Jet Propulsion Laboratory",
+   "places",
+   "A NASA centre in California. The Voyager 1 mission is run from there.",
+   "A NASA laboratory in Pasadena, California. The Voyager mission is run from there."
   ]
- },
- "keys": {
-  "in-lakshya-kumamoto": {
-   "type": "number",
-   "v": "13-21, 21-18, 21-14",
-   "l": "the game scores in the final: Lakshya Sen lost the first game, then won the next two"
-  },
-  "g-forest-fund": {
-   "type": "number",
-   "v": "C$560 million",
-   "l": "the most Canada will give the tropical forest fund over four years"
-  },
-  "in-odi-series": {
-   "type": "number",
-   "v": "22",
-   "l": "runs: how much India won by, even though they scored only 209"
-  },
-  "g-asean-summit": {
-   "type": "number",
-   "v": "11",
-   "l": "member countries in ASEAN"
-  },
-  "g-mars-jupiter": {
-   "type": "number",
-   "v": "1 degree",
-   "l": "about how far apart Mars and Jupiter look before sunrise this week"
-  },
-  "in-khelo-mascot": {
-   "type": "number",
-   "v": "29",
-   "l": "disciplines at the Games: 27 competitive and 2 demonstration"
-  },
-  "in-debrigarh-tiger": {
-   "type": "number",
-   "v": "9 November",
-   "l": "the day the tiger was seen in Debrigarh Wildlife Sanctuary"
-  }
- },
- "xkeys": {
-  "in-lakshya-kumamoto": {
-   "type": "check",
-   "q": "Did Lakshya win or lose the first game?",
-   "a": [
-    "He won it",
-    "He lost it"
-   ],
-   "c": 1,
-   "right": "Right! He lost the first game, then won the next two.",
-   "wrong": "Not quite. He lost the first game, then won the next two."
-  },
-  "g-forest-fund": {
-   "type": "check",
-   "q": "What is Canada's money for?",
-   "a": [
-    "Protecting forests",
-    "Building roads"
-   ],
-   "c": 0,
-   "right": "Right! The money will help protect tropical forests.",
-   "wrong": "Not quite. The money will help protect tropical forests."
-  },
-  "in-debrigarh-tiger": {
-   "type": "check",
-   "q": "How did officials know which tiger it was?",
-   "a": [
-    "Its stripe pattern",
-    "Its loud roar"
-   ],
-   "c": 0,
-   "right": "Right! Officials matched its stripe pattern in photos.",
-   "wrong": "Not quite. Officials matched its stripe pattern in photos."
-  },
-  "in-odi-series": {
-   "type": "check",
-   "q": "How many runs did India win by?",
-   "a": [
-    "22 runs",
-    "89 runs"
-   ],
-   "c": 0,
-   "right": "Right! India won by 22 runs.",
-   "wrong": "Not quite. India won by 22 runs. The 89 was their score in the match before."
-  },
-  "g-asean-summit": {
-   "type": "check",
-   "q": "Which country leads the group this year?",
-   "a": [
-    "Singapore",
-    "The Philippines"
-   ],
-   "c": 1,
-   "right": "Right! The Philippines leads this year. Singapore is next.",
-   "wrong": "Not quite. The Philippines leads this year. Singapore takes a turn next year."
-  },
-  "g-mars-jupiter": {
-   "type": "check",
-   "q": "Which planet looks brighter?",
-   "a": [
-    "Mars",
-    "Jupiter"
-   ],
-   "c": 1,
-   "right": "Right! Jupiter is the brighter one.",
-   "wrong": "Not quite. Jupiter is the brighter of the two."
-  },
-  "in-khelo-mascot": {
-   "type": "check",
-   "q": "Which state will host the games?",
-   "a": [
-    "Telangana",
-    "Kerala"
-   ],
-   "c": 0,
-   "right": "Right! Telangana will host the games in December.",
-   "wrong": "Not quite. Telangana will host the games in December."
-  }
- },
- "deep": {
-  "in-lakshya-kumamoto": {
-   "ctx": "Lakshya Sen's win at the Kumamoto Masters Japan, a BWF Super 500 event, came straight after his title at the Hylo Open in Germany earlier this month. The 9,200 ranking points from the win improve his chance of reaching the BWF World Tour Finals in Hangzhou.",
-   "ask": "Is it better for a top player to enter many tournaments to collect ranking points, or to play fewer and save energy for the biggest events?",
-   "jobs": [
-    "Badminton coach",
-    "Sports physiotherapist (helps athletes stay fit and recover from injuries)",
-    "Sports psychologist (helps athletes stay calm and focused)"
-   ]
-  },
-  "g-forest-fund": {
-   "ctx": "The Tropical Forest Forever Facility was launched at COP30 in Brazil in November 2025. Canada's pledge of up to C$560 million over four years is part of its promise of more than C$13 billion in climate money for developing countries by 2031. Canada's government says the fund is co-led by Brazil and Norway and would pay only for verified results.",
-   "ask": "Is paying countries and communities to keep their forests standing the best way to protect them, or should countries protect their own forests with their own laws and money?",
-   "jobs": [
-    "Forest ecologist",
-    "Climate finance analyst",
-    "Remote sensing scientist (who uses satellite images to check forests)"
-   ]
-  },
-  "in-debrigarh-tiger": {
-   "ctx": "The male tiger seen in Debrigarh Wildlife Sanctuary on 9 November was recorded in Chhattisgarh's Udanti-Sitanadi Tiger Reserve in 2025, and officials matched it using camera-trap photos shared by forest officials in Chhattisgarh. Officials think it may first have come from Maharashtra, but call this an early guess.",
-   "ask": "Should tigers that cross from one state to another be looked after by a national body, or by the forest team of each state they enter?",
-   "jobs": [
-    "Wildlife biologist",
-    "Forest ranger",
-    "Wildlife photographer"
-   ]
-  },
-  "in-odi-series": {
-   "ctx": "India were all out for 89 in the fourth ODI, then bounced back to win the fifth and final match at Bay Oval by 22 runs. The result was New Zealand's first home ODI series loss in seven years, and India's first away ODI series win with Gautam Gambhir as head coach.",
-   "ask": "In a one-day cricket match, does a team's batting or its bowling matter more for winning?",
-   "jobs": [
-    "Cricket coach",
-    "Sports data analyst",
-    "Pitch curator (prepares and looks after cricket pitches)"
-   ]
-  },
-  "g-asean-summit": {
-   "ctx": "ASEAN, the Association of Southeast Asian Nations, has 11 members, and the role of chair rotates among them. The Philippines holds the chair this year and opened the 49th summit in Manila on 15 November, and Singapore takes over in 2027. Topics on the agenda include trade, security, the South China Sea, Myanmar and energy.",
-   "ask": "Should neighbouring countries try to agree on shared problems as a group, even when that is slow, or is it better for each country to decide for itself?",
-   "jobs": [
-    "Diplomat",
-    "Conference interpreter (who translates speeches between languages)",
-    "Trade economist"
-   ]
-  },
-  "g-mars-jupiter": {
-   "ctx": "Before sunrise in mid-November, Mars and Jupiter appear about 1 degree apart, their closest this month, near a bright star called Regulus. Planets move around the Sun, so their positions among the background stars change over days and weeks. On the morning of 22 November, Mars, Jupiter and Regulus will be grouped tightly together.",
-   "ask": "Is it worth getting up very early to see the planets with your own eyes, when you could look at a clearer photo online later?",
-   "jobs": [
-    "Astronomer",
-    "Planetarium educator",
-    "Astrophotographer"
-   ]
-  },
-  "in-khelo-mascot": {
-   "ctx": "The 8th Khelo India Youth Games will be hosted by Telangana from 11 to 22 December 2026 across six cities, with about 8,000 athletes and participants. Of the 29 disciplines, 27 are competitive and 2 are demonstration events, and softball becomes a competitive sport for the first time.",
-   "ask": "Should youth games keep adding new sports to give more young athletes a chance, or keep fewer sports so each one gets more attention and support?",
-   "jobs": [
-    "Graphic designer (designs logos and mascots)",
-    "Sports event manager",
-    "Physical education teacher"
-   ]
-  }
  },
  "today": {
   "days": [
    {
-    "name": "Janjatiya Gaurav Divas",
-    "what": "India observes 15 November as Janjatiya Gaurav Divas, a day that remembers tribal freedom fighters. The date is the birth anniversary of Birsa Munda.",
-    "where": [
-     "IN"
-    ]
+    "name": "International Day for Tolerance",
+    "what": "Tolerance means being willing to accept people who are different from you, and opinions you may not share. UNESCO adopted a Declaration of Principles on Tolerance in 1995. In 1996 the UN General Assembly invited its member countries to mark the day on 16 November."
    },
    {
-    "name": "Jharkhand Statehood Day",
-    "what": "Jharkhand was separated from Bihar and became India's 28th state on 15 November 2000.",
+    "name": "National Press Day",
+    "what": "India marks National Press Day on 16 November. It is the day the Press Council of India began work in 1966. The press means newspapers and journalists. The council's job is to help keep the press free and its standards high.",
     "where": [
      "IN"
     ]
@@ -730,277 +999,328 @@
   ],
   "born": [
    {
-    "name": "William Herschel",
-    "year": 1738,
-    "what": "An astronomer, born in Hanover, Germany. He first worked as a musician. He built his own telescopes and discovered the planet Uranus in 1781."
+    "name": "Chinua Achebe",
+    "year": 1930,
+    "what": "A Nigerian novelist, born in Ogidi, Nigeria. His first novel, Things Fall Apart, was published in 1958. He won the Man Booker International Prize in 2007."
    },
    {
-    "name": "Georgia O'Keeffe",
-    "year": 1887,
-    "what": "A painter known for her large paintings of flowers, the skyscrapers of New York and the landscapes of New Mexico."
-   },
-   {
-    "name": "Sania Mirza",
-    "year": 1986,
-    "what": "An Indian tennis player, born in Mumbai. She began playing tennis at the age of six.",
+    "name": "Pullela Gopichand",
+    "year": 1973,
+    "what": "An Indian badminton player, born in Nagandla. In 2001 he won the All England men's singles title. He opened a badminton academy in Hyderabad in 2008.",
     "where": [
      "IN"
     ]
+   },
+   {
+    "name": "José Saramago",
+    "year": 1922,
+    "what": "A Portuguese novelist, born in Azinhaga, Portugal. He was awarded the Nobel Prize in Literature in 1998."
    }
   ],
-  "week": "The Leonid meteor shower is expected to peak around 17 and 18 November. World Children's Day is on Friday 20 November."
+  "week": "NASA says Voyager 1 reaches one light-day from Earth on Wednesday 18 November. The Leonid meteor shower is expected to peak around 17 and 18 November. World Children's Day is on Friday 20 November."
  },
  "learn": {
-  "subject": "Geography",
-  "cat": "science",
-  "link": "Why do mountains like the Himalayas exist?",
+  "subject": "Science",
+  "cat": "space",
+  "link": "From the Voyager 1 story: a light-day is how far light travels in 24 hours",
   "x": {
-   "t": "How are mountains made?",
+   "t": "How fast is light?",
    "b": [
-    "Earth's outer layer is broken into huge pieces called plates. The plates move very slowly, only a few centimetres a year.",
-    "Where two plates push together, the ground can fold and rise. Over a very long time, this makes mountains. The Himalayas were made this way.",
-    "Mountains wear down too. Water, wind and ice break the rock and carry the bits away."
+    "Light is very fast. It travels about 300,000 kilometres every second.",
+    "The Sun is about 150 million kilometres from Earth. Sunlight takes about 8 minutes to reach us.",
+    "Space is so big that scientists measure it with light. A light-day is how far light travels in one day. A light-year is how far light travels in one year. These are distances, not times."
    ],
-   "remember": "Mountains rise where Earth's plates push together. Water, wind and ice slowly wear them down.",
-   "q": "What can happen where two plates push together?",
+   "remember": "Light travels about 300,000 kilometres every second. A light-year is a distance: how far light travels in one year.",
+   "q": "What is a light-year?",
    "a": [
-    "The ground can fold and rise into mountains",
-    "The ground turns into ice"
+    "A very long time",
+    "How far light travels in one year"
    ],
-   "c": 0
+   "c": 1
   },
   "o": {
-   "t": "How are mountains made, and how do they wear down?",
+   "t": "What is a light-year, and how fast is light?",
    "b": [
-    "Earth's outer layer is broken into large slabs called tectonic plates. They move slowly, at average speeds of a few centimetres a year.",
-    "Where two plates push together, the crust, the rocky outer layer, can fold and be forced upward. Mountains made this way are called fold mountains. The Himalayas rose where the Indian plate collided with the Eurasian plate. The collision began about 40 to 50 million years ago. The Himalayas are still rising, by more than 1 centimetre a year according to the US Geological Survey.",
-    "Mount Everest, in the Himalayas, is the highest mountain in the world, at about 8,849 metres above sea level. High on the mountain, near the top, are limestone rocks that formed on an ancient sea floor.",
-    "Mountains wear down as well. Weathering breaks rock into smaller pieces. Erosion is when water, wind or ice carry those pieces away. Rivers carry the pieces down to the sea."
+    "In empty space, light travels at 299,792,458 metres per second. That is about 300,000 kilometres every second.",
+    "Distances in space are so large that astronomers measure them by how far light travels. A light-year is the distance light travels in one year: about 9.46 trillion kilometres. It is a unit of distance, not of time.",
+    "The Sun is about 150 million kilometres from Earth, and NASA says its light takes about 8.3 minutes to reach us. The nearest star beyond the Sun, Proxima Centauri, is a little more than 4 light-years away. A light-day, the distance Voyager 1 reaches this week, is how far light travels in 24 hours: about 25.9 billion kilometres."
    ],
-   "remember": "Colliding plates push mountains up. Weathering breaks rock down, and erosion carries the pieces away.",
-   "q": "What is the difference between weathering and erosion?",
+   "remember": "Light travels about 300,000 kilometres a second. A light-year is the distance it covers in one year, about 9.46 trillion kilometres.",
+   "q": "About how long does sunlight take to reach Earth?",
    "a": [
-    "Weathering carries rock away, and erosion breaks it down",
-    "They are two words for an earthquake",
-    "Weathering breaks rock down, and erosion carries the pieces away"
+    "About 8 seconds",
+    "About 8 hours",
+    "About 8 minutes"
    ],
    "c": 2
   }
  },
  "backThen": {
-  "y": 1971,
-  "t": "Intel announces its first microprocessor, the 4004",
-  "o": "On 15 November 1971, the company Intel announced a new chip, the 4004, in an advertisement in a publication called Electronic News. The 4004 was a microprocessor, which is a computer's processor built onto a single chip. It grew out of work for Busicom, a company that made calculators. Intel says the chip held more than 2,000 transistors, which are tiny switches, and was about the size of a little fingernail.",
-  "x": "On this day in 1971, a company called Intel showed the world a new computer chip. It was called the 4004. It grew out of work for a company that made calculators.",
-  "why": "Intel says engineers could buy the 4004 and program it for many different devices. A microprocessor is the kind of chip that does the main work inside a computer."
+  "y": 1974,
+  "t": "A radio message is beamed from Earth towards the stars",
+  "o": "On 16 November 1974, a radio message was sent into space from the Arecibo Observatory in Puerto Rico. It was sent during a ceremony to mark a major upgrade to the observatory's radio telescope. A team that included the astronomers Frank Drake and Carl Sagan created it. The message included a simple picture of a human and a diagram of the solar system. It was aimed at M13, a cluster of stars more than 20,000 light-years away.",
+  "x": "On this day in 1974, scientists sent a radio message into space. They sent it from the Arecibo Observatory in Puerto Rico. The message had a simple picture of a person in it.",
+  "why": "A radio message travels at the speed of light. A light-year is how far light travels in one year, so the message needs more than 20,000 years to reach those stars. That shows how big space is."
  },
  "hiddenWords": [
   {
-   "k": "satellite",
-   "o": "Satellite comes from the Latin word satelles, which means an attendant: someone who escorts or follows an important person. A satellite follows a planet around in the same way."
+   "k": "orbit",
+   "o": "Orbit comes from the Latin word orbita, which means a track or rut, such as the track left by a wheel."
   },
   {
-   "k": "planet",
-   "o": "Planet comes from the Greek word planetes, which means wanderers. Ancient sky watchers saw a few bright lights move across the background of stars that seemed fixed in place, so they called them wanderers."
+   "k": "cyclone",
+   "o": "Cyclone comes from Greek words about going around in a circle. It is linked to the Greek word kyklos, which means a circle."
   }
  ],
  "bigStory": {
-  "week": "2026-11-09",
-  "story": "g-cop31",
-  "cat": "planet",
-  "sketch": "greenhouse",
-  "t": "Can the world agree to slow climate change?",
-  "sub": "COP31, the United Nations climate summit in Türkiye",
+  "week": "2026-11-16",
+  "story": "g-voyager",
+  "cat": "space",
+  "t": "How far is one light-day from home?",
+  "sub": "Voyager 1, launched in 1977, reaches one light-day from Earth on Wednesday",
   "x": {
-   "why": "Almost 200 countries are in one place to decide how to stop Earth getting too warm. What they agree will shape the world you grow up in."
+   "why": "A spacecraft that left Earth in 1977 is still travelling. This week it will be so far away that light needs a whole day to reach it."
   },
   "o": {
-   "why": "Almost 200 countries are in one place to decide how to turn climate promises into action. What they agree, or fail to agree, will shape the world you grow up in."
+   "why": "A spacecraft launched in 1977 is still travelling, and its team on Earth still talks to it. This week it reaches a distance so great that a radio signal, moving at the speed of light, needs 24 hours to get there."
   },
   "facts": [
    [
-    "~200",
-    "countries taking part"
+    "1977",
+    "the year Voyager 1 left Earth"
    ],
    [
-    "1.5°C",
-    "the limit countries hope to keep to"
+    "25.9 billion km",
+    "about one light-day: how far light travels in 24 hours"
    ],
    [
-    "2.6°C",
-    "where current promises lead, says a UN report"
+    "24 hours",
+    "how long a radio signal from Earth will take to reach it"
    ],
    [
-    "20 Nov",
-    "the day the talks are due to end"
+    "18 Nov",
+    "the day NASA says it reaches one light-day"
    ]
   ],
   "days": [
    {
-    "d": "2026-11-09",
-    "h": "The summit opens",
-    "o": "COP31 opened in Antalya, a city on Türkiye's coast. In an unusual setup, Türkiye is the host while Australia leads the negotiations.",
-    "x": "The big meeting began in Antalya, a city by the sea in Türkiye. Türkiye is the host, and Australia is leading the talks."
+    "d": "2026-11-16",
+    "h": "Meet Voyager 1",
+    "o": "NASA launched Voyager 1 on 5 September 1977. It flew past Jupiter in 1979 and Saturn in 1980, and in 1990 it took a picture of Earth known as the Pale Blue Dot. In 2012 it entered interstellar space, the space between the stars. It is run from NASA's Jet Propulsion Laboratory in California.",
+    "x": "Voyager 1 is a spacecraft. It left Earth in 1977. It flew past the planets Jupiter and Saturn. In 1990 it took a picture of Earth from very far away."
    },
    {
-    "d": "2026-11-10",
-    "h": "A warning from the UN",
-    "o": "UN Secretary-General António Guterres urged leaders to get serious. A UN report projects about 2.6°C of warming this century on current promises, well above the Paris Agreement goal.",
-    "x": "The leader of the United Nations asked every country to get serious. A report says Earth is on track to warm more than countries promised."
+    "d": "2026-11-17",
+    "h": "How far is a light-day?",
+    "lock": "Tuesday: how far is a light-day? And after sunset, people can flash a light for Voyager."
    },
    {
-    "d": "2026-11-11",
-    "h": "World leaders arrive",
-    "o": "Leaders gather today and tomorrow. Organisers call this the implementation COP: less about new promises, more about keeping old ones. The United States did not send officials.",
-    "x": "Presidents and prime ministers arrive today. This meeting is about keeping old promises, and less about making new ones."
+    "d": "2026-11-18",
+    "h": "The big day",
+    "lock": "Wednesday: the day Voyager 1 reaches one light-day from Earth."
    },
    {
-    "d": "2026-11-12",
-    "h": "What do leaders promise?",
-    "o": "On the first day of speeches, UN chief António Guterres said the climate crisis is outrunning us. Türkiye asked countries to back a voluntary pledge to raise electricity's share of the world's energy use from about 23 per cent to 35 per cent by 2035. The head of the European Commission backed it. Others want it to say the electricity must be clean.",
-    "x": "Leaders gave speeches. The head of the United Nations said the world must move faster. Türkiye asked countries to run more cars, homes and factories on electricity."
+    "d": "2026-11-19",
+    "h": "Phoning home",
+    "lock": "Thursday: how do you talk to a spacecraft when a signal takes a whole day to arrive?"
    },
    {
-    "d": "2026-11-13",
-    "h": "The week in one page",
-    "o": "Leaders gave their speeches and went home. At least 14 countries have publicly backed the electricity pledge, by one news site's count, and a climate fund announced 94 million dollars to help developing countries electrify. But a fund for Pacific islands and a fund for tropical forests are still short of their targets, and countries still disagree about money for adapting to climate change. In week two, negotiators must agree a final text. The summit is due to end on 20 November.",
-    "x": "Leaders gave their speeches and went home. Some countries promised to run more things on electricity. Others asked for more money to help. Next week, countries must agree on a plan."
+    "d": "2026-11-20",
+    "h": "What comes next?",
+    "lock": "Friday: the week in one page, and where Voyager 1 goes from here."
    }
   ],
   "words": [
-   "cop",
-   "climate-change",
-   "paris-agreement",
-   "un"
+   "light-day",
+   "interstellar",
+   "jpl",
+   "deep-space-network"
   ],
   "poll": {
-   "q": "If you were a leader at COP31, what would you push for first?",
+   "q": "If you could add one thing to a message carried into space, what would it be?",
    "a": [
     [
-     "Cleaner energy",
-     "Most warming comes from burning coal, oil and gas for energy, so this is where the biggest cuts are."
+     "Music",
+     "A tune can be enjoyed without knowing the words."
     ],
     [
-     "Protecting forests",
-     "Trees take carbon dioxide out of the air, and forests are home to most land animals."
+     "Greetings in many languages",
+     "It would show how many peoples share one planet."
     ],
     [
-     "Helping places hit by floods and heat",
-     "Poorer countries have done the least to cause warming and are often hit hardest."
+     "Pictures of animals and places",
+     "A picture can show what words cannot."
     ],
     [
-     "Cleaner transport",
-     "Cars, lorries, ships and planes burn a lot of fuel. Electric and shared travel cut that."
+     "A map of where we are",
+     "So that whoever finds it knows where it came from."
     ]
    ]
   },
-  "talk": "Is it fair to ask every country to cut pollution by the same amount? Why, or why not?"
+  "talk": "If you sent a message today that would be opened 49 years from now, what would you want the reader to know about your life?"
  },
  "puzzles": {
-  "week": "2026-11-09",
+  "week": "2026-11-16",
   "sudoku": {
+   "x": {
+    "n": 4,
+    "br": 2,
+    "bc": 2,
+    "p": [
+     [
+      0,
+      1,
+      2,
+      0
+     ],
+     [
+      0,
+      0,
+      1,
+      0
+     ],
+     [
+      0,
+      0,
+      3,
+      0
+     ],
+     [
+      3,
+      2,
+      0,
+      1
+     ]
+    ],
+    "s": [
+     [
+      4,
+      1,
+      2,
+      3
+     ],
+     [
+      2,
+      3,
+      1,
+      4
+     ],
+     [
+      1,
+      4,
+      3,
+      2
+     ],
+     [
+      3,
+      2,
+      4,
+      1
+     ]
+    ]
+   },
    "o": {
     "n": 6,
     "br": 2,
     "bc": 3,
     "p": [
      [
+      0,
+      1,
+      0,
       2,
       0,
-      5,
+      0
+     ],
+     [
+      3,
       6,
-      3,
+      0,
+      0,
+      0,
       0
      ],
      [
-      0,
-      1,
-      0,
+      6,
       5,
+      3,
+      0,
       4,
-      0
+      2
      ],
      [
-      0,
       0,
       4,
       1,
       0,
-      5
-     ],
-     [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
-     ],
-     [
-      0,
-      0,
-      0,
-      3,
       0,
       6
      ],
      [
-      5,
+      0,
+      0,
+      0,
       6,
       0,
+      4
+     ],
+     [
       0,
       0,
+      0,
+      0,
+      1,
       0
      ]
     ],
     "s": [
      [
-      2,
-      4,
       5,
-      6,
-      3,
-      1
-     ],
-     [
-      3,
       1,
-      6,
-      5,
       4,
-      2
-     ],
-     [
-      6,
-      3,
-      4,
-      1,
       2,
-      5
-     ],
-     [
-      1,
-      5,
-      2,
-      4,
       6,
       3
      ],
      [
-      4,
-      2,
-      1,
       3,
+      6,
+      2,
+      4,
       5,
+      1
+     ],
+     [
+      6,
+      5,
+      3,
+      1,
+      4,
+      2
+     ],
+     [
+      2,
+      4,
+      1,
+      5,
+      3,
       6
      ],
      [
+      1,
+      3,
       5,
       6,
-      3,
       2,
-      1,
       4
+     ],
+     [
+      4,
+      2,
+      6,
+      3,
+      1,
+      5
      ]
     ]
    },
@@ -1010,219 +1330,88 @@
     "bc": 3,
     "p": [
      [
-      0,
-      7,
-      0,
-      9,
-      4,
-      0,
-      0,
-      0,
-      0
-     ],
-     [
-      6,
-      0,
       2,
-      0,
-      0,
-      7,
-      0,
-      0,
-      8
-     ],
-     [
-      0,
-      8,
-      9,
-      2,
-      0,
-      0,
-      0,
-      1,
-      0
-     ],
-     [
-      0,
-      6,
-      7,
-      0,
-      1,
-      5,
-      0,
-      0,
-      4
-     ],
-     [
-      0,
-      5,
-      0,
-      3,
-      0,
-      4,
-      2,
-      7,
-      0
-     ],
-     [
       0,
       0,
       3,
-      0,
-      2,
-      0,
-      0,
-      0,
-      0
-     ],
-     [
-      0,
-      9,
-      0,
-      5,
-      0,
-      0,
-      0,
-      0,
-      1
-     ],
-     [
-      7,
-      0,
-      5,
-      0,
-      8,
-      0,
-      0,
-      0,
-      0
-     ],
-     [
-      8,
-      0,
       4,
       0,
-      3,
-      9,
       0,
-      5,
-      0
-     ]
-    ],
-    "s": [
-     [
-      5,
       7,
-      1,
-      9,
-      4,
-      8,
-      6,
-      2,
-      3
-     ],
-     [
-      6,
-      3,
-      2,
-      1,
-      5,
-      7,
-      4,
-      9,
-      8
-     ],
-     [
-      4,
-      8,
-      9,
-      2,
-      6,
-      3,
-      5,
-      1,
-      7
-     ],
-     [
-      2,
-      6,
-      7,
-      8,
-      1,
-      5,
-      9,
-      3,
-      4
-     ],
-     [
-      1,
-      5,
-      8,
-      3,
-      9,
-      4,
-      2,
-      7,
-      6
-     ],
-     [
-      9,
-      4,
-      3,
-      7,
-      2,
-      6,
-      1,
-      8,
-      5
-     ],
-     [
-      3,
-      9,
-      6,
-      5,
-      7,
-      2,
-      8,
-      4,
-      1
-     ],
-     [
-      7,
-      2,
-      5,
-      4,
-      8,
-      1,
-      3,
-      6,
       9
      ],
      [
-      8,
-      1,
-      4,
-      6,
-      3,
       9,
-      7,
-      5,
-      2
-     ]
-    ]
-   },
-   "x": {
-    "n": 4,
-    "br": 2,
-    "bc": 2,
-    "p": [
-     [
+      0,
+      6,
       1,
       0,
       0,
-      3
+      3,
+      4,
+      5
      ],
      [
+      0,
+      3,
+      0,
+      9,
+      6,
+      5,
+      0,
+      1,
+      0
+     ],
+     [
+      8,
+      0,
+      0,
+      4,
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      7,
+      9,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      7,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      9,
+      2,
+      0,
+      3,
+      7,
+      0,
+      0,
+      0
+     ],
+     [
+      5,
+      0,
+      0,
+      2,
+      8,
       0,
       0,
       0,
@@ -1231,40 +1420,114 @@
      [
       0,
       0,
-      3,
-      4
-     ],
-     [
-      3,
-      4,
       0,
-      2
+      5,
+      0,
+      1,
+      0,
+      0,
+      3
      ]
     ],
     "s": [
      [
-      1,
       2,
+      5,
+      1,
+      3,
       4,
-      3
+      8,
+      6,
+      7,
+      9
      ],
      [
-      4,
-      3,
+      9,
+      8,
+      6,
+      1,
+      7,
       2,
+      3,
+      4,
+      5
+     ],
+     [
+      7,
+      3,
+      4,
+      9,
+      6,
+      5,
+      8,
+      1,
+      2
+     ],
+     [
+      8,
+      2,
+      7,
+      4,
+      1,
+      9,
+      5,
+      3,
+      6
+     ],
+     [
+      3,
+      4,
+      5,
+      8,
+      2,
+      6,
+      7,
+      9,
       1
      ],
      [
-      2,
       1,
+      6,
+      9,
+      7,
+      5,
       3,
+      2,
+      8,
       4
      ],
      [
-      3,
       4,
+      9,
+      2,
+      6,
+      3,
+      7,
       1,
-      2
+      5,
+      8
+     ],
+     [
+      5,
+      1,
+      3,
+      2,
+      8,
+      4,
+      9,
+      6,
+      7
+     ],
+     [
+      6,
+      7,
+      8,
+      5,
+      9,
+      1,
+      4,
+      2,
+      3
      ]
     ]
    }
@@ -1272,58 +1535,58 @@
   "words": {
    "o": [
     [
-     "ARMISTICE",
-     "An agreement to stop fighting (11 November 1918)"
+     "VOYAGER",
+     "A spacecraft launched in 1977"
     ],
     [
-     "SATELLITE",
-     "China wants these to do computing in space"
+     "EARTHSHOT",
+     "A prize for ideas that help the planet"
     ],
     [
-     "ASTRONAUT",
-     "NASA is looking for new ones"
+     "ORBIT",
+     "The path an object follows around a planet, moon or star"
     ],
     [
-     "LANTERN",
-     "German children carry one on St Martin's Day"
+     "EMBLEM",
+     "ASEAN's now shows 11 rice stalks"
     ],
     [
-     "DISCOUNT",
-     "Money taken off the usual price"
+     "MINISTER",
+     "A senior member of a government"
     ]
    ],
    "x": [
     [
-     "SNOW",
-     "It fell early in Seoul"
+     "LIGHT",
+     "From Wednesday, it needs a whole day to reach Voyager 1"
     ],
     [
-     "MOON",
-     "NASA wants a base near its south pole"
+     "MUSEUM",
+     "A place that keeps and shows interesting and important things"
     ],
     [
-     "COMET",
-     "Taurid fireballs come from one"
+     "FLAG",
+     "ASEAN's has one more rice stalk"
     ],
     [
-     "PLANE",
-     "It flew from Australia to France without stopping"
+     "PRIZE",
+     "Five winners get one in Mumbai this week"
     ],
     [
-     "POPPY",
-     "A red flower for Remembrance Day"
+     "TENNIS",
+     "Mirra Andreeva's sport"
     ]
    ]
   }
  },
  "reporters": {
-  "week": "2026-11-09",
-  "t": "Report one kind thing you saw this week",
-  "why": "World Kindness Day was on Friday 13 November. The best reports will appear on the front page soon.",
+  "week": "2026-11-16",
+  "t": "Report one thing that changed in your street or school this week",
+  "why": "Monday 16 November is National Press Day in India, and World Children's Day is on Friday 20 November. Good reporters check what they hear with more than one person.",
   "tips": [
-   "Who did it?",
-   "What did they do?",
-   "Where did it happen?"
+   "What changed?",
+   "Who told you, and who else can confirm it?",
+   "Where and when did it happen?"
   ],
   "sample": []
  }

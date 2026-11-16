@@ -1,0 +1,1870 @@
+{
+ "schema": 1,
+ "date": "2026-11-16",
+ "edition": "am",
+ "countries": [
+  "IN"
+ ],
+ "stories": [
+  {
+   "id": "g-voyager",
+   "scope": "global",
+   "cat": "space",
+   "emoji": "🛰️",
+   "date": "2026-11-16",
+   "kind": "calendar",
+   "when": "Wednesday 18 November",
+   "x": {
+    "t": "Meet Voyager 1, the spacecraft that left Earth 49 years ago",
+    "b": [
+     "Voyager 1 is a spacecraft. It was launched on 5 September 1977.",
+     "It flew past the planets Jupiter and Saturn. In 1990, it took a picture of Earth.",
+     "On Wednesday, it will be one [[light-day|light-day]] away. Light needs a whole day to go that far. A radio signal will take 24 hours. On Tuesday after sunset, people can flash a torch for Voyager. Ask a grown-up to help."
+    ]
+   },
+   "o": {
+    "t": "Voyager 1's long journey, from 1977 to one light-day away",
+    "b": [
+     "NASA, the US space agency, launched the spacecraft Voyager 1 on 5 September 1977. It flew past the planets Jupiter, in 1979, and Saturn, in 1980. In 1990, it took a picture of Earth known as the Pale Blue Dot.",
+     "In 2012, it entered [[interstellar|interstellar space]], the space between the stars. It is run from NASA's [[jpl|Jet Propulsion Laboratory]] in California. Its team talks to it through NASA's [[deep-space-network|Deep Space Network]].",
+     "On Wednesday 18 November, NASA says, Voyager 1 will be one [[light-day|light-day]] away. That is the distance light covers in 24 hours, about 25.9 billion kilometres. A radio signal travels at the speed of light, so one sent from Earth will need 24 hours to arrive. On Tuesday after sunset, NASA invites people to flash VGR, Voyager's call sign or short name, by torch or phone in [[morse-code|Morse code]], a code of short and long signals."
+    ]
+   },
+   "think": "If you could take one picture to show someone far away what Earth is like, what would be in it?",
+   "quiz": {
+    "q": "Which two planets did Voyager 1 fly past?",
+    "a": [
+     "Mars and Venus",
+     "Jupiter and Saturn",
+     "Uranus and Neptune",
+     "Mercury and Mars"
+    ],
+    "c": 1
+   },
+   "src": [
+    [
+     "NASA, 10 Nov (updated 13 Nov)",
+     "https://www.nasa.gov/news-release/nasa-invites-media-public-to-join-voyager-1-one-light-day-activities/"
+    ],
+    [
+     "NASA Science, 19 Aug (updated 12 Nov)",
+     "https://science.nasa.gov/mission/voyager/voyager-1/voyager-1-what-is-a-light-day/"
+    ],
+    [
+     "AP via 1News, 16 Nov",
+     "https://www.1news.co.nz/2026/11/16/voyager-1-nears-a-light-day-from-earth-in-new-distance-record/"
+    ],
+    [
+     "EarthSky, 10 Nov",
+     "https://earthsky.org/space/voyager-1-1-light-day-from-earth-november-17-18-2026/"
+    ],
+    [
+     "BBC Sky at Night Magazine, 3 Nov",
+     "https://www.skyatnightmagazine.com/news/nasa-voyager-1-light-day"
+    ]
+   ]
+  },
+  {
+   "id": "in-earthshot",
+   "scope": "IN",
+   "cat": "planet",
+   "emoji": "🌱",
+   "date": "2026-11-16",
+   "kind": "calendar",
+   "when": "16 and 17 November",
+   "x": {
+    "t": "A prize for ideas that help the planet comes to India",
+    "b": [
+     "A big prize for ideas that help the planet is in India this week. It is called the [[earthshot-prize|Earthshot Prize]]. The events are in [[mumbai|Mumbai]].",
+     "Fifteen projects are [[finalist|finalists]]. Two are from India. Five winners each get one million British pounds.",
+     "Children have awards too. A challenge reached nearly one million children in India. Fifteen teams of children are finalists, and five will win."
+    ]
+   },
+   "o": {
+    "t": "Mumbai hosts the Earthshot Prize, with awards for children too",
+    "b": [
+     "The [[earthshot-prize|Earthshot Prize]], a yearly award for ideas that help the planet, is being held in India for the first time, in [[mumbai|Mumbai]] on 16 and 17 November. Its founder, Britain's Prince William, is due to begin a three-day visit there on Monday.",
+     "The 15 [[finalist|finalists]], projects that have reached the last stage, compete in five categories: nature, clean air, oceans, waste and climate. Two are Indian: Mahindra Last Mile Mobility, a maker of electric three-wheelers, in clean air, and Mahila Housing Trust, in climate. On Tuesday's awards night, five winners each receive 1 million pounds.",
+     "There are also the first Children's Earthshot Awards. A challenge asking children aged 9 to 17 to tackle local environmental problems reached nearly one million children in India. During the Mumbai events, five of the 15 finalist student teams will each win 2,000 US dollars to develop their ideas."
+    ]
+   },
+   "think": "What is one problem with the air, water or waste where you live that you would like to fix, and how would you start?",
+   "quiz": {
+    "q": "About how many children in India did the children's challenge reach?",
+    "a": [
+     "Nearly one million",
+     "About 100",
+     "About 2,000",
+     "Nearly one billion"
+    ],
+    "c": 0
+   },
+   "src": [
+    [
+     "Bombay Samachar, 13 Nov",
+     "https://english.bombaysamachar.com/mumbai/prince-william-earthshot-prize-awards-mumbai/"
+    ],
+    [
+     "ABC News, 15 Nov",
+     "https://abcnews.com/GMA/Culture/prince-william-kate-middleton-visit-india-earthshot-prize/story?id=138162333"
+    ],
+    [
+     "PTI via The Federal, 15 Nov",
+     "https://thefederal.com/category/states/west/maharashtra/prince-william-wife-kate-to-visit-mumbai-for-2026-earthshot-prize-263005"
+    ],
+    [
+     "The Earthshot Prize, 4 Nov",
+     "https://earthshotprize.org/news/the-earthshot-prize-summit-2026-preview/"
+    ],
+    [
+     "The Earthshot Prize, 22 Oct",
+     "https://earthshotprize.org/news/announcing-finalists-of-i-can-earthshot-challenge/"
+    ],
+    [
+     "The Earthshot Prize, 18 Sep",
+     "https://earthshotprize.org/news/the-earthshot-prize-announces-2026-finalists/"
+    ]
+   ]
+  },
+  {
+   "id": "in-akvan",
+   "scope": "IN",
+   "cat": "nature",
+   "emoji": "🌀",
+   "date": "2026-11-15",
+   "kind": "news",
+   "x": {
+    "t": "Weather experts watch a storm over the Bay of Bengal",
+    "b": [
+     "India's [[imd|weather office]] is watching a storm over the [[bay-of-bengal|Bay of Bengal]].",
+     "On Sunday, the office said the storm is expected to become a [[cyclone|cyclone]] on Monday. A cyclone is a big spinning storm. This one would be named Akvan. Iran gave that name.",
+     "Fishermen have been asked to come back to shore. Early warnings give people time to prepare."
+    ]
+   },
+   "o": {
+    "t": "Forecasters track a Bay of Bengal storm that may be named Akvan",
+    "b": [
+     "India's weather office, the India Meteorological Department ([[imd|IMD]]), is tracking a storm over the [[bay-of-bengal|Bay of Bengal]]. On Sunday 15 November it was a [[depression|depression]], an area of low air pressure with wind and rain. The IMD said it was very likely to become a [[cyclone|cyclonic storm]], a stronger spinning storm, on Monday.",
+     "A storm is named only when it becomes a cyclonic storm. This one would be called Akvan, a name given by Iran, from a list shared by 13 countries.",
+     "On Sunday the IMD issued a pre-cyclone watch, an early alert, for the coasts of [[andhra-pradesh|Andhra Pradesh]] and south Odisha. Fishermen were asked to return to shore. The storm is expected to strengthen further in the following days, and forecasters have urged residents to rely on official updates. Early warnings give people time to prepare."
+    ]
+   },
+   "think": "Why do you think storms are given names, and what makes a good name for one?",
+   "quiz": {
+    "q": "Which country gave the name Akvan to the list of storm names?",
+    "a": [
+     "India",
+     "Iran",
+     "Oman",
+     "Thailand"
+    ],
+    "c": 1
+   },
+   "src": [
+    [
+     "News On AIR, 15 Nov",
+     "https://newsonair.gov.in/low-pressure-area-over-bay-of-bengal-likely-to-intensify-into-cyclonic-storm/"
+    ],
+    [
+     "Sambad English, 15 Nov",
+     "https://sambadenglish.com/latest-news/imd-issues-pre-cyclone-watch-for-andhra-pradesh-and-adjoining-south-odisha-coast-12810842"
+    ],
+    [
+     "Sambad English, 15 Nov",
+     "https://sambadenglish.com/latest-news/cyclone-akvan-likely-to-trigger-heavy-rainfall-in-odisha-imd-issues-wind-warning-for-states-south-coast-12811089"
+    ],
+    [
+     "The Hans India, 16 Nov",
+     "https://thehansindia.com/odisha/system-intensifies-into-depression-1142583"
+    ],
+    [
+     "Nation Path India, 15 Nov (updated 16 Nov)",
+     "https://www.nationpathindia.com/environment/bay-of-bengal-depression-imd-pre-cyclone-watch-andhra-odisha-november-2026"
+    ],
+    [
+     "The Week, 14 Nov",
+     "https://www.theweek.in/news/india/2026/11/14/cyclone-akvan-to-make-landfall-in-andhra-pradesh-depression-over-the-bay-of-bengal-to-turn-into-cyclonic-storm.html"
+    ],
+    [
+     "Business Today, 15 Nov",
+     "https://www.businesstoday.in/india/story/cyclone-alert-bay-of-bengal-storm-keeps-chennai-and-andhra-coast-on-edge-where-will-it-strike-567512-2026-11-15"
+    ],
+    [
+     "India Meteorological Department, 28 Apr 2020",
+     "https://internal.imd.gov.in/press_release/20200428_pr_788.pdf"
+    ]
+   ]
+  },
+  {
+   "id": "in-fetal-surgery",
+   "scope": "IN",
+   "cat": "science",
+   "emoji": "🏥",
+   "date": "2026-11-14",
+   "kind": "news",
+   "x": {
+    "t": "A big team of doctors helps a baby before birth",
+    "b": [
+     "Doctors in New Delhi operated on a baby's [[spine|spine]] before the baby was born. Their hospital, AIIMS, said this was a first for India.",
+     "More than 30 doctors and nurses worked as one team. They planned for more than five weeks. They even practised first.",
+     "The operation took six hours. The baby was not yet born when the hospital shared the news. Doctors will keep watching the mother and baby."
+    ]
+   },
+   "o": {
+    "t": "AIIMS doctors operate on a baby's spine before birth, an India first",
+    "b": [
+     "Doctors at [[aiims|AIIMS]], a hospital in New Delhi, have operated on a baby that has not yet been born. The baby had an opening in its [[spine|spine]], or backbone. AIIMS said the six-hour operation was the first of its kind in India.",
+     "Getting ready took far longer: more than five weeks. The team studied detailed pictures of the baby and held a practice run, called a [[simulation|simulation]]. More than 30 doctors and nurses took part. During the operation they used [[ultrasound|ultrasound]], which makes pictures of the inside of the body using sound.",
+     "Professor Deepak Gupta led the neurosurgery, which is surgery on the brain, spine and nerves. Professors Neena Malhotra and K Aparna Sharma led the teams that care for mothers and unborn babies. Doctors will keep a close watch on the mother and baby for the rest of the pregnancy, the birth and afterwards."
+    ]
+   },
+   "think": "Think of something hard you have done with a team. How did planning and practising together help?",
+   "quiz": {
+    "q": "For how long did the team plan before the operation?",
+    "a": [
+     "Two days",
+     "One year",
+     "More than five weeks",
+     "Six hours"
+    ],
+    "c": 2
+   },
+   "src": [
+    [
+     "PTI via ETV Bharat, 14 Nov",
+     "https://www.etvbharat.com/en/health/aiims-delhi-performs-indias-first-open-foetal-surgery-to-repair-severe-spinal-defect-enn26111402629"
+    ],
+    [
+     "The News Mill with ANI inputs, 14 Nov",
+     "https://thenewsmill.com/2026/11/aiims-delhi-completes-indias-first-open-fetal-repair-for-spina-bifida/"
+    ],
+    [
+     "Indian Awaaz, 16 Nov",
+     "https://theindianawaaz.com/aiims-performs-indias-first-open-fetal-surgery-to-repair-severe-spinal-defect/"
+    ]
+   ]
+  },
+  {
+   "id": "g-asean-flag",
+   "scope": "global",
+   "cat": "world",
+   "emoji": "🌾",
+   "date": "2026-11-15",
+   "kind": "news",
+   "x": {
+    "t": "A flag gets one more rice stalk",
+    "b": [
+     "[[asean|ASEAN]] is a group of countries in Southeast Asia. Its flag has just changed.",
+     "The flag is blue with a red and white circle. Inside are stalks of rice, one for each country. A stalk is a plant's stem.",
+     "There were 10 stalks before. Now there are 11. The new stalk is for [[timor-leste|Timor-Leste]], the newest member. Leaders watched the new flag go up on Sunday."
+    ]
+   },
+   "o": {
+    "t": "ASEAN's flag gets an 11th rice stalk for Timor-Leste",
+    "b": [
+     "The flag of [[asean|ASEAN]] now shows 11 rice stalks instead of 10. ASEAN is short for the Association of Southeast Asian Nations, a group of countries that work together. Its updated flag and [[emblem|emblem]], the design that stands for the group, were unveiled, or shown for the first time, on Sunday 15 November.",
+     "The flag is blue, with a red and white circle. Inside are stalks, or stems, of rice: one for each member country. The 11th stalk was added for [[timor-leste|Timor-Leste]], ASEAN's 11th and newest member. So the flag shows who belongs to the group.",
+     "The unveiling took place at the opening ceremony of the 49th ASEAN [[summit|Summit]], a meeting of top leaders, at a convention centre in Pasay City, in the Philippines. President Ferdinand Marcos Jr. of the Philippines presented the flag. Leaders watched as the updated flag was raised. The summit continues until Tuesday 17 November."
+    ]
+   },
+   "think": "If a new member joined your team or club, how could you show that they belong?",
+   "quiz": {
+    "q": "How many rice stalks are on ASEAN's updated flag?",
+    "a": [
+     "9",
+     "10",
+     "11",
+     "12"
+    ],
+    "c": 2
+   },
+   "src": [
+    [
+     "Bernama, 15 Nov",
+     "https://www.bernama.com/en/world/news.php?id=2634738"
+    ],
+    [
+     "Philippine News Agency, 15 Nov",
+     "https://www.pna.gov.ph/article/cebu-protocol-ushers-in-updated-asean-flag-emblem-with-timor-lestes-inclusion"
+    ],
+    [
+     "DZRH News, 15 Nov",
+     "https://www.dzrh.com.ph/post/asean-unveils-updated-emblem-featuring-11-rice-stalks-in-manila"
+    ],
+    [
+     "Philstar.com, 15 Nov",
+     "https://www.philstar.com/headlines/2026/11/15/2570333/asean-summit-day-1-south-china-sea-indonesia-haze-myanmar-review"
+    ],
+    [
+     "TRT World, 15 Nov",
+     "https://www.trtworld.com/article/88ba8abdf2d0"
+    ]
+   ]
+  },
+  {
+   "id": "g-andreeva",
+   "scope": "global",
+   "cat": "sports",
+   "emoji": "🎾",
+   "date": "2026-11-15",
+   "kind": "news",
+   "x": {
+    "t": "A 19-year-old wins a big tennis contest at her first try",
+    "b": [
+     "Mirra Andreeva is a tennis player from Russia. She is 19 years old.",
+     "On Sunday she won the [[wta-finals|WTA Finals]] in the USA. Only the best eight women players of the year get in. It was her first time in this contest.",
+     "She played five matches and won them all. She did not lose a single [[set|set]]. A set is one part of a tennis match."
+    ]
+   },
+   "o": {
+    "t": "Mirra Andreeva, 19, wins the WTA Finals on her first try",
+    "b": [
+     "Mirra Andreeva, a 19-year-old from Russia, won the [[wta-finals|WTA Finals]] in Indian Wells, in the USA, on Sunday 15 November. It is the season-ending event: it closes the tennis year, and only the season's best eight women players get in. It was her first time playing in it.",
+     "A tennis match is split into parts called [[set|sets]]. In the final she beat Elina Svitolina of Ukraine in two sets, 7-5 and 6-3. Andreeva won all five of her matches without losing a set. She is the first teenager to win the event since Maria Sharapova in 2004.",
+     "Earlier this year she won the French Open, which is a [[grand-slam|Grand Slam]]. A Grand Slam is one of tennis's biggest tournaments. Last year's champion, Elena Rybakina, did not play. Andreeva now moves up to number two in the world rankings, the list of top players."
+    ]
+   },
+   "think": "Mirra Andreeva won at her first try. How do you feel when you try something for the very first time?",
+   "quiz": {
+    "q": "How many matches did Mirra Andreeva win at the WTA Finals?",
+    "a": [
+     "Three",
+     "Five",
+     "Eight",
+     "Nineteen"
+    ],
+    "c": 1
+   },
+   "src": [
+    [
+     "Tennis Majors, 15 Nov",
+     "https://www.tennismajors.com/wta-tour-news/wta-finals/andreeva-beats-svitolina-7-5-6-3-to-win-the-wta-finals-on-debut-without-dropping-a-set-867096.html"
+    ],
+    [
+     "Keystone-SDA via Bluewin, 15 Nov",
+     "https://www.bluewin.ch/en/sport/andrejewa-shines-again-in-the-final-winning-without-losing-a-single-set-li.3674801"
+    ],
+    [
+     "Forbes, 15 Nov",
+     "https://www.forbes.com/sites/adamzagoria/2026/11/15/russian-teenager-mirra-andreeva-wins-wta-finals-ukraines-elina-svitolina-snubs-handshake/"
+    ],
+    [
+     "The Athletic via Yahoo Sports, 15 Nov",
+     "https://sports.yahoo.com/articles/wta-finals-2026-mirra-andreeva-013105105.html"
+    ]
+   ]
+  },
+  {
+   "id": "g-cop31",
+   "scope": "global",
+   "cat": "planet",
+   "emoji": "🌍",
+   "date": "2026-11-15",
+   "kind": "news",
+   "x": {
+    "t": "Ministers take over at the big climate meeting",
+    "b": [
+     "A big meeting about [[climate-change|climate change]] has begun its last week. It is called [[cop|COP31]]. It is in Antalya, Türkiye.",
+     "For a week, teams from many countries worked on the details. Now [[minister|ministers]] take up the hardest questions. Ministers help to run their countries.",
+     "They will talk about cutting the [[greenhouse-gases|gases]] that warm the Earth. Nearly 200 countries must agree. The meeting is due to end on Friday."
+    ]
+   },
+   "o": {
+    "t": "COP31 enters its final week as ministers take charge of the talks",
+    "b": [
+     "[[cop|COP31]], the United Nations summit, or big meeting, on [[climate-change|climate change]], has begun its final week in Antalya, Türkiye. In the first week, negotiators, who bargain for their countries, worked on technical details. After that week, many open questions went to [[minister|ministers]], senior members of governments.",
+     "From Monday 16 November, ministers take up the hardest questions. Two environment ministers, Carsten Schneider of Germany and Bhupender Yadav of India, are to lead the ministers' consultations, or discussions, on cutting [[greenhouse-gases|greenhouse gas]] emissions. These are the heat-trapping gases released into the air. A first [[draft|draft]], or early version, of the main decision is expected early this week.",
+     "The main decision must be agreed by consensus, meaning general agreement, among nearly 200 countries. The summit is due to end on Friday 20 November."
+    ]
+   },
+   "local": {
+    "IN": "India has a part in the final week: its environment minister, Bhupender Yadav, is one of two ministers due to lead the consultations on cutting greenhouse gases."
+   },
+   "think": "When a group has a hard problem, who should work on it first: the experts or the people in charge? Why?",
+   "quiz": {
+    "q": "Who takes up the hardest questions at COP31 in the final week?",
+    "a": [
+     "Scientists",
+     "Journalists",
+     "Judges",
+     "Ministers"
+    ],
+    "c": 3
+   },
+   "src": [
+    [
+     "IANS via The Morung Express, 15 Nov",
+     "https://www.morungexpress.com/un-talks-enter-decisive-phase-amid-deep-divisions-over-climate-resilience"
+    ],
+    [
+     "Climate Home News, 14 Nov",
+     "https://www.climatechangenews.com/2026/11/14/cop31-bulletin-day-6-limited-progress-as-ministers-arrive-in-antalya/"
+    ],
+    [
+     "Hurriyet Daily News, 15 Nov",
+     "https://www.hurriyetdailynews.com/turkiye-eyes-ambitious-climate-outcome-as-cop31-enters-final-week-229417"
+    ],
+    [
+     "German Federal Foreign Office, 8 Nov",
+     "https://www.auswaertiges-amt.de/en/newsroom/news/2809770-2809770"
+    ],
+    [
+     "Economic Times via fvbb.com, 15 Nov",
+     "https://fvbb.com/ns/india-s-climate-stance-in-focus-as-yadav-set/330888"
+    ]
+   ]
+  },
+  {
+   "id": "g-vulcan",
+   "scope": "global",
+   "cat": "tech",
+   "emoji": "📡",
+   "date": "2026-11-15",
+   "kind": "news",
+   "x": {
+    "t": "A rocket loses 40 satellites, and its makers look for the cause",
+    "b": [
+     "A rocket called Vulcan took off from Florida, in the USA, on Sunday. It carried 40 [[satellite|satellites]].",
+     "About 10 minutes later, something went wrong. The satellites did not reach their path around Earth. They were lost.",
+     "The satellites were built to bring the internet from space. The rocket's makers do not know the cause yet. They say they will work with others to find it."
+    ]
+   },
+   "o": {
+    "t": "40 Amazon internet satellites lost as Vulcan rocket fails",
+    "b": [
+     "A Vulcan rocket lifted off from [[cape-canaveral|Cape Canaveral]] in Florida, USA, on Sunday 15 November. It carried 40 [[satellite|satellites]], machines that travel around Earth. About 10 minutes into the flight, there was a problem. The rocket's maker, United Launch Alliance (ULA), said the rocket failed to deliver the satellites to [[orbit|orbit]], a path around Earth. They were lost.",
+     "The satellites were for [[amazon-leo|Amazon Leo]], a network, or linked group, of internet satellites that belongs to the company Amazon. Amazon plans more than 3,000, and about 400 had reached space before Sunday. Amazon Leo is designed to compete with Starlink, run by the company SpaceX.",
+     "This was Vulcan's fifth flight, and its first in nine months. Amazon had booked 38 Vulcan flights. ULA says it does not yet know the cause. It says it will work with its customer and other organisations to find out what happened."
+    ]
+   },
+   "think": "When something you worked hard on goes wrong, what is the first thing you would want to find out?",
+   "quiz": {
+    "q": "How many satellites was the Vulcan rocket carrying?",
+    "a": [
+     "4",
+     "14",
+     "40",
+     "3,000"
+    ],
+    "c": 2
+   },
+   "src": [
+    [
+     "Spaceflight Now, 15 Nov",
+     "https://spaceflightnow.com/2026/11/15/ula-suffers-first-total-mission-failure-with-loss-of-vulcan-rocket-carrying-40-amazon-leo-satellites/"
+    ],
+    [
+     "Space.com, 15 Nov",
+     "https://www.space.com/space-exploration/launches-spacecraft/ula-vulcan-centaur-return-to-flight-amazon-leo-internet-satellite-launch"
+    ],
+    [
+     "WKMG ClickOrlando, 15 Nov",
+     "https://www.clickorlando.com/news/local/2026/11/15/first-ula-vulcan-rocket-suffers-in-flight-anomaly-fails-to-place-amazon-mission-in-orbit/"
+    ],
+    [
+     "Amazon, 9 Nov (updated 14 Nov)",
+     "https://www.aboutamazon.com/news/amazon-leo/amazon-leo-vulcan-satellites-launch"
+    ]
+   ]
+  },
+  {
+   "id": "g-eurovision-asia",
+   "scope": "global",
+   "cat": "culture",
+   "emoji": "🎤",
+   "date": "2026-11-14",
+   "kind": "news",
+   "x": {
+    "t": "Singer from the Philippines wins a new song contest",
+    "b": [
+     "A singer called Carmelle has won a song contest. She is 19 and comes from the Philippines.",
+     "It was the first Asian [[eurovision|Eurovision Song Contest]]. Eleven countries took part in Bangkok, Thailand.",
+     "Groups of judges, called [[jury|juries]], gave points. People watching voted too. Their votes counted for half of the result. Carmelle scored 211 points."
+    ]
+   },
+   "o": {
+    "t": "Philippines wins the first Eurovision Song Contest Asia",
+    "b": [
+     "Carmelle, a 19-year-old singer from the Philippines, has won the first Asian [[edition|edition]] of the [[eurovision|Eurovision Song Contest]]. An edition is one version of a repeated event. It was held on Saturday 14 November in Bangkok, Thailand. Her song, \"Sobra-Sobra\", is sung in Tagalog and English.",
+     "Each of the 11 countries had a [[jury|jury]], a group of people chosen to judge. Their scores were combined with the [[public-vote|public vote]], meaning votes from people watching, which counted for half of the result. Carmelle scored 211 points: 93 from the juries and 118 from the public. Thailand came second with 170 and Vietnam third with 164.",
+     "The Eurovision Song Contest began in 1956. The European Broadcasting Union runs it. The Asian contest's winning country does not automatically hold the next one. Carmelle will be invited to perform as a guest at the 2027 Eurovision Song Contest in Burgas, Bulgaria."
+    ]
+   },
+   "think": "If your school held a talent show, who should choose the winner: a few judges, everyone watching, or both? Why?",
+   "quiz": {
+    "q": "How much of the result did the votes of people watching count for?",
+    "a": [
+     "None of it",
+     "A quarter",
+     "Half",
+     "All of it"
+    ],
+    "c": 2
+   },
+   "src": [
+    [
+     "European Broadcasting Union, 14 Nov",
+     "https://www.ebu.ch/news/2026/11/winner-inaugural-eurovision-song-contest-asia-2026-in-bangkok"
+    ],
+    [
+     "AP via WRAL, 14 Nov (updated 15 Nov)",
+     "https://www.wral.com/news/ap/099ca-filipino-singer-carmelle-storms-to-victory-in-eurovision-asia-debut-in-bangkok/"
+    ],
+    [
+     "The Independent via Yahoo News, 15 Nov",
+     "https://sg.news.yahoo.com/philippines-wins-inaugural-eurovision-asia-053950035.html"
+    ],
+    [
+     "GMA News, 15 Nov",
+     "https://www.gmanetwork.com/news/showbiz/chikaminute/1009545/ph-s-carmelle-collado-wins-eurovision-song-contest-asia-2026/story/"
+    ],
+    [
+     "The Philippine Star, 16 Nov",
+     "https://www.philstar.com/entertainment/2026/11/16/2570335/carmelle-collado-proves-world-class-pinoy-talent-historic-eurovision-asia-win"
+    ],
+    [
+     "Ynetnews, 14 Nov",
+     "https://www.ynetnews.com/culture/article/hjvrvflrmg"
+    ]
+   ]
+  },
+  {
+   "id": "in-ropuiliani",
+   "scope": "IN",
+   "cat": "history",
+   "emoji": "🏛️",
+   "date": "2026-11-15",
+   "kind": "news",
+   "x": {
+    "t": "A new museum is named after a Mizo woman chief",
+    "b": [
+     "A [[museum|museum]] in [[mizoram|Mizoram]] is named after Ropuiliani. She was a Mizo woman chief.",
+     "She lived in the 1800s. Back then, Britain ruled India. Ropuiliani stood up to that rule.",
+     "The museum remembers Mizo [[freedom-fighter|freedom fighters]]. It also shows Mizo culture and history. Prime Minister Narendra Modi opened it at a ceremony on Sunday by video link."
+    ]
+   },
+   "o": {
+    "t": "Museum named after Mizo chieftainess Ropuiliani is inaugurated",
+    "b": [
+     "A [[museum|museum]] named after Ropuiliani was inaugurated on Sunday 15 November. To inaugurate is to launch something formally at a ceremony. Prime Minister Narendra Modi did so by video link. The museum is in Aizawl district in [[mizoram|Mizoram]], a state in India's northeast.",
+     "Ropuiliani was a Mizo chieftainess, a woman who leads her people as their chief. She lived in the 19th century, the 1800s, when Britain ruled India. That is called colonial rule: one country controlling another. She resisted that rule.",
+     "The government calls it the Ropuiliani Tribal Freedom Fighter Museum. A [[tribe|tribe]] is a community that shares ancestors, a language and customs. [[freedom-fighter|Freedom fighters]] are people who struggled for freedom. The ceremony took place on Janjatiya Gaurav Divas, a day that this year marked the 151st birth anniversary of the tribal leader [[birsa-munda|Birsa Munda]]. The museum remembers Mizo freedom fighters and shows Mizo culture and history."
+    ]
+   },
+   "think": "If you could design one room in a museum about your own community, what would you put in it?",
+   "quiz": {
+    "q": "In which Indian state is the museum named after Ropuiliani?",
+    "a": [
+     "Mizoram",
+     "Manipur",
+     "Odisha",
+     "Jharkhand"
+    ],
+    "c": 0
+   },
+   "src": [
+    [
+     "ANI, 15 Nov",
+     "https://aninews.in/news/national/general-news/on-janjatiya-gaurav-diwas-pm-modi-inaugurates-over-240-tribal-development-projects20261115120524/"
+    ],
+    [
+     "IANS via The Hans India, 15 Nov",
+     "https://www.thehansindia.com/news/national/pm-modi-inaugurates-ropuiliani-tribal-freedom-fighters-museum-in-mizoram-1142384"
+    ],
+    [
+     "PIB, 14 Nov",
+     "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2336214&reg=48&lang=2"
+    ],
+    [
+     "PTI via Nagaland Post, 14 Nov",
+     "https://nagalandpost.com/pm-to-inaugurate-ropuiliani-museum-in-mizoram/"
+    ]
+   ]
+  },
+  {
+   "id": "g-spain-run",
+   "scope": "global",
+   "cat": "sports",
+   "emoji": "⚽",
+   "date": "2026-11-15",
+   "kind": "news",
+   "x": {
+    "t": "England beat Spain, who had not lost in 43 games",
+    "b": [
+     "Spain's football team had played 43 games without losing. That is a very long run.",
+     "On Sunday, England beat them 3-2. The game was in Madrid, in Spain.",
+     "England scored three goals first. One was a [[penalty|penalty]], a free shot at goal. Then Spain scored two. England finished top of their group."
+    ]
+   },
+   "o": {
+    "t": "England win 3-2 in Madrid to end Spain's 43-game unbeaten run",
+    "b": [
+     "England beat Spain 3-2 in Madrid on Sunday 15 November and ended Spain's [[unbeaten-run|unbeaten run]] of 43 games. An unbeaten run is a string of matches without a defeat. The match was in the [[nations-league|Nations League]], a competition for the [[national-team|national teams]] of Europe, the teams that play for their countries.",
+     "Harry Kane scored England's first goal from a [[penalty|penalty]] just before half-time. A penalty is a free shot at goal. Early in the second half, Ezri Konsa scored with a header, using his head, and Ben White added a third goal a few minutes later.",
+     "Spain then fought back. An England player was [[sent-off|sent off]], which means the referee ordered him to leave the pitch for breaking the rules. Mikel Oyarzabal scored from the penalty that followed, and Nico Williams got Spain's second goal. England held on and finished top of the group."
+    ]
+   },
+   "think": "When a long run of success comes to an end, what is a good way to start again?",
+   "quiz": {
+    "q": "How many games had Spain played without losing before this match?",
+    "a": [
+     "23",
+     "33",
+     "40",
+     "43"
+    ],
+    "c": 3
+   },
+   "src": [
+    [
+     "AP via ClickOnDetroit, 15 Nov",
+     "https://www.clickondetroit.com/sports/2026/11/15/england-ends-spains-43-game-unbeaten-streak-with-3-2-win-in-nations-league/"
+    ],
+    [
+     "Al Jazeera, 15 Nov",
+     "https://www.aljazeera.com/sports/2026/11/15/england-stun-spain-to-end-la-rojas-43-game-unbeaten-run"
+    ]
+   ]
+  },
+  {
+   "id": "in-kia",
+   "scope": "IN",
+   "cat": "business",
+   "emoji": "🏭",
+   "date": "2026-11-13",
+   "kind": "news",
+   "x": {
+    "t": "Kia plans a second car factory in India",
+    "b": [
+     "Kia is a car company from South Korea. It plans to build a second factory in India.",
+     "A factory costs a lot of money to build. Spending money now to earn more later is called [[investment|investment]].",
+     "The new factory is planned for Anantapur, in [[andhra-pradesh|Andhra Pradesh]]. It could make up to 200,000 vehicles a year. It is due to start making them in 2030."
+    ]
+   },
+   "o": {
+    "t": "Kia plans a second factory in Andhra Pradesh, to start in 2030",
+    "b": [
+     "Kia, a South Korean carmaker, said on Friday 13 November that it plans to build a second factory in India. It is planned for Anantapur, in the state of [[andhra-pradesh|Andhra Pradesh]], where Kia has had a car factory since 2019.",
+     "A plan like this is an [[investment|investment]]. That means spending money now on something that is expected to earn more money later. The new factory could make up to 200,000 vehicles a year. That figure is its [[capacity|capacity]], the most it can produce in that time.",
+     "The second factory would let Kia make more vehicles in India than it can today. With both factories, it would be able to build 600,000 or more a year. The new factory is due to start making vehicles in 2030."
+    ]
+   },
+   "think": "If a big new factory opened near your home, what do you think would change in your town?",
+   "quiz": {
+    "q": "In which year is Kia's new factory due to start making vehicles?",
+    "a": [
+     "2019",
+     "2026",
+     "2028",
+     "2030"
+    ],
+    "c": 3
+   },
+   "src": [
+    [
+     "Yonhap via The Korea Herald, 13 Nov",
+     "https://www.koreaherald.com/article/10936332"
+    ],
+    [
+     "electrive, 13 Nov",
+     "https://www.electrive.com/2026/11/13/kia-to-invest-around-e1-8-billion-in-new-plant-in-india/"
+    ]
+   ]
+  }
+ ],
+ "glossary": {
+  "aiims": [
+   "AIIMS",
+   "places",
+   "A hospital in New Delhi.",
+   "A hospital in New Delhi. In November 2026 it said its doctors had done India's first open surgery on a baby's spine before birth."
+  ],
+  "amazon-leo": [
+   "Amazon Leo",
+   "tech",
+   "A group of internet satellites that belongs to the company Amazon.",
+   "The company Amazon's network of internet satellites. Amazon plans more than 3,000 of them, and it is designed to compete with Starlink."
+  ],
+  "andhra-pradesh": [
+   "Andhra Pradesh",
+   "places",
+   "A state in India. It has a coast on the Bay of Bengal.",
+   "A state in India with a coast on the Bay of Bengal. Anantapur is a place in this state."
+  ],
+  "asean": [
+   "ASEAN",
+   "civics",
+   "A group of countries in Southeast Asia that work together.",
+   "Short for the Association of Southeast Asian Nations, a group of countries in Southeast Asia that work together on trade and other shared issues."
+  ],
+  "bay-of-bengal": [
+   "Bay of Bengal",
+   "places",
+   "A big part of the sea to the east of India.",
+   "A large part of the north Indian Ocean, to the east of India. Andhra Pradesh and Odisha have coasts on it."
+  ],
+  "birsa-munda": [
+   "Birsa Munda",
+   "people",
+   "A leader of the Munda tribe who stood up to British rule in India.",
+   "A leader from the Munda tribal community, born in 1875. He led a movement against British rule in what are now Bihar and Jharkhand."
+  ],
+  "capacity": [
+   "capacity",
+   "words",
+   "The most that something can hold or make.",
+   "The largest amount that something can hold or produce. A factory's capacity is the most it can make in a set time."
+  ],
+  "cape-canaveral": [
+   "Cape Canaveral",
+   "places",
+   "A place in Florida, in the USA, where rockets are launched.",
+   "A place in Florida, in the United States. Rockets are launched from Cape Canaveral Space Force Station."
+  ],
+  "climate-change": [
+   "climate change",
+   "science",
+   "Earth is slowly getting warmer, and the weather is changing with it.",
+   "The long-term warming of the Earth and the changes in weather that come with it. Burning fossil fuels is the main cause."
+  ],
+  "cop": [
+   "COP",
+   "civics",
+   "A big meeting where countries talk about climate change.",
+   "Short for Conference of the Parties: the United Nations climate summit, where countries meet to agree on action on climate change."
+  ],
+  "cyclone": [
+   "cyclone",
+   "science",
+   "A big spinning storm. It forms over the sea and brings strong wind and rain.",
+   "A large storm that forms over the sea, with strong winds turning around a centre. India's weather office calls a system a cyclonic storm when its winds reach 62 kilometres an hour."
+  ],
+  "deep-space-network": [
+   "Deep Space Network",
+   "tech",
+   "The system NASA uses to talk to faraway spacecraft.",
+   "NASA's system for communicating with distant spacecraft such as Voyager 1. It is managed by the Jet Propulsion Laboratory."
+  ],
+  "depression": [
+   "depression",
+   "science",
+   "In weather, a patch of low air pressure with wind and rain. It is weaker than a cyclone.",
+   "In weather, an area of low air pressure that brings wind and rain. Over the sea, a depression can strengthen into a cyclonic storm."
+  ],
+  "draft": [
+   "draft",
+   "words",
+   "A first try at writing something. It can still be changed.",
+   "An early version of a piece of writing, such as an agreement, which can still be changed before it is final."
+  ],
+  "earthshot-prize": [
+   "Earthshot Prize",
+   "words",
+   "A yearly prize for ideas that help the planet.",
+   "A yearly award, founded by Britain's Prince William, for ideas that help the planet. Five winners each receive 1 million pounds."
+  ],
+  "edition": [
+   "edition",
+   "words",
+   "One time that a contest or show is held.",
+   "One version of an event that is held more than once. The contest in Bangkok was the first Asian edition of the Eurovision Song Contest."
+  ],
+  "emblem": [
+   "emblem",
+   "words",
+   "A picture or design that stands for a group.",
+   "A design or symbol that stands for a country, group or organisation. ASEAN's emblem shows 11 rice stalks."
+  ],
+  "eurovision": [
+   "Eurovision Song Contest",
+   "words",
+   "A song contest that began in 1956. Countries take part in it.",
+   "A song contest organised by the European Broadcasting Union. It began in 1956."
+  ],
+  "finalist": [
+   "finalist",
+   "words",
+   "Someone who reaches the last round of a contest.",
+   "A person, team or project that reaches the last stage of a competition, from which the winners are chosen."
+  ],
+  "freedom-fighter": [
+   "freedom fighter",
+   "words",
+   "A person who takes part in a struggle for their people's freedom.",
+   "A person who takes part in a struggle for political freedom. In India, the term is used for people who opposed British rule."
+  ],
+  "grand-slam": [
+   "Grand Slam",
+   "words",
+   "One of the biggest contests in tennis.",
+   "In tennis, one of the biggest tournaments of the year. The French Open is one of them."
+  ],
+  "greenhouse-gases": [
+   "greenhouse gases",
+   "science",
+   "Gases in the air that trap heat and make the Earth warmer.",
+   "Gases in the air, such as carbon dioxide, that trap heat around the Earth."
+  ],
+  "imd": [
+   "IMD",
+   "civics",
+   "India's weather office. It watches the weather and warns people about storms.",
+   "The India Meteorological Department, India's weather office. It forecasts the weather, tracks storms and names cyclones over the north Indian Ocean."
+  ],
+  "interstellar": [
+   "interstellar space",
+   "science",
+   "The space between the stars.",
+   "Space beyond the heliopause, the place where the Sun's constant flow of material and its magnetic field stop affecting their surroundings."
+  ],
+  "investment": [
+   "investment",
+   "words",
+   "Spending money now on something that should bring in more money later.",
+   "Money put into something, such as a factory or a business, in the hope that it will earn more money in the future."
+  ],
+  "jpl": [
+   "Jet Propulsion Laboratory",
+   "places",
+   "A NASA centre in California. The Voyager 1 mission is run from there.",
+   "A NASA laboratory in Pasadena, California. The Voyager mission is run from there."
+  ],
+  "jury": [
+   "jury",
+   "words",
+   "A group of people chosen to judge a contest.",
+   "A group of people chosen to judge a competition and give scores. In this contest each of the 11 countries had one national jury."
+  ],
+  "light-day": [
+   "light-day",
+   "science",
+   "How far light travels in one whole day. It is a very long way.",
+   "A unit of distance: how far light travels in 24 hours, about 25.9 billion kilometres."
+  ],
+  "minister": [
+   "minister",
+   "civics",
+   "A senior member of a government who looks after one area, such as the environment.",
+   "A senior member of a government who is in charge of one area of its work, such as the environment."
+  ],
+  "mizoram": [
+   "Mizoram",
+   "places",
+   "A state in the northeast of India.",
+   "A state in the northeast of India. Aizawl is one of its districts."
+  ],
+  "morse-code": [
+   "Morse code",
+   "words",
+   "A code that spells letters with short and long signals.",
+   "A code that spells out letters using short and long signals, such as flashes of light or beeps."
+  ],
+  "mumbai": [
+   "Mumbai",
+   "places",
+   "A very big city in western India.",
+   "A very large city in western India, in the state of Maharashtra."
+  ],
+  "museum": [
+   "museum",
+   "words",
+   "A place that keeps and shows interesting and important things.",
+   "A building in which interesting and valuable things, such as works of art or historical or scientific objects, are collected and shown to the public."
+  ],
+  "national-team": [
+   "national team",
+   "words",
+   "A team of players picked to play for their country.",
+   "A team of players chosen to represent their country in matches against other countries."
+  ],
+  "nations-league": [
+   "Nations League",
+   "words",
+   "A football contest between teams from Europe.",
+   "The UEFA Nations League, a competition between the national teams of Europe."
+  ],
+  "orbit": [
+   "orbit",
+   "science",
+   "The path something follows as it goes round and round a planet, moon or star.",
+   "The curved path an object follows around a planet, moon or star, held there by gravity."
+  ],
+  "penalty": [
+   "penalty",
+   "words",
+   "A free shot at goal in football, with only the goalkeeper in the way.",
+   "In football, a free shot at goal with only the goalkeeper to beat. It is given when a team breaks the rules close to its own goal."
+  ],
+  "public-vote": [
+   "public vote",
+   "words",
+   "When people watching a contest vote for the one they like best.",
+   "A vote that is open to the people watching, not only to a small group of judges. In this contest it counted for half of the result."
+  ],
+  "satellite": [
+   "satellite",
+   "tech",
+   "A machine sent into space that travels round and round Earth.",
+   "A machine sent into orbit around Earth or another body. Satellites are used for jobs such as communication, taking pictures and studying weather."
+  ],
+  "sent-off": [
+   "sent off",
+   "words",
+   "Told by the referee to leave the game.",
+   "Ordered by the referee to leave the pitch for breaking the rules. The player's team has to carry on with one player fewer."
+  ],
+  "set": [
+   "set",
+   "words",
+   "One part of a tennis match.",
+   "One part of a tennis match, made up of games. Players have to win sets to win the match."
+  ],
+  "simulation": [
+   "simulation",
+   "tech",
+   "A practice run that copies the real thing, sometimes on a computer.",
+   "A model, often on a computer, that imitates something real, so that an idea can be tested without doing it for real."
+  ],
+  "spine": [
+   "spine",
+   "science",
+   "The row of small bones down the middle of your back.",
+   "The row of small bones down the middle of the back, also called the backbone. It protects the spinal cord, a thick bundle of nerves."
+  ],
+  "summit": [
+   "summit",
+   "words",
+   "A meeting of the top leaders of countries.",
+   "A meeting of top leaders, such as presidents and prime ministers, to talk about important issues. The word also means the top of a mountain."
+  ],
+  "timor-leste": [
+   "Timor-Leste",
+   "places",
+   "A country in Southeast Asia. It is the newest member of ASEAN.",
+   "A country in Southeast Asia. It is the 11th and newest member of ASEAN."
+  ],
+  "tribe": [
+   "tribe",
+   "words",
+   "A group of families who share a language, customs and a long history together.",
+   "A community of people who share ancestors, a language and customs."
+  ],
+  "ultrasound": [
+   "ultrasound",
+   "tech",
+   "A way of seeing inside the body using sound.",
+   "A way of making pictures of the inside of the body using sound waves that are too high for people to hear."
+  ],
+  "unbeaten-run": [
+   "unbeaten run",
+   "words",
+   "A row of games without losing.",
+   "A number of matches in a row that a team has won or drawn, without losing any."
+  ],
+  "wta-finals": [
+   "WTA Finals",
+   "words",
+   "A tennis contest at the end of the year for the best eight women players.",
+   "The season-ending event of women's tennis. Only the best eight women players of the year take part."
+  ]
+ },
+ "keys": {
+  "g-voyager": {
+   "type": "number",
+   "v": "24 hours",
+   "l": "how long a radio signal from Earth will take to reach Voyager 1 on Wednesday"
+  },
+  "in-earthshot": {
+   "type": "number",
+   "v": "Nearly 1 million",
+   "l": "children in India reached by the children's challenge"
+  },
+  "in-fetal-surgery": {
+   "type": "number",
+   "v": "6 hours",
+   "l": "how long the operation at AIIMS lasted, after more than five weeks of planning"
+  },
+  "g-asean-flag": {
+   "type": "number",
+   "v": "11",
+   "l": "rice stalks on ASEAN's updated flag, one for each member"
+  },
+  "g-andreeva": {
+   "type": "number",
+   "v": "0",
+   "l": "sets lost by Mirra Andreeva in her five matches at the WTA Finals"
+  },
+  "g-cop31": {
+   "type": "number",
+   "v": "20 Nov",
+   "l": "the day the COP31 summit is due to end"
+  },
+  "g-vulcan": {
+   "type": "number",
+   "v": "40",
+   "l": "internet satellites lost when the rocket failed to deliver them to orbit"
+  },
+  "g-eurovision-asia": {
+   "type": "number",
+   "v": "211 points",
+   "l": "Carmelle's winning score: 93 from the juries and 118 from the public vote"
+  },
+  "g-spain-run": {
+   "type": "number",
+   "v": "43",
+   "l": "games Spain had played without losing before England beat them"
+  },
+  "in-kia": {
+   "type": "number",
+   "v": "200,000",
+   "l": "vehicles a year that Kia's planned second factory in India could make, at most"
+  }
+ },
+ "xkeys": {
+  "g-voyager": {
+   "type": "check",
+   "q": "What did Voyager 1 take in 1990?",
+   "a": [
+    "A picture of Earth",
+    "A rock from the Moon"
+   ],
+   "c": 0,
+   "right": "Right! In 1990, Voyager 1 took a picture of Earth from very far away.",
+   "wrong": "Not quite. In 1990, Voyager 1 took a picture of Earth from very far away."
+  },
+  "in-earthshot": {
+   "type": "check",
+   "q": "Where are the Earthshot Prize events this week?",
+   "a": [
+    "In London",
+    "In Mumbai"
+   ],
+   "c": 1,
+   "right": "Right! The events are in Mumbai, in India.",
+   "wrong": "Not quite. The events are in Mumbai, in India."
+  },
+  "in-akvan": {
+   "type": "check",
+   "q": "Who has been asked to come back to shore?",
+   "a": [
+    "Fishermen",
+    "Pilots"
+   ],
+   "c": 0,
+   "right": "Right! Fishermen have been asked to come back to shore.",
+   "wrong": "Not quite. Fishermen have been asked to come back to shore."
+  },
+  "in-fetal-surgery": {
+   "type": "check",
+   "q": "How many doctors and nurses worked as one team?",
+   "a": [
+    "Only 3",
+    "More than 30"
+   ],
+   "c": 1,
+   "right": "Right! More than 30 doctors and nurses worked as one team.",
+   "wrong": "Not quite. More than 30 doctors and nurses worked as one team."
+  },
+  "g-asean-flag": {
+   "type": "check",
+   "q": "Who is the new rice stalk for?",
+   "a": [
+    "Timor-Leste",
+    "The Philippines"
+   ],
+   "c": 0,
+   "right": "Right! The new stalk is for Timor-Leste, the newest member.",
+   "wrong": "Not quite. The new stalk is for Timor-Leste, the newest member."
+  },
+  "g-andreeva": {
+   "type": "check",
+   "q": "Had Mirra Andreeva played in this contest before?",
+   "a": [
+    "Yes, many times",
+    "No, it was her first time"
+   ],
+   "c": 1,
+   "right": "Right! It was her first time in this contest, and she won.",
+   "wrong": "Not quite. It was her first time in this contest."
+  },
+  "g-cop31": {
+   "type": "check",
+   "q": "When is the meeting due to end?",
+   "a": [
+    "On Friday",
+    "Next month"
+   ],
+   "c": 0,
+   "right": "Right! The meeting is due to end on Friday.",
+   "wrong": "Not quite. The meeting is due to end on Friday."
+  },
+  "g-vulcan": {
+   "type": "check",
+   "q": "What was the rocket carrying?",
+   "a": [
+    "People",
+    "Satellites"
+   ],
+   "c": 1,
+   "right": "Right! The rocket carried satellites.",
+   "wrong": "Not quite. The rocket carried satellites."
+  },
+  "g-eurovision-asia": {
+   "type": "check",
+   "q": "Which country does Carmelle come from?",
+   "a": [
+    "The Philippines",
+    "Thailand"
+   ],
+   "c": 0,
+   "right": "Right! Carmelle comes from the Philippines.",
+   "wrong": "Not quite. Carmelle comes from the Philippines. The contest was held in Thailand."
+  },
+  "in-ropuiliani": {
+   "type": "check",
+   "q": "Who was Ropuiliani?",
+   "a": [
+    "A film star",
+    "A Mizo woman chief"
+   ],
+   "c": 1,
+   "right": "Right! Ropuiliani was a Mizo woman chief.",
+   "wrong": "Not quite. Ropuiliani was a Mizo woman chief."
+  },
+  "g-spain-run": {
+   "type": "check",
+   "q": "Who won the game in Madrid?",
+   "a": [
+    "Spain",
+    "England"
+   ],
+   "c": 1,
+   "right": "Right! England beat Spain 3-2.",
+   "wrong": "Not quite. England beat Spain 3-2."
+  },
+  "in-kia": {
+   "type": "check",
+   "q": "Which country is Kia from?",
+   "a": [
+    "South Korea",
+    "Brazil"
+   ],
+   "c": 0,
+   "right": "Right! Kia is a car company from South Korea.",
+   "wrong": "Not quite. Kia is a car company from South Korea."
+  }
+ },
+ "deep": {
+  "g-voyager": {
+   "ctx": "Suzanne Dodd is the Voyager project manager at NASA's Jet Propulsion Laboratory in Pasadena, California. AP reports that controllers briefly lost contact with the spacecraft in October and are still working out why, and EarthSky describes Voyager 1 as the most distant human-made object. NASA gives the date of the milestone as 18 November; an earlier estimate in BBC Sky at Night Magazine put it around 13 November.",
+   "ask": "Should space agencies spend more on machines that can travel for many years, like Voyager 1, or on sending people into space?",
+   "jobs": [
+    "Deep space communications engineer",
+    "Planetary scientist",
+    "Spacecraft navigator"
+   ]
+  },
+  "in-earthshot": {
+   "ctx": "These are the sixth yearly Earthshot awards, and the prize's organisers say the 15 finalists were chosen from nearly 7,000 nominations across 169 countries. The children's challenge reached 15,000 schools in 24 Indian states. The awards night is due to be streamed on Prime Video on 30 November.",
+   "ask": "Is a big prize for a few winners the best way to help the planet, or would the same money do more good if it were shared among many smaller projects?",
+   "jobs": [
+    "Environmental engineer",
+    "Electric vehicle designer",
+    "Social entrepreneur (starts an organisation to solve a problem in society)"
+   ]
+  },
+  "in-akvan": {
+   "ctx": "The India Meteorological Department names cyclones over the north Indian Ocean, which covers the Bay of Bengal and the Arabian Sea. The current list was released in April 2020: thirteen countries each gave 13 names, 169 in all, and the names are used one after another and never repeated. A system gets its name when its winds reach 62 kilometres an hour and it becomes a cyclonic storm, and Akvan is a name contributed by Iran.",
+   "ask": "When a forecast is still uncertain, is it better to warn people early and risk a false alarm, or to wait until forecasters are surer?",
+   "jobs": [
+    "Meteorologist (a scientist who studies and forecasts the weather)",
+    "Disaster management officer",
+    "Oceanographer (a scientist who studies the sea)"
+   ]
+  },
+  "in-fetal-surgery": {
+   "ctx": "AIIMS said the operation took place on 12 November at its Neurosciences Centre, when the pregnancy had reached 25 weeks, and that it was free for the family under a government scheme. The team included specialists in pregnancy and birth, neurosurgery, anaesthesia, plastic surgery, medical scans and the care of newborn babies. Doctors said such surgery is for selected pregnancies only, and the lead neurosurgeon said it is not a cure and that long-term care remains essential.",
+   "ask": "When a new kind of operation becomes possible but is still rare, should many hospitals start offering it quickly, or should only a few do it until doctors have learned more?",
+   "jobs": [
+    "Paediatric neurosurgeon (a surgeon who operates on children's nerves, spine and brain)",
+    "Neonatal nurse (a nurse who cares for newborn babies)",
+    "Radiologist (a doctor who reads scans such as ultrasound)"
+   ]
+  },
+  "g-asean-flag": {
+   "ctx": "The updated flag shows 11 rice stalks inside a red and white circle on a blue background, one for each member state. DZRH News reports that the earlier emblem had 10 stalks, and that the stalks stand for the hope of unity, friendship and solidarity among Southeast Asian nations. The Philippine News Agency reports that an agreement called the Cebu Protocol formally recognises Timor-Leste as the 11th member, and that it is the first change to the ASEAN Charter, the group's main set of rules, since the charter was signed in 2007.",
+   "ask": "Should a group's flag show every member separately, with one stalk or star each, or is one shared symbol a better way to show unity?",
+   "jobs": [
+    "Graphic designer",
+    "Protocol officer (a person who plans official ceremonies)",
+    "Diplomat"
+   ]
+  },
+  "g-andreeva": {
+   "ctx": "Andreeva beat Jessica Pegula 6-3, 6-4 in the semi-final and Aryna Sabalenka 6-4, 6-0 in the group stage. On her way to the final she lost only 18 games, the fewest by any finalist under the round-robin format used since 2003, in which the players in a group all play each other. Svitolina, the 2018 champion, was in her third final, and the event moved this year to Indian Wells from Riyadh in Saudi Arabia.",
+   "ask": "Should a sport's top event be open only to the year's best eight players, or should more players get the chance to take part?",
+   "jobs": [
+    "Tennis umpire",
+    "Sports psychologist",
+    "Strength and conditioning coach"
+   ]
+  },
+  "g-cop31": {
+   "ctx": "Türkiye presides over COP31, and Australia leads the negotiations. The planned main outcome is called a cover decision, which Hurriyet Daily News describes as a political statement negotiated by consensus. Climate Home News reports that the UN's climate chief, Simon Stiell, called the progress so far constructive and urged governments to move quickly to the hardest issues.",
+   "ask": "At climate summits, the main decision has to be agreed by consensus among nearly 200 countries. Is it better for every country to have to agree, or for a large majority to be able to decide by a vote?",
+   "jobs": [
+    "Diplomat",
+    "Environmental lawyer",
+    "Conference interpreter (translates what speakers say into another language)"
+   ]
+  },
+  "g-vulcan": {
+   "ctx": "Spaceflight Now reports that this was the first outright failure of a ULA rocket since the company was formed in 2006. The rocket's six side boosters appeared to work normally and fell away. Spaceflight Now also reports that the problem came later, while the engine of the upper stage, the top part of the rocket, was firing; Space.com does not say which part was involved.",
+   "ask": "When a launch fails, should a company share everything it learns with the public and with its rivals, or is it fair for it to keep some findings private?",
+   "jobs": [
+    "Satellite communications engineer",
+    "Flight data analyst",
+    "Reliability engineer (works to make machines fail less often)"
+   ]
+  },
+  "g-eurovision-asia": {
+   "ctx": "The Eurovision Song Contest, organised by the European Broadcasting Union, began in 1956, and its first Asian edition in Bangkok had 11 countries: Bangladesh, Bhutan, Cambodia, Laos, Malaysia, Mongolia, Nepal, the Philippines, South Korea, Thailand and Vietnam. The Independent reports that India was not one of them. The organiser gives Thailand 170 points and Vietnam 164, while one newspaper, The Philippine Star, printed 169 and 165.",
+   "ask": "Carmelle's winning song is sung in Tagalog and English. In a contest between countries, should singers sing in a language of their own country, or in any language they choose?",
+   "jobs": [
+    "Songwriter",
+    "Television producer",
+    "Sound engineer"
+   ]
+  },
+  "in-ropuiliani": {
+   "ctx": "IANS reports that the British arrested and imprisoned Ropuiliani, and both IANS and PTI report that she died in captivity in January 1895. IANS also reports that the Union Ministry of Tribal Affairs developed the museum, with an open-air theatre, a traditional hut and a heritage walk, and that the ministry is setting up 11 such museums in 10 states. The government said the same day's programme included the inauguration of 38 residential schools for tribal students.",
+   "ask": "Should a museum about a freedom struggle give most of its space to a few well-known leaders, or try to tell the stories of many lesser-known people?",
+   "jobs": [
+    "Museum curator",
+    "Archivist (a person who looks after old records)",
+    "Exhibition designer"
+   ]
+  },
+  "g-spain-run": {
+   "ctx": "Al Jazeera reports that Spain's last defeat before this one was a 1-0 loss to Colombia in March 2024, in a friendly, a match that is not part of a competition. AP reports that Harry Kane's penalty was his 93rd goal for England, a national record, and that both teams had already qualified for the quarter-finals. According to Al Jazeera, the two teams finished level on 15 points and England took first place on goal difference.",
+   "ask": "Which tells you more about how good a team is: a long run without losing, or winning one big final?",
+   "jobs": [
+    "Sports journalist",
+    "Football performance analyst",
+    "Goalkeeping coach"
+   ]
+  },
+  "in-kia": {
+   "ctx": "The two reports give the size of the investment differently: Yonhap reports that Kia plans to invest 2 billion US dollars, and electrive reports about 1.8 billion euros by Kia together with its suppliers. Electrive also reports that the project should bring 12,000 new jobs across Kia, its service providers and its suppliers. Kia India's chief said India is central to the company's long-term growth, electrive reports.",
+   "ask": "When a foreign company builds a big factory, who gains more: the company, which gets a new place to make its products, or the area around it, which gets jobs?",
+   "jobs": [
+    "Automotive engineer",
+    "Production manager (a person who runs a factory's work)",
+    "Supply chain manager (a person who makes sure parts arrive on time)"
+   ]
+  }
+ },
+ "bigStory": {
+  "week": "2026-11-16",
+  "story": "g-voyager",
+  "cat": "space",
+  "t": "How far is one light-day from home?",
+  "sub": "Voyager 1, launched in 1977, reaches one light-day from Earth on Wednesday",
+  "x": {
+   "why": "A spacecraft that left Earth in 1977 is still travelling. This week it will be so far away that light needs a whole day to reach it."
+  },
+  "o": {
+   "why": "A spacecraft launched in 1977 is still travelling, and its team on Earth still talks to it. This week it reaches a distance so great that a radio signal, moving at the speed of light, needs 24 hours to get there."
+  },
+  "facts": [
+   [
+    "1977",
+    "the year Voyager 1 left Earth"
+   ],
+   [
+    "25.9 billion km",
+    "about one light-day: how far light travels in 24 hours"
+   ],
+   [
+    "24 hours",
+    "how long a radio signal from Earth will take to reach it"
+   ],
+   [
+    "18 Nov",
+    "the day NASA says it reaches one light-day"
+   ]
+  ],
+  "days": [
+   {
+    "d": "2026-11-16",
+    "h": "Meet Voyager 1",
+    "o": "NASA launched Voyager 1 on 5 September 1977. It flew past Jupiter in 1979 and Saturn in 1980, and in 1990 it took a picture of Earth known as the Pale Blue Dot. In 2012 it entered interstellar space, the space between the stars. It is run from NASA's Jet Propulsion Laboratory in California.",
+    "x": "Voyager 1 is a spacecraft. It left Earth in 1977. It flew past the planets Jupiter and Saturn. In 1990 it took a picture of Earth from very far away."
+   },
+   {
+    "d": "2026-11-17",
+    "h": "How far is a light-day?",
+    "lock": "Tuesday: how far is a light-day? And after sunset, people can flash a light for Voyager."
+   },
+   {
+    "d": "2026-11-18",
+    "h": "The big day",
+    "lock": "Wednesday: the day Voyager 1 reaches one light-day from Earth."
+   },
+   {
+    "d": "2026-11-19",
+    "h": "Phoning home",
+    "lock": "Thursday: how do you talk to a spacecraft when a signal takes a whole day to arrive?"
+   },
+   {
+    "d": "2026-11-20",
+    "h": "What comes next?",
+    "lock": "Friday: the week in one page, and where Voyager 1 goes from here."
+   }
+  ],
+  "words": [
+   "light-day",
+   "interstellar",
+   "jpl",
+   "deep-space-network"
+  ],
+  "poll": {
+   "q": "If you could add one thing to a message carried into space, what would it be?",
+   "a": [
+    [
+     "Music",
+     "A tune can be enjoyed without knowing the words."
+    ],
+    [
+     "Greetings in many languages",
+     "It would show how many peoples share one planet."
+    ],
+    [
+     "Pictures of animals and places",
+     "A picture can show what words cannot."
+    ],
+    [
+     "A map of where we are",
+     "So that whoever finds it knows where it came from."
+    ]
+   ]
+  },
+  "talk": "If you sent a message today that would be opened 49 years from now, what would you want the reader to know about your life?"
+ },
+ "puzzles": {
+  "week": "2026-11-16",
+  "sudoku": {
+   "x": {
+    "n": 4,
+    "br": 2,
+    "bc": 2,
+    "p": [
+     [
+      0,
+      1,
+      2,
+      0
+     ],
+     [
+      0,
+      0,
+      1,
+      0
+     ],
+     [
+      0,
+      0,
+      3,
+      0
+     ],
+     [
+      3,
+      2,
+      0,
+      1
+     ]
+    ],
+    "s": [
+     [
+      4,
+      1,
+      2,
+      3
+     ],
+     [
+      2,
+      3,
+      1,
+      4
+     ],
+     [
+      1,
+      4,
+      3,
+      2
+     ],
+     [
+      3,
+      2,
+      4,
+      1
+     ]
+    ]
+   },
+   "o": {
+    "n": 6,
+    "br": 2,
+    "bc": 3,
+    "p": [
+     [
+      0,
+      1,
+      0,
+      2,
+      0,
+      0
+     ],
+     [
+      3,
+      6,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      6,
+      5,
+      3,
+      0,
+      4,
+      2
+     ],
+     [
+      0,
+      4,
+      1,
+      0,
+      0,
+      6
+     ],
+     [
+      0,
+      0,
+      0,
+      6,
+      0,
+      4
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+     ]
+    ],
+    "s": [
+     [
+      5,
+      1,
+      4,
+      2,
+      6,
+      3
+     ],
+     [
+      3,
+      6,
+      2,
+      4,
+      5,
+      1
+     ],
+     [
+      6,
+      5,
+      3,
+      1,
+      4,
+      2
+     ],
+     [
+      2,
+      4,
+      1,
+      5,
+      3,
+      6
+     ],
+     [
+      1,
+      3,
+      5,
+      6,
+      2,
+      4
+     ],
+     [
+      4,
+      2,
+      6,
+      3,
+      1,
+      5
+     ]
+    ]
+   },
+   "n": {
+    "n": 9,
+    "br": 3,
+    "bc": 3,
+    "p": [
+     [
+      2,
+      0,
+      0,
+      3,
+      4,
+      0,
+      0,
+      7,
+      9
+     ],
+     [
+      9,
+      0,
+      6,
+      1,
+      0,
+      0,
+      3,
+      4,
+      5
+     ],
+     [
+      0,
+      3,
+      0,
+      9,
+      6,
+      5,
+      0,
+      1,
+      0
+     ],
+     [
+      8,
+      0,
+      0,
+      4,
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      7,
+      9,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      7,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      9,
+      2,
+      0,
+      3,
+      7,
+      0,
+      0,
+      0
+     ],
+     [
+      5,
+      0,
+      0,
+      2,
+      8,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      5,
+      0,
+      1,
+      0,
+      0,
+      3
+     ]
+    ],
+    "s": [
+     [
+      2,
+      5,
+      1,
+      3,
+      4,
+      8,
+      6,
+      7,
+      9
+     ],
+     [
+      9,
+      8,
+      6,
+      1,
+      7,
+      2,
+      3,
+      4,
+      5
+     ],
+     [
+      7,
+      3,
+      4,
+      9,
+      6,
+      5,
+      8,
+      1,
+      2
+     ],
+     [
+      8,
+      2,
+      7,
+      4,
+      1,
+      9,
+      5,
+      3,
+      6
+     ],
+     [
+      3,
+      4,
+      5,
+      8,
+      2,
+      6,
+      7,
+      9,
+      1
+     ],
+     [
+      1,
+      6,
+      9,
+      7,
+      5,
+      3,
+      2,
+      8,
+      4
+     ],
+     [
+      4,
+      9,
+      2,
+      6,
+      3,
+      7,
+      1,
+      5,
+      8
+     ],
+     [
+      5,
+      1,
+      3,
+      2,
+      8,
+      4,
+      9,
+      6,
+      7
+     ],
+     [
+      6,
+      7,
+      8,
+      5,
+      9,
+      1,
+      4,
+      2,
+      3
+     ]
+    ]
+   }
+  },
+  "words": {
+   "o": [
+    [
+     "VOYAGER",
+     "A spacecraft launched in 1977"
+    ],
+    [
+     "EARTHSHOT",
+     "A prize for ideas that help the planet"
+    ],
+    [
+     "ORBIT",
+     "The path an object follows around a planet, moon or star"
+    ],
+    [
+     "EMBLEM",
+     "ASEAN's now shows 11 rice stalks"
+    ],
+    [
+     "MINISTER",
+     "A senior member of a government"
+    ]
+   ],
+   "x": [
+    [
+     "LIGHT",
+     "From Wednesday, it needs a whole day to reach Voyager 1"
+    ],
+    [
+     "MUSEUM",
+     "A place that keeps and shows interesting and important things"
+    ],
+    [
+     "FLAG",
+     "ASEAN's has one more rice stalk"
+    ],
+    [
+     "PRIZE",
+     "Five winners get one in Mumbai this week"
+    ],
+    [
+     "TENNIS",
+     "Mirra Andreeva's sport"
+    ]
+   ]
+  }
+ },
+ "reporters": {
+  "week": "2026-11-16",
+  "t": "Report one thing that changed in your street or school this week",
+  "why": "Monday 16 November is National Press Day in India, and World Children's Day is on Friday 20 November. Good reporters check what they hear with more than one person.",
+  "tips": [
+   "What changed?",
+   "Who told you, and who else can confirm it?",
+   "Where and when did it happen?"
+  ],
+  "sample": []
+ },
+ "today": {
+  "days": [
+   {
+    "name": "International Day for Tolerance",
+    "what": "Tolerance means being willing to accept people who are different from you, and opinions you may not share. UNESCO adopted a Declaration of Principles on Tolerance in 1995. In 1996 the UN General Assembly invited its member countries to mark the day on 16 November."
+   },
+   {
+    "name": "National Press Day",
+    "what": "India marks National Press Day on 16 November. It is the day the Press Council of India began work in 1966. The press means newspapers and journalists. The council's job is to help keep the press free and its standards high.",
+    "where": [
+     "IN"
+    ]
+   }
+  ],
+  "born": [
+   {
+    "name": "Chinua Achebe",
+    "year": 1930,
+    "what": "A Nigerian novelist, born in Ogidi, Nigeria. His first novel, Things Fall Apart, was published in 1958. He won the Man Booker International Prize in 2007."
+   },
+   {
+    "name": "Pullela Gopichand",
+    "year": 1973,
+    "what": "An Indian badminton player, born in Nagandla. In 2001 he won the All England men's singles title. He opened a badminton academy in Hyderabad in 2008.",
+    "where": [
+     "IN"
+    ]
+   },
+   {
+    "name": "José Saramago",
+    "year": 1922,
+    "what": "A Portuguese novelist, born in Azinhaga, Portugal. He was awarded the Nobel Prize in Literature in 1998."
+   }
+  ],
+  "week": "NASA says Voyager 1 reaches one light-day from Earth on Wednesday 18 November. The Leonid meteor shower is expected to peak around 17 and 18 November. World Children's Day is on Friday 20 November."
+ },
+ "learn": {
+  "subject": "Science",
+  "cat": "space",
+  "link": "From the Voyager 1 story: a light-day is how far light travels in 24 hours",
+  "x": {
+   "t": "How fast is light?",
+   "b": [
+    "Light is very fast. It travels about 300,000 kilometres every second.",
+    "The Sun is about 150 million kilometres from Earth. Sunlight takes about 8 minutes to reach us.",
+    "Space is so big that scientists measure it with light. A light-day is how far light travels in one day. A light-year is how far light travels in one year. These are distances, not times."
+   ],
+   "remember": "Light travels about 300,000 kilometres every second. A light-year is a distance: how far light travels in one year.",
+   "q": "What is a light-year?",
+   "a": [
+    "A very long time",
+    "How far light travels in one year"
+   ],
+   "c": 1
+  },
+  "o": {
+   "t": "What is a light-year, and how fast is light?",
+   "b": [
+    "In empty space, light travels at 299,792,458 metres per second. That is about 300,000 kilometres every second.",
+    "Distances in space are so large that astronomers measure them by how far light travels. A light-year is the distance light travels in one year: about 9.46 trillion kilometres. It is a unit of distance, not of time.",
+    "The Sun is about 150 million kilometres from Earth, and NASA says its light takes about 8.3 minutes to reach us. The nearest star beyond the Sun, Proxima Centauri, is a little more than 4 light-years away. A light-day, the distance Voyager 1 reaches this week, is how far light travels in 24 hours: about 25.9 billion kilometres."
+   ],
+   "remember": "Light travels about 300,000 kilometres a second. A light-year is the distance it covers in one year, about 9.46 trillion kilometres.",
+   "q": "About how long does sunlight take to reach Earth?",
+   "a": [
+    "About 8 seconds",
+    "About 8 hours",
+    "About 8 minutes"
+   ],
+   "c": 2
+  }
+ },
+ "backThen": {
+  "y": 1974,
+  "t": "A radio message is beamed from Earth towards the stars",
+  "o": "On 16 November 1974, a radio message was sent into space from the Arecibo Observatory in Puerto Rico. It was sent during a ceremony to mark a major upgrade to the observatory's radio telescope. A team that included the astronomers Frank Drake and Carl Sagan created it. The message included a simple picture of a human and a diagram of the solar system. It was aimed at M13, a cluster of stars more than 20,000 light-years away.",
+  "x": "On this day in 1974, scientists sent a radio message into space. They sent it from the Arecibo Observatory in Puerto Rico. The message had a simple picture of a person in it.",
+  "why": "A radio message travels at the speed of light. A light-year is how far light travels in one year, so the message needs more than 20,000 years to reach those stars. That shows how big space is."
+ },
+ "hiddenWords": [
+  {
+   "k": "orbit",
+   "o": "Orbit comes from the Latin word orbita, which means a track or rut, such as the track left by a wheel."
+  }
+ ]
+}

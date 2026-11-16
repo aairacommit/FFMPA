@@ -17,21 +17,21 @@
     "t": "Helpers get ready as a storm heads towards India's coast",
     "b": [
      "India's [[imd|weather office]] is watching a storm at sea. On Monday it was expected to become a [[cyclone|cyclone]] that evening and be called Akvan.",
-     "It should reach the coast of [[andhra-pradesh|Andhra Pradesh]] on Friday. That gives four days to get ready.",
+     "It is expected to reach land in [[andhra-pradesh|Andhra Pradesh]] on Friday. That gives four days to get ready.",
      "Fishermen were told to stay on shore to keep safe. Rescue teams in Odisha are ready to help. Families should follow official updates, because forecasts can change."
     ]
    },
    "o": {
-    "t": "Storm expected to reach Andhra coast on Friday as states get ready",
+    "t": "Storm expected to cross Andhra coast on Friday as states get ready",
     "b": [
-     "India's weather office, the [[imd|IMD]], expects a storm over the [[bay-of-bengal|Bay of Bengal]] to reach the [[andhra-pradesh|Andhra Pradesh]] coast between Nellore and Tuni by about noon on Friday 20 November.",
+     "India's weather office, the [[imd|IMD]], expects a storm over the [[bay-of-bengal|Bay of Bengal]] to cross the [[andhra-pradesh|Andhra Pradesh]] coast between Nellore and Tuni around noon on Friday 20 November.",
      "On Monday it was a deep [[depression|depression]], a strong area of low air pressure with wind and rain. It was expected to become a [[cyclone|cyclonic storm]], a stronger spinning storm, that evening, and be named Akvan. It should reach land as a very severe cyclonic storm, with winds of 120 to 130 kilometres an hour and gusts, or sudden bursts, of up to 145 kilometres an hour.",
      "Fishermen have been told not to go to sea, to keep safe. Odisha has 24-hour control rooms and rescue teams on standby. Andhra Pradesh's Chief Minister, N Chandrababu Naidu, the head of the state government, told officials to take safety measures early. People are urged to follow official updates."
     ]
    },
    "think": "If your family had four days to get ready for a big storm, what would you do first, and why?",
    "quiz": {
-    "q": "On which day is the storm expected to reach the coast?",
+    "q": "On which day is the storm expected to reach land?",
     "a": [
      "Monday",
      "Tuesday",
@@ -92,10 +92,6 @@
     [
      "DT Next, 16 Nov",
      "https://www.dtnext.in/news/tamilnadu/tamil-nadu-or-andhra-bloggers-imd-divided-over-akvans-trajectory"
-    ],
-    [
-     "Down To Earth, 16 Nov",
-     "https://www.downtoearth.org.in/climate-change/daily-weather-tracker-bay-of-bengal-depression-set-to-become-cyclone-akvan-andhra-pradesh-on-alert"
     ],
     [
      "WMO, Northern Indian Ocean cyclone names",
@@ -666,7 +662,7 @@
   "in-akvan": {
    "type": "number",
    "v": "4 days",
-   "l": "of warning between Monday's forecast and the storm's expected arrival on Friday 20 November"
+   "l": "of warning between Monday's forecast and the storm's expected arrival on land on Friday 20 November"
   },
   "g-right-whales": {
    "type": "number",
@@ -952,11 +948,11 @@
    "A contest where everyone in a group plays everyone else.",
    "A format in which every player or team in a group plays all the others, with no instant knockout."
   ],
-  "interstellar": [
-   "interstellar space",
-   "science",
-   "The space between the stars.",
-   "Space beyond the heliopause, the place where the Sun's constant flow of material and its magnetic field stop affecting their surroundings."
+  "jpl": [
+   "Jet Propulsion Laboratory",
+   "places",
+   "A NASA centre in California. The Voyager 1 mission is run from there.",
+   "A NASA laboratory in Pasadena, California. The Voyager mission is run from there."
   ],
   "deep-space-network": [
    "Deep Space Network",
@@ -964,17 +960,17 @@
    "The system NASA uses to talk to faraway spacecraft.",
    "NASA's system for communicating with distant spacecraft such as Voyager 1. It is managed by the Jet Propulsion Laboratory."
   ],
-  "jpl": [
-   "Jet Propulsion Laboratory",
-   "places",
-   "A NASA centre in California. The Voyager 1 mission is run from there.",
-   "A NASA laboratory in Pasadena, California. The Voyager mission is run from there."
-  ],
   "light-day": [
    "light-day",
    "science",
    "How far light travels in one whole day. It is a very long way.",
    "A unit of distance: how far light travels in 24 hours, about 25.9 billion kilometres."
+  ],
+  "interstellar": [
+   "interstellar space",
+   "science",
+   "The space between the stars.",
+   "Space beyond the heliopause, the place where the Sun's constant flow of material and its magnetic field stop affecting their surroundings."
   ],
   "orbit": [
    "orbit",

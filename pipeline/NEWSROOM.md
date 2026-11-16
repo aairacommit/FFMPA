@@ -48,7 +48,7 @@ Brief: "You are the FFMPA standards editor. Read <path> as a careful editor, as 
 Make every change or drop the story. Anything scored below 4 must be fixed before review.
 
 ### 6. Independent reviewer (the gate)
-After the fixes, the edition goes to a fresh reviewer that follows pipeline/REVIEW.md (DAILY.md step 10). It answers PASS, FIX or REJECT. Up to three rounds, a new reviewer each time. Only PASS is merged.
+After the fixes, the edition goes to a fresh reviewer that follows pipeline/REVIEW.md (DAILY.md step 10). It answers PASS, FIX or REJECT. A new reviewer each time, for as many rounds as it takes to reach PASS (no limit). Only PASS is merged.
 
 ## Rules for the managing editor
 - Never overrule the fact checker on a fact: fix it or drop the story. You may disagree with a standards point only if EDITORIAL.md supports you; record why in the pull request under "Needs your eye".

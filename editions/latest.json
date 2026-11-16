@@ -277,7 +277,7 @@
     "b": [
      "The Antalya AI Pledge was launched on Monday 16 November at [[cop|COP31]], the United Nations climate summit in Antalya, Türkiye. Türkiye developed it with the [[itu|ITU]], the UN agency for digital technology. Signing is voluntary, or optional.",
      "[[ai|AI]], or artificial intelligence, runs on computers that use lots of electricity and water. The pledge aims to use AI to fight [[climate-change|climate change]] while shrinking AI's own harm to the planet. It asks for clean power for AI computers and data centres, the buildings that hold them, and for measuring and reporting AI's effect on the environment.",
-     "Signers will first check progress together at next year's COP in Ethiopia. Support so far is limited. Countries still disagree on new energy targets, and the talks are due to end on Friday 20 November."
+     "Signers will first check progress together at next year's summit, COP32. Support so far is limited. Countries still disagree on new energy targets, and the talks are due to end on Friday 20 November."
     ]
    },
    "think": "Every app and game runs on real computers that use energy. Should people think about that when they use them? Why or why not?",
@@ -613,7 +613,7 @@
    ]
   },
   "g-ai-pledge": {
-   "ctx": "Signers are due to report back on progress at next year's summit in Addis Ababa, Ethiopia. AFP and Climate Home News report that the pledge has not yet attracted wide support.",
+   "ctx": "The pledge was developed by Türkiye's COP31 presidency together with the ITU, the UN agency for digital technology. AFP and Climate Home News report that it has not yet attracted wide support.",
    "ask": "Supporters say a voluntary pledge starts shared action, while critics say promises without firm checks may be too vague: is a voluntary promise a good first step, or should limits on AI's harm to the planet be required?",
    "jobs": [
     "Data centre engineer",
@@ -948,17 +948,17 @@
    "A contest where everyone in a group plays everyone else.",
    "A format in which every player or team in a group plays all the others, with no instant knockout."
   ],
-  "jpl": [
-   "Jet Propulsion Laboratory",
-   "places",
-   "A NASA centre in California. The Voyager 1 mission is run from there.",
-   "A NASA laboratory in Pasadena, California. The Voyager mission is run from there."
-  ],
   "deep-space-network": [
    "Deep Space Network",
    "tech",
    "The system NASA uses to talk to faraway spacecraft.",
    "NASA's system for communicating with distant spacecraft such as Voyager 1. It is managed by the Jet Propulsion Laboratory."
+  ],
+  "jpl": [
+   "Jet Propulsion Laboratory",
+   "places",
+   "A NASA centre in California. The Voyager 1 mission is run from there.",
+   "A NASA laboratory in Pasadena, California. The Voyager mission is run from there."
   ],
   "light-day": [
    "light-day",
@@ -966,17 +966,17 @@
    "How far light travels in one whole day. It is a very long way.",
    "A unit of distance: how far light travels in 24 hours, about 25.9 billion kilometres."
   ],
-  "interstellar": [
-   "interstellar space",
-   "science",
-   "The space between the stars.",
-   "Space beyond the heliopause, the place where the Sun's constant flow of material and its magnetic field stop affecting their surroundings."
-  ],
   "orbit": [
    "orbit",
    "science",
    "The path something follows as it goes round and round a planet, moon or star.",
    "The curved path an object follows around a planet, moon or star, held there by gravity."
+  ],
+  "interstellar": [
+   "interstellar space",
+   "science",
+   "The space between the stars.",
+   "Space beyond the heliopause, the place where the Sun's constant flow of material and its magnetic field stop affecting their surroundings."
   ]
  },
  "today": {
@@ -1535,16 +1535,16 @@
      "A spacecraft launched in 1977"
     ],
     [
-     "EARTHSHOT",
-     "A prize for ideas that help the planet"
+     "CYCLONE",
+     "A stronger spinning storm; one may cross the Andhra Pradesh coast on Friday"
     ],
     [
      "ORBIT",
      "The path an object follows around a planet, moon or star"
     ],
     [
-     "EMBLEM",
-     "ASEAN's now shows 11 rice stalks"
+     "WHALE",
+     "About 382 North Atlantic right ones were counted for 2025"
     ],
     [
      "MINISTER",
@@ -1561,16 +1561,16 @@
      "A place that keeps and shows interesting and important things"
     ],
     [
-     "FLAG",
-     "ASEAN's has one more rice stalk"
+     "HAZE",
+     "Smoky air that drifted from Indonesia's wildfires"
     ],
     [
-     "PRIZE",
-     "Five winners get one in Mumbai this week"
+     "CALF",
+     "A baby whale"
     ],
     [
      "TENNIS",
-     "Mirra Andreeva's sport"
+     "Ben Shelton's sport"
     ]
    ]
   }

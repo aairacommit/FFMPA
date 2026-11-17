@@ -139,7 +139,7 @@
     "t": "More rare cranes in Ladakh as guards keep their nests safe",
     "b": [
      "[[ladakh|Ladakh]] counted 108 black-necked cranes, a kind of bird, in 2026. In 2025 there were only 87. That is nearly a quarter more birds.",
-     "These cranes are [[endangered|endangered]], so they are at risk of dying out. Guards keep dogs away from their nests and chicks, to keep them safe.",
+     "Ladakh's leaders say these cranes are [[endangered|endangered]], or at risk of dying out. Guards keep dogs away from their nests and chicks, to keep them safe.",
      "Local people helped too. Young people were praised for helping to protect wildlife."
     ]
    },
@@ -147,7 +147,7 @@
     "t": "Ladakh's black-necked cranes rise to 108 as guards protect nests",
     "b": [
      "[[ladakh|Ladakh]] counted 108 black-necked cranes in 2026, up from 87 in 2025. That is a rise of nearly 25 per cent, or nearly a quarter. Ladakh's administration announced the count on Tuesday.",
-     "The black-necked crane is an [[endangered|endangered]] [[species|species]], a kind of animal at risk of dying out. Of the birds counted in 2026, 86 were adults and 22 were juveniles, or young birds.",
+     "Ladakh's administration calls the black-necked crane an [[endangered|endangered]] [[species|species]], a kind of animal at risk of dying out. Of the birds counted in 2026, 86 were adults and 22 were juveniles, or young birds.",
      "Ladakh's Lieutenant Governor, the official who leads it, credited guards from the Environment Protection Force, including ex-servicemen, or former members of the armed forces. They protect the cranes' nests and newly hatched chicks from free-ranging dogs, which are dogs that roam freely. Local communities, especially young people, were also praised for taking part in conservation, or work to protect wildlife."
     ]
    },
@@ -690,14 +690,14 @@
  "xkeys": {
   "in-akvan": {
    "type": "check",
-   "q": "What have fishermen been told to do?",
+   "q": "When are rescue teams getting ready?",
    "a": [
-    "Go out to sea to fish",
-    "Stay off the sea"
+    "Before the storm arrives",
+    "After the storm has gone"
    ],
-   "c": 1,
-   "right": "Right! Fishermen have been told not to go to sea, to keep safe.",
-   "wrong": "Not quite. Fishermen have been told not to go to sea, to keep safe."
+   "c": 0,
+   "right": "Right! Teams are getting ready early, so help is close by.",
+   "wrong": "Not quite. Teams are getting ready early, before the storm arrives, so help is close by."
   },
   "g-cop31": {
    "type": "check",
@@ -780,7 +780,7 @@
  "deep": {
   "in-akvan": {
    "ctx": "At 5:30 am on Tuesday, Akvan was about 610 kilometres east of Chennai and 670 kilometres south-southeast of Visakhapatnam. It became a cyclonic storm on Monday, and Tuesday's forecast said gusts of up to 145 kilometres an hour are expected when it crosses the coast.",
-   "ask": "Should rescue teams and early warnings focus on the places a storm is forecast to hit, or be spread more widely in case the forecast changes?",
+   "ask": "Some families live in places at risk of landslides or flooding. Should they be helped to move somewhere safer for good, or helped to stay and make their homes safer?",
    "jobs": [
     "Meteorologist (a scientist who forecasts the weather)",
     "Disaster response rescuer",

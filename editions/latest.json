@@ -82,15 +82,15 @@
     "t": "Some countries do not agree with parts of a climate deal",
     "b": [
      "Countries at [[cop|COP31]] in Türkiye are working on a climate deal. Some big groups do not agree with parts of the first [[draft|draft]].",
-     "One group includes China and India. It did not agree with a goal for using more electricity. [[minister|Ministers]] are now working on the words so all can agree.",
-     "About 30 governments support Türkiye's promise to use more electricity. Joining that promise is a choice, not a rule."
+     "One group includes China and India. It did not agree with a goal for using more electricity. [[minister|Ministers]] are now working on the words.",
+     "About 30 governments support a promise, put forward by Türkiye, to use more electricity. Joining that promise is a choice, not a rule."
     ]
    },
    "o": {
     "t": "COP31: big groups of countries object to parts of the first draft",
     "b": [
      "The climate talks at [[cop|COP31]] in Antalya, Türkiye, are in their second week. Several big groups of countries have objected to parts of the first [[draft|draft]], an early version of the deal.",
-     "One group, the Like-Minded Developing Countries, includes China and India. It objected to a goal for [[electrification|electrification]]: raising electricity's share of the world's energy use to 35%, just over a third, by 2035. It also objected to a roadmap, or plan, for moving away from [[fossil-fuels|fossil fuels]]. Russia and the Arab Group, a group of Arab countries, also objected.",
+     "One group, the Like-Minded Developing Countries, includes China and India. It objected to a goal for [[electrification|electrification]]: raising electricity's share of the world's energy use to 35%, just over a third, by 2035. Russia and the Arab Group, a group of Arab countries, also objected. The Arab Group did not want wording on moving away from [[fossil-fuels|fossil fuels]].",
      "Ministers, senior members of governments, are now working on the text. About 30 governments support Türkiye's voluntary pledge, a promise countries can choose to make, to reach that 35% goal. The final deal needs the backing of nearly 200 countries."
     ]
    },
@@ -170,6 +170,71 @@
     [
      "Ladakh UT Administration, 17 Nov",
      "https://ladakh.gov.in/monumental-milestone-for-ladakh-as-black-necked-crane-population-reaches-108-in-2026-registering-25-rise-from-2025/"
+    ]
+   ]
+  },
+  {
+   "id": "in-dhoni",
+   "scope": "IN",
+   "cat": "sports",
+   "emoji": "🏏",
+   "date": "2026-11-17",
+   "kind": "news",
+   "x": {
+    "t": "MS Dhoni stops playing in the IPL and will guide his team",
+    "b": [
+     "Chennai Super Kings is a cricket team. On Tuesday, it said MS Dhoni will not play in the [[ipl|IPL]] again.",
+     "Dhoni is 45. He missed the 2026 season because he was injured. He led the team to five IPL titles.",
+     "From 2027, he will be the team's [[mentor|mentor]]. One of the team's owners says his guidance will help its many young players."
+    ]
+   },
+   "o": {
+    "t": "Chennai Super Kings makes MS Dhoni its mentor as he stops playing",
+    "b": [
+     "Chennai Super Kings (CSK) announced on Tuesday that MS Dhoni's playing career in the [[ipl|Indian Premier League]] is over. The 45-year-old will be CSK's [[mentor|Team Mentor]] from the 2027 season. CSK's statement did not include any words from Dhoni himself.",
+     "Dhoni joined CSK in 2008, the first IPL season. He led the team to five IPL titles, the joint-most by any captain: no captain has won more. A World Cup-winning captain of India, he retired from international cricket, or playing for India, in August 2020. He missed the 2026 season through injury.",
+     "As mentor, Dhoni will guide CSK's players. CSK owner N Srinivasan said: \"There is no CSK without MS Dhoni.\" Co-owner Rupa Gurunath said that, as CSK has many young players, his guidance will help shape the team's next generation."
+    ]
+   },
+   "think": "Dhoni will now guide younger players. Who is someone who has guided you, and what did you learn from them?",
+   "quiz": {
+    "q": "How many IPL titles did Dhoni win with Chennai Super Kings?",
+    "a": [
+     "Three",
+     "Four",
+     "Five",
+     "Seven"
+    ],
+    "c": 2
+   },
+   "src": [
+    [
+     "PTI via ThePrint, 17 Nov",
+     "https://theprint.in/sport/ms-dhoni-retires-from-ipl-set-to-become-chennai-super-kings-mentor/3101027/"
+    ],
+    [
+     "Business Standard, 17 Nov",
+     "https://www.business-standard.com/cricket/ipl/m-s-dhoni-named-team-mentor-of-chennai-super-kings-ahead-of-ipl-2027-126111700657_1.html"
+    ],
+    [
+     "Business Standard, 17 Nov",
+     "https://www.business-standard.com/amp/cricket/ipl/ms-dhoni-s-ipl-records-five-titles-as-captain-most-keeper-dismissals-126111700943_1.html"
+    ],
+    [
+     "Sky Sports, 17 Nov",
+     "https://www.skysports.com/cricket/news/13613181/ms-dhoni-former-india-captain-retires-from-playing-role-with-ipls-chennai-super-kings-aged-45"
+    ],
+    [
+     "The National, 17 Nov",
+     "https://www.thenationalnews.com/sport/cricket/2026/11/17/ipl-ms-dhoni-retires-but-will-always-be-a-part-of-chennai-super-kings-identity/"
+    ],
+    [
+     "The News Minute, 17 Nov",
+     "https://www.thenewsminute.com/tamil-nadu/ms-dhoni-retires-from-ipl-will-mentor-chennai-super-kings-ahead-of-2027-season"
+    ],
+    [
+     "Onmanorama, 17 Nov",
+     "https://www.onmanorama.com/sports/cricket/2026/11/17/ms-dhoni-retires-from-ipl-cricket-to-continue-as-csk-mentor.html"
     ]
    ]
   },
@@ -501,6 +566,12 @@
    "The space between the stars.",
    "Space beyond the heliopause, the place where the Sun's constant flow of material and its magnetic field stop affecting their surroundings."
   ],
+  "ipl": [
+   "IPL",
+   "words",
+   "Short for Indian Premier League. It is a cricket competition. Chennai Super Kings plays in it.",
+   "Short for the Indian Premier League, a cricket competition. Chennai Super Kings (CSK) is one of its teams."
+  ],
   "jpl": [
    "Jet Propulsion Laboratory",
    "places",
@@ -524,6 +595,12 @@
    "science",
    "How far light travels in one whole day. It is a very long way.",
    "A unit of distance: how far light travels in 24 hours, about 25.9 billion kilometres."
+  ],
+  "mentor": [
+   "mentor",
+   "words",
+   "Someone who guides others and shares what they have learned.",
+   "Someone who guides others using their experience. At CSK, Dhoni's job as mentor is to guide the players, especially the many young ones."
   ],
   "meteor": [
    "meteor",
@@ -584,6 +661,11 @@
    "v": "108",
    "l": "black-necked cranes counted in Ladakh in 2026, up from 87 in 2025"
   },
+  "in-dhoni": {
+   "type": "number",
+   "v": "5",
+   "l": "IPL titles Dhoni won with Chennai Super Kings: 2010, 2011, 2018, 2021 and 2023"
+  },
   "g-quad": {
    "type": "number",
    "v": "4",
@@ -638,6 +720,17 @@
    "c": 1,
    "right": "Right! The guards keep dogs away from the nests and chicks.",
    "wrong": "Not quite. The guards keep dogs away from the nests and chicks."
+  },
+  "in-dhoni": {
+   "type": "check",
+   "q": "How old is MS Dhoni?",
+   "a": [
+    "45",
+    "54"
+   ],
+   "c": 0,
+   "right": "Right! MS Dhoni is 45.",
+   "wrong": "Not quite. MS Dhoni is 45."
   },
   "g-quad": {
    "type": "check",
@@ -710,6 +803,15 @@
     "Ornithologist (a scientist who studies birds)",
     "Wildlife guard",
     "Conservation officer"
+   ]
+  },
+  "in-dhoni": {
+   "ctx": "Dhoni is CSK's second-highest run scorer, with 5,314 runs, and has played more matches for the team than anyone else: 272. His last IPL match was in the 2025 season, against Gujarat Titans.",
+   "ask": "Dhoni will stop playing but stay with CSK as its mentor. When a star player stops playing, is it better for them to stay on and guide the team, or to step away so that newer players can find their own way?",
+   "jobs": [
+    "Cricket coach",
+    "Sports journalist",
+    "Sports physiotherapist"
    ]
   },
   "g-quad": {

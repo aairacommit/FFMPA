@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "date": "2026-11-17",
- "edition": "am",
+ "edition": "pm",
  "countries": [
   "IN"
  ],
@@ -11,169 +11,63 @@
    "scope": "IN",
    "cat": "nature",
    "emoji": "🌀",
-   "date": "2026-11-16",
+   "date": "2026-11-17",
    "kind": "news",
    "x": {
-    "t": "Helpers prepare for a storm now named Akvan",
+    "t": "Rescue teams get ready early for the storm Akvan",
     "b": [
-     "A storm in the [[bay-of-bengal|Bay of Bengal]] became a [[cyclone|cyclone]] on Monday evening. It now has a name, Akvan. The name comes from Iran.",
-     "India's [[imd|weather office]] gave its forecast on Monday evening. It said Akvan was likely to cross the [[andhra-pradesh|Andhra Pradesh]] coast on Friday.",
-     "Odisha plans to send out 74 rescue teams. Fishermen in Andhra Pradesh have been advised to stay on shore."
+     "[[andhra-pradesh|Andhra Pradesh]] and Odisha are getting rescue teams ready early. That way, help is close by when the [[cyclone|cyclone]] Akvan arrives.",
+     "Fishermen have been told to stay off the sea. In Odisha, people in areas at risk of landslides are to be moved.",
+     "On Tuesday, [[imd|India's weather office]] said Akvan was expected to grow stronger. It is expected to cross onto land on Friday. Families can follow updates."
     ]
    },
    "o": {
-    "t": "Storm is named Akvan; Odisha plans to deploy 74 rescue teams",
+    "t": "Akvan forecast to strengthen as rescue teams prepare early",
     "b": [
-     "The storm over the [[bay-of-bengal|Bay of Bengal]] now has a name: Akvan. On Monday evening it became a [[cyclone|cyclonic storm]], a strong spinning storm, said India's weather office, the [[imd|IMD]]. A storm gets a name when its winds reach 62 kilometres an hour. Names are used in a fixed order from a list made by 13 countries, and Akvan was contributed by Iran.",
-     "On Monday evening Akvan was about 610 kilometres east of Chennai. That evening the IMD said it was likely to cross the [[andhra-pradesh|Andhra Pradesh]] coast between Nellore and Tuni around noon on Friday 20 November.",
-     "Odisha's state government plans to deploy, or send into position, 74 rescue teams: 60 from a force called ODRAF and 14 from one called NDRF. In Andhra Pradesh, fishermen have been advised not to go out to sea."
+     "[[andhra-pradesh|Andhra Pradesh]] and Odisha are getting national and state disaster response teams into position ahead of [[cyclone|Cyclone]] Akvan, a storm over the [[bay-of-bengal|Bay of Bengal]]. Fishermen have been told not to go to sea.",
+     "Odisha's districts have been told to move people from some areas at risk of landslides to relief centres, safe places where people can stay and get help.",
+     "In a forecast given on Tuesday, the [[imd|IMD]], India's weather office, said Akvan was expected to become a severe cyclonic storm by Tuesday evening and a very severe cyclonic storm on Thursday 19 November. These are the IMD's names for stronger levels of storm. It is expected to cross the coast onto land between Nellore and Tuni around midday on Friday 20 November, with winds of 120 kilometres an hour or more. Heavy rain is expected in coastal Andhra Pradesh on 19 and 20 November."
     ]
    },
-   "think": "Storms are given names. If you could suggest one name for a future storm, what would it be, and why?",
+   "think": "Why do you think rescue teams are sent out before a storm arrives, instead of after it?",
    "quiz": {
-    "q": "How many rescue teams does Odisha plan to send out?",
+    "q": "Where are some people in Odisha to be moved from?",
     "a": [
-     "24",
-     "74",
-     "47",
-     "174"
+     "Big cities",
+     "Islands",
+     "Ships at sea",
+     "Areas at risk of landslides"
     ],
-    "c": 1
+    "c": 3
    },
    "src": [
     [
-     "IANS via Mangalorean.com, 16 Nov",
-     "https://www.mangalorean.com/cyclone-akvan-to-hit-andhra-pradesh-coast-on-nov-20/"
+     "DT Next, 17 Nov",
+     "https://www.dtnext.in/news/national/cyclone-akvan-to-intensify-into-severe-storm-tonight-cross-andhra-coast-on-nov-20"
     ],
     [
-     "OrissaPOST, 16 Nov",
-     "https://orissapost.com/74-odraf-ndrf-teams-to-be-deployed-to-face-akvon"
+     "Oneindia, 17 Nov",
+     "https://www.oneindia.com/india/cyclone-akvan-andhra-pradesh-braces-for-145-kmph-winds-landfall-expected-on-november-20-8261885.html"
     ],
     [
-     "Pragativadi, 16 Nov",
-     "https://pragativadi.com/cyclonic-storm-akvan-forms-in-bay-of-bengal-orange-alert-issued-for-andhra-pradesh-and-south-odisha/"
+     "ETV Bharat, 17 Nov",
+     "https://www.etvbharat.com/en/bharat/imd-on-severe-cyclone-akvan-landfall-between-nellore-tuni-andhra-odisha-on-high-alert-for-november-19-20-rainfall-winds-enn26111702923"
     ],
     [
-     "Ada Derana, 16 Nov",
-     "https://adaderana.lk/news/251787"
+     "IANS via Telangana Today, 17 Nov",
+     "https://telanganatoday.com/akvan-set-to-intensify-into-severe-cyclone-by-evening-andhra-cm-takes-stock-of-situation"
+    ],
+    [
+     "Business Standard, 17 Nov",
+     "https://www.business-standard.com/india-news/after-arnab-and-murasu-third-cyclone-akvan-to-hit-andhra-what-we-know-126111700193_1.html"
+    ],
+    [
+     "Odisha TV, 17 Nov",
+     "https://odishatv.in/odisha/cyclone-akvan-odisha-govt-employees-leave-cancelled-minister-pujari-directs-early-evacuation-12816723"
     ],
     [
      "Deccan Chronicle, 16 Nov",
-     "https://www.deccanchronicle.com/southern-states/andhra-pradesh/akvan-likely-to-intensify-into-very-severe-cyclone-cross-coast-on-nov-20-2004989"
-    ],
-    [
-     "Deccan Chronicle, 17 Nov",
-     "https://www.deccanchronicle.com/southern-states/andhra-pradesh/fishermen-advised-not-to-venture-into-sea-2005058"
-    ],
-    [
-     "Press Information Bureau, 28 Apr 2020",
-     "https://pib.gov.in/PressReleasePage.aspx?PRID=1619051"
-    ],
-    [
-     "Down To Earth, 29 Apr 2020",
-     "https://www.downtoearth.org.in/natural-disasters/imd-presents-new-neutral-names-for-future-cyclones-in-north-indian-ocean-70782"
-    ],
-    [
-     "OMMCOM News, 16 Nov",
-     "https://ommcomnews.com/odisha-news/odisha-steps-up-cyclone-preparedness-74-odraf-ndrf-teams-to-be-deployed/"
-    ],
-    [
-     "Oneindia, 16 Nov",
-     "https://www.oneindia.com/india/cyclone-akvan-who-named-it-what-does-the-name-mean-irans-persian-mythology-connection-explained-8260689.html"
-    ]
-   ]
-  },
-  {
-   "id": "g-voyager",
-   "scope": "global",
-   "cat": "space",
-   "emoji": "🔦",
-   "date": "2026-11-17",
-   "kind": "calendar",
-   "when": "After sunset today, Tuesday 17 November; milestone on Wednesday 18 November",
-   "x": {
-    "t": "Tonight, flash a torch for faraway Voyager 1",
-    "b": [
-     "Voyager 1 is a spacecraft far from Earth. On Wednesday it will be one [[light-day|light-day]] away. Light takes 24 hours to travel that far.",
-     "Light reaches the Moon in about 1.3 seconds. Sunlight reaches Earth in about 8 minutes.",
-     "Tonight, after sunset, people can flash a torch to celebrate. The flashes spell VGR, for Voyager, in [[morse-code|Morse code]]. Ask a grown-up to help."
-    ]
-   },
-   "o": {
-    "t": "Tonight, flash VGR for Voyager 1, nearly a light-day from Earth",
-    "b": [
-     "On Wednesday 18 November, the spacecraft Voyager 1 will be one [[light-day|light-day]] from Earth. A light-day is a distance: how far light travels in 24 hours, about 25.9 billion kilometres.",
-     "Light reaches the Moon in about 1.3 seconds, and sunlight takes about 8 minutes to reach Earth. On Wednesday, a radio signal from Earth will take 24 hours to reach Voyager 1.",
-     "NASA, the US space agency, invites everyone to celebrate after sunset today, Tuesday, by flashing a light at the sky. The flashes spell VGR in [[morse-code|Morse code]]. VGR is Voyager's call sign, the letters that identify it. In Morse code, dots are short flashes and dashes are long ones. V is dot, dot, dot, dash. G is dash, dash, dot. R is dot, dash, dot. A torch, glow stick or phone will do. NASA has made a website that flashes the code."
-    ]
-   },
-   "think": "If you could flash a three-letter signal for the whole world to see, which letters would you choose, and why?",
-   "quiz": {
-    "q": "About how long does sunlight take to reach Earth?",
-    "a": [
-     "About 1.3 seconds",
-     "About 24 hours",
-     "About 8 minutes",
-     "About 8 days"
-    ],
-    "c": 2
-   },
-   "src": [
-    [
-     "NASA, 10 Nov (updated 13 Nov)",
-     "https://www.nasa.gov/news-release/nasa-invites-media-public-to-join-voyager-1-one-light-day-activities/"
-    ],
-    [
-     "NASA Science, 4 Nov (updated 13 Nov)",
-     "https://science.nasa.gov/mission/voyager/voyager-1/shine-bright-for-voyagers-light-day/"
-    ],
-    [
-     "EarthSky, 10 Nov",
-     "https://earthsky.org/space/voyager-1-1-light-day-from-earth-november-17-18-2026/"
-    ],
-    [
-     "BBC Sky at Night Magazine, 16 Nov",
-     "https://www.skyatnightmagazine.com/news/nasa-voyager-1-light-day-milestone"
-    ],
-    [
-     "Space.com, 16 Nov",
-     "https://www.space.com/space-exploration/voyager/nasas-interstellar-voyager-1-probe-is-about-to-reach-1-light-day-from-earth-after-nearly-50-years-in-space"
-    ],
-    [
-     "Live Science, 15 Nov",
-     "https://www.livescience.com/space/space-exploration/out-there-moving-into-the-unknown-as-voyager-1-reaches-one-light-day-from-earth-scientists-reflect-on-its-past-and-its-future"
-    ],
-    [
-     "The Register, 11 Nov",
-     "https://www.theregister.com/offbeat/2026/11/11/nasa-asks-earthlings-to-wave-as-voyager-1-reaches-a-light-day-away/5309127"
-    ],
-    [
-     "Popular Science, 10 Nov",
-     "https://www.popsci.com/science/voyager-1-nasa-shine-light-morse-code/"
-    ],
-    [
-     "The Naked Scientists, 14 Nov",
-     "https://www.thenakedscientists.com/articles/interviews/voyager-1-space-probe-one-light-day-earth"
-    ],
-    [
-     "WION, 23 Oct",
-     "https://www.wionews.com/world/voyager-1-will-be-one-light-day-from-earth-on-18-november-and-that-changes-everything-1792740139372"
-    ],
-    [
-     "TechTimes, 15 Nov",
-     "https://www.techtimes.com/articles/330765/20261115/voyager-1-hits-one-light-day-november-18-fault-protection-now-runs-two-days-before-earth-can-reply.htm"
-    ],
-    [
-     "OrbitalRadar, reviewed 26 Oct",
-     "https://orbitalradar.com/glossary/light-day"
-    ],
-    [
-     "NASA Space Place, light-year",
-     "https://spaceplace.nasa.gov/light-year/en/"
-    ],
-    [
-     "NASA Science, What is a light-year?",
-     "https://science.nasa.gov/exoplanets/what-is-a-light-year/"
+     "https://www.deccanchronicle.com/southern-states/andhra-pradesh/naidu-directs-officials-to-effectively-handle-cyclone-akvan-2004950"
     ]
    ]
   },
@@ -182,572 +76,393 @@
    "scope": "global",
    "cat": "planet",
    "emoji": "🌍",
-   "date": "2026-11-16",
-   "kind": "news",
-   "x": {
-    "t": "A first draft of the big climate deal is out",
-    "b": [
-     "Countries are at [[cop|COP31]], a big climate meeting in Türkiye. On Monday, a first [[draft|draft]] of their deal was released.",
-     "A draft is an early try at writing something. The draft has 18 pages. It has ideas that not all countries agree on.",
-     "Nearly 200 countries need to agree on it. The draft is not final and will change. The meeting is due to end on Friday."
-    ]
-   },
-   "o": {
-    "t": "COP31: the first draft of the deal is out, and it will change",
-    "b": [
-     "An 18-page first [[draft|draft]] of a deal was released on Monday 16 November at [[cop|COP31]], the climate talks in Antalya, Türkiye. A draft is an early version of a text, which can still be changed. Australia released the draft. Chris Bowen, Australia's climate [[minister|minister]], a senior member of the government, leads the negotiations, or bargaining.",
-     "The draft includes points that not all countries agree on. It has wording on phasing out, or gradually ending, [[fossil-fuels|fossil fuels]] such as coal, oil and gas. It also takes up Türkiye's proposal to raise electricity's share of the energy the world uses to 35% by 2035.",
-     "Mr Bowen said the draft is not final. He expects strong feedback on parts of it, including the fossil fuel wording. The deal needs agreement from nearly 200 nations, and the summit is scheduled to end on Friday."
-    ]
-   },
-   "think": "When you write a first draft of something, how do you decide what to keep and what to change?",
-   "quiz": {
-    "q": "What is a draft?",
-    "a": [
-     "The final version of a deal",
-     "A vote by all the countries",
-     "An early version that can still change",
-     "A list of the countries at a meeting"
-    ],
-    "c": 2
-   },
-   "src": [
-    [
-     "Reuters via Yahoo News, 16 Nov",
-     "https://www.yahoo.com/news/articles/first-draft-cop31-deal-signals-140910867.html"
-    ],
-    [
-     "AFP via Daily Sabah, 16 Nov",
-     "https://www.dailysabah.com/business/energy/cop31-draft-calls-for-accelerated-action-to-phase-out-fossil-fuels"
-    ],
-    [
-     "AAP via Starts at 60, 17 Nov",
-     "https://startsat60.com/media/news/strong-language-bowen-launches-bold-climate-agenda"
-    ],
-    [
-     "Climate Home News, 16 Nov",
-     "https://www.climatechangenews.com/2026/11/16/cop31-bulletin-day-7-sharp-divisions-lower-expectations-for-cop-outcome/"
-    ]
-   ]
-  },
-  {
-   "id": "g-asean-prize",
-   "scope": "global",
-   "cat": "science",
-   "emoji": "🏅",
-   "date": "2026-11-15",
-   "kind": "news",
-   "x": {
-    "t": "Earthquake scientist, 79, is given the ASEAN Prize",
-    "b": [
-     "Hla Hla Aung is a scientist from Myanmar. She is 79 years old. She studies [[earthquake|earthquakes]].",
-     "On Sunday she was given the 2026 [[asean|ASEAN]] Prize. It is for helping people get ready for earthquakes.",
-     "The prize comes with a trophy and 20,000 US dollars. She is the ninth winner. She said knowledge must serve all people."
-    ]
-   },
-   "o": {
-    "t": "Earthquake scientist, 79, from Myanmar receives the 2026 ASEAN Prize",
-    "b": [
-     "Hla Hla Aung, a 79-year-old scientist from Myanmar, received the 2026 [[asean|ASEAN]] Prize on Sunday 15 November. ASEAN is short for the Association of Southeast Asian Nations. She is a [[seismologist|seismologist]], a scientist who studies [[earthquake|earthquakes]]. The prize was presented at the opening ceremony of the 49th ASEAN Summit, at the Philippine International Convention Center.",
-     "The prize was given for her work on earthquake preparedness: turning scientific knowledge into practical ways for communities in Myanmar and the region to get ready. She works with the Myanmar Earthquake Committee. She said that knowledge must serve humanity, meaning all people.",
-     "Philippine President Ferdinand Marcos Jr. and Kao Kim Hourn, ASEAN's Secretary-General, its chief official, presented the prize. It comes with a trophy and 20,000 US dollars. The ASEAN Prize began in 2018, and Hla Hla Aung is its ninth winner."
-    ]
-   },
-   "think": "What is something you know that could help keep other people safe, and how would you share it with them?",
-   "quiz": {
-    "q": "What does Hla Hla Aung study?",
-    "a": [
-     "Earthquakes",
-     "Volcanoes",
-     "Whales",
-     "Stars"
-    ],
-    "c": 0
-   },
-   "src": [
-    [
-     "PNA via Bernama, 16 Nov",
-     "https://www.bernama.com/en/world/news.php?id=2635145"
-    ],
-    [
-     "DVB English, 15 Nov",
-     "https://english.dvb.no/myanmar-geologist-awarded-2026-asean-prize-at-49th-summit-in-the-philippines/"
-    ],
-    [
-     "Daily Tribune, 15 Nov",
-     "https://tribune.net.ph/2026/11/15/for-myanmar-seismologist-research-is-key-to-saving-lives"
-    ]
-   ]
-  },
-  {
-   "id": "in-saff-final",
-   "scope": "IN",
-   "cat": "sports",
-   "emoji": "⚽",
    "date": "2026-11-17",
-   "kind": "calendar",
-   "when": "Today, Tuesday 17 November, 7.30 pm IST, in Dhaka",
-   "x": {
-    "t": "India play Pakistan in a football final tonight",
-    "b": [
-     "India's football team plays a final today. It meets Pakistan in the [[saff-championship|SAFF Championship]], a football contest. A final is the last match.",
-     "The match starts at 7.30 pm India time in [[dhaka|Dhaka]], Bangladesh. India have won this contest nine times, a record.",
-     "This is Pakistan's first ever SAFF Championship final. The teams met earlier in this contest. India won that match 3-2."
-    ]
-   },
-   "o": {
-    "t": "India meet Pakistan in the SAFF Championship final in Dhaka tonight",
-    "b": [
-     "India play Pakistan today, Tuesday 17 November, in the final of the [[saff-championship|SAFF Championship]] 2026, a football tournament. The match is at the National Stadium in [[dhaka|Dhaka]], Bangladesh, and starts at 7.30 pm India time.",
-     "India are the [[defending-champion|defending champions]], the team that won last time, and have won the title nine times, a record. On Saturday they beat Bhutan 2-1 in a semi-final, the round before the final. Pakistan beat the hosts, Bangladesh, 1-0 in the other semi-final, with a goal in the 86th minute.",
-     "Pakistan are in their first ever SAFF Championship final. The two teams have already met in the group stage, an earlier round played in groups, and India won 3-2. A win tonight would give India three titles in a row for the first time."
-    ]
-   },
-   "think": "Pakistan are in their first ever final of this tournament. How do you think it feels to reach a big final for the first time?",
-   "quiz": {
-    "q": "How many times have India won the SAFF Championship?",
-    "a": [
-     "Three times",
-     "Five times",
-     "Nine times",
-     "Twelve times"
-    ],
-    "c": 2
-   },
-   "src": [
-    [
-     "Asian Football Confederation, 14 Nov",
-     "https://www.the-afc.com/en/more/saff_championship.html/news/india-pakistan-set-up-final-showdown"
-    ],
-    [
-     "Outlook India, 16 Nov",
-     "https://www.outlookindia.com/sports/football/india-vs-pakistan-live-streaming-saff-championship-2026-final-preview"
-    ],
-    [
-     "Telangana Today, 16 Nov",
-     "https://telanganatoday.com/india-eye-historic-third-consecutive-saff-championship-title-against-pakistan"
-    ],
-    [
-     "Outlook India, 14 Nov",
-     "https://www.outlookindia.com/sports/football/india-vs-bhutan-saff-championship-2026-semi-final-match-report"
-    ]
-   ]
-  },
-  {
-   "id": "g-gorilla-ladder",
-   "scope": "global",
-   "cat": "nature",
-   "emoji": "🦍",
-   "date": "2026-11-16",
    "kind": "news",
    "x": {
-    "t": "Two gorillas make a living ladder to reach high branches",
+    "t": "Some countries do not agree with parts of a climate deal",
     "b": [
-     "Amelia and Lisha are [[gorilla|gorillas]] at a zoo called the Ramat Gan Safari. They are half-sisters, so they share one parent.",
-     "Some branches in a tree were too high to reach. So Lisha stood on all fours. Amelia climbed onto her back and broke off a branch.",
-     "Nobody trained them to do it. Scientists call it a rare example of adult gorillas [[cooperation|working together]] on their own."
+     "Countries at [[cop|COP31]] in Türkiye are working on a climate deal. Some big groups do not agree with parts of the first [[draft|draft]].",
+     "One group includes China and India. It did not agree with a goal for using more electricity. [[minister|Ministers]] are now working on the words.",
+     "Some governments support a promise, put forward by Türkiye, to use more electricity. Joining that promise is a choice, not a rule."
     ]
    },
    "o": {
-    "t": "Two gorillas team up as a living ladder to reach high branches",
+    "t": "COP31: big groups of countries object to parts of the first draft",
     "b": [
-     "Two western lowland [[gorilla|gorillas]], half-sisters Amelia and Lisha, were filmed working together to reach high branches at the Ramat Gan Safari, a zoo. Researchers at Tel Aviv University describe it in the science [[journal|journal]] Primates, in a study reported on Monday 16 November.",
-     "In September 2024, keepers noticed the two eating from a branch that had been out of reach, so staff checked camera footage. It showed Lisha standing on all fours. Amelia climbed onto her back and broke off a branch approximately 4.5 metres, or 15 feet, above the ground.",
-     "Neither gorilla had been trained to do this. The researchers documented three events, in 2021, 2024 and 2025. They call it a rare example of [[spontaneous|spontaneous]] [[cooperation|cooperation]], or working together without being told to, between adult gorillas. They add that the study covers only two gorillas."
+     "The climate talks at [[cop|COP31]] in Antalya, Türkiye, are in their second week. Several big groups of countries have objected to parts of the first [[draft|draft]], an early version of the deal.",
+     "One group, the Like-Minded Developing Countries, includes China and India. It objected to a goal for [[electrification|electrification]]: raising electricity's share of the world's energy use to 35%, just over a third, by 2035. Russia and the Arab Group, a group of Arab countries, also objected. The Arab Group did not want wording on moving away from [[fossil-fuels|fossil fuels]].",
+     "Ministers, senior members of governments, are now working on the text. Some governments support Türkiye's voluntary pledge, a promise countries can choose to make, to reach that 35% goal. The final deal needs the backing of nearly 200 countries."
     ]
    },
-   "think": "Amelia and Lisha did something together that neither could do alone. When have you and someone else done that?",
+   "think": "When a big group has to agree on one plan and some people object, what is a fair way to find an answer?",
    "quiz": {
-    "q": "How did Lisha help Amelia reach the branch?",
+    "q": "The story names two countries in one group that objected to the draft. Which two?",
     "a": [
-     "She pulled the branch down with a rope",
-     "She shook the tree",
-     "She called a keeper to help",
-     "She stood on all fours so Amelia could climb onto her back"
-    ],
-    "c": 3
-   },
-   "src": [
-    [
-     "Tel Aviv University via EurekAlert, 16 Nov",
-     "https://www.eurekalert.org/news-releases/1152042"
-    ],
-    [
-     "The Jerusalem Post via Yahoo News, 16 Nov",
-     "https://www.yahoo.com/news/science/articles/gorillas-ramat-gan-safari-form-060138880.html"
-    ],
-    [
-     "The Jewish Chronicle, 16 Nov",
-     "https://www.thejc.com/news/israel/ramat-gan-safari-gorillas-team-work-dqnrzupx"
-    ]
-   ]
-  },
-  {
-   "id": "in-bts",
-   "scope": "IN",
-   "cat": "tech",
-   "emoji": "🤖",
-   "date": "2026-11-17",
-   "kind": "calendar",
-   "when": "Today, Tuesday 17 November, to Thursday 19 November, in Bengaluru",
-   "x": {
-    "t": "Robots and drones are set to go on show in Bengaluru",
-    "b": [
-     "A big technology event, the Bengaluru Tech Summit, is set to start today, Tuesday. Organisers said on Monday it will last three days.",
-     "More than 1,000 young companies, called [[startup|startups]], are expected.",
-     "A special area is planned for [[robot|robots]] and [[ai|AI]], computer programs that can learn. Robots shaped like people are set to be shown there. Drones and robot cooking are planned too."
-    ]
-   },
-   "o": {
-    "t": "Bengaluru Tech Summit is set to open today with a robot pavilion",
-    "b": [
-     "The Bengaluru Tech Summit, a big technology event, is set to open today, Tuesday 17 November, at the Bangalore International Exhibition Centre. Organisers said on Monday that this is the 29th time it is being held and that it will run for three days.",
-     "The theme is AI & Beyond. [[ai|AI]], short for artificial intelligence, means computer systems that learn from data. A 50,000-square-foot AI and Robotics Pavilion, a special display area, is planned. It is to feature more than 101 [[startup|startups]], or young companies, as well as humanoid [[robot|robots]], which are shaped like humans, and drones. Robotic cooking and drone displays are also planned.",
-     "Across the summit, more than 1,000 startups from around 100 cities are expected, along with about 700 speakers. It is due to run until Thursday 19 November."
-    ]
-   },
-   "think": "If you could build a robot to help at home or at school, what one job would you give it, and why?",
-   "quiz": {
-    "q": "How many days is the Bengaluru Tech Summit due to last?",
-    "a": [
-     "One day",
-     "Three days",
-     "Ten days",
-     "A whole month"
+     "Australia and Japan",
+     "China and India",
+     "France and Germany",
+     "Brazil and Canada"
     ],
     "c": 1
    },
    "src": [
     [
-     "The News Minute, 16 Nov",
-     "https://www.thenewsminute.com/karnataka/bengaluru-tech-summit-2026-to-open-on-nov-17-with-a-focus-on-ai-deeptech-and-robotics"
+     "Bloomberg via Business Standard, 16 Nov",
+     "https://www.business-standard.com/world-news/global-electrification-push-stalls-at-cop31-amid-opposition-from-nations-126111601944_1.html"
     ],
     [
-     "ETV Bharat, 16 Nov",
-     "https://www.etvbharat.com/en/technology/bengaluru-tech-summit-2026-to-bring-together-global-technology-leaders-1000-startups-enn26111605486"
+     "Climate Home News, 17 Nov",
+     "https://www.climatechangenews.com/2026/11/17/cop31-bulletin-day-8-arab-group-russia-reject-cover-text-over-fossil-fuels-and-electrification-goal/"
     ],
     [
-     "The Bengaluru Live, 16 Nov",
-     "https://thebengalurulive.com/bengaluru-tech-summit-2026-opens-tomorrow-cm-shivakumar-to-inaugurate-29th-edition-at-biec-says-minister-priyank-kharge/"
+     "Climate Diplomacy Brief, 17 Nov",
+     "https://climatediplobrief.substack.com/p/climate-diplomacy-brief-cop31-day-e48"
     ],
     [
-     "NewsBytes, 16 Nov",
-     "https://www.newsbytesapp.com/news/science/bengaluru-tech-summit-2026-ai-beyond-begins-november-17/tldr"
+     "Islands Business, 17 Nov",
+     "https://islandsbusiness.com/news-break/pacific-climate-demands-face-resistance-at-cop31/"
+    ],
+    [
+     "Reuters via Yahoo News, 16 Nov",
+     "https://www.yahoo.com/news/articles/first-draft-cop31-deal-signals-140910867.html"
     ]
    ]
   },
   {
-   "id": "in-kanpur-express",
+   "id": "in-cranes",
    "scope": "IN",
-   "cat": "civics",
-   "emoji": "🚆",
-   "date": "2026-11-16",
-   "kind": "news",
-   "x": {
-    "t": "A new daily train is flagged off between Kanpur and Delhi",
-    "b": [
-     "A new train called the Kanpur Express made its first run on Monday. The Railway [[minister|Minister]] [[flag-off|flagged it off]]. That means he officially started its first journey.",
-     "The daily train will run between Kanpur Central and Anand Vihar Terminal in Delhi. The route is 428 kilometres long.",
-     "A raised railway track is also planned in Kanpur. The minister said it would solve traffic jams at railway crossings."
-    ]
-   },
-   "o": {
-    "t": "New daily Kanpur Express is flagged off between Kanpur and Delhi",
-    "b": [
-     "Railway [[minister|Minister]] Ashwini Vaishnaw flagged off the first run of the new Kanpur Express on Monday 16 November. To [[flag-off|flag off]] a train is to officially start its journey. The daily service will run between Kanpur Central station and Anand Vihar Terminal in Delhi.",
-     "The route is 428 kilometres long. The train has 22 [[coach|coaches]], or railway carriages. It will benefit passengers from Phaphund, Etawah, Tundla, Hathras, Aligarh, Khurja, Dadri and Ghaziabad.",
-     "The minister also said a 16-kilometre [[elevated|elevated]] railway track, meaning one raised above the ground, is planned between Anwarganj and Mandhana in Kanpur. He called it a permanent solution to Kanpur's decades-old problem of traffic jams at railway crossings. He said the detailed report for the project is complete and approvals have been obtained."
-    ]
-   },
-   "think": "If a new train stopped in your town every day, how might it change life for the people who live there?",
-   "quiz": {
-    "q": "How long is the route of the new Kanpur Express?",
-    "a": [
-     "42 kilometres",
-     "1,428 kilometres",
-     "4,280 kilometres",
-     "428 kilometres"
-    ],
-    "c": 3
-   },
-   "src": [
-    [
-     "News On AIR, 16 Nov",
-     "https://newsonair.gov.in/new-kanpur-express-to-run-between-kanpur-central-and-anand-vihar-terminal-in-delhi/"
-    ],
-    [
-     "PTI via Free Press Journal, 16 Nov",
-     "https://www.freepressjournal.in/business/kanpur-delhi-express-flagged-off-by-ashwini-vaishnaw-new-daily-train-to-connect-kanpur-central-anand-vihar"
-    ],
-    [
-     "The Tribune, 16 Nov",
-     "https://www.tribuneindia.com/news/uttar-pradesh/ashwini-vaishnaw-flags-off-daily-kanpur-express-connecting-city-with-delhi/"
-    ],
-    [
-     "Millennium Post, 16 Nov",
-     "https://www.millenniumpost.in/nation/vaishnaw-flags-off-new-kanpur-express-683430"
-    ]
-   ]
-  },
-  {
-   "id": "g-woodcocks",
-   "scope": "global",
-   "cat": "science",
+   "cat": "nature",
    "emoji": "🐦",
-   "date": "2026-11-16",
+   "date": "2026-11-17",
    "kind": "news",
    "x": {
-    "t": "Scientists use DNA to learn how plump woodcocks reached islands",
+    "t": "More rare cranes in Ladakh as guards keep their nests safe",
     "b": [
-     "A woodcock is a small, plump bird with a very long beak. Six of the eight kinds live only on islands.",
-     "Scientists studied [[dna|DNA]] from birds stored in a [[museum|museum]]. DNA is a set of instructions inside living things.",
-     "The birds' earliest relatives lived in the northern half of the world. Later, birds settled on islands and [[migrate|migrated]] less. To migrate is to travel with the seasons."
+     "[[ladakh|Ladakh]] counted 108 black-necked cranes, a kind of bird, in 2026. In 2025 there were only 87. That is nearly a quarter more birds.",
+     "Ladakh's leaders say these cranes are [[endangered|endangered]], or at risk of dying out. Guards keep dogs away from their nests and chicks, to keep them safe.",
+     "Local people helped too. Young people were praised for helping to protect wildlife."
     ]
    },
    "o": {
-    "t": "DNA from museum birds helps explain how woodcocks reached islands",
+    "t": "Ladakh's black-necked cranes rise to 108 as guards protect nests",
     "b": [
-     "Woodcocks are small, plump birds with very long bills. There are eight living [[species|species]], or kinds, and six are found only on islands.",
-     "For a new study, scientists used [[dna|DNA]], the chemical instructions inside every living thing. It came from the eight woodcock species and 22 species of snipe, which belong to the same sandpiper family. The team used preserved birds from the Field [[museum|Museum]]'s collections. Other sandpipers [[migrate|migrate]], or travel with the seasons, but woodcocks travel shorter distances.",
-     "The study found the group's earliest members lived in the northern half of the Earth and later settled on islands, where they migrated less. The scientists also studied a [[fossil|fossil]] about 1,000 years old from a cave in Haiti. It was first thought to be a woodcock, but the new data shows it is a snipe."
+     "[[ladakh|Ladakh]] counted 108 black-necked cranes in 2026, up from 87 in 2025. That is a rise of nearly 25 per cent, or nearly a quarter. Ladakh's administration announced the count on Tuesday.",
+     "Ladakh's administration calls the black-necked crane an [[endangered|endangered]] [[species|species]], a kind of animal at risk of dying out. Of the birds counted in 2026, 86 were adults and 22 were juveniles, or young birds.",
+     "Ladakh's Lieutenant Governor, the official who leads it, credited guards from the Environment Protection Force, including ex-servicemen, or former members of the armed forces. They protect the cranes' nests and newly hatched chicks from free-ranging dogs, which are dogs that roam freely. Local communities, especially young people, were also praised for taking part in conservation, or work to protect wildlife."
     ]
    },
-   "think": "The birds that settled on islands migrated less. Would you rather stay near home all year or travel with the seasons, and why?",
+   "think": "Why do you think people count wild birds every year? What could the numbers tell them?",
    "quiz": {
-    "q": "How many of the eight kinds of woodcock live only on islands?",
+    "q": "How many black-necked cranes did Ladakh count in 2026?",
     "a": [
-     "Six",
-     "Two",
-     "Four",
-     "All eight"
+     "87 cranes",
+     "108 cranes",
+     "22 cranes",
+     "180 cranes"
     ],
-    "c": 0
+    "c": 1
    },
    "src": [
     [
-     "Field Museum via EurekAlert, 16 Nov",
-     "https://www.eurekalert.org/news-releases/1151676"
+     "The Tribune, 17 Nov",
+     "https://tribuneindia.com/news/j-k/ladakhs-endangered-black-necked-crane-population-rises-25-to-108-in-2026"
     ],
     [
-     "Popular Science, 16 Nov",
-     "https://www.popsci.com/environment/woodcock-bird-evolution/"
+     "Ladakh UT Administration, 17 Nov",
+     "https://ladakh.gov.in/monumental-milestone-for-ladakh-as-black-necked-crane-population-reaches-108-in-2026-registering-25-rise-from-2025/"
     ]
    ]
   },
   {
-   "id": "g-alcaraz",
-   "scope": "global",
-   "cat": "sports",
-   "emoji": "🎾",
-   "date": "2026-11-16",
-   "kind": "news",
-   "x": {
-    "t": "Carlos Alcaraz wins his 10th tennis match in a row",
-    "b": [
-     "Carlos Alcaraz is a tennis player from Spain. On Monday he won his first match at this year's [[atp-finals|ATP Finals]]. The contest is in [[turin|Turin]], Italy.",
-     "He beat Frances Tiafoe from the USA 6-2, 6-2. The match took just over an hour.",
-     "Earlier this year, Alcaraz hurt his wrist. He could not play for several months. Now he has won 10 matches in a row."
-    ]
-   },
-   "o": {
-    "t": "Alcaraz wins his opening match at the ATP Finals, his 10th in a row",
-    "b": [
-     "Carlos Alcaraz of Spain won his opening match at the [[atp-finals|ATP Finals]] in [[turin|Turin]], Italy, on Monday 16 November. He beat Frances Tiafoe of the USA in two [[set|sets]], or parts of a match, 6-2, 6-2, in just over an hour.",
-     "Alcaraz, ranked world number three, was out for several months this year with a wrist injury and returned at the US Open. He came into Turin after winning titles in Vienna and Paris. Monday's win stretched his winning run to 10 matches. Tiafoe, 28, was playing at the ATP Finals for the first time.",
-     "The ATP Finals are for the year's top eight players, in two groups of four. The top two in each group go through to the semi-finals, the round before the final. The tournament runs until 22 November."
-    ]
-   },
-   "think": "Alcaraz had to wait several months before he could play again. What helps you stay patient when you cannot do something you love?",
-   "quiz": {
-    "q": "How many matches in a row has Carlos Alcaraz now won?",
-    "a": [
-     "10",
-     "3",
-     "6",
-     "20"
-    ],
-    "c": 0
-   },
-   "src": [
-    [
-     "ATP Tour, 16 Nov",
-     "https://www.atptour.com/en/news/alcaraz-tiafoe-nitto-atp-finals-2026-monday"
-    ],
-    [
-     "AP via The Bryan Times, 16 Nov",
-     "https://www.bryantimes.com/sports/ap_sports/alcarazs-dominant-display-at-atp-finals-leads-opponent-to-compare-him-to-superman/article_f4f0879b-fce2-5d50-be1e-52bc55363808.html"
-    ],
-    [
-     "Reuters via SRN News, 16 Nov",
-     "https://srnnews.com/tennis-alcaraz-outclasses-tiafoe-at-atp-finals-to-stretch-winning-run/"
-    ],
-    [
-     "Sky Sports, 16 Nov",
-     "https://www.skysports.com/tennis/news/13612924/atp-finals-carlos-alcaraz-dominates-frances-tiafoe-in-opener-to-extend-winning-streak-to-10-matches"
-    ],
-    [
-     "Tennis Majors, 16 Nov",
-     "https://www.tennismajors.com/atp/nitto-atp-finals-atp/unbreakable-medvedev-spoils-cobollis-atp-finals-debut-in-turin-867159.html"
-    ],
-    [
-     "ATP Tour, 15 Nov",
-     "https://www.atptour.com/en/news/nitto-atp-finals-2026-schedule"
-    ],
-    [
-     "Nitto ATP Finals, 15 Nov",
-     "https://www.nittoatpfinals.com/en/news/alcaraz-tiafoe-medvedev-cobolli-nitto-atp-finals-2026-day-2-preview"
-    ],
-    [
-     "Tennis Majors, 15 Nov",
-     "https://www.tennismajors.com/atp/nitto-atp-finals-atp/atp-finals-2026-format-round-robin-qualification-tie-break-rules-866947.html"
-    ],
-    [
-     "LTA, 11 Nov",
-     "https://www.lta.org.uk/fan-zone/nitto-atp-finals/news/preview-player-list-format-how-to-watch"
-    ]
-   ]
-  },
-  {
-   "id": "in-jobs",
+   "id": "in-dhoni",
    "scope": "IN",
-   "cat": "business",
-   "emoji": "💼",
-   "date": "2026-11-16",
+   "cat": "sports",
+   "emoji": "🏏",
+   "date": "2026-11-17",
    "kind": "news",
    "x": {
-    "t": "India's unemployment rate fell in October",
+    "t": "MS Dhoni stops playing in the IPL and will guide his team",
     "b": [
-     "India's government asks many people about their work. On Monday it shared the numbers for October.",
-     "Some people are looking for work but do not have a job. The [[unemployment-rate|unemployment rate]] shows how big that group is. The rate covers people aged 15 years and above.",
-     "In October the rate was 4.9%. In September it was 5%. That means the rate fell."
+     "Chennai Super Kings is a cricket team. On Tuesday, it said MS Dhoni will not play in the [[ipl|IPL]] again.",
+     "Dhoni is 45. He missed the 2026 season because he was injured. He led the team to five IPL titles.",
+     "From 2027, he will be the team's [[mentor|mentor]]. One of the team's owners says his guidance will help its many young players."
     ]
    },
    "o": {
-    "t": "India's unemployment rate fell to 4.9% in October, new data shows",
+    "t": "Chennai Super Kings makes MS Dhoni its mentor as he stops playing",
     "b": [
-     "India's [[unemployment-rate|unemployment rate]] fell to 4.9% in October from 5% in September, government data released on Monday 16 November showed. The figure covers people aged 15 years and above.",
-     "The unemployment rate is the share of the [[labour-force|labour force]] that is without work. The labour force means people who are working or looking for work. The October figures are based on the Periodic Labour Force Survey, a [[survey|survey]] of 3,70,475 people.",
-     "In urban areas, meaning cities and towns, the rate fell to 6.7% from 6.9%. In rural areas, meaning the countryside, it remained unchanged at 4.2%. The share of women who are working or looking for work rose to 35%, its highest level since February 2026. The survey's figures are published every month."
+     "Chennai Super Kings (CSK) announced on Tuesday that MS Dhoni's playing career in the [[ipl|Indian Premier League]] is over. The 45-year-old will be CSK's [[mentor|Team Mentor]] from the 2027 season. CSK's statement did not include any words from Dhoni himself.",
+     "Dhoni joined CSK in 2008, the first IPL season. He led the team to five IPL titles, the joint-most by any captain: no captain has won more. A World Cup-winning captain of India, he retired from international cricket, or playing for India, in August 2020. He missed the 2026 season through injury.",
+     "As mentor, Dhoni will guide CSK's players. CSK owner N Srinivasan said: \"There is no CSK without MS Dhoni.\" Co-owner Rupa Gurunath said that, as CSK has many young players, his guidance will help shape the team's next generation."
     ]
    },
-   "think": "What kinds of work do the grown-ups you know do, and how did they find their jobs?",
+   "think": "Dhoni will now guide younger players. Who is someone who has guided you, and what did you learn from them?",
    "quiz": {
-    "q": "What was India's unemployment rate in October?",
+    "q": "How many IPL titles did Dhoni win with Chennai Super Kings?",
     "a": [
-     "4.9%",
-     "9.4%",
-     "14.9%",
-     "49%"
+     "Three",
+     "Four",
+     "Five",
+     "Seven"
     ],
-    "c": 0
+    "c": 2
    },
    "src": [
     [
-     "Reuters via Investing.com, 16 Nov",
-     "https://www.investing.com/news/economic-indicators/indias-october-unemployment-rate-at-49-yy-5028915"
+     "PTI via ThePrint, 17 Nov",
+     "https://theprint.in/sport/ms-dhoni-retires-from-ipl-set-to-become-chennai-super-kings-mentor/3101027/"
     ],
     [
-     "PTI via Greater Kashmir, 17 Nov",
-     "https://www.greaterkashmir.com/business/indias-unemployment-rate-eases-to-49-in-oct-female-participation-rises-12815260"
+     "Business Standard, 17 Nov",
+     "https://www.business-standard.com/cricket/ipl/m-s-dhoni-named-team-mentor-of-chennai-super-kings-ahead-of-ipl-2027-126111700657_1.html"
     ],
     [
-     "ANI via Punjab Kesari, 16 Nov",
-     "https://english.punjabkesari.com/business/indias-unemployment-rate-falls-to-4-9-in-october-as-urban-joblessness-declines-mospi"
+     "Business Standard, 17 Nov",
+     "https://www.business-standard.com/amp/cricket/ipl/ms-dhoni-s-ipl-records-five-titles-as-captain-most-keeper-dismissals-126111700943_1.html"
     ],
     [
-     "PIB via DD News, 16 Nov",
-     "https://ddnews.gov.in/en/female-labour-force-participation-rises-to-35-in-october-overall-unemployment-falls-to-4-9/"
+     "Sky Sports, 17 Nov",
+     "https://www.skysports.com/cricket/news/13613181/ms-dhoni-former-india-captain-retires-from-playing-role-with-ipls-chennai-super-kings-aged-45"
     ],
     [
-     "US Bureau of Labor Statistics, updated 3 Nov",
-     "https://www.bls.gov/cps/definitions.htm"
+     "The National, 17 Nov",
+     "https://www.thenationalnews.com/sport/cricket/2026/11/17/ipl-ms-dhoni-retires-but-will-always-be-a-part-of-chennai-super-kings-identity/"
     ],
     [
-     "OECD, Unemployment rate indicator page",
-     "https://www.oecd.org/en/data/indicators/unemployment-rate.html"
+     "The News Minute, 17 Nov",
+     "https://www.thenewsminute.com/tamil-nadu/ms-dhoni-retires-from-ipl-will-mentor-chennai-super-kings-ahead-of-2027-season"
+    ],
+    [
+     "Onmanorama, 17 Nov",
+     "https://www.onmanorama.com/sports/cricket/2026/11/17/ms-dhoni-retires-from-ipl-cricket-to-continue-as-csk-mentor.html"
     ]
    ]
   },
   {
-   "id": "g-ce25a",
+   "id": "g-quad",
    "scope": "global",
-   "cat": "tech",
-   "emoji": "✈️",
-   "date": "2026-11-14",
+   "cat": "world",
+   "emoji": "🤝",
+   "date": "2026-11-17",
    "kind": "news",
    "x": {
-    "t": "An electric plane called CE-25A flies with a crew on board",
+    "t": "Leaders of the four Quad countries meet in Manila",
     "b": [
-     "The CE-25A is an electric plane from China. Ten electric fans above its wings push it along.",
-     "On Saturday it made a [[test-flight|test flight]] with people on board. That was a first for this plane. Two pilots and an engineer flew in it.",
-     "Before that, it flew 19 times with nobody inside. It is designed to carry 19 passengers. It is not yet approved for passengers."
+     "The [[quad|Quad]] is a group of four countries. They are Australia, India, Japan and the United States. They work together for the [[indo-pacific|Indo-Pacific]] region.",
+     "On Tuesday, the four leaders met in Manila, in the Philippines. They met there during the [[asean|ASEAN]] meetings.",
+     "India's Prime Minister Narendra Modi called the Quad a trusted partnership. He listed shared work, like keeping seas safe and helping after disasters."
     ]
    },
    "o": {
-    "t": "China's CE-25A electric plane makes its first flight with a crew",
+    "t": "Quad leaders meet in Manila alongside the ASEAN meetings",
     "b": [
-     "The CE-25A, an electric plane, made its first [[test-flight|test flight]] with people on board on Saturday 14 November in Binzhou, in east China. Only test crew were on board: two pilots and a flight-test engineer. The plane was in the air for 16 minutes and 38 seconds.",
-     "It was developed by [[comac|COMAC]], the Commercial Aircraft Corporation of China, with partners. It has 10 electric fans above its wings. COMAC says it is designed to carry 19 passengers between cities, cruise, or fly steadily, at 300 kilometres an hour and fly up to 400 kilometres.",
-     "Since 2 February, it had made 19 flights with nobody on board. China's aviation [[regulator|regulator]], the official body that controls flying, has accepted COMAC's application for approval, but approval has not yet been granted. No date has been given for carrying passengers."
+     "The leaders of the [[quad|Quad]] met in Manila, the Philippines, on Tuesday 17 November, alongside the meetings of [[asean|ASEAN]], a group of Southeast Asian countries. The Quad is a partnership of four countries: Australia, India, Japan and the United States. They work together for the [[indo-pacific|Indo-Pacific]], the region around the Indian and Pacific Oceans.",
+     "The leaders were India's Prime Minister Narendra Modi, US President Donald Trump, Australia's Prime Minister Anthony Albanese and Japan's Prime Minister Sanae Takaichi. Mr Modi said: \"For India, the Quad is a constructive and trusted partnership.\" Constructive means helpful.",
+     "Mr Modi listed shared work: maritime security, or keeping the seas safe, and disaster response. He also named new technologies and trusted supply chains, or the ways goods travel from makers to buyers. He said he was confident the meeting would help set \"concrete goals for the next phase of our cooperation\", meaning specific aims."
     ]
    },
-   "think": "Why do you think this plane was flown 19 times with nobody on board before people flew in it?",
+   "local": {
+    "IN": "India is one of the four Quad countries, and Prime Minister Narendra Modi took part in the leaders' meeting in Manila."
+   },
+   "think": "Why might countries that are far apart choose to work together on things like safe seas or helping after disasters?",
    "quiz": {
-    "q": "How many times had the CE-25A flown with nobody on board before this flight?",
+    "q": "How many countries are in the Quad?",
     "a": [
-     "3 times",
-     "10 times",
-     "16 times",
-     "19 times"
+     "Two",
+     "Ten",
+     "Four",
+     "Seven"
+    ],
+    "c": 2
+   },
+   "src": [
+    [
+     "PTI via Business Standard, 17 Nov",
+     "https://business-standard.com/amp/external-affairs-defence-security/news/quad-a-constructive-trusted-partnership-says-pm-modi-at-manila-summit-126111700915_1.html"
+    ],
+    [
+     "ANI via The Tribune, 17 Nov",
+     "https://www.tribuneindia.com/news/anthony-albanese/pm-modi-says-manila-and-quad-share-an-age-old-and-special-bond-as-leaders-chart-next-phase-of-cooperation"
+    ],
+    [
+     "Ministry of External Affairs, India, Quad brief, July 2026",
+     "https://www.mea.gov.in/Portal/ForeignRelation/Quad_2026.pdf"
+    ],
+    [
+     "Australian Department of Foreign Affairs and Trade, Quad page",
+     "https://www.dfat.gov.au/international-relations/regional-architecture/quad"
+    ]
+   ],
+   "olderOnly": true,
+   "sensitive": "politics"
+  },
+  {
+   "id": "in-bts",
+   "scope": "IN",
+   "cat": "tech",
+   "emoji": "💡",
+   "date": "2026-11-17",
+   "kind": "news",
+   "x": {
+    "t": "Karnataka plans to be the first customer for new tech firms",
+    "b": [
+     "Karnataka's [[chief-minister|Chief Minister]] D K Shivakumar opened the Bengaluru Tech Summit on Tuesday. It is a big meeting about technology. He said more than 75 countries are taking part.",
+     "A [[startup|startup]] is a young company. Karnataka's government will be the first customer for some startups. Its plan is called \"Government First\". It has set aside Rs 25 [[crore|crore]] to buy their products.",
+     "The government also plans an [[ai|AI]] University."
+    ]
+   },
+   "o": {
+    "t": "Karnataka sets out plans to help startups at Bengaluru Tech Summit",
+    "b": [
+     "D K Shivakumar, the [[chief-minister|Chief Minister]] of Karnataka, or head of the state's government, opened the 29th Bengaluru Tech Summit in Bengaluru on Tuesday 17 November. This year's theme is \"AI and Beyond\". The Chief Minister said more than 75 countries are taking part, up from 57 last year.",
+     "Under a plan called \"Government First\", the state government will become the first customer for some [[startup|startups]], or young companies. It has set aside Rs 25 [[crore|crore]] to buy new products and ideas that these startups develop. The Chief Minister said Karnataka has more than 24,000 recognised startups.",
+     "The state government also plans a government-led AI University. [[ai|AI]], short for artificial intelligence, means computers that can do tasks that usually need human intelligence. An AI Hub would be at the centre of the university, bringing startups, researchers and industry together."
+    ]
+   },
+   "think": "If you started a small company with a new idea, who would you want as your very first customer, and why?",
+   "quiz": {
+    "q": "Under the Government First plan, who will be the first customer for some startups?",
+    "a": [
+     "Schools in other countries",
+     "Big banks",
+     "Film studios",
+     "The Karnataka state government"
     ],
     "c": 3
    },
    "src": [
     [
-     "Xinhua, 14 Nov",
-     "https://english.news.cn/20261114/962db2096da1431383746bdb4e9ecf97/c.html"
+     "Business Standard, 17 Nov",
+     "https://www.business-standard.com/amp/india-news/karnataka-ai-deep-tech-semiconductor-bengaluru-tech-summit-2026-126111700565_1.html"
     ],
     [
-     "Global Times, 15 Nov",
-     "https://www.globaltimes.cn/page/202611/1374334.shtml"
+     "The South First, 17 Nov",
+     "https://thesouthfirst.com/karnataka/karnataka-cm-dk-shivakumar-inaugurates-bengaluru-tech-summit-pitches-state-as-global-technology-hub/"
     ],
     [
-     "Electrek, 15 Nov",
-     "https://electrek.co/2026/11/15/china-comac-ce-25a-electric-plane-crewed-flight/"
+     "IANS via Vividh Bharathi, 17 Nov",
+     "https://vividhbharathi.com/bengaluru-tech-summit-inaugurated-karnataka-aims-to-emerge-as-global-hub-for-ai-deep-tech-semiconductors-cm-shivakumar/"
     ],
     [
-     "Airways Magazine, 16 Nov",
-     "https://www.airwaysmag.com/new-post/comac-ce25a-first-crewed-electric-test-flight"
+     "ANI via Deccan Chronicle, 17 Nov",
+     "https://www.deccanchronicle.com/southern-states/karnataka/chief-minister-dk-shivakumar-inaugurates-bengaluru-tech-summit-2026-2005135"
+    ]
+   ]
+  },
+  {
+   "id": "g-leonids",
+   "scope": "global",
+   "cat": "space",
+   "emoji": "🌠",
+   "date": "2026-11-17",
+   "kind": "calendar",
+   "when": "Night of 17 to 18 November",
+   "x": {
+    "t": "How to spot shooting stars after midnight tonight",
+    "b": [
+     "The Leonid [[meteor|shooting stars]] are at their best tonight. In a very dark place, you might see up to about 15 an hour.",
+     "These shooting stars are made by tiny bits of dust from a [[comet|comet]]. They zoom into our air and glow as they burn up.",
+     "Look from midnight until dawn, with a grown-up. Find a safe, dark spot, away from lights. No telescope is needed."
+    ]
+   },
+   "o": {
+    "t": "The Leonid meteor shower peaks tonight: how to see it",
+    "b": [
+     "The Leonid [[meteor|meteor]] shower peaks on the night of Tuesday 17 November into Wednesday 18 November. A meteor, or shooting star, is the streak of light made when a tiny bit of space dust burns up in Earth's air. In ideal dark skies there can be up to about 15 an hour, though most people will see fewer.",
+     "The dust comes from a [[comet|comet]] called 55P/Tempel-Tuttle and enters our air at about 70 kilometres a second. The meteors seem to come from the constellation Leo, a group of stars that forms a pattern.",
+     "The Moon sets before the best viewing time, so its light should not get in the way. Watch from after midnight until dawn, away from lights. No telescope is needed, but give your eyes about 30 minutes to get used to the dark."
+    ]
+   },
+   "think": "Why do you think it helps to watch for shooting stars from a dark place, away from lights?",
+   "quiz": {
+    "q": "Where does the dust that makes the Leonid shooting stars come from?",
+    "a": [
+     "A volcano on Earth",
+     "A comet",
+     "The Moon",
+     "Rain clouds"
+    ],
+    "c": 1
+   },
+   "src": [
+    [
+     "NASA, updated 3 Nov",
+     "https://science.nasa.gov/solar-system/skywatching/whats-up-november-2026-skywatching-tips-from-nasa/"
     ],
     [
-     "Travel Tomorrow, 16 Nov",
-     "https://traveltomorrow.com/chinas-electric-passenger-plane-completes-first-crewed-flight/"
+     "Royal Museums Greenwich, 2026 guide",
+     "https://www.rmg.co.uk/stories/space-astronomy/leonid-meteor-shower-when-and-where-see-it-uk"
     ],
     [
-     "Aviation Week, 16 Nov",
-     "https://aviationweek.com/aerospace/emerging-technologies/china-conducts-first-crewed-flight-comac-ce-25a-electric-aircraft"
+     "Space.com, updated 17 Nov",
+     "https://www.space.com/leonid-meteor-shower"
+    ],
+    [
+     "BBC Sky at Night Magazine, 4 Nov",
+     "https://www.skyatnightmagazine.com/advice/skills/leonid-meteor-shower-when-how-see"
+    ],
+    [
+     "Britannica",
+     "https://www.britannica.com/story/whats-the-difference-between-a-meteoroid-a-meteor-and-a-meteorite"
+    ],
+    [
+     "NASA JPL glossary",
+     "https://ssd.jpl.nasa.gov/glossary/meteor.html"
+    ]
+   ]
+  },
+  {
+   "id": "g-giller",
+   "scope": "global",
+   "cat": "culture",
+   "emoji": "📚",
+   "date": "2026-11-17",
+   "kind": "news",
+   "x": {
+    "t": "A fisherman who writes wins Canada's Giller Prize",
+    "b": [
+     "Nicholas Herring is a fisherman and a carpenter. He is also an author from Prince Edward Island, in Canada.",
+     "On Monday, his [[novel|book]] won the Giller Prize in Toronto. He gets $100,000 for winning.",
+     "The book is called Your Breath in Charcoal. It tells the story of a road trip. Four other books were [[finalist|finalists]]. Each of their writers gets $10,000."
+    ]
+   },
+   "o": {
+    "t": "Fisherman and carpenter Nicholas Herring wins the Giller Prize",
+    "b": [
+     "Nicholas Herring, an author from Prince Edward Island in Canada who works as a fisherman and a carpenter, has won Canada's Giller Prize. The winner was announced on Monday 16 November in Toronto. Herring receives $100,000 for his [[novel|novel]], a long made-up story, called Your Breath in Charcoal.",
+     "The book follows an everyman named Knickle on a road trip. An everyman is an ordinary person who stands for lots of ordinary people. The prize's [[jury|jury]], the group of judges, praised the book.",
+     "Five books reached the last round of the prize. The four other [[finalist|finalists]], the writers whose books made it to that last stage, were Tara Gereaux, Michelle Good, Nazanine Hozar and Patmeena Sabit. Each of them receives $10,000, so every finalist is rewarded, not only the winner."
+    ]
+   },
+   "think": "If you could give a prize to one book you have read, which would you choose, and why?",
+   "quiz": {
+    "q": "What does Nicholas Herring do for work, as well as writing?",
+    "a": [
+     "He is a pilot and a farmer",
+     "He is a teacher and a singer",
+     "He is a fisherman and a carpenter",
+     "He is a doctor and a painter"
+    ],
+    "c": 2
+   },
+   "src": [
+    [
+     "Giller Prize, 16 Nov",
+     "https://gillerprize.ca/nicholas-herring-is-the-winner-of-the-2026-giller-prize/"
+    ],
+    [
+     "The Canadian Press via CP24, 16 Nov",
+     "https://www.cp24.com/news/entertainment/2026/11/17/nicholas-herring-wins-giller-prize-for-novel-your-breath-in-charcoal/"
     ]
    ]
   }
  ],
  "glossary": {
-  "bay-of-bengal": [
-   "Bay of Bengal",
-   "places",
-   "A big part of the sea to the east of India.",
-   "A large part of the north Indian Ocean, to the east of India. Andhra Pradesh and Odisha have coasts on it."
-  ],
-  "cyclone": [
-   "cyclone",
-   "science",
-   "A big spinning storm. It forms over the sea and brings strong wind and rain.",
-   "A large storm that forms over the sea, with strong winds turning around a centre. India's weather office names a storm when its winds reach 62 kilometres an hour."
-  ],
-  "imd": [
-   "IMD",
-   "civics",
-   "India's weather office. It watches the weather and warns people about storms.",
-   "The India Meteorological Department, India's weather office. It forecasts the weather, tracks storms and names cyclones over the north Indian Ocean."
+  "ai": [
+   "AI",
+   "tech",
+   "Artificial intelligence: computer programs that can learn and make choices.",
+   "Artificial intelligence: computer systems that learn patterns from data to recognise images, understand language or make predictions."
   ],
   "andhra-pradesh": [
    "Andhra Pradesh",
@@ -755,23 +470,53 @@
    "A state in India. It has a coast on the Bay of Bengal.",
    "A state in India with a coast on the Bay of Bengal."
   ],
-  "light-day": [
-   "light-day",
-   "science",
-   "How far light travels in one whole day. It is a very long way.",
-   "A unit of distance: how far light travels in 24 hours, about 25.9 billion kilometres."
+  "asean": [
+   "ASEAN",
+   "civics",
+   "A group of countries in Southeast Asia that work together.",
+   "Short for the Association of Southeast Asian Nations, a group of countries in Southeast Asia that cooperate on trade, safety and other shared issues."
   ],
-  "morse-code": [
-   "Morse code",
-   "words",
-   "A code that spells letters with short and long signals.",
-   "A code that spells out letters using short and long signals, such as flashes of light or beeps."
+  "bay-of-bengal": [
+   "Bay of Bengal",
+   "places",
+   "A big part of the sea to the east of India.",
+   "A large part of the north Indian Ocean, to the east of India. Andhra Pradesh and Odisha have coasts on it."
+  ],
+  "chief-minister": [
+   "Chief Minister",
+   "civics",
+   "The leader of a state's government in India.",
+   "The head of the government of a state in India."
+  ],
+  "comet": [
+   "comet",
+   "science",
+   "An object in space that travels around the Sun and leaves a trail of dust.",
+   "An object made of ice and dust that travels around the Sun. As it comes near the Sun, it leaves a trail of dust behind it."
   ],
   "cop": [
    "COP",
    "civics",
    "A big meeting where countries talk about climate change.",
-   "Short for Conference of the Parties: the United Nations climate summit, where countries meet to agree on action on climate change."
+   "The United Nations climate talks, where countries meet to agree on action on climate change."
+  ],
+  "crore": [
+   "crore",
+   "words",
+   "A very big number: 1 with seven zeros after it.",
+   "An Indian unit for 10 million, written 1,00,00,000."
+  ],
+  "cyclone": [
+   "cyclone",
+   "science",
+   "A big spinning storm. It forms over the sea and brings strong wind and rain.",
+   "A large storm that forms over the sea, with strong winds turning around a centre. India's weather office names a storm when its winds reach 62 kilometres an hour."
+  ],
+  "deep-space-network": [
+   "Deep Space Network",
+   "tech",
+   "The system NASA uses to talk to faraway spacecraft.",
+   "NASA's system for communicating with distant spacecraft such as Voyager 1. It is managed by the Jet Propulsion Laboratory."
   ],
   "draft": [
    "draft",
@@ -779,11 +524,23 @@
    "An early try at writing something. It can still be changed.",
    "An early version of a piece of writing, such as an agreement, which can still be changed before it is final."
   ],
-  "minister": [
-   "minister",
-   "civics",
-   "A senior member of a government who looks after one area, such as the environment.",
-   "A senior member of a government who is in charge of one area of its work, such as the environment."
+  "electrification": [
+   "electrification",
+   "science",
+   "Changing things so that they run on electricity.",
+   "The process of changing something, such as transport, heating or factories, so that it runs on electricity."
+  ],
+  "endangered": [
+   "endangered",
+   "science",
+   "At risk of dying out.",
+   "Describes a kind of animal or plant that is at risk of disappearing completely."
+  ],
+  "finalist": [
+   "finalist",
+   "words",
+   "Someone who reaches the last round of a contest.",
+   "A person, team or project that reaches the last stage of a competition, from which the winners are chosen."
   ],
   "fossil-fuels": [
    "fossil fuels",
@@ -791,185 +548,17 @@
    "Coal, oil and gas. People burn them to make energy.",
    "Fuels such as coal, oil and gas, formed long ago from the remains of plants and animals."
   ],
-  "asean": [
-   "ASEAN",
+  "imd": [
+   "IMD",
    "civics",
-   "A group of countries in Southeast Asia that work together.",
-   "Short for the Association of Southeast Asian Nations, a group of countries in Southeast Asia that cooperate on trade, safety and other shared issues."
+   "India's weather office. It watches the weather and warns people about storms.",
+   "The India Meteorological Department, India's weather office. It forecasts the weather, tracks storms and names cyclones over the north Indian Ocean."
   ],
-  "seismologist": [
-   "seismologist",
-   "science",
-   "A scientist who studies earthquakes.",
-   "A scientist who studies earthquakes."
-  ],
-  "earthquake": [
-   "earthquake",
-   "science",
-   "A sudden shaking of the ground.",
-   "A sudden shaking of the ground, caused when huge masses of rock move beneath the Earth's surface."
-  ],
-  "saff-championship": [
-   "SAFF Championship",
-   "words",
-   "A football contest. India have won it nine times, a record.",
-   "A football tournament. India have won the title nine times, a record."
-  ],
-  "dhaka": [
-   "Dhaka",
+  "indo-pacific": [
+   "Indo-Pacific",
    "places",
-   "A city in Bangladesh.",
-   "A city in Bangladesh. The final is at the National Stadium there."
-  ],
-  "defending-champion": [
-   "defending champion",
-   "words",
-   "The winner from last time, who is trying to win again.",
-   "A team or player that won a competition the last time it was held and is trying to win it again."
-  ],
-  "gorilla": [
-   "gorilla",
-   "science",
-   "A very large, strong ape.",
-   "A very large, strong ape. The two in this story are western lowland gorillas."
-  ],
-  "cooperation": [
-   "cooperation",
-   "words",
-   "Working together to get something done.",
-   "Working together with someone else to get something done."
-  ],
-  "spontaneous": [
-   "spontaneous",
-   "words",
-   "Done naturally, without being told to.",
-   "Done naturally, without being told or forced to."
-  ],
-  "journal": [
-   "journal",
-   "words",
-   "A magazine about one subject, such as science.",
-   "A magazine that deals with one subject. Scientists publish their studies in science journals."
-  ],
-  "startup": [
-   "startup",
-   "words",
-   "A young company that has only just got started.",
-   "A new business that has only recently been started."
-  ],
-  "robot": [
-   "robot",
-   "tech",
-   "A machine that can do jobs by itself or is controlled by a computer.",
-   "A machine that can carry out tasks automatically or is controlled by a computer."
-  ],
-  "ai": [
-   "AI",
-   "tech",
-   "Artificial intelligence: computer programs that can learn and make choices.",
-   "Artificial intelligence: computer systems that learn patterns from data to recognise images, understand language or make predictions."
-  ],
-  "flag-off": [
-   "flag off",
-   "words",
-   "To officially start something, such as a journey.",
-   "To officially start an event, such as a tour or a journey. The phrase is used in Indian English."
-  ],
-  "coach": [
-   "coach",
-   "words",
-   "One of the long cars that are joined together to make a train.",
-   "A railway carriage: one of the separate sections of a train that carry passengers."
-  ],
-  "elevated": [
-   "elevated",
-   "words",
-   "Raised above the ground.",
-   "Raised above the ground, like an elevated highway or railway."
-  ],
-  "dna": [
-   "DNA",
-   "science",
-   "A set of instructions inside every living thing.",
-   "The chemical inside the cells of living things that carries genetic information, the instructions passed from parents to their young."
-  ],
-  "species": [
-   "species",
-   "science",
-   "One kind of living thing, such as a tiger or a house sparrow.",
-   "A group of animals or plants that are alike and can breed with each other."
-  ],
-  "museum": [
-   "museum",
-   "words",
-   "A place that keeps and shows interesting and important things.",
-   "A building in which interesting and valuable things, such as works of art or historical or scientific objects, are collected and shown to the public."
-  ],
-  "migrate": [
-   "migrate",
-   "science",
-   "To travel to another place when the seasons change.",
-   "To move from one region to another at certain times of the year, as many birds do when the seasons change."
-  ],
-  "fossil": [
-   "fossil",
-   "science",
-   "What is left of an animal or plant that lived long ago.",
-   "The remains or traces of an animal or plant that lived long ago, preserved in rock or in the earth."
-  ],
-  "atp-finals": [
-   "ATP Finals",
-   "words",
-   "A tennis contest at the end of the year for eight of the best men's players.",
-   "The tournament that ends the men's tennis season. Eight of the season's best singles players qualify and play in two groups of four."
-  ],
-  "turin": [
-   "Turin",
-   "places",
-   "A city in Italy.",
-   "A city in Italy where the ATP Finals are being played."
-  ],
-  "set": [
-   "set",
-   "words",
-   "One part of a tennis match.",
-   "One part of a tennis match, made up of games. Players have to win sets to win the match."
-  ],
-  "unemployment-rate": [
-   "unemployment rate",
-   "words",
-   "A number that shows what share of the people who have work or are looking for work do not have a job.",
-   "The share of the labour force that is without work. The labour force is the people who are working or looking for work."
-  ],
-  "labour-force": [
-   "labour force",
-   "words",
-   "All the people who have work or are looking for work.",
-   "All the people who are either working or looking for work."
-  ],
-  "survey": [
-   "survey",
-   "words",
-   "Asking many people the same questions to find something out.",
-   "A way of finding things out by asking a group of people the same questions."
-  ],
-  "test-flight": [
-   "test flight",
-   "words",
-   "A flight made to check that a new plane works well.",
-   "A flight made to check how a new aircraft performs."
-  ],
-  "comac": [
-   "COMAC",
-   "tech",
-   "A company in China. It developed the CE-25A plane with partners.",
-   "Short for the Commercial Aircraft Corporation of China, which developed the CE-25A with partners."
-  ],
-  "regulator": [
-   "regulator",
-   "civics",
-   "An official group that checks that rules are followed.",
-   "An official body that makes sure the rules are followed in one area of activity, such as flying."
+   "The big area around the Indian Ocean and the Pacific Ocean.",
+   "The region of the Indian Ocean and the western Pacific Ocean."
   ],
   "interstellar": [
    "interstellar space",
@@ -977,325 +566,375 @@
    "The space between the stars.",
    "Space beyond the heliopause, the place where the Sun's constant flow of material and its magnetic field stop affecting their surroundings."
   ],
+  "ipl": [
+   "IPL",
+   "words",
+   "Short for Indian Premier League. It is a cricket competition. Chennai Super Kings plays in it.",
+   "Short for the Indian Premier League, a cricket competition. Chennai Super Kings (CSK) is one of its teams."
+  ],
   "jpl": [
    "Jet Propulsion Laboratory",
    "places",
    "A NASA centre in California. The Voyager 1 mission is run from there.",
    "A NASA laboratory in Pasadena, California. The Voyager mission is run from there."
   ],
-  "deep-space-network": [
-   "Deep Space Network",
+  "jury": [
+   "jury",
+   "words",
+   "A group of people who choose the winner of a contest.",
+   "A group of people chosen to judge a competition and decide who wins."
+  ],
+  "ladakh": [
+   "Ladakh",
+   "places",
+   "A part of India in the far north, high in the Himalayan mountains.",
+   "A union territory in the far north of India, high in the Himalayan and Karakoram mountains. It is led by a lieutenant governor chosen by the president of India."
+  ],
+  "light-day": [
+   "light-day",
+   "science",
+   "How far light travels in one whole day. It is a very long way.",
+   "A unit of distance: how far light travels in 24 hours, about 25.9 billion kilometres."
+  ],
+  "mentor": [
+   "mentor",
+   "words",
+   "Someone who guides others and shares what they have learned.",
+   "Someone who guides others using their experience. At CSK, Dhoni's job as mentor is to guide the players, especially the many young ones."
+  ],
+  "meteor": [
+   "meteor",
+   "science",
+   "A shooting star: a streak of light made when a tiny bit of space dust or rock burns up in our air.",
+   "The streak of light seen when a small piece of rock or dust from space enters Earth's atmosphere and burns up. It is also called a shooting star."
+  ],
+  "minister": [
+   "minister",
+   "civics",
+   "A senior member of a government who looks after one area, such as the environment.",
+   "A senior member of a government who is in charge of one area of its work, such as the environment."
+  ],
+  "novel": [
+   "novel",
+   "words",
+   "A long story in a book. The writer makes it up.",
+   "A long written story about made-up people and events."
+  ],
+  "quad": [
+   "Quad",
+   "civics",
+   "A group of four countries: Australia, India, Japan and the United States. They work together.",
+   "A partnership of four countries, Australia, India, Japan and the United States, that work together on shared goals for the Indo-Pacific region."
+  ],
+  "robot": [
+   "robot",
    "tech",
-   "The system NASA uses to talk to faraway spacecraft.",
-   "NASA's system for communicating with distant spacecraft such as Voyager 1. It is managed by the Jet Propulsion Laboratory."
+   "A machine that can do jobs by itself or is controlled by a computer.",
+   "A machine that can carry out tasks automatically or is controlled by a computer."
+  ],
+  "species": [
+   "species",
+   "science",
+   "One kind of living thing, such as a tiger or a house sparrow.",
+   "A group of animals or plants that are alike and can breed with each other."
+  ],
+  "startup": [
+   "startup",
+   "words",
+   "A young company that has only just got started.",
+   "A new business that has only recently been started."
   ]
  },
  "keys": {
   "in-akvan": {
    "type": "number",
-   "v": "74",
-   "l": "rescue teams Odisha plans to deploy: 60 ODRAF teams and 14 NDRF teams"
-  },
-  "g-voyager": {
-   "type": "number",
-   "v": "1.3 seconds",
-   "l": "about how long light takes to reach the Moon; to reach Voyager 1 on Wednesday, it will take 24 hours"
+   "v": "120",
+   "l": "kilometres an hour or more: the winds expected when Akvan crosses the coast around midday on Friday 20 November"
   },
   "g-cop31": {
    "type": "number",
-   "v": "18",
-   "l": "pages in the first draft of the COP31 deal"
+   "v": "35%",
+   "l": "share of the world's energy use that a goal in the draft wants electricity to reach by 2035"
   },
-  "g-asean-prize": {
+  "in-cranes": {
    "type": "number",
-   "v": "79",
-   "l": "the age of Hla Hla Aung, the earthquake scientist who received the 2026 ASEAN Prize"
+   "v": "108",
+   "l": "black-necked cranes counted in Ladakh in 2026, up from 87 in 2025"
   },
-  "in-saff-final": {
+  "in-dhoni": {
    "type": "number",
-   "v": "9",
-   "l": "times India have won the SAFF Championship, a record"
+   "v": "5",
+   "l": "IPL titles Dhoni won with Chennai Super Kings: 2010, 2011, 2018, 2021 and 2023"
   },
-  "g-gorilla-ladder": {
+  "g-quad": {
    "type": "number",
-   "v": "3",
-   "l": "times the researchers documented the two gorillas doing this: in 2021, 2024 and 2025"
+   "v": "4",
+   "l": "countries in the Quad: Australia, India, Japan and the United States"
   },
   "in-bts": {
    "type": "number",
-   "v": "1,000+",
-   "l": "startups, from around 100 cities, expected at the Bengaluru Tech Summit"
+   "v": "Rs 25 crore",
+   "l": "set aside by Karnataka's government to buy new products from startups under its Government First plan"
   },
-  "in-kanpur-express": {
+  "g-leonids": {
    "type": "number",
-   "v": "428 km",
-   "l": "the distance between Kanpur Central and Anand Vihar Terminal in Delhi"
+   "v": "15",
+   "l": "meteors an hour, about the most you might see in ideal dark skies; most people will see fewer"
   },
-  "g-woodcocks": {
+  "g-giller": {
    "type": "number",
-   "v": "6 of 8",
-   "l": "woodcock species are found only on islands"
-  },
-  "g-alcaraz": {
-   "type": "number",
-   "v": "10",
-   "l": "matches Carlos Alcaraz has now won in a row"
-  },
-  "in-jobs": {
-   "type": "number",
-   "v": "4.9%",
-   "l": "India's unemployment rate in October 2026, down from 5% in September"
-  },
-  "g-ce25a": {
-   "type": "number",
-   "v": "19",
-   "l": "flights the CE-25A made with nobody on board before its first flight with a crew"
+   "v": "$100,000",
+   "l": "prize money for the winner of the Giller Prize; each of the four other finalists gets $10,000"
   }
  },
  "xkeys": {
   "in-akvan": {
    "type": "check",
-   "q": "Which country does the name Akvan come from?",
+   "q": "When are rescue teams getting ready?",
    "a": [
-    "Iceland",
-    "Iran"
+    "Before the storm arrives",
+    "After the storm has gone"
    ],
-   "c": 1,
-   "right": "Right! The name Akvan comes from Iran.",
-   "wrong": "Not quite. The name Akvan comes from Iran."
-  },
-  "g-voyager": {
-   "type": "check",
-   "q": "What reaches the Moon in about 1.3 seconds?",
-   "a": [
-    "A rocket",
-    "Light"
-   ],
-   "c": 1,
-   "right": "Right! Light reaches the Moon in about 1.3 seconds.",
-   "wrong": "Not quite. Light reaches the Moon in about 1.3 seconds."
+   "c": 0,
+   "right": "Right! Teams are getting ready early, so help is close by.",
+   "wrong": "Not quite. Teams are getting ready early, before the storm arrives, so help is close by."
   },
   "g-cop31": {
    "type": "check",
-   "q": "Is the draft the final deal?",
+   "q": "Must every country join Türkiye's electricity promise?",
    "a": [
-    "No, it will change",
-    "Yes, it is finished"
+    "Yes, every country must",
+    "No, joining is a choice"
    ],
-   "c": 0,
-   "right": "Right! The draft is not final and will change.",
-   "wrong": "Not quite. The draft is not final and will change."
+   "c": 1,
+   "right": "Right! Joining the promise is a choice, not a rule.",
+   "wrong": "Not quite. Joining the promise is a choice, not a rule."
   },
-  "g-asean-prize": {
+  "in-cranes": {
    "type": "check",
-   "q": "What was Hla Hla Aung given on Sunday?",
+   "q": "What do the guards keep away from the cranes' nests?",
    "a": [
-    "The 2026 ASEAN Prize",
-    "A new telescope"
+    "Rain",
+    "Dogs"
    ],
-   "c": 0,
-   "right": "Right! She was given the 2026 ASEAN Prize for helping people get ready for earthquakes.",
-   "wrong": "Not quite. She was given the 2026 ASEAN Prize for helping people get ready for earthquakes."
+   "c": 1,
+   "right": "Right! The guards keep dogs away from the nests and chicks.",
+   "wrong": "Not quite. The guards keep dogs away from the nests and chicks."
   },
-  "in-saff-final": {
+  "in-dhoni": {
    "type": "check",
-   "q": "In which city is the final being played?",
+   "q": "How old is MS Dhoni?",
    "a": [
-    "Dhaka",
-    "Mumbai"
+    "45",
+    "54"
    ],
    "c": 0,
-   "right": "Right! The match is in Dhaka, Bangladesh.",
-   "wrong": "Not quite. The match is in Dhaka, Bangladesh."
+   "right": "Right! MS Dhoni is 45.",
+   "wrong": "Not quite. MS Dhoni is 45."
   },
-  "g-gorilla-ladder": {
+  "g-quad": {
    "type": "check",
-   "q": "Did anyone train the gorillas to do this?",
+   "q": "Where did the Quad leaders meet on Tuesday?",
    "a": [
-    "No, nobody trained them",
-    "Yes, their keepers trained them"
+    "Manila, in the Philippines",
+    "Paris, in France"
    ],
    "c": 0,
-   "right": "Right! Nobody trained the gorillas to do it.",
-   "wrong": "Not quite. Nobody trained the gorillas to do it."
+   "right": "Right! The leaders met in Manila, in the Philippines.",
+   "wrong": "Not quite. The leaders met in Manila, in the Philippines."
   },
   "in-bts": {
    "type": "check",
-   "q": "What is the special area at the summit planned for?",
+   "q": "How much has Karnataka set aside to buy from startups?",
    "a": [
-    "Robots and AI",
-    "Swimming and diving"
+    "Rs 5,000",
+    "Rs 25 crore"
+   ],
+   "c": 1,
+   "right": "Right! Karnataka has set aside Rs 25 crore.",
+   "wrong": "Not quite. Karnataka has set aside Rs 25 crore."
+  },
+  "g-leonids": {
+   "type": "check",
+   "q": "Do you need a telescope to see the Leonids?",
+   "a": [
+    "Yes, a big telescope",
+    "No, just your eyes"
+   ],
+   "c": 1,
+   "right": "Right! You can see them with just your eyes.",
+   "wrong": "Not quite. You do not need a telescope, just your eyes."
+  },
+  "g-giller": {
+   "type": "check",
+   "q": "Did the other finalists get any prize money?",
+   "a": [
+    "Yes, $10,000 each",
+    "No, nothing at all"
    ],
    "c": 0,
-   "right": "Right! A special area is planned for robots and AI.",
-   "wrong": "Not quite. A special area is planned for robots and AI."
-  },
-  "in-kanpur-express": {
-   "type": "check",
-   "q": "What does it mean to flag off a train?",
-   "a": [
-    "To officially start its journey",
-    "To paint it a new colour"
-   ],
-   "c": 0,
-   "right": "Right! To flag off a train is to officially start its journey.",
-   "wrong": "Not quite. To flag off a train is to officially start its journey."
-  },
-  "g-woodcocks": {
-   "type": "check",
-   "q": "Where were the birds stored that scientists took DNA from?",
-   "a": [
-    "In a zoo",
-    "In a museum"
-   ],
-   "c": 1,
-   "right": "Right! Scientists studied DNA from birds stored in a museum.",
-   "wrong": "Not quite. Scientists studied DNA from birds stored in a museum."
-  },
-  "g-alcaraz": {
-   "type": "check",
-   "q": "Why could Alcaraz not play for several months this year?",
-   "a": [
-    "He was on holiday",
-    "He hurt his wrist"
-   ],
-   "c": 1,
-   "right": "Right! Alcaraz hurt his wrist and could not play for several months.",
-   "wrong": "Not quite. Alcaraz hurt his wrist and could not play for several months."
-  },
-  "in-jobs": {
-   "type": "check",
-   "q": "Did India's unemployment rate go up or down in October?",
-   "a": [
-    "It went up",
-    "It went down"
-   ],
-   "c": 1,
-   "right": "Right! The rate fell to 4.9% in October, from 5% in September.",
-   "wrong": "Not quite. The rate fell to 4.9% in October, from 5% in September."
-  },
-  "g-ce25a": {
-   "type": "check",
-   "q": "Who flew in the plane on Saturday?",
-   "a": [
-    "Families going on holiday",
-    "Two pilots and an engineer"
-   ],
-   "c": 1,
-   "right": "Right! Two pilots and an engineer flew in it. No passengers were on board.",
-   "wrong": "Not quite. Two pilots and an engineer flew in it. No passengers were on board."
+   "right": "Right! Each of the four other finalists gets $10,000.",
+   "wrong": "Not quite. Each of the four other finalists gets $10,000."
   }
  },
  "deep": {
   "in-akvan": {
-   "ctx": "On Monday evening the IMD also said Akvan was likely to intensify, or strengthen, into a severe cyclonic storm by the evening of 17 November and into a very severe cyclonic storm around 19 November. It was forecast to cross the coast as a very severe cyclonic storm. The present list of storm names dates from 2020 and has 169 names, 13 from each of the 13 countries.",
-   "ask": "The storm is forecast to cross the coast in Andhra Pradesh, but neighbouring Odisha also plans to deploy rescue teams. Is it better to prepare widely in case a forecast changes, or to save effort for the places most likely to be affected?",
+   "ctx": "At 5:30 am on Tuesday, Akvan was about 610 kilometres east of Chennai and 670 kilometres south-southeast of Visakhapatnam. It became a cyclonic storm on Monday, and Tuesday's forecast said gusts of up to 145 kilometres an hour are expected when it crosses the coast.",
+   "ask": "Some families live in places at risk of landslides or flooding. Should they be helped to move somewhere safer for good, or helped to stay and make their homes safer?",
    "jobs": [
-    "Weather forecaster (meteorologist)",
-    "Disaster rescue team member",
-    "District administrator"
-   ]
-  },
-  "g-voyager": {
-   "ctx": "The nearest star to the Sun, Proxima Centauri, is about 4.24 light-years away, more than 1,500 times farther than Voyager 1 will be on Wednesday. A reply from Voyager 1 takes another 24 hours to come back, so a question and its answer take about two days. Another spacecraft, Voyager 2, will reach its own light-day mark in November 2035.",
-   "ask": "A question sent to Voyager 1 and its answer now take about two days: is it worth keeping such a distant spacecraft running for as long as possible, or should that effort go into new missions?",
-   "jobs": [
-    "Astrophysicist",
-    "Radio communications engineer",
-    "Science educator (someone who explains science to the public)"
+    "Meteorologist (a scientist who forecasts the weather)",
+    "Disaster response rescuer",
+    "Emergency control room operator"
    ]
   },
   "g-cop31": {
-   "ctx": "The draft text is known as a cover decision. Australia and Türkiye share the running of COP31. The draft also mentions tripling adaptation finance, the money that helps developing countries adapt, to at least $120 billion.",
-   "ask": "Should a first draft include ideas that not all countries agree on, so that everything is on the table, or only ideas with a real chance of being agreed, to save time?",
+   "ctx": "The first draft is 18 pages long. Chris Bowen, Australia's Minister for Climate Change and Energy, is President of Negotiations at COP31.",
+   "ask": "When nearly 200 countries must agree, is it better to keep strong goals in a deal even if some groups object, or to soften the wording so that more countries can sign it?",
    "jobs": [
     "Climate policy adviser",
-    "Renewable energy engineer",
-    "Science journalist"
+    "Energy engineer",
+    "Diplomat"
    ]
   },
-  "g-asean-prize": {
-   "ctx": "Hla Hla Aung described herself as a geologist, researcher, educator and mother. She also said that time is our most precious asset. The ASEAN Prize is run by the ASEAN Secretariat.",
-   "ask": "Should big prizes for scientists go mostly to people who make new discoveries, or to people who turn what is already known into help for communities?",
+  "in-cranes": {
+   "ctx": "In 2025 the count was 70 adults and 17 juveniles. In 2026 Chushul had the most cranes, with 16, followed by Tso Kar and Kargyam with 15 each and Korzok with 14, and these four sites together held more than half of all the birds.",
+   "ask": "Guards protect crane nests from free-ranging dogs: should wildlife protection focus on guarding animals directly, or on dealing with the things that threaten them?",
    "jobs": [
-    "Seismologist (a scientist who studies earthquakes)",
-    "Disaster preparedness planner",
-    "Structural engineer (designs buildings to stay standing)"
+    "Ornithologist (a scientist who studies birds)",
+    "Wildlife guard",
+    "Conservation officer"
    ]
   },
-  "in-saff-final": {
-   "ctx": "The two teams have met 30 times: India have won 17, Pakistan have won four and nine were draws. In Saturday's semi-final India scored inside the first ten minutes, and their captain added a second goal in the 27th minute. Pakistan beat Maldives 3-0 in their other group match and added overseas-based players before the knockout matches.",
-   "ask": "India beat Pakistan 3-2 earlier in this tournament: does an earlier win give a team a real advantage in a final, or does every final start from zero?",
+  "in-dhoni": {
+   "ctx": "Dhoni is CSK's second-highest run scorer, with 5,314 runs, and has played more matches for the team than anyone else: 272. His last IPL match was in the 2025 season, against Gujarat Titans.",
+   "ask": "Dhoni will stop playing but stay with CSK as its mentor. When a star player stops playing, is it better for them to stay on and guide the team, or to step away so that newer players can find their own way?",
    "jobs": [
-    "Football coach",
-    "Referee",
-    "Sports journalist"
+    "Cricket coach",
+    "Sports journalist",
+    "Sports physiotherapist"
    ]
   },
-  "g-gorilla-ladder": {
-   "ctx": "An electric barrier stopped the gorillas from climbing the tree directly. After the 2024 event the two shared the food, but in 2025 Amelia ate the vegetation alone, which the researchers say suggests that cooperating to get food does not always lead to sharing it. The researchers also say the footage cannot show whether the gorillas communicated with sounds or gestures, or planned ahead.",
-   "ask": "The study is based on two gorillas and three events: how much should scientists conclude from a few careful observations, and when is it right to share them with everyone?",
+  "g-quad": {
+   "ctx": "The Quad countries first worked together in response to the Indian Ocean tsunami of 2004. Mr Modi said the Quad's foreign ministers have met five times since January last year, which he called a sign of the countries' shared commitment.",
+   "ask": "Is it more useful for a few countries to meet often in a small group like the Quad, or to work on shared problems mainly in bigger meetings that include many more nations?",
    "jobs": [
-    "Primatologist (a scientist who studies apes and monkeys)",
-    "Zookeeper",
-    "Animal behaviour researcher"
+    "Diplomat",
+    "Foreign affairs journalist",
+    "Conference interpreter"
    ]
   },
   "in-bts": {
-   "ctx": "The summit is organised by the Karnataka government's Department of Electronics, Information Technology and Biotechnology and co-hosted by Software Technology Parks of India. Karnataka's Chief Minister is to inaugurate it, and Sweden is the country partner. Topics are to include AI, semiconductors, biotechnology, electric mobility, cybersecurity and digital infrastructure.",
-   "ask": "Robots that cook and robots shaped like humans are due to be shown at the summit: as robots learn to do more jobs, is that mostly a help to people or mostly a worry for workers?",
+   "ctx": "The Chief Minister said Karnataka earns about two of every five dollars of India's software and services exports, about 173 billion US dollars last year. He also said global companies are investing more than Rs 23,000 crore in semiconductor, or computer chip, facilities in Bengaluru and Mysuru.",
+   "ask": "Should a state government spend public money buying products from young companies to help them grow, or should startups have to win their first customers on their own?",
    "jobs": [
-    "Robotics engineer",
-    "AI researcher",
-    "Startup founder"
+    "Startup founder",
+    "Software engineer",
+    "Government technology policy officer"
    ]
   },
-  "in-kanpur-express": {
-   "ctx": "The Railway Ministry said the new daily service will strengthen rail connectivity between Uttar Pradesh and the National Capital Region (NCR). A proposed Bullet Train North Corridor would connect Delhi, Agra, Kanpur, Varanasi, Lucknow and Ayodhya, extending further to Patna, Siliguri and Guwahati. The minister said redevelopment work at Kanpur Central station is progressing rapidly.",
-   "ask": "When money for railways is limited, should it go first to new trains between big cities, or to fixing local problems such as traffic jams at railway crossings?",
+  "g-leonids": {
+   "ctx": "The Leonid shower lasts for several weeks, but it is strongest around its peak night. Guides give slightly different exact times for the peak, a spread of more than an hour, so it helps to watch for a good stretch of the night rather than at one exact moment.",
+   "ask": "Is it worth staying up very late on a school night to see a natural event like a meteor shower, or should sleep come first?",
    "jobs": [
-    "Loco pilot (train driver)",
-    "Railway civil engineer",
-    "Station master"
+    "Astronomer",
+    "Planetarium educator",
+    "Astrophotographer"
    ]
   },
-  "g-woodcocks": {
-   "ctx": "In the study, published in the journal Proceedings of the National Academy of Sciences, the authors suggest that snipes from Africa crossed the Atlantic Ocean and became new species in South America, and that birds crossed the Pacific Ocean to New Zealand. John Bates, curator of birds at the Field Museum and a co-author, said snipes and woodcocks have been around for 20 to 25 million years. Some woodcocks live only in mountain forests on islands between Asia and Australia, and Bates said that if those forests are cut down, the birds will be gone too.",
-   "ask": "Museums spend money and space keeping preserved animals for many years. Is that worth it for the chance that scientists will one day learn something new from them, or would the money and space be better used in other ways?",
+  "g-giller": {
+   "ctx": "The four other finalist books were Wild People Quiet by Tara Gereaux, Eliza Sunshine by Michelle Good, The Small Ones by Nazanine Hozar and Good People by Patmeena Sabit. Like the winner, each of these books reached the prize's final round of five.",
+   "ask": "Is it better for a book prize to give one big award to a single winner, or to share the money more evenly among all the finalists?",
    "jobs": [
-    "Ornithologist (a scientist who studies birds)",
-    "Museum curator",
-    "Geneticist (a scientist who studies DNA)"
-   ]
-  },
-  "g-alcaraz": {
-   "ctx": "Alcaraz is in the Ivan Lendl Group with Tiafoe, Daniil Medvedev and Flavio Cobolli. Medvedev won the title in 2020, and Cobolli of Italy is the home player and is also playing his first ATP Finals. Last year Alcaraz reached the final and lost to Jannik Sinner.",
-   "ask": "After a long injury, is it better for a player to return slowly at smaller events, or to go straight back to the biggest tournaments?",
-   "jobs": [
-    "Sports physiotherapist (helps injured athletes recover)",
-    "Fitness trainer",
-    "Sports reporter"
-   ]
-  },
-  "in-jobs": {
-   "ctx": "A year earlier, in October 2025, the rate was 5.2%. The share of the population that has work, called the worker population ratio, rose to 53% from 52.7%. For women the unemployment rate fell to 5% from 5.2%, while for men it remained unchanged at 4.9%.",
-   "ask": "The unemployment rate counts people who are looking for work, but not adults who are not looking. Is one simple number a good way to show how a country is doing on jobs, because everyone can follow it, or does it leave too much out?",
-   "jobs": [
-    "Statistician",
-    "Economist",
-    "Survey interviewer"
-   ]
-  },
-  "g-ce25a": {
-   "ctx": "The flight covered about 60.4 kilometres, and COMAC said the plane's systems worked normally. COMAC developed the plane with the Chinese battery maker CATL, Shanghai Jiao Tong University and other partners. In the plane's name, the letter E stands for electric.",
-   "ask": "This plane is designed for short trips between cities: for journeys like that, should countries put more effort into electric planes or into faster trains?",
-   "jobs": [
-    "Test pilot",
-    "Flight-test engineer",
-    "Aircraft safety inspector"
+    "Author",
+    "Book editor",
+    "Bookseller"
    ]
   }
  },
+ "sketchFor": {
+  "g-leonids": "meteor"
+ },
+ "today": {
+  "days": [
+   {
+    "name": "International Students' Day",
+    "what": "International Students' Day is marked every year on 17 November. It remembers university students in Prague in 1939. It was declared in London in 1941 by the International Students' Council."
+   },
+   {
+    "name": "National Epilepsy Day",
+    "what": "India marks National Epilepsy Day every year on 17 November. Epilepsy is a condition of the brain that can cause seizures. The day was started by the Epilepsy Foundation of India. It aims to help people understand epilepsy.",
+    "where": [
+     "IN"
+    ]
+   }
+  ],
+  "born": [
+   {
+    "name": "August Ferdinand Möbius",
+    "year": 1790,
+    "what": "A German mathematician and astronomer, born in Schulpforta, Saxony. In 1848 he became director of the observatory at Leipzig. In 1858 he discovered the Möbius strip, a surface with only one side. Another mathematician, Johann Benedict Listing, discovered it at about the same time."
+   },
+   {
+    "name": "Eugene Wigner",
+    "year": 1902,
+    "what": "A physicist born in Budapest, Hungary, who became a citizen of the United States in 1937. He won the Nobel Prize in Physics in 1963. He taught at Princeton University from 1938 until he retired in 1971."
+   }
+  ],
+  "week": "NASA says Voyager 1 reaches one light-day from Earth on Wednesday 18 November. World Children's Day is on Friday 20 November."
+ },
+ "learn": {
+  "subject": "Geography",
+  "cat": "nature",
+  "link": "From the storm Akvan story: how storms in the north Indian Ocean get their names",
+  "x": {
+   "t": "How do storms get their names?",
+   "b": [
+    "A cyclone is a spinning storm that forms over the ocean. In other oceans, the same kind of storm is called a hurricane or a typhoon.",
+    "Storms in the north Indian Ocean get their names from a list. Thirteen countries gave names for the list. India is one of them.",
+    "A name helps people remember a storm. Each name is used only once."
+   ],
+   "remember": "Thirteen countries gave the names for storms in the north Indian Ocean. Each name is used only once.",
+   "q": "How many countries gave names for the list?",
+   "a": [
+    "Three",
+    "Thirteen"
+   ],
+   "c": 1
+  },
+  "o": {
+   "t": "How do cyclones get their names?",
+   "b": [
+    "A tropical cyclone is a spinning storm that forms over the ocean. The same kind of storm is called a hurricane in the North Atlantic, a typhoon in the western North Pacific and a cyclone in the Indian Ocean.",
+    "Storms in the north Indian Ocean take their names from a list made by 13 countries, including India. The list has 169 names. Each country gave 13 names. A storm gets its name when its winds reach 62 kilometres an hour. The name is given by the India Meteorological Department, India's weather office.",
+    "A name helps people remember a storm. It also avoids confusion when two storms are active at the same time. Each name is used only once. Akvan is one of the names given by Iran."
+   ],
+   "remember": "Cyclones in the north Indian Ocean are named from a list of 169 names given by 13 countries, and each name is used only once.",
+   "q": "Which country gave the name Akvan?",
+   "a": [
+    "India",
+    "Thailand",
+    "Iran"
+   ],
+   "c": 2
+  }
+ },
+ "backThen": {
+  "y": 1970,
+  "t": "The first robot rover lands on the Moon",
+  "o": "On 17 November 1970, the Soviet spacecraft Luna 17 landed on the Moon, in a region called the Sea of Rains. Luna 17 was launched on 10 November 1970. It carried Lunokhod 1, the first remote-controlled robot rover on the Moon. Lunokhod 1 had eight wheels. A team on Earth drove it by remote control. It carried television cameras. It kept working for many months.",
+  "x": "On this day in 1970, a robot rover landed on the Moon. Its name was Lunokhod 1. It had eight wheels. People on Earth drove it by remote control.",
+  "why": "Lunokhod 1 showed that people on Earth could drive a robot on another world. In 2010, scientists bounced laser pulses from Earth off the old rover's reflector."
+ },
+ "hiddenWords": [
+  {
+   "k": "cyclone",
+   "o": "Cyclone comes from the Greek word kyklos, which means circle."
+  },
+  {
+   "k": "robot",
+   "o": "Robot comes from the Czech word robota, which means forced labour."
+  }
+ ],
  "bigStory": {
   "week": "2026-11-16",
   "story": "g-voyager",
@@ -1336,7 +975,7 @@
    {
     "d": "2026-11-17",
     "h": "How far is a light-day?",
-    "o": "A light-day is the distance light travels in 24 hours, about 25.9 billion kilometres. Light reaches the Moon in about 1.3 seconds, and sunlight takes about 8 minutes to reach Earth. After sunset today, Tuesday 17 November, NASA invites people to flash VGR, Voyager's three-letter call sign, in Morse code towards the sky with a torch or phone.",
+    "o": "A light-day is the distance light travels in 24 hours, about 25.9 billion kilometres. Light reaches the Moon in about 1.3 seconds, and sunlight takes about 8 minutes to reach Earth. After sunset today, Tuesday 17 November, NASA invites people to flash VGR, Voyager's three-letter call sign, in Morse code towards the sky with a torch.",
     "x": "A light-day is how far light travels in one day. Sunlight reaches us in about 8 minutes. After sunset today, people can flash a torch for Voyager. Ask a grown-up to help."
    },
    {
@@ -1807,93 +1446,12 @@
  "reporters": {
   "week": "2026-11-16",
   "t": "Report one thing that changed in your street or school this week",
-  "why": "Monday 16 November is National Press Day in India, and World Children's Day is on Friday 20 November. Good reporters check what they hear with more than one person.",
+  "why": "Monday 16 November was National Press Day in India, and World Children's Day is on Friday 20 November. Good reporters check what they hear with more than one person.",
   "tips": [
    "What changed?",
    "Who told you, and who else can confirm it?",
    "Where and when did it happen?"
   ],
   "sample": []
- },
- "today": {
-  "days": [
-   {
-    "name": "International Students' Day",
-    "what": "International Students' Day is marked every year on 17 November. It remembers university students in Prague in 1939. It was declared in London in 1941 by the International Students' Council."
-   },
-   {
-    "name": "National Epilepsy Day",
-    "what": "India marks National Epilepsy Day every year on 17 November. Epilepsy is a condition of the brain that can cause seizures. The day was started by the Epilepsy Foundation of India. It aims to help people understand epilepsy.",
-    "where": [
-     "IN"
-    ]
-   }
-  ],
-  "born": [
-   {
-    "name": "August Ferdinand Möbius",
-    "year": 1790,
-    "what": "A German mathematician and astronomer, born in Schulpforta, Saxony. In 1848 he became director of the observatory at Leipzig. In 1858 he discovered the Möbius strip, a surface with only one side. Another mathematician, Johann Benedict Listing, discovered it at about the same time."
-   },
-   {
-    "name": "Eugene Wigner",
-    "year": 1902,
-    "what": "A physicist born in Budapest, Hungary, who became a citizen of the United States in 1937. He won the Nobel Prize in Physics in 1963. He taught at Princeton University from 1938 until he retired in 1971."
-   }
-  ],
-  "week": "NASA says Voyager 1 reaches one light-day from Earth on Wednesday 18 November. World Children's Day is on Friday 20 November."
- },
- "learn": {
-  "subject": "Geography",
-  "cat": "nature",
-  "link": "From the storm Akvan story: how storms in the north Indian Ocean get their names",
-  "x": {
-   "t": "How do storms get their names?",
-   "b": [
-    "A cyclone is a spinning storm that forms over the ocean. In other oceans, the same kind of storm is called a hurricane or a typhoon.",
-    "Storms in the north Indian Ocean get their names from a list. Thirteen countries gave names for the list. India is one of them.",
-    "A name helps people remember a storm. Each name is used only once."
-   ],
-   "remember": "Thirteen countries gave the names for storms in the north Indian Ocean. Each name is used only once.",
-   "q": "How many countries gave names for the list?",
-   "a": [
-    "Three",
-    "Thirteen"
-   ],
-   "c": 1
-  },
-  "o": {
-   "t": "How do cyclones get their names?",
-   "b": [
-    "A tropical cyclone is a spinning storm that forms over the ocean. The same kind of storm is called a hurricane in the North Atlantic, a typhoon in the western North Pacific and a cyclone in the Indian Ocean.",
-    "Storms in the north Indian Ocean take their names from a list made by 13 countries, including India. The list has 169 names. Each country gave 13 names. A storm gets its name when its winds reach 62 kilometres an hour. The name is given by the India Meteorological Department, India's weather office.",
-    "A name helps people remember a storm. It also avoids confusion when two storms are active at the same time. Each name is used only once. Akvan is one of the names given by Iran."
-   ],
-   "remember": "Cyclones in the north Indian Ocean are named from a list of 169 names given by 13 countries, and each name is used only once.",
-   "q": "Which country gave the name Akvan?",
-   "a": [
-    "India",
-    "Thailand",
-    "Iran"
-   ],
-   "c": 2
-  }
- },
- "backThen": {
-  "y": 1970,
-  "t": "The first robot rover lands on the Moon",
-  "o": "On 17 November 1970, the Soviet spacecraft Luna 17 landed on the Moon, in a region called the Sea of Rains. Luna 17 was launched on 10 November 1970. It carried Lunokhod 1, the first remote-controlled robot rover on the Moon. Lunokhod 1 had eight wheels. A team on Earth drove it by remote control. It carried television cameras. It kept working for many months.",
-  "x": "On this day in 1970, a robot rover landed on the Moon. Its name was Lunokhod 1. It had eight wheels. People on Earth drove it by remote control.",
-  "why": "Lunokhod 1 showed that people on Earth could drive a robot on another world. In 2010, scientists bounced laser pulses from Earth off the old rover's reflector."
- },
- "hiddenWords": [
-  {
-   "k": "cyclone",
-   "o": "Cyclone comes from the Greek word kyklos, which means circle."
-  },
-  {
-   "k": "robot",
-   "o": "Robot comes from the Czech word robota, which means forced labour."
-  }
- ]
+ }
 }

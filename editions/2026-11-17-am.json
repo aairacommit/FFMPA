@@ -1,0 +1,1899 @@
+{
+ "schema": 1,
+ "date": "2026-11-17",
+ "edition": "am",
+ "countries": [
+  "IN"
+ ],
+ "stories": [
+  {
+   "id": "in-akvan",
+   "scope": "IN",
+   "cat": "nature",
+   "emoji": "🌀",
+   "date": "2026-11-16",
+   "kind": "news",
+   "x": {
+    "t": "Helpers prepare for a storm now named Akvan",
+    "b": [
+     "A storm in the [[bay-of-bengal|Bay of Bengal]] became a [[cyclone|cyclone]] on Monday evening. It now has a name, Akvan. The name comes from Iran.",
+     "India's [[imd|weather office]] gave its forecast on Monday evening. It said Akvan was likely to cross the [[andhra-pradesh|Andhra Pradesh]] coast on Friday.",
+     "Odisha plans to send out 74 rescue teams. Fishermen in Andhra Pradesh have been advised to stay on shore."
+    ]
+   },
+   "o": {
+    "t": "Storm is named Akvan; Odisha plans to deploy 74 rescue teams",
+    "b": [
+     "The storm over the [[bay-of-bengal|Bay of Bengal]] now has a name: Akvan. On Monday evening it became a [[cyclone|cyclonic storm]], a strong spinning storm, said India's weather office, the [[imd|IMD]]. A storm gets a name when its winds reach 62 kilometres an hour. Names are used in a fixed order from a list made by 13 countries, and Akvan was contributed by Iran.",
+     "On Monday evening Akvan was about 610 kilometres east of Chennai. That evening the IMD said it was likely to cross the [[andhra-pradesh|Andhra Pradesh]] coast between Nellore and Tuni around noon on Friday 20 November.",
+     "Odisha's state government plans to deploy, or send into position, 74 rescue teams: 60 from a force called ODRAF and 14 from one called NDRF. In Andhra Pradesh, fishermen have been advised not to go out to sea."
+    ]
+   },
+   "think": "Storms are given names. If you could suggest one name for a future storm, what would it be, and why?",
+   "quiz": {
+    "q": "How many rescue teams does Odisha plan to send out?",
+    "a": [
+     "24",
+     "74",
+     "47",
+     "174"
+    ],
+    "c": 1
+   },
+   "src": [
+    [
+     "IANS via Mangalorean.com, 16 Nov",
+     "https://www.mangalorean.com/cyclone-akvan-to-hit-andhra-pradesh-coast-on-nov-20/"
+    ],
+    [
+     "OrissaPOST, 16 Nov",
+     "https://orissapost.com/74-odraf-ndrf-teams-to-be-deployed-to-face-akvon"
+    ],
+    [
+     "Pragativadi, 16 Nov",
+     "https://pragativadi.com/cyclonic-storm-akvan-forms-in-bay-of-bengal-orange-alert-issued-for-andhra-pradesh-and-south-odisha/"
+    ],
+    [
+     "Ada Derana, 16 Nov",
+     "https://adaderana.lk/news/251787"
+    ],
+    [
+     "Deccan Chronicle, 16 Nov",
+     "https://www.deccanchronicle.com/southern-states/andhra-pradesh/akvan-likely-to-intensify-into-very-severe-cyclone-cross-coast-on-nov-20-2004989"
+    ],
+    [
+     "Deccan Chronicle, 17 Nov",
+     "https://www.deccanchronicle.com/southern-states/andhra-pradesh/fishermen-advised-not-to-venture-into-sea-2005058"
+    ],
+    [
+     "Press Information Bureau, 28 Apr 2020",
+     "https://pib.gov.in/PressReleasePage.aspx?PRID=1619051"
+    ],
+    [
+     "Down To Earth, 29 Apr 2020",
+     "https://www.downtoearth.org.in/natural-disasters/imd-presents-new-neutral-names-for-future-cyclones-in-north-indian-ocean-70782"
+    ],
+    [
+     "OMMCOM News, 16 Nov",
+     "https://ommcomnews.com/odisha-news/odisha-steps-up-cyclone-preparedness-74-odraf-ndrf-teams-to-be-deployed/"
+    ],
+    [
+     "Oneindia, 16 Nov",
+     "https://www.oneindia.com/india/cyclone-akvan-who-named-it-what-does-the-name-mean-irans-persian-mythology-connection-explained-8260689.html"
+    ]
+   ]
+  },
+  {
+   "id": "g-voyager",
+   "scope": "global",
+   "cat": "space",
+   "emoji": "🔦",
+   "date": "2026-11-17",
+   "kind": "calendar",
+   "when": "After sunset today, Tuesday 17 November; milestone on Wednesday 18 November",
+   "x": {
+    "t": "Tonight, flash a torch for faraway Voyager 1",
+    "b": [
+     "Voyager 1 is a spacecraft far from Earth. On Wednesday it will be one [[light-day|light-day]] away. Light takes 24 hours to travel that far.",
+     "Light reaches the Moon in about 1.3 seconds. Sunlight reaches Earth in about 8 minutes.",
+     "Tonight, after sunset, people can flash a torch to celebrate. The flashes spell VGR, for Voyager, in [[morse-code|Morse code]]. Ask a grown-up to help."
+    ]
+   },
+   "o": {
+    "t": "Tonight, flash VGR for Voyager 1, nearly a light-day from Earth",
+    "b": [
+     "On Wednesday 18 November, the spacecraft Voyager 1 will be one [[light-day|light-day]] from Earth. A light-day is a distance: how far light travels in 24 hours, about 25.9 billion kilometres.",
+     "Light reaches the Moon in about 1.3 seconds, and sunlight takes about 8 minutes to reach Earth. On Wednesday, a radio signal from Earth will take 24 hours to reach Voyager 1.",
+     "NASA, the US space agency, invites everyone to celebrate after sunset today, Tuesday, by flashing a light at the sky. The flashes spell VGR in [[morse-code|Morse code]]. VGR is Voyager's call sign, the letters that identify it. In Morse code, dots are short flashes and dashes are long ones. V is dot, dot, dot, dash. G is dash, dash, dot. R is dot, dash, dot. A torch, glow stick or phone will do. NASA has made a website that flashes the code."
+    ]
+   },
+   "think": "If you could flash a three-letter signal for the whole world to see, which letters would you choose, and why?",
+   "quiz": {
+    "q": "About how long does sunlight take to reach Earth?",
+    "a": [
+     "About 1.3 seconds",
+     "About 24 hours",
+     "About 8 minutes",
+     "About 8 days"
+    ],
+    "c": 2
+   },
+   "src": [
+    [
+     "NASA, 10 Nov (updated 13 Nov)",
+     "https://www.nasa.gov/news-release/nasa-invites-media-public-to-join-voyager-1-one-light-day-activities/"
+    ],
+    [
+     "NASA Science, 4 Nov (updated 13 Nov)",
+     "https://science.nasa.gov/mission/voyager/voyager-1/shine-bright-for-voyagers-light-day/"
+    ],
+    [
+     "EarthSky, 10 Nov",
+     "https://earthsky.org/space/voyager-1-1-light-day-from-earth-november-17-18-2026/"
+    ],
+    [
+     "BBC Sky at Night Magazine, 16 Nov",
+     "https://www.skyatnightmagazine.com/news/nasa-voyager-1-light-day-milestone"
+    ],
+    [
+     "Space.com, 16 Nov",
+     "https://www.space.com/space-exploration/voyager/nasas-interstellar-voyager-1-probe-is-about-to-reach-1-light-day-from-earth-after-nearly-50-years-in-space"
+    ],
+    [
+     "Live Science, 15 Nov",
+     "https://www.livescience.com/space/space-exploration/out-there-moving-into-the-unknown-as-voyager-1-reaches-one-light-day-from-earth-scientists-reflect-on-its-past-and-its-future"
+    ],
+    [
+     "The Register, 11 Nov",
+     "https://www.theregister.com/offbeat/2026/11/11/nasa-asks-earthlings-to-wave-as-voyager-1-reaches-a-light-day-away/5309127"
+    ],
+    [
+     "Popular Science, 10 Nov",
+     "https://www.popsci.com/science/voyager-1-nasa-shine-light-morse-code/"
+    ],
+    [
+     "The Naked Scientists, 14 Nov",
+     "https://www.thenakedscientists.com/articles/interviews/voyager-1-space-probe-one-light-day-earth"
+    ],
+    [
+     "WION, 23 Oct",
+     "https://www.wionews.com/world/voyager-1-will-be-one-light-day-from-earth-on-18-november-and-that-changes-everything-1792740139372"
+    ],
+    [
+     "TechTimes, 15 Nov",
+     "https://www.techtimes.com/articles/330765/20261115/voyager-1-hits-one-light-day-november-18-fault-protection-now-runs-two-days-before-earth-can-reply.htm"
+    ],
+    [
+     "OrbitalRadar, reviewed 26 Oct",
+     "https://orbitalradar.com/glossary/light-day"
+    ],
+    [
+     "NASA Space Place, light-year",
+     "https://spaceplace.nasa.gov/light-year/en/"
+    ],
+    [
+     "NASA Science, What is a light-year?",
+     "https://science.nasa.gov/exoplanets/what-is-a-light-year/"
+    ]
+   ]
+  },
+  {
+   "id": "g-cop31",
+   "scope": "global",
+   "cat": "planet",
+   "emoji": "🌍",
+   "date": "2026-11-16",
+   "kind": "news",
+   "x": {
+    "t": "A first draft of the big climate deal is out",
+    "b": [
+     "Countries are at [[cop|COP31]], a big climate meeting in Türkiye. On Monday, a first [[draft|draft]] of their deal was released.",
+     "A draft is an early try at writing something. The draft has 18 pages. It has ideas that not all countries agree on.",
+     "Nearly 200 countries need to agree on it. The draft is not final and will change. The meeting is due to end on Friday."
+    ]
+   },
+   "o": {
+    "t": "COP31: the first draft of the deal is out, and it will change",
+    "b": [
+     "An 18-page first [[draft|draft]] of a deal was released on Monday 16 November at [[cop|COP31]], the climate talks in Antalya, Türkiye. A draft is an early version of a text, which can still be changed. Australia released the draft. Chris Bowen, Australia's climate [[minister|minister]], a senior member of the government, leads the negotiations, or bargaining.",
+     "The draft includes points that not all countries agree on. It has wording on phasing out, or gradually ending, [[fossil-fuels|fossil fuels]] such as coal, oil and gas. It also takes up Türkiye's proposal to raise electricity's share of the energy the world uses to 35% by 2035.",
+     "Mr Bowen said the draft is not final. He expects strong feedback on parts of it, including the fossil fuel wording. The deal needs agreement from nearly 200 nations, and the summit is scheduled to end on Friday."
+    ]
+   },
+   "think": "When you write a first draft of something, how do you decide what to keep and what to change?",
+   "quiz": {
+    "q": "What is a draft?",
+    "a": [
+     "The final version of a deal",
+     "A vote by all the countries",
+     "An early version that can still change",
+     "A list of the countries at a meeting"
+    ],
+    "c": 2
+   },
+   "src": [
+    [
+     "Reuters via Yahoo News, 16 Nov",
+     "https://www.yahoo.com/news/articles/first-draft-cop31-deal-signals-140910867.html"
+    ],
+    [
+     "AFP via Daily Sabah, 16 Nov",
+     "https://www.dailysabah.com/business/energy/cop31-draft-calls-for-accelerated-action-to-phase-out-fossil-fuels"
+    ],
+    [
+     "AAP via Starts at 60, 17 Nov",
+     "https://startsat60.com/media/news/strong-language-bowen-launches-bold-climate-agenda"
+    ],
+    [
+     "Climate Home News, 16 Nov",
+     "https://www.climatechangenews.com/2026/11/16/cop31-bulletin-day-7-sharp-divisions-lower-expectations-for-cop-outcome/"
+    ]
+   ]
+  },
+  {
+   "id": "g-asean-prize",
+   "scope": "global",
+   "cat": "science",
+   "emoji": "🏅",
+   "date": "2026-11-15",
+   "kind": "news",
+   "x": {
+    "t": "Earthquake scientist, 79, is given the ASEAN Prize",
+    "b": [
+     "Hla Hla Aung is a scientist from Myanmar. She is 79 years old. She studies [[earthquake|earthquakes]].",
+     "On Sunday she was given the 2026 [[asean|ASEAN]] Prize. It is for helping people get ready for earthquakes.",
+     "The prize comes with a trophy and 20,000 US dollars. She is the ninth winner. She said knowledge must serve all people."
+    ]
+   },
+   "o": {
+    "t": "Earthquake scientist, 79, from Myanmar receives the 2026 ASEAN Prize",
+    "b": [
+     "Hla Hla Aung, a 79-year-old scientist from Myanmar, received the 2026 [[asean|ASEAN]] Prize on Sunday 15 November. ASEAN is short for the Association of Southeast Asian Nations. She is a [[seismologist|seismologist]], a scientist who studies [[earthquake|earthquakes]]. The prize was presented at the opening ceremony of the 49th ASEAN Summit, at the Philippine International Convention Center.",
+     "The prize was given for her work on earthquake preparedness: turning scientific knowledge into practical ways for communities in Myanmar and the region to get ready. She works with the Myanmar Earthquake Committee. She said that knowledge must serve humanity, meaning all people.",
+     "Philippine President Ferdinand Marcos Jr. and Kao Kim Hourn, ASEAN's Secretary-General, its chief official, presented the prize. It comes with a trophy and 20,000 US dollars. The ASEAN Prize began in 2018, and Hla Hla Aung is its ninth winner."
+    ]
+   },
+   "think": "What is something you know that could help keep other people safe, and how would you share it with them?",
+   "quiz": {
+    "q": "What does Hla Hla Aung study?",
+    "a": [
+     "Earthquakes",
+     "Volcanoes",
+     "Whales",
+     "Stars"
+    ],
+    "c": 0
+   },
+   "src": [
+    [
+     "PNA via Bernama, 16 Nov",
+     "https://www.bernama.com/en/world/news.php?id=2635145"
+    ],
+    [
+     "DVB English, 15 Nov",
+     "https://english.dvb.no/myanmar-geologist-awarded-2026-asean-prize-at-49th-summit-in-the-philippines/"
+    ],
+    [
+     "Daily Tribune, 15 Nov",
+     "https://tribune.net.ph/2026/11/15/for-myanmar-seismologist-research-is-key-to-saving-lives"
+    ]
+   ]
+  },
+  {
+   "id": "in-saff-final",
+   "scope": "IN",
+   "cat": "sports",
+   "emoji": "⚽",
+   "date": "2026-11-17",
+   "kind": "calendar",
+   "when": "Today, Tuesday 17 November, 7.30 pm IST, in Dhaka",
+   "x": {
+    "t": "India play Pakistan in a football final tonight",
+    "b": [
+     "India's football team plays a final today. It meets Pakistan in the [[saff-championship|SAFF Championship]], a football contest. A final is the last match.",
+     "The match starts at 7.30 pm India time in [[dhaka|Dhaka]], Bangladesh. India have won this contest nine times, a record.",
+     "This is Pakistan's first ever SAFF Championship final. The teams met earlier in this contest. India won that match 3-2."
+    ]
+   },
+   "o": {
+    "t": "India meet Pakistan in the SAFF Championship final in Dhaka tonight",
+    "b": [
+     "India play Pakistan today, Tuesday 17 November, in the final of the [[saff-championship|SAFF Championship]] 2026, a football tournament. The match is at the National Stadium in [[dhaka|Dhaka]], Bangladesh, and starts at 7.30 pm India time.",
+     "India are the [[defending-champion|defending champions]], the team that won last time, and have won the title nine times, a record. On Saturday they beat Bhutan 2-1 in a semi-final, the round before the final. Pakistan beat the hosts, Bangladesh, 1-0 in the other semi-final, with a goal in the 86th minute.",
+     "Pakistan are in their first ever SAFF Championship final. The two teams have already met in the group stage, an earlier round played in groups, and India won 3-2. A win tonight would give India three titles in a row for the first time."
+    ]
+   },
+   "think": "Pakistan are in their first ever final of this tournament. How do you think it feels to reach a big final for the first time?",
+   "quiz": {
+    "q": "How many times have India won the SAFF Championship?",
+    "a": [
+     "Three times",
+     "Five times",
+     "Nine times",
+     "Twelve times"
+    ],
+    "c": 2
+   },
+   "src": [
+    [
+     "Asian Football Confederation, 14 Nov",
+     "https://www.the-afc.com/en/more/saff_championship.html/news/india-pakistan-set-up-final-showdown"
+    ],
+    [
+     "Outlook India, 16 Nov",
+     "https://www.outlookindia.com/sports/football/india-vs-pakistan-live-streaming-saff-championship-2026-final-preview"
+    ],
+    [
+     "Telangana Today, 16 Nov",
+     "https://telanganatoday.com/india-eye-historic-third-consecutive-saff-championship-title-against-pakistan"
+    ],
+    [
+     "Outlook India, 14 Nov",
+     "https://www.outlookindia.com/sports/football/india-vs-bhutan-saff-championship-2026-semi-final-match-report"
+    ]
+   ]
+  },
+  {
+   "id": "g-gorilla-ladder",
+   "scope": "global",
+   "cat": "nature",
+   "emoji": "🦍",
+   "date": "2026-11-16",
+   "kind": "news",
+   "x": {
+    "t": "Two gorillas make a living ladder to reach high branches",
+    "b": [
+     "Amelia and Lisha are [[gorilla|gorillas]] at a zoo called the Ramat Gan Safari. They are half-sisters, so they share one parent.",
+     "Some branches in a tree were too high to reach. So Lisha stood on all fours. Amelia climbed onto her back and broke off a branch.",
+     "Nobody trained them to do it. Scientists call it a rare example of adult gorillas [[cooperation|working together]] on their own."
+    ]
+   },
+   "o": {
+    "t": "Two gorillas team up as a living ladder to reach high branches",
+    "b": [
+     "Two western lowland [[gorilla|gorillas]], half-sisters Amelia and Lisha, were filmed working together to reach high branches at the Ramat Gan Safari, a zoo. Researchers at Tel Aviv University describe it in the science [[journal|journal]] Primates, in a study reported on Monday 16 November.",
+     "In September 2024, keepers noticed the two eating from a branch that had been out of reach, so staff checked camera footage. It showed Lisha standing on all fours. Amelia climbed onto her back and broke off a branch approximately 4.5 metres, or 15 feet, above the ground.",
+     "Neither gorilla had been trained to do this. The researchers documented three events, in 2021, 2024 and 2025. They call it a rare example of [[spontaneous|spontaneous]] [[cooperation|cooperation]], or working together without being told to, between adult gorillas. They add that the study covers only two gorillas."
+    ]
+   },
+   "think": "Amelia and Lisha did something together that neither could do alone. When have you and someone else done that?",
+   "quiz": {
+    "q": "How did Lisha help Amelia reach the branch?",
+    "a": [
+     "She pulled the branch down with a rope",
+     "She shook the tree",
+     "She called a keeper to help",
+     "She stood on all fours so Amelia could climb onto her back"
+    ],
+    "c": 3
+   },
+   "src": [
+    [
+     "Tel Aviv University via EurekAlert, 16 Nov",
+     "https://www.eurekalert.org/news-releases/1152042"
+    ],
+    [
+     "The Jerusalem Post via Yahoo News, 16 Nov",
+     "https://www.yahoo.com/news/science/articles/gorillas-ramat-gan-safari-form-060138880.html"
+    ],
+    [
+     "The Jewish Chronicle, 16 Nov",
+     "https://www.thejc.com/news/israel/ramat-gan-safari-gorillas-team-work-dqnrzupx"
+    ]
+   ]
+  },
+  {
+   "id": "in-bts",
+   "scope": "IN",
+   "cat": "tech",
+   "emoji": "🤖",
+   "date": "2026-11-17",
+   "kind": "calendar",
+   "when": "Today, Tuesday 17 November, to Thursday 19 November, in Bengaluru",
+   "x": {
+    "t": "Robots and drones are set to go on show in Bengaluru",
+    "b": [
+     "A big technology event, the Bengaluru Tech Summit, is set to start today, Tuesday. Organisers said on Monday it will last three days.",
+     "More than 1,000 young companies, called [[startup|startups]], are expected.",
+     "A special area is planned for [[robot|robots]] and [[ai|AI]], computer programs that can learn. Robots shaped like people are set to be shown there. Drones and robot cooking are planned too."
+    ]
+   },
+   "o": {
+    "t": "Bengaluru Tech Summit is set to open today with a robot pavilion",
+    "b": [
+     "The Bengaluru Tech Summit, a big technology event, is set to open today, Tuesday 17 November, at the Bangalore International Exhibition Centre. Organisers said on Monday that this is the 29th time it is being held and that it will run for three days.",
+     "The theme is AI & Beyond. [[ai|AI]], short for artificial intelligence, means computer systems that learn from data. A 50,000-square-foot AI and Robotics Pavilion, a special display area, is planned. It is to feature more than 101 [[startup|startups]], or young companies, as well as humanoid [[robot|robots]], which are shaped like humans, and drones. Robotic cooking and drone displays are also planned.",
+     "Across the summit, more than 1,000 startups from around 100 cities are expected, along with about 700 speakers. It is due to run until Thursday 19 November."
+    ]
+   },
+   "think": "If you could build a robot to help at home or at school, what one job would you give it, and why?",
+   "quiz": {
+    "q": "How many days is the Bengaluru Tech Summit due to last?",
+    "a": [
+     "One day",
+     "Three days",
+     "Ten days",
+     "A whole month"
+    ],
+    "c": 1
+   },
+   "src": [
+    [
+     "The News Minute, 16 Nov",
+     "https://www.thenewsminute.com/karnataka/bengaluru-tech-summit-2026-to-open-on-nov-17-with-a-focus-on-ai-deeptech-and-robotics"
+    ],
+    [
+     "ETV Bharat, 16 Nov",
+     "https://www.etvbharat.com/en/technology/bengaluru-tech-summit-2026-to-bring-together-global-technology-leaders-1000-startups-enn26111605486"
+    ],
+    [
+     "The Bengaluru Live, 16 Nov",
+     "https://thebengalurulive.com/bengaluru-tech-summit-2026-opens-tomorrow-cm-shivakumar-to-inaugurate-29th-edition-at-biec-says-minister-priyank-kharge/"
+    ],
+    [
+     "NewsBytes, 16 Nov",
+     "https://www.newsbytesapp.com/news/science/bengaluru-tech-summit-2026-ai-beyond-begins-november-17/tldr"
+    ]
+   ]
+  },
+  {
+   "id": "in-kanpur-express",
+   "scope": "IN",
+   "cat": "civics",
+   "emoji": "🚆",
+   "date": "2026-11-16",
+   "kind": "news",
+   "x": {
+    "t": "A new daily train is flagged off between Kanpur and Delhi",
+    "b": [
+     "A new train called the Kanpur Express made its first run on Monday. The Railway [[minister|Minister]] [[flag-off|flagged it off]]. That means he officially started its first journey.",
+     "The daily train will run between Kanpur Central and Anand Vihar Terminal in Delhi. The route is 428 kilometres long.",
+     "A raised railway track is also planned in Kanpur. The minister said it would solve traffic jams at railway crossings."
+    ]
+   },
+   "o": {
+    "t": "New daily Kanpur Express is flagged off between Kanpur and Delhi",
+    "b": [
+     "Railway [[minister|Minister]] Ashwini Vaishnaw flagged off the first run of the new Kanpur Express on Monday 16 November. To [[flag-off|flag off]] a train is to officially start its journey. The daily service will run between Kanpur Central station and Anand Vihar Terminal in Delhi.",
+     "The route is 428 kilometres long. The train has 22 [[coach|coaches]], or railway carriages. It will benefit passengers from Phaphund, Etawah, Tundla, Hathras, Aligarh, Khurja, Dadri and Ghaziabad.",
+     "The minister also said a 16-kilometre [[elevated|elevated]] railway track, meaning one raised above the ground, is planned between Anwarganj and Mandhana in Kanpur. He called it a permanent solution to Kanpur's decades-old problem of traffic jams at railway crossings. He said the detailed report for the project is complete and approvals have been obtained."
+    ]
+   },
+   "think": "If a new train stopped in your town every day, how might it change life for the people who live there?",
+   "quiz": {
+    "q": "How long is the route of the new Kanpur Express?",
+    "a": [
+     "42 kilometres",
+     "1,428 kilometres",
+     "4,280 kilometres",
+     "428 kilometres"
+    ],
+    "c": 3
+   },
+   "src": [
+    [
+     "News On AIR, 16 Nov",
+     "https://newsonair.gov.in/new-kanpur-express-to-run-between-kanpur-central-and-anand-vihar-terminal-in-delhi/"
+    ],
+    [
+     "PTI via Free Press Journal, 16 Nov",
+     "https://www.freepressjournal.in/business/kanpur-delhi-express-flagged-off-by-ashwini-vaishnaw-new-daily-train-to-connect-kanpur-central-anand-vihar"
+    ],
+    [
+     "The Tribune, 16 Nov",
+     "https://www.tribuneindia.com/news/uttar-pradesh/ashwini-vaishnaw-flags-off-daily-kanpur-express-connecting-city-with-delhi/"
+    ],
+    [
+     "Millennium Post, 16 Nov",
+     "https://www.millenniumpost.in/nation/vaishnaw-flags-off-new-kanpur-express-683430"
+    ]
+   ]
+  },
+  {
+   "id": "g-woodcocks",
+   "scope": "global",
+   "cat": "science",
+   "emoji": "🐦",
+   "date": "2026-11-16",
+   "kind": "news",
+   "x": {
+    "t": "Scientists use DNA to learn how plump woodcocks reached islands",
+    "b": [
+     "A woodcock is a small, plump bird with a very long beak. Six of the eight kinds live only on islands.",
+     "Scientists studied [[dna|DNA]] from birds stored in a [[museum|museum]]. DNA is a set of instructions inside living things.",
+     "The birds' earliest relatives lived in the northern half of the world. Later, birds settled on islands and [[migrate|migrated]] less. To migrate is to travel with the seasons."
+    ]
+   },
+   "o": {
+    "t": "DNA from museum birds helps explain how woodcocks reached islands",
+    "b": [
+     "Woodcocks are small, plump birds with very long bills. There are eight living [[species|species]], or kinds, and six are found only on islands.",
+     "For a new study, scientists used [[dna|DNA]], the chemical instructions inside every living thing. It came from the eight woodcock species and 22 species of snipe, which belong to the same sandpiper family. The team used preserved birds from the Field [[museum|Museum]]'s collections. Other sandpipers [[migrate|migrate]], or travel with the seasons, but woodcocks travel shorter distances.",
+     "The study found the group's earliest members lived in the northern half of the Earth and later settled on islands, where they migrated less. The scientists also studied a [[fossil|fossil]] about 1,000 years old from a cave in Haiti. It was first thought to be a woodcock, but the new data shows it is a snipe."
+    ]
+   },
+   "think": "The birds that settled on islands migrated less. Would you rather stay near home all year or travel with the seasons, and why?",
+   "quiz": {
+    "q": "How many of the eight kinds of woodcock live only on islands?",
+    "a": [
+     "Six",
+     "Two",
+     "Four",
+     "All eight"
+    ],
+    "c": 0
+   },
+   "src": [
+    [
+     "Field Museum via EurekAlert, 16 Nov",
+     "https://www.eurekalert.org/news-releases/1151676"
+    ],
+    [
+     "Popular Science, 16 Nov",
+     "https://www.popsci.com/environment/woodcock-bird-evolution/"
+    ]
+   ]
+  },
+  {
+   "id": "g-alcaraz",
+   "scope": "global",
+   "cat": "sports",
+   "emoji": "🎾",
+   "date": "2026-11-16",
+   "kind": "news",
+   "x": {
+    "t": "Carlos Alcaraz wins his 10th tennis match in a row",
+    "b": [
+     "Carlos Alcaraz is a tennis player from Spain. On Monday he won his first match at this year's [[atp-finals|ATP Finals]]. The contest is in [[turin|Turin]], Italy.",
+     "He beat Frances Tiafoe from the USA 6-2, 6-2. The match took just over an hour.",
+     "Earlier this year, Alcaraz hurt his wrist. He could not play for several months. Now he has won 10 matches in a row."
+    ]
+   },
+   "o": {
+    "t": "Alcaraz wins his opening match at the ATP Finals, his 10th in a row",
+    "b": [
+     "Carlos Alcaraz of Spain won his opening match at the [[atp-finals|ATP Finals]] in [[turin|Turin]], Italy, on Monday 16 November. He beat Frances Tiafoe of the USA in two [[set|sets]], or parts of a match, 6-2, 6-2, in just over an hour.",
+     "Alcaraz, ranked world number three, was out for several months this year with a wrist injury and returned at the US Open. He came into Turin after winning titles in Vienna and Paris. Monday's win stretched his winning run to 10 matches. Tiafoe, 28, was playing at the ATP Finals for the first time.",
+     "The ATP Finals are for the year's top eight players, in two groups of four. The top two in each group go through to the semi-finals, the round before the final. The tournament runs until 22 November."
+    ]
+   },
+   "think": "Alcaraz had to wait several months before he could play again. What helps you stay patient when you cannot do something you love?",
+   "quiz": {
+    "q": "How many matches in a row has Carlos Alcaraz now won?",
+    "a": [
+     "10",
+     "3",
+     "6",
+     "20"
+    ],
+    "c": 0
+   },
+   "src": [
+    [
+     "ATP Tour, 16 Nov",
+     "https://www.atptour.com/en/news/alcaraz-tiafoe-nitto-atp-finals-2026-monday"
+    ],
+    [
+     "AP via The Bryan Times, 16 Nov",
+     "https://www.bryantimes.com/sports/ap_sports/alcarazs-dominant-display-at-atp-finals-leads-opponent-to-compare-him-to-superman/article_f4f0879b-fce2-5d50-be1e-52bc55363808.html"
+    ],
+    [
+     "Reuters via SRN News, 16 Nov",
+     "https://srnnews.com/tennis-alcaraz-outclasses-tiafoe-at-atp-finals-to-stretch-winning-run/"
+    ],
+    [
+     "Sky Sports, 16 Nov",
+     "https://www.skysports.com/tennis/news/13612924/atp-finals-carlos-alcaraz-dominates-frances-tiafoe-in-opener-to-extend-winning-streak-to-10-matches"
+    ],
+    [
+     "Tennis Majors, 16 Nov",
+     "https://www.tennismajors.com/atp/nitto-atp-finals-atp/unbreakable-medvedev-spoils-cobollis-atp-finals-debut-in-turin-867159.html"
+    ],
+    [
+     "ATP Tour, 15 Nov",
+     "https://www.atptour.com/en/news/nitto-atp-finals-2026-schedule"
+    ],
+    [
+     "Nitto ATP Finals, 15 Nov",
+     "https://www.nittoatpfinals.com/en/news/alcaraz-tiafoe-medvedev-cobolli-nitto-atp-finals-2026-day-2-preview"
+    ],
+    [
+     "Tennis Majors, 15 Nov",
+     "https://www.tennismajors.com/atp/nitto-atp-finals-atp/atp-finals-2026-format-round-robin-qualification-tie-break-rules-866947.html"
+    ],
+    [
+     "LTA, 11 Nov",
+     "https://www.lta.org.uk/fan-zone/nitto-atp-finals/news/preview-player-list-format-how-to-watch"
+    ]
+   ]
+  },
+  {
+   "id": "in-jobs",
+   "scope": "IN",
+   "cat": "business",
+   "emoji": "💼",
+   "date": "2026-11-16",
+   "kind": "news",
+   "x": {
+    "t": "India's unemployment rate fell in October",
+    "b": [
+     "India's government asks many people about their work. On Monday it shared the numbers for October.",
+     "Some people are looking for work but do not have a job. The [[unemployment-rate|unemployment rate]] shows how big that group is. The rate covers people aged 15 years and above.",
+     "In October the rate was 4.9%. In September it was 5%. That means the rate fell."
+    ]
+   },
+   "o": {
+    "t": "India's unemployment rate fell to 4.9% in October, new data shows",
+    "b": [
+     "India's [[unemployment-rate|unemployment rate]] fell to 4.9% in October from 5% in September, government data released on Monday 16 November showed. The figure covers people aged 15 years and above.",
+     "The unemployment rate is the share of the [[labour-force|labour force]] that is without work. The labour force means people who are working or looking for work. The October figures are based on the Periodic Labour Force Survey, a [[survey|survey]] of 3,70,475 people.",
+     "In urban areas, meaning cities and towns, the rate fell to 6.7% from 6.9%. In rural areas, meaning the countryside, it remained unchanged at 4.2%. The share of women who are working or looking for work rose to 35%, its highest level since February 2026. The survey's figures are published every month."
+    ]
+   },
+   "think": "What kinds of work do the grown-ups you know do, and how did they find their jobs?",
+   "quiz": {
+    "q": "What was India's unemployment rate in October?",
+    "a": [
+     "4.9%",
+     "9.4%",
+     "14.9%",
+     "49%"
+    ],
+    "c": 0
+   },
+   "src": [
+    [
+     "Reuters via Investing.com, 16 Nov",
+     "https://www.investing.com/news/economic-indicators/indias-october-unemployment-rate-at-49-yy-5028915"
+    ],
+    [
+     "PTI via Greater Kashmir, 17 Nov",
+     "https://www.greaterkashmir.com/business/indias-unemployment-rate-eases-to-49-in-oct-female-participation-rises-12815260"
+    ],
+    [
+     "ANI via Punjab Kesari, 16 Nov",
+     "https://english.punjabkesari.com/business/indias-unemployment-rate-falls-to-4-9-in-october-as-urban-joblessness-declines-mospi"
+    ],
+    [
+     "PIB via DD News, 16 Nov",
+     "https://ddnews.gov.in/en/female-labour-force-participation-rises-to-35-in-october-overall-unemployment-falls-to-4-9/"
+    ],
+    [
+     "US Bureau of Labor Statistics, updated 3 Nov",
+     "https://www.bls.gov/cps/definitions.htm"
+    ],
+    [
+     "OECD, Unemployment rate indicator page",
+     "https://www.oecd.org/en/data/indicators/unemployment-rate.html"
+    ]
+   ]
+  },
+  {
+   "id": "g-ce25a",
+   "scope": "global",
+   "cat": "tech",
+   "emoji": "✈️",
+   "date": "2026-11-14",
+   "kind": "news",
+   "x": {
+    "t": "An electric plane called CE-25A flies with a crew on board",
+    "b": [
+     "The CE-25A is an electric plane from China. Ten electric fans above its wings push it along.",
+     "On Saturday it made a [[test-flight|test flight]] with people on board. That was a first for this plane. Two pilots and an engineer flew in it.",
+     "Before that, it flew 19 times with nobody inside. It is designed to carry 19 passengers. It is not yet approved for passengers."
+    ]
+   },
+   "o": {
+    "t": "China's CE-25A electric plane makes its first flight with a crew",
+    "b": [
+     "The CE-25A, an electric plane, made its first [[test-flight|test flight]] with people on board on Saturday 14 November in Binzhou, in east China. Only test crew were on board: two pilots and a flight-test engineer. The plane was in the air for 16 minutes and 38 seconds.",
+     "It was developed by [[comac|COMAC]], the Commercial Aircraft Corporation of China, with partners. It has 10 electric fans above its wings. COMAC says it is designed to carry 19 passengers between cities, cruise, or fly steadily, at 300 kilometres an hour and fly up to 400 kilometres.",
+     "Since 2 February, it had made 19 flights with nobody on board. China's aviation [[regulator|regulator]], the official body that controls flying, has accepted COMAC's application for approval, but approval has not yet been granted. No date has been given for carrying passengers."
+    ]
+   },
+   "think": "Why do you think this plane was flown 19 times with nobody on board before people flew in it?",
+   "quiz": {
+    "q": "How many times had the CE-25A flown with nobody on board before this flight?",
+    "a": [
+     "3 times",
+     "10 times",
+     "16 times",
+     "19 times"
+    ],
+    "c": 3
+   },
+   "src": [
+    [
+     "Xinhua, 14 Nov",
+     "https://english.news.cn/20261114/962db2096da1431383746bdb4e9ecf97/c.html"
+    ],
+    [
+     "Global Times, 15 Nov",
+     "https://www.globaltimes.cn/page/202611/1374334.shtml"
+    ],
+    [
+     "Electrek, 15 Nov",
+     "https://electrek.co/2026/11/15/china-comac-ce-25a-electric-plane-crewed-flight/"
+    ],
+    [
+     "Airways Magazine, 16 Nov",
+     "https://www.airwaysmag.com/new-post/comac-ce25a-first-crewed-electric-test-flight"
+    ],
+    [
+     "Travel Tomorrow, 16 Nov",
+     "https://traveltomorrow.com/chinas-electric-passenger-plane-completes-first-crewed-flight/"
+    ],
+    [
+     "Aviation Week, 16 Nov",
+     "https://aviationweek.com/aerospace/emerging-technologies/china-conducts-first-crewed-flight-comac-ce-25a-electric-aircraft"
+    ]
+   ]
+  }
+ ],
+ "glossary": {
+  "bay-of-bengal": [
+   "Bay of Bengal",
+   "places",
+   "A big part of the sea to the east of India.",
+   "A large part of the north Indian Ocean, to the east of India. Andhra Pradesh and Odisha have coasts on it."
+  ],
+  "cyclone": [
+   "cyclone",
+   "science",
+   "A big spinning storm. It forms over the sea and brings strong wind and rain.",
+   "A large storm that forms over the sea, with strong winds turning around a centre. India's weather office names a storm when its winds reach 62 kilometres an hour."
+  ],
+  "imd": [
+   "IMD",
+   "civics",
+   "India's weather office. It watches the weather and warns people about storms.",
+   "The India Meteorological Department, India's weather office. It forecasts the weather, tracks storms and names cyclones over the north Indian Ocean."
+  ],
+  "andhra-pradesh": [
+   "Andhra Pradesh",
+   "places",
+   "A state in India. It has a coast on the Bay of Bengal.",
+   "A state in India with a coast on the Bay of Bengal."
+  ],
+  "light-day": [
+   "light-day",
+   "science",
+   "How far light travels in one whole day. It is a very long way.",
+   "A unit of distance: how far light travels in 24 hours, about 25.9 billion kilometres."
+  ],
+  "morse-code": [
+   "Morse code",
+   "words",
+   "A code that spells letters with short and long signals.",
+   "A code that spells out letters using short and long signals, such as flashes of light or beeps."
+  ],
+  "cop": [
+   "COP",
+   "civics",
+   "A big meeting where countries talk about climate change.",
+   "Short for Conference of the Parties: the United Nations climate summit, where countries meet to agree on action on climate change."
+  ],
+  "draft": [
+   "draft",
+   "words",
+   "An early try at writing something. It can still be changed.",
+   "An early version of a piece of writing, such as an agreement, which can still be changed before it is final."
+  ],
+  "minister": [
+   "minister",
+   "civics",
+   "A senior member of a government who looks after one area, such as the environment.",
+   "A senior member of a government who is in charge of one area of its work, such as the environment."
+  ],
+  "fossil-fuels": [
+   "fossil fuels",
+   "science",
+   "Coal, oil and gas. People burn them to make energy.",
+   "Fuels such as coal, oil and gas, formed long ago from the remains of plants and animals."
+  ],
+  "asean": [
+   "ASEAN",
+   "civics",
+   "A group of countries in Southeast Asia that work together.",
+   "Short for the Association of Southeast Asian Nations, a group of countries in Southeast Asia that cooperate on trade, safety and other shared issues."
+  ],
+  "seismologist": [
+   "seismologist",
+   "science",
+   "A scientist who studies earthquakes.",
+   "A scientist who studies earthquakes."
+  ],
+  "earthquake": [
+   "earthquake",
+   "science",
+   "A sudden shaking of the ground.",
+   "A sudden shaking of the ground, caused when huge masses of rock move beneath the Earth's surface."
+  ],
+  "saff-championship": [
+   "SAFF Championship",
+   "words",
+   "A football contest. India have won it nine times, a record.",
+   "A football tournament. India have won the title nine times, a record."
+  ],
+  "dhaka": [
+   "Dhaka",
+   "places",
+   "A city in Bangladesh.",
+   "A city in Bangladesh. The final is at the National Stadium there."
+  ],
+  "defending-champion": [
+   "defending champion",
+   "words",
+   "The winner from last time, who is trying to win again.",
+   "A team or player that won a competition the last time it was held and is trying to win it again."
+  ],
+  "gorilla": [
+   "gorilla",
+   "science",
+   "A very large, strong ape.",
+   "A very large, strong ape. The two in this story are western lowland gorillas."
+  ],
+  "cooperation": [
+   "cooperation",
+   "words",
+   "Working together to get something done.",
+   "Working together with someone else to get something done."
+  ],
+  "spontaneous": [
+   "spontaneous",
+   "words",
+   "Done naturally, without being told to.",
+   "Done naturally, without being told or forced to."
+  ],
+  "journal": [
+   "journal",
+   "words",
+   "A magazine about one subject, such as science.",
+   "A magazine that deals with one subject. Scientists publish their studies in science journals."
+  ],
+  "startup": [
+   "startup",
+   "words",
+   "A young company that has only just got started.",
+   "A new business that has only recently been started."
+  ],
+  "robot": [
+   "robot",
+   "tech",
+   "A machine that can do jobs by itself or is controlled by a computer.",
+   "A machine that can carry out tasks automatically or is controlled by a computer."
+  ],
+  "ai": [
+   "AI",
+   "tech",
+   "Artificial intelligence: computer programs that can learn and make choices.",
+   "Artificial intelligence: computer systems that learn patterns from data to recognise images, understand language or make predictions."
+  ],
+  "flag-off": [
+   "flag off",
+   "words",
+   "To officially start something, such as a journey.",
+   "To officially start an event, such as a tour or a journey. The phrase is used in Indian English."
+  ],
+  "coach": [
+   "coach",
+   "words",
+   "One of the long cars that are joined together to make a train.",
+   "A railway carriage: one of the separate sections of a train that carry passengers."
+  ],
+  "elevated": [
+   "elevated",
+   "words",
+   "Raised above the ground.",
+   "Raised above the ground, like an elevated highway or railway."
+  ],
+  "dna": [
+   "DNA",
+   "science",
+   "A set of instructions inside every living thing.",
+   "The chemical inside the cells of living things that carries genetic information, the instructions passed from parents to their young."
+  ],
+  "species": [
+   "species",
+   "science",
+   "One kind of living thing, such as a tiger or a house sparrow.",
+   "A group of animals or plants that are alike and can breed with each other."
+  ],
+  "museum": [
+   "museum",
+   "words",
+   "A place that keeps and shows interesting and important things.",
+   "A building in which interesting and valuable things, such as works of art or historical or scientific objects, are collected and shown to the public."
+  ],
+  "migrate": [
+   "migrate",
+   "science",
+   "To travel to another place when the seasons change.",
+   "To move from one region to another at certain times of the year, as many birds do when the seasons change."
+  ],
+  "fossil": [
+   "fossil",
+   "science",
+   "What is left of an animal or plant that lived long ago.",
+   "The remains or traces of an animal or plant that lived long ago, preserved in rock or in the earth."
+  ],
+  "atp-finals": [
+   "ATP Finals",
+   "words",
+   "A tennis contest at the end of the year for eight of the best men's players.",
+   "The tournament that ends the men's tennis season. Eight of the season's best singles players qualify and play in two groups of four."
+  ],
+  "turin": [
+   "Turin",
+   "places",
+   "A city in Italy.",
+   "A city in Italy where the ATP Finals are being played."
+  ],
+  "set": [
+   "set",
+   "words",
+   "One part of a tennis match.",
+   "One part of a tennis match, made up of games. Players have to win sets to win the match."
+  ],
+  "unemployment-rate": [
+   "unemployment rate",
+   "words",
+   "A number that shows what share of the people who have work or are looking for work do not have a job.",
+   "The share of the labour force that is without work. The labour force is the people who are working or looking for work."
+  ],
+  "labour-force": [
+   "labour force",
+   "words",
+   "All the people who have work or are looking for work.",
+   "All the people who are either working or looking for work."
+  ],
+  "survey": [
+   "survey",
+   "words",
+   "Asking many people the same questions to find something out.",
+   "A way of finding things out by asking a group of people the same questions."
+  ],
+  "test-flight": [
+   "test flight",
+   "words",
+   "A flight made to check that a new plane works well.",
+   "A flight made to check how a new aircraft performs."
+  ],
+  "comac": [
+   "COMAC",
+   "tech",
+   "A company in China. It developed the CE-25A plane with partners.",
+   "Short for the Commercial Aircraft Corporation of China, which developed the CE-25A with partners."
+  ],
+  "regulator": [
+   "regulator",
+   "civics",
+   "An official group that checks that rules are followed.",
+   "An official body that makes sure the rules are followed in one area of activity, such as flying."
+  ],
+  "interstellar": [
+   "interstellar space",
+   "science",
+   "The space between the stars.",
+   "Space beyond the heliopause, the place where the Sun's constant flow of material and its magnetic field stop affecting their surroundings."
+  ],
+  "jpl": [
+   "Jet Propulsion Laboratory",
+   "places",
+   "A NASA centre in California. The Voyager 1 mission is run from there.",
+   "A NASA laboratory in Pasadena, California. The Voyager mission is run from there."
+  ],
+  "deep-space-network": [
+   "Deep Space Network",
+   "tech",
+   "The system NASA uses to talk to faraway spacecraft.",
+   "NASA's system for communicating with distant spacecraft such as Voyager 1. It is managed by the Jet Propulsion Laboratory."
+  ]
+ },
+ "keys": {
+  "in-akvan": {
+   "type": "number",
+   "v": "74",
+   "l": "rescue teams Odisha plans to deploy: 60 ODRAF teams and 14 NDRF teams"
+  },
+  "g-voyager": {
+   "type": "number",
+   "v": "1.3 seconds",
+   "l": "about how long light takes to reach the Moon; to reach Voyager 1 on Wednesday, it will take 24 hours"
+  },
+  "g-cop31": {
+   "type": "number",
+   "v": "18",
+   "l": "pages in the first draft of the COP31 deal"
+  },
+  "g-asean-prize": {
+   "type": "number",
+   "v": "79",
+   "l": "the age of Hla Hla Aung, the earthquake scientist who received the 2026 ASEAN Prize"
+  },
+  "in-saff-final": {
+   "type": "number",
+   "v": "9",
+   "l": "times India have won the SAFF Championship, a record"
+  },
+  "g-gorilla-ladder": {
+   "type": "number",
+   "v": "3",
+   "l": "times the researchers documented the two gorillas doing this: in 2021, 2024 and 2025"
+  },
+  "in-bts": {
+   "type": "number",
+   "v": "1,000+",
+   "l": "startups, from around 100 cities, expected at the Bengaluru Tech Summit"
+  },
+  "in-kanpur-express": {
+   "type": "number",
+   "v": "428 km",
+   "l": "the distance between Kanpur Central and Anand Vihar Terminal in Delhi"
+  },
+  "g-woodcocks": {
+   "type": "number",
+   "v": "6 of 8",
+   "l": "woodcock species are found only on islands"
+  },
+  "g-alcaraz": {
+   "type": "number",
+   "v": "10",
+   "l": "matches Carlos Alcaraz has now won in a row"
+  },
+  "in-jobs": {
+   "type": "number",
+   "v": "4.9%",
+   "l": "India's unemployment rate in October 2026, down from 5% in September"
+  },
+  "g-ce25a": {
+   "type": "number",
+   "v": "19",
+   "l": "flights the CE-25A made with nobody on board before its first flight with a crew"
+  }
+ },
+ "xkeys": {
+  "in-akvan": {
+   "type": "check",
+   "q": "Which country does the name Akvan come from?",
+   "a": [
+    "Iceland",
+    "Iran"
+   ],
+   "c": 1,
+   "right": "Right! The name Akvan comes from Iran.",
+   "wrong": "Not quite. The name Akvan comes from Iran."
+  },
+  "g-voyager": {
+   "type": "check",
+   "q": "What reaches the Moon in about 1.3 seconds?",
+   "a": [
+    "A rocket",
+    "Light"
+   ],
+   "c": 1,
+   "right": "Right! Light reaches the Moon in about 1.3 seconds.",
+   "wrong": "Not quite. Light reaches the Moon in about 1.3 seconds."
+  },
+  "g-cop31": {
+   "type": "check",
+   "q": "Is the draft the final deal?",
+   "a": [
+    "No, it will change",
+    "Yes, it is finished"
+   ],
+   "c": 0,
+   "right": "Right! The draft is not final and will change.",
+   "wrong": "Not quite. The draft is not final and will change."
+  },
+  "g-asean-prize": {
+   "type": "check",
+   "q": "What was Hla Hla Aung given on Sunday?",
+   "a": [
+    "The 2026 ASEAN Prize",
+    "A new telescope"
+   ],
+   "c": 0,
+   "right": "Right! She was given the 2026 ASEAN Prize for helping people get ready for earthquakes.",
+   "wrong": "Not quite. She was given the 2026 ASEAN Prize for helping people get ready for earthquakes."
+  },
+  "in-saff-final": {
+   "type": "check",
+   "q": "In which city is the final being played?",
+   "a": [
+    "Dhaka",
+    "Mumbai"
+   ],
+   "c": 0,
+   "right": "Right! The match is in Dhaka, Bangladesh.",
+   "wrong": "Not quite. The match is in Dhaka, Bangladesh."
+  },
+  "g-gorilla-ladder": {
+   "type": "check",
+   "q": "Did anyone train the gorillas to do this?",
+   "a": [
+    "No, nobody trained them",
+    "Yes, their keepers trained them"
+   ],
+   "c": 0,
+   "right": "Right! Nobody trained the gorillas to do it.",
+   "wrong": "Not quite. Nobody trained the gorillas to do it."
+  },
+  "in-bts": {
+   "type": "check",
+   "q": "What is the special area at the summit planned for?",
+   "a": [
+    "Robots and AI",
+    "Swimming and diving"
+   ],
+   "c": 0,
+   "right": "Right! A special area is planned for robots and AI.",
+   "wrong": "Not quite. A special area is planned for robots and AI."
+  },
+  "in-kanpur-express": {
+   "type": "check",
+   "q": "What does it mean to flag off a train?",
+   "a": [
+    "To officially start its journey",
+    "To paint it a new colour"
+   ],
+   "c": 0,
+   "right": "Right! To flag off a train is to officially start its journey.",
+   "wrong": "Not quite. To flag off a train is to officially start its journey."
+  },
+  "g-woodcocks": {
+   "type": "check",
+   "q": "Where were the birds stored that scientists took DNA from?",
+   "a": [
+    "In a zoo",
+    "In a museum"
+   ],
+   "c": 1,
+   "right": "Right! Scientists studied DNA from birds stored in a museum.",
+   "wrong": "Not quite. Scientists studied DNA from birds stored in a museum."
+  },
+  "g-alcaraz": {
+   "type": "check",
+   "q": "Why could Alcaraz not play for several months this year?",
+   "a": [
+    "He was on holiday",
+    "He hurt his wrist"
+   ],
+   "c": 1,
+   "right": "Right! Alcaraz hurt his wrist and could not play for several months.",
+   "wrong": "Not quite. Alcaraz hurt his wrist and could not play for several months."
+  },
+  "in-jobs": {
+   "type": "check",
+   "q": "Did India's unemployment rate go up or down in October?",
+   "a": [
+    "It went up",
+    "It went down"
+   ],
+   "c": 1,
+   "right": "Right! The rate fell to 4.9% in October, from 5% in September.",
+   "wrong": "Not quite. The rate fell to 4.9% in October, from 5% in September."
+  },
+  "g-ce25a": {
+   "type": "check",
+   "q": "Who flew in the plane on Saturday?",
+   "a": [
+    "Families going on holiday",
+    "Two pilots and an engineer"
+   ],
+   "c": 1,
+   "right": "Right! Two pilots and an engineer flew in it. No passengers were on board.",
+   "wrong": "Not quite. Two pilots and an engineer flew in it. No passengers were on board."
+  }
+ },
+ "deep": {
+  "in-akvan": {
+   "ctx": "On Monday evening the IMD also said Akvan was likely to intensify, or strengthen, into a severe cyclonic storm by the evening of 17 November and into a very severe cyclonic storm around 19 November. It was forecast to cross the coast as a very severe cyclonic storm. The present list of storm names dates from 2020 and has 169 names, 13 from each of the 13 countries.",
+   "ask": "The storm is forecast to cross the coast in Andhra Pradesh, but neighbouring Odisha also plans to deploy rescue teams. Is it better to prepare widely in case a forecast changes, or to save effort for the places most likely to be affected?",
+   "jobs": [
+    "Weather forecaster (meteorologist)",
+    "Disaster rescue team member",
+    "District administrator"
+   ]
+  },
+  "g-voyager": {
+   "ctx": "The nearest star to the Sun, Proxima Centauri, is about 4.24 light-years away, more than 1,500 times farther than Voyager 1 will be on Wednesday. A reply from Voyager 1 takes another 24 hours to come back, so a question and its answer take about two days. Another spacecraft, Voyager 2, will reach its own light-day mark in November 2035.",
+   "ask": "A question sent to Voyager 1 and its answer now take about two days: is it worth keeping such a distant spacecraft running for as long as possible, or should that effort go into new missions?",
+   "jobs": [
+    "Astrophysicist",
+    "Radio communications engineer",
+    "Science educator (someone who explains science to the public)"
+   ]
+  },
+  "g-cop31": {
+   "ctx": "The draft text is known as a cover decision. Australia and Türkiye share the running of COP31. The draft also mentions tripling adaptation finance, the money that helps developing countries adapt, to at least $120 billion.",
+   "ask": "Should a first draft include ideas that not all countries agree on, so that everything is on the table, or only ideas with a real chance of being agreed, to save time?",
+   "jobs": [
+    "Climate policy adviser",
+    "Renewable energy engineer",
+    "Science journalist"
+   ]
+  },
+  "g-asean-prize": {
+   "ctx": "Hla Hla Aung described herself as a geologist, researcher, educator and mother. She also said that time is our most precious asset. The ASEAN Prize is run by the ASEAN Secretariat.",
+   "ask": "Should big prizes for scientists go mostly to people who make new discoveries, or to people who turn what is already known into help for communities?",
+   "jobs": [
+    "Seismologist (a scientist who studies earthquakes)",
+    "Disaster preparedness planner",
+    "Structural engineer (designs buildings to stay standing)"
+   ]
+  },
+  "in-saff-final": {
+   "ctx": "The two teams have met 30 times: India have won 17, Pakistan have won four and nine were draws. In Saturday's semi-final India scored inside the first ten minutes, and their captain added a second goal in the 27th minute. Pakistan beat Maldives 3-0 in their other group match and added overseas-based players before the knockout matches.",
+   "ask": "India beat Pakistan 3-2 earlier in this tournament: does an earlier win give a team a real advantage in a final, or does every final start from zero?",
+   "jobs": [
+    "Football coach",
+    "Referee",
+    "Sports journalist"
+   ]
+  },
+  "g-gorilla-ladder": {
+   "ctx": "An electric barrier stopped the gorillas from climbing the tree directly. After the 2024 event the two shared the food, but in 2025 Amelia ate the vegetation alone, which the researchers say suggests that cooperating to get food does not always lead to sharing it. The researchers also say the footage cannot show whether the gorillas communicated with sounds or gestures, or planned ahead.",
+   "ask": "The study is based on two gorillas and three events: how much should scientists conclude from a few careful observations, and when is it right to share them with everyone?",
+   "jobs": [
+    "Primatologist (a scientist who studies apes and monkeys)",
+    "Zookeeper",
+    "Animal behaviour researcher"
+   ]
+  },
+  "in-bts": {
+   "ctx": "The summit is organised by the Karnataka government's Department of Electronics, Information Technology and Biotechnology and co-hosted by Software Technology Parks of India. Karnataka's Chief Minister is to inaugurate it, and Sweden is the country partner. Topics are to include AI, semiconductors, biotechnology, electric mobility, cybersecurity and digital infrastructure.",
+   "ask": "Robots that cook and robots shaped like humans are due to be shown at the summit: as robots learn to do more jobs, is that mostly a help to people or mostly a worry for workers?",
+   "jobs": [
+    "Robotics engineer",
+    "AI researcher",
+    "Startup founder"
+   ]
+  },
+  "in-kanpur-express": {
+   "ctx": "The Railway Ministry said the new daily service will strengthen rail connectivity between Uttar Pradesh and the National Capital Region (NCR). A proposed Bullet Train North Corridor would connect Delhi, Agra, Kanpur, Varanasi, Lucknow and Ayodhya, extending further to Patna, Siliguri and Guwahati. The minister said redevelopment work at Kanpur Central station is progressing rapidly.",
+   "ask": "When money for railways is limited, should it go first to new trains between big cities, or to fixing local problems such as traffic jams at railway crossings?",
+   "jobs": [
+    "Loco pilot (train driver)",
+    "Railway civil engineer",
+    "Station master"
+   ]
+  },
+  "g-woodcocks": {
+   "ctx": "In the study, published in the journal Proceedings of the National Academy of Sciences, the authors suggest that snipes from Africa crossed the Atlantic Ocean and became new species in South America, and that birds crossed the Pacific Ocean to New Zealand. John Bates, curator of birds at the Field Museum and a co-author, said snipes and woodcocks have been around for 20 to 25 million years. Some woodcocks live only in mountain forests on islands between Asia and Australia, and Bates said that if those forests are cut down, the birds will be gone too.",
+   "ask": "Museums spend money and space keeping preserved animals for many years. Is that worth it for the chance that scientists will one day learn something new from them, or would the money and space be better used in other ways?",
+   "jobs": [
+    "Ornithologist (a scientist who studies birds)",
+    "Museum curator",
+    "Geneticist (a scientist who studies DNA)"
+   ]
+  },
+  "g-alcaraz": {
+   "ctx": "Alcaraz is in the Ivan Lendl Group with Tiafoe, Daniil Medvedev and Flavio Cobolli. Medvedev won the title in 2020, and Cobolli of Italy is the home player and is also playing his first ATP Finals. Last year Alcaraz reached the final and lost to Jannik Sinner.",
+   "ask": "After a long injury, is it better for a player to return slowly at smaller events, or to go straight back to the biggest tournaments?",
+   "jobs": [
+    "Sports physiotherapist (helps injured athletes recover)",
+    "Fitness trainer",
+    "Sports reporter"
+   ]
+  },
+  "in-jobs": {
+   "ctx": "A year earlier, in October 2025, the rate was 5.2%. The share of the population that has work, called the worker population ratio, rose to 53% from 52.7%. For women the unemployment rate fell to 5% from 5.2%, while for men it remained unchanged at 4.9%.",
+   "ask": "The unemployment rate counts people who are looking for work, but not adults who are not looking. Is one simple number a good way to show how a country is doing on jobs, because everyone can follow it, or does it leave too much out?",
+   "jobs": [
+    "Statistician",
+    "Economist",
+    "Survey interviewer"
+   ]
+  },
+  "g-ce25a": {
+   "ctx": "The flight covered about 60.4 kilometres, and COMAC said the plane's systems worked normally. COMAC developed the plane with the Chinese battery maker CATL, Shanghai Jiao Tong University and other partners. In the plane's name, the letter E stands for electric.",
+   "ask": "This plane is designed for short trips between cities: for journeys like that, should countries put more effort into electric planes or into faster trains?",
+   "jobs": [
+    "Test pilot",
+    "Flight-test engineer",
+    "Aircraft safety inspector"
+   ]
+  }
+ },
+ "bigStory": {
+  "week": "2026-11-16",
+  "story": "g-voyager",
+  "cat": "space",
+  "t": "How far is one light-day from home?",
+  "sub": "Voyager 1, launched in 1977, reaches one light-day from Earth on Wednesday",
+  "x": {
+   "why": "A spacecraft that left Earth in 1977 is still travelling. This week it will be so far away that light needs a whole day to reach it."
+  },
+  "o": {
+   "why": "A spacecraft launched in 1977 is still travelling, and its team on Earth still talks to it. This week it reaches a distance so great that a radio signal, moving at the speed of light, needs 24 hours to get there."
+  },
+  "facts": [
+   [
+    "1977",
+    "the year Voyager 1 left Earth"
+   ],
+   [
+    "25.9 billion km",
+    "about one light-day: how far light travels in 24 hours"
+   ],
+   [
+    "24 hours",
+    "how long a radio signal from Earth will take to reach it"
+   ],
+   [
+    "18 Nov",
+    "the day NASA says it reaches one light-day"
+   ]
+  ],
+  "days": [
+   {
+    "d": "2026-11-16",
+    "h": "Meet Voyager 1",
+    "o": "NASA launched Voyager 1 on 5 September 1977. It flew past Jupiter in 1979 and Saturn in 1980, and in 1990 it took a picture of Earth known as the Pale Blue Dot. In 2012 it entered interstellar space, the space between the stars. It is run from NASA's Jet Propulsion Laboratory in California.",
+    "x": "Voyager 1 is a spacecraft. It left Earth in 1977. It flew past the planets Jupiter and Saturn. In 1990 it took a picture of Earth from very far away."
+   },
+   {
+    "d": "2026-11-17",
+    "h": "How far is a light-day?",
+    "o": "A light-day is the distance light travels in 24 hours, about 25.9 billion kilometres. Light reaches the Moon in about 1.3 seconds, and sunlight takes about 8 minutes to reach Earth. After sunset today, Tuesday 17 November, NASA invites people to flash VGR, Voyager's three-letter call sign, in Morse code towards the sky with a torch or phone.",
+    "x": "A light-day is how far light travels in one day. Sunlight reaches us in about 8 minutes. After sunset today, people can flash a torch for Voyager. Ask a grown-up to help."
+   },
+   {
+    "d": "2026-11-18",
+    "h": "The big day",
+    "lock": "Wednesday: the day Voyager 1 reaches one light-day from Earth."
+   },
+   {
+    "d": "2026-11-19",
+    "h": "Phoning home",
+    "lock": "Thursday: how do you talk to a spacecraft when a signal takes a whole day to arrive?"
+   },
+   {
+    "d": "2026-11-20",
+    "h": "What comes next?",
+    "lock": "Friday: the week in one page, and where Voyager 1 goes from here."
+   }
+  ],
+  "words": [
+   "light-day",
+   "interstellar",
+   "jpl",
+   "deep-space-network"
+  ],
+  "poll": {
+   "q": "If you could add one thing to a message carried into space, what would it be?",
+   "a": [
+    [
+     "Music",
+     "A tune can be enjoyed without knowing the words."
+    ],
+    [
+     "Greetings in many languages",
+     "It would show how many peoples share one planet."
+    ],
+    [
+     "Pictures of animals and places",
+     "A picture can show what words cannot."
+    ],
+    [
+     "A map of where we are",
+     "So that whoever finds it knows where it came from."
+    ]
+   ]
+  },
+  "talk": "If you sent a message today that would be opened 49 years from now, what would you want the reader to know about your life?"
+ },
+ "puzzles": {
+  "week": "2026-11-16",
+  "sudoku": {
+   "x": {
+    "n": 4,
+    "br": 2,
+    "bc": 2,
+    "p": [
+     [
+      0,
+      1,
+      2,
+      0
+     ],
+     [
+      0,
+      0,
+      1,
+      0
+     ],
+     [
+      0,
+      0,
+      3,
+      0
+     ],
+     [
+      3,
+      2,
+      0,
+      1
+     ]
+    ],
+    "s": [
+     [
+      4,
+      1,
+      2,
+      3
+     ],
+     [
+      2,
+      3,
+      1,
+      4
+     ],
+     [
+      1,
+      4,
+      3,
+      2
+     ],
+     [
+      3,
+      2,
+      4,
+      1
+     ]
+    ]
+   },
+   "o": {
+    "n": 6,
+    "br": 2,
+    "bc": 3,
+    "p": [
+     [
+      0,
+      1,
+      0,
+      2,
+      0,
+      0
+     ],
+     [
+      3,
+      6,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      6,
+      5,
+      3,
+      0,
+      4,
+      2
+     ],
+     [
+      0,
+      4,
+      1,
+      0,
+      0,
+      6
+     ],
+     [
+      0,
+      0,
+      0,
+      6,
+      0,
+      4
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+     ]
+    ],
+    "s": [
+     [
+      5,
+      1,
+      4,
+      2,
+      6,
+      3
+     ],
+     [
+      3,
+      6,
+      2,
+      4,
+      5,
+      1
+     ],
+     [
+      6,
+      5,
+      3,
+      1,
+      4,
+      2
+     ],
+     [
+      2,
+      4,
+      1,
+      5,
+      3,
+      6
+     ],
+     [
+      1,
+      3,
+      5,
+      6,
+      2,
+      4
+     ],
+     [
+      4,
+      2,
+      6,
+      3,
+      1,
+      5
+     ]
+    ]
+   },
+   "n": {
+    "n": 9,
+    "br": 3,
+    "bc": 3,
+    "p": [
+     [
+      2,
+      0,
+      0,
+      3,
+      4,
+      0,
+      0,
+      7,
+      9
+     ],
+     [
+      9,
+      0,
+      6,
+      1,
+      0,
+      0,
+      3,
+      4,
+      5
+     ],
+     [
+      0,
+      3,
+      0,
+      9,
+      6,
+      5,
+      0,
+      1,
+      0
+     ],
+     [
+      8,
+      0,
+      0,
+      4,
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      7,
+      9,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      7,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      9,
+      2,
+      0,
+      3,
+      7,
+      0,
+      0,
+      0
+     ],
+     [
+      5,
+      0,
+      0,
+      2,
+      8,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      5,
+      0,
+      1,
+      0,
+      0,
+      3
+     ]
+    ],
+    "s": [
+     [
+      2,
+      5,
+      1,
+      3,
+      4,
+      8,
+      6,
+      7,
+      9
+     ],
+     [
+      9,
+      8,
+      6,
+      1,
+      7,
+      2,
+      3,
+      4,
+      5
+     ],
+     [
+      7,
+      3,
+      4,
+      9,
+      6,
+      5,
+      8,
+      1,
+      2
+     ],
+     [
+      8,
+      2,
+      7,
+      4,
+      1,
+      9,
+      5,
+      3,
+      6
+     ],
+     [
+      3,
+      4,
+      5,
+      8,
+      2,
+      6,
+      7,
+      9,
+      1
+     ],
+     [
+      1,
+      6,
+      9,
+      7,
+      5,
+      3,
+      2,
+      8,
+      4
+     ],
+     [
+      4,
+      9,
+      2,
+      6,
+      3,
+      7,
+      1,
+      5,
+      8
+     ],
+     [
+      5,
+      1,
+      3,
+      2,
+      8,
+      4,
+      9,
+      6,
+      7
+     ],
+     [
+      6,
+      7,
+      8,
+      5,
+      9,
+      1,
+      4,
+      2,
+      3
+     ]
+    ]
+   }
+  },
+  "words": {
+   "o": [
+    [
+     "VOYAGER",
+     "A spacecraft launched in 1977"
+    ],
+    [
+     "EARTHSHOT",
+     "A prize for ideas that help the planet"
+    ],
+    [
+     "ORBIT",
+     "The path an object follows around a planet, moon or star"
+    ],
+    [
+     "EMBLEM",
+     "ASEAN's now shows 11 rice stalks"
+    ],
+    [
+     "MINISTER",
+     "A senior member of a government"
+    ]
+   ],
+   "x": [
+    [
+     "LIGHT",
+     "From Wednesday, it needs a whole day to reach Voyager 1"
+    ],
+    [
+     "MUSEUM",
+     "A place that keeps and shows interesting and important things"
+    ],
+    [
+     "FLAG",
+     "ASEAN's has one more rice stalk"
+    ],
+    [
+     "PRIZE",
+     "Five winners get one in Mumbai this week"
+    ],
+    [
+     "TENNIS",
+     "Mirra Andreeva's sport"
+    ]
+   ]
+  }
+ },
+ "reporters": {
+  "week": "2026-11-16",
+  "t": "Report one thing that changed in your street or school this week",
+  "why": "Monday 16 November is National Press Day in India, and World Children's Day is on Friday 20 November. Good reporters check what they hear with more than one person.",
+  "tips": [
+   "What changed?",
+   "Who told you, and who else can confirm it?",
+   "Where and when did it happen?"
+  ],
+  "sample": []
+ },
+ "today": {
+  "days": [
+   {
+    "name": "International Students' Day",
+    "what": "International Students' Day is marked every year on 17 November. It remembers university students in Prague in 1939. It was declared in London in 1941 by the International Students' Council."
+   },
+   {
+    "name": "National Epilepsy Day",
+    "what": "India marks National Epilepsy Day every year on 17 November. Epilepsy is a condition of the brain that can cause seizures. The day was started by the Epilepsy Foundation of India. It aims to help people understand epilepsy.",
+    "where": [
+     "IN"
+    ]
+   }
+  ],
+  "born": [
+   {
+    "name": "August Ferdinand Möbius",
+    "year": 1790,
+    "what": "A German mathematician and astronomer, born in Schulpforta, Saxony. In 1848 he became director of the observatory at Leipzig. In 1858 he discovered the Möbius strip, a surface with only one side. Another mathematician, Johann Benedict Listing, discovered it at about the same time."
+   },
+   {
+    "name": "Eugene Wigner",
+    "year": 1902,
+    "what": "A physicist born in Budapest, Hungary, who became a citizen of the United States in 1937. He won the Nobel Prize in Physics in 1963. He taught at Princeton University from 1938 until he retired in 1971."
+   }
+  ],
+  "week": "NASA says Voyager 1 reaches one light-day from Earth on Wednesday 18 November. World Children's Day is on Friday 20 November."
+ },
+ "learn": {
+  "subject": "Geography",
+  "cat": "nature",
+  "link": "From the storm Akvan story: how storms in the north Indian Ocean get their names",
+  "x": {
+   "t": "How do storms get their names?",
+   "b": [
+    "A cyclone is a spinning storm that forms over the ocean. In other oceans, the same kind of storm is called a hurricane or a typhoon.",
+    "Storms in the north Indian Ocean get their names from a list. Thirteen countries gave names for the list. India is one of them.",
+    "A name helps people remember a storm. Each name is used only once."
+   ],
+   "remember": "Thirteen countries gave the names for storms in the north Indian Ocean. Each name is used only once.",
+   "q": "How many countries gave names for the list?",
+   "a": [
+    "Three",
+    "Thirteen"
+   ],
+   "c": 1
+  },
+  "o": {
+   "t": "How do cyclones get their names?",
+   "b": [
+    "A tropical cyclone is a spinning storm that forms over the ocean. The same kind of storm is called a hurricane in the North Atlantic, a typhoon in the western North Pacific and a cyclone in the Indian Ocean.",
+    "Storms in the north Indian Ocean take their names from a list made by 13 countries, including India. The list has 169 names. Each country gave 13 names. A storm gets its name when its winds reach 62 kilometres an hour. The name is given by the India Meteorological Department, India's weather office.",
+    "A name helps people remember a storm. It also avoids confusion when two storms are active at the same time. Each name is used only once. Akvan is one of the names given by Iran."
+   ],
+   "remember": "Cyclones in the north Indian Ocean are named from a list of 169 names given by 13 countries, and each name is used only once.",
+   "q": "Which country gave the name Akvan?",
+   "a": [
+    "India",
+    "Thailand",
+    "Iran"
+   ],
+   "c": 2
+  }
+ },
+ "backThen": {
+  "y": 1970,
+  "t": "The first robot rover lands on the Moon",
+  "o": "On 17 November 1970, the Soviet spacecraft Luna 17 landed on the Moon, in a region called the Sea of Rains. Luna 17 was launched on 10 November 1970. It carried Lunokhod 1, the first remote-controlled robot rover on the Moon. Lunokhod 1 had eight wheels. A team on Earth drove it by remote control. It carried television cameras. It kept working for many months.",
+  "x": "On this day in 1970, a robot rover landed on the Moon. Its name was Lunokhod 1. It had eight wheels. People on Earth drove it by remote control.",
+  "why": "Lunokhod 1 showed that people on Earth could drive a robot on another world. In 2010, scientists bounced laser pulses from Earth off the old rover's reflector."
+ },
+ "hiddenWords": [
+  {
+   "k": "cyclone",
+   "o": "Cyclone comes from the Greek word kyklos, which means circle."
+  },
+  {
+   "k": "robot",
+   "o": "Robot comes from the Czech word robota, which means forced labour."
+  }
+ ]
+}

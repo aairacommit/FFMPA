@@ -7,63 +7,6 @@
  ],
  "stories": [
   {
-   "id": "in-kids-earthshot",
-   "scope": "IN",
-   "cat": "planet",
-   "emoji": "🌱",
-   "date": "2026-11-17",
-   "kind": "news",
-   "x": {
-    "t": "Children's ideas to help the planet get their own awards",
-    "b": [
-     "Fifteen teams of school students travelled to [[mumbai|Mumbai]] this week. They came for the first Children's Earthshot Awards.",
-     "The awards are for ideas that help the planet. They were held on Tuesday. There were five [[category|groups]], such as clean air. One team was set to win in each group.",
-     "The challenge behind the awards reached about 15,000 schools in India. It was open to children aged 9 to 17."
-    ]
-   },
-   "o": {
-    "t": "First Children's Earthshot Awards held for school teams in Mumbai",
-    "b": [
-     "The first Children's Earthshot Awards were held on Tuesday at the Museum of Solutions in [[mumbai|Mumbai]]. One winning team was to be named in each of the five [[category|categories]], or groups, of the [[earthshot-prize|Earthshot Prize]]: fixing the climate, cleaning the air, reviving the oceans, building a waste-free world, and protecting and restoring nature.",
-     "The awards grew out of the I CAN Earthshot Challenge, run with Design for Change and Instituto Alana. It was open to children aged 9 to 17 and reached about 15,000 schools in 24 Indian states. Fifteen [[finalist|finalist]] teams, those in the last round, travelled to Mumbai for a two-day programme.",
-     "Prince William and Catherine attended the ceremony. On Tuesday evening, the main Earthshot Prize awards were due to take place in Mumbai, where five winners were to be named."
-    ]
-   },
-   "think": "If you entered a challenge like this, what problem near your home would you try to solve, and how?",
-   "quiz": {
-    "q": "About how many schools did the challenge reach?",
-    "a": [
-     "About 150",
-     "About 1,500",
-     "About 15,000",
-     "About 150,000"
-    ],
-    "c": 2
-   },
-   "src": [
-    [
-     "ANI via The Tribune, 17 Nov",
-     "https://www.tribuneindia.com/news/design-for-change/prince-william-kate-middleton-arrive-at-mumbais-muso-for-inaugural-childrens-earthshot-awards"
-    ],
-    [
-     "People via Yahoo, 17 Nov",
-     "https://www.yahoo.com/entertainment/celebrity/royals/articles/kate-middleton-prince-william-put-101230363.html"
-    ],
-    [
-     "The Earthshot Prize, 22 Oct",
-     "https://earthshotprize.org/news/discover-the-finalists-i-can-earthshot-challenge/"
-    ],
-    [
-     "The Earthshot Prize, 15 Nov",
-     "https://earthshotprize.org/news/india-hosts-the-earthshot-prize-for-sixth-and-biggest-ever-awards-in-mumbai/"
-    ],
-    [
-     "Earthshot Prize release via The Wire, 23 Oct",
-     "https://m.thewire.in/article/ptiprnews/the-earthshot-prize-alana-and-design-for-change-announce-finalists-of-nationwide-i-can-earthshot-challenge"
-    ]
-   ]
-  },
-  {
    "id": "in-akvan",
    "scope": "IN",
    "cat": "nature",
@@ -73,7 +16,7 @@
    "x": {
     "t": "Rescue teams get ready early for the storm Akvan",
     "b": [
-     "[[andhra-pradesh|Andhra Pradesh]] and Odisha are getting rescue teams ready early. Then help is close by when the [[cyclone|cyclone]] Akvan arrives.",
+     "[[andhra-pradesh|Andhra Pradesh]] and Odisha are getting rescue teams ready early. That way, help is close by when the [[cyclone|cyclone]] Akvan arrives.",
      "Fishermen have been told to stay off the sea. In Odisha, people in areas at risk of landslides are to be moved.",
      "On Tuesday, [[imd|India's weather office]] said Akvan was expected to grow stronger. It is expected to cross onto land on Friday. Families can follow updates."
     ]
@@ -474,12 +417,6 @@
    "A big part of the sea to the east of India.",
    "A large part of the north Indian Ocean, to the east of India. Andhra Pradesh and Odisha have coasts on it."
   ],
-  "category": [
-   "category",
-   "words",
-   "A group of things that are alike in some way.",
-   "A group of people or things that share some of the same features. Prizes are often split into categories."
-  ],
   "chief-minister": [
    "Chief Minister",
    "civics",
@@ -515,12 +452,6 @@
    "words",
    "An early try at writing something. It can still be changed.",
    "An early version of a piece of writing, such as an agreement, which can still be changed before it is final."
-  ],
-  "earthshot-prize": [
-   "Earthshot Prize",
-   "words",
-   "A big prize for ideas that help the planet.",
-   "A prize for ideas that help the planet. At its main awards, five winners each receive 1 million British pounds."
   ],
   "electrification": [
    "electrification",
@@ -600,12 +531,6 @@
    "A senior member of a government who looks after one area, such as the environment.",
    "A senior member of a government who is in charge of one area of its work, such as the environment."
   ],
-  "mumbai": [
-   "Mumbai",
-   "places",
-   "A very big city in western India.",
-   "A very large city in western India, in the state of Maharashtra."
-  ],
   "novel": [
    "novel",
    "words",
@@ -638,11 +563,6 @@
   ]
  },
  "keys": {
-  "in-kids-earthshot": {
-   "type": "number",
-   "v": "15,000",
-   "l": "schools in 24 Indian states reached by the I CAN Earthshot Challenge"
-  },
   "in-akvan": {
    "type": "number",
    "v": "120",
@@ -680,17 +600,6 @@
   }
  },
  "xkeys": {
-  "in-kids-earthshot": {
-   "type": "check",
-   "q": "How many winning teams were the awards set to name?",
-   "a": [
-    "Five",
-    "Fifty"
-   ],
-   "c": 0,
-   "right": "Right! Five teams, one in each group.",
-   "wrong": "Not quite. The awards were set to name five teams, one in each group."
-  },
   "in-akvan": {
    "type": "check",
    "q": "What have fishermen been told to do?",
@@ -770,15 +679,6 @@
   }
  },
  "deep": {
-  "in-kids-earthshot": {
-   "ctx": "The I CAN Earthshot Challenge reached nearly one million students. The main awards due on Tuesday evening are the sixth Earthshot Prize Awards.",
-   "ask": "Is a contest with a few winners the best way to encourage children's ideas for the planet, or would it be better to support every team that takes part?",
-   "jobs": [
-    "Environmental engineer",
-    "Science teacher",
-    "Product designer (someone who invents and develops new products)"
-   ]
-  },
   "in-akvan": {
    "ctx": "At 5:30 am on Tuesday, Akvan was about 610 kilometres east of Chennai and 670 kilometres south-southeast of Visakhapatnam. It became a cyclonic storm on Monday, and Tuesday's forecast said gusts of up to 145 kilometres an hour are expected when it crosses the coast.",
    "ask": "Is it fair to ask families to leave their homes days before a storm arrives, when the forecast could still change?",

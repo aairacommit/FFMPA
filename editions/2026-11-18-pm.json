@@ -1,0 +1,1381 @@
+{
+ "schema": 1,
+ "date": "2026-11-18",
+ "edition": "pm",
+ "countries": [
+  "IN"
+ ],
+ "stories": [
+  {
+   "id": "g-voyager",
+   "scope": "global",
+   "cat": "space",
+   "emoji": "📡",
+   "date": "2026-11-18",
+   "kind": "news",
+   "x": {
+    "t": "Voyager 1 reaches one light-day from Earth",
+    "b": [
+     "NASA worked out that Voyager 1 would reach one [[light-day|light-day]] from Earth on Wednesday. It is the first spacecraft to get this far.",
+     "A light-day is a distance: how far light travels in one day. Now a radio [[signal|signal]] takes about a day to reach Voyager 1. Its reply takes another day to come back.",
+     "Another spacecraft, Voyager 2, is expected to get this far in 2035."
+    ]
+   },
+   "o": {
+    "t": "Voyager 1 is the first spacecraft to reach one light-day from Earth",
+    "b": [
+     "NASA worked out that its Voyager 1 spacecraft would reach one [[light-day|light-day]] from Earth on Wednesday 18 November. No human-made object has travelled this far before. Launched on 5 September 1977, it became the first spacecraft to enter [[interstellar|interstellar space]], the space between the stars, in 2012.",
+     "A light-day is a measure of distance, not time: how far light travels in 24 hours, about 25.9 billion kilometres. A radio [[signal|signal]] now takes about 24 hours, or one day, to reach Voyager 1, and its reply takes another day.",
+     "Voyager 1 is tracked by NASA's [[deep-space-network|Deep Space Network]], which has giant radio [[antenna|antennas]] in California, near Madrid in Spain and near Canberra in Australia. Most of its instruments have been switched off to save power. Voyager 2 is expected to reach one light-day in 2035."
+    ]
+   },
+   "think": "If a message took a whole day to arrive, what would you want to say in it, and why?",
+   "quiz": {
+    "q": "About how long does a radio signal now take to reach Voyager 1?",
+    "a": [
+     "About 8 minutes",
+     "About one hour",
+     "About one day",
+     "About one year"
+    ],
+    "c": 2
+   },
+   "src": [
+    [
+     "Space.com, 18 Nov",
+     "https://www.space.com/space-exploration/voyager/1-light-day-from-earth-nasas-voyager-1-probe-hits-huge-milestone-in-interstellar-space"
+    ],
+    [
+     "ABC News (Australia), 18 Nov",
+     "https://www.abc.net.au/news/science/2026-11-18/nasa-voyager-one-light-day-from-earth-milestone/107154162"
+    ],
+    [
+     "Forbes, 18 Nov",
+     "https://www.forbes.com/sites/jamiecartereurope/2026/11/18/nasas-voyager-1-makes-history-as-it-reaches-one-light-day-from-earth/"
+    ],
+    [
+     "ScienceAlert, 18 Nov",
+     "https://www.sciencealert.com/its-official-voyager-1-is-the-first-spacecraft-to-reach-one-light-day-from-earth"
+    ],
+    [
+     "EarthSky, 17 Nov",
+     "https://earthsky.org/space/voyager-1-1-light-day-from-earth-november-17-18-2026/"
+    ],
+    [
+     "NASA, 18 Nov",
+     "https://science.nasa.gov/mission/voyager/voyager-1/voyager-1-what-is-a-light-day/"
+    ],
+    [
+     "NASA, 16 Nov",
+     "https://science.nasa.gov/mission/voyager/voyager-1/"
+    ],
+    [
+     "NASA, 15 Oct",
+     "https://www.nasa.gov/communicating-with-missions/dsn/"
+    ]
+   ]
+  },
+  {
+   "id": "in-akvan",
+   "scope": "IN",
+   "cat": "nature",
+   "emoji": "🌀",
+   "date": "2026-11-18",
+   "kind": "news",
+   "x": {
+    "t": "Helpers stay ready as forecasters update storm Akvan's path",
+    "b": [
+     "Helpers in Odisha are moving some people to safer places before the [[cyclone|storm]] Akvan.",
+     "On Wednesday, [[imd|India's weather office]] gave a new forecast. Akvan is likely to cross the coast onto land around noon on Friday. Earlier forecasts said it would cross further south.",
+     "The newest forecast expects lower winds, but forecasts can change. Families can follow updates. Odisha has paused beach trips and boat rides in some places."
+    ]
+   },
+   "o": {
+    "t": "Akvan's expected crossing area moves north as helpers stand by",
+    "b": [
+     "Officials in Odisha have started moving people away from some places at risk of landslides, ahead of [[cyclone|Cyclone]] Akvan.",
+     "On Wednesday the [[imd|IMD]], India's weather office, said Akvan was likely to cross the coast between Narsapur in [[andhra-pradesh|Andhra Pradesh]] and Puri in Odisha by around noon on Friday 20 November. Earlier forecasts said it would cross further south. Akvan is now a severe cyclonic storm, the IMD's name for a stronger level of storm. The IMD's Wednesday update expects winds of 90 to 100 kilometres an hour as it crosses, lower than earlier forecasts. Some other forecasts on Wednesday were higher, and forecasts can still change.",
+     "Officials in Odisha ordered beach tourism, boating and water sports to be suspended, or paused, at some coastal spots. In Rayagada district, about 55 villages where landslides are likely have been identified so people can be moved before the storm."
+    ]
+   },
+   "think": "Why do you think forecasters keep updating their forecast as a storm moves?",
+   "quiz": {
+    "q": "On which day is Akvan likely to cross the coast?",
+    "a": [
+     "Wednesday",
+     "Thursday",
+     "Friday",
+     "Sunday"
+    ],
+    "c": 2
+   },
+   "src": [
+    [
+     "ETV Bharat, 18 Nov",
+     "https://www.etvbharat.com/en/bharat/severe-cyclone-akvan-changes-path-landfall-between-odisha-puri-andhra-pradesh-narsapur-november-20-noon-evacuation-underway-imd-rainfall-forecast-enn26111801569"
+    ],
+    [
+     "PTI via OrissaPOST, 18 Nov",
+     "https://www.orissapost.com/cyclone-akvan-may-cross-coast-between-andhras-narsapur-odishas-puri-november-20/"
+    ],
+    [
+     "The Hans India, 18 Nov",
+     "https://www.thehansindia.com/andhra-pradesh/ap-on-high-alert-ahead-of-cyclone-akvan-ap-home-minister-calls-for-vigilance-1143254"
+    ],
+    [
+     "India.com, 18 Nov",
+     "https://www.india.com/news/india/cyclone-akvan-storm-bay-of-bengal-andhra-pradesh-odisha-nellore-visakhapatnam-ndrf-fishermen-schools-closed-mohan-charan-majhi-8545833/"
+    ]
+   ]
+  },
+  {
+   "id": "in-earthshot",
+   "scope": "IN",
+   "cat": "planet",
+   "emoji": "🛺",
+   "date": "2026-11-17",
+   "kind": "news",
+   "x": {
+    "t": "Indian electric rickshaw company wins an Earthshot Prize",
+    "b": [
+     "Five winners of the [[earthshot-prize|Earthshot Prize]] were named in [[mumbai|Mumbai]], India, on Tuesday.",
+     "One winner is from India: Mahindra Last Mile Mobility. It makes [[electric-three-wheeler|electric three-wheelers]]. These can help cut air pollution, or dirty air, on roads.",
+     "Each winner will get £1 million, which is one million pounds."
+    ]
+   },
+   "o": {
+    "t": "Indian electric three-wheeler company among Earthshot winners",
+    "b": [
+     "Five winners of the 2026 [[earthshot-prize|Earthshot Prize]], an environmental prize founded by Prince William, were named at an Awards Night in [[mumbai|Mumbai]], India, on Tuesday 17 November.",
+     "One winner is Indian: Mahindra Last Mile Mobility, which won in the Clean Our Air category, one of the prize's groups of awards. It makes [[electric-three-wheeler|electric three-wheelers]], also called electric rickshaws. Electric three-wheelers can help reduce air pollution, or dirty air, on roads.",
+     "The other four winners are the country of Bhutan; PFAS-Free France, a national campaign against PFAS, chemicals used in everyday products and often called \"forever chemicals\", which helped secure a landmark law there; Niue Ocean Wide Trust; and Ørsted. Each of the five winners will receive £1 million, or one million British pounds."
+    ]
+   },
+   "think": "One of the winners is a whole country, Bhutan. Why might a prize for the planet go to a whole country, and not just to one person or company?",
+   "quiz": {
+    "q": "How much money will each Earthshot Prize winner get?",
+    "a": [
+     "£1,000",
+     "£1 million",
+     "£5 million",
+     "£100 million"
+    ],
+    "c": 1
+   },
+   "src": [
+    [
+     "The Earthshot Prize, 17 Nov",
+     "https://earthshotprize.org/mumbai2026/"
+    ],
+    [
+     "BBC via Yahoo News, 17 Nov",
+     "https://www.yahoo.com/news/world/articles/william-kate-celebrate-earthshot-prize-172527660.html"
+    ],
+    [
+     "Open Magazine, 16 Nov",
+     "https://openthemagazine.com/world/prince-william-hails-indias-climate-leadership-at-earthshot-prize"
+    ],
+    [
+     "The Earthshot Prize, 17 Nov",
+     "https://earthshotprize.org/news/2026-earthshot-prize-winners-crowned/"
+    ]
+   ]
+  },
+  {
+   "id": "in-saff-final",
+   "scope": "IN",
+   "cat": "sports",
+   "emoji": "⚽",
+   "date": "2026-11-17",
+   "kind": "news",
+   "x": {
+    "t": "India come from behind to win a record 10th SAFF title",
+    "b": [
+     "India's football team won the [[saff-championship|SAFF Championship]] on Tuesday. They beat Pakistan 2-1 in the final in [[dhaka|Dhaka]], Bangladesh.",
+     "Pakistan scored first. In the second half, Suhail Bhat scored for India. Sandip Mandi scored the winning goal late in the match.",
+     "India have now won this contest 10 times, more than any other team. It is also their third win in a row."
+    ]
+   },
+   "o": {
+    "t": "India beat Pakistan 2-1 to win a record 10th SAFF Championship",
+    "b": [
+     "India beat Pakistan 2-1 in the final of the [[saff-championship|SAFF Championship]], a football tournament, in [[dhaka|Dhaka]], Bangladesh, on Tuesday 17 November. It is India's 10th title in the competition, a record.",
+     "Pakistan took the lead through Alamgir Ghazi at the end of the first half, so India were 1-0 down at half-time. In the second half, Suhail Bhat scored the equaliser, the goal that made the score level at 1-1.",
+     "Also in the second half, Pakistan's Junaid Shah was sent off with a red card after a [[var|VAR]] review, for a challenge on India's Brison Fernandes. VAR is a system in which match officials watch video replays to check the referee's decisions. Pakistan finished the match with 10 players. Sandip Mandi scored the winning goal late in the match. It is India's third title in a row."
+    ]
+   },
+   "think": "India were losing at half-time but came back to win. What do you think helps a team keep trying when they are behind?",
+   "quiz": {
+    "q": "What was the score in the final?",
+    "a": [
+     "India 2, Pakistan 1",
+     "India 1, Pakistan 1",
+     "India 3, Pakistan 2",
+     "India 1, Pakistan 2"
+    ],
+    "c": 0
+   },
+   "src": [
+    [
+     "ESPN, 17 Nov",
+     "https://www.espn.com/soccer/story/_/id/50509628/india-pakistan-live-saff-cup-final-updates"
+    ],
+    [
+     "India TV News, 17 Nov",
+     "https://www.indiatvnews.com/sports/football/india-beat-pakistan-2-1-in-final-to-win-record-breaking-10th-saff-championship-title-2026-11-17-1059691"
+    ],
+    [
+     "Awaz-The Voice, 18 Nov",
+     "https://www.awazthevoice.in/sports-news/suhail-bhat-sandip-mandi-lead-india-to-beat-pakistan-to-lift-saff-crown-71015.html"
+    ],
+    [
+     "Khel Now, 18 Nov",
+     "https://khelnow.com/football/indian-football-saff-championship-2026-27-india-2-1-pakistan-key-takeaways"
+    ]
+   ]
+  },
+  {
+   "id": "g-word-of-year",
+   "scope": "global",
+   "cat": "culture",
+   "emoji": "📖",
+   "date": "2026-11-18",
+   "kind": "news",
+   "x": {
+    "t": "Cambridge Dictionary picks \"human\" as its word of the year",
+    "b": [
+     "Cambridge Dictionary has picked \"human\" as its 2026 Word of the Year.",
+     "The dictionary says human means having the qualities, faults and feelings people have. It says this sets people apart from gods, animals or machines.",
+     "It chose the word because of a debate about [[ai|AI]]. AI can make it hard to tell people and machines apart. A [[lexicographer|dictionary writer]] said AI is changing how we talk about being human."
+    ]
+   },
+   "o": {
+    "t": "Cambridge Dictionary names \"human\" its Word of the Year 2026",
+    "b": [
+     "Cambridge Dictionary has named \"human\" its Word of the Year 2026. It announced the choice on Wednesday 18 November. The dictionary defines human as \"having the qualities, faults and feelings that people have, as opposed to gods, animals or machines.\"",
+     "The dictionary said it chose the word because of debate about [[ai|artificial intelligence]], or AI, the ability of computers and other machines to do things thought to need intelligence, such as understanding spoken language or making decisions. There is a lot of debate about how AI is blurring the line between people and machines.",
+     "Colin McIntosh is a [[lexicographer|lexicographer]], a person who writes dictionaries, at Cambridge Dictionary. He said: \"AI is changing how we talk about being human.\""
+    ]
+   },
+   "think": "What do you think people can do that machines cannot?",
+   "quiz": {
+    "q": "Which word did Cambridge Dictionary pick as its Word of the Year 2026?",
+    "a": [
+     "Human",
+     "Machine",
+     "Robot",
+     "Feeling"
+    ],
+    "c": 0
+   },
+   "src": [
+    [
+     "CNN via Yahoo News, 18 Nov",
+     "https://www.yahoo.com/news/world/articles/human-revealed-cambridge-dictionary-word-000115480.html"
+    ],
+    [
+     "Euronews, 18 Nov",
+     "https://www.euronews.com/2026/11/18/human-cambridge-dictionarys-word-of-the-year-2026-tackles-ongoing-ai-fears"
+    ],
+    [
+     "Cambridge Dictionary, 18 Nov",
+     "https://dictionaryblog.cambridge.org/2026/11/18/word-of-the-year-2026/"
+    ],
+    [
+     "University of Cambridge, 15 Nov 2023",
+     "https://www.cam.ac.uk/research/news/cambridge-dictionary-names-hallucinate-word-of-the-year-2023"
+    ]
+   ]
+  },
+  {
+   "id": "in-grap",
+   "scope": "IN",
+   "cat": "civics",
+   "emoji": "🌫️",
+   "date": "2026-11-18",
+   "kind": "news",
+   "x": {
+    "t": "Delhi lifts some air pollution rules as the air gets better",
+    "b": [
+     "Delhi has a plan for air pollution, called [[grap|GRAP]]. Its rules come in stages. The air got better, so the Stage 3 rules have ended. The rules from Stages 1 and 2 stay in place.",
+     "Schools in Delhi can go back to regular classes. Building work that makes dust is still limited.",
+     "Forecasters say the cleaner air may not last."
+    ]
+   },
+   "o": {
+    "t": "Delhi lifts Stage III air rules, but other limits stay in place",
+    "b": [
+     "The [[caqm|Commission for Air Quality Management]] (CAQM), the body that gives orders under Delhi's air pollution plan, has lifted Stage III of the [[grap|Graded Response Action Plan]] (GRAP). Graded means set out in steps, and GRAP's rules come in stages. Stage III was lifted because the air in Delhi got better.",
+     "Rules under Stages I and II stay in force. Curbs, or limits, on construction and demolition work that raises dust also continue. Demolition means knocking buildings down. Delhi's schools can go back to regular classes.",
+     "So the plan works in steps: this time, better air meant one stage of rules could be lifted while the earlier stages stayed. But forecasters say the cleaner air may not last."
+    ]
+   },
+   "think": "Why might a city have different levels of rules for air pollution, instead of one set of rules all the time?",
+   "quiz": {
+    "q": "What can Delhi's schools do now?",
+    "a": [
+     "Close for a month",
+     "Hold classes only online",
+     "Move to another city",
+     "Go back to regular classes"
+    ],
+    "c": 3
+   },
+   "src": [
+    [
+     "Business Standard, 18 Nov",
+     "https://www.business-standard.com/india-news/grap-iii-restrictions-revoked-as-delhi-aqi-falls-to-214-schools-reopen-126111800135_1.html"
+    ],
+    [
+     "The Quint, 18 Nov",
+     "https://www.thequint.com/news/breaking-news/delhi-grap-stage-three-revoked-aqi-improves"
+    ]
+   ]
+  },
+  {
+   "id": "g-norway-comeback",
+   "scope": "global",
+   "cat": "sports",
+   "emoji": "⚽",
+   "date": "2026-11-17",
+   "kind": "news",
+   "x": {
+    "t": "Norway come back from 2-0 down to beat Denmark",
+    "b": [
+     "Norway beat Denmark 3-2 in a football match on Tuesday. At first, Denmark were winning 2-0.",
+     "[[haaland|Erling Haaland]] scored for Norway before half-time. Then Martin Ødegaard made it 2-2 late on.",
+     "In the last seconds, a video check found a handball by Denmark. Norway got a [[penalty|penalty]], and Haaland scored it. Norway are now in the quarter-finals. The draw for that round is on Friday."
+    ]
+   },
+   "o": {
+    "t": "Norway beat Denmark 3-2 with Haaland's last-second penalty",
+    "b": [
+     "Norway came back from 2-0 down to beat Denmark 3-2 in the [[nations-league|UEFA Nations League]], a competition between the national teams of Europe, on Tuesday 17 November. The win sends Norway into the quarter-finals.",
+     "Rasmus Højlund and Pierre-Emile Højbjerg scored Denmark's goals. [[haaland|Erling Haaland]] scored for Norway before half-time, and Martin Ødegaard scored late on to make it 2-2.",
+     "The winning [[penalty|penalty]], a free shot at goal, came in the last seconds of stoppage time, the minutes added on at the end of a match. It was given for a handball by Denmark's Joachim Andersen, after a [[var|VAR]] review, a video check of the referee's decision. Haaland scored it. The draw for the quarter-finals, which decides who plays whom, is on Friday."
+    ]
+   },
+   "think": "A penalty in the last seconds decided this match. How do you think players stay calm when the whole game depends on one kick?",
+   "quiz": {
+    "q": "Who scored Norway's winning penalty?",
+    "a": [
+     "Martin Ødegaard",
+     "Rasmus Højlund",
+     "Joachim Andersen",
+     "Erling Haaland"
+    ],
+    "c": 3
+   },
+   "src": [
+    [
+     "ESPN, 17 Nov",
+     "https://www.espn.com/soccer/story/_/id/50513761/erling-haaland-sends-norway-nations-league-quarterfinals"
+    ],
+    [
+     "BBC via Yahoo Sports, 17 Nov",
+     "https://sports.yahoo.com/articles/haalands-last-second-penalty-sends-220921675.html"
+    ],
+    [
+     "beIN Sports, 17 Nov",
+     "https://www.beinsports.com/en-us/soccer/uefa-nations-league/articles/denmark-2-3-norway-haaland-completes-comeback-to-book-quarter-final-spot-2026-11-17"
+    ],
+    [
+     "UEFA, 16 Nov",
+     "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-a/"
+    ]
+   ]
+  },
+  {
+   "id": "g-nvidia",
+   "scope": "global",
+   "cat": "business",
+   "emoji": "💻",
+   "date": "2026-11-17",
+   "kind": "news",
+   "x": {
+    "t": "AI chip maker Nvidia's sales more than double",
+    "b": [
+     "Nvidia is a company that makes computer chips used for [[ai|AI]]. On Tuesday, it said how much it sold in three months.",
+     "Its sales came to $115.8 billion. That is more than double the year before. Most of the money came from chips for data centres, buildings full of computers.",
+     "Nvidia forecast sales of about $130 billion for the next three months."
+    ]
+   },
+   "o": {
+    "t": "Nvidia's sales more than double to $115.8 billion",
+    "b": [
+     "Nvidia, a company that makes computer chips used for [[ai|artificial intelligence]] (AI), released its results on Tuesday 17 November. They cover the [[quarter|quarter]], or three months, that ended on 25 October 2026.",
+     "Nvidia's [[revenue|revenue]], the money it gets from sales, was $115.8 billion. That is up 103 per cent from a year earlier, which means it more than doubled. Most of it, $107.6 billion, came from Nvidia's Data Center business, which sells chips for data centres, buildings full of powerful computers.",
+     "Nvidia forecast revenue of about $130 billion for the next quarter. A forecast is a best guess, so the real figure could turn out higher or lower."
+    ]
+   },
+   "think": "Nvidia told everyone how much it expects to sell in the next three months. Why do you think a company shares a forecast like this?",
+   "quiz": {
+    "q": "How much did Nvidia sell in the three months to 25 October?",
+    "a": [
+     "$1.5 billion",
+     "$115.8 billion",
+     "$5 billion",
+     "$1,000 billion"
+    ],
+    "c": 1
+   },
+   "src": [
+    [
+     "Nvidia via SEC, 17 Nov",
+     "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000088/q3fy27pr.htm"
+    ],
+    [
+     "Yahoo Finance, 17 Nov",
+     "https://finance.yahoo.com/technology/live/nvidia-earnings-live-nvidia-posts-q3-beat-board-says-it-will-not-reinstate-jensen-huang-as-ceo-221428433.html"
+    ],
+    [
+     "Kiplinger, 17 Nov",
+     "https://www.kiplinger.com/news/live/nvidia-earnings-live-updates-and-commentary-november-2026"
+    ]
+   ]
+  }
+ ],
+ "glossary": {
+  "signal": [
+   "signal",
+   "words",
+   "Something, such as a sound or a radio message, that carries information from one place to another.",
+   "Something sent to carry information or a message from one place to another, for example by radio. A radio signal sent from Earth now takes about 24 hours to reach Voyager 1."
+  ],
+  "antenna": [
+   "antenna",
+   "tech",
+   "A device, such as a metal rod or wire, that sends out or picks up radio waves.",
+   "A device, usually made of metal, for sending out or receiving radio waves. NASA's Deep Space Network is made up of giant radio antennas."
+  ],
+  "light-day": [
+   "light-day",
+   "science",
+   "How far light travels in one whole day. It is a very long way.",
+   "A unit of distance: how far light travels in 24 hours, about 25.9 billion kilometres."
+  ],
+  "interstellar": [
+   "interstellar space",
+   "science",
+   "The space between the stars.",
+   "The space between the stars. Voyager 1 became the first spacecraft to enter it, in 2012."
+  ],
+  "deep-space-network": [
+   "Deep Space Network",
+   "tech",
+   "NASA's big antennas that keep track of faraway spacecraft.",
+   "NASA's network of giant radio antennas, with sites in California, near Madrid in Spain and near Canberra in Australia. It keeps track of Voyager 1."
+  ],
+  "ai": [
+   "AI",
+   "tech",
+   "Artificial intelligence: computer programs that can learn and make choices.",
+   "Artificial intelligence: the ability of computers and other machines to do things thought to need intelligence, such as understanding spoken language or making decisions."
+  ],
+  "lexicographer": [
+   "lexicographer",
+   "words",
+   "A person who writes dictionaries.",
+   "A person who writes and works on dictionaries. Colin McIntosh is a lexicographer at Cambridge Dictionary."
+  ],
+  "haaland": [
+   "Erling Haaland",
+   "people",
+   "A footballer who plays for Norway.",
+   "A footballer who plays for Norway's national team. He scored twice when Norway beat Denmark 3-2 on 17 November 2026."
+  ],
+  "penalty": [
+   "penalty",
+   "words",
+   "A free shot at goal in football, with only the goalkeeper in the way.",
+   "In football, a free shot at goal with only the goalkeeper to beat."
+  ],
+  "nations-league": [
+   "Nations League",
+   "words",
+   "A football contest between teams from Europe.",
+   "The UEFA Nations League, a competition between the national teams of Europe."
+  ],
+  "var": [
+   "VAR",
+   "tech",
+   "Video replays that match officials watch to check the referee's decisions in a football match.",
+   "Video assistant referee: a system in which match officials watch video replays to check the referee's decisions."
+  ],
+  "revenue": [
+   "revenue",
+   "words",
+   "The money a company gets, mostly from selling things.",
+   "The money a company takes in, mostly from selling its products."
+  ],
+  "quarter": [
+   "quarter",
+   "words",
+   "Three months, or a quarter of a year.",
+   "In business, a period of three months, or one quarter of a year."
+  ],
+  "andhra-pradesh": [
+   "Andhra Pradesh",
+   "places",
+   "A state in India. Part of it is on the coast.",
+   "A state in India. Akvan is likely to cross the coast somewhere between Narsapur in Andhra Pradesh and Puri in Odisha."
+  ],
+  "cyclone": [
+   "cyclone",
+   "science",
+   "A big storm that forms over the sea, with strong winds and rain.",
+   "A large storm that forms over the sea, with strong winds and heavy rain. India's weather office uses names such as severe cyclonic storm for stronger levels."
+  ],
+  "imd": [
+   "IMD",
+   "civics",
+   "India's weather office. It watches storms and gives forecasts.",
+   "The India Meteorological Department, India's weather office. It tracks storms and gives forecasts and alerts."
+  ],
+  "saff-championship": [
+   "SAFF Championship",
+   "words",
+   "A football contest between national teams. India have won it 10 times, a record.",
+   "A football tournament between national teams. India have won the title 10 times, a record."
+  ],
+  "dhaka": [
+   "Dhaka",
+   "places",
+   "A city in Bangladesh.",
+   "A city in Bangladesh, where the 2026 SAFF Championship final was played."
+  ],
+  "grap": [
+   "GRAP",
+   "civics",
+   "Delhi's plan for air pollution. Its rules come in stages.",
+   "The Graded Response Action Plan, Delhi's plan of anti-pollution rules set out in stages."
+  ],
+  "caqm": [
+   "CAQM",
+   "civics",
+   "The group that gives orders under Delhi's air pollution plan.",
+   "The Commission for Air Quality Management, the body that gives orders under GRAP, including lifting a stage."
+  ],
+  "earthshot-prize": [
+   "Earthshot Prize",
+   "civics",
+   "A prize founded by Prince William. In 2026 it had five winners.",
+   "A prize founded by Prince William. In 2026 it had five winners, and each won £1 million."
+  ],
+  "mumbai": [
+   "Mumbai",
+   "places",
+   "A city in India.",
+   "A city in India, where the 2026 Earthshot Prize winners were named."
+  ],
+  "electric-three-wheeler": [
+   "electric three-wheeler",
+   "tech",
+   "A small vehicle with three wheels that runs on electricity. It is also called an electric rickshaw.",
+   "A three-wheeled vehicle powered by electricity, also called an electric rickshaw. It can help reduce air pollution on roads."
+  ],
+  "jpl": [
+   "Jet Propulsion Laboratory",
+   "places",
+   "A NASA centre in California. The Voyager 1 mission is run from there.",
+   "A NASA laboratory in California. The Voyager mission is run from there."
+  ]
+ },
+ "keys": {
+  "g-voyager": {
+   "type": "number",
+   "v": "24",
+   "l": "hours for a radio signal from Earth to reach Voyager 1, one way"
+  },
+  "in-akvan": {
+   "type": "number",
+   "v": "20",
+   "l": "November: the day Akvan is likely to cross the coast, around noon"
+  },
+  "in-earthshot": {
+   "type": "number",
+   "v": "£1 million",
+   "l": "prize money for each of the five 2026 Earthshot Prize winners"
+  },
+  "in-saff-final": {
+   "type": "number",
+   "v": "10",
+   "l": "SAFF Championship titles India have won, a record"
+  },
+  "g-nvidia": {
+   "type": "number",
+   "v": "$115.8 billion",
+   "l": "Nvidia's revenue, or money from sales, in the three months to 25 October 2026"
+  },
+  "g-norway-comeback": {
+   "type": "number",
+   "v": "3-2",
+   "l": "Norway's win over Denmark on 17 November, after being 2-0 down"
+  }
+ },
+ "xkeys": {
+  "g-voyager": {
+   "type": "check",
+   "q": "How long does Voyager 1's reply take to come back?",
+   "a": [
+    "About one day",
+    "About one minute"
+   ],
+   "c": 0,
+   "right": "Right! A message takes about a day to get there, and the reply takes another day.",
+   "wrong": "Not quite. A message takes about a day to get there, and the reply takes another day."
+  },
+  "in-akvan": {
+   "type": "check",
+   "q": "Is Akvan now likely to cross the coast further north or further south than earlier forecasts said?",
+   "a": [
+    "Further north",
+    "Further south"
+   ],
+   "c": 0,
+   "right": "Right! Earlier forecasts said it would cross further south, so the new forecast is further north.",
+   "wrong": "Not quite. Earlier forecasts said it would cross further south, so the new forecast is further north."
+  },
+  "in-earthshot": {
+   "type": "check",
+   "q": "What does the winner from India make?",
+   "a": [
+    "Sailing boats",
+    "Electric three-wheelers"
+   ],
+   "c": 1,
+   "right": "Right! Mahindra Last Mile Mobility makes electric three-wheelers.",
+   "wrong": "Not quite. Mahindra Last Mile Mobility makes electric three-wheelers."
+  },
+  "in-saff-final": {
+   "type": "check",
+   "q": "Which team scored first in the final?",
+   "a": [
+    "India",
+    "Pakistan"
+   ],
+   "c": 1,
+   "right": "Right! Pakistan scored first, then India scored twice in the second half.",
+   "wrong": "Not quite. Pakistan scored first, then India scored twice in the second half."
+  },
+  "g-word-of-year": {
+   "type": "check",
+   "q": "What are people debating, so the dictionary chose the word human?",
+   "a": [
+    "The weather",
+    "AI"
+   ],
+   "c": 1,
+   "right": "Right! People are debating how AI is blurring the line between people and machines.",
+   "wrong": "Not quite. People are debating how AI is blurring the line between people and machines."
+  },
+  "in-grap": {
+   "type": "check",
+   "q": "Can Delhi's schools go back to regular classes?",
+   "a": [
+    "No",
+    "Yes"
+   ],
+   "c": 1,
+   "right": "Right! Delhi's schools can go back to regular classes.",
+   "wrong": "Not quite. Delhi's schools can go back to regular classes."
+  },
+  "g-nvidia": {
+   "type": "check",
+   "q": "Did Nvidia sell more or less than the year before?",
+   "a": [
+    "Less",
+    "More"
+   ],
+   "c": 1,
+   "right": "Right! Its sales were more than double the year before.",
+   "wrong": "Not quite. Its sales were more than double the year before."
+  },
+  "g-norway-comeback": {
+   "type": "check",
+   "q": "Which team was winning 2-0 at first?",
+   "a": [
+    "Denmark",
+    "Norway"
+   ],
+   "c": 0,
+   "right": "Right! Denmark were 2-0 up, but Norway came back to win 3-2.",
+   "wrong": "Not quite. Denmark were 2-0 up, but Norway came back to win 3-2."
+  }
+ },
+ "deep": {
+  "g-voyager": {
+   "ctx": "Voyager 2 was launched about two weeks before Voyager 1, and most of Voyager 1's science instruments have been switched off. Its nuclear power supply loses about 4 watts a year. In October 2026, contact with Voyager 1 was lost for about two days before it came back.",
+   "ask": "NASA tracks Voyager 1 with giant antennas in California, Spain and Australia. Should big space missions be shared between many countries, or is it simpler for one space agency to run them?",
+   "jobs": [
+    "Spacecraft engineer",
+    "Radio antenna technician",
+    "Space physicist (a scientist who studies space)"
+   ]
+  },
+  "in-akvan": {
+   "ctx": "Akvan is moving north-northwest over the Bay of Bengal. In Tamil Nadu, fishermen have been told to stay out of the sea.",
+   "ask": "Akvan's expected crossing area moved north in Wednesday's forecast. Some people find it clearer to hear only the newest forecast. Others trust forecasts more when they also hear how and why it changed. Which helps people more?",
+   "jobs": [
+    "Weather forecaster (meteorologist)",
+    "Disaster response team member",
+    "Science journalist"
+   ]
+  },
+  "in-earthshot": {
+   "ctx": "The Earthshot Prize was first held in 2020, and this year's awards were its sixth. The five winners were chosen from 15 finalists across five categories: Protect and Restore Nature, Clean Our Air, Revive Our Oceans, Build a Waste-free World and Fix Our Climate.",
+   "ask": "One winner, Mahindra Last Mile Mobility, is a company. Another, Bhutan, is a whole country. Should prizes for the planet go to companies and countries, or are they more useful for small groups and inventors with new ideas?",
+   "jobs": [
+    "Electric vehicle engineer",
+    "Environmental scientist",
+    "Rickshaw fleet manager"
+   ]
+  },
+  "in-saff-final": {
+   "ctx": "The final was Pakistan's first appearance in a SAFF Championship final. India's winning goal came from a corner taken by Abdul Rabeeh, which Mandi met with a header.",
+   "ask": "A VAR review of video replays came before the red card in this final. Do video replays make football fairer, or does stopping to check them take something away from the flow of a match?",
+   "jobs": [
+    "Video assistant referee (VAR) official",
+    "Sports physiotherapist",
+    "Football commentator"
+   ]
+  },
+  "g-word-of-year": {
+   "ctx": "In 2023, Cambridge Dictionary picked another word linked to AI: \"hallucinate\". In that meaning, when an AI hallucinates, it produces false information.",
+   "ask": "If a machine could do a task as well as a person, should people still do it themselves, or is it fine to let the machine do it?",
+   "jobs": [
+    "Lexicographer (a person who writes dictionaries)",
+    "AI researcher",
+    "Linguist (a person who studies language)"
+   ]
+  },
+  "in-grap": {
+   "ctx": "Air quality is measured using the Air Quality Index, or AQI, which puts readings into categories such as \"moderate\", \"poor\" and \"severe\". Government and private offices in Delhi must still have half of their staff working from home.",
+   "ask": "When the air gets cleaner, should strict pollution rules be lifted quickly so school and work can return to normal, or kept a little longer in case the air gets worse again?",
+   "jobs": [
+    "Air quality scientist",
+    "Environmental engineer",
+    "Public health officer"
+   ]
+  },
+  "g-nvidia": {
+   "ctx": "A year earlier, in the same three months, Nvidia's revenue was about $57 billion. Revenue from its Data Center business grew by 110 per cent compared with a year earlier.",
+   "ask": "Nvidia's sales of chips used for AI more than doubled in a year. Is spending this much on AI a good use of money, or should more go to other things?",
+   "jobs": [
+    "Computer chip designer",
+    "Financial analyst",
+    "Data centre technician"
+   ]
+  },
+  "g-norway-comeback": {
+   "ctx": "Denmark scored both of their goals in the first 15 minutes. Norway's win meant they finished second in Group A4.",
+   "ask": "Norway's winning penalty came in stoppage time, the minutes added on at the end of a match. Should referees add on time for every stoppage, even if matches get longer, or keep matches to a fixed length?",
+   "jobs": [
+    "Football referee",
+    "Sports journalist",
+    "Match video analyst"
+   ]
+  }
+ },
+ "today": {
+  "days": [
+   {
+    "name": "National Naturopathy Day",
+    "what": "India marks National Naturopathy Day on 18 November. The first one was held across India on 18 November 2018. This year's day focuses on research and on healthy habits such as a good diet, physical activity and yoga.",
+    "where": [
+     "IN"
+    ]
+   },
+   {
+    "name": "World AMR Awareness Week begins",
+    "what": "World AMR Awareness Week runs from 18 to 24 November every year. AMR stands for antimicrobial resistance. It happens when germs such as bacteria change so that medicines stop working against them."
+   }
+  ],
+  "born": [
+   {
+    "name": "Louis Daguerre",
+    "year": 1787,
+    "what": "A French artist and inventor, born near Paris. He first became known for painting scenery for the stage. He invented the daguerreotype, the first practical way of taking photographs, which was announced in 1839."
+   },
+   {
+    "name": "Alan Shepard",
+    "year": 1923,
+    "what": "An American astronaut, born in East Derry, New Hampshire. On 5 May 1961 he became the first American in space. In 1971 he commanded Apollo 14 and walked on the Moon."
+   }
+  ],
+  "week": "World AMR Awareness Week runs from 18 to 24 November. World Children's Day is on Friday 20 November."
+ },
+ "learn": {
+  "subject": "History",
+  "cat": "history",
+  "link": "On this day in 1883: the Day of Two Noons",
+  "x": {
+   "t": "Why do we have time zones?",
+   "b": [
+    "Long ago, each town set its clocks by the Sun. So nearby towns had different times.",
+    "That was hard for railways. Their timetables got very muddled.",
+    "In 1883, railways in the United States started using time zones. Places in the same zone could then share the same time."
+   ],
+   "remember": "A time zone is an area where everyone uses the same clock time.",
+   "q": "How did towns set their clocks long ago?",
+   "a": [
+    "By the Sun",
+    "By the radio"
+   ],
+   "c": 0
+  },
+  "o": {
+   "t": "Why do we have time zones?",
+   "b": [
+    "Before the 1880s, each town in the United States kept its own local time, based on the position of the Sun. Clocks in towns not far apart could show different times.",
+    "This made life hard for the railways, which had to run trains to timetables across many towns. On 18 November 1883, railways in the United States switched to a new system of standard time zones. Clocks were reset at noon, so some places had noon twice that day. It was called the Day of Two Noons.",
+    "In 1918, the United States Congress made standard time law in the Standard Time Act. Time zones still organise clocks today."
+   ],
+   "remember": "Time zones began with the railways: on 18 November 1883, railways in the United States switched to standard time.",
+   "q": "Why was 18 November 1883 called the Day of Two Noons?",
+   "a": [
+    "Some places had noon twice",
+    "The Sun rose twice",
+    "Trains ran twice as fast"
+   ],
+   "c": 0
+  }
+ },
+ "backThen": {
+  "y": 1963,
+  "t": "The first push-button telephone service begins",
+  "o": "On 18 November 1963, the Bell telephone company began offering the world's first commercial service for touch-tone telephones, which have push buttons instead of a dial. The service started with customers in Carnegie and Greensburg, in Pennsylvania in the United States.",
+  "x": "On this day in 1963, people could first pay for a phone service that used push buttons. Before that, phones had a dial. The first customers lived in two towns in the United States.",
+  "why": "Over the next few decades, push buttons replaced dials, and all of today's phones still use the touch-tone system to dial numbers."
+ },
+ "hiddenWords": [
+  {
+   "k": "signal",
+   "o": "Signal goes back to the Latin word signum, which means a mark or sign."
+  },
+  {
+   "k": "antenna",
+   "o": "Antenna comes from a Latin word for the sail yard, a long pole that sticks out from a ship's mast to hold a sail."
+  }
+ ],
+ "bigStory": {
+  "week": "2026-11-16",
+  "story": "g-voyager",
+  "cat": "space",
+  "t": "How far is one light-day from home?",
+  "sub": "Voyager 1, launched in 1977, reaches one light-day from Earth on Wednesday",
+  "x": {
+   "why": "A spacecraft that left Earth in 1977 is still travelling. This week it will be so far away that light needs a whole day to reach it."
+  },
+  "o": {
+   "why": "A spacecraft launched in 1977 is still travelling, and its team on Earth still talks to it. This week it reaches a distance so great that a radio signal, moving at the speed of light, needs 24 hours to get there."
+  },
+  "facts": [
+   [
+    "1977",
+    "the year Voyager 1 left Earth"
+   ],
+   [
+    "25.9 billion km",
+    "about one light-day: how far light travels in 24 hours"
+   ],
+   [
+    "24 hours",
+    "how long a radio signal from Earth now takes to reach it"
+   ],
+   [
+    "18 Nov",
+    "the day NASA says it reaches one light-day"
+   ]
+  ],
+  "days": [
+   {
+    "d": "2026-11-16",
+    "h": "Meet Voyager 1",
+    "o": "NASA launched Voyager 1 on 5 September 1977. It flew past Jupiter in 1979 and Saturn in 1980, and in 1990 it took a picture of Earth known as the Pale Blue Dot. In 2012 it entered interstellar space, the space between the stars. It is run from NASA's Jet Propulsion Laboratory in California.",
+    "x": "Voyager 1 is a spacecraft. It left Earth in 1977. It flew past the planets Jupiter and Saturn. In 1990 it took a picture of Earth from very far away."
+   },
+   {
+    "d": "2026-11-17",
+    "h": "How far is a light-day?",
+    "o": "A light-day is the distance light travels in 24 hours, about 25.9 billion kilometres. Light reaches the Moon in about 1.3 seconds, and sunlight takes about 8 minutes to reach Earth. After sunset today, Tuesday 17 November, NASA invites people to flash VGR, Voyager's three-letter call sign, in Morse code towards the sky with a torch.",
+    "x": "A light-day is how far light travels in one day. Sunlight reaches us in about 8 minutes. After sunset today, people can flash a torch for Voyager. Ask a grown-up to help."
+   },
+   {
+    "d": "2026-11-18",
+    "h": "The big day",
+    "o": "NASA worked out that Voyager 1 would reach one light-day from Earth on Wednesday 18 November. No spacecraft has travelled this far before. A radio signal now takes about 24 hours to reach it, and its reply takes another day to come back. Voyager 2 is expected to reach one light-day in 2035.",
+    "x": "On Wednesday, Voyager 1 reached one light-day from Earth. No spacecraft has gone this far before. A message now takes about a day to get there."
+   },
+   {
+    "d": "2026-11-19",
+    "h": "Phoning home",
+    "lock": "Thursday: how do you talk to a spacecraft when a signal takes a whole day to arrive?"
+   },
+   {
+    "d": "2026-11-20",
+    "h": "What comes next?",
+    "lock": "Friday: the week in one page, and where Voyager 1 goes from here."
+   }
+  ],
+  "words": [
+   "light-day",
+   "interstellar",
+   "jpl",
+   "deep-space-network"
+  ],
+  "poll": {
+   "q": "If you could add one thing to a message carried into space, what would it be?",
+   "a": [
+    [
+     "Music",
+     "A tune can be enjoyed without knowing the words."
+    ],
+    [
+     "Greetings in many languages",
+     "It would show how many peoples share one planet."
+    ],
+    [
+     "Pictures of animals and places",
+     "A picture can show what words cannot."
+    ],
+    [
+     "A map of where we are",
+     "So that whoever finds it knows where it came from."
+    ]
+   ]
+  },
+  "talk": "If you sent a message today that would be opened 49 years from now, what would you want the reader to know about your life?"
+ },
+ "puzzles": {
+  "week": "2026-11-16",
+  "sudoku": {
+   "x": {
+    "n": 4,
+    "br": 2,
+    "bc": 2,
+    "p": [
+     [
+      0,
+      1,
+      2,
+      0
+     ],
+     [
+      0,
+      0,
+      1,
+      0
+     ],
+     [
+      0,
+      0,
+      3,
+      0
+     ],
+     [
+      3,
+      2,
+      0,
+      1
+     ]
+    ],
+    "s": [
+     [
+      4,
+      1,
+      2,
+      3
+     ],
+     [
+      2,
+      3,
+      1,
+      4
+     ],
+     [
+      1,
+      4,
+      3,
+      2
+     ],
+     [
+      3,
+      2,
+      4,
+      1
+     ]
+    ]
+   },
+   "o": {
+    "n": 6,
+    "br": 2,
+    "bc": 3,
+    "p": [
+     [
+      0,
+      1,
+      0,
+      2,
+      0,
+      0
+     ],
+     [
+      3,
+      6,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      6,
+      5,
+      3,
+      0,
+      4,
+      2
+     ],
+     [
+      0,
+      4,
+      1,
+      0,
+      0,
+      6
+     ],
+     [
+      0,
+      0,
+      0,
+      6,
+      0,
+      4
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+     ]
+    ],
+    "s": [
+     [
+      5,
+      1,
+      4,
+      2,
+      6,
+      3
+     ],
+     [
+      3,
+      6,
+      2,
+      4,
+      5,
+      1
+     ],
+     [
+      6,
+      5,
+      3,
+      1,
+      4,
+      2
+     ],
+     [
+      2,
+      4,
+      1,
+      5,
+      3,
+      6
+     ],
+     [
+      1,
+      3,
+      5,
+      6,
+      2,
+      4
+     ],
+     [
+      4,
+      2,
+      6,
+      3,
+      1,
+      5
+     ]
+    ]
+   },
+   "n": {
+    "n": 9,
+    "br": 3,
+    "bc": 3,
+    "p": [
+     [
+      2,
+      0,
+      0,
+      3,
+      4,
+      0,
+      0,
+      7,
+      9
+     ],
+     [
+      9,
+      0,
+      6,
+      1,
+      0,
+      0,
+      3,
+      4,
+      5
+     ],
+     [
+      0,
+      3,
+      0,
+      9,
+      6,
+      5,
+      0,
+      1,
+      0
+     ],
+     [
+      8,
+      0,
+      0,
+      4,
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      7,
+      9,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      7,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      9,
+      2,
+      0,
+      3,
+      7,
+      0,
+      0,
+      0
+     ],
+     [
+      5,
+      0,
+      0,
+      2,
+      8,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      5,
+      0,
+      1,
+      0,
+      0,
+      3
+     ]
+    ],
+    "s": [
+     [
+      2,
+      5,
+      1,
+      3,
+      4,
+      8,
+      6,
+      7,
+      9
+     ],
+     [
+      9,
+      8,
+      6,
+      1,
+      7,
+      2,
+      3,
+      4,
+      5
+     ],
+     [
+      7,
+      3,
+      4,
+      9,
+      6,
+      5,
+      8,
+      1,
+      2
+     ],
+     [
+      8,
+      2,
+      7,
+      4,
+      1,
+      9,
+      5,
+      3,
+      6
+     ],
+     [
+      3,
+      4,
+      5,
+      8,
+      2,
+      6,
+      7,
+      9,
+      1
+     ],
+     [
+      1,
+      6,
+      9,
+      7,
+      5,
+      3,
+      2,
+      8,
+      4
+     ],
+     [
+      4,
+      9,
+      2,
+      6,
+      3,
+      7,
+      1,
+      5,
+      8
+     ],
+     [
+      5,
+      1,
+      3,
+      2,
+      8,
+      4,
+      9,
+      6,
+      7
+     ],
+     [
+      6,
+      7,
+      8,
+      5,
+      9,
+      1,
+      4,
+      2,
+      3
+     ]
+    ]
+   }
+  },
+  "words": {
+   "o": [
+    [
+     "VOYAGER",
+     "A spacecraft launched in 1977"
+    ],
+    [
+     "EARTHSHOT",
+     "A prize for ideas that help the planet"
+    ],
+    [
+     "ORBIT",
+     "The path an object follows around a planet, moon or star"
+    ],
+    [
+     "EMBLEM",
+     "ASEAN's now shows 11 rice stalks"
+    ],
+    [
+     "MINISTER",
+     "A senior member of a government"
+    ]
+   ],
+   "x": [
+    [
+     "LIGHT",
+     "From Wednesday, it needs a whole day to reach Voyager 1"
+    ],
+    [
+     "MUSEUM",
+     "A place that keeps and shows interesting and important things"
+    ],
+    [
+     "FLAG",
+     "ASEAN's has one more rice stalk"
+    ],
+    [
+     "PRIZE",
+     "Five winners get one in Mumbai this week"
+    ],
+    [
+     "TENNIS",
+     "Mirra Andreeva's sport"
+    ]
+   ]
+  }
+ },
+ "reporters": {
+  "week": "2026-11-16",
+  "t": "Report one thing that changed in your street or school this week",
+  "why": "Monday 16 November was National Press Day in India, and World Children's Day is on Friday 20 November. Good reporters check what they hear with more than one person.",
+  "tips": [
+   "What changed?",
+   "Who told you, and who else can confirm it?",
+   "Where and when did it happen?"
+  ],
+  "sample": []
+ }
+}

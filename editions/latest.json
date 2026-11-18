@@ -85,7 +85,7 @@
    "x": {
     "t": "Helpers stay ready as forecasters update storm Akvan's path",
     "b": [
-     "National rescue teams in [[andhra-pradesh|Andhra Pradesh]] are ready for the [[cyclone|cyclone]] Akvan.",
+     "Before the [[cyclone|storm]] Akvan, helpers in Odisha are moving people away from places with landslide risk.",
      "On Wednesday, [[imd|India's weather office]] gave a new forecast. Akvan is likely to cross the coast onto land around noon on Friday. Earlier forecasts said it would cross further south.",
      "The newest forecast expects lower winds, but forecasts can change. Families can follow updates. Odisha has paused beach trips and boat rides in some places."
     ]
@@ -93,8 +93,8 @@
    "o": {
     "t": "Akvan's expected crossing area moves north as helpers stand by",
     "b": [
-     "[[andhra-pradesh|Andhra Pradesh]] has national disaster response teams, called [[ndrf|NDRF]] teams, ready for [[cyclone|Cyclone]] Akvan.",
-     "On Wednesday the [[imd|IMD]], India's weather office, said Akvan was likely to cross the coast between Narsapur in Andhra Pradesh and Puri in Odisha by around noon on Friday 20 November. Earlier forecasts said it would cross further south. Akvan is now a severe cyclonic storm, the IMD's name for a stronger level of storm. The IMD's Wednesday update expects winds of 90 to 100 kilometres an hour as it crosses, lower than earlier forecasts. Some other forecasts on Wednesday were higher, and forecasts can still change.",
+     "Officials in Odisha have started moving people away from some places at risk of landslides, ahead of [[cyclone|Cyclone]] Akvan.",
+     "On Wednesday the [[imd|IMD]], India's weather office, said Akvan was likely to cross the coast between Narsapur in [[andhra-pradesh|Andhra Pradesh]] and Puri in Odisha by around noon on Friday 20 November. Earlier forecasts said it would cross further south. Akvan is now a severe cyclonic storm, the IMD's name for a stronger level of storm. The IMD's Wednesday update expects winds of 90 to 100 kilometres an hour as it crosses, lower than earlier forecasts. Some other forecasts on Wednesday were higher, and forecasts can still change.",
      "Officials in Odisha ordered beach tourism, boating and water sports to be suspended, or paused, at some coastal spots. In Rayagada district, about 55 villages where landslides are likely have been identified so people can be moved before the storm."
     ]
    },
@@ -117,10 +117,6 @@
     [
      "PTI via OrissaPOST, 18 Nov",
      "https://www.orissapost.com/cyclone-akvan-may-cross-coast-between-andhras-narsapur-odishas-puri-november-20/"
-    ],
-    [
-     "Odisha TV, 18 Nov",
-     "https://odishatv.in/weather/cyclone-akvan-live-update-odisha-on-alert-as-storm-likely-to-cross-state-after-andhra-landfall-12818804"
     ],
     [
      "The Hans India, 18 Nov",
@@ -152,7 +148,7 @@
     "b": [
      "Five winners of the 2026 [[earthshot-prize|Earthshot Prize]], an environmental prize founded by Prince William, were named at an Awards Night in [[mumbai|Mumbai]], India, on Tuesday 17 November.",
      "One winner is Indian: Mahindra Last Mile Mobility, which won in the Clean Our Air category, one of the prize's groups of awards. It makes [[electric-three-wheeler|electric three-wheelers]], also called electric rickshaws. Electric three-wheelers can help reduce air pollution, or dirty air, on roads.",
-     "The other four winners are the country of Bhutan; PFAS-Free France, a national campaign against PFAS, harmful chemicals used in everyday products and often called \"forever chemicals\", which helped secure a landmark law there; Niue Ocean Wide Trust; and Ørsted. Each of the five winners will receive £1 million, or one million British pounds."
+     "The other four winners are the country of Bhutan; PFAS-Free France, a national campaign against PFAS, chemicals used in everyday products and often called \"forever chemicals\", which helped secure a landmark law there; Niue Ocean Wide Trust; and Ørsted. Each of the five winners will receive £1 million, or one million British pounds."
     ]
    },
    "think": "One of the winners is a whole country, Bhutan. Why might a prize for the planet go to a whole country, and not just to one person or company?",
@@ -536,12 +532,6 @@
    "India's weather office. It watches storms and gives forecasts.",
    "The India Meteorological Department, India's weather office. It tracks storms and gives forecasts and alerts."
   ],
-  "ndrf": [
-   "NDRF",
-   "civics",
-   "India's national disaster response teams. They help when disasters happen.",
-   "India's national disaster response teams. They are sent to help when disasters such as big storms happen."
-  ],
   "saff-championship": [
    "SAFF Championship",
    "words",
@@ -724,7 +714,7 @@
    ]
   },
   "in-akvan": {
-   "ctx": "Akvan is moving north-northwest, and the IMD has issued an orange cyclone alert for the coasts of north Andhra Pradesh, Yanam and south Odisha. In Tamil Nadu, fishermen have been told to stay out of the sea.",
+   "ctx": "Akvan is moving north-northwest over the Bay of Bengal. In Tamil Nadu, fishermen have been told to stay out of the sea.",
    "ask": "Akvan's expected crossing area moved north in Wednesday's forecast. Some people find it clearer to hear only the newest forecast. Others trust forecasts more when they also hear how and why it changed. Which helps people more?",
    "jobs": [
     "Weather forecaster (meteorologist)",

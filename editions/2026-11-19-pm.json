@@ -841,7 +841,7 @@
    ]
   },
   "g-stonefly": {
-   "ctx": "The stonefly belongs to a family of stoneflies called Gripopterygidae, in the insect order Plecoptera. The Patagonian dragon, which the team was looking for, is also a stonefly and lives on glaciers in Patagonia. The new stonefly was found beside the glacier's remains, and scientists say it could be at risk if the glacier keeps shrinking.",
+   "ctx": "The stonefly belongs to a family of stoneflies called Gripopterygidae, in the insect order Plecoptera. The Patagonian dragon, which the team was looking for, is an insect that lives on glaciers in Patagonia. The new stonefly was found beside the glacier's remains, and scientists say it could be at risk if the glacier keeps shrinking.",
    "ask": "This stonefly was found beside a glacier that is shrinking. Some people think scientists should hurry to find and name species in places that are changing fast. Others think slow, careful study matters more, even if it takes years. Which matters more?",
    "jobs": [
     "Entomologist (a scientist who studies insects)",
@@ -850,7 +850,7 @@
    ]
   },
   "in-iffi": {
-   "ctx": "The festival director gave the full count as 159 films from 86 countries. The opening film, \"Fatherland\", is by the Polish film-maker Pawel Pawlikowski. The International Competition jury has five members.",
+   "ctx": "In all, 159 films from 86 countries will be shown. The opening film, \"Fatherland\", is by the Polish film-maker Pawel Pawlikowski. The International Competition jury has five members.",
    "ask": "Each year IFFI picks a Country of Honour and a Partner Country. Should a festival try to show films from as many countries as possible, or show more films from a few chosen countries so audiences get to know them well?",
    "jobs": [
     "Film director",

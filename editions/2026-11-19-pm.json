@@ -17,7 +17,7 @@
     "t": "More than 100,000 people move to safety before storm Akvan",
     "b": [
      "Helpers in Odisha have now moved more than 100,000 people to safety. They are staying in [[shelter|shelters]], safe buildings for storms.",
-     "The [[cyclone|storm]] Akvan is likely to reach land around midday on Friday. This is called [[landfall|landfall]]. Rescue teams are ready to help.",
+     "The [[cyclone|storm]] Akvan is likely to reach land by about noon on Friday. This is called [[landfall|landfall]]. Rescue teams are ready to help.",
      "Rain has begun in Odisha. The sea gets rough, so fishermen are told not to go out. Tourists cannot visit some beaches."
     ]
    },
@@ -25,7 +25,7 @@
     "t": "More than one lakh people moved to safety as Akvan nears Odisha",
     "b": [
      "More than one lakh (100,000) people have been moved to safety in Odisha ahead of [[cyclone|Cyclone]] Akvan. On Thursday 19 November, senior Odisha official Anu Garg said 1,05,304 people were in 1,224 [[shelter|shelters]]. Evacuation, moving people away from danger, was still going on.",
-     "The [[imd|IMD]], India's weather office, expects Akvan to make [[landfall|landfall]] near Gopalpur in Ganjam district around midday on Friday 20 November. Landfall is when the centre of a cyclone crosses from the sea onto land. Winds of 90 to 100 kilometres an hour are expected. Rain has begun in Odisha and should get heavier.",
+     "The [[imd|IMD]], India's weather office, expects Akvan to make [[landfall|landfall]] near Gopalpur in Ganjam district by about noon on Friday 20 November. Landfall is when the centre of a cyclone crosses from the sea onto land. Winds of 90 to 100 kilometres an hour are expected. Rain has begun in Odisha and should get heavier.",
      "Sixty Odisha Disaster Rapid Action Force teams and 14 [[ndrf|NDRF]] teams are ready to help. The sea gets rough near a cyclone, so fishermen are told not to go out. Tourists are kept away from the beaches of Gopalpur and Puri, and from Satapada and Chilika."
     ]
    },
@@ -466,7 +466,7 @@
    "landfall",
    "science",
    "When the middle of a big storm moves from the sea onto land.",
-   "The moment when the centre of a cyclone crosses from the sea onto land. Akvan is expected to make landfall in Odisha around midday on Friday 20 November."
+   "The moment when the centre of a cyclone crosses from the sea onto land. Akvan is expected to make landfall in Odisha by about noon on Friday 20 November."
   ],
   "imd": [
    "IMD",
@@ -841,7 +841,7 @@
    ]
   },
   "g-stonefly": {
-   "ctx": "The stonefly belongs to a family of stoneflies called Gripopterygidae, in the insect order Plecoptera. The Patagonian dragon, which the team was looking for, is also a stonefly and lives on glaciers in Patagonia. The new stonefly spends part of its life at the edge of the ice, so scientists say it could be at risk if the glacier keeps shrinking.",
+   "ctx": "The stonefly belongs to a family of stoneflies called Gripopterygidae, in the insect order Plecoptera. The Patagonian dragon, which the team was looking for, is also a stonefly and lives on glaciers in Patagonia. The new stonefly was found beside the glacier's remains, and scientists say it could be at risk if the glacier keeps shrinking.",
    "ask": "This stonefly was found beside a glacier that is shrinking. Some people think scientists should hurry to find and name species in places that are changing fast. Others think slow, careful study matters more, even if it takes years. Which matters more?",
    "jobs": [
     "Entomologist (a scientist who studies insects)",

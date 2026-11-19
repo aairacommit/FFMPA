@@ -1,453 +1,707 @@
 {
  "schema": 1,
- "date": "2026-11-18",
- "edition": "pm",
+ "date": "2026-11-19",
+ "edition": "am",
  "countries": [
   "IN"
  ],
  "stories": [
   {
-   "id": "g-voyager",
-   "scope": "global",
-   "cat": "space",
-   "emoji": "📡",
-   "date": "2026-11-18",
+   "id": "in-akvan",
+   "scope": "IN",
+   "cat": "nature",
+   "emoji": "🌀",
+   "date": "2026-11-19",
    "kind": "news",
    "x": {
-    "t": "Voyager 1 reaches one light-day from Earth",
+    "t": "Helpers move people to safety before storm Akvan",
     "b": [
-     "NASA worked out that Voyager 1 would reach one [[light-day|light-day]] from Earth on Wednesday. It is the first spacecraft to get this far.",
-     "A light-day is a distance: how far light travels in one day. Now a radio [[signal|signal]] takes about a day to reach Voyager 1. Its reply takes another day to come back.",
-     "Another spacecraft, Voyager 2, is expected to get this far in 2035."
+     "More than 70,000 people in Odisha have been moved to safety early. They can stay in [[shelter|shelters]], which are safe places.",
+     "Akvan is a [[cyclone|cyclone]], a large storm over the sea. The [[forecast|forecast]] says it is likely to cross the coast by Friday 20 November.",
+     "In Odisha, rescue teams have been sent out to help. Schools in six districts are closed from Thursday to Saturday because of the storm."
     ]
    },
    "o": {
-    "t": "Voyager 1 is the first spacecraft to reach one light-day from Earth",
+    "t": "Odisha moves more than 70,000 people to safety ahead of Akvan",
     "b": [
-     "NASA worked out that its Voyager 1 spacecraft would reach one [[light-day|light-day]] from Earth on Wednesday 18 November. No human-made object has travelled this far before. Launched on 5 September 1977, it became the first spacecraft to enter [[interstellar|interstellar space]], the space between the stars, in 2012.",
-     "A light-day is a measure of distance, not time: how far light travels in 24 hours, about 25.9 billion kilometres. A radio [[signal|signal]] now takes about 24 hours, or one day, to reach Voyager 1, and its reply takes another day.",
-     "Voyager 1 is tracked by NASA's [[deep-space-network|Deep Space Network]], which has giant radio [[antenna|antennas]] in California, near Madrid in Spain and near Canberra in Australia. Most of its instruments have been switched off to save power. Voyager 2 is expected to reach one light-day in 2035."
+     "By Thursday 19 November, more than 70,000 people in Odisha had been moved to safety ahead of [[cyclone|Cyclone]] Akvan, a large storm over the Bay of Bengal. [[shelter|Shelters]], safe places where people can stay, are open for them.",
+     "A [[forecast|forecast]] is a statement of what is expected to happen. Thursday's forecast said Akvan is likely to cross the coast between Narsapur in Andhra Pradesh and Puri in Odisha by around noon on Friday 20 November. Winds of 90 to 100 kilometres an hour are expected as it crosses.",
+     "In Odisha, rescue teams have been deployed, which means organised and sent out to do a particular job. Schools in six districts are closed from Thursday 19 to Saturday 21 November. Three trains were rescheduled, which means their times were changed, because of the approaching storm."
     ]
    },
-   "think": "If a message took a whole day to arrive, what would you want to say in it, and why?",
+   "think": "Many helpers are at work this week, from weather forecasters to rescue teams. Which helper's job would you like to know more about, and why?",
    "quiz": {
-    "q": "About how long does a radio signal now take to reach Voyager 1?",
+    "q": "In how many districts are schools closed because of the storm?",
     "a": [
-     "About 8 minutes",
-     "About one hour",
-     "About one day",
-     "About one year"
+     "Two",
+     "Four",
+     "Six",
+     "Sixteen"
+    ],
+    "c": 2
+   },
+   "src": [
+    [
+     "PTI via ThePrint, 19 Nov",
+     "https://theprint.in/india/odisha-govt-evacuates-over-80000-people-deploys-74-rescue-teams-in-view-of-cyclone-akvan/3102889/"
+    ],
+    [
+     "The Independent via Yahoo News, 19 Nov",
+     "https://sg.news.yahoo.com/nearly-72-000-people-evacuated-073157575.html"
+    ],
+    [
+     "ANI via Public TV, 19 Nov",
+     "https://english.publictv.in/cyclone-akvan-to-cross-andhra-pradesh-odisha-coasts-by-november-20-winds-likely-to-reach-110-kmph/"
+    ]
+   ]
+  },
+  {
+   "id": "g-cop31",
+   "scope": "global",
+   "cat": "planet",
+   "emoji": "🌍",
+   "date": "2026-11-18",
+   "kind": "news",
+   "x": {
+    "t": "Countries start a big check on climate progress",
+    "b": [
+     "Countries are at [[cop|COP31]], a big climate meeting in Türkiye. On Wednesday, a check on progress began there.",
+     "It is called the [[global-stocktake|Global Stocktake]]. It checks how countries are doing together on climate. A check shows what still needs work.",
+     "Countries are also writing a climate deal. A new [[draft|draft]], an early version, was due on Thursday. The meeting is set to end on Friday."
+    ]
+   },
+   "o": {
+    "t": "COP31: Global Stocktake begins as talks near their scheduled end",
+    "b": [
+     "The second [[global-stocktake|Global Stocktake]] was launched on Wednesday 18 November at [[cop|COP31]], the climate talks in Antalya, Türkiye. It checks the progress countries are making together on climate change.",
+     "That day, [[minister|ministers]], senior members of governments, held a closed meeting called a Divan. Countries are also writing a climate deal. A new [[draft|draft]], or early version, was due on Thursday 19 November. Countries are divided over what it should say about [[fossil-fuels|fossil fuels]] (coal, oil and gas). Some fossil fuel-producing countries oppose wording on moving away from them.",
+     "Some countries have set out national plans to exit fossil fuels, including France, Germany, Finland, Denmark and the Netherlands. About 75 countries are said to back a promise to raise electricity's share of energy use to 35% by 2035. The talks are scheduled to close on Friday 20 November."
+    ]
+   },
+   "think": "The Global Stocktake checks how the world is doing so far. When you are working on something big, how does stopping to check your progress help?",
+   "quiz": {
+    "q": "What is the Global Stocktake?",
+    "a": [
+     "A vote on who hosts the next meeting",
+     "A closed meeting of ministers",
+     "A check on how countries are doing on climate",
+     "The final version of the climate deal"
+    ],
+    "c": 2
+   },
+   "src": [
+    [
+     "UN News, 18 Nov",
+     "https://news.un.org/en/story/2026/11/1168833"
+    ],
+    [
+     "AFP via Yahoo News, 18 Nov",
+     "https://www.yahoo.com/news/science/articles/fault-lines-widen-cop31-struggles-122526205.html"
+    ],
+    [
+     "Climate Home News, 18 Nov",
+     "https://www.climatechangenews.com/2026/11/18/cop31-bulletin-day-9-crunch-ministerial-talks-planned-for-wednesday-evening/"
+    ],
+    [
+     "Climate Home News, 19 Nov",
+     "https://www.climatechangenews.com/2026/11/19/cop31-bulletin-day-10-ministers-exchange-makes-little-concrete-progress/"
+    ],
+    [
+     "Climate Home News, 17 Nov",
+     "https://www.climatechangenews.com/2026/11/17/cop31-bulletin-day-8-arab-group-russia-reject-cover-text-over-fossil-fuels-and-electrification-goal/"
+    ],
+    [
+     "AFP via Arab News, 17 Nov",
+     "https://www.arabnews.com/middle-east/tensions-rise-over-cop31-draft-deal-3012534"
+    ]
+   ]
+  },
+  {
+   "id": "g-erectus-teeth",
+   "scope": "global",
+   "cat": "history",
+   "emoji": "🦷",
+   "date": "2026-11-18",
+   "kind": "news",
+   "x": {
+    "t": "Eight old teeth tell a story about early humans",
+    "b": [
+     "Scientists found [[fossil|fossil]] teeth in two caves in southern China. A fossil is the remains of a living thing from long ago.",
+     "Eight of the teeth suggest that [[homo-erectus|Homo erectus]], an early kind of human, lived there. That was between 324,000 and 184,000 years ago.",
+     "The teeth hold other clues. They show these early humans lived in [[rainforest|rainforest]]. Scientists had not recorded them in rainforest before."
+    ]
+   },
+   "o": {
+    "t": "Fossil teeth suggest early humans lived in a rainforest in China",
+    "b": [
+     "Eight [[fossil|fossil]] teeth from two caves in [[guangxi|Guangxi]], in southern China, suggest that [[homo-erectus|Homo erectus]], an early kind of human, lived there between 324,000 and 184,000 years ago. A fossil is the remains or trace of an animal or plant that lived long ago. The research was published in the journal Nature on Wednesday 18 November.",
+     "The caves, named Baxian and Naxian, are about 15 kilometres apart. Before this, Homo erectus was thought to have vanished from mainland Asia around 400,000 years ago.",
+     "The chemistry of the teeth shows that these early humans lived in [[rainforest|rainforest]]. That is a habitat, or natural home, not previously recorded for this species, or kind of living thing. Chemical clues in the teeth also suggest that some individuals moved over large areas, possibly towards northern Vietnam."
+    ]
+   },
+   "think": "These teeth gave scientists new clues about the past. Can you think of a time when a new clue changed what you thought about something?",
+   "quiz": {
+    "q": "How many fossil teeth from the two caves do scientists link to Homo erectus?",
+    "a": [
+     "Three",
+     "Five",
+     "Twelve",
+     "Eight"
+    ],
+    "c": 3
+   },
+   "src": [
+    [
+     "National Geographic, 18 Nov",
+     "https://www.nationalgeographic.com/history/article/homo-erectus-china-rainforest"
+    ],
+    [
+     "Reuters via Yahoo News, 18 Nov",
+     "https://www.yahoo.com/news/science/articles/archaic-human-species-homo-erectus-160226003.html"
+    ],
+    [
+     "Sci.News, 18 Nov",
+     "https://www.sci.news/othersciences/anthropology/homo-erectus-china-15208.html"
+    ],
+    [
+     "EurekAlert (Macquarie University), 18 Nov",
+     "https://www.eurekalert.org/news-releases/1151969"
+    ]
+   ]
+  },
+  {
+   "id": "in-nz-test",
+   "scope": "IN",
+   "cat": "sports",
+   "emoji": "🏏",
+   "date": "2026-11-19",
+   "kind": "news",
+   "x": {
+    "t": "Two New Zealand batters fight back against India",
+    "b": [
+     "India's cricket team is playing New Zealand in a [[test-match|Test match]]. It began on Thursday at the [[basin-reserve|Basin Reserve]] in Wellington.",
+     "India's bowlers started well. They got five batters out when New Zealand had 70 runs.",
+     "Then Henry Nicholls and Glenn Phillips batted together for the rest of the day. Nicholls made 113 runs. One batter scoring 100 or more is a [[century|century]]. New Zealand ended day one on 243."
+    ]
+   },
+   "o": {
+    "t": "Nicholls century lifts New Zealand to 243 for 5 against India",
+    "b": [
+     "New Zealand were 243 for 5 at the end of day one of the first [[test-match|Test match]] against India, at the [[basin-reserve|Basin Reserve]] in Wellington, on Thursday 19 November. A Test is a cricket match between the teams of two different countries, with play spread over up to five days.",
+     "India bowled first and took five early [[wicket|wickets]], which means they got five batters out. That left New Zealand on 70 for 5. India's Jasprit Bumrah took three wickets for 52 runs.",
+     "Then Henry Nicholls and Glenn Phillips batted together for the rest of the day. Nicholls made a [[century|century]], 100 runs or more, and ended the day on 113 not out, meaning he had not been got out. Phillips was 94 not out. Their partnership, the runs two batters add together, was worth 173 at the end of day one."
+    ]
+   },
+   "think": "New Zealand lost five batters early, but two players kept going for the rest of the day. What helps you keep going when something starts badly?",
+   "quiz": {
+    "q": "How many runs had Henry Nicholls made by the end of day one?",
+    "a": [
+     "113",
+     "94",
+     "52",
+     "173"
+    ],
+    "c": 0
+   },
+   "src": [
+    [
+     "ANI via The Tribune, 19 Nov",
+     "https://www.tribuneindia.com/news/akash-deep/1st-test-nicholls-ton-phillips-94-powers-new-zealand-to-243-5-after-stunning-fightback-against-india-on-day-1"
+    ],
+    [
+     "IANS via The Hans India, 19 Nov",
+     "https://www.thehansindia.com/sports/1st-test-nicholls-unbeaten-113-phillips-counterattack-lift-new-zealand-to-2435-on-day-1-1143557"
+    ],
+    [
+     "PTI via Deccan Chronicle, 19 Nov",
+     "https://www.deccanchronicle.com/sports/ind-vs-nz-1st-test-nicholls-hits-ton-as-new-zealand-reach-2435-at-stumps-on-day-1-2005835"
+    ],
+    [
+     "India.com, 19 Nov",
+     "https://www.india.com/sports/cricket/watch-henry-nicholls-equals-kane-williamson-record-at-basin-reserve-leads-nz-fight-back-with-glenn-phillips-on-day-1-8546184/"
+    ],
+    [
+     "The Sunday Guardian, 19 Nov",
+     "https://sundayguardianlive.com/sports/ind-vs-nz-1st-test-day-1-henry-nicholls-113-leads-new-zealand-fightback-after-jasprit-bumrahs-3-wicket-burst-full-scorecard-324348/"
+    ]
+   ]
+  },
+  {
+   "id": "g-whale-dna",
+   "scope": "global",
+   "cat": "science",
+   "emoji": "🐋",
+   "date": "2026-11-17",
+   "kind": "news",
+   "x": {
+    "t": "Scientists study whales using only their breath",
+    "b": [
+     "Scientists flew a small [[drone|drone]] through the breath of humpback whales off Canada. The drone carried clean dishes to catch the breath.",
+     "The breath held the whales' [[dna|DNA]]. DNA carries the information for how a living thing is made up. The scientists read whole sets of it.",
+     "The whales' DNA was read without darts or close boat approaches. Next, the team plans to study the whales' family ties."
+    ]
+   },
+   "o": {
+    "t": "Scientists read whale DNA from breath caught by a drone",
+    "b": [
+     "Scientists have sequenced the whole [[genome|genomes]] of humpback whales from the animals' breath. A genome is the complete set of [[dna|DNA]] in a living thing, and to sequence it is to work out the order of its chemical parts. DNA is the molecule in cells that carries the information for how a living thing is made up. The study was published in the journal Molecular Ecology Resources on Tuesday 17 November.",
+     "The team, which included scientists from the University of St Andrews, attached sterile, or germ-free, dishes to a small [[drone|drone]]. They flew it through the whales' breath off [[british-columbia|British Columbia]], Canada, and collected 58 samples from 26 whales. The genomes were sequenced without darts or close boat approaches.",
+     "The drone data correctly showed whether each whale was male or female. The team plans to use the genomes to study the whales' family ties and social bonds."
+    ]
+   },
+   "think": "If you could study a wild animal without going near it, which animal would you choose, and what would you want to find out?",
+   "quiz": {
+    "q": "What carried the dishes through the whales' breath?",
+    "a": [
+     "A small drone",
+     "A diver",
+     "A hot-air balloon",
+     "A trained seabird"
+    ],
+    "c": 0
+   },
+   "src": [
+    [
+     "Popular Science, 17 Nov",
+     "https://www.popsci.com/environment/whale-snot-drones-dna/"
+    ],
+    [
+     "Oceanographic, 17 Nov",
+     "https://oceanographicmagazine.com/news/whale-genomes-sequenced-from-drone-collected-snot-in-world-first/"
+    ],
+    [
+     "EurekAlert (University of St Andrews), 17 Nov",
+     "https://www.eurekalert.org/news-releases/1151764"
+    ]
+   ]
+  },
+  {
+   "id": "g-star-swallow",
+   "scope": "global",
+   "cat": "space",
+   "emoji": "⭐",
+   "date": "2026-11-18",
+   "kind": "news",
+   "x": {
+    "t": "A giant star may have swallowed a smaller star",
+    "b": [
+     "Astronomers are scientists who study space. They have been watching a giant star in the Andromeda [[galaxy|galaxy]].",
+     "The star is about 2.5 million [[light-year|light-years]] away. A light-year is how far light travels in one year.",
+     "The team first noticed the unusual star in 2023. Late in 2025, it gave off a burst of light. Astronomers say the giant star swallowed its smaller partner star."
+    ]
+   },
+   "o": {
+    "t": "Astronomers say a giant star in Andromeda swallowed its partner",
+    "b": [
+     "Astronomers say they have caught a giant star swallowing its smaller companion, the other star in its pair. The two stars are in the Andromeda [[galaxy|galaxy]], about 2.5 million [[light-year|light-years]] away. A galaxy is a very large group of stars, and a light-year is the distance light travels in one year. The study was published in the journal Nature on Wednesday 18 November.",
+     "The giant star was about seven times the Sun's [[mass|mass]], the amount of matter in it. The team first noticed the star as unusual in 2023. Older records show it began growing more luminous, or brighter, in 2018.",
+     "Late in 2025, the star erupted in a burst of light. The [[james-webb|James Webb Space Telescope]] observed it in December 2025. Another telescope, the Nancy Grace Roman Space Telescope, could find more events like this."
+    ]
+   },
+   "think": "Astronomers first noticed this star in 2023 and kept watching it. What would you be willing to watch patiently for a long time, and why?",
+   "quiz": {
+    "q": "About how far away is the giant star?",
+    "a": [
+     "About 25 light-years",
+     "About 2,500 light-years",
+     "About 2.5 million light-years",
+     "About 2.5 billion light-years"
     ],
     "c": 2
    },
    "src": [
     [
      "Space.com, 18 Nov",
-     "https://www.space.com/space-exploration/voyager/1-light-day-from-earth-nasas-voyager-1-probe-hits-huge-milestone-in-interstellar-space"
+     "https://www.space.com/astronomy/stars/astronomers-witness-a-star-eating-its-companion-in-1st-of-its-kind-observation"
     ],
     [
-     "ABC News (Australia), 18 Nov",
-     "https://www.abc.net.au/news/science/2026-11-18/nasa-voyager-one-light-day-from-earth-milestone/107154162"
+     "NASA Science, 18 Nov",
+     "https://science.nasa.gov/missions/webb/nasa-data-clinches-first-of-its-kind-stellar-merger/"
     ],
     [
-     "Forbes, 18 Nov",
-     "https://www.forbes.com/sites/jamiecartereurope/2026/11/18/nasas-voyager-1-makes-history-as-it-reaches-one-light-day-from-earth/"
-    ],
-    [
-     "ScienceAlert, 18 Nov",
-     "https://www.sciencealert.com/its-official-voyager-1-is-the-first-spacecraft-to-reach-one-light-day-from-earth"
-    ],
-    [
-     "EarthSky, 17 Nov",
-     "https://earthsky.org/space/voyager-1-1-light-day-from-earth-november-17-18-2026/"
-    ],
-    [
-     "NASA, 18 Nov",
-     "https://science.nasa.gov/mission/voyager/voyager-1/voyager-1-what-is-a-light-day/"
-    ],
-    [
-     "NASA, 16 Nov",
-     "https://science.nasa.gov/mission/voyager/voyager-1/"
-    ],
-    [
-     "NASA, 15 Oct",
-     "https://www.nasa.gov/communicating-with-missions/dsn/"
+     "NASA Science (image page), 18 Nov",
+     "https://science.nasa.gov/asset/webb/at-2025abao-in-the-andromeda-galaxy/"
     ]
    ]
   },
   {
-   "id": "in-akvan",
+   "id": "in-sindhu",
    "scope": "IN",
-   "cat": "nature",
-   "emoji": "🌀",
-   "date": "2026-11-18",
+   "cat": "sports",
+   "emoji": "🏸",
+   "date": "2026-11-17",
    "kind": "news",
    "x": {
-    "t": "Helpers stay ready as forecasters update storm Akvan's path",
+    "t": "PV Sindhu is back in the world's top five",
     "b": [
-     "Helpers in Odisha are moving some people to safer places before the [[cyclone|storm]] Akvan.",
-     "On Wednesday, [[imd|India's weather office]] gave a new forecast. Akvan is likely to cross the coast onto land around noon on Friday. Earlier forecasts said it would cross further south.",
-     "The newest forecast expects lower winds, but forecasts can change. Families can follow updates. Odisha has paused beach trips and boat rides in some places."
+     "[[pv-sindhu|PV Sindhu]] plays badminton. New [[world-ranking|world rankings]] came out on Tuesday. The rankings are a list that puts players in order by results.",
+     "Sindhu is now fifth in women's singles. Singles means one player against one. She was last in the top five in November 2022.",
+     "Recently she won the HYLO Open. She came second at the French Open."
     ]
    },
    "o": {
-    "t": "Akvan's expected crossing area moves north as helpers stand by",
+    "t": "PV Sindhu returns to badminton's world top five after four years",
     "b": [
-     "Officials in Odisha have started moving people away from some places at risk of landslides, ahead of [[cyclone|Cyclone]] Akvan.",
-     "On Wednesday the [[imd|IMD]], India's weather office, said Akvan was likely to cross the coast between Narsapur in [[andhra-pradesh|Andhra Pradesh]] and Puri in Odisha by around noon on Friday 20 November. Earlier forecasts said it would cross further south. Akvan is now a severe cyclonic storm, the IMD's name for a stronger level of storm. The IMD's Wednesday update expects winds of 90 to 100 kilometres an hour as it crosses, lower than earlier forecasts. Some other forecasts on Wednesday were higher, and forecasts can still change.",
-     "Officials in Odisha ordered beach tourism, boating and water sports to be suspended, or paused, at some coastal spots. In Rayagada district, about 55 villages where landslides are likely have been identified so people can be moved before the storm."
+     "Indian badminton player [[pv-sindhu|PV Sindhu]] is back in the world's top five. In the women's singles [[world-ranking|world rankings]] released on Tuesday 17 November, she is placed fifth, after moving up one place. Singles means one player against one player. It is her first time in the top five since November 2022.",
+     "The world rankings are a list that puts players in order by their results. Sindhu has risen six places in the last 45 days, from 11th to fifth. Her recent results include winning the HYLO Open and finishing as [[runner-up|runner-up]], which means second, at the French Open. She also won the Japan Open in 2026.",
+     "Sindhu has qualified for the [[bwf-world-tour-finals|BWF World Tour Finals]], which means she has earned a place. It is the 2026 season finale, the last event of the badminton season."
     ]
    },
-   "think": "Why do you think forecasters keep updating their forecast as a storm moves?",
+   "think": "PV Sindhu waited four years to get back into the top five. What is something you would keep working at, even if it took a long time?",
    "quiz": {
-    "q": "On which day is Akvan likely to cross the coast?",
+    "q": "Where is PV Sindhu placed in the new women's singles world rankings?",
     "a": [
-     "Wednesday",
-     "Thursday",
-     "Friday",
-     "Sunday"
+     "First",
+     "Third",
+     "Fifth",
+     "Tenth"
     ],
     "c": 2
    },
    "src": [
     [
-     "ETV Bharat, 18 Nov",
-     "https://www.etvbharat.com/en/bharat/severe-cyclone-akvan-changes-path-landfall-between-odisha-puri-andhra-pradesh-narsapur-november-20-noon-evacuation-underway-imd-rainfall-forecast-enn26111801569"
+     "The Bridge, 17 Nov",
+     "https://thebridge.in/badminton/sindhu-world-top-5-bwf-rankings-after-4-years-58401"
     ],
     [
-     "PTI via OrissaPOST, 18 Nov",
-     "https://www.orissapost.com/cyclone-akvan-may-cross-coast-between-andhras-narsapur-odishas-puri-november-20/"
+     "myKhel, 18 Nov",
+     "https://www.mykhel.com/more-sports/pv-sindhu-re-enters-world-s-top-five-after-four-years-459371.html"
     ],
     [
-     "The Hans India, 18 Nov",
-     "https://www.thehansindia.com/andhra-pradesh/ap-on-high-alert-ahead-of-cyclone-akvan-ap-home-minister-calls-for-vigilance-1143254"
+     "The Bridge, 18 Nov",
+     "https://thebridge.in/badminton/what-went-behind-pv-sindhu-resurgence-climb-world-no-5-58419"
     ],
     [
-     "India.com, 18 Nov",
-     "https://www.india.com/news/india/cyclone-akvan-storm-bay-of-bengal-andhra-pradesh-odisha-nellore-visakhapatnam-ndrf-fishermen-schools-closed-mohan-charan-majhi-8545833/"
+     "Careerindia, 19 Nov",
+     "https://www.careerindia.com/news/school-assembly-news-headlines-today-november-19-2026-national-international-education-sports-068849.html"
     ]
    ]
   },
   {
-   "id": "in-earthshot",
-   "scope": "IN",
-   "cat": "planet",
-   "emoji": "🛺",
+   "id": "g-robot-dance",
+   "scope": "global",
+   "cat": "tech",
+   "emoji": "🤖",
    "date": "2026-11-17",
    "kind": "news",
    "x": {
-    "t": "Indian electric rickshaw company wins an Earthshot Prize",
+    "t": "151 robots dance together in China",
     "b": [
-     "Five winners of the [[earthshot-prize|Earthshot Prize]] were named in [[mumbai|Mumbai]], India, on Tuesday.",
-     "One winner is from India: Mahindra Last Mile Mobility. It makes [[electric-three-wheeler|electric three-wheelers]]. These can help cut air pollution, or dirty air, on roads.",
-     "Each winner will get £1 million, which is one million pounds."
+     "A big group of robots danced together on Tuesday 17 November. There were 151 of them. They danced in [[shenzhen|Shenzhen]], a city in China.",
+     "They were [[humanoid|humanoid]] robots. Humanoid means shaped like a human.",
+     "The dance set a [[guinness-world-record|Guinness World Record]]. A world record is the best anyone has done at something. This one is about how many humanoid robots dance together."
     ]
    },
    "o": {
-    "t": "Indian electric three-wheeler company among Earthshot winners",
+    "t": "151 dancing robots in Shenzhen set a Guinness World Record",
     "b": [
-     "Five winners of the 2026 [[earthshot-prize|Earthshot Prize]], an environmental prize founded by Prince William, were named at an Awards Night in [[mumbai|Mumbai]], India, on Tuesday 17 November.",
-     "One winner is Indian: Mahindra Last Mile Mobility, which won in the Clean Our Air category, one of the prize's groups of awards. It makes [[electric-three-wheeler|electric three-wheelers]], also called electric rickshaws. Electric three-wheelers can help reduce air pollution, or dirty air, on roads.",
-     "The other four winners are the country of Bhutan; PFAS-Free France, a national campaign against PFAS, chemicals used in everyday products and often called \"forever chemicals\", which helped secure a landmark law there; Niue Ocean Wide Trust; and Ørsted. Each of the five winners will receive £1 million, or one million British pounds."
+     "On Tuesday 17 November, 151 [[humanoid|humanoid]] robots danced together in [[shenzhen|Shenzhen]], a city in China. Humanoid means shaped like a human, so each of these machines was built in the form of a human body.",
+     "The dance was a [[guinness-world-record|Guinness World Record]] challenge, and it set a new record. A world record is the best result anyone in the world has reached at something. This challenge was for the most humanoid robots dancing within one hour.",
+     "The show was a display of robotic coordination. That means the robots performed the same dance moves at the same time."
     ]
    },
-   "think": "One of the winners is a whole country, Bhutan. Why might a prize for the planet go to a whole country, and not just to one person or company?",
+   "think": "If you could teach a robot one dance move, which would you choose, and what might make it tricky for a robot to copy?",
    "quiz": {
-    "q": "How much money will each Earthshot Prize winner get?",
+    "q": "How many humanoid robots danced together in Shenzhen?",
     "a": [
-     "£1,000",
-     "£1 million",
-     "£5 million",
-     "£100 million"
+     "15",
+     "151",
+     "500",
+     "1,000"
     ],
     "c": 1
    },
    "src": [
     [
-     "The Earthshot Prize, 17 Nov",
-     "https://earthshotprize.org/mumbai2026/"
+     "Xinhua, 18 Nov",
+     "https://english.news.cn/20261118/3eb137d81f4b4aa8bfb2627d8957551d/c.html"
     ],
     [
-     "BBC via Yahoo News, 17 Nov",
-     "https://www.yahoo.com/news/world/articles/william-kate-celebrate-earthshot-prize-172527660.html"
+     "Interesting Engineering, 19 Nov",
+     "https://interestingengineering.com/ai-robotics/guinness-record-151-humanoid-robots-dance"
     ],
     [
-     "Open Magazine, 16 Nov",
-     "https://openthemagazine.com/world/prince-william-hails-indias-climate-leadership-at-earthshot-prize"
+     "TVC News, 18 Nov",
+     "https://www.tvcnews.tv/151-humanoid-robots-set-guinness-world-record-with-synchronised-dance-in-china/"
     ],
     [
-     "The Earthshot Prize, 17 Nov",
-     "https://earthshotprize.org/news/2026-earthshot-prize-winners-crowned/"
+     "Guinness World Records (no date on page)",
+     "https://www.guinnessworldrecords.com/gwrday"
+    ],
+    [
+     "One World News, 20 Aug",
+     "https://www.oneworldnews.com/student-corner/guinness-world-records-day-2026/"
     ]
    ]
   },
   {
-   "id": "in-saff-final",
-   "scope": "IN",
-   "cat": "sports",
-   "emoji": "⚽",
-   "date": "2026-11-17",
-   "kind": "news",
-   "x": {
-    "t": "India come from behind to win a record 10th SAFF title",
-    "b": [
-     "India's football team won the [[saff-championship|SAFF Championship]] on Tuesday. They beat Pakistan 2-1 in the final in [[dhaka|Dhaka]], Bangladesh.",
-     "Pakistan scored first. In the second half, Suhail Bhat scored for India. Sandip Mandi scored the winning goal late in the match.",
-     "India have now won this contest 10 times, more than any other team. It is also their third win in a row."
-    ]
-   },
-   "o": {
-    "t": "India beat Pakistan 2-1 to win a record 10th SAFF Championship",
-    "b": [
-     "India beat Pakistan 2-1 in the final of the [[saff-championship|SAFF Championship]], a football tournament, in [[dhaka|Dhaka]], Bangladesh, on Tuesday 17 November. It is India's 10th title in the competition, a record.",
-     "Pakistan took the lead through Alamgir Ghazi at the end of the first half, so India were 1-0 down at half-time. In the second half, Suhail Bhat scored the equaliser, the goal that made the score level at 1-1.",
-     "Also in the second half, Pakistan's Junaid Shah was sent off with a red card after a [[var|VAR]] review, for a challenge on India's Brison Fernandes. VAR is a system in which match officials watch video replays to check the referee's decisions. Pakistan finished the match with 10 players. Sandip Mandi scored the winning goal late in the match. It is India's third title in a row."
-    ]
-   },
-   "think": "India were losing at half-time but came back to win. What do you think helps a team keep trying when they are behind?",
-   "quiz": {
-    "q": "What was the score in the final?",
-    "a": [
-     "India 2, Pakistan 1",
-     "India 1, Pakistan 1",
-     "India 3, Pakistan 2",
-     "India 1, Pakistan 2"
-    ],
-    "c": 0
-   },
-   "src": [
-    [
-     "ESPN, 17 Nov",
-     "https://www.espn.com/soccer/story/_/id/50509628/india-pakistan-live-saff-cup-final-updates"
-    ],
-    [
-     "India TV News, 17 Nov",
-     "https://www.indiatvnews.com/sports/football/india-beat-pakistan-2-1-in-final-to-win-record-breaking-10th-saff-championship-title-2026-11-17-1059691"
-    ],
-    [
-     "Awaz-The Voice, 18 Nov",
-     "https://www.awazthevoice.in/sports-news/suhail-bhat-sandip-mandi-lead-india-to-beat-pakistan-to-lift-saff-crown-71015.html"
-    ],
-    [
-     "Khel Now, 18 Nov",
-     "https://khelnow.com/football/indian-football-saff-championship-2026-27-india-2-1-pakistan-key-takeaways"
-    ]
-   ]
-  },
-  {
-   "id": "g-word-of-year",
+   "id": "g-children-day",
    "scope": "global",
-   "cat": "culture",
-   "emoji": "📖",
-   "date": "2026-11-18",
-   "kind": "news",
-   "x": {
-    "t": "Cambridge Dictionary picks \"human\" as its word of the year",
-    "b": [
-     "Cambridge Dictionary has picked \"human\" as its 2026 Word of the Year.",
-     "The dictionary says human means having the qualities, faults and feelings people have. It says this sets people apart from gods, animals or machines.",
-     "It chose the word because of a debate about [[ai|AI]]. AI can make it hard to tell people and machines apart. A [[lexicographer|dictionary writer]] said AI is changing how we talk about being human."
-    ]
-   },
-   "o": {
-    "t": "Cambridge Dictionary names \"human\" its Word of the Year 2026",
-    "b": [
-     "Cambridge Dictionary has named \"human\" its Word of the Year 2026. It announced the choice on Wednesday 18 November. The dictionary defines human as \"having the qualities, faults and feelings that people have, as opposed to gods, animals or machines.\"",
-     "The dictionary said it chose the word because of debate about [[ai|artificial intelligence]], or AI, the ability of computers and other machines to do things thought to need intelligence, such as understanding spoken language or making decisions. There is a lot of debate about how AI is blurring the line between people and machines.",
-     "Colin McIntosh is a [[lexicographer|lexicographer]], a person who writes dictionaries, at Cambridge Dictionary. He said: \"AI is changing how we talk about being human.\""
-    ]
-   },
-   "think": "What do you think people can do that machines cannot?",
-   "quiz": {
-    "q": "Which word did Cambridge Dictionary pick as its Word of the Year 2026?",
-    "a": [
-     "Human",
-     "Machine",
-     "Robot",
-     "Feeling"
-    ],
-    "c": 0
-   },
-   "src": [
-    [
-     "CNN via Yahoo News, 18 Nov",
-     "https://www.yahoo.com/news/world/articles/human-revealed-cambridge-dictionary-word-000115480.html"
-    ],
-    [
-     "Euronews, 18 Nov",
-     "https://www.euronews.com/2026/11/18/human-cambridge-dictionarys-word-of-the-year-2026-tackles-ongoing-ai-fears"
-    ],
-    [
-     "Cambridge Dictionary, 18 Nov",
-     "https://dictionaryblog.cambridge.org/2026/11/18/word-of-the-year-2026/"
-    ],
-    [
-     "University of Cambridge, 15 Nov 2023",
-     "https://www.cam.ac.uk/research/news/cambridge-dictionary-names-hallucinate-word-of-the-year-2023"
-    ]
-   ]
-  },
-  {
-   "id": "in-grap",
-   "scope": "IN",
    "cat": "civics",
-   "emoji": "🌫️",
+   "emoji": "🧒",
+   "date": "2026-11-19",
+   "kind": "calendar",
+   "when": "Friday 20 November",
+   "x": {
+    "t": "A world day about children's rights",
+    "b": [
+     "[[world-childrens-day|World Children's Day]] is on Friday 20 November. It comes on that date every year.",
+     "The day is about children and their [[rights|rights]]. Rights are things every person should have, like learning and being safe.",
+     "On 20 November 1989, an agreement about children's rights was accepted. That is why the day is on this date."
+    ]
+   },
+   "o": {
+    "t": "World Children's Day: why 20 November is about children's rights",
+    "b": [
+     "[[world-childrens-day|World Children's Day]] is held every year on 20 November, which falls on a Friday this year. The date marks two moments in the history of children's rights.",
+     "On 20 November 1959, the Declaration of the Rights of the Child was adopted, or formally accepted. A declaration is an official statement, or a document that contains one. On 20 November 1989, the [[convention|Convention on the Rights of the Child]] was adopted. A convention is a formal agreement between countries.",
+     "[[rights|Rights]] are things every person is entitled to have or do, such as an education. [[unicef|UNICEF]] is the [[un|United Nations]] organisation that works for children."
+    ]
+   },
+   "think": "World Children's Day is about children's rights. Which right do you think matters most in a child's daily life, and why?",
+   "quiz": {
+    "q": "On which date is World Children's Day held every year?",
+    "a": [
+     "1 January",
+     "20 March",
+     "20 October",
+     "20 November"
+    ],
+    "c": 3
+   },
+   "src": [
+    [
+     "UNICEF India (no date on page)",
+     "https://www.unicef.org/india/my-day-my-rights-my-future"
+    ],
+    [
+     "UNICEF Parenting (no date on page)",
+     "https://www.unicef.org/parenting/world-childrens-day-toolkit"
+    ],
+    [
+     "Save the Children US (no date on page)",
+     "https://www.savethechildren.org/us/charity-stories/universal-childrens-day"
+    ]
+   ]
+  },
+  {
+   "id": "in-amazon-green",
+   "scope": "IN",
+   "cat": "business",
+   "emoji": "🌬️",
+   "date": "2026-11-17",
+   "kind": "news",
+   "x": {
+    "t": "Amazon has a 7 billion dollar energy plan for India",
+    "b": [
+     "The company Amazon has a new plan for India. It plans to invest 7 billion dollars in [[renewable-energy|renewable energy]] by 2030.",
+     "Renewable energy comes from things that do not run out, like wind and sunlight. To [[invest|invest]] means to put money into something, hoping to gain from it later.",
+     "Amazon announced the plan on Tuesday 17 November. It is a plan for the future, not money already spent."
+    ]
+   },
+   "o": {
+    "t": "Amazon plans to invest $7 billion in renewable energy in India",
+    "b": [
+     "Amazon said on Tuesday 17 November that it plans to invest $7 billion in [[renewable-energy|renewable energy]] projects in India by 2030. To [[invest|invest]] is to put money into something to gain later. Renewable energy comes from sources that do not run out, such as wind and sunlight.",
+     "The plan is in addition to $4 billion that Amazon has already contracted, which means agreed in a legal agreement, for renewable energy in India. Four new projects announced the same day are part of that $4 billion. They are a [[wind-farm|wind farm]], which makes electricity from wind, and a combined wind and solar project in Karnataka, plus a solar project, which uses energy from the sun, in Madhya Pradesh and one in Rajasthan.",
+     "Together the four have a capacity of 934 [[megawatt|megawatts]], a unit for measuring power. The $7 billion is a plan, to be invested by 2030."
+    ]
+   },
+   "think": "If you could choose how the electricity for your home or school is made, what would you choose, and why?",
+   "quiz": {
+    "q": "How much does Amazon plan to invest in renewable energy in India by 2030?",
+    "a": [
+     "7 billion dollars",
+     "7 million dollars",
+     "7 thousand dollars",
+     "7 hundred dollars"
+    ],
+    "c": 0
+   },
+   "src": [
+    [
+     "Business Standard, 17 Nov",
+     "https://www.business-standard.com/amp/companies/news/amazon-to-invest-7-billion-in-india-s-renewable-energy-sector-by-2030-126111700847_1.html"
+    ],
+    [
+     "ESG Today, 17 Nov",
+     "https://www.esgtoday.com/amazon-targets-7-billion-in-new-renewable-energy-investments-in-india-by-2030/"
+    ],
+    [
+     "Power Technology, 17 Nov",
+     "https://www.power-technology.com/news/amazon-7bn-indian-renewable-projects-2030/"
+    ],
+    [
+     "YourStory (no date on page)",
+     "https://yourstory.com/2026/11/amazon-plans-usd-7-billion-renewable-energy-investment-india-by-2030"
+    ],
+    [
+     "Amazon (company announcement), 17 Nov",
+     "https://www.aboutamazon.com/news/sustainability/amazon-investment-india-renewable-energy"
+    ]
+   ]
+  },
+  {
+   "id": "g-alcaraz-semis",
+   "scope": "global",
+   "cat": "sports",
+   "emoji": "🎾",
    "date": "2026-11-18",
    "kind": "news",
    "x": {
-    "t": "Delhi lifts some air pollution rules as the air gets better",
+    "t": "Alcaraz is into the ATP Finals semi-finals",
     "b": [
-     "Delhi has a plan for air pollution, called [[grap|GRAP]]. Its rules come in stages. The air got better, so the Stage 3 rules have ended. The rules from Stages 1 and 2 stay in place.",
-     "Schools in Delhi can go back to regular classes. Building work that makes dust is still limited.",
-     "Forecasters say the cleaner air may not last."
+     "Carlos Alcaraz played Daniil Medvedev at the ATP Finals on Wednesday. It is a tennis contest in Turin.",
+     "A [[set|set]] is one part of a tennis match. Alcaraz won both sets, so he won the match. He is now in the [[semi-final|semi-finals]], the matches just before the final.",
+     "Frances Tiafoe won on Wednesday too. He beat Flavio Cobolli after a very close first set."
     ]
    },
    "o": {
-    "t": "Delhi lifts Stage III air rules, but other limits stay in place",
+    "t": "Alcaraz beats Medvedev and is into the ATP Finals semi-finals",
     "b": [
-     "The [[caqm|Commission for Air Quality Management]] (CAQM), the body that gives orders under Delhi's air pollution plan, has lifted Stage III of the [[grap|Graded Response Action Plan]] (GRAP). Graded means set out in steps, and GRAP's rules come in stages. Stage III was lifted because the air in Delhi got better.",
-     "Rules under Stages I and II stay in force. Curbs, or limits, on construction and demolition work that raises dust also continue. Demolition means knocking buildings down. Delhi's schools can go back to regular classes.",
-     "So the plan works in steps: this time, better air meant one stage of rules could be lifted while the earlier stages stayed. But forecasters say the cleaner air may not last."
+     "Carlos Alcaraz beat Daniil Medvedev 6-2, 6-4 at the ATP Finals, a tennis tournament in Turin, on Wednesday 18 November. Alcaraz has qualified for the [[semi-final|semi-finals]], the matches in the round just before the final.",
+     "Tennis matches are split into [[set|sets]]. Alcaraz won his sets by six games to two and six games to four. The same day, Frances Tiafoe beat Flavio Cobolli 7-6, 6-0. Their first set went to a [[tie-break|tie-break]], an extra game played to decide the winner of a set when the score is level. Tiafoe won it, then won the second set without losing a game.",
+     "Players are placed in groups. When each player in a group plays every other, that is a [[round-robin|round robin]]. The semi-finals are still to come."
     ]
    },
-   "think": "Why might a city have different levels of rules for air pollution, instead of one set of rules all the time?",
+   "think": "Frances Tiafoe won his match after a very close first set. Why might one close moment change how the rest of a match feels?",
    "quiz": {
-    "q": "What can Delhi's schools do now?",
+    "q": "What has Carlos Alcaraz qualified for at the ATP Finals?",
     "a": [
-     "Close for a month",
-     "Hold classes only online",
-     "Move to another city",
-     "Go back to regular classes"
-    ],
-    "c": 3
-   },
-   "src": [
-    [
-     "Business Standard, 18 Nov",
-     "https://www.business-standard.com/india-news/grap-iii-restrictions-revoked-as-delhi-aqi-falls-to-214-schools-reopen-126111800135_1.html"
-    ],
-    [
-     "The Quint, 18 Nov",
-     "https://www.thequint.com/news/breaking-news/delhi-grap-stage-three-revoked-aqi-improves"
-    ]
-   ]
-  },
-  {
-   "id": "g-norway-comeback",
-   "scope": "global",
-   "cat": "sports",
-   "emoji": "⚽",
-   "date": "2026-11-17",
-   "kind": "news",
-   "x": {
-    "t": "Norway come back from 2-0 down to beat Denmark",
-    "b": [
-     "Norway beat Denmark 3-2 in a football match on Tuesday. At first, Denmark were winning 2-0.",
-     "[[haaland|Erling Haaland]] scored for Norway before half-time. Then Martin Ødegaard made it 2-2 late on.",
-     "In the last seconds, a video check found a handball by Denmark. Norway got a [[penalty|penalty]], and Haaland scored it. Norway are now in the quarter-finals. The draw for that round is on Friday."
-    ]
-   },
-   "o": {
-    "t": "Norway beat Denmark 3-2 with Haaland's last-second penalty",
-    "b": [
-     "Norway came back from 2-0 down to beat Denmark 3-2 in the [[nations-league|UEFA Nations League]], a competition between the national teams of Europe, on Tuesday 17 November. The win sends Norway into the quarter-finals.",
-     "Rasmus Højlund and Pierre-Emile Højbjerg scored Denmark's goals. [[haaland|Erling Haaland]] scored for Norway before half-time, and Martin Ødegaard scored late on to make it 2-2.",
-     "The winning [[penalty|penalty]], a free shot at goal, came in the last seconds of stoppage time, the minutes added on at the end of a match. It was given for a handball by Denmark's Joachim Andersen, after a [[var|VAR]] review, a video check of the referee's decision. Haaland scored it. The draw for the quarter-finals, which decides who plays whom, is on Friday."
-    ]
-   },
-   "think": "A penalty in the last seconds decided this match. How do you think players stay calm when the whole game depends on one kick?",
-   "quiz": {
-    "q": "Who scored Norway's winning penalty?",
-    "a": [
-     "Martin Ødegaard",
-     "Rasmus Højlund",
-     "Joachim Andersen",
-     "Erling Haaland"
-    ],
-    "c": 3
-   },
-   "src": [
-    [
-     "ESPN, 17 Nov",
-     "https://www.espn.com/soccer/story/_/id/50513761/erling-haaland-sends-norway-nations-league-quarterfinals"
-    ],
-    [
-     "BBC via Yahoo Sports, 17 Nov",
-     "https://sports.yahoo.com/articles/haalands-last-second-penalty-sends-220921675.html"
-    ],
-    [
-     "beIN Sports, 17 Nov",
-     "https://www.beinsports.com/en-us/soccer/uefa-nations-league/articles/denmark-2-3-norway-haaland-completes-comeback-to-book-quarter-final-spot-2026-11-17"
-    ],
-    [
-     "UEFA, 16 Nov",
-     "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-a/"
-    ]
-   ]
-  },
-  {
-   "id": "g-nvidia",
-   "scope": "global",
-   "cat": "business",
-   "emoji": "💻",
-   "date": "2026-11-17",
-   "kind": "news",
-   "x": {
-    "t": "AI chip maker Nvidia's sales more than double",
-    "b": [
-     "Nvidia is a company that makes computer chips used for [[ai|AI]]. On Tuesday, it said how much it sold in three months.",
-     "Its sales came to $115.8 billion. That is more than double the year before. Most of the money came from chips for data centres, buildings full of computers.",
-     "Nvidia forecast sales of about $130 billion for the next three months."
-    ]
-   },
-   "o": {
-    "t": "Nvidia's sales more than double to $115.8 billion",
-    "b": [
-     "Nvidia, a company that makes computer chips used for [[ai|artificial intelligence]] (AI), released its results on Tuesday 17 November. They cover the [[quarter|quarter]], or three months, that ended on 25 October 2026.",
-     "Nvidia's [[revenue|revenue]], the money it gets from sales, was $115.8 billion. That is up 103 per cent from a year earlier, which means it more than doubled. Most of it, $107.6 billion, came from Nvidia's Data Center business, which sells chips for data centres, buildings full of powerful computers.",
-     "Nvidia forecast revenue of about $130 billion for the next quarter. A forecast is a best guess, so the real figure could turn out higher or lower."
-    ]
-   },
-   "think": "Nvidia told everyone how much it expects to sell in the next three months. Why do you think a company shares a forecast like this?",
-   "quiz": {
-    "q": "How much did Nvidia sell in the three months to 25 October?",
-    "a": [
-     "$1.5 billion",
-     "$115.8 billion",
-     "$5 billion",
-     "$1,000 billion"
+     "The first round",
+     "The semi-finals",
+     "The final",
+     "The quarter-finals"
     ],
     "c": 1
    },
    "src": [
     [
-     "Nvidia via SEC, 17 Nov",
-     "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000088/q3fy27pr.htm"
+     "ATP Tour, 18 Nov",
+     "https://www.atptour.com/en/news/nitto-atp-finals-2026-results"
     ],
     [
-     "Yahoo Finance, 17 Nov",
-     "https://finance.yahoo.com/technology/live/nvidia-earnings-live-nvidia-posts-q3-beat-board-says-it-will-not-reinstate-jensen-huang-as-ceo-221428433.html"
+     "ATP Tour, 18 Nov",
+     "https://www.atptour.com/en/news/nitto-atp-finals-2026-sf-qualification-scenarios-16-november"
     ],
     [
-     "Kiplinger, 17 Nov",
-     "https://www.kiplinger.com/news/live/nvidia-earnings-live-updates-and-commentary-november-2026"
+     "Tennis Majors, 18 Nov",
+     "https://www.tennismajors.com/atp/nitto-atp-finals-atp/tiafoe-crushes-cobolli-in-front-on-italian-crowd-alcaraz-qualified-as-group-winner-at-the-atp-finals-867257.html"
+    ]
+   ]
+  },
+  {
+   "id": "g-apple-outage",
+   "scope": "global",
+   "cat": "tech",
+   "emoji": "📱",
+   "date": "2026-11-17",
+   "kind": "news",
+   "x": {
+    "t": "Apple says an update made some services stop",
+    "b": [
+     "On Tuesday 17 November, some Apple online services stopped working properly for several hours. They included the App Store and Apple Music.",
+     "Apple said an [[software-update|update]] inside the company caused the trouble. It said this was not a [[cyberattack|cyberattack]].",
+     "Reporters explain that one Apple Account opens many services. If the account check fails, they can stop together. Services were working again by Tuesday evening in the eastern United States."
+    ]
+   },
+   "o": {
+    "t": "Apple says an internal update caused Tuesday's service outages",
+    "b": [
+     "On Tuesday 17 November, some Apple online services stopped working properly for several hours, a break called an [[outage|outage]]. Apple's [[status-page|status page]], a page showing which services are working, listed problems with the App Store, Apple Music and the [[sign-in|sign-in]] for its iCloud service. To sign in is to enter details, such as a password, to use an account.",
+     "Apple said an internal [[software-update|update]] caused the outages. An update is a change to computer programs, and internal here means inside the company. Apple said this was not a [[cyberattack|cyberattack]], an attempt to break into computers to cause harm.",
+     "Reporters explain that one Apple Account signs people in to many services. If that check fails, several services can stop at the same time. Apple's status page showed its services back to normal by Tuesday evening in the eastern United States. Apple did not say what the update was."
+    ]
+   },
+   "think": "If an online service you use stopped working for a few hours, what would you do instead?",
+   "quiz": {
+    "q": "What did Apple say caused the trouble with its services?",
+    "a": [
+     "A cyberattack",
+     "A power cut",
+     "Too many new phones",
+     "An update inside the company"
+    ],
+    "c": 3
+   },
+   "src": [
+    [
+     "TIME, 17 Nov",
+     "https://time.com/article/2026/11/17/apple-outage-down-update-issue/"
+    ],
+    [
+     "TechCrunch, 17 Nov",
+     "https://techcrunch.com/2026/11/17/apple-services-including-icloud-app-store-and-apple-music-hit-by-outage/"
+    ],
+    [
+     "Tom's Guide, 17 Nov",
+     "https://www.tomsguide.com/news/live/apple-outage-november-17-2026"
+    ],
+    [
+     "ThePrint, 18 Nov",
+     "https://theprint.in/theprint-essential/from-apple-pay-to-icloud-why-one-technical-failure-can-disrupt-an-entire-digital-ecosystem/3101937/"
+    ],
+    [
+     "MacRumors, 17 Nov",
+     "https://www.macrumors.com/2026/11/17/apple-outage-internal-update/"
+    ],
+    [
+     "International Business Times UK, 18 Nov",
+     "https://www.ibtimes.co.uk/apple-blames-internal-update-after-outage-hits-icloud-apple-pay-rules-out-cyberattack-1833027"
+    ]
+   ]
+  },
+  {
+   "id": "in-trade-fair",
+   "scope": "IN",
+   "cat": "business",
+   "emoji": "🎪",
+   "date": "2026-11-19",
+   "kind": "news",
+   "x": {
+    "t": "A big fair in New Delhi opens to everyone",
+    "b": [
+     "From Thursday 19 November, the public can visit a [[trade-fair|trade fair]] in New Delhi. A trade fair is an event where companies show and sell things.",
+     "This fair has more than 3,500 [[exhibitor|exhibitors]]. An exhibitor is someone who shows things to the public. They are spread across 17 halls.",
+     "The first five days were kept for business visitors. The fair ends on 27 November."
+    ]
+   },
+   "o": {
+    "t": "India International Trade Fair opens its doors to the public",
+    "b": [
+     "The 45th India International Trade Fair is open to the general public from Thursday 19 November at [[bharat-mandapam|Bharat Mandapam]] in New Delhi. A [[trade-fair|trade fair]] is an event where companies show their products and try to sell them.",
+     "The fair began on 14 November, but the first five days were reserved for business visitors. More than 3,500 [[exhibitor|exhibitors]] from India and abroad are taking part, spread across 17 exhibition halls. An exhibitor is a person or company that shows its products at an event like this. Eleven countries are taking part, including Thailand, Nepal, Sri Lanka and Bangladesh.",
+     "Around 600 [[startup|startups]], which are new businesses, are in a space called the Hall of Inspiration. Tickets are sold online and at 55 Metro stations. The public can visit until Friday 27 November."
+    ]
+   },
+   "think": "If you could show one thing made in your town or state at a fair, what would you choose, and why?",
+   "quiz": {
+    "q": "In which city is the trade fair being held?",
+    "a": [
+     "Mumbai",
+     "Kolkata",
+     "Chennai",
+     "New Delhi"
+    ],
+    "c": 3
+   },
+   "src": [
+    [
+     "ETV Bharat, 14 Nov",
+     "https://www.etvbharat.com/en/bharat/45th-iitf-opens-at-bharat-mandapam-goyal-sets-30-dollars-trillion-economy-target-for-2047-enn26111400117"
+    ],
+    [
+     "The Daily Jagran, 12 Nov",
+     "https://www.thedailyjagran.com/india/news/delhi-iitf-2026-45th-india-international-trade-fair-to-be-held-at-bharat-mandapam-from-november-14-check-public-entry-dates-tickets-highlights-10336086"
+    ],
+    [
+     "Dainik Jagran English, 19 Nov",
+     "https://english.dainikjagranmpcg.com/top-stories/-iitf-2026-opens-today-tickets-timings-and-entry-gates/article-45020"
     ]
    ]
   }
  ],
  "glossary": {
-  "signal": [
-   "signal",
-   "words",
-   "Something, such as a sound or a radio message, that carries information from one place to another.",
-   "Something sent to carry information or a message from one place to another, for example by radio. A radio signal sent from Earth now takes about 24 hours to reach Voyager 1."
-  ],
-  "antenna": [
-   "antenna",
-   "tech",
-   "A device, such as a metal rod or wire, that sends out or picks up radio waves.",
-   "A device, usually made of metal, for sending out or receiving radio waves. NASA's Deep Space Network is made up of giant radio antennas."
-  ],
   "light-day": [
    "light-day",
    "science",
@@ -460,404 +714,663 @@
    "The space between the stars.",
    "The space between the stars. Voyager 1 became the first spacecraft to enter it, in 2012."
   ],
+  "jpl": [
+   "Jet Propulsion Laboratory",
+   "places",
+   "A NASA centre in California. The Voyager 1 mission is run from there.",
+   "A NASA laboratory in California. The Voyager mission is run from there."
+  ],
   "deep-space-network": [
    "Deep Space Network",
    "tech",
    "NASA's big antennas that keep track of faraway spacecraft.",
    "NASA's network of giant radio antennas, with sites in California, near Madrid in Spain and near Canberra in Australia. It keeps track of Voyager 1."
   ],
-  "ai": [
-   "AI",
-   "tech",
-   "Artificial intelligence: computer programs that can learn and make choices.",
-   "Artificial intelligence: the ability of computers and other machines to do things thought to need intelligence, such as understanding spoken language or making decisions."
-  ],
-  "lexicographer": [
-   "lexicographer",
+  "shelter": [
+   "shelter",
    "words",
-   "A person who writes dictionaries.",
-   "A person who writes and works on dictionaries. Colin McIntosh is a lexicographer at Cambridge Dictionary."
+   "A safe place to stay when there is bad weather or danger.",
+   "A place that protects people from bad weather or danger."
   ],
-  "haaland": [
-   "Erling Haaland",
-   "people",
-   "A footballer who plays for Norway.",
-   "A footballer who plays for Norway's national team. He scored twice when Norway beat Denmark 3-2 on 17 November 2026."
+  "cop": [
+   "COP",
+   "civics",
+   "A big meeting where countries talk about climate change.",
+   "The United Nations climate talks, where countries meet to agree on action on climate change."
   ],
-  "penalty": [
-   "penalty",
+  "global-stocktake": [
+   "Global Stocktake",
+   "civics",
+   "A big check on how countries are doing together on climate.",
+   "A check of the progress countries are making together on climate change. The second one was launched at COP31 on 18 November 2026."
+  ],
+  "draft": [
+   "draft",
    "words",
-   "A free shot at goal in football, with only the goalkeeper in the way.",
-   "In football, a free shot at goal with only the goalkeeper to beat."
+   "An early try at writing something. It can still be changed.",
+   "An early version of a piece of writing, such as an agreement, which can still be changed before it is final."
   ],
-  "nations-league": [
-   "Nations League",
-   "words",
-   "A football contest between teams from Europe.",
-   "The UEFA Nations League, a competition between the national teams of Europe."
+  "minister": [
+   "minister",
+   "civics",
+   "A senior member of a government who looks after one area, such as the environment.",
+   "A senior member of a government who is in charge of one area of its work, such as the environment."
   ],
-  "var": [
-   "VAR",
-   "tech",
-   "Video replays that match officials watch to check the referee's decisions in a football match.",
-   "Video assistant referee: a system in which match officials watch video replays to check the referee's decisions."
+  "homo-erectus": [
+   "Homo erectus",
+   "science",
+   "An early kind of human.",
+   "An early kind of human. The species emerged about 2 million years ago."
   ],
-  "revenue": [
-   "revenue",
-   "words",
-   "The money a company gets, mostly from selling things.",
-   "The money a company takes in, mostly from selling its products."
-  ],
-  "quarter": [
-   "quarter",
-   "words",
-   "Three months, or a quarter of a year.",
-   "In business, a period of three months, or one quarter of a year."
-  ],
-  "andhra-pradesh": [
-   "Andhra Pradesh",
+  "guangxi": [
+   "Guangxi",
    "places",
-   "A state in India. Part of it is on the coast.",
-   "A state in India. Akvan is likely to cross the coast somewhere between Narsapur in Andhra Pradesh and Puri in Odisha."
+   "A part of southern China.",
+   "A part of southern China. The Baxian and Naxian caves are there."
+  ],
+  "century": [
+   "century",
+   "words",
+   "In cricket, a score of 100 runs or more by one batter.",
+   "In cricket, a score of 100 runs or more by one batter."
+  ],
+  "wicket": [
+   "wicket",
+   "words",
+   "In cricket, a team takes a wicket when it gets a batter out.",
+   "In cricket, taking a wicket means getting a batter out. A score of 243 for 5 means 243 runs with five batters out."
+  ],
+  "basin-reserve": [
+   "Basin Reserve",
+   "places",
+   "A cricket ground in Wellington, New Zealand.",
+   "A cricket ground in Wellington, New Zealand. The first Test between New Zealand and India began there on Thursday 19 November 2026."
+  ],
+  "genome": [
+   "genome",
+   "science",
+   "The full set of DNA in a living thing.",
+   "The complete set of DNA in a living thing."
+  ],
+  "british-columbia": [
+   "British Columbia",
+   "places",
+   "A part of Canada.",
+   "A part of Canada. The whales in this study were in the sea off British Columbia."
+  ],
+  "light-year": [
+   "light-year",
+   "science",
+   "How far light travels in one year.",
+   "The distance light travels in one year."
+  ],
+  "mass": [
+   "mass",
+   "science",
+   "The amount of matter in a thing.",
+   "The amount of matter in an object."
+  ],
+  "james-webb": [
+   "James Webb Space Telescope",
+   "tech",
+   "A telescope in space.",
+   "A space telescope. It observed the giant star in December 2025."
+  ],
+  "runner-up": [
+   "runner-up",
+   "words",
+   "The player or team that comes second.",
+   "The player or team that finishes second in a contest."
+  ],
+  "humanoid": [
+   "humanoid",
+   "tech",
+   "Shaped like a human.",
+   "Shaped like a human. A humanoid robot is a machine built in the form of a human body."
+  ],
+  "rights": [
+   "rights",
+   "words",
+   "Things every person should be able to have or do.",
+   "Things that every person is entitled to have or do."
+  ],
+  "unicef": [
+   "UNICEF",
+   "civics",
+   "A part of the United Nations that works for children.",
+   "The United Nations Children's Fund, a United Nations organisation that works for children."
+  ],
+  "un": [
+   "United Nations",
+   "civics",
+   "A group of countries that work together.",
+   "An international organisation in which countries work together. Its member countries meet in the General Assembly."
+  ],
+  "renewable-energy": [
+   "renewable energy",
+   "science",
+   "Energy from things that do not run out, like wind and sunlight.",
+   "Energy from sources that do not run out, such as wind and sunlight."
+  ],
+  "outage": [
+   "outage",
+   "tech",
+   "A time when a service stops working.",
+   "A period of time when a service, such as electricity or an online service, is not working."
+  ],
+  "status-page": [
+   "status page",
+   "tech",
+   "A web page that shows which online services are working.",
+   "A web page where a company shows which of its online services are working and which have problems."
+  ],
+  "sign-in": [
+   "sign in",
+   "tech",
+   "To show who you are, often with a password, so you can use a service.",
+   "To prove who you are, usually with a username and password, so that you can use an account or an online service."
+  ],
+  "startup": [
+   "startup",
+   "words",
+   "A young company that has only just got started.",
+   "A new business that has only recently been started."
+  ],
+  "bharat-mandapam": [
+   "Bharat Mandapam",
+   "places",
+   "The place in New Delhi where the trade fair is being held.",
+   "The venue in New Delhi where the 45th India International Trade Fair is being held."
+  ],
+  "shenzhen": [
+   "Shenzhen",
+   "places",
+   "A city in China.",
+   "A city in China. The APEC Economic Leaders' Meeting was scheduled there for 18 and 19 November 2026."
   ],
   "cyclone": [
    "cyclone",
    "science",
-   "A big storm that forms over the sea, with strong winds and rain.",
-   "A large storm that forms over the sea, with strong winds and heavy rain. India's weather office uses names such as severe cyclonic storm for stronger levels."
+   "A very strong storm with winds that move in a circle. It often brings heavy rain.",
+   "A very strong tropical storm in which winds move in a circle. It often brings heavy rain."
   ],
-  "imd": [
-   "IMD",
-   "civics",
-   "India's weather office. It watches storms and gives forecasts.",
-   "The India Meteorological Department, India's weather office. It tracks storms and gives forecasts and alerts."
-  ],
-  "saff-championship": [
-   "SAFF Championship",
+  "forecast": [
+   "forecast",
    "words",
-   "A football contest between national teams. India have won it 10 times, a record.",
-   "A football tournament between national teams. India have won the title 10 times, a record."
+   "What people expect to happen, such as the weather for the next few days.",
+   "A statement about what is expected to happen in the future, such as a weather forecast."
   ],
-  "dhaka": [
-   "Dhaka",
-   "places",
-   "A city in Bangladesh.",
-   "A city in Bangladesh, where the 2026 SAFF Championship final was played."
+  "trade-fair": [
+   "trade fair",
+   "words",
+   "An event where companies show and sell things.",
+   "An event where companies show their products and try to sell them."
   ],
-  "grap": [
-   "GRAP",
-   "civics",
-   "Delhi's plan for air pollution. Its rules come in stages.",
-   "The Graded Response Action Plan, Delhi's plan of anti-pollution rules set out in stages."
+  "exhibitor": [
+   "exhibitor",
+   "words",
+   "Someone who shows their work or things to the public, for example at a fair.",
+   "A person or company that shows its work or products to the public, for example at a fair or exhibition."
   ],
-  "caqm": [
-   "CAQM",
-   "civics",
-   "The group that gives orders under Delhi's air pollution plan.",
-   "The Commission for Air Quality Management, the body that gives orders under GRAP, including lifting a stage."
-  ],
-  "earthshot-prize": [
-   "Earthshot Prize",
-   "civics",
-   "A prize founded by Prince William. In 2026 it had five winners.",
-   "A prize founded by Prince William. In 2026 it had five winners, and each won £1 million."
-  ],
-  "mumbai": [
-   "Mumbai",
-   "places",
-   "A city in India.",
-   "A city in India, where the 2026 Earthshot Prize winners were named."
-  ],
-  "electric-three-wheeler": [
-   "electric three-wheeler",
+  "wind-farm": [
+   "wind farm",
    "tech",
-   "A small vehicle with three wheels that runs on electricity. It is also called an electric rickshaw.",
-   "A three-wheeled vehicle powered by electricity, also called an electric rickshaw. It can help reduce air pollution on roads."
+   "A place with a group of machines that make electricity from wind.",
+   "An area of land with a group of wind turbines, machines that make electricity from wind."
   ],
-  "jpl": [
-   "Jet Propulsion Laboratory",
-   "places",
-   "A NASA centre in California. The Voyager 1 mission is run from there.",
-   "A NASA laboratory in California. The Voyager mission is run from there."
+  "megawatt": [
+   "megawatt",
+   "science",
+   "A unit for measuring power. One megawatt is one million watts.",
+   "A unit of power equal to one million watts, written MW for short."
+  ],
+  "fossil-fuels": [
+   "fossil fuels",
+   "science",
+   "Coal, oil and gas. People burn them to make energy.",
+   "Fuels such as coal, oil and natural gas, formed in the earth from the remains of plants and animals."
+  ],
+  "convention": [
+   "convention",
+   "words",
+   "A formal agreement between countries.",
+   "A formal agreement between groups, such as countries."
+  ],
+  "test-match": [
+   "Test match",
+   "words",
+   "A cricket match between the teams of two countries. It can last up to five days.",
+   "A cricket match played between the teams of two different countries. Play is spread over up to five days."
+  ],
+  "bwf-world-tour-finals": [
+   "BWF World Tour Finals",
+   "words",
+   "The last badminton event of the season.",
+   "The 2026 season finale, which means the last event of the badminton season."
+  ],
+  "semi-final": [
+   "semi-final",
+   "words",
+   "One of the matches just before the final.",
+   "One of the matches in the round just before the final."
+  ],
+  "tie-break": [
+   "tie-break",
+   "words",
+   "An extra game that decides a set when the score is level.",
+   "In tennis, an extra game played to decide the winner of a set when the score is level."
+  ],
+  "round-robin": [
+   "round robin",
+   "words",
+   "A contest where each player plays every other player.",
+   "A contest in which every player plays every other player in turn."
+  ],
+  "set": [
+   "set",
+   "words",
+   "One part of a tennis match.",
+   "One part of a tennis match. A match is split into sets."
+  ],
+  "fossil": [
+   "fossil",
+   "science",
+   "The remains or mark of an animal or plant that lived long ago.",
+   "The remains or trace of an animal or plant that lived long ago."
+  ],
+  "rainforest": [
+   "rainforest",
+   "science",
+   "A thick forest in a place where a lot of rain falls.",
+   "A thick forest in a tropical area where a lot of rain falls."
+  ],
+  "dna": [
+   "DNA",
+   "science",
+   "The material inside living things that carries the information for how they are made up.",
+   "The molecule in the cells of living things that carries genetic information, the information that decides how each living thing is made up."
+  ],
+  "drone": [
+   "drone",
+   "tech",
+   "A flying machine with no pilot on board.",
+   "A flying machine with no pilot on board, controlled from a distance."
+  ],
+  "galaxy": [
+   "galaxy",
+   "science",
+   "A very large group of stars in space.",
+   "A very large group of stars, with gas and dust, held together by gravity."
+  ],
+  "invest": [
+   "invest",
+   "words",
+   "To put money into something, hoping to gain from it later.",
+   "To put money into something in the hope of a benefit later."
+  ],
+  "world-ranking": [
+   "world rankings",
+   "words",
+   "A list that puts players in order by their results.",
+   "A list that puts the players of a sport in order by their results."
+  ],
+  "software-update": [
+   "update",
+   "tech",
+   "A change made to a computer program.",
+   "A change or addition to computer programs that brings them up to date."
+  ],
+  "cyberattack": [
+   "cyberattack",
+   "tech",
+   "An attempt to break into computers to cause harm.",
+   "An attempt to get into a computer or computer system illegally in order to cause damage or harm."
+  ],
+  "pv-sindhu": [
+   "PV Sindhu",
+   "people",
+   "An Indian badminton player. She is fifth in the women's singles world rankings.",
+   "An Indian badminton player. She is fifth in the women's singles world rankings released on Tuesday 17 November 2026, her first time in the top five since November 2022."
+  ],
+  "world-childrens-day": [
+   "World Children's Day",
+   "civics",
+   "A day for children, held every year on 20 November.",
+   "A day held every year on 20 November. On that date the Declaration of the Rights of the Child was adopted in 1959 and the Convention on the Rights of the Child in 1989."
+  ],
+  "guinness-world-record": [
+   "Guinness World Record",
+   "words",
+   "A world record title from Guinness World Records.",
+   "A world record title from Guinness World Records. A world record is the best result anyone in the world has reached at something."
   ]
  },
  "keys": {
-  "g-voyager": {
-   "type": "number",
-   "v": "24",
-   "l": "hours for a radio signal from Earth to reach Voyager 1, one way"
-  },
   "in-akvan": {
    "type": "number",
-   "v": "20",
-   "l": "November: the day Akvan is likely to cross the coast, around noon"
+   "v": "More than 70,000",
+   "l": "people moved to safety in Odisha ahead of Cyclone Akvan"
   },
-  "in-earthshot": {
+  "g-cop31": {
    "type": "number",
-   "v": "£1 million",
-   "l": "prize money for each of the five 2026 Earthshot Prize winners"
+   "v": "about 75",
+   "l": "countries said to back a promise to raise electricity's share of energy use to 35% by 2035"
   },
-  "in-saff-final": {
+  "g-erectus-teeth": {
    "type": "number",
-   "v": "10",
-   "l": "SAFF Championship titles India have won, a record"
+   "v": "8",
+   "l": "fossil teeth identified as Homo erectus, dated to between 324,000 and 184,000 years ago"
   },
-  "g-nvidia": {
+  "in-nz-test": {
    "type": "number",
-   "v": "$115.8 billion",
-   "l": "Nvidia's revenue, or money from sales, in the three months to 25 October 2026"
+   "v": "173",
+   "l": "runs in the unbroken partnership between Henry Nicholls and Glenn Phillips at the end of day one"
   },
-  "g-norway-comeback": {
+  "g-whale-dna": {
    "type": "number",
-   "v": "3-2",
-   "l": "Norway's win over Denmark on 17 November, after being 2-0 down"
+   "v": "58",
+   "l": "breath samples collected by drone from 26 humpback whales"
+  },
+  "g-star-swallow": {
+   "type": "number",
+   "v": "2.5 million",
+   "l": "light-years, about how far away the star system in the Andromeda galaxy is"
+  },
+  "in-sindhu": {
+   "type": "number",
+   "v": "5th",
+   "l": "PV Sindhu's place in the women's singles world rankings released on Tuesday 17 November"
+  },
+  "g-robot-dance": {
+   "type": "number",
+   "v": "151",
+   "l": "humanoid robots that danced together in Shenzhen, China, on Tuesday 17 November"
+  },
+  "g-children-day": {
+   "type": "number",
+   "v": "1989",
+   "l": "the year the Convention on the Rights of the Child was adopted, on 20 November"
+  },
+  "in-amazon-green": {
+   "type": "number",
+   "v": "$7 billion",
+   "l": "the amount Amazon plans to invest in renewable energy projects in India by 2030"
+  },
+  "g-alcaraz-semis": {
+   "type": "number",
+   "v": "6-2, 6-4",
+   "l": "the score by which Carlos Alcaraz beat Daniil Medvedev on Wednesday 18 November"
+  },
+  "in-trade-fair": {
+   "type": "number",
+   "v": "More than 3,500",
+   "l": "exhibitors from India and abroad at the 45th India International Trade Fair"
   }
  },
  "xkeys": {
-  "g-voyager": {
-   "type": "check",
-   "q": "How long does Voyager 1's reply take to come back?",
-   "a": [
-    "About one day",
-    "About one minute"
-   ],
-   "c": 0,
-   "right": "Right! A message takes about a day to get there, and the reply takes another day.",
-   "wrong": "Not quite. A message takes about a day to get there, and the reply takes another day."
-  },
   "in-akvan": {
    "type": "check",
-   "q": "Is Akvan now likely to cross the coast further north or further south than earlier forecasts said?",
+   "q": "What is a shelter?",
    "a": [
-    "Further north",
-    "Further south"
-   ],
-   "c": 0,
-   "right": "Right! Earlier forecasts said it would cross further south, so the new forecast is further north.",
-   "wrong": "Not quite. Earlier forecasts said it would cross further south, so the new forecast is further north."
-  },
-  "in-earthshot": {
-   "type": "check",
-   "q": "What does the winner from India make?",
-   "a": [
-    "Sailing boats",
-    "Electric three-wheelers"
+    "A kind of storm",
+    "A safe place to stay"
    ],
    "c": 1,
-   "right": "Right! Mahindra Last Mile Mobility makes electric three-wheelers.",
-   "wrong": "Not quite. Mahindra Last Mile Mobility makes electric three-wheelers."
+   "right": "Right! Shelters are safe places where people can stay.",
+   "wrong": "Not quite. Shelters are safe places where people can stay."
   },
-  "in-saff-final": {
+  "g-cop31": {
    "type": "check",
-   "q": "Which team scored first in the final?",
+   "q": "What is a draft?",
    "a": [
-    "India",
-    "Pakistan"
+    "The final version",
+    "An early version"
    ],
    "c": 1,
-   "right": "Right! Pakistan scored first, then India scored twice in the second half.",
-   "wrong": "Not quite. Pakistan scored first, then India scored twice in the second half."
+   "right": "Right! A draft is an early version. It can still be changed.",
+   "wrong": "Not quite. A draft is an early version. It can still be changed."
   },
-  "g-word-of-year": {
+  "g-erectus-teeth": {
    "type": "check",
-   "q": "What are people debating, so the dictionary chose the word human?",
+   "q": "Where do the teeth show these early humans lived?",
    "a": [
-    "The weather",
-    "AI"
+    "In a snowy pine forest",
+    "In rainforest"
    ],
    "c": 1,
-   "right": "Right! People are debating how AI is blurring the line between people and machines.",
-   "wrong": "Not quite. People are debating how AI is blurring the line between people and machines."
+   "right": "Right! The teeth show these early humans lived in rainforest.",
+   "wrong": "Not quite. The teeth show these early humans lived in rainforest."
   },
-  "in-grap": {
+  "in-nz-test": {
    "type": "check",
-   "q": "Can Delhi's schools go back to regular classes?",
+   "q": "How many New Zealand batters were out when the team had 70 runs?",
+   "a": [
+    "Two",
+    "Five"
+   ],
+   "c": 1,
+   "right": "Right! India's bowlers got five batters out when New Zealand had 70 runs.",
+   "wrong": "Not quite. India's bowlers got five batters out when New Zealand had 70 runs."
+  },
+  "g-whale-dna": {
+   "type": "check",
+   "q": "Were darts needed to collect the whales' breath?",
    "a": [
     "No",
     "Yes"
    ],
-   "c": 1,
-   "right": "Right! Delhi's schools can go back to regular classes.",
-   "wrong": "Not quite. Delhi's schools can go back to regular classes."
+   "c": 0,
+   "right": "Right! The drone caught the breath in clean dishes, so no darts were needed.",
+   "wrong": "Not quite. The drone caught the breath in clean dishes, so no darts were needed."
   },
-  "g-nvidia": {
+  "g-star-swallow": {
    "type": "check",
-   "q": "Did Nvidia sell more or less than the year before?",
+   "q": "When did the giant star give off a burst of light?",
    "a": [
-    "Less",
-    "More"
+    "In 2023",
+    "Late in 2025"
    ],
    "c": 1,
-   "right": "Right! Its sales were more than double the year before.",
-   "wrong": "Not quite. Its sales were more than double the year before."
+   "right": "Right! The team first noticed the star in 2023, and it gave off a burst of light late in 2025.",
+   "wrong": "Not quite. The team first noticed the star in 2023, but it gave off a burst of light late in 2025."
   },
-  "g-norway-comeback": {
+  "in-sindhu": {
    "type": "check",
-   "q": "Which team was winning 2-0 at first?",
+   "q": "How did PV Sindhu do at the HYLO Open?",
    "a": [
-    "Denmark",
-    "Norway"
+    "She won it",
+    "She came second"
    ],
    "c": 0,
-   "right": "Right! Denmark were 2-0 up, but Norway came back to win 3-2.",
-   "wrong": "Not quite. Denmark were 2-0 up, but Norway came back to win 3-2."
+   "right": "Right! She won the HYLO Open and came second at the French Open.",
+   "wrong": "Not quite. She won the HYLO Open. She came second at the French Open."
+  },
+  "g-robot-dance": {
+   "type": "check",
+   "q": "What does humanoid mean?",
+   "a": [
+    "Shaped like a dog",
+    "Shaped like a human"
+   ],
+   "c": 1,
+   "right": "Right! Humanoid means shaped like a human.",
+   "wrong": "Not quite. Humanoid means shaped like a human."
+  },
+  "g-children-day": {
+   "type": "check",
+   "q": "What is World Children's Day about?",
+   "a": [
+    "Children's toys",
+    "Children and their rights"
+   ],
+   "c": 1,
+   "right": "Right! The day is about children and their rights.",
+   "wrong": "Not quite. The day is about children and their rights."
+  },
+  "in-amazon-green": {
+   "type": "check",
+   "q": "Is the 7 billion dollars a plan, or money already spent?",
+   "a": [
+    "Money already spent",
+    "A plan for the future"
+   ],
+   "c": 1,
+   "right": "Right! Amazon plans to invest the money by 2030. It is a plan for the future.",
+   "wrong": "Not quite. Amazon plans to invest the money by 2030. It is a plan for the future, not money already spent."
+  },
+  "g-alcaraz-semis": {
+   "type": "check",
+   "q": "Who won the match between Carlos Alcaraz and Daniil Medvedev?",
+   "a": [
+    "Daniil Medvedev",
+    "Carlos Alcaraz"
+   ],
+   "c": 1,
+   "right": "Right! Alcaraz won both sets, so he won the match.",
+   "wrong": "Not quite. Alcaraz won both sets, so he won the match."
+  },
+  "g-apple-outage": {
+   "type": "check",
+   "q": "According to reporters, how many services does one Apple Account open?",
+   "a": [
+    "Many services",
+    "Only one service"
+   ],
+   "c": 0,
+   "right": "Right! One Apple Account opens many services, so they can stop together if the account check fails.",
+   "wrong": "Not quite. One Apple Account opens many services, so they can stop together if the account check fails."
+  },
+  "in-trade-fair": {
+   "type": "check",
+   "q": "Who were the first five days of the fair kept for?",
+   "a": [
+    "Business visitors",
+    "Schoolchildren"
+   ],
+   "c": 0,
+   "right": "Right! The first five days were kept for business visitors. The public can visit from Thursday 19 November.",
+   "wrong": "Not quite. The first five days were kept for business visitors. The public can visit from Thursday 19 November."
   }
  },
  "deep": {
-  "g-voyager": {
-   "ctx": "Voyager 2 was launched about two weeks before Voyager 1, and most of Voyager 1's science instruments have been switched off. Its nuclear power supply loses about 4 watts a year. In October 2026, contact with Voyager 1 was lost for about two days before it came back.",
-   "ask": "NASA tracks Voyager 1 with giant antennas in California, Spain and Australia. Should big space missions be shared between many countries, or is it simpler for one space agency to run them?",
-   "jobs": [
-    "Spacecraft engineer",
-    "Radio antenna technician",
-    "Space physicist (a scientist who studies space)"
-   ]
-  },
   "in-akvan": {
-   "ctx": "Akvan is moving north-northwest over the Bay of Bengal. In Tamil Nadu, fishermen have been told to stay out of the sea.",
-   "ask": "Akvan's expected crossing area moved north in Wednesday's forecast. Some people find it clearer to hear only the newest forecast. Others trust forecasts more when they also hear how and why it changed. Which helps people more?",
+   "ctx": "According to the 5:30 am weather bulletin on Thursday 19 November, Akvan was about 440 kilometres east-southeast of Narsapur, 530 kilometres south of Gopalpur and 590 kilometres south of Puri. It was a severe cyclonic storm over the west-central Bay of Bengal, and the likely crossing point was given as close to the east of Gopalpur, in Odisha.",
+   "ask": "Schools in six districts are closed for three days. When schools have to close for safety, should lessons carry on in another way, such as online, or is it fairer to pause and catch up when everyone is back?",
    "jobs": [
-    "Weather forecaster (meteorologist)",
-    "Disaster response team member",
-    "Science journalist"
+    "Meteorologist (a scientist who forecasts the weather)",
+    "Disaster management officer (plans how to keep people safe in emergencies)",
+    "Railway operations controller (plans and changes train times)"
    ]
   },
-  "in-earthshot": {
-   "ctx": "The Earthshot Prize was first held in 2020, and this year's awards were its sixth. The five winners were chosen from 15 finalists across five categories: Protect and Restore Nature, Clean Our Air, Revive Our Oceans, Build a Waste-free World and Fix Our Climate.",
-   "ask": "One winner, Mahindra Last Mile Mobility, is a company. Another, Bhutan, is a whole country. Should prizes for the planet go to companies and countries, or are they more useful for small groups and inventors with new ideas?",
+  "g-cop31": {
+   "ctx": "The second Global Stocktake is due to conclude in 2028. The name Divan comes from a word for a council. Another open question at COP31 is money for adaptation, which means changing to fit a new situation, such as the effects of climate change.",
+   "ask": "Some countries have set out their own plans to move away from fossil fuels while the shared deal is still being negotiated. Is it better for countries to move ahead with their own plans, or to put their effort into one deal that every country can accept?",
    "jobs": [
-    "Electric vehicle engineer",
-    "Environmental scientist",
-    "Rickshaw fleet manager"
+    "Climate data analyst (studies numbers on energy and emissions)",
+    "Power grid engineer (designs the networks that carry electricity)",
+    "Treaty lawyer (works on agreements between countries)"
    ]
   },
-  "in-saff-final": {
-   "ctx": "The final was Pakistan's first appearance in a SAFF Championship final. India's winning goal came from a corner taken by Abdul Rabeeh, which Mandi met with a header.",
-   "ask": "A VAR review of video replays came before the red card in this final. Do video replays make football fairer, or does stopping to check them take something away from the flow of a match?",
+  "g-erectus-teeth": {
+   "ctx": "Homo erectus emerged about 2 million years ago, and the most recent known fossils of the species, from Java, are a little over 100,000 years old. Scientists identified the teeth by their shape, with ancient proteins analysed in some of them, and five dating techniques, which are ways of working out how old something is, were used. A ninth tooth was also found, and it is not identified as Homo erectus.",
+   "ask": "This new picture of where Homo erectus lived has eight human teeth at its centre. How much evidence should scientists need before they change a long-held idea about the past, and is a small find that is tested in many ways enough?",
    "jobs": [
-    "Video assistant referee (VAR) official",
-    "Sports physiotherapist",
-    "Football commentator"
+    "Palaeontologist (a scientist who studies life from long ago by looking at fossils)",
+    "Archaeologist",
+    "Museum curator"
    ]
   },
-  "g-word-of-year": {
-   "ctx": "In 2023, Cambridge Dictionary picked another word linked to AI: \"hallucinate\". In that meaning, when an AI hallucinates, it produces false information.",
-   "ask": "If a machine could do a task as well as a person, should people still do it themselves, or is it fine to let the machine do it?",
+  "in-nz-test": {
+   "ctx": "Jasprit Bumrah bowled New Zealand's captain, Tom Latham, for 0 in the first over of the match. New Zealand were 60 for 4 at lunch, and India took no wicket in the last part of the day. The century is Nicholls's 12th in Tests and his fifth at the Basin Reserve.",
+   "ask": "A Test match can last up to five days, far longer than most sports events. Is that length what makes Test cricket special, or does it make the game too hard for new fans to follow?",
    "jobs": [
-    "Lexicographer (a person who writes dictionaries)",
-    "AI researcher",
-    "Linguist (a person who studies language)"
+    "Cricket coach",
+    "Sports statistician (keeps and studies match numbers)",
+    "Groundskeeper (looks after the pitch and the field)"
    ]
   },
-  "in-grap": {
-   "ctx": "Air quality is measured using the Air Quality Index, or AQI, which puts readings into categories such as \"moderate\", \"poor\" and \"severe\". Government and private offices in Delhi must still have half of their staff working from home.",
-   "ask": "When the air gets cleaner, should strict pollution rules be lifted quickly so school and work can return to normal, or kept a little longer in case the air gets worse again?",
+  "g-whale-dna": {
+   "ctx": "About 16% of the DNA in each breath sample came largely from microbes in the whale's airways. Before this study, only one whole genome of a North Pacific humpback whale was publicly available. More than a third of the samples were collected by flying the drone from land.",
+   "ask": "Drones can now collect samples from whales without darts, but they still fly through the animals' breath. Should scientists gather as much information about wild animals as new tools allow, or are there times when wild animals are better left alone?",
    "jobs": [
-    "Air quality scientist",
-    "Environmental engineer",
-    "Public health officer"
+    "Marine mammal ecologist (a scientist who studies sea mammals and where they live)",
+    "Geneticist (a scientist who studies how features pass from parents to their young)",
+    "Drone pilot"
    ]
   },
-  "g-nvidia": {
-   "ctx": "A year earlier, in the same three months, Nvidia's revenue was about $57 billion. Revenue from its Data Center business grew by 110 per cent compared with a year earlier.",
-   "ask": "Nvidia's sales of chips used for AI more than doubled in a year. Is spending this much on AI a good use of money, or should more go to other things?",
+  "g-star-swallow": {
+   "ctx": "The companion star was about 70% of the Sun's mass. The team, whose lead author is Viraj Karambelkar of Columbia University in New York, first noticed the giant star in data from NASA's NEOWISE space telescope, and a telescope called WINTER was also used.",
+   "ask": "Is telescope time better spent watching a few unusual objects for years, or scanning as much of the sky as possible for new ones?",
    "jobs": [
-    "Computer chip designer",
-    "Financial analyst",
-    "Data centre technician"
+    "Astronomer",
+    "Astrophysicist (a scientist who studies what stars and other objects in space are made of and how they behave)",
+    "Telescope engineer"
    ]
   },
-  "g-norway-comeback": {
-   "ctx": "Denmark scored both of their goals in the first 15 minutes. Norway's win meant they finished second in Group A4.",
-   "ask": "Norway's winning penalty came in stoppage time, the minutes added on at the end of a match. Should referees add on time for every stoppage, even if matches get longer, or keep matches to a fixed length?",
+  "in-sindhu": {
+   "ctx": "The Japan Open, which Sindhu won in 2026, is a Super 750 tournament. In the men's singles rankings, Lakshya Sen climbed to 11th after winning a Super 500 tournament in Japan.",
+   "ask": "World rankings turn a player's results into one place on a list. Do rankings push athletes to keep improving, or do they put too much weight on numbers and too little on how someone plays?",
    "jobs": [
-    "Football referee",
-    "Sports journalist",
-    "Match video analyst"
+    "Badminton coach",
+    "Sports physiotherapist (helps athletes stay fit and recover)",
+    "Sports journalist"
+   ]
+  },
+  "g-robot-dance": {
+   "ctx": "The dance took place ahead of the APEC Economic Leaders' Meeting in Shenzhen. Guinness World Records Day in 2026 was on Thursday 19 November.",
+   "ask": "A planned dance by 151 robots is different from robots doing useful work in homes and factories. Is a world record dance challenge a real sign of progress in robotics, or mostly a show?",
+   "jobs": [
+    "Robotics engineer",
+    "Control systems engineer (designs how machines move)",
+    "Choreographer (plans the steps of a dance)"
+   ]
+  },
+  "g-children-day": {
+   "ctx": "Children's rights include the right to health, to education and to protection. Children also have a right to be heard.",
+   "ask": "Children's rights are set out in an agreement between countries. Who do you think has the biggest part in making those rights real in a child's daily life: governments, schools, families, or children themselves?",
+   "jobs": [
+    "Children's rights lawyer",
+    "Social worker (supports children and families who need help)",
+    "Teacher"
+   ]
+  },
+  "in-amazon-green": {
+   "ctx": "Amazon has also announced a global goal to cut the carbon intensity of the electricity used in its operations by 65% by 2030, compared with 2019. Amazon's renewable energy portfolio in India has 57 projects, and worldwide it has more than 700 wind and solar projects. The 234 megawatt wind farm in Karnataka is described as Amazon's largest wind project contracted in Asia to date.",
+   "ask": "Amazon's $7 billion is a plan for the years up to 2030. Should a company be praised when it announces a plan like this, or only once the projects are built, and who should check that it happens?",
+   "jobs": [
+    "Wind turbine technician",
+    "Solar energy engineer",
+    "Sustainability officer (helps a company reduce its effect on the environment)"
+   ]
+  },
+  "g-alcaraz-semis": {
+   "ctx": "Both singles matches on Wednesday were in the Ivan Lendl Group. The four players in that group are Alcaraz, Cobolli, Medvedev and Tiafoe.",
+   "ask": "A group stage gives every player several matches, while a knockout sends the loser home at once. Which format is the fairer test of who is best, and which is more exciting to watch?",
+   "jobs": [
+    "Tennis coach",
+    "Chair umpire (the official who keeps the score and rules on points)",
+    "Sports data analyst (studies match numbers)"
+   ]
+  },
+  "g-apple-outage": {
+   "ctx": "On Tuesday, an Apple spokesperson said many of the company's systems were back up and running, and that it was working to get the remaining systems online as soon as possible. Later, Apple's status page also listed Apple School Manager, Schoolwork, Apple Business, iCloud Mail and iCloud Web Apps.",
+   "ask": "Using one account for many services is simple, but a single failure can then reach many of them. Is it wiser to rely on one account from one company, or to spread what you use across several companies, even if that is less convenient?",
+   "jobs": [
+    "Site reliability engineer (keeps online services running)",
+    "Software tester",
+    "Cybersecurity analyst"
+   ]
+  },
+  "in-trade-fair": {
+   "ctx": "Bihar, Maharashtra, Rajasthan and Uttar Pradesh are the fair's Partner States, and Assam, Delhi, West Bengal and Jharkhand are its Focus States. The countries taking part also include Iran, Ghana, Afghanistan, the UAE, Türkiye and China.",
+   "ask": "The fair kept its first five days for business visitors before the public came in. Should a trade fair serve companies looking for deals first, or ordinary visitors who want to see and buy what is made?",
+   "jobs": [
+    "Event manager",
+    "Exhibition stand designer (plans how a company's display looks)",
+    "Export manager (sells a company's goods to buyers in other countries)"
    ]
   }
  },
- "today": {
-  "days": [
-   {
-    "name": "National Naturopathy Day",
-    "what": "India marks National Naturopathy Day on 18 November. The first one was held across India on 18 November 2018. This year's day focuses on research and on healthy habits such as a good diet, physical activity and yoga.",
-    "where": [
-     "IN"
-    ]
-   },
-   {
-    "name": "World AMR Awareness Week begins",
-    "what": "World AMR Awareness Week runs from 18 to 24 November every year. AMR stands for antimicrobial resistance. It happens when germs such as bacteria change so that medicines stop working against them."
-   }
-  ],
-  "born": [
-   {
-    "name": "Louis Daguerre",
-    "year": 1787,
-    "what": "A French artist and inventor, born near Paris. He first became known for painting scenery for the stage. He invented the daguerreotype, the first practical way of taking photographs, which was announced in 1839."
-   },
-   {
-    "name": "Alan Shepard",
-    "year": 1923,
-    "what": "An American astronaut, born in East Derry, New Hampshire. On 5 May 1961 he became the first American in space. In 1971 he commanded Apollo 14 and walked on the Moon."
-   }
-  ],
-  "week": "World AMR Awareness Week runs from 18 to 24 November. World Children's Day is on Friday 20 November."
- },
- "learn": {
-  "subject": "History",
-  "cat": "history",
-  "link": "On this day in 1883: the Day of Two Noons",
-  "x": {
-   "t": "Why do we have time zones?",
-   "b": [
-    "Long ago, each town set its clocks by the Sun. So nearby towns had different times.",
-    "That was hard for railways. Their timetables got very muddled.",
-    "In 1883, railways in the United States started using time zones. Places in the same zone could then share the same time."
-   ],
-   "remember": "A time zone is an area where everyone uses the same clock time.",
-   "q": "How did towns set their clocks long ago?",
-   "a": [
-    "By the Sun",
-    "By the radio"
-   ],
-   "c": 0
-  },
-  "o": {
-   "t": "Why do we have time zones?",
-   "b": [
-    "Before the 1880s, each town in the United States kept its own local time, based on the position of the Sun. Clocks in towns not far apart could show different times.",
-    "This made life hard for the railways, which had to run trains to timetables across many towns. On 18 November 1883, railways in the United States switched to a new system of standard time zones. Clocks were reset at noon, so some places had noon twice that day. It was called the Day of Two Noons.",
-    "In 1918, the United States Congress made standard time law in the Standard Time Act. Time zones still organise clocks today."
-   ],
-   "remember": "Time zones began with the railways: on 18 November 1883, railways in the United States switched to standard time.",
-   "q": "Why was 18 November 1883 called the Day of Two Noons?",
-   "a": [
-    "Some places had noon twice",
-    "The Sun rose twice",
-    "Trains ran twice as fast"
-   ],
-   "c": 0
-  }
- },
- "backThen": {
-  "y": 1963,
-  "t": "The first push-button telephone service begins",
-  "o": "On 18 November 1963, the Bell telephone company began offering the world's first commercial service for touch-tone telephones, which have push buttons instead of a dial. The service started with customers in Carnegie and Greensburg, in Pennsylvania in the United States.",
-  "x": "On this day in 1963, people could first pay for a phone service that used push buttons. Before that, phones had a dial. The first customers lived in two towns in the United States.",
-  "why": "Over the next few decades, push buttons replaced dials, and all of today's phones still use the touch-tone system to dial numbers."
- },
- "hiddenWords": [
-  {
-   "k": "signal",
-   "o": "Signal goes back to the Latin word signum, which means a mark or sign."
-  },
-  {
-   "k": "antenna",
-   "o": "Antenna comes from a Latin word for the sail yard, a long pole that sticks out from a ship's mast to hold a sail."
-  }
- ],
  "bigStory": {
   "week": "2026-11-16",
   "story": "g-voyager",
@@ -910,7 +1423,8 @@
    {
     "d": "2026-11-19",
     "h": "Phoning home",
-    "lock": "Thursday: how do you talk to a spacecraft when a signal takes a whole day to arrive?"
+    "o": "NASA talks to Voyager 1 by radio through its Deep Space Network, a set of giant radio antennas at three sites: Goldstone in California, near Madrid in Spain and near Canberra in Australia. The sites are placed around the world so that they can keep in contact with a spacecraft as Earth turns. Each site has one antenna that is 70 metres across. A radio signal now takes about 24 hours to reach Voyager 1, and its reply takes another 24 hours to come back, so a message and its answer make a two-day round trip.",
+    "x": "NASA talks to Voyager 1 with radio signals. It uses giant radio antennas in California, Spain and Australia. A message takes about a day to reach Voyager 1. The reply takes another day to come back."
    },
    {
     "d": "2026-11-20",
@@ -1377,5 +1891,86 @@
    "Where and when did it happen?"
   ],
   "sample": []
- }
+ },
+ "today": {
+  "days": [
+   {
+    "name": "World Toilet Day",
+    "what": "World Toilet Day is marked on 19 November. It was started in 2001 by the World Toilet Organization and became an official United Nations day in 2013."
+   },
+   {
+    "name": "World Heritage Week begins",
+    "what": "In India, World Heritage Week is observed from 19 to 25 November. The Archaeological Survey of India marks it.",
+    "where": [
+     "IN"
+    ]
+   }
+  ],
+  "born": [
+   {
+    "name": "Indira Gandhi",
+    "year": 1917,
+    "what": "Born in Allahabad, India. She was the daughter of Jawaharlal Nehru, India's first prime minister. She was prime minister of India from 1966 to 1977 and again from 1980 to 1984."
+   },
+   {
+    "name": "José Raúl Capablanca",
+    "year": 1888,
+    "what": "A chess player born in Havana, Cuba. He learned chess at the age of four. He became world chess champion in 1921 and held the title until 1927."
+   }
+  ],
+  "week": "World Children's Day is on Friday 20 November."
+ },
+ "learn": {
+  "subject": "Science",
+  "cat": "science",
+  "link": "From this week's Big Story: talking to Voyager 1",
+  "x": {
+   "t": "What are radio waves?",
+   "b": [
+    "Radio waves are waves that we cannot see. They carry sounds and other information from place to place.",
+    "Radio waves travel through the air. They can travel through empty space too.",
+    "Radio and television programmes are sent by radio waves. Mobile phones use them too. So do the people who talk to spacecraft."
+   ],
+   "remember": "Radio waves are invisible waves that carry information through the air and through space.",
+   "q": "Can we see radio waves?",
+   "a": [
+    "Yes",
+    "No"
+   ],
+   "c": 1
+  },
+  "o": {
+   "t": "What are radio waves?",
+   "b": [
+    "Radio waves are a type of electromagnetic wave. Light is an electromagnetic wave too, but radio waves are invisible. They travel at the speed of light, about 300,000 kilometres every second.",
+    "Radio waves do not need air or anything else to carry them, so they can travel through empty space. A device called a transmitter sends the waves out, and an antenna picks them up. Radio and television programmes, mobile phones and Wi-Fi all use radio waves. So does the team that talks to Voyager 1.",
+    "The scientist James Clerk Maxwell predicted electromagnetic waves in the 1860s. In the late 1880s, the German physicist Heinrich Hertz showed that radio waves exist. The hertz, a unit used to measure the frequency of waves, is named after him."
+   ],
+   "remember": "Radio waves are invisible electromagnetic waves. They travel at the speed of light and can cross empty space.",
+   "q": "Who showed in the late 1880s that radio waves exist?",
+   "a": [
+    "James Clerk Maxwell",
+    "Heinrich Hertz",
+    "Nobody knows"
+   ],
+   "c": 1
+  }
+ },
+ "backThen": {
+  "y": 1969,
+  "t": "Pelé scores the 1,000th goal of his career",
+  "o": "On 19 November 1969, the Brazilian footballer Pelé scored the 1,000th goal of his career. He was playing for his club, Santos, against Vasco da Gama at the Maracanã stadium in Rio de Janeiro. The goal was a penalty kick, scored in the 78th minute. Reporters and photographers ran onto the pitch.",
+  "x": "On this day in 1969, the footballer Pelé scored his 1,000th goal. He scored it from a penalty kick at a stadium in Brazil. Reporters and photographers ran onto the pitch.",
+  "why": "Pelé dedicated the goal to the children of Brazil. This Friday, 20 November, is World Children's Day."
+ },
+ "hiddenWords": [
+  {
+   "k": "fossil",
+   "o": "Fossil comes from the Latin word fossilis, which means dug up. It comes from fodere, the Latin word for to dig."
+  },
+  {
+   "k": "century",
+   "o": "Century comes from the Latin word centuria, a group of one hundred. It comes from centum, the Latin word for hundred."
+  }
+ ]
 }

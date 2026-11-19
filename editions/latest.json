@@ -802,14 +802,14 @@
   },
   "in-badminton-hk": {
    "type": "check",
-   "q": "Kidambi Srikanth beat Lakshya Sen's closest rival. Did that help Lakshya?",
+   "q": "Kidambi Srikanth beat the player chasing Lakshya Sen's place. Did that help Lakshya?",
    "a": [
     "Yes",
     "No"
    ],
    "c": 0,
-   "right": "Right! Once his closest rival lost, Lakshya's place in the World Tour Finals was safe.",
-   "wrong": "Not quite. When Srikanth beat Lakshya's closest rival, Lakshya's place in the World Tour Finals was safe."
+   "right": "Right! Once that player lost, Lakshya's place in the World Tour Finals was safe.",
+   "wrong": "Not quite. When Srikanth beat the player chasing Lakshya's place, Lakshya's place in the World Tour Finals was safe."
   }
  },
  "deep": {
@@ -841,7 +841,7 @@
    ]
   },
   "g-stonefly": {
-   "ctx": "The stonefly belongs to a family of stoneflies called Gripopterygidae, in the insect order Plecoptera. It was found about 780 metres above sea level on Navarino Island, beside the remains of a retreating glacier. The study, led by Javier Rendoll-Carcamo with scientists from the University of Magallanes, was published in the journal Ecology.",
+   "ctx": "The stonefly belongs to a family of stoneflies called Gripopterygidae, in the insect order Plecoptera. The Patagonian dragon, which the team was looking for, is also a stonefly and lives on glaciers in Patagonia. The new stonefly spends part of its life at the edge of the ice, so scientists say it could be at risk if the glacier keeps shrinking.",
    "ask": "This stonefly was found beside a glacier that is shrinking. Some people think scientists should hurry to find and name species in places that are changing fast. Others think slow, careful study matters more, even if it takes years. Which matters more?",
    "jobs": [
     "Entomologist (a scientist who studies insects)",
@@ -868,7 +868,7 @@
    ]
   },
   "g-korea-exports": {
-   "ctx": "Last year South Korea's exports were worth about 700 billion dollars, so its 2026 total is already much higher. Computer chips made up more than 40% of its exports, which means one kind of product brings in a large share of the money it earns from selling abroad.",
+   "ctx": "Last year South Korea's exports were worth about 700 billion dollars, so its 2026 total is already much higher. South Korea's chip exports from January to October were nearly three times as high as in the same months of 2025, and the government expects exports for the whole of 2026 to reach about 1.17 trillion dollars.",
    "ask": "Chips made up more than 40% of South Korea's exports. Some people say a country does best when it focuses on what it makes best. Others say it is safer to sell many different kinds of goods. Which approach do you think is better for a country?",
    "jobs": [
     "Semiconductor engineer",

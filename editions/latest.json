@@ -126,8 +126,8 @@
    "x": {
     "t": "Eight old teeth tell a story about early humans",
     "b": [
-     "Scientists found eight [[fossil|fossil]] teeth in two caves in southern China. A fossil is the remains of a living thing from long ago.",
-     "The teeth suggest that [[homo-erectus|Homo erectus]], an early kind of human, lived there. That was between 324,000 and 184,000 years ago.",
+     "Scientists found [[fossil|fossil]] teeth in two caves in southern China. A fossil is the remains of a living thing from long ago.",
+     "Eight of the teeth suggest that [[homo-erectus|Homo erectus]], an early kind of human, lived there. That was between 324,000 and 184,000 years ago.",
      "The teeth hold other clues. They show these early humans lived in [[rainforest|rainforest]]. Scientists had not recorded them in rainforest before."
     ]
    },
@@ -189,7 +189,7 @@
     "b": [
      "New Zealand were 243 for 5 at the end of day one of the first [[test-match|Test match]] against India, at the [[basin-reserve|Basin Reserve]] in Wellington, on Thursday 19 November. A Test is a cricket match between the teams of two different countries, with play spread over up to five days.",
      "India bowled first and took five early [[wicket|wickets]], which means they got five batters out. That left New Zealand on 70 for 5. India's Jasprit Bumrah took three wickets for 52 runs.",
-     "Then Henry Nicholls and Glenn Phillips batted together for the rest of the day. Nicholls made a [[century|century]], 100 runs or more, and ended the day on 113 not out, meaning he has not been got out. Phillips was 94 not out. Their partnership, the runs two batters add together, is worth 173 so far. The match is not finished, so both can bat on."
+     "Then Henry Nicholls and Glenn Phillips batted together for the rest of the day. Nicholls made a [[century|century]], 100 runs or more, and ended the day on 113 not out, meaning he had not been got out. Phillips was 94 not out. Their partnership, the runs two batters add together, was worth 173 at the end of day one."
     ]
    },
    "think": "New Zealand lost five batters early, but two players kept going for the rest of the day. What helps you keep going when something starts badly?",
@@ -238,14 +238,14 @@
     "b": [
      "Scientists flew a small [[drone|drone]] through the breath of humpback whales off Canada. The drone carried clean dishes to catch the breath.",
      "The breath held the whales' [[dna|DNA]]. DNA carries the information for how a living thing is made up. The scientists read whole sets of it.",
-     "No darts were needed, and boats did not have to come close. Next, the team plans to study the whales' family ties."
+     "The whales' DNA was read without darts or close boat approaches. Next, the team plans to study the whales' family ties."
     ]
    },
    "o": {
     "t": "Scientists read whale DNA from breath caught by a drone",
     "b": [
      "Scientists have sequenced the whole [[genome|genomes]] of humpback whales from the animals' breath. A genome is the complete set of [[dna|DNA]] in a living thing, and to sequence it is to work out the order of its chemical parts. DNA is the molecule in cells that carries the information for how a living thing is made up. The study was published in the journal Molecular Ecology Resources on Tuesday 17 November.",
-     "The team, which included scientists from the University of St Andrews, attached sterile, or germ-free, dishes to a small [[drone|drone]]. They flew it through the whales' exhaled breath off [[british-columbia|British Columbia]], Canada, and collected 58 samples from 26 whales. The work needed no darts and no close boat approaches.",
+     "The team, which included scientists from the University of St Andrews, attached sterile, or germ-free, dishes to a small [[drone|drone]]. They flew it through the whales' breath off [[british-columbia|British Columbia]], Canada, and collected 58 samples from 26 whales. The genomes were sequenced without darts or close boat approaches.",
      "The drone data correctly showed whether each whale was male or female. The team plans to use the genomes to study the whales' family ties and social bonds."
     ]
    },
@@ -274,61 +274,6 @@
      "https://www.eurekalert.org/news-releases/1151764"
     ]
    ]
-  },
-  {
-   "id": "g-apec-three",
-   "scope": "global",
-   "cat": "world",
-   "emoji": "🤝",
-   "date": "2026-11-19",
-   "kind": "news",
-   "x": {
-    "t": "Three leaders meet in China to talk",
-    "b": [
-     "The leaders of three countries met in China on Thursday. The countries are the United States, China and Russia.",
-     "They met in a city called [[shenzhen|Shenzhen]]. News reports call it the first meeting of its kind.",
-     "When leaders meet, they can talk about problems face to face. Talking is not the same as agreeing."
-    ]
-   },
-   "o": {
-    "t": "Leaders of the US, China and Russia hold a three-way meeting",
-    "b": [
-     "US President Donald Trump, China's President Xi Jinping and Russia's President Vladimir Putin met together in [[shenzhen|Shenzhen]], China, on Thursday 19 November. News reports describe it as the first three-way meeting of the leaders of the United States, China and Russia.",
-     "A meeting of three sides is called [[trilateral|trilateral]], and a meeting of two sides is [[bilateral|bilateral]]. Earlier on Thursday, Mr Trump held separate bilateral meetings with Mr Xi and with Mr Putin. The meetings took place at the [[apec|APEC]] [[summit|summit]], a meeting of leaders. APEC is short for Asia-Pacific Economic Cooperation. It has 21 members, known as economies.",
-     "The talks were not expected to produce major agreements, news reports said. A meeting gives leaders a chance to talk face to face. It is not the same as an agreement, which is an arrangement about what to do that all sides accept."
-    ]
-   },
-   "think": "When you disagree with someone, what helps you sit down and talk it through with them?",
-   "quiz": {
-    "q": "What is a meeting of three sides called?",
-    "a": [
-     "A bilateral meeting",
-     "A trilateral meeting",
-     "An agreement",
-     "An economy"
-    ],
-    "c": 1
-   },
-   "src": [
-    [
-     "Al Jazeera with AP and Reuters, 19 Nov",
-     "https://www.aljazeera.com/news/2026/11/19/trump-meets-putin-and-xi-ahead-of-us-russia-china-trilateral-talks"
-    ],
-    [
-     "USA Today via Yahoo News, 19 Nov",
-     "https://www.yahoo.com/news/politics/articles/hes-friend-trump-putin-xi-091403622.html"
-    ],
-    [
-     "AFP via Yahoo News, 19 Nov",
-     "https://www.yahoo.com/news/world/articles/chinas-xi-host-historic-summit-235550972.html"
-    ],
-    [
-     "ABC News, 19 Nov",
-     "https://abcnews.com/Politics/live-updates/trump-asia-trip-2026/?id=138187702"
-    ]
-   ],
-   "olderOnly": true,
-   "sensitive": "politics"
   },
   {
    "id": "g-star-swallow",
@@ -451,8 +396,8 @@
     "t": "151 dancing robots in Shenzhen set a Guinness World Record",
     "b": [
      "On Tuesday 17 November, 151 [[humanoid|humanoid]] robots danced together in [[shenzhen|Shenzhen]], a city in China. Humanoid means shaped like a human, so each of these machines was built in the form of a human body.",
-     "The dance was a [[guinness-world-record|Guinness World Record]] challenge, and it set a new record. A world record is the best result anyone in the world has reached at something, and Guinness World Records is an organisation that keeps a list of such records. This challenge was for the most humanoid robots dancing within one hour.",
-     "The show was a display of robotic coordination. That means getting large numbers of machines to perform the same movements at the same time."
+     "The dance was a [[guinness-world-record|Guinness World Record]] challenge, and it set a new record. A world record is the best result anyone in the world has reached at something. This challenge was for the most humanoid robots dancing within one hour.",
+     "The show was a display of robotic coordination. That means the robots performed the same dance moves at the same time."
     ]
    },
    "think": "If you could teach a robot one dance move, which would you choose, and what might make it tricky for a robot to copy?",
@@ -502,15 +447,15 @@
     "b": [
      "[[world-childrens-day|World Children's Day]] is on Friday 20 November. It comes on that date every year.",
      "The day is about children and their [[rights|rights]]. Rights are things every person should have, like learning and being safe.",
-     "On 20 November 1989, the [[un|United Nations]] accepted an agreement about children's rights. That is why the day is on this date."
+     "On 20 November 1989, an agreement about children's rights was accepted. That is why the day is on this date."
     ]
    },
    "o": {
     "t": "World Children's Day: why 20 November is about children's rights",
     "b": [
-     "[[world-childrens-day|World Children's Day]] is held every year on 20 November, which falls on a Friday this year. The date marks two moments at the [[un|United Nations]] General Assembly, the body where the UN's member countries meet.",
-     "On 20 November 1959, the General Assembly adopted, or formally accepted, the Declaration of the Rights of the Child. A declaration is an official statement, or a document that contains one. On 20 November 1989, it adopted the [[convention|Convention on the Rights of the Child]]. A convention is a formal agreement between countries.",
-     "[[rights|Rights]] are things every person is entitled to have or do, such as an education. [[unicef|UNICEF]] is the United Nations organisation that works for children."
+     "[[world-childrens-day|World Children's Day]] is held every year on 20 November, which falls on a Friday this year. The date marks two moments in the history of children's rights.",
+     "On 20 November 1959, the Declaration of the Rights of the Child was adopted, or formally accepted. A declaration is an official statement, or a document that contains one. On 20 November 1989, the [[convention|Convention on the Rights of the Child]] was adopted. A convention is a formal agreement between countries.",
+     "[[rights|Rights]] are things every person is entitled to have or do, such as an education. [[unicef|UNICEF]] is the [[un|United Nations]] organisation that works for children."
     ]
    },
    "think": "World Children's Day is about children's rights. Which right do you think matters most in a child's daily life, and why?",
@@ -558,7 +503,7 @@
     "t": "Amazon plans to invest $7 billion in renewable energy in India",
     "b": [
      "Amazon said on Tuesday 17 November that it plans to invest $7 billion in [[renewable-energy|renewable energy]] projects in India by 2030. To [[invest|invest]] is to put money into something to gain later. Renewable energy comes from sources that do not run out, such as wind and sunlight.",
-     "The plan is in addition to $4 billion that Amazon has already contracted, or agreed by contract, for renewable energy in India. Four new projects announced the same day are part of that $4 billion. They are a [[wind-farm|wind farm]], which makes electricity from wind, and a combined wind and solar project in Karnataka, plus a solar project, which uses energy from the sun, in Madhya Pradesh and one in Rajasthan.",
+     "The plan is in addition to $4 billion that Amazon has already contracted, which means agreed in a legal agreement, for renewable energy in India. Four new projects announced the same day are part of that $4 billion. They are a [[wind-farm|wind farm]], which makes electricity from wind, and a combined wind and solar project in Karnataka, plus a solar project, which uses energy from the sun, in Madhya Pradesh and one in Rajasthan.",
      "Together the four have a capacity of 934 [[megawatt|megawatts]], a unit for measuring power. The $7 billion is a plan, to be invested by 2030."
     ]
    },
@@ -615,7 +560,7 @@
     "t": "Alcaraz beats Medvedev and is into the ATP Finals semi-finals",
     "b": [
      "Carlos Alcaraz beat Daniil Medvedev 6-2, 6-4 at the ATP Finals, a tennis tournament in Turin, on Wednesday 18 November. Alcaraz has qualified for the [[semi-final|semi-finals]], the matches in the round just before the final.",
-     "Tennis matches are split into [[set|sets]]. Alcaraz won his sets by six games to two and six games to four. The same day, Frances Tiafoe beat Flavio Cobolli 7-6(6), 6-0. Their first set went to a [[tie-break|tie-break]], an extra game played to decide the winner of a set when the score is level. Tiafoe won it, then won the second set without losing a game.",
+     "Tennis matches are split into [[set|sets]]. Alcaraz won his sets by six games to two and six games to four. The same day, Frances Tiafoe beat Flavio Cobolli 7-6, 6-0. Their first set went to a [[tie-break|tie-break]], an extra game played to decide the winner of a set when the score is level. Tiafoe won it, then won the second set without losing a game.",
      "Players are placed in groups. When each player in a group plays every other, that is a [[round-robin|round robin]]. The semi-finals are still to come."
     ]
    },
@@ -665,7 +610,7 @@
     "b": [
      "On Tuesday 17 November, some Apple online services stopped working properly for several hours, a break called an [[outage|outage]]. Apple's [[status-page|status page]], a page showing which services are working, listed problems with the App Store, Apple Music and the [[sign-in|sign-in]] for its iCloud service. To sign in is to enter details, such as a password, to use an account.",
      "Apple said an internal [[software-update|update]] caused the outages. An update is a change to computer programs, and internal here means inside the company. Apple said this was not a [[cyberattack|cyberattack]], an attempt to break into computers to cause harm.",
-     "Reporters explain that one Apple Account signs people in to many services. If that check fails, several services can stop at the same time. Apple's status page showed its services back to normal by Tuesday evening in the eastern United States. Apple has not explained what the update was."
+     "Reporters explain that one Apple Account signs people in to many services. If that check fails, several services can stop at the same time. Apple's status page showed its services back to normal by Tuesday evening in the eastern United States. Apple did not say what the update was."
     ]
    },
    "think": "If an online service you use stopped working for a few hours, what would you do instead?",
@@ -853,24 +798,6 @@
    "A part of Canada.",
    "A part of Canada. The whales in this study were in the sea off British Columbia."
   ],
-  "apec": [
-   "APEC",
-   "civics",
-   "Short for Asia-Pacific Economic Cooperation. It has 21 members.",
-   "Asia-Pacific Economic Cooperation, a group with 21 member economies."
-  ],
-  "bilateral": [
-   "bilateral",
-   "words",
-   "Between two sides, such as two countries.",
-   "Involving two sides, such as two countries. A bilateral meeting is a meeting between two sides."
-  ],
-  "trilateral": [
-   "trilateral",
-   "words",
-   "Between three sides, such as three countries.",
-   "Involving three sides, such as three countries. A trilateral meeting is a meeting between three sides."
-  ],
   "light-year": [
    "light-year",
    "science",
@@ -900,18 +827,6 @@
    "tech",
    "Shaped like a human.",
    "Shaped like a human. A humanoid robot is a machine built in the form of a human body."
-  ],
-  "guinness-world-record": [
-   "Guinness World Record",
-   "words",
-   "A world record on the list kept by Guinness World Records.",
-   "A world record on the list kept by Guinness World Records, an organisation that keeps a list of world records. A world record is the best result anyone in the world has reached at something."
-  ],
-  "world-childrens-day": [
-   "World Children's Day",
-   "civics",
-   "A day for children, held every year on 20 November.",
-   "A day held every year on 20 November. On that date the UN General Assembly adopted the Declaration of the Rights of the Child in 1959 and the Convention on the Rights of the Child in 1989."
   ],
   "rights": [
    "rights",
@@ -971,7 +886,7 @@
    "Shenzhen",
    "places",
    "A city in China.",
-   "A city in China. Leaders from APEC's member economies met there in November 2026."
+   "A city in China. The APEC Economic Leaders' Meeting was scheduled there for 18 and 19 November 2026."
   ],
   "cyclone": [
    "cyclone",
@@ -1014,12 +929,6 @@
    "science",
    "Coal, oil and gas. People burn them to make energy.",
    "Fuels such as coal, oil and natural gas, formed in the earth from the remains of plants and animals."
-  ],
-  "summit": [
-   "summit",
-   "words",
-   "A meeting of the top leaders of countries.",
-   "A meeting, or series of meetings, between the leaders of two or more governments, such as presidents and prime ministers."
   ],
   "convention": [
    "convention",
@@ -1122,6 +1031,18 @@
    "people",
    "An Indian badminton player. She is fifth in the women's singles world rankings.",
    "An Indian badminton player. She is fifth in the women's singles world rankings released on Tuesday 17 November 2026, her first time in the top five since November 2022."
+  ],
+  "world-childrens-day": [
+   "World Children's Day",
+   "civics",
+   "A day for children, held every year on 20 November.",
+   "A day held every year on 20 November. On that date the Declaration of the Rights of the Child was adopted in 1959 and the Convention on the Rights of the Child in 1989."
+  ],
+  "guinness-world-record": [
+   "Guinness World Record",
+   "words",
+   "A world record title from Guinness World Records.",
+   "A world record title from Guinness World Records. A world record is the best result anyone in the world has reached at something."
   ]
  },
  "keys": {
@@ -1150,11 +1071,6 @@
    "v": "58",
    "l": "breath samples collected by drone from 26 humpback whales"
   },
-  "g-apec-three": {
-   "type": "number",
-   "v": "21",
-   "l": "member economies in APEC"
-  },
   "g-star-swallow": {
    "type": "number",
    "v": "2.5 million",
@@ -1173,7 +1089,7 @@
   "g-children-day": {
    "type": "number",
    "v": "1989",
-   "l": "the year the UN General Assembly adopted the Convention on the Rights of the Child, on 20 November"
+   "l": "the year the Convention on the Rights of the Child was adopted, on 20 November"
   },
   "in-amazon-green": {
    "type": "number",
@@ -1246,17 +1162,6 @@
    "c": 0,
    "right": "Right! The drone caught the breath in clean dishes, so no darts were needed.",
    "wrong": "Not quite. The drone caught the breath in clean dishes, so no darts were needed."
-  },
-  "g-apec-three": {
-   "type": "check",
-   "q": "How many countries' leaders met together?",
-   "a": [
-    "Three",
-    "Seven"
-   ],
-   "c": 0,
-   "right": "Right! The leaders of three countries met: the United States, China and Russia.",
-   "wrong": "Not quite. The leaders of three countries met: the United States, China and Russia."
   },
   "g-star-swallow": {
    "type": "check",
@@ -1358,7 +1263,7 @@
    ]
   },
   "g-cop31": {
-   "ctx": "The second Global Stocktake is due to conclude in 2028. The name Divan comes from a word for a council. Another open question at COP31 is how much money there will be for adaptation, which means changing to fit a new situation, such as the effects of climate change.",
+   "ctx": "The second Global Stocktake is due to conclude in 2028. The name Divan comes from a word for a council. Another open question at COP31 is money for adaptation, which means changing to fit a new situation, such as the effects of climate change.",
    "ask": "Some countries have set out their own plans to move away from fossil fuels while the shared deal is still being negotiated. Is it better for countries to move ahead with their own plans, or to put their effort into one deal that every country can accept?",
    "jobs": [
     "Climate data analyst (studies numbers on energy and emissions)",
@@ -1367,8 +1272,8 @@
    ]
   },
   "g-erectus-teeth": {
-   "ctx": "Homo erectus emerged about 2 million years ago, and the most recent known fossils of the species, from Java, are a little over 100,000 years old. Scientists identified the teeth by their shape, with ancient proteins analysed in some of them, and five independent dating techniques, which are ways of working out how old something is, were used. A ninth tooth was also found, and it is not identified as Homo erectus.",
-   "ask": "This new picture of where Homo erectus lived rests on eight teeth. How much evidence should scientists need before they change a long-held idea about the past, and is a small find that is tested in many ways enough?",
+   "ctx": "Homo erectus emerged about 2 million years ago, and the most recent known fossils of the species, from Java, are a little over 100,000 years old. Scientists identified the teeth by their shape, with ancient proteins analysed in some of them, and five dating techniques, which are ways of working out how old something is, were used. A ninth tooth was also found, and it is not identified as Homo erectus.",
+   "ask": "This new picture of where Homo erectus lived has eight human teeth at its centre. How much evidence should scientists need before they change a long-held idea about the past, and is a small find that is tested in many ways enough?",
    "jobs": [
     "Palaeontologist (a scientist who studies life from long ago by looking at fossils)",
     "Archaeologist",
@@ -1385,7 +1290,7 @@
    ]
   },
   "g-whale-dna": {
-   "ctx": "About 84% of the DNA in the breath samples came from the whale itself, and about 16% of the DNA in each sample came largely from microbes in the whale's airways. Before this study, only one whole genome of a North Pacific humpback whale was publicly available. More than a third of the samples were collected by flying the drone from land.",
+   "ctx": "About 16% of the DNA in each breath sample came largely from microbes in the whale's airways. Before this study, only one whole genome of a North Pacific humpback whale was publicly available. More than a third of the samples were collected by flying the drone from land.",
    "ask": "Drones can now collect samples from whales without darts, but they still fly through the animals' breath. Should scientists gather as much information about wild animals as new tools allow, or are there times when wild animals are better left alone?",
    "jobs": [
     "Marine mammal ecologist (a scientist who studies sea mammals and where they live)",
@@ -1393,18 +1298,9 @@
     "Drone pilot"
    ]
   },
-  "g-apec-three": {
-   "ctx": "Mr Trump arrived on Wednesday 18 November, and Mr Xi greeted him at the airport. On Thursday, leaders at the summit posed for a group photo.",
-   "ask": "Some people say that leaders talking face to face is useful in itself, even if no agreement follows. Others say a meeting should be judged by what it changes. How would you decide whether a meeting between leaders was worth holding?",
-   "jobs": [
-    "Diplomat (represents a country in talks with other countries)",
-    "Interpreter (translates what speakers say into another language)",
-    "Foreign correspondent (a journalist who reports from other countries)"
-   ]
-  },
   "g-star-swallow": {
    "ctx": "The companion star was about 70% of the Sun's mass. The team, whose lead author is Viraj Karambelkar of Columbia University in New York, first noticed the giant star in data from NASA's NEOWISE space telescope, and a telescope called WINTER was also used.",
-   "ask": "Astronomers first noticed this star in 2023 and kept watching it. Late in 2025, it gave off a burst of light. Is telescope time better spent watching a few unusual objects for years, or scanning as much of the sky as possible for new ones?",
+   "ask": "Is telescope time better spent watching a few unusual objects for years, or scanning as much of the sky as possible for new ones?",
    "jobs": [
     "Astronomer",
     "Astrophysicist (a scientist who studies what stars and other objects in space are made of and how they behave)",
@@ -1421,7 +1317,7 @@
    ]
   },
   "g-robot-dance": {
-   "ctx": "The dance took place ahead of the APEC Economic Leaders' Meeting in Shenzhen. Thursday 19 November 2026 is Guinness World Records Day.",
+   "ctx": "The dance took place ahead of the APEC Economic Leaders' Meeting in Shenzhen. Guinness World Records Day in 2026 was on Thursday 19 November.",
    "ask": "A planned dance by 151 robots is different from robots doing useful work in homes and factories. Is a world record dance challenge a real sign of progress in robotics, or mostly a show?",
    "jobs": [
     "Robotics engineer",
@@ -1430,7 +1326,7 @@
    ]
   },
   "g-children-day": {
-   "ctx": "The General Assembly is the main body of the United Nations, and it includes representatives of all the UN's member nations. UNICEF, the United Nations Children's Fund, is an organisation within the United Nations that helps to take care of the health and education of children all over the world.",
+   "ctx": "Children's rights include the right to health, to education and to protection. Children also have a right to be heard.",
    "ask": "Children's rights are set out in an agreement between countries. Who do you think has the biggest part in making those rights real in a child's daily life: governments, schools, families, or children themselves?",
    "jobs": [
     "Children's rights lawyer",
@@ -1439,7 +1335,7 @@
    ]
   },
   "in-amazon-green": {
-   "ctx": "On the same day, Amazon announced a global goal to cut the carbon intensity of the electricity used in its operations by 65% by 2030, compared with 2019. Amazon's renewable energy portfolio in India has 57 projects, and worldwide it has more than 700 wind and solar projects. The 234 megawatt wind farm in Karnataka is described as Amazon's largest wind project contracted in Asia to date.",
+   "ctx": "Amazon has also announced a global goal to cut the carbon intensity of the electricity used in its operations by 65% by 2030, compared with 2019. Amazon's renewable energy portfolio in India has 57 projects, and worldwide it has more than 700 wind and solar projects. The 234 megawatt wind farm in Karnataka is described as Amazon's largest wind project contracted in Asia to date.",
    "ask": "Amazon's $7 billion is a plan for the years up to 2030. Should a company be praised when it announces a plan like this, or only once the projects are built, and who should check that it happens?",
    "jobs": [
     "Wind turbine technician",
@@ -1527,7 +1423,7 @@
    {
     "d": "2026-11-19",
     "h": "Phoning home",
-    "o": "NASA talks to Voyager 1 by radio through its Deep Space Network, a set of giant radio antennas at three sites: Goldstone in California, near Madrid in Spain and near Canberra in Australia. The sites are placed around the world so that they can keep in contact with a spacecraft as Earth turns. The largest antenna at each site is 70 metres across. A radio signal now takes about 24 hours to reach Voyager 1, and its reply takes another 24 hours to come back, so a message and its answer make a two-day round trip.",
+    "o": "NASA talks to Voyager 1 by radio through its Deep Space Network, a set of giant radio antennas at three sites: Goldstone in California, near Madrid in Spain and near Canberra in Australia. The sites are placed around the world so that they can keep in contact with a spacecraft as Earth turns. Each site has one antenna that is 70 metres across. A radio signal now takes about 24 hours to reach Voyager 1, and its reply takes another 24 hours to come back, so a message and its answer make a two-day round trip.",
     "x": "NASA talks to Voyager 1 with radio signals. It uses giant radio antennas in California, Spain and Australia. A message takes about a day to reach Voyager 1. The reply takes another day to come back."
    },
    {
@@ -2000,11 +1896,11 @@
   "days": [
    {
     "name": "World Toilet Day",
-    "what": "World Toilet Day is marked every year on 19 November. It was started in 2001 by the World Toilet Organization and became an official United Nations day in 2013."
+    "what": "World Toilet Day is marked on 19 November. It was started in 2001 by the World Toilet Organization and became an official United Nations day in 2013."
    },
    {
     "name": "World Heritage Week begins",
-    "what": "In India, World Heritage Week is observed from 19 to 25 November. The Archaeological Survey of India marks it every year.",
+    "what": "In India, World Heritage Week is observed from 19 to 25 November. The Archaeological Survey of India marks it.",
     "where": [
      "IN"
     ]
@@ -2014,7 +1910,7 @@
    {
     "name": "Indira Gandhi",
     "year": 1917,
-    "what": "Born in Allahabad, India. She was the daughter of Jawaharlal Nehru, India's first prime minister. She was India's first woman prime minister, from 1966 to 1977 and again from 1980 to 1984."
+    "what": "Born in Allahabad, India. She was the daughter of Jawaharlal Nehru, India's first prime minister. She was prime minister of India from 1966 to 1977 and again from 1980 to 1984."
    },
    {
     "name": "José Raúl Capablanca",
@@ -2047,7 +1943,7 @@
    "t": "What are radio waves?",
    "b": [
     "Radio waves are a type of electromagnetic wave. Light is an electromagnetic wave too, but radio waves are invisible. They travel at the speed of light, about 300,000 kilometres every second.",
-    "Radio waves do not need air or anything else to carry them, so they can travel through empty space. An antenna sends the waves out, and another antenna picks them up. Radio and television programmes, mobile phones and Wi-Fi all use radio waves. So does the team that talks to Voyager 1.",
+    "Radio waves do not need air or anything else to carry them, so they can travel through empty space. A device called a transmitter sends the waves out, and an antenna picks them up. Radio and television programmes, mobile phones and Wi-Fi all use radio waves. So does the team that talks to Voyager 1.",
     "The scientist James Clerk Maxwell predicted electromagnetic waves in the 1860s. In the late 1880s, the German physicist Heinrich Hertz showed that radio waves exist. The hertz, a unit used to measure the frequency of waves, is named after him."
    ],
    "remember": "Radio waves are invisible electromagnetic waves. They travel at the speed of light and can cross empty space.",
@@ -2063,8 +1959,8 @@
  "backThen": {
   "y": 1969,
   "t": "Pelé scores the 1,000th goal of his career",
-  "o": "On 19 November 1969, the Brazilian footballer Pelé scored the 1,000th goal of his career. He was playing for his club, Santos, against Vasco da Gama at the Maracanã stadium in Rio de Janeiro. The goal was a penalty kick, scored in the 78th minute. Reporters and photographers ran onto the pitch, and the match stopped for a while.",
-  "x": "On this day in 1969, the footballer Pelé scored his 1,000th goal. He scored it from a penalty kick at a stadium in Brazil. Reporters and photographers ran onto the pitch, and the match stopped for a while.",
+  "o": "On 19 November 1969, the Brazilian footballer Pelé scored the 1,000th goal of his career. He was playing for his club, Santos, against Vasco da Gama at the Maracanã stadium in Rio de Janeiro. The goal was a penalty kick, scored in the 78th minute. Reporters and photographers ran onto the pitch.",
+  "x": "On this day in 1969, the footballer Pelé scored his 1,000th goal. He scored it from a penalty kick at a stadium in Brazil. Reporters and photographers ran onto the pitch.",
   "why": "Pelé dedicated the goal to the children of Brazil. This Friday, 20 November, is World Children's Day."
  },
  "hiddenWords": [

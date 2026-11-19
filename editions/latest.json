@@ -157,7 +157,7 @@
     "t": "Rakshitha Ramraj wins in Hong Kong as Lakshya Sen makes season finals",
     "b": [
      "India's Rakshitha Ramraj beat Chen Yu Fei of China, a former Olympic champion, 21-18, 24-22 at the Hong Kong Open on Thursday 19 November. The win took her into the [[quarter-final|quarter-finals]], the round for the last eight players.",
-     "[[lakshya|Lakshya Sen]] has qualified for the [[bwf|BWF]] [[world-tour-finals|World Tour Finals]], the last big event of the [[badminton|badminton]] season. Only the top eight players or pairs in each event qualify. Lakshya's place was sealed on Wednesday 18 November, when another Indian, Kidambi Srikanth, beat Japan's Koki Watanabe 21-16, 16-21, 21-9. Watanabe was Lakshya's closest rival for a place, so Watanabe's defeat made Lakshya's place safe.",
+     "[[lakshya|Lakshya Sen]] has qualified for the [[bwf|BWF]] [[world-tour-finals|World Tour Finals]], the last big event of the [[badminton|badminton]] season. Only the top eight players or pairs in each event qualify. Lakshya's place was sealed on Wednesday 18 November, when another Indian, Kidambi Srikanth, beat Japan's Koki Watanabe 21-16, 16-21, 21-9. Watanabe was the player chasing Lakshya's place, so his defeat made Lakshya's place safe.",
      "PV Sindhu has also qualified, in women's singles. The World Tour Finals will be held in Hangzhou, China, from 9 to 13 December. Before then, Rakshitha plays on in the Hong Kong quarter-finals."
     ]
    },
@@ -660,12 +660,6 @@
    "A NASA centre in California. The Voyager 1 mission is run from there.",
    "A NASA laboratory in California. The Voyager mission is run from there."
   ],
-  "century": [
-   "century",
-   "words",
-   "In cricket, a score of 100 runs or more by one batter.",
-   "In cricket, a score of 100 runs or more by one batter."
-  ],
   "light-day": [
    "light-day",
    "science",
@@ -829,7 +823,7 @@
    ]
   },
   "g-peace-declaration": {
-   "ctx": "On 14 November, AP reported that the three leaders planned to meet on Thursday at APEC in Shenzhen. Reports called it the first meeting of its kind. China, the United States and Russia all have permanent seats on the UN Security Council.",
+   "ctx": "On 14 November, AP reported that the three leaders planned to meet on Thursday at APEC in Shenzhen. Before the meeting, Reuters reported that the United States wanted the talks to focus on reducing nuclear weapons.",
    "ask": "A declaration says what leaders intend, but it does not force anyone to act. Are statements like this useful because they help countries agree on shared goals, or do only binding agreements, such as treaties, really make a difference?",
    "jobs": [
     "Diplomat",
@@ -838,7 +832,7 @@
    ]
   },
   "g-ai-datacentres": {
-   "ctx": "Data centres are buildings full of computers that run chatbots, videos and online games, and they need electricity. The IEA expects about three-quarters of the growth in data centres to be for AI. A data centre's capacity means how much computing it can do and how much power it can use, and the IEA found that data centre capacity grew about ten times in two years.",
+   "ctx": "Companies that build data centres are the biggest business buyers of green electricity in the world. Even so, their fast growth is also pushing up demand for fossil fuels. When the 93 giant AI centres are finished, together they will need about 50 gigawatts of power.",
    "ask": "AI tools are useful to many people, but the data centres that run them use a lot of electricity. Should new AI data centres only be built where there is cleaner electricity, even if that slows AI down, or should they be allowed to grow quickly because of what AI can do?",
    "jobs": [
     "Data centre technician",
@@ -856,7 +850,7 @@
    ]
   },
   "in-iffi": {
-   "ctx": "IFFI is in its 57th edition this year, in Goa, with the theme \"Stories Without Borders\". It includes more than 150 films from other countries, from 86 countries in all, with Spain as Country of Honour and Russia as Partner Country. For the first time, it has a section just for animated films.",
+   "ctx": "The festival director gave the full count as 159 films from 86 countries. The opening film, \"Fatherland\", is by the Polish film-maker Pawel Pawlikowski. The International Competition jury has five members.",
    "ask": "Each year IFFI picks a Country of Honour and a Partner Country. Should a festival try to show films from as many countries as possible, or show more films from a few chosen countries so audiences get to know them well?",
    "jobs": [
     "Film director",
@@ -865,7 +859,7 @@
    ]
   },
   "g-shijian-24": {
-   "ctx": "Shijian-24 was launched from the Taiyuan Satellite Launch Center in Shanxi province, north China, on a Long March-2D rocket. It was the 678th flight of the Long March family of rockets. Reports did not say what the satellite will do.",
+   "ctx": "Xinhua, China's state news agency, reported the launch and called it a complete success. Beijing time is two and a half hours ahead of India time, so the launch was at 4.21 am in India. The reports did not say who built the satellite or what it will study.",
    "ask": "Reports did not say what Shijian-24 will do. Should countries always tell the public what their satellites are for, or is it reasonable to keep some details private?",
    "jobs": [
     "Rocket engineer",
@@ -883,7 +877,7 @@
    ]
   },
   "in-badminton-hk": {
-   "ctx": "The BWF World Tour Finals is the last big event of the badminton season, and this year it is in Hangzhou, China, from 9 to 13 December. Only the top eight players or pairs in each event qualify, so one match can decide who gets in, as Kidambi Srikanth's win over Koki Watanabe did for Lakshya Sen.",
+   "ctx": "Before Wednesday's match, Lakshya had 74,180 points in the race for a place and Watanabe had 73,620, so Watanabe needed a win to have a chance of passing him. For PV Sindhu, Hangzhou will be her first World Tour Finals since 2021.",
    "ask": "Only the top eight players or pairs in each event qualify for the World Tour Finals. Is it better to keep the event small so only the year's best players meet, or to let more players in so more of them get a chance?",
    "jobs": [
     "Badminton umpire (an official who makes sure the rules are followed)",
@@ -1448,26 +1442,26 @@
   "x": {
    "t": "What are radio waves?",
    "b": [
-    "Radio waves are waves that we cannot see. They carry sounds and other information from place to place.",
-    "Radio waves travel through the air. They can travel through empty space too.",
-    "Radio and television programmes are sent by radio waves. Mobile phones use them too. So do the people who talk to spacecraft."
+    "Radio waves are a kind of wave that carries messages from place to place.",
+    "They are very fast. They travel as fast as light. They can even cross empty space.",
+    "Radio and television use radio waves. So do many wireless gadgets, and the people who talk to spacecraft."
    ],
-   "remember": "Radio waves are invisible waves that carry information through the air and through space.",
-   "q": "Can we see radio waves?",
+   "remember": "Radio waves travel as fast as light and can cross empty space.",
+   "q": "Can radio waves cross empty space?",
    "a": [
     "Yes",
     "No"
    ],
-   "c": 1
+   "c": 0
   },
   "o": {
    "t": "What are radio waves?",
    "b": [
-    "Radio waves are a type of electromagnetic wave. Light is an electromagnetic wave too, but radio waves are invisible. They travel at the speed of light, about 300,000 kilometres every second.",
-    "Radio waves do not need air or anything else to carry them, so they can travel through empty space. A device called a transmitter sends the waves out, and an antenna picks them up. Radio and television programmes, mobile phones and Wi-Fi all use radio waves. So does the team that talks to Voyager 1.",
-    "The scientist James Clerk Maxwell predicted electromagnetic waves in the 1860s. In the late 1880s, the German physicist Heinrich Hertz showed that radio waves exist. The hertz, a unit used to measure the frequency of waves, is named after him."
+    "Radio waves are a type of electromagnetic wave. Light is an electromagnetic wave too. Radio waves travel at the speed of light, about 300,000 kilometres every second, and they can travel through empty space.",
+    "Radio and television programmes are sent using radio waves, and many modern wireless devices use them to send information. So does the team that talks to Voyager 1.",
+    "The scientist James Clerk Maxwell predicted electromagnetic waves in the 1860s. In the late 1880s, the German physicist Heinrich Hertz showed that they exist. The hertz, a unit used to measure the frequency of waves, is named after him."
    ],
-   "remember": "Radio waves are invisible electromagnetic waves. They travel at the speed of light and can cross empty space.",
+   "remember": "Radio waves are electromagnetic waves. They travel at the speed of light and can cross empty space.",
    "q": "Who showed in the late 1880s that radio waves exist?",
    "a": [
     "James Clerk Maxwell",
@@ -1488,10 +1482,6 @@
   {
    "k": "fossil",
    "o": "Fossil comes from the Latin word fossilis, which means dug up. It comes from fodere, the Latin word for to dig."
-  },
-  {
-   "k": "century",
-   "o": "Century comes from the Latin word centuria, a group of one hundred. It comes from centum, the Latin word for hundred."
   },
   {
    "k": "cyclone",

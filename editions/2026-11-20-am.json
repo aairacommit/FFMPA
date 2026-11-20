@@ -110,7 +110,7 @@
     "t": "Hyderabad doctor arranges costly medicine free for seven children",
     "b": [
      "Seven children in India are set to receive a costly medicine free, starting on 30 November. Dr Sivaranjani Santosh, a paediatrician, or children's doctor, in Hyderabad, arranged it with Access to Medicines India and the Netherlands-based Pharmaceutical Accountability Foundation.",
-     "The children have a [[rare-disease|rare]] [[genetic|genetic]] condition. Rare means few people have it. Genetic means a change in a gene, one of the body's instructions, causes it. Their medicine, tiratricol, costs up to Rs 9 crore, or 90 million rupees, per child per year when sold as a company's product.",
+     "The children have a [[rare-disease|rare]] [[genetic|genetic]] condition. Rare means few people have it. Genetic means it is caused by a change in a gene, one of the body's instructions. Their medicine, tiratricol, costs up to Rs 9 crore, or 90 million rupees, per child per year when sold as a company's product.",
      "The team turned to [[compounding|compounding]]: a pharmacy prepares the medicine itself from its active ingredient, the part that makes it work. A pharmacy in the Netherlands does this for about Rs 2.5 lakh, or 250,000 rupees, per child per year. The doctor plans to ask the Union (national) government about making the medicine in India."
     ]
    },
@@ -155,7 +155,7 @@
     "t": "New draft climate deal leaves out coal, oil and gas",
     "b": [
      "Nearly 200 countries are at climate talks in Antalya, Turkey. They want to agree on a deal.",
-     "On Thursday 19 November, the hosts shared a new, shorter [[draft|draft]], or early version. It keeps a goal to use more electricity. It no longer mentions [[fossil-fuels|fossil fuels]]: coal, oil and gas.",
+     "On Thursday 19 November, the hosts shared a shorter [[draft|draft]], or early version. It no longer mentions [[fossil-fuels|fossil fuels]]: coal, oil and gas. Burning them is the main cause of climate change.",
      "Some groups did not like that. The draft could still change. The talks were planned to end on Friday 20 November."
     ]
    },
@@ -163,7 +163,7 @@
     "t": "Shorter COP31 draft keeps electricity goal, drops fossil fuels",
     "b": [
      "On Thursday 19 November, the hosts of [[cop31|COP31]], the United Nations climate conference in Antalya, Turkey, published a new [[draft|draft]], or early version, of the main agreement. Nearly 200 countries are taking part. Thursday's draft is nine pages long, about half the length of the first.",
-     "Thursday's draft keeps a goal for electricity. It calls for 35 per cent of the energy the world uses to come from electricity by 2035. It no longer mentions [[fossil-fuels|fossil fuels]], which are coal, oil and gas. The first draft had mentioned them. At an earlier summit, COP28 in Dubai, countries had agreed to transition, or move, away from fossil fuels.",
+     "Thursday's draft keeps a goal for electricity. It calls for 35 per cent of the energy the world uses to come from electricity by 2035. It no longer mentions [[fossil-fuels|fossil fuels]], which are coal, oil and gas. Burning fossil fuels is the main cause of climate change. The first draft had mentioned them. At an earlier summit, COP28 in Dubai, countries had agreed to transition, or move, away from fossil fuels.",
      "Campaign groups criticised the draft for leaving out fossil fuels. The text was not final and could still change. The talks were scheduled to end on Friday 20 November."
     ]
    },
@@ -198,6 +198,14 @@
     [
      "CNC3, 19 Nov",
      "https://www.cnc3.co.tt/cop31-climate-deal-drops-fossil-fuel-pledge-as-leaders-race-to-secure-global-agreement/"
+    ],
+    [
+     "United Nations climate pages, read 20 Nov",
+     "https://www.un.org/en/node/169306"
+    ],
+    [
+     "NASA Science, 21 Oct 2024",
+     "https://science.nasa.gov/climate-change/what-is-climate-change/"
     ]
    ]
   },
@@ -1249,7 +1257,7 @@
    ]
   },
   "in-rare-medicine": {
-   "ctx": "The condition is Allan-Herndon-Dudley syndrome, caused by changes in the MCT8 gene, which carries thyroid hormones into brain cells. The pharmacy-made medicine has a six-month shelf life, so it will be imported in two batches, and each family has an individual import permission covering one year. One year's supply for all seven children costs about 14,200 euros, or about Rs 15.08 lakh, of which Dr Sivaranjani raised about Rs 6.09 lakh in India.",
+   "ctx": "The condition is Allan-Herndon-Dudley syndrome, caused by changes in the MCT8 gene, which carries thyroid hormones into brain cells. The pharmacy-made medicine has a six-month shelf life, so it will be imported in two batches, and each family has an individual import permission covering one year. Dr Sivaranjani raised about Rs 6.09 lakh in India towards the cost, and the foundation in the Netherlands undertook to raise the rest.",
    "ask": "The same medicine can cost very different amounts depending on who makes it. Some people think the company that sells a medicine should set its price, because developing medicines for rare diseases costs a lot. Others think that when a much cheaper way to make a medicine exists, patients should be free to use it. How should the price of a medicine for a rare disease be decided?",
    "jobs": [
     "Paediatrician (a doctor who treats children)",

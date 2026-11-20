@@ -551,8 +551,8 @@
   "test-match": [
    "Test match",
    "words",
-   "A cricket match between the teams of two countries. It can last up to five days.",
-   "A cricket match played between the teams of two different countries, typically lasting five days."
+   "A cricket match between the teams of two countries.",
+   "A cricket match played between the teams of two different countries, usually as part of a series of matches."
   ],
   "basin-reserve": [
    "Basin Reserve",
@@ -632,11 +632,23 @@
    "One time all the way round a track.",
    "One complete trip round a racetrack."
   ],
-  "coffin": [
-   "coffin",
+  "light-day": [
+   "light-day",
+   "science",
+   "How far light travels in one whole day. It is a very long way.",
+   "A unit of distance: how far light travels in 24 hours, about 25.9 billion kilometres."
+  ],
+  "export": [
+   "export",
    "words",
-   "A box in which a dead person is buried.",
-   "A box in which a dead person is buried."
+   "Something a country sells to another country.",
+   "Something a country sells to other countries. To export means to sell goods or services to another country."
+  ],
+  "deep-space-network": [
+   "Deep Space Network",
+   "tech",
+   "NASA's big antennas that keep track of faraway spacecraft.",
+   "NASA's network of giant radio antennas, with sites in California, near Madrid in Spain and near Canberra in Australia. It keeps track of Voyager 1."
   ],
   "interstellar": [
    "interstellar space",
@@ -650,23 +662,11 @@
    "A NASA centre in California. The Voyager 1 mission is run from there.",
    "A NASA laboratory in California. The Voyager mission is run from there."
   ],
-  "light-day": [
-   "light-day",
-   "science",
-   "How far light travels in one whole day. It is a very long way.",
-   "A unit of distance: how far light travels in 24 hours, about 25.9 billion kilometres."
-  ],
-  "deep-space-network": [
-   "Deep Space Network",
-   "tech",
-   "NASA's big antennas that keep track of faraway spacecraft.",
-   "NASA's network of giant radio antennas, with sites in California, near Madrid in Spain and near Canberra in Australia. It keeps track of Voyager 1."
-  ],
-  "export": [
-   "export",
+  "coffin": [
+   "coffin",
    "words",
-   "Something a country sells to another country.",
-   "Something a country sells to other countries. To export means to sell goods or services to another country."
+   "A box in which a dead person is buried.",
+   "A box in which a dead person is buried."
   ]
  },
  "keys": {

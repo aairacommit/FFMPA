@@ -1,0 +1,1972 @@
+{
+ "schema": 1,
+ "date": "2026-11-20",
+ "edition": "am",
+ "countries": [
+  "IN"
+ ],
+ "stories": [
+  {
+   "id": "in-akvan",
+   "scope": "IN",
+   "cat": "nature",
+   "emoji": "🌀",
+   "date": "2026-11-19",
+   "kind": "news",
+   "x": {
+    "t": "Helpers got ready early for Cyclone Akvan",
+    "b": [
+     "Akvan is the name of a [[cyclone|cyclone]], a big storm with strong winds. On Thursday 19 November it was at sea, moving towards Odisha.",
+     "Weather experts expected it to reach land near Gopalpur on Friday 20 November. So helpers got ready early.",
+     "By late Thursday night, about three lakh (300,000) people had moved to safer places. Food was arranged for [[shelter|shelters]]. Fishermen were told not to go to sea."
+    ]
+   },
+   "o": {
+    "t": "About three lakh people moved to safety before Cyclone Akvan",
+    "b": [
+     "By late on Thursday 19 November, about three lakh (300,000) people in Odisha had moved to safer places. A severe [[cyclone|cyclonic storm]] named Akvan, a large storm with very strong winds, was over the Bay of Bengal.",
+     "On Thursday afternoon and evening, reports put it about 410 km from Gopalpur, on the Odisha coast. [[forecast|Forecasts]] expected it to make [[landfall|landfall]], or cross from sea to land, close to Gopalpur around noon or in the afternoon on Friday 20 November. It was expected to weaken as it moved over land.",
+     "Helpers got ready well before the storm was due. Odisha kept thousands of cyclone [[shelter|shelters]] ready. Food was being arranged for them. Rescue teams were in place, including 14 teams of the National Disaster Response Force. People in areas at risk were asked to stay in safe shelters and follow official advice."
+    ]
+   },
+   "think": "A weather forecast gave people time to get ready. What other things are easier when you know about them early?",
+   "quiz": {
+    "q": "What did about three lakh people do as Cyclone Akvan came closer?",
+    "a": [
+     "They went to the cinema",
+     "They sailed out to sea",
+     "They moved to safer places",
+     "They went to a cricket match"
+    ],
+    "c": 2
+   },
+   "src": [
+    [
+     "PTI via Millennium Post, 19 Nov",
+     "https://www.millenniumpost.in/big-stories/over-120-lakh-people-evacuated-more-than-300-rescue-teams-deployed-nearly-60-trains-cancelled-as-cyclone-akvan-heads-to-odisha-683832"
+    ],
+    [
+     "ANI via Asianet Newsable, 20 Nov",
+     "https://newsable.asianetnews.com/india/odisha-cm-reviews-cyclone-akvan-preparedness-targeting-zero-casualty-articleshow-vocdxd0"
+    ],
+    [
+     "Pragativadi, 19 Nov",
+     "https://pragativadi.com/cyclone-akvan-odisha-evacuation/"
+    ],
+    [
+     "ETV Bharat, 19 Nov",
+     "https://www.etvbharat.com/en/bharat/live-blog--cyclone-akvan-live-imd-forecasts-heavy-rain-in-kolkata-south-bengal-districts-till-nov-21-enn26111905027"
+    ],
+    [
+     "Deccan Chronicle, 19 Nov",
+     "https://www.deccanchronicle.com/southern-states/andhra-pradesh/cyclone-akvan-to-cross-odisha-coast-today-2006034"
+    ],
+    [
+     "Odisha TV, 19 Nov",
+     "https://odishatv.in/odisha/cyclone-akvan-landfall-likely-near-gopalpur-imd-issues-red-warning-for-5-odisha-districts-12822149"
+    ],
+    [
+     "ETV Bharat, 18 Nov",
+     "https://www.etvbharat.com/en/bharat/severe-cyclone-akvan-changes-path-landfall-between-odisha-puri-andhra-pradesh-narsapur-november-20-noon-evacuation-underway-imd-rainfall-forecast-enn26111801569"
+    ],
+    [
+     "Deccan Chronicle live updates, 19 Nov",
+     "https://www.deccanchronicle.com/nation/current-affairs/live-cyclone-akvan-to-cross-ap-odisha-coasts-today-red-alert-issued-2005764"
+    ],
+    [
+     "Odisha TV live updates, updated 19 Nov",
+     "https://odishatv.in/weather/cyclone-akvan-live-update-odisha-on-alert-as-storm-likely-to-cross-state-after-andhra-landfall-12818804"
+    ],
+    [
+     "Pragativadi, 19 Nov",
+     "https://pragativadi.com/cyclone-akvan-ganjam-preparedness/"
+    ],
+    [
+     "Transclew, 19 Nov",
+     "https://transclew.com/news/cyclone-akvan-live-updates/"
+    ],
+    [
+     "Millennium Post (PTI rewrite), 20 Nov",
+     "https://www.millenniumpost.in/nation/odisha-120l-shifted-300-rescue-teamsdeployed-as-cyclone-akvan-approaches-683928"
+    ]
+   ]
+  },
+  {
+   "id": "in-rare-medicine",
+   "scope": "IN",
+   "cat": "science",
+   "emoji": "💊",
+   "date": "2026-11-18",
+   "kind": "news",
+   "x": {
+    "t": "Seven children are set to get a costly medicine free",
+    "b": [
+     "Seven children in India have a [[rare-disease|rare illness]], one that very few people have. Their medicine costs a huge amount of money.",
+     "Dr Sivaranjani Santosh is a children's doctor in Hyderabad. She worked with groups in India and the Netherlands. A [[pharmacy|pharmacy]] in the Netherlands prepares the medicine for much less.",
+     "The doctor raised money too. So the seven children are set to get it free, starting on 30 November."
+    ]
+   },
+   "o": {
+    "t": "Hyderabad doctor arranges costly medicine free for seven children",
+    "b": [
+     "Seven children in India are set to receive a costly medicine free, starting on 30 November. Dr Sivaranjani Santosh, a paediatrician, or children's doctor, in Hyderabad, arranged it with Access to Medicines India and the Netherlands-based Pharmaceutical Accountability Foundation.",
+     "The children have a [[rare-disease|rare]] [[genetic|genetic]] condition. Rare means few people have it. Genetic means it is caused by a change in a gene, one of the body's instructions. Their medicine, tiratricol, costs up to Rs 9 crore, or 90 million rupees, per child per year when sold as a company's product.",
+     "The team turned to [[compounding|compounding]]: a pharmacy prepares the medicine itself from its active ingredient, the part that makes it work. A pharmacy in the Netherlands does this for about Rs 2.5 lakh, or 250,000 rupees, per child per year. The doctor plans to ask the Union (national) government about making the medicine in India."
+    ]
+   },
+   "think": "People in two countries worked together to solve this problem. What is a problem you could solve better with someone else's help?",
+   "quiz": {
+    "q": "How many children in India are set to receive the medicine free?",
+    "a": [
+     "Seven",
+     "Seventeen",
+     "Seventy",
+     "Seven hundred"
+    ],
+    "c": 0
+   },
+   "src": [
+    [
+     "Telangana Today, 18 Nov",
+     "https://telanganatoday.com/hyderabad-doctor-secures-affordable-rare-disease-drug-for-seven-children-with-ahds"
+    ],
+    [
+     "Deccan Chronicle, 20 Nov",
+     "https://www.deccanchronicle.com/southern-states/telangana/hyd-based-paediatrician-gets-rs-9cr-drugs-free-of-cost-for-7-children-2006075"
+    ],
+    [
+     "NewsMeter, 19 Nov",
+     "https://newsmeter.in/do-you-know/meet-hyderabad-paediatrician-dr-sivaranjani-santosh-who-arranged-costly-drugs-for-7-kids-battling-ahds-779599"
+    ],
+    [
+     "Hyderabad Mail, 19 Nov",
+     "https://hyderabadmail.com/seven-indian-children-free-tiratricol-ahds-treatment/"
+    ]
+   ]
+  },
+  {
+   "id": "g-cop31",
+   "scope": "global",
+   "cat": "planet",
+   "emoji": "🌍",
+   "date": "2026-11-19",
+   "kind": "news",
+   "x": {
+    "t": "New draft climate deal leaves out coal, oil and gas",
+    "b": [
+     "Nearly 200 countries are at climate talks in Antalya, Turkey. They want to agree on a deal.",
+     "On Thursday 19 November, the hosts shared a shorter [[draft|draft]], or early version. It no longer mentions [[fossil-fuels|fossil fuels]]: coal, oil and gas. Burning them is the main cause of climate change.",
+     "Some groups did not like that. Countries do not all agree about fossil fuels. The draft could still change."
+    ]
+   },
+   "o": {
+    "t": "Shorter COP31 draft keeps electricity goal, drops fossil fuels",
+    "b": [
+     "On Thursday 19 November, the hosts of [[cop31|COP31]], the United Nations climate conference in Antalya, Turkey, published a new [[draft|draft]], or early version, of the main agreement. Thursday's draft is nine pages long, about half the length of the first.",
+     "Thursday's draft keeps a goal for electricity. It calls for 35 per cent of the energy the world uses to come from electricity by 2035. It no longer mentions [[fossil-fuels|fossil fuels]], which are coal, oil and gas. Burning fossil fuels is the main cause of climate change. The first draft had mentioned them. At an earlier summit, COP28 in Dubai, countries had agreed to transition, or move, away from fossil fuels.",
+     "Campaign groups criticised the draft for leaving out fossil fuels. The nearly 200 countries are divided over fossil fuels. The text was not final and could still change. The talks were scheduled to end on Friday 20 November."
+    ]
+   },
+   "think": "Why do you think it is hard for nearly 200 countries to agree on the same words?",
+   "quiz": {
+    "q": "Which three fossil fuels does the story name?",
+    "a": [
+     "Wind, sunshine and water",
+     "Coal, oil and gas",
+     "Wood, paper and straw",
+     "Sand, salt and stone"
+    ],
+    "c": 1
+   },
+   "src": [
+    [
+     "Reuters via Yahoo News, 19 Nov",
+     "https://www.yahoo.com/news/science/articles/cop31-negotiators-publish-revised-deal-121302138.html"
+    ],
+    [
+     "AFP via The New Arab, 19 Nov",
+     "https://www.newarab.com/news/cop31-draft-climate-deal-removes-mention-fossil-fuels"
+    ],
+    [
+     "Climate Home News, 19 Nov",
+     "https://www.climatechangenews.com/2026/11/19/cop31-antalya-turkiye-australia-ministers-agremeent-fossil-fuels-electrification/"
+    ],
+    [
+     "Down To Earth, 19 Nov",
+     "https://www.downtoearth.org.in/climate-change/cop31-cover-decision-draft-drops-fossil-fuel-phaseout-language-retains-35-by-35-electrification-target"
+    ],
+    [
+     "CNC3, 19 Nov",
+     "https://www.cnc3.co.tt/cop31-climate-deal-drops-fossil-fuel-pledge-as-leaders-race-to-secure-global-agreement/"
+    ],
+    [
+     "NASA Science, 21 Oct 2024",
+     "https://science.nasa.gov/climate-change/what-is-climate-change/"
+    ]
+   ]
+  },
+  {
+   "id": "g-mercury",
+   "scope": "global",
+   "cat": "space",
+   "emoji": "🛰️",
+   "date": "2026-11-19",
+   "kind": "calendar",
+   "when": "Saturday 21 November",
+   "x": {
+    "t": "A spacecraft is due to start circling Mercury on Saturday",
+    "b": [
+     "A spacecraft called BepiColombo was launched in October 2018. Europe and Japan sent it to study [[mercury|Mercury]]. Mercury is the closest planet to the Sun.",
+     "The trip has taken eight years. On the way, it flew close past planets nine times. Each close pass is called a [[flyby|flyby]].",
+     "On Saturday 21 November it is due to enter [[orbit|orbit]] around Mercury. Then it would circle the planet."
+    ]
+   },
+   "o": {
+    "t": "BepiColombo is due to enter orbit around Mercury on Saturday",
+    "b": [
+     "A spacecraft called BepiColombo is scheduled to enter [[orbit|orbit]] around [[mercury|Mercury]] on Saturday 21 November. To orbit a planet means to circle around it. It is a joint mission of ESA, Europe's space agency, and JAXA, Japan's space agency. It was launched in October 2018, so the journey has lasted eight years.",
+     "On the way it made nine [[flyby|flybys]]: one of Earth, two of Venus and six of Mercury. A flyby is when a spacecraft flies close past a planet without stopping. Mercury is the closest planet to the Sun and the smallest planet in our solar system. Only two spacecraft had visited it before BepiColombo.",
+     "BepiColombo has two science orbiters, spacecraft built to circle a planet and study it. One is ESA's and one is JAXA's."
+    ]
+   },
+   "think": "If you could send a spacecraft to any planet, which one would you choose, and what would you want it to find out?",
+   "quiz": {
+    "q": "How many times did BepiColombo fly close past a planet on its way to Mercury?",
+    "a": [
+     "Three times",
+     "Five times",
+     "Nine times",
+     "Twelve times"
+    ],
+    "c": 2
+   },
+   "src": [
+    [
+     "ESA, 29 Oct",
+     "https://www.esa.int/Science_Exploration/Space_Science/BepiColombo/Latest_updates_BepiColombo_s_arrival_at_Mercury"
+    ],
+    [
+     "Sci.News, 6 Sep",
+     "https://www.sci.news/space/bepicolombo-mercury-arrival-15044.html"
+    ],
+    [
+     "Tech Times, 7 Sep",
+     "https://www.techtimes.com/articles/326897/20260907/bepicolombo-targets-mercury-orbit-nov-21-burn-has-one-attempt-no-real-time-fix.htm"
+    ],
+    [
+     "KeepTrack, 18 Nov",
+     "https://keeptrack.space/deep-dive/bepicolombo-mercury-orbit-entry"
+    ],
+    [
+     "Swiss Federal Council news portal (Empa), 19 Nov",
+     "https://admin.ch/en/newnsb/v5OzuizBk-A3"
+    ],
+    [
+     "BBC Sky at Night Magazine, 19 Oct",
+     "https://www.skyatnightmagazine.com/news/bepicolombo-mercury"
+    ],
+    [
+     "NASA Science, 26 Oct",
+     "https://science.nasa.gov/mercury/"
+    ]
+   ]
+  },
+  {
+   "id": "in-hockey-act",
+   "scope": "IN",
+   "cat": "sports",
+   "emoji": "🏑",
+   "date": "2026-11-19",
+   "kind": "news",
+   "x": {
+    "t": "India's hockey team wins after falling behind",
+    "b": [
+     "India's women played Malaysia at hockey in [[bhopal|Bhopal]] on Thursday 19 November. Malaysia scored the first goal.",
+     "Then India scored four goals and won 4-1. A player in her first match for the India team scored one.",
+     "It was India's first match in this year's Women's Asian Champions Trophy. They are due to play South Korea on Saturday 21 November."
+    ]
+   },
+   "o": {
+    "t": "India come from a goal down to beat Malaysia 4-1 in Bhopal",
+    "b": [
+     "India's women's hockey team beat Malaysia 4-1 on Thursday 19 November in [[bhopal|Bhopal]]. It was India's first match of this year's Women's Asian Champions Trophy. India are the [[defending-champions|defending champions]], which means they won the trophy the last time it was held.",
+     "Malaysia scored first, so India were a goal down. India then [[equalise|equalised]], or made the scores level, and Salima Tete put them ahead. India's third goal was scored by a player in her first match for India. India then scored a fourth goal.",
+     "India are due to play South Korea next, on Saturday 21 November."
+    ]
+   },
+   "think": "India were behind and then won. Can you remember something that started badly for you and ended well?",
+   "quiz": {
+    "q": "By what score did India beat Malaysia?",
+    "a": [
+     "2-1",
+     "3-0",
+     "5-2",
+     "4-1"
+    ],
+    "c": 3
+   },
+   "src": [
+    [
+     "India.com, 19 Nov",
+     "https://www.india.com/sports/hockey/india-beat-malaysia-4-1-defending-champions-make-strong-start-to-womens-asian-champions-trophy-2026-8546330/"
+    ],
+    [
+     "PTI via The Bridge, 19 Nov",
+     "https://thebridge.in/hockey/india-beat-malaysia-womens-asian-champions-trophy-2026-58430"
+    ],
+    [
+     "myKhel, 19 Nov",
+     "https://www.mykhel.com/hockey/asian-champions-trophy-2026-india-begin-title-defence-with-convincing-4-1-win-over-malaysia-459529.html"
+    ],
+    [
+     "FIH event page, read 19 Nov",
+     "https://www.fih.hockey/events/womens-asian-champions-trophy-bhopal-2026"
+    ],
+    [
+     "IndiaSportsHub, 19 Nov",
+     "https://www.indiasportshub.com/articles/india-rally-past-malaysia-4-1-to-begin-women-s-asian-champions-trophy-title-defence-in-bhopal"
+    ]
+   ]
+  },
+  {
+   "id": "g-egypt-coffins",
+   "scope": "global",
+   "cat": "history",
+   "emoji": "🏺",
+   "date": "2026-11-18",
+   "kind": "news",
+   "x": {
+    "t": "Hundreds of old stone coffins found in Egypt",
+    "b": [
+     "A team in Egypt has found a very old burial ground. Egypt shared the news on Wednesday 18 November.",
+     "The team found hundreds of stone [[coffin|coffins]]. A coffin is a box in which a dead person is buried. They found two [[falcon|falcon]] burials and gold pieces shaped like tongues.",
+     "Experts believe the burial ground was mainly for people who were not rich or poor. The digging will go on."
+    ]
+   },
+   "o": {
+    "t": "Egypt uncovers ancient burial ground with hundreds of stone coffins",
+    "b": [
+     "Egypt's Ministry of Tourism and Antiquities announced on Wednesday 18 November that an Egyptian team of [[archaeologist|archaeologists]] had uncovered an ancient burial ground. Archaeologists study the past by digging up and examining old objects, also called antiquities. The site, [[tell-kom-abu-billo|Tell Kom Abu Billo]], is in Menoufia in northern Egypt.",
+     "The team found hundreds of stone [[coffin|coffins]], the boxes in which dead people are buried. Among the objects were gold pieces shaped like tongues, jewellery and small figurines, or little statues. There were also two [[falcon|falcon]] burials. A falcon is a bird of prey.",
+     "Early studies date much of the burial ground to the 3rd and 2nd centuries BC. BC means the years before year 1. It is believed to have served mainly middle-class people, meaning people who were neither very rich nor very poor. The full size of the site is not yet known, and digging will continue."
+    ]
+   },
+   "think": "If someone found your everyday things thousands of years from now, what would they learn about you?",
+   "quiz": {
+    "q": "The team found two burials of one kind of bird. Which bird was it?",
+    "a": [
+     "Peacock",
+     "Penguin",
+     "Falcon",
+     "Parrot"
+    ],
+    "c": 2
+   },
+   "src": [
+    [
+     "The National, 19 Nov",
+     "https://www.thenationalnews.com/news/mena/2026/11/19/gold-tongues-and-hundreds-of-stone-coffins-uncovered-in-ancient-egyptian-cemetery/"
+    ],
+    [
+     "Arab News, 19 Nov",
+     "https://www.arabnews.com/middle-east/egypt-uncovers-hundreds-of-coffins-rare-gold-artifacts-in-menoufia-3012888"
+    ],
+    [
+     "WAM via Sharjah24, 19 Nov",
+     "https://sharjah24.ae/en/Articles/2026/11/19/a28"
+    ]
+   ]
+  },
+  {
+   "id": "g-flying-frog",
+   "scope": "global",
+   "cat": "nature",
+   "emoji": "🐸",
+   "date": "2026-11-17",
+   "kind": "news",
+   "x": {
+    "t": "A new kind of frog lays its eggs in jelly",
+    "b": [
+     "Scientists have named a new kind of flying frog. It is known from only one high mountain lake in Indonesia.",
+     "Flying frogs do not really fly. They glide on big webbed feet. They usually build a nest of foam. This frog lays its eggs in a blob of jelly.",
+     "The scientists measured its body and recorded its call. This helped show it is a new [[species|species]], or kind."
+    ]
+   },
+   "o": {
+    "t": "New flying frog from Indonesia lays its eggs in jelly, not foam",
+    "b": [
+     "Scientists from Indonesia and from the University of California, Davis, have described a new [[species|species]], or kind, of flying frog. The news was reported this week. To describe a species is to study it and give it an official name. The frog is known only from a high mountain lake in the [[mekongga-mountains|Mekongga Mountains]] of Sulawesi, in Indonesia.",
+     "Flying frogs do not truly fly. They glide on large webbed feet. The typical flying frog builds a nest of foam. This frog lays its eggs in a blob of jelly. The eggs develop inside the jelly. The researchers suggest the jelly may help the frog cope with water that comes and goes with the seasons.",
+     "To check whether the frog was a new species, the team took 28 body measurements, analysed its [[dna|DNA]], the instructions inside living cells, and recorded its calls. The study is in the scientific journal Zootaxa."
+    ]
+   },
+   "think": "If you discovered a new animal, what would you want to find out about it first?",
+   "quiz": {
+    "q": "What does the new frog lay its eggs in?",
+    "a": [
+     "A nest of foam",
+     "A blob of jelly",
+     "A hole in the sand",
+     "A bird's nest"
+    ],
+    "c": 1
+   },
+   "src": [
+    [
+     "Sci.News, 17 Nov",
+     "https://www.sci.news/biology/rhacophorus-kurniatiae-15204.html"
+    ],
+    [
+     "Earth.com, 18 Nov",
+     "https://www.earth.com/animals/new-species-of-flying-frog-discovered-in-a-mountain-pond-called-coca-cola-lake/"
+    ],
+    [
+     "Scientias.nl, 19 Nov",
+     "https://scientias.nl/kikkervisjes-in-de-gelei-nieuwe-vliegende-kikker-kiest-een-andere-kraamkamer-dan-zijn-familie/"
+    ]
+   ]
+  },
+  {
+   "id": "g-wildlife-climate",
+   "scope": "global",
+   "cat": "planet",
+   "emoji": "🦦",
+   "date": "2026-11-17",
+   "kind": "news",
+   "x": {
+    "t": "25 countries say helping wild animals helps the climate",
+    "b": [
+     "On Tuesday 17 November, 25 countries made a promise at climate talks. They said protecting wild animals is part of looking after the climate.",
+     "Sea otters eat [[sea-urchin|sea urchins]]. Sea urchins eat [[kelp|kelp]], a big seaweed. So otters help kelp forests live. Kelp forests take in [[carbon-dioxide|carbon dioxide]], a gas that traps heat.",
+     "The promise is not a law. It asks countries to think about wild animals in climate plans."
+    ]
+   },
+   "o": {
+    "t": "25 countries back a promise linking wildlife and climate action",
+    "b": [
+     "At the COP31 climate conference in Antalya, Turkey, 25 countries backed the Wildlife for Climate [[declaration|Declaration]] on Tuesday 17 November. The declaration, a public statement, says that protecting wild animals is part of climate action. The 25 include countries from Africa, Europe, Latin America, the Caribbean and the Pacific.",
+     "Supporters point to sea otters to explain the idea. Sea otters eat [[sea-urchin|sea urchins]], and sea urchins eat [[kelp|kelp]], a large seaweed. Where there are otters, kelp forests survive, and kelp forests take in [[carbon-dioxide|carbon dioxide]], one of the gases that trap heat around the Earth.",
+     "The declaration is a political pledge, or promise, with no legal force, so it is not a law. It asks countries to consider protecting wildlife, and helping it recover, in their national climate and nature plans."
+    ]
+   },
+   "think": "Which wild animal would you most like to protect, and how might it help the nature around it?",
+   "quiz": {
+    "q": "Which animals do sea otters eat, helping kelp forests to survive?",
+    "a": [
+     "Elephants",
+     "Whales",
+     "Penguins",
+     "Sea urchins"
+    ],
+    "c": 3
+   },
+   "src": [
+    [
+     "Down To Earth, 18 Nov",
+     "https://www.downtoearth.org.in/wildlife-biodiversity/cop31-25-countries-back-declaration-to-make-wildlife-protection-part-of-climate-action"
+    ],
+    [
+     "IFAW press release, 17 Nov",
+     "https://www.ifaw.org/ca-en/press-releases/wildlife-climate-declaration-cop31"
+    ],
+    [
+     "Nature World News, 18 Nov",
+     "https://www.natureworldnews.com/articles/73914/20261118/twenty-five-countries-back-wildlife-climate-declaration-cop31.htm"
+    ],
+    [
+     "NASA Science, 23 Oct",
+     "https://science.nasa.gov/climate-change/causes/"
+    ]
+   ]
+  },
+  {
+   "id": "g-atp-finals",
+   "scope": "global",
+   "cat": "sports",
+   "emoji": "🎾",
+   "date": "2026-11-19",
+   "kind": "news",
+   "x": {
+    "t": "Ben Shelton wins in Turin and reaches the last four",
+    "b": [
+     "Ben Shelton won a big tennis match on Thursday 19 November. He beat Rafael Jodar in Turin.",
+     "Shelton reached the [[semi-final|semi-finals]] of the [[atp-finals|ATP Finals]]. It was his first semi-final there. A semi-final is one of the last two matches before the final.",
+     "Alexander Zverev won their [[group|group]]. Shelton still went through. So a player does not have to come first to go through."
+    ]
+   },
+   "o": {
+    "t": "Shelton reaches his first ATP Finals semi-final in Turin",
+    "b": [
+     "The American tennis player Ben Shelton reached the [[semi-final|semi-finals]] of the [[atp-finals|ATP Finals]] for the first time on Thursday 19 November. He beat 20-year-old Rafael Jodar 7-6, 7-5 in Turin. A semi-final is one of the two matches that decide who plays in the final.",
+     "A tennis match is divided into parts called [[set|sets]]. The score shows that Shelton won both sets, which is known as winning in straight sets. The match lasted more than two hours.",
+     "The ATP Finals begin with matches in a [[group|group]], a small number of players who play one another. Alexander Zverev won the group that Shelton and Jodar were in. Shelton also went through, so a player does not have to finish first in the group to reach the semi-finals. Jodar lost all three of his group matches and was out of the tournament."
+    ]
+   },
+   "think": "Have you ever not come first at something and still done well? What did it teach you?",
+   "quiz": {
+    "q": "Who did Ben Shelton beat on Thursday 19 November?",
+    "a": [
+     "Rafael Jodar",
+     "Alexander Zverev",
+     "Carlos Alcaraz",
+     "Daniil Medvedev"
+    ],
+    "c": 0
+   },
+   "src": [
+    [
+     "ATP Tour, 19 Nov",
+     "https://www.atptour.com/en/news/shelton-jodar-nitto-atp-finals-2026-thursday"
+    ],
+    [
+     "Sky Sports, 19 Nov",
+     "https://www.skysports.com/tennis/news/13614067/atp-finals-ben-shelton-beats-rafael-jodar-to-book-carlos-alcaraz-semi-final-as-alexander-zverev-secures-group-victory"
+    ],
+    [
+     "ATP Tour results page, updated 19 Nov",
+     "https://www.atptour.com/en/news/nitto-atp-finals-2026-results"
+    ]
+   ]
+  },
+  {
+   "id": "in-exports",
+   "scope": "IN",
+   "cat": "business",
+   "emoji": "🚢",
+   "date": "2026-11-19",
+   "kind": "news",
+   "x": {
+    "t": "India has a big goal for selling to other countries",
+    "b": [
+     "Countries sell things to other countries. These are called [[export|exports]]. Exports can be goods, which are things, or [[services|services]], which are work done for others.",
+     "This week, a government minister, Piyush Goyal, shared a goal. India aims to export 1 [[trillion|trillion]] dollars' worth this [[financial-year|financial year]]. A trillion is a thousand billion.",
+     "It is a goal, not yet reached. He said October was India's biggest month ever for exports."
+    ]
+   },
+   "o": {
+    "t": "India aims for 1 trillion dollars of exports this financial year",
+    "b": [
+     "India aims to [[export|export]] goods and services worth 1 [[trillion|trillion]] dollars this [[financial-year|financial year]], the 12-month period used for counting money. Piyush Goyal, the Union (national) Commerce and Industry Minister, said so this week. A trillion is a thousand billion, and commerce means trade.",
+     "Exports are what a country sells to other countries. They come in two kinds, which are counted together. Goods are things that can be made and shipped. [[services|Services]] are work done for customers in other countries.",
+     "The 1 trillion dollars is a target, not something India has already achieved. Mr Goyal said October was a record month, with 90 billion dollars of exports."
+    ]
+   },
+   "think": "If you could sell one thing made in your town or state to children in another country, what would it be?",
+   "quiz": {
+    "q": "What are exports?",
+    "a": [
+     "Goods and services a country buys from other countries",
+     "Goods and services a country sells to other countries",
+     "Money that a country prints",
+     "Taxes that people pay"
+    ],
+    "c": 1
+   },
+   "src": [
+    [
+     "Business Standard, 19 Nov",
+     "https://www.business-standard.com/amp/economy/news/india-aims-to-achieve-1-trillion-exports-this-year-says-piyush-goyal-126111901461_1.html"
+    ],
+    [
+     "NewsBytes, 19 Nov",
+     "https://www.newsbytesapp.com/news/business/india-aims-1-trillion-exports-as-upi-and-ai-lead/tldr"
+    ],
+    [
+     "The Indian Eye, 19 Nov",
+     "https://theindianeye.com/2026/11/19/india-on-track-to-achieve-1-trillion-exports-target-in-fy27/"
+    ]
+   ]
+  },
+  {
+   "id": "g-mit-robot",
+   "scope": "global",
+   "cat": "tech",
+   "emoji": "🤖",
+   "date": "2026-11-18",
+   "kind": "news",
+   "x": {
+    "t": "A tiny flying robot carries its own little computer",
+    "b": [
+     "Researchers have built a very small robot that flies. It flaps its wings like an insect. It weighs only 1.29 grams.",
+     "The robot carries its own tiny computer and [[sensor|sensors]], parts that measure how it moves. In tests, it could [[hover|hover]], or stay still in the air.",
+     "It still gets its power through a wire. One day, such robots might help to [[pollinate|pollinate]] flowers."
+    ]
+   },
+   "o": {
+    "t": "Insect-sized flying robot carries its own sensors and computer",
+    "b": [
+     "Researchers at the Massachusetts Institute of Technology, known as MIT, working with a researcher at Cornell University, have built a flying robot that weighs 1.29 grams. It flies by flapping its wings. MIT said the study is in the science journal Science Robotics.",
+     "The robot carries its own [[sensor|sensors]], devices that measure how it is moving, and a tiny computer. Each of these adds weight, which is a problem for a robot this small. In tests it could [[hover|hover]], or stay in one place in the air, and follow short paths.",
+     "In another test, a person used a joystick to guide the robot around obstacles, and it landed on a sunflower. The robot still gets its power through a wire from outside. Robots like this might one day help to [[pollinate|pollinate]] plants, which means carrying pollen between flowers."
+    ]
+   },
+   "think": "If you had a robot as small as an insect, what job would you give it, and why?",
+   "quiz": {
+    "q": "How does the tiny flying robot still get its power?",
+    "a": [
+     "Through a wire",
+     "From sunlight",
+     "From the wind",
+     "From a battery on its back"
+    ],
+    "c": 0
+   },
+   "src": [
+    [
+     "MIT News, 18 Nov",
+     "https://news.mit.edu/2026/featherweight-flying-robot-carries-its-own-sensors-and-computers-1118"
+    ],
+    [
+     "ZME Science, 20 Nov",
+     "https://www.zmescience.com/science/news-science/tiny-robot-flies-like-an-insect-and-could-one-day-help-pollinate-crops/"
+    ],
+    [
+     "tech360.tv, 19 Nov",
+     "https://www.tech360.tv/tiny-flying-robot-packs-own-brain"
+    ],
+    [
+     "EconoTimes, 19 Nov",
+     "https://econotimes.com/MIT-Robot-Flies-With-Onboard-Sensors-and-Flight-Control-1779523"
+    ],
+    [
+     "NewsBytes, 19 Nov",
+     "https://www.newsbytesapp.com/news/science/mit-builds-129gm-bumblebee-inspired-robot-that-flies-autonomously/tldr"
+    ]
+   ]
+  },
+  {
+   "id": "g-vangogh",
+   "scope": "global",
+   "cat": "culture",
+   "emoji": "🎨",
+   "date": "2026-11-18",
+   "kind": "news",
+   "x": {
+    "t": "A painting of trees sells for a very high price",
+    "b": [
+     "[[van-gogh|Vincent van Gogh]] was a painter. In 1890 he painted chestnut trees in blossom. Blossom means the flowers on a tree.",
+     "On Wednesday 18 November the painting was sold in New York. It was sold at an [[auction|auction]]. At an auction, the person who offers the most money wins.",
+     "The painting sold for 190.4 million dollars. No Van Gogh painting had sold for more at an auction."
+    ]
+   },
+   "o": {
+    "t": "Van Gogh painting of chestnut trees sets an auction record",
+    "b": [
+     "A painting by [[van-gogh|Vincent van Gogh]] sold for 190.4 million dollars at [[sothebys|Sotheby's]] in New York on Wednesday 18 November. Sotheby's is an auction house, a company that runs auctions. An [[auction|auction]] is a sale where people make bids, or offers of money, and the highest bid wins.",
+     "The price was the highest paid at auction for one of his paintings. The painting was one of twelve works from one family's collection offered that evening.",
+     "Van Gogh painted the picture in 1890, in the last months of his life. It shows chestnut trees in blossom, or in flower. The seller was the Blaquier-Arrieta family."
+    ]
+   },
+   "think": "What makes a painting special to you: who made it, how it looks, or something else?",
+   "quiz": {
+    "q": "What does the Van Gogh painting show?",
+    "a": [
+     "A ship at sea",
+     "A bowl of fruit",
+     "A snowy mountain",
+     "Chestnut trees in blossom"
+    ],
+    "c": 3
+   },
+   "src": [
+    [
+     "The Art Newspaper, 19 Nov",
+     "https://www.theartnewspaper.com/2026/11/19/van-gogh-painting-sells-for-record-7778m-after-nazi-loot-claims"
+    ],
+    [
+     "dpa via Yahoo, 19 Nov",
+     "https://www.yahoo.com/entertainment/articles/van-gogh-painting-sells-record-044831239.html"
+    ],
+    [
+     "Jewish Telegraphic Agency, 19 Nov",
+     "https://www.jta.org/2026/11/19/ny/van-gogh-painting-with-a-complex-jewish-history-sells-for-record-190-4-million-at-auction"
+    ]
+   ]
+  },
+  {
+   "id": "g-greenland",
+   "scope": "global",
+   "cat": "world",
+   "emoji": "🗳️",
+   "date": "2026-11-19",
+   "kind": "news",
+   "x": {
+    "t": "Two parliaments vote yes to an agreement about Greenland",
+    "b": [
+     "[[greenland|Greenland]] is part of the Kingdom of Denmark. It also has its own [[parliament|parliament]], a group chosen to make laws.",
+     "In September, Denmark, Greenland and the United States signed a [[security-agreement|security agreement]]. Then two parliaments voted on it.",
+     "Greenland's parliament said yes earlier in November. On Thursday 19 November, Denmark's parliament voted too. There, 109 members voted yes and nobody voted no. A yes vote means a parliament approves."
+    ]
+   },
+   "o": {
+    "t": "Denmark's parliament approves security agreement on Greenland",
+    "b": [
+     "On Thursday 19 November, Denmark's [[parliament|parliament]], called the Folketing, voted 109 to 0 to [[ratify|ratify]], or formally approve, a [[security-agreement|security agreement]], a deal between countries about defence. The agreement gives the United States military, meaning its armed forces, wider access to [[greenland|Greenland]], which is part of the Kingdom of Denmark.",
+     "The agreement was signed on 22 September in New York by Denmark, Greenland and the United States. Greenland has its own parliament, which approved the agreement earlier in November with 16 votes in favour. Seven members [[abstain|abstained]], which means they chose not to vote for or against. An opposition party, one not in Greenland's government, said the agreement brought Greenland no economic benefit, meaning no gain in money.",
+     "The two votes show that this agreement was made in steps. First it was signed. Then each parliament voted on whether to approve it. In Denmark's parliament, no member voted against."
+    ]
+   },
+   "think": "When a group you belong to has to decide something, is voting a fair way to do it? Why?",
+   "quiz": {
+    "q": "How many members of Denmark's parliament voted against the agreement?",
+    "a": [
+     "109",
+     "16",
+     "None",
+     "Seven"
+    ],
+    "c": 2
+   },
+   "src": [
+    [
+     "AFP and Reuters via Al Jazeera, 19 Nov",
+     "https://www.aljazeera.com/news/2026/11/19/denmark-parliament-approves-security-deal-with-greenland-and-us"
+    ],
+    [
+     "ArcticToday, 19 Nov",
+     "https://www.arctictoday.com/danish-parliament-ratifies-expanded-us-military-access-to-greenland/"
+    ],
+    [
+     "Reuters via The Star, 4 Nov",
+     "https://www.thestar.com.my/news/world/2026/11/04/greenland-parliament-ratifies-security-deal-agreed-with-trump"
+    ]
+   ],
+   "olderOnly": true,
+   "sensitive": "politics"
+  }
+ ],
+ "glossary": {
+  "cyclone": [
+   "cyclone",
+   "science",
+   "A very big storm with strong winds and heavy rain that forms over the sea.",
+   "A very large storm that forms over warm seas and spins, bringing strong winds and heavy rain."
+  ],
+  "shelter": [
+   "shelter",
+   "words",
+   "A safe place where people can stay for a while.",
+   "A safe place to stay for a while. A cyclone shelter is a building where people can stay during a storm."
+  ],
+  "forecast": [
+   "forecast",
+   "science",
+   "What experts say the weather will probably do next.",
+   "A statement of what is expected to happen, such as the weather over the next few days, worked out from measurements."
+  ],
+  "landfall": [
+   "landfall",
+   "science",
+   "When a storm moves from the sea onto the land.",
+   "The moment when a storm that formed over the sea crosses the coast and moves onto land."
+  ],
+  "rare-disease": [
+   "rare disease",
+   "science",
+   "An illness that very few people have.",
+   "An illness that affects only a small number of people."
+  ],
+  "pharmacy": [
+   "pharmacy",
+   "words",
+   "A place where medicines are prepared and given out.",
+   "A place where trained people called pharmacists prepare and give out medicines."
+  ],
+  "genetic": [
+   "genetic",
+   "science",
+   "To do with genes, the tiny instructions inside our bodies.",
+   "To do with genes, the instructions inside the cells of living things. A genetic condition is caused by a change in a gene."
+  ],
+  "compounding": [
+   "compounding",
+   "science",
+   "When a pharmacy makes a medicine itself.",
+   "When a pharmacy prepares a medicine itself from its active ingredient, the part that makes the medicine work."
+  ],
+  "draft": [
+   "draft",
+   "words",
+   "An early version of a piece of writing. It can still be changed.",
+   "An early version of a piece of writing, such as an agreement, that can still be changed before it is finished."
+  ],
+  "fossil-fuels": [
+   "fossil fuels",
+   "science",
+   "Coal, oil and gas. People burn them to get energy.",
+   "Fuels such as coal, oil and gas, which formed underground over a very long time. People burn them to get energy."
+  ],
+  "cop31": [
+   "COP31",
+   "civics",
+   "A big meeting where countries talk about the climate.",
+   "The United Nations climate conference held in Antalya, Turkey, where countries talk about the climate."
+  ],
+  "mercury": [
+   "Mercury",
+   "science",
+   "The planet closest to the Sun.",
+   "The planet closest to the Sun, and the smallest planet in our solar system."
+  ],
+  "flyby": [
+   "flyby",
+   "science",
+   "When a spacecraft flies close past a planet or another object in space without stopping.",
+   "When a spacecraft flies close past a planet or another object in space without stopping or going into orbit around it."
+  ],
+  "orbit": [
+   "orbit",
+   "science",
+   "The path one thing takes as it circles around another in space.",
+   "The curved path one object takes around another in space, such as a spacecraft circling a planet."
+  ],
+  "bhopal": [
+   "Bhopal",
+   "places",
+   "A city in Madhya Pradesh, a state of India.",
+   "A city in the Indian state of Madhya Pradesh."
+  ],
+  "defending-champions": [
+   "defending champions",
+   "words",
+   "The team that won a contest the last time.",
+   "The team or player that won a competition the last time it was held and is now trying to win it again."
+  ],
+  "equalise": [
+   "equalise",
+   "words",
+   "To score so that both teams have the same number of goals.",
+   "To score a goal or point that makes the two sides' scores level."
+  ],
+  "coffin": [
+   "coffin",
+   "words",
+   "A box in which a dead person is buried.",
+   "A box in which a dead person is buried."
+  ],
+  "falcon": [
+   "falcon",
+   "science",
+   "A bird that hunts other animals for food.",
+   "A bird of prey, which is a bird that hunts other animals for food."
+  ],
+  "archaeologist": [
+   "archaeologist",
+   "science",
+   "A person who digs up very old things to learn about the past.",
+   "A scientist who studies how people lived in the past by finding and examining the things they left behind."
+  ],
+  "tell-kom-abu-billo": [
+   "Tell Kom Abu Billo",
+   "places",
+   "A place in Egypt with a very old burial ground.",
+   "A site in Menoufia Governorate, in northern Egypt, where an ancient burial ground has been uncovered."
+  ],
+  "species": [
+   "species",
+   "science",
+   "One kind of living thing, such as a tiger or a house sparrow.",
+   "One kind of living thing. When scientists describe a new species, they give it an official name."
+  ],
+  "mekongga-mountains": [
+   "Mekongga Mountains",
+   "places",
+   "Mountains in Indonesia.",
+   "A group of mountains on the island of Sulawesi, in Indonesia."
+  ],
+  "dna": [
+   "DNA",
+   "science",
+   "Tiny instructions inside every living thing.",
+   "A chemical inside the cells of living things that carries the instructions for how they grow and work. Scientists compare DNA to see how closely living things are related."
+  ],
+  "sea-urchin": [
+   "sea urchin",
+   "science",
+   "A small sea animal with a round body covered in spines.",
+   "A small sea animal with a round shell covered in spines."
+  ],
+  "kelp": [
+   "kelp",
+   "science",
+   "A big brown seaweed that grows in the sea.",
+   "A large brown seaweed. Where a lot of it grows together, it is called a kelp forest."
+  ],
+  "carbon-dioxide": [
+   "carbon dioxide",
+   "science",
+   "A gas in the air. Plants and seaweeds take it in.",
+   "A gas in the air. Plants and seaweeds take it in, and it is one of the gases that trap heat around the Earth."
+  ],
+  "declaration": [
+   "declaration",
+   "civics",
+   "Words that tell everyone what a group promises or believes.",
+   "A public statement that says what a group of people or countries promise or believe."
+  ],
+  "semi-final": [
+   "semi-final",
+   "words",
+   "One of the last two matches before the final.",
+   "One of the two matches that decide who plays in the final."
+  ],
+  "atp-finals": [
+   "ATP Finals",
+   "words",
+   "A big tennis tournament.",
+   "A tennis tournament played in Turin in November 2026."
+  ],
+  "group": [
+   "group",
+   "words",
+   "In sport, a small number of players or teams who play one another.",
+   "In sport, a small number of players or teams who play one another at the start of a tournament. The best of them go through to the next round."
+  ],
+  "set": [
+   "set",
+   "words",
+   "One part of a tennis match.",
+   "One part of a tennis match. A player wins the match by winning sets."
+  ],
+  "export": [
+   "export",
+   "words",
+   "Something a country sells to another country.",
+   "Something a country sells to other countries. To export means to sell goods or services to another country."
+  ],
+  "services": [
+   "services",
+   "words",
+   "Work that people do for others.",
+   "Work done for other people for payment, as opposed to goods, which are things that are made and sold."
+  ],
+  "trillion": [
+   "trillion",
+   "words",
+   "A very big number: a thousand billion.",
+   "A thousand billion, written as 1 followed by 12 zeros."
+  ],
+  "financial-year": [
+   "financial year",
+   "words",
+   "A year used for counting money.",
+   "A period of 12 months that a government or business uses for counting its money."
+  ],
+  "sensor": [
+   "sensor",
+   "tech",
+   "A part that measures something, such as movement or height.",
+   "A device that measures something, such as movement or height, and passes the information to a computer."
+  ],
+  "hover": [
+   "hover",
+   "words",
+   "To stay in one place in the air.",
+   "To stay in the air in one place, without moving forwards or backwards."
+  ],
+  "pollinate": [
+   "pollinate",
+   "science",
+   "To carry pollen from one flower to another, which helps plants make seeds.",
+   "To move pollen from one flower to another, which lets plants make seeds and fruit."
+  ],
+  "van-gogh": [
+   "Vincent van Gogh",
+   "people",
+   "A painter. He painted chestnut trees in blossom in 1890.",
+   "A painter. He made the painting of chestnut trees in blossom in 1890, in the last months of his life."
+  ],
+  "auction": [
+   "auction",
+   "words",
+   "A sale where the person who offers the most money wins.",
+   "A sale where people make bids, or offers of money, and the item goes to the person who bids the most."
+  ],
+  "sothebys": [
+   "Sotheby's",
+   "words",
+   "A company that sells things at auctions.",
+   "An auction house, which is a company that runs auctions. It held this sale in New York."
+  ],
+  "greenland": [
+   "Greenland",
+   "places",
+   "A land that is part of the Kingdom of Denmark. It has its own parliament.",
+   "A territory that is part of the Kingdom of Denmark. It has its own parliament."
+  ],
+  "parliament": [
+   "parliament",
+   "civics",
+   "A group of people chosen to make laws.",
+   "A group of elected people who debate and vote on laws and other big decisions."
+  ],
+  "security-agreement": [
+   "security agreement",
+   "civics",
+   "A deal between countries about keeping places safe.",
+   "A written deal between countries about defence and keeping places safe."
+  ],
+  "ratify": [
+   "ratify",
+   "civics",
+   "To say yes to an agreement in an official way.",
+   "To give formal approval to an agreement, often by a vote."
+  ],
+  "abstain": [
+   "abstain",
+   "civics",
+   "To choose not to vote yes or no.",
+   "To choose not to vote either for or against something."
+  ],
+  "light-day": [
+   "light-day",
+   "science",
+   "How far light travels in one whole day. It is a very long way.",
+   "A unit of distance: how far light travels in 24 hours, about 25.9 billion kilometres."
+  ],
+  "interstellar": [
+   "interstellar space",
+   "science",
+   "The space between the stars.",
+   "The space between the stars. Voyager 1 became the first spacecraft to enter it, in 2012."
+  ],
+  "jpl": [
+   "Jet Propulsion Laboratory",
+   "places",
+   "A NASA centre in California. The Voyager 1 mission is run from there.",
+   "A NASA laboratory in California. The Voyager mission is run from there."
+  ],
+  "deep-space-network": [
+   "Deep Space Network",
+   "tech",
+   "NASA's big antennas that keep track of faraway spacecraft.",
+   "NASA's network of giant radio antennas, with sites in California, near Madrid in Spain and near Canberra in Australia. It keeps track of Voyager 1."
+  ]
+ },
+ "keys": {
+  "in-akvan": {
+   "type": "number",
+   "v": "3 lakh",
+   "l": "about this many people (300,000) had moved to safer places by late on Thursday night"
+  },
+  "in-rare-medicine": {
+   "type": "number",
+   "v": "7",
+   "l": "children in India who are set to receive the medicine free, starting on 30 November"
+  },
+  "g-cop31": {
+   "type": "number",
+   "v": "35",
+   "l": "per cent of the world's energy use that should come from electricity by 2035, under the goal kept in the draft"
+  },
+  "g-mercury": {
+   "type": "number",
+   "v": "9",
+   "l": "times BepiColombo flew close past a planet on its way to Mercury"
+  },
+  "in-hockey-act": {
+   "type": "number",
+   "v": "4-1",
+   "l": "the score by which India beat Malaysia in Bhopal"
+  },
+  "g-egypt-coffins": {
+   "type": "number",
+   "v": "2",
+   "l": "falcon burials found at the burial ground"
+  },
+  "g-flying-frog": {
+   "type": "number",
+   "v": "28",
+   "l": "body measurements the team took to study the frog"
+  },
+  "g-wildlife-climate": {
+   "type": "number",
+   "v": "25",
+   "l": "countries that backed the Wildlife for Climate Declaration"
+  },
+  "in-exports": {
+   "type": "number",
+   "v": "1 trillion",
+   "l": "dollars of goods and services India aims to export this financial year"
+  },
+  "g-mit-robot": {
+   "type": "number",
+   "v": "1.29",
+   "l": "grams, the weight of the flying robot"
+  },
+  "g-vangogh": {
+   "type": "number",
+   "v": "190.4",
+   "l": "million dollars, the price the painting sold for at auction"
+  },
+  "g-greenland": {
+   "type": "number",
+   "v": "109",
+   "l": "members of Denmark's parliament who voted for the agreement, with none against"
+  }
+ },
+ "xkeys": {
+  "in-akvan": {
+   "type": "check",
+   "q": "What were fishermen told?",
+   "a": [
+    "To go to sea",
+    "Not to go to sea"
+   ],
+   "c": 1,
+   "right": "Right! Fishermen were told not to go to sea.",
+   "wrong": "Not quite. Fishermen were told not to go to sea."
+  },
+  "in-rare-medicine": {
+   "type": "check",
+   "q": "Will the seven children have to pay for the medicine?",
+   "a": [
+    "No, they are set to get it free",
+    "Yes, they must pay the full price"
+   ],
+   "c": 0,
+   "right": "Right! The seven children are set to get the medicine free.",
+   "wrong": "Not quite. The seven children are set to get the medicine free."
+  },
+  "g-cop31": {
+   "type": "check",
+   "q": "Is the new draft shorter or longer than the first one?",
+   "a": [
+    "Shorter",
+    "Longer"
+   ],
+   "c": 0,
+   "right": "Right! The new draft is shorter.",
+   "wrong": "Not quite. The new draft is shorter."
+  },
+  "g-mercury": {
+   "type": "check",
+   "q": "Is Mercury the farthest planet from the Sun or the closest planet to the Sun?",
+   "a": [
+    "The farthest",
+    "The closest"
+   ],
+   "c": 1,
+   "right": "Right! Mercury is the closest planet to the Sun.",
+   "wrong": "Not quite. Mercury is the closest planet to the Sun."
+  },
+  "in-hockey-act": {
+   "type": "check",
+   "q": "Which team scored the first goal?",
+   "a": [
+    "India",
+    "Malaysia"
+   ],
+   "c": 1,
+   "right": "Right! Malaysia scored first, and then India scored four goals.",
+   "wrong": "Not quite. Malaysia scored first, and then India scored four goals."
+  },
+  "g-egypt-coffins": {
+   "type": "check",
+   "q": "What were the gold pieces shaped like?",
+   "a": [
+    "Tongues",
+    "Stars"
+   ],
+   "c": 0,
+   "right": "Right! The gold pieces were shaped like tongues.",
+   "wrong": "Not quite. The gold pieces were shaped like tongues."
+  },
+  "g-flying-frog": {
+   "type": "check",
+   "q": "Where is the lake the new frog is known from?",
+   "a": [
+    "Beside the sea",
+    "High in the mountains"
+   ],
+   "c": 1,
+   "right": "Right! The frog is known from one high mountain lake in Indonesia.",
+   "wrong": "Not quite. The frog is known from one high mountain lake in Indonesia."
+  },
+  "g-wildlife-climate": {
+   "type": "check",
+   "q": "What do sea urchins eat?",
+   "a": [
+    "Sea otters",
+    "Kelp"
+   ],
+   "c": 1,
+   "right": "Right! Sea urchins eat kelp, a big seaweed.",
+   "wrong": "Not quite. Sea urchins eat kelp, a big seaweed."
+  },
+  "g-atp-finals": {
+   "type": "check",
+   "q": "Who won the group that Shelton played in?",
+   "a": [
+    "Ben Shelton",
+    "Alexander Zverev"
+   ],
+   "c": 1,
+   "right": "Right! Alexander Zverev won the group, and Shelton went through too.",
+   "wrong": "Not quite. Alexander Zverev won the group, and Shelton went through too."
+  },
+  "in-exports": {
+   "type": "check",
+   "q": "Is 1 trillion dollars of exports a goal, or has it already happened?",
+   "a": [
+    "It is a goal",
+    "It has already happened"
+   ],
+   "c": 0,
+   "right": "Right! It is a goal that India aims to reach.",
+   "wrong": "Not quite. It is a goal that India aims to reach."
+  },
+  "g-mit-robot": {
+   "type": "check",
+   "q": "How does the tiny robot fly?",
+   "a": [
+    "It flaps its wings",
+    "It spins propellers"
+   ],
+   "c": 0,
+   "right": "Right! The robot flaps its wings like an insect.",
+   "wrong": "Not quite. The robot flaps its wings like an insect."
+  },
+  "g-vangogh": {
+   "type": "check",
+   "q": "In which city was the painting sold?",
+   "a": [
+    "New York",
+    "London"
+   ],
+   "c": 0,
+   "right": "Right! The painting was sold at an auction in New York.",
+   "wrong": "Not quite. The painting was sold at an auction in New York."
+  },
+  "g-greenland": {
+   "type": "check",
+   "q": "Did Denmark's parliament vote yes or no to the agreement?",
+   "a": [
+    "Yes",
+    "No"
+   ],
+   "c": 0,
+   "right": "Right! Denmark's parliament voted yes.",
+   "wrong": "Not quite. Denmark's parliament voted yes."
+  }
+ },
+ "deep": {
+  "in-akvan": {
+   "ctx": "The storm's forecast path changed: it was first projected to move towards Andhra Pradesh, then shifted towards Odisha. The number of people moved to safer places grew through Thursday, from tens of thousands in the morning to more than one lakh by the evening and about three lakh late at night.",
+   "ask": "Moving people before a storm keeps them safe, but leaving home is hard and forecasts can change. Some people think officials should move people as early as possible, even if the storm then turns out weaker. Others think it is better to wait for a surer forecast, so that fewer people leave home without need. When is the right time to ask people to move?",
+   "jobs": [
+    "Meteorologist (a scientist who studies and forecasts the weather)",
+    "Disaster response officer (a person trained to rescue and help people in emergencies)",
+    "Emergency planner (a person who plans how a place gets ready for storms and floods)"
+   ]
+  },
+  "in-rare-medicine": {
+   "ctx": "The condition is Allan-Herndon-Dudley syndrome, caused by changes in the MCT8 gene, which carries thyroid hormones into brain cells. The pharmacy-made medicine has a six-month shelf life, so it will be imported in two batches, and each family has an individual import permission covering one year. Dr Sivaranjani raised about Rs 6.09 lakh in India towards the cost, and the foundation in the Netherlands undertook to raise the rest.",
+   "ask": "The same medicine can cost very different amounts depending on who makes it. Some people think the company that sells a medicine should set its price, because developing medicines for rare diseases costs a lot. Others think that when a much cheaper way to make a medicine exists, patients should be free to use it. How should the price of a medicine for a rare disease be decided?",
+   "jobs": [
+    "Paediatrician (a doctor who treats children)",
+    "Pharmacist (a person trained to prepare and give out medicines)",
+    "Health policy researcher (a person who studies how medicines and care can reach more people)"
+   ]
+  },
+  "g-cop31": {
+   "ctx": "Thursday's draft acknowledges that warming could go past 1.5 degrees Celsius, a limit countries have tried to keep. It also keeps a goal to triple money for adaptation, which means helping countries cope with climate change, by 2035, but gives no amount.",
+   "ask": "Nearly 200 countries were trying to agree on one text. Some people think a deal that every country accepts is worth having, even if it leaves things out. Others think a deal that leaves out the hardest subjects is too weak to be useful. Is it better to have a weaker agreement that everyone accepts, or a stronger one that only some countries accept?",
+   "jobs": [
+    "Climate negotiator (a person who speaks for their country at climate talks)",
+    "Climate scientist (a scientist who studies how the Earth's climate is changing)",
+    "Energy engineer (an engineer who designs ways to make and use energy)"
+   ]
+  },
+  "g-mercury": {
+   "ctx": "BepiColombo had been due to arrive in December 2025, but a power problem on the spacecraft forced its route to be redesigned, and the arrival was moved to November 2026. A third part of the spacecraft, the Mercury Transfer Module, which carried the ion thrusters, separated on 3 September 2026. After entering orbit, the two science orbiters are due to separate from each other in December 2026, and the science phase is due to start in April 2027.",
+   "ask": "BepiColombo's journey to Mercury has lasted eight years, and its science phase is due to start only in 2027. Some people think long journeys to other planets are worth the wait, because they teach us new things about our solar system. Others think the same effort would do more good if it were spent on problems here on Earth. How should people decide which big science projects to take on?",
+   "jobs": [
+    "Aerospace engineer (a person who designs and builds spacecraft)",
+    "Planetary scientist (a scientist who studies planets)",
+    "Flight controller (a person who sends commands to a spacecraft and watches how it is doing)"
+   ]
+  },
+  "in-hockey-act": {
+   "ctx": "Six teams played on Thursday 19 November: China, India, Japan, South Korea, Malaysia and Thailand. This stage is a round-robin, a format in which teams play one another in turn. The event's full name is the Madhya Pradesh Women's Asian Champions Trophy Bhopal 2026.",
+   "ask": "A player scored in her first match for India. Some people think coaches should give new players a chance in big tournaments, because that is how they learn. Others think a big tournament is the time to rely on the most experienced players. How should a coach choose between new and experienced players?",
+   "jobs": [
+    "Hockey coach (a person who trains a team and plans how it plays)",
+    "Sports physiotherapist (a health worker who helps athletes avoid and recover from injuries)",
+    "Sports journalist (a person who reports on matches and players)"
+   ]
+  },
+  "g-egypt-coffins": {
+   "ctx": "The burials date from the end of the Late Period, through the Ptolemaic era, into the early Roman period, three stretches of Egypt's ancient history. Many of the coffins were grouped in an open courtyard, which Egypt's Supreme Council of Antiquities said is a first for the site. The team also found tombs built of mudbrick, described as vaulted, which means having an arched roof, and one tomb was lined with limestone.",
+   "ask": "This burial ground is believed to have served mainly middle-class people. Some people think the lives of rulers tell us most about the past, because rulers made the big decisions. Others think the belongings of everyday people tell us more, because they show how most people lived. Which tells us more about the past?",
+   "jobs": [
+    "Archaeologist (a scientist who studies the past by digging up and examining old objects)",
+    "Conservator (a person who cleans and protects old objects so that they last)",
+    "Museum curator (a person who looks after a museum's collection and plans its displays)"
+   ]
+  },
+  "g-flying-frog": {
+   "ctx": "The frog's scientific name is Rhacophorus kurniatiae, after Hellen Kurniati, a scientist who worked for many years at Indonesia's Museum Zoologicum Bogoriense. Its closest relative is another frog, Rhacophorus boeadii, and the two have only small DNA differences. The mountain habitats there are under growing human pressure and need more surveys, and the area is a candidate for national park status.",
+   "ask": "This frog is known from only one lake, in mountains that are under growing human pressure. Some people think places like this should be strictly protected, so that rare animals are left alone. Others think people should still be allowed to use land like this, with rules. How should a place with rare wildlife be shared?",
+   "jobs": [
+    "Herpetologist (a scientist who studies amphibians and reptiles)",
+    "Geneticist (a scientist who studies DNA and how features are passed on)",
+    "Field biologist (a scientist who studies living things in the places where they live)"
+   ]
+  },
+  "g-wildlife-climate": {
+   "ctx": "Animals affect how much carbon nature stores in several ways: by grazing, by hunting other animals, by spreading seeds, by cycling nutrients and by changing soils. The declaration draws on a statement called the Scientific Consensus on Wildlife and Climate, supported by more than 350 scientists from 47 countries. A report on the declaration adds that the benefits vary by species and habitat.",
+   "ask": "Some people think climate plans should include protecting wild animals, because living nature can store carbon. Others think it should not take the place of cutting emissions. Should protecting wildlife be counted as climate action?",
+   "jobs": [
+    "Marine biologist (a scientist who studies life in the sea)",
+    "Wildlife conservationist (a person who works to protect wild animals and the places where they live)",
+    "Climate policy specialist (a person who helps to write plans and rules on climate change)"
+   ]
+  },
+  "g-atp-finals": {
+   "ctx": "The tournament's full name is the Nitto ATP Finals, and the group that Zverev won is called the John McEnroe Group. Jodar was playing at the ATP Finals in his first season on the tour.",
+   "ask": "In a group stage, a player who does not win every match can still go through. In a knockout, one defeat ends a player's tournament. Some people think groups are fairer, because one bad day does not decide everything. Others think knockouts are a truer test, because every match counts. Which is the better way to find a champion?",
+   "jobs": [
+    "Tennis coach (a person who trains players and helps them plan for matches)",
+    "Tournament director (a person who plans and runs a sports tournament)",
+    "Umpire (an official who makes sure the rules of a match are followed)"
+   ]
+  },
+  "in-exports": {
+   "ctx": "In the last financial year, India's exports were 863 billion dollars. The target of 1 trillion dollars is for goods and services together.",
+   "ask": "A country can set a big round target, such as 1 trillion dollars of exports. Some people think targets like this help, because they give everyone a clear goal to work towards. Others think one big number can hide what matters, such as which goods and services are sold and who gains from them. Are big national targets a good way to measure progress?",
+   "jobs": [
+    "Economist (a person who studies how money, trade and jobs work)",
+    "Export manager (a person who arranges the sale of a company's products to other countries)",
+    "Logistics planner (a person who organises how goods are moved by ship, road, rail and air)"
+   ]
+  },
+  "g-mit-robot": {
+   "ctx": "The robot's electronics, meaning its sensors and computer, weigh 244 milligrams. Its wings are moved by soft artificial muscles. The team made changes to them that raised the robot's lift by 46 per cent.",
+   "ask": "One possible future use for robots like this is helping to pollinate plants. Some people think tiny robots could be a useful helper for farmers in places where there are too few insects. Others think the effort is better spent on protecting real bees and other insects that pollinate. Which approach makes more sense, or is there room for both?",
+   "jobs": [
+    "Robotics engineer (a person who designs and builds robots)",
+    "Electronics engineer (a person who designs circuits, sensors and tiny computers)",
+    "Agricultural scientist (a scientist who studies how to grow crops well)"
+   ]
+  },
+  "g-vangogh": {
+   "ctx": "The price was the second highest for anything sold at Sotheby's, behind a portrait by Gustav Klimt that sold for 236.4 million dollars. The painting once belonged to the Fischer family, who sold it in 1936, and their heirs said the sale was made under pressure. Before the auction, Sotheby's said the Fischer heirs and the Blaquier-Arrieta family had reached an agreement.",
+   "ask": "Some people think great paintings belong in public museums, so that everyone can see them. Others think owners should be free to buy and sell art privately, as they can with other things they own. Should important paintings be kept where the public can see them?",
+   "jobs": [
+    "Auctioneer (a person who runs an auction and calls out the bids)",
+    "Art historian (a person who studies art and the artists who made it)",
+    "Provenance researcher (a person who traces who has owned a work of art in the past)"
+   ]
+  },
+  "g-greenland": {
+   "ctx": "The agreement adds to an earlier one from 1951. The United States President had pushed for the United States to take control of Greenland, and the agreement was signed to settle that dispute.",
+   "ask": "Some people think members of parliament should decide on big agreements, because voters elected them to make such decisions. Others think very big decisions should also be put to a referendum, a vote by all the people. Who should have the final say on a big agreement between countries?",
+   "jobs": [
+    "Diplomat (a person who represents their country in talks with other countries)",
+    "Member of parliament (a person elected to debate and vote on laws)",
+    "International lawyer (a lawyer who works on agreements between countries)"
+   ]
+  }
+ },
+ "bigStory": {
+  "week": "2026-11-16",
+  "story": "g-voyager",
+  "cat": "space",
+  "t": "How far is one light-day from home?",
+  "sub": "Voyager 1, launched in 1977, reached one light-day from Earth on Wednesday",
+  "x": {
+   "why": "A spacecraft that left Earth in 1977 is still travelling. This week it got so far away that light needs a whole day to reach it."
+  },
+  "o": {
+   "why": "A spacecraft launched in 1977 is still travelling, and its team on Earth still talks to it. This week it reached a distance so great that a radio signal, moving at the speed of light, needs 24 hours to get there."
+  },
+  "facts": [
+   [
+    "1977",
+    "the year Voyager 1 left Earth"
+   ],
+   [
+    "25.9 billion km",
+    "about one light-day: how far light travels in 24 hours"
+   ],
+   [
+    "24 hours",
+    "how long a radio signal from Earth now takes to reach it"
+   ],
+   [
+    "18 Nov",
+    "the day it reached one light-day"
+   ]
+  ],
+  "days": [
+   {
+    "d": "2026-11-16",
+    "h": "Meet Voyager 1",
+    "o": "NASA launched Voyager 1 on 5 September 1977. It flew past Jupiter in 1979 and Saturn in 1980, and in 1990 it took a picture of Earth known as the Pale Blue Dot. In 2012 it entered interstellar space, the space between the stars. It is run from NASA's Jet Propulsion Laboratory in California.",
+    "x": "Voyager 1 is a spacecraft. It left Earth in 1977. It flew past the planets Jupiter and Saturn. In 1990 it took a picture of Earth from very far away."
+   },
+   {
+    "d": "2026-11-17",
+    "h": "How far is a light-day?",
+    "o": "A light-day is the distance light travels in 24 hours, about 25.9 billion kilometres. Light reaches the Moon in about 1.3 seconds, and sunlight takes about 8 minutes to reach Earth. After sunset today, Tuesday 17 November, NASA invites people to flash VGR, Voyager's three-letter call sign, in Morse code towards the sky with a torch.",
+    "x": "A light-day is how far light travels in one day. Sunlight reaches us in about 8 minutes. After sunset today, people can flash a torch for Voyager. Ask a grown-up to help."
+   },
+   {
+    "d": "2026-11-18",
+    "h": "The big day",
+    "o": "NASA worked out that Voyager 1 would reach one light-day from Earth on Wednesday 18 November. No spacecraft has travelled this far before. A radio signal now takes about 24 hours to reach it, and its reply takes another day to come back. Voyager 2 is expected to reach one light-day in 2035.",
+    "x": "On Wednesday, Voyager 1 reached one light-day from Earth. No spacecraft has gone this far before. A message now takes about a day to get there."
+   },
+   {
+    "d": "2026-11-19",
+    "h": "Phoning home",
+    "o": "NASA talks to Voyager 1 by radio through its Deep Space Network, a set of giant radio antennas at three sites: Goldstone in California, near Madrid in Spain and near Canberra in Australia. The sites are placed around the world so that they can keep in contact with a spacecraft as Earth turns. Each site has one antenna that is 70 metres across. A radio signal now takes about 24 hours to reach Voyager 1, and its reply takes another 24 hours to come back, so a message and its answer make a two-day round trip.",
+    "x": "NASA talks to Voyager 1 with radio signals. It uses giant radio antennas in California, Spain and Australia. A message takes about a day to reach Voyager 1. The reply takes another day to come back."
+   },
+   {
+    "d": "2026-11-20",
+    "h": "What comes next?",
+    "o": "On Wednesday 18 November Voyager 1 reached one light-day from Earth. Its power source makes about 4 watts less every year, so NASA has been switching off instruments to save power. Even after it falls silent, it will keep travelling. It will take about 300 years to reach the inner edge of a distant region called the Oort Cloud. In about 40,000 years it is expected to pass another star. It carries a Golden Record with sounds, music and images from Earth, and greetings in 55 languages.",
+    "x": "On Wednesday, Voyager 1 reached one light-day from Earth. Its power gets a little weaker every year. Even when it falls silent, it will keep travelling. It carries a Golden Record with sounds, music and pictures from Earth."
+   }
+  ],
+  "words": [
+   "light-day",
+   "interstellar",
+   "jpl",
+   "deep-space-network"
+  ],
+  "poll": {
+   "q": "If you could add one thing to a message carried into space, what would it be?",
+   "a": [
+    [
+     "Music",
+     "A tune can be enjoyed without knowing the words."
+    ],
+    [
+     "Greetings in many languages",
+     "It would show how many peoples share one planet."
+    ],
+    [
+     "Pictures of animals and places",
+     "A picture can show what words cannot."
+    ],
+    [
+     "A map of where we are",
+     "So that whoever finds it knows where it came from."
+    ]
+   ]
+  },
+  "talk": "If you sent a message today that would be opened 49 years from now, what would you want the reader to know about your life?"
+ },
+ "puzzles": {
+  "week": "2026-11-16",
+  "sudoku": {
+   "x": {
+    "n": 4,
+    "br": 2,
+    "bc": 2,
+    "p": [
+     [
+      0,
+      1,
+      2,
+      0
+     ],
+     [
+      0,
+      0,
+      1,
+      0
+     ],
+     [
+      0,
+      0,
+      3,
+      0
+     ],
+     [
+      3,
+      2,
+      0,
+      1
+     ]
+    ],
+    "s": [
+     [
+      4,
+      1,
+      2,
+      3
+     ],
+     [
+      2,
+      3,
+      1,
+      4
+     ],
+     [
+      1,
+      4,
+      3,
+      2
+     ],
+     [
+      3,
+      2,
+      4,
+      1
+     ]
+    ]
+   },
+   "o": {
+    "n": 6,
+    "br": 2,
+    "bc": 3,
+    "p": [
+     [
+      0,
+      1,
+      0,
+      2,
+      0,
+      0
+     ],
+     [
+      3,
+      6,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      6,
+      5,
+      3,
+      0,
+      4,
+      2
+     ],
+     [
+      0,
+      4,
+      1,
+      0,
+      0,
+      6
+     ],
+     [
+      0,
+      0,
+      0,
+      6,
+      0,
+      4
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+     ]
+    ],
+    "s": [
+     [
+      5,
+      1,
+      4,
+      2,
+      6,
+      3
+     ],
+     [
+      3,
+      6,
+      2,
+      4,
+      5,
+      1
+     ],
+     [
+      6,
+      5,
+      3,
+      1,
+      4,
+      2
+     ],
+     [
+      2,
+      4,
+      1,
+      5,
+      3,
+      6
+     ],
+     [
+      1,
+      3,
+      5,
+      6,
+      2,
+      4
+     ],
+     [
+      4,
+      2,
+      6,
+      3,
+      1,
+      5
+     ]
+    ]
+   },
+   "n": {
+    "n": 9,
+    "br": 3,
+    "bc": 3,
+    "p": [
+     [
+      2,
+      0,
+      0,
+      3,
+      4,
+      0,
+      0,
+      7,
+      9
+     ],
+     [
+      9,
+      0,
+      6,
+      1,
+      0,
+      0,
+      3,
+      4,
+      5
+     ],
+     [
+      0,
+      3,
+      0,
+      9,
+      6,
+      5,
+      0,
+      1,
+      0
+     ],
+     [
+      8,
+      0,
+      0,
+      4,
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      7,
+      9,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      7,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      9,
+      2,
+      0,
+      3,
+      7,
+      0,
+      0,
+      0
+     ],
+     [
+      5,
+      0,
+      0,
+      2,
+      8,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      5,
+      0,
+      1,
+      0,
+      0,
+      3
+     ]
+    ],
+    "s": [
+     [
+      2,
+      5,
+      1,
+      3,
+      4,
+      8,
+      6,
+      7,
+      9
+     ],
+     [
+      9,
+      8,
+      6,
+      1,
+      7,
+      2,
+      3,
+      4,
+      5
+     ],
+     [
+      7,
+      3,
+      4,
+      9,
+      6,
+      5,
+      8,
+      1,
+      2
+     ],
+     [
+      8,
+      2,
+      7,
+      4,
+      1,
+      9,
+      5,
+      3,
+      6
+     ],
+     [
+      3,
+      4,
+      5,
+      8,
+      2,
+      6,
+      7,
+      9,
+      1
+     ],
+     [
+      1,
+      6,
+      9,
+      7,
+      5,
+      3,
+      2,
+      8,
+      4
+     ],
+     [
+      4,
+      9,
+      2,
+      6,
+      3,
+      7,
+      1,
+      5,
+      8
+     ],
+     [
+      5,
+      1,
+      3,
+      2,
+      8,
+      4,
+      9,
+      6,
+      7
+     ],
+     [
+      6,
+      7,
+      8,
+      5,
+      9,
+      1,
+      4,
+      2,
+      3
+     ]
+    ]
+   }
+  },
+  "words": {
+   "o": [
+    [
+     "VOYAGER",
+     "A spacecraft launched in 1977"
+    ],
+    [
+     "EARTHSHOT",
+     "A prize for ideas that help the planet"
+    ],
+    [
+     "ORBIT",
+     "The path an object follows around a planet, moon or star"
+    ],
+    [
+     "EMBLEM",
+     "ASEAN's now shows 11 rice stalks"
+    ],
+    [
+     "MINISTER",
+     "A senior member of a government"
+    ]
+   ],
+   "x": [
+    [
+     "LIGHT",
+     "From Wednesday, it needs a whole day to reach Voyager 1"
+    ],
+    [
+     "MUSEUM",
+     "A place that keeps and shows interesting and important things"
+    ],
+    [
+     "FLAG",
+     "ASEAN's has one more rice stalk"
+    ],
+    [
+     "PRIZE",
+     "Five winners get one in Mumbai this week"
+    ],
+    [
+     "TENNIS",
+     "Mirra Andreeva's sport"
+    ]
+   ]
+  }
+ },
+ "reporters": {
+  "week": "2026-11-16",
+  "t": "Report one thing that changed in your street or school this week",
+  "why": "Monday 16 November was National Press Day in India, and World Children's Day is on Friday 20 November. Good reporters check what they hear with more than one person.",
+  "tips": [
+   "What changed?",
+   "Who told you, and who else can confirm it?",
+   "Where and when did it happen?"
+  ],
+  "sample": []
+ },
+ "today": {
+  "days": [
+   {
+    "name": "World Children's Day",
+    "what": "World Children's Day is marked on 20 November. On this date in 1959 the United Nations General Assembly adopted the Declaration of the Rights of the Child. On the same date in 1989 it adopted the Convention on the Rights of the Child."
+   },
+   {
+    "name": "Africa Industrialization Day",
+    "what": "Africa Industrialization Day is on 20 November. The United Nations General Assembly proclaimed it in December 1989. It is meant to gather support from countries around the world for building up industry in Africa."
+   }
+  ],
+  "born": [
+   {
+    "name": "Edwin Hubble",
+    "year": 1889,
+    "what": "An astronomer born in Marshfield, Missouri, in the United States. He studied a type of star called a Cepheid variable in Andromeda. He found that there are galaxies beyond our own galaxy, the Milky Way."
+   },
+   {
+    "name": "Selma Lagerlöf",
+    "year": 1858,
+    "what": "A writer born at Mårbacka in Sweden. She trained as a teacher and taught at a school in Landskrona before she wrote full time. She won the Nobel Prize in Literature in 1909."
+   }
+  ],
+  "week": "BepiColombo is due to enter orbit around Mercury on Saturday 21 November."
+ },
+ "learn": {
+  "subject": "Science",
+  "cat": "space",
+  "link": "From the BepiColombo story: the planet it is heading for",
+  "x": {
+   "t": "Mercury, the planet closest to the Sun",
+   "b": [
+    "Mercury is the planet closest to the Sun. It is also the smallest planet in our solar system.",
+    "A year on Mercury is short. It lasts only 88 Earth days. Mercury has no moons.",
+    "Days on Mercury are very hot. Nights on Mercury are very cold."
+   ],
+   "remember": "Mercury is the closest planet to the Sun. It is also the smallest planet.",
+   "q": "Does Mercury have any moons?",
+   "a": [
+    "Yes",
+    "No"
+   ],
+   "c": 1
+  },
+  "o": {
+   "t": "Mercury, the planet closest to the Sun",
+   "b": [
+    "Mercury is the closest planet to the Sun. It is also the smallest planet in our solar system. It travels around the Sun once every 88 Earth days, so a year on Mercury lasts only 88 Earth days. Mercury has no moons.",
+    "Being the closest planet to the Sun does not make Mercury the hottest planet. Its days are very hot: temperatures can rise to more than 400 degrees Celsius. Its nights are very cold: temperatures can fall to about minus 170 degrees Celsius or colder.",
+    "Only two spacecraft had visited Mercury before BepiColombo. They were called Mariner 10 and MESSENGER. BepiColombo, a mission of Europe and Japan, is due to enter orbit around Mercury, which means to begin circling it, on Saturday 21 November."
+   ],
+   "remember": "Mercury is the closest planet to the Sun and the smallest planet in our solar system. One year there lasts 88 Earth days.",
+   "q": "How long is one year on Mercury?",
+   "a": [
+    "24 Earth days",
+    "365 Earth days",
+    "88 Earth days"
+   ],
+   "c": 2
+  }
+ },
+ "backThen": {
+  "y": 1998,
+  "t": "The first piece of the International Space Station is launched",
+  "o": "On 20 November 1998, Zarya was launched into space. It was launched on a Russian Proton rocket from the Baikonur Cosmodrome in Kazakhstan. Zarya was the first piece of the International Space Station.",
+  "x": "On this day in 1998, a Russian rocket carried Zarya into space. Zarya was the first piece of the International Space Station.",
+  "why": "Zarya's launch was the start of building the station in space."
+ },
+ "hiddenWords": [
+  {
+   "k": "coffin",
+   "o": "Coffin comes from kophinos, the Greek word for a basket. The word passed through Latin, as cophinus, and through French before it reached English."
+  },
+  {
+   "k": "export",
+   "o": "Export comes from the Latin word exportare, which is made from ex and portare. Portare is the Latin word for to carry."
+  }
+ ]
+}

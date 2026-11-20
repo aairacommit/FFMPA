@@ -632,11 +632,11 @@
    "One time all the way round a track.",
    "One complete trip round a racetrack."
   ],
-  "light-day": [
-   "light-day",
-   "science",
-   "How far light travels in one whole day. It is a very long way.",
-   "A unit of distance: how far light travels in 24 hours, about 25.9 billion kilometres."
+  "export": [
+   "export",
+   "words",
+   "Something a country sells to another country.",
+   "Something a country sells to other countries. To export means to sell goods or services to another country."
   ],
   "interstellar": [
    "interstellar space",
@@ -644,17 +644,17 @@
    "The space between the stars.",
    "The space between the stars. Voyager 1 became the first spacecraft to enter it, in 2012."
   ],
-  "export": [
-   "export",
-   "words",
-   "Something a country sells to another country.",
-   "Something a country sells to other countries. To export means to sell goods or services to another country."
+  "deep-space-network": [
+   "Deep Space Network",
+   "tech",
+   "NASA's big antennas that keep track of faraway spacecraft.",
+   "NASA's network of giant radio antennas, with sites in California, near Madrid in Spain and near Canberra in Australia. It keeps track of Voyager 1."
   ],
-  "coffin": [
-   "coffin",
-   "words",
-   "A box in which a dead person is buried.",
-   "A box in which a dead person is buried."
+  "light-day": [
+   "light-day",
+   "science",
+   "How far light travels in one whole day. It is a very long way.",
+   "A unit of distance: how far light travels in 24 hours, about 25.9 billion kilometres."
   ],
   "jpl": [
    "Jet Propulsion Laboratory",
@@ -662,11 +662,11 @@
    "A NASA centre in California. The Voyager 1 mission is run from there.",
    "A NASA laboratory in California. The Voyager mission is run from there."
   ],
-  "deep-space-network": [
-   "Deep Space Network",
-   "tech",
-   "NASA's big antennas that keep track of faraway spacecraft.",
-   "NASA's network of giant radio antennas, with sites in California, near Madrid in Spain and near Canberra in Australia. It keeps track of Voyager 1."
+  "coffin": [
+   "coffin",
+   "words",
+   "A box in which a dead person is buried.",
+   "A box in which a dead person is buried."
   ]
  },
  "keys": {
@@ -788,7 +788,7 @@
  "deep": {
   "in-akvan": {
    "ctx": "India's weather office, the India Meteorological Department (IMD), sorts these storms by wind speed: a severe cyclonic storm has winds of 89 to 117 km/h, a cyclonic storm 62 to 88 km/h and a deep depression 50 to 61 km/h. Around the time Akvan crossed the coast, its winds were about 70 to 80 km/h, with gusts of up to 90 km/h.",
-   "ask": "Heavy rain was still expected after Akvan weakened. Some people think families should stay in shelters until officials say it is fully safe, even if that takes days. Others think people should be able to go home as soon as the strong winds have passed, so they can look after their homes and get back to normal life. Who should decide when it is time to go home, and how?",
+   "ask": "Odisha set up thousands of cyclone shelters and moved about 3.7 lakh people to safety. Some people think the most important thing is to build more strong shelters near the coast. Others think it matters more to warn people early and plan how to move them quickly. If you could spend more on only one of these, which would you choose, and why?",
    "jobs": [
     "Meteorologist (a scientist who studies and forecasts the weather)",
     "Rescue worker (a person trained to help and move people to safety in emergencies)",
@@ -805,7 +805,7 @@
    ]
   },
   "g-records-day": {
-   "ctx": "The record setters came from many countries: stunt driver Alastair Moffatt is from the UK, performance painter David Garibaldi is from the United States, and Kirato Hitaka is from Japan.",
+   "ctx": "The records were set in many places: Alastair Moffatt's in London, David Garibaldi's in New York, the 777 Drifting Team's in Dubai and Kirato Hitaka's in Japan.",
    "ask": "Some records, like car stunts, are risky, while others, like skipping, are things almost anyone can try. Some people think record books should include risky stunts, because skilled performers show what is possible. Others think record books should focus on records that are safer to copy, because young fans may try them. Should record books include risky stunts?",
    "jobs": [
     "Stunt driver (a person who performs difficult driving tricks for shows and films)",
@@ -823,7 +823,7 @@
    ]
   },
   "g-nations-league": {
-   "ctx": "In each tie, the team named second plays the return leg at home. Germany, for example, play the first leg in Belgium on 25 March 2027 and the return leg in Germany on 30 March.",
+   "ctx": "In each tie, the team named second plays the return leg at home. Germany, for example, play the first leg in Belgium and the return leg in Germany, both in late March 2027.",
    "ask": "Each quarter-final is decided over two games instead of one. Some people think two games are fairer, because one bad day does not decide everything. Others think a single game is more exciting, because every moment matters. Which do you think is better for a competition?",
    "jobs": [
     "Football coach (a person who trains a team and plans how it plays)",

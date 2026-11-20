@@ -24,9 +24,9 @@
    "o": {
     "t": "Helpers at work as Cyclone Akvan weakens over Odisha",
     "b": [
-     "About 3.7 lakh (370,000) people in Odisha were moved to safety because of [[cyclone|Cyclone]] Akvan, officials said. Thousands of cyclone [[shelter|shelters]] had been set up. More than 400 teams were in place to help, including rescue teams, fire service teams and tree-cutting teams.",
+     "About 3.7 lakh (370,000) people in Odisha were moved to safety because of [[cyclone|Cyclone]] Akvan, officials said. Thousands of cyclone [[shelter|shelters]] had been set up. More than 400 teams were in place to help, including rescue teams and fire service teams.",
      "Akvan crossed the coast near [[gopalpur|Gopalpur]], in Ganjam district, on the morning of Friday 20 November. It has weakened from a severe cyclonic storm to a cyclonic storm, a less powerful kind of storm. Weather experts expected it to keep weakening into a deep depression, an even weaker stage.",
-     "Officials said no major damage had been reported so far. More heavy rain was expected across Odisha. Teams were sent to clear away rainwater where it had collected, and tree-cutting teams were ready."
+     "Officials said no major damage had been reported so far. More heavy rain was expected across Odisha. Teams were sent to clear away rainwater where it had collected."
     ]
    },
    "think": "Many people moved to safe places because of the storm. How does your family get ready when a big storm or heavy rain is coming?",
@@ -581,8 +581,8 @@
   "nyon": [
    "Nyon",
    "places",
-   "The town where the draw was held.",
-   "The town where the draw for the quarter-finals was held."
+   "A town in Switzerland. The draw was held there.",
+   "A town in Switzerland, where the draw for the quarter-finals was held."
   ],
   "nations-league": [
    "Nations League",
@@ -632,29 +632,23 @@
    "One time all the way round a track.",
    "One complete trip round a racetrack."
   ],
-  "jpl": [
-   "Jet Propulsion Laboratory",
-   "places",
-   "A NASA centre in California. The Voyager 1 mission is run from there.",
-   "A NASA laboratory in California. The Voyager mission is run from there."
-  ],
-  "deep-space-network": [
-   "Deep Space Network",
-   "tech",
-   "NASA's big antennas that keep track of faraway spacecraft.",
-   "NASA's network of giant radio antennas, with sites in California, near Madrid in Spain and near Canberra in Australia. It keeps track of Voyager 1."
-  ],
   "coffin": [
    "coffin",
    "words",
    "A box in which a dead person is buried.",
    "A box in which a dead person is buried."
   ],
-  "export": [
-   "export",
-   "words",
-   "Something a country sells to another country.",
-   "Something a country sells to other countries. To export means to sell goods or services to another country."
+  "interstellar": [
+   "interstellar space",
+   "science",
+   "The space between the stars.",
+   "The space between the stars. Voyager 1 became the first spacecraft to enter it, in 2012."
+  ],
+  "jpl": [
+   "Jet Propulsion Laboratory",
+   "places",
+   "A NASA centre in California. The Voyager 1 mission is run from there.",
+   "A NASA laboratory in California. The Voyager mission is run from there."
   ],
   "light-day": [
    "light-day",
@@ -662,11 +656,17 @@
    "How far light travels in one whole day. It is a very long way.",
    "A unit of distance: how far light travels in 24 hours, about 25.9 billion kilometres."
   ],
-  "interstellar": [
-   "interstellar space",
-   "science",
-   "The space between the stars.",
-   "The space between the stars. Voyager 1 became the first spacecraft to enter it, in 2012."
+  "deep-space-network": [
+   "Deep Space Network",
+   "tech",
+   "NASA's big antennas that keep track of faraway spacecraft.",
+   "NASA's network of giant radio antennas, with sites in California, near Madrid in Spain and near Canberra in Australia. It keeps track of Voyager 1."
+  ],
+  "export": [
+   "export",
+   "words",
+   "Something a country sells to another country.",
+   "Something a country sells to other countries. To export means to sell goods or services to another country."
   ]
  },
  "keys": {
@@ -787,7 +787,7 @@
  },
  "deep": {
   "in-akvan": {
-   "ctx": "Akvan, which had been a severe cyclonic storm, weakened to a cyclonic storm around the time it crossed the Odisha coast near Gopalpur, in Ganjam district. About 3.7 lakh people were moved to safety, thousands of shelters were ready, and more than 400 teams, including rescue, fire service and tree-cutting teams, were in place. Weather experts expected Akvan to keep weakening into a deep depression, while more heavy rain was expected across Odisha.",
+   "ctx": "Akvan, which had been a severe cyclonic storm, weakened to a cyclonic storm around the time it crossed the Odisha coast near Gopalpur, in Ganjam district. About 3.7 lakh people were moved to safety, thousands of shelters were ready, and more than 400 teams, including rescue and fire service teams, were in place. Weather experts expected Akvan to keep weakening into a deep depression, while more heavy rain was expected across Odisha.",
    "ask": "Heavy rain was still expected after Akvan weakened. Some people think families should stay in shelters until officials say it is fully safe, even if that takes days. Others think people should be able to go home as soon as the strong winds have passed, so they can look after their homes and get back to normal life. Who should decide when it is time to go home, and how?",
    "jobs": [
     "Meteorologist (a scientist who studies and forecasts the weather)",

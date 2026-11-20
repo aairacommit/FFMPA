@@ -267,10 +267,6 @@
     [
      "Oxford Learner's Dictionaries, read 20 Nov (Test match)",
      "https://www.oxfordlearnersdictionaries.com/definition/english/test-match"
-    ],
-    [
-     "Britannica (Test match), read 20 Nov",
-     "https://www.britannica.com/sports/test-match"
     ]
    ]
   },
@@ -638,11 +634,11 @@
    "Something a country sells to another country.",
    "Something a country sells to other countries. To export means to sell goods or services to another country."
   ],
-  "interstellar": [
-   "interstellar space",
-   "science",
-   "The space between the stars.",
-   "The space between the stars. Voyager 1 became the first spacecraft to enter it, in 2012."
+  "coffin": [
+   "coffin",
+   "words",
+   "A box in which a dead person is buried.",
+   "A box in which a dead person is buried."
   ],
   "deep-space-network": [
    "Deep Space Network",
@@ -662,11 +658,11 @@
    "A NASA centre in California. The Voyager 1 mission is run from there.",
    "A NASA laboratory in California. The Voyager mission is run from there."
   ],
-  "coffin": [
-   "coffin",
-   "words",
-   "A box in which a dead person is buried.",
-   "A box in which a dead person is buried."
+  "interstellar": [
+   "interstellar space",
+   "science",
+   "The space between the stars.",
+   "The space between the stars. Voyager 1 became the first spacecraft to enter it, in 2012."
   ]
  },
  "keys": {
@@ -796,7 +792,7 @@
    ]
   },
   "in-cheetah-cubs": {
-   "ctx": "KOMG 3 is the first female cheetah from Botswana to give birth in India. She had spent more than four months in the wild at Kuno National Park in Madhya Pradesh before the cubs were born. This is the second recorded birth in the wild since the programme to bring cheetahs to India began in 2022, and 43 of India's 62 cheetahs were born in India.",
+   "ctx": "India's programme to bring cheetahs back to the country began in 2022. Since then, 43 of India's 62 cheetahs have been born in India, and KOMG 3's cubs are only the second recorded birth in the wild.",
    "ask": "Some people think animals brought to a new country should be released into the wild as soon as they can, so they live freely and raise young on their own. Others think they should stay longer in places where people can look after them closely. Which do you think is better for the animals, and why?",
    "jobs": [
     "Wildlife vet (an animal doctor who cares for wild animals)",
@@ -805,7 +801,7 @@
    ]
   },
   "g-records-day": {
-   "ctx": "The records were set in many places: Alastair Moffatt's in London, David Garibaldi's in New York, the 777 Drifting Team's in Dubai and Kirato Hitaka's in Japan.",
+   "ctx": "Guinness World Records Day 2026 brought new records in sports, art and stunt performance in several countries. Alastair Moffatt's record was set in London, David Garibaldi's in New York, the 777 Drifting Team's in Dubai and Kirato Hitaka's in Japan.",
    "ask": "Some records, like car stunts, are risky, while others, like skipping, are things almost anyone can try. Some people think record books should include risky stunts, because skilled performers show what is possible. Others think record books should focus on records that are safer to copy, because young fans may try them. Should record books include risky stunts?",
    "jobs": [
     "Stunt driver (a person who performs difficult driving tricks for shows and films)",
@@ -814,7 +810,7 @@
    ]
   },
   "in-nz-test": {
-   "ctx": "This is the opening match of the current Test series between New Zealand and India, played at the Basin Reserve in Wellington. Two New Zealand batters made more than 100 runs: Henry Nicholls, with 175 not out, and Glenn Phillips, with 118. For India, Yashasvi Jaiswal's 85 came from 89 balls, while KL Rahul's 52 not out took 116 balls.",
+   "ctx": "For India, Yashasvi Jaiswal's 85 came from 89 balls, while KL Rahul's 52 not out took 116 balls. Devdutt Padikkal, who joined Rahul after Jaiswal was out, had 16 not out from 35 balls when play stopped.",
    "ask": "Jaiswal scored his runs quickly, while Rahul took more balls for his. Some people think batters should attack and score fast to put pressure on the bowlers. Others think it is better to bat carefully and stay in for a long time. Which way of batting do you think helps a team more?",
    "jobs": [
     "Cricket coach (a person who trains players and plans how a team plays)",
@@ -832,7 +828,7 @@
    ]
   },
   "in-sensex": {
-   "ctx": "The Sensex tracks 30 large companies listed on the Bombay Stock Exchange, and the Nifty 50 tracks 50 companies on the National Stock Exchange. Foreign investors have put a record amount of money into Indian shares so far in November, more than in any month before. On Friday 20 November bank shares led the rise, and it was the second day in a row of gains for both indices.",
+   "ctx": "Large banks, including HDFC Bank, ICICI Bank, Kotak Mahindra Bank and Axis Bank, were among the Sensex's biggest gainers. Market reports linked the rise to fresh buying by foreign investors. It was the second day in a row of gains for both indices.",
    "ask": "Some people think money from investors in other countries is good for a country's companies, because it gives them more money to grow and shows that the world trusts them. Others worry that this money can leave just as quickly as it arrived, and think a country's companies should rely more on investors at home. Is money from other countries good for a country's companies?",
    "jobs": [
     "Financial analyst (a person who studies companies and markets to help people decide where to invest)",

@@ -619,7 +619,7 @@
     "t": "India's core industries made more in October",
     "b": [
      "India's core [[industry|industries]] make basic things. Coal, steel, cement and electricity are some of them.",
-     "In October, they made 10.9% more than a year earlier. Making more is called growth. The government shared the numbers on Friday.",
+     "In October, they made 10.9% more than a year earlier. That is about 11 more for every 100. Making more is called growth. The government shared the numbers on Friday.",
      "The numbers are [[provisional|provisional]]. That means they are for now and may change later."
     ]
    },
@@ -741,12 +741,6 @@
   }
  ],
  "glossary": {
-  "planet": [
-   "planet",
-   "science",
-   "A large round object in space that moves around a star, such as the Sun.",
-   "A large round object in space that moves around a star (such as the Sun) and receives light from it."
-  ],
   "climate": [
    "climate",
    "science",
@@ -1775,10 +1769,6 @@
   "why": "It was the first full-length film animated entirely on computers."
  },
  "hiddenWords": [
-  {
-   "k": "planet",
-   "o": "Planet comes from the Greek word planetes, which means wanderer. It comes from planasthai, which means to wander."
-  },
   {
    "k": "champion",
    "o": "Champion came into English from French. The French word comes from campio, a word used in later Latin."

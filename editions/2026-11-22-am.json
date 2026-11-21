@@ -139,15 +139,15 @@
     "b": [
      "Two tennis players won their [[semi-final|semi-finals]] at the ATP Finals on Saturday. They are Carlos Alcaraz and Alexander Zverev. A semi-final decides who plays in the last match.",
      "Alcaraz beat Ben Shelton. That was his 13th win in a row. Zverev beat Daniil Medvedev.",
-     "The [[final|final]] was due to be played on Sunday in Turin, Italy. Zverev had won this [[tournament|tournament]] twice before. Alcaraz had never won it."
+     "The [[final|final]] is due to be played on Sunday in Turin, Italy. Zverev had won this [[tournament|tournament]] twice before. Alcaraz had never won it."
     ]
    },
    "o": {
     "t": "Alcaraz and Zverev win semi-finals to reach ATP Finals final",
     "b": [
      "Carlos Alcaraz and Alexander Zverev won their [[semi-final|semi-finals]] at the ATP Finals in Turin, Italy, on Saturday 21 November. A semi-final is one of the two matches that decide who plays in the [[final|final]], the last match of a [[tournament|tournament]].",
-     "Alcaraz, 23, beat Ben Shelton in three sets. A set is one part of a tennis match. The last set went to a tie-break, a period of extra play to decide who wins a set when both players have won six games. It was his 13th win in a row. Zverev beat Daniil Medvedev 7-6, 6-4, winning both sets.",
-     "The final was due to be played on Sunday in Turin. Before this year, Zverev had won the ATP Finals twice, in 2018 and 2021. Alcaraz had never been its [[champion|champion]]: he lost last year's final to Jannik Sinner."
+     "Alcaraz, 23, beat Ben Shelton. A set is one part of a tennis match. The last set went to a tie-break, a period of extra play to decide who wins a set when both players have won six games. It was his 13th win in a row. Zverev beat Daniil Medvedev 7-6, 6-4, winning both sets.",
+     "The final is due to be played on Sunday 22 November in Turin. Before this year, Zverev had won the ATP Finals twice, in 2018 and 2021. Alcaraz had never been its [[champion|champion]]: he lost last year's final to Jannik Sinner."
     ]
    },
    "think": "Would you rather be the player on a long winning run or the player who has won the trophy before? Why?",
@@ -221,15 +221,15 @@
     "b": [
      "Countries met in Antalya, Turkey, to talk about the [[climate|climate]]. The talks were meant to end on Friday.",
      "On Saturday, the countries had still not reached an [[agreement|agreement]]. Every country has to say yes to one shared plan.",
-     "Some countries wanted the plan to mention [[fossil-fuel|fossil fuels]], like oil and gas. Some countries that produce oil and gas did not. A new version of the plan was expected."
+     "Some countries wanted the plan to mention [[fossil-fuel|fossil fuels]], like oil and gas. Some countries that produce oil and gas did not. A new version was being sent to the countries overnight."
     ]
    },
    "o": {
-    "t": "UN climate talks ran a day over with no agreement",
+    "t": "UN climate talks ran into an extra day with no agreement",
     "b": [
      "The United Nations [[climate|climate]] talks called COP31, held in Antalya, Turkey, were meant to end on Friday 20 November. On Saturday 21 November, the countries were still talking and had not reached an [[agreement|agreement]].",
      "Agreeing is hard because nearly 200 countries take part and every one of them has to accept the final text. A draft, or early version, published on Thursday did not mention [[fossil-fuel|fossil fuels]], which are fuels such as coal, oil and gas. Panama and some other countries said the text should mention them. Saudi Arabia and some other oil and gas producing countries did not want that.",
-     "Money was also being discussed, including money to help poorer countries adapt to, or get ready for, climate change. The countries were waiting for a new version of the text."
+     "Money was also being discussed, including money to help poorer countries adapt to, or get ready for, climate change. Overnight into Sunday, the president of the talks said a new text was being sent to the countries. A meeting to approve it was due on Sunday."
     ]
    },
    "think": "Think of a time your class or family had to agree on something together. What made it hard, and what helped?",
@@ -280,8 +280,18 @@
     [
      "Merriam-Webster, read 22 Nov (climate)",
      "https://www.merriam-webster.com/dictionary/climate"
+    ],
+    [
+     "Arab News (AFP), 22 Nov",
+     "https://www.arabnews.com/world/fossil-fuel-dispute-threatens-to-scupper-climate-deal-3013430"
+    ],
+    [
+     "GMA Network, 22 Nov",
+     "https://www.gmanetwork.com/news/topstories/world/1010357/cop31-climate-talks-close-to-final-deal-says-summit-president/story/"
     ]
-   ]
+   ],
+   "olderOnly": true,
+   "sensitive": "politics"
   },
   {
    "id": "in-ranger-insurance",
@@ -302,8 +312,8 @@
     "t": "Accident insurance for 10,000 temporary wildlife rangers in India",
     "b": [
      "In seven Indian states, 10,000 temporary wildlife [[ranger|rangers]] will get accident [[insurance|insurance]] for five years. A ranger is a person whose job is to take care of a forest or a park. Temporary means for a limited time. Insurance is an arrangement that pays money to help when something goes wrong.",
-     "Prince William announced it in a video message. It is being delivered through his conservation group, United for Wildlife. Conservation means protecting nature. It was reported on Friday 20 November. He said India's wildlife rangers stand on the front line of protecting wildlife, day and night.",
-     "The insurance is meant to protect rangers and their families if a ranger is badly hurt in an accident. The Wildlife Trust of India and WWF-India are among the partners."
+     "Prince William announced it in a video message. It comes through his conservation group, United for Wildlife. Conservation means protecting nature. The news was reported on Friday 20 November. He said India's wildlife rangers stand on the front line of protecting wildlife, day and night.",
+     "The insurance is meant to protect rangers and their families if there is an accident. The Wildlife Trust of India and WWF-India are among the partners."
     ]
    },
    "think": "Who are the helpers that look after nature near you, and how could people look after them?",
@@ -432,7 +442,7 @@
    "o": {
     "t": "Signal blocks screenshots so phone AI cannot read private chats",
     "b": [
-     "The messaging [[app|app]] Signal said on Friday 20 November that it is blocking [[screenshot|screenshots]] on iPhones and Android phones. A screenshot is a picture of what is showing on a screen. On iPhones running iOS 27 software, the block is on unless the user changes it. On Android phones it switches on when an AI assistant tries to read the screen.",
+     "The messaging [[app|app]] Signal said on Friday 20 November that it is blocking [[screenshot|screenshots]] on iPhones and Android phones. A screenshot is a picture of what is showing on a screen. On iPhones running iOS 27 software, the block is on unless the user changes it. On Android phones, Signal blocks AI assistants from capturing the screen.",
      "Signal made the change so that [[ai|AI]] assistants built into phones, such as Apple's Siri AI and Google's Gemini, cannot read private chats by capturing what is on the screen. AI, or artificial intelligence, means computer systems that can copy intelligent human behaviour.",
      "Users can switch the protection off. Signal said the fix is not complete, because AI assistants may still reach information in other ways. Signal wants Apple and Google to give app makers a simple, standard way to keep AI assistants out of their apps."
     ]
@@ -483,15 +493,15 @@
     "b": [
      "India's women won a hockey [[match|match]] on Saturday. They beat South Korea 2-1 in Bhopal.",
      "It was India's second win in two games. The match was part of a [[tournament|tournament]]. It is called the Women's Asian Champions Trophy.",
-     "India scored two goals before South Korea scored one. India were due to play Thailand on Sunday."
+     "India scored two goals before South Korea scored one. India are due to play Thailand on Sunday."
     ]
    },
    "o": {
     "t": "India's women beat South Korea 2-1 for second hockey win",
     "b": [
      "India's women's hockey team beat South Korea 2-1 in Bhopal on Saturday 21 November. The [[match|match]] was part of the Women's Asian Champions Trophy. It is a [[tournament|tournament]], which is a series of contests played for a championship.",
-     "India scored first in the 30th minute, just before half-time, the break in the middle of a match. India scored again in the 34th minute, soon after play started again. South Korea scored their goal in the 56th minute, but India stayed ahead and won.",
-     "It was India's second win in a row. They had beaten Malaysia 4-1 in their opening match of the tournament. India's next match was against Thailand. It was due to be played on Sunday."
+     "India scored first in the 30th minute, just before half-time, the break in the middle of a match. India scored again four minutes after play started again. South Korea scored their goal in the 56th minute, but India stayed ahead and won.",
+     "It was India's second win in a row. They had beaten Malaysia 4-1 in their opening match of the tournament. India's next match is against Thailand. It is due to be played on Sunday 22 November."
     ]
    },
    "think": "India won two matches in a row. How do you think a team stays calm when the other side scores a goal?",
@@ -549,30 +559,27 @@
     "b": [
      "A big energy report came out on Thursday. The International Energy Agency wrote it.",
      "It says the need for cooling in buildings is now overtaking heating. This is happening for the first time. An [[air-conditioner|air conditioner]] is a machine that cools air.",
-     "One reason is rising temperatures. Another is that families are earning more money. The report says energy needs will grow most in India and Southeast Asia."
+     "One reason is rising temperatures. Another is that families are earning more money."
     ]
    },
    "o": {
     "t": "Cooling in buildings is now overtaking heating, says IEA",
     "b": [
      "For the first time, the world's demand for cooling in buildings is now overtaking the demand for heating. Demand means how much of something people want to use. The finding is in the World Energy Outlook 2026, a report published on Thursday 19 November by the International Energy Agency (IEA).",
-     "Two reasons are given: temperatures are rising, and so are household incomes, the money families earn. In developing countries outside China, fewer than one in five households that face high temperatures own an [[air-conditioner|air conditioner]], a machine that cools and dries air. The IEA says India and Southeast Asia will see the largest overall increase in energy needs.",
-     "What happens next? In the agency's main scenario, or picture of the future, the [[electricity|electricity]] used for cooling keeps rising up to 2035. Stronger heatwaves, which are spells of very hot weather, could push that rise higher still."
+     "Two reasons are given: temperatures are rising, and so are household incomes, the money families earn. In developing countries outside China, fewer than one in five households that face high temperatures own an [[air-conditioner|air conditioner]], a machine that cools and dries air.",
+     "What happens next? In one of the agency's scenarios, or pictures of the future, the [[electricity|electricity]] used for cooling keeps rising up to 2035. Stronger heatwaves, which are spells of very hot weather, could push that rise higher still."
     ]
-   },
-   "local": {
-    "IN": "The report says India and Southeast Asia will see the largest overall increase in energy needs."
    },
    "think": "What are some ways to keep cool on a hot day without using electricity?",
    "quiz": {
-    "q": "According to the report, where will energy needs grow most?",
+    "q": "Who wrote the big energy report?",
     "a": [
-     "India and Southeast Asia",
-     "Europe and North America",
-     "Australia and Japan",
-     "Antarctica"
+     "The World Health Organization",
+     "NASA",
+     "The International Energy Agency",
+     "The International Olympic Committee"
     ],
-    "c": 0
+    "c": 2
    },
    "src": [
     [
@@ -675,24 +682,24 @@
    "kind": "calendar",
    "when": "Due to open Saturday 28 November 2026",
    "x": {
-    "t": "A new museum is due to open in London on 28 November",
+    "t": "The London Museum is due to open in a new home on 28 November",
     "b": [
-     "The London Museum is a new [[museum|museum]]. It is due to open on Saturday 28 November.",
+     "The London Museum is a [[museum|museum]] with a new home. It is due to open on Saturday 28 November.",
      "The museum is in an old [[market|market]] building at Smithfield. Entry will be free.",
      "Through a window, visitors will be able to watch trains go past. Tom Daley's Olympic trunks will be on show too."
     ]
    },
    "o": {
-    "t": "New London Museum due to open in an old market on 28 November",
+    "t": "London Museum due to open in an old market on 28 November",
     "b": [
-     "The new London Museum is due to open on Saturday 28 November 2026. Its new home is the old General Market building at Smithfield in London. The project has taken about a decade, which is ten years.",
+     "The London Museum is due to open on Saturday 28 November 2026. Its new home is the old General Market building at Smithfield in London. The project has taken about a decade, which is ten years.",
      "Through a window, visitors will be able to watch Thameslink trains pass. Also on show will be the Cheapside Hoard. A [[hoard|hoard]] is a collection of valuable objects. Tom Daley's Olympic trunks will be there, along with the bass guitar smashed by Paul Simonon of The Clash.",
      "Entry to the permanent galleries, the rooms of displays that stay in place, will be free."
     ]
    },
    "think": "If you could put one object in a museum about your town, what would it be, and why?",
    "quiz": {
-    "q": "On which day is the new London Museum due to open?",
+    "q": "On which day is the London Museum due to open?",
     "a": [
      "Saturday 21 November",
      "Saturday 28 November",
@@ -1037,14 +1044,14 @@
   },
   "in-hockey-korea": {
    "type": "check",
-   "q": "Who were India due to play on Sunday?",
+   "q": "Who are India due to play on Sunday?",
    "a": [
     "South Korea",
     "Thailand"
    ],
    "c": 1,
-   "right": "Right! India were due to play Thailand on Sunday.",
-   "wrong": "Not quite. India were due to play Thailand on Sunday."
+   "right": "Right! India are due to play Thailand on Sunday.",
+   "wrong": "Not quite. India are due to play Thailand on Sunday."
   },
   "g-iea-cooling": {
    "type": "check",
@@ -1118,7 +1125,7 @@
    ]
   },
   "in-ranger-insurance": {
-   "ctx": "The programme is being delivered through United for Wildlife, Prince William's conservation initiative. In India, the Wildlife Trust of India and WWF-India are among the partners. The programme covers seven states.",
+   "ctx": "The programme comes through United for Wildlife, Prince William's conservation group. In India, the Wildlife Trust of India and WWF-India are among the partners. The programme covers seven states.",
    "ask": "This programme covers 10,000 temporary rangers for five years. Some people think conservation groups should step in like this to protect people who guard wildlife. Others think accident insurance should be a regular part of every ranger's job, arranged by the employer. Who should be responsible, and why?",
    "jobs": [
     "Forest ranger",
@@ -1145,7 +1152,7 @@
    ]
   },
   "in-hockey-korea": {
-   "ctx": "India beat Malaysia 4-1 in their opening match of the Women's Asian Champions Trophy and then beat South Korea 2-1 in Bhopal. India's goals against South Korea came in the 30th and 34th minutes, and South Korea's goal in the 56th minute.",
+   "ctx": "India beat Malaysia 4-1 in their opening match of the Women's Asian Champions Trophy and then beat South Korea 2-1 in Bhopal. India's goals against South Korea came in the 30th minute and four minutes after half-time, and South Korea's goal in the 56th minute.",
    "ask": "After South Korea scored, India were only one goal ahead. Some people think a team that is ahead should keep attacking to score again. Others think it should defend carefully to protect its lead. What do you think, and why?",
    "jobs": [
     "Hockey coach",
@@ -1154,7 +1161,7 @@
    ]
   },
   "g-iea-cooling": {
-   "ctx": "The finding comes from the World Energy Outlook 2026, published by the International Energy Agency on 19 November. The agency gives rising temperatures and rising household incomes as reasons, and its main scenario projects that electricity used for cooling will keep rising to 2035. In developing countries outside China, fewer than one in five households that face high temperatures own an air conditioner.",
+   "ctx": "The finding comes from the World Energy Outlook 2026, published by the International Energy Agency on 19 November. The agency gives rising temperatures and rising household incomes as reasons, and one of its scenarios projects that electricity used for cooling will keep rising to 2035. In developing countries outside China, fewer than one in five households that face high temperatures own an air conditioner.",
    "ask": "Air conditioners keep homes cool in hot weather, but they use electricity. Some people think the first step is to help every family get cooling quickly. Others think the first step should be designing buildings that stay cool with less energy. What do you think, and why?",
    "jobs": [
     "Energy analyst",
@@ -1707,7 +1714,7 @@
   "days": [
    {
     "name": "Independence Day in Lebanon",
-    "what": "22 November is Independence Day in Lebanon. It marks the country's independence in 1943."
+    "what": "22 November is Independence Day in Lebanon. It goes back to 22 November 1943."
    }
   ],
   "born": [
@@ -1732,7 +1739,7 @@
    "b": [
     "An orbit is a path that one object in space takes around another.",
     "If a spacecraft reaches a planet too fast, it speeds past the planet. So it has to slow down.",
-    "Then the planet's pull, called gravity, can catch it. The BepiColombo spacecraft was due to do this at Mercury on 21 November."
+    "Then the planet's pull, called gravity, can catch it. The BepiColombo spacecraft was due to go into orbit around Mercury on 21 November."
    ],
    "remember": "A spacecraft flying to a planet has to slow down. Then the planet's pull, called gravity, can catch it.",
    "q": "What must a spacecraft do so a planet's gravity can catch it?",

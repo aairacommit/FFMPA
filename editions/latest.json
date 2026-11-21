@@ -1,1340 +1,626 @@
 {
  "schema": 1,
  "date": "2026-11-21",
- "edition": "am",
+ "edition": "pm",
  "countries": [
   "IN"
  ],
  "stories": [
   {
-   "id": "in-akvan",
+   "id": "in-nitish-setu",
    "scope": "IN",
-   "cat": "nature",
-   "emoji": "🌀",
-   "date": "2026-11-20",
+   "cat": "tech",
+   "emoji": "🌉",
+   "date": "2026-11-21",
    "kind": "news",
    "x": {
-    "t": "Helpers kept people safe as Cyclone Akvan grew weaker",
+    "t": "A new bridge crosses the Ganga river in Bihar",
     "b": [
-     "Because of [[cyclone|Cyclone]] Akvan, helpers in Odisha moved over 4.4 lakh people to safety. A lakh is one hundred thousand.",
-     "The storm came onto land near [[gopalpur|Gopalpur]] on Friday 20 November. By Friday evening it had become weaker. Officials said no big damage had been reported.",
-     "Lighter rain was expected from Saturday. More than 400 teams were ready to help. Some teams were sent to clear away rainwater."
+     "India has a new [[bridge|bridge]] over the [[ganga|Ganga]] river. It is called Nitish Setu. Prime Minister Narendra Modi opened it on Saturday.",
+     "The Ganga splits the state of [[bihar|Bihar]] into two parts. The new bridge joins the south and the north.",
+     "The bridge is nearly 10 kilometres long. It has six [[lane|lanes]]. That means six lines of cars and trucks fit across it."
     ]
    },
    "o": {
-    "t": "Helpers moved over 4.4 lakh people to safety as Akvan weakened",
+    "t": "Nitish Setu, a six-lane bridge over the Ganga, opens in Bihar",
     "b": [
-     "More than 4.4 lakh (440,000) people in Odisha were moved to safety because of [[cyclone|Cyclone]] Akvan, officials said. Thousands of cyclone [[shelter|shelters]] had been made ready. More than 400 teams were in place to help, including rescue teams and fire service teams.",
-     "Akvan crossed the coast near [[gopalpur|Gopalpur]] on the morning of Friday 20 November. It then weakened step by step. By Friday evening it was a depression, a much weaker kind of weather system than a cyclone. Weather experts expected it to weaken further as it moved north over Odisha.",
-     "Officials said no major damage had been reported. Teams worked to clear roads and were sent to clear away rainwater. The rain was expected to ease from Saturday, but heavy rain was still forecast for Mayurbhanj and Balasore districts."
+     "Prime Minister Narendra Modi opened Nitish Setu, a new [[bridge|bridge]] over the [[ganga|River Ganga]], on Saturday 21 November. A bridge is a structure built over something, such as a river, so that people or vehicles can get across. Nitish Setu links Kachchi Dargah in Patna district with Bidupur in Vaishali district.",
+     "The Ganga naturally divides the state of [[bihar|Bihar]] into two regions, the north and the south. Nitish Setu crosses the river to join the two.",
+     "The main bridge is nearly 10 kilometres long. Together with its approach roads, the roads that lead up to each end, the whole project is about 20 kilometres long. The bridge has six [[lane|lanes]]. A lane is a part of a road, marked by painted lines, for a single line of vehicles."
     ]
    },
-   "think": "Many people moved to safe places because of the storm. How does your family get ready when a big storm or heavy rain is coming?",
+   "think": "A big river can split a place into two parts. How do you think people crossed wide rivers before there were bridges?",
    "quiz": {
-    "q": "Near which place did Cyclone Akvan cross the coast?",
+    "q": "Which river does Nitish Setu cross?",
     "a": [
-     "Mumbai",
-     "Gopalpur",
-     "Goa",
-     "Delhi"
+     "Yamuna",
+     "Ganga",
+     "Godavari",
+     "Narmada"
     ],
     "c": 1
    },
    "src": [
     [
-     "PTI via ThePrint, 20 Nov",
-     "https://theprint.in/india/cyclone-akvan-weakens-into-depression-after-landfall-in-odisha-no-major-damage-flood-threat/3104704/"
+     "Free Press Journal (ANI), 21 Nov",
+     "https://www.freepressjournal.in/india/pm-modi-inaugurates-4280-crore-nitish-setu-over-ganga-197-km-bridge-linking-patna-with-vaishali-watch"
     ],
     [
-     "Tathya, 20 Nov",
-     "https://tathya.in/odisha-tackles-cyclone-akvan/"
+     "Assam Tribune (IANS), 21 Nov",
+     "https://assamtribune.com/national/pm-modi-inaugurates-nitish-setu-waves-at-locals-during-tour-1623116"
     ],
     [
-     "PTI via The Federal, 20 Nov",
-     "https://thefederal.com/category/states/east/odisha/cyclone-akvan-no-major-damage-loss-of-life-in-odisha-says-minister-263550"
+     "Swarajya, 15 Nov",
+     "https://swarajyamag.com/news-brief/pm-modi-to-inaugurate-indias-longest-river-bridge-nitish-setu-in-bihar-on-21st-november"
     ],
     [
-     "Odisha Bytes, 20 Nov",
-     "https://odishabytes.com/cyclone-akvan-weakens-into-depression-over-south-odisha-likely-to-further-lose-steam/"
+     "Britannica, read 21 Nov (Bihar)",
+     "https://www.britannica.com/place/Bihar"
     ],
     [
-     "Deccan Chronicle, 20 Nov",
-     "https://www.deccanchronicle.com/nation/cyclone-akvan-weakens-after-landfall-near-gopalpur-372-lakh-evacuated-2006339"
+     "Britannica Dictionary, read 21 Nov (bridge)",
+     "https://www.britannica.com/dictionary/bridge"
     ],
     [
-     "Tathya (Chief Minister's review), 20 Nov",
-     "https://tathya.in/cm-reviews-akvan-response/"
+     "Britannica Dictionary, read 21 Nov (lane)",
+     "https://www.britannica.com/dictionary/lane"
     ],
     [
-     "The News Insight, 20 Nov",
-     "https://enewsinsight.com/cyclone-akvan-weakens-no-major-damage-in-odisha/"
-    ],
-    [
-     "Down To Earth, 20 Nov",
-     "https://www.downtoearth.org.in/natural-disasters/odisha-escapes-major-damage-as-cyclone-akvan-makes-landfall"
-    ],
-    [
-     "IMD RSMC New Delhi, terminology, read 21 Nov",
-     "https://rsmcnewdelhi.imd.gov.in/images/pdf/terminology.pdf"
-    ],
-    [
-     "Deccan Herald explainer, read 21 Nov",
-     "https://www.deccanherald.com/india/explained-how-imd-categorises-cyclones-989000.html"
-    ],
-    [
-     "Merriam-Webster, read 21 Nov (lakh)",
-     "https://www.merriam-webster.com/dictionary/lakh"
-    ],
-    [
-     "Oxford Learner's Dictionaries, read 21 Nov (lakh)",
-     "https://www.oxfordlearnersdictionaries.com/definition/english/lakh"
-    ],
-    [
-     "Oxford Learner's Dictionaries, read 21 Nov (cyclone)",
-     "https://www.oxfordlearnersdictionaries.com/definition/english/cyclone"
-    ],
-    [
-     "Merriam-Webster, read 21 Nov (cyclone)",
-     "https://www.merriam-webster.com/dictionary/Cyclone"
-    ],
-    [
-     "Britannica Dictionary, read 21 Nov (shelter)",
-     "https://learnersdictionary.com/definition/shelter"
-    ],
-    [
-     "Oxford Learner's Dictionaries, read 21 Nov (shelter)",
-     "https://www.oxfordlearnersdictionaries.com/definition/english/shelter_1?q=Shelter"
+     "Wikipedia, read 21 Nov (Patna location)",
+     "https://en.wikipedia.org/wiki/Patna"
     ]
-   ]
+   ],
+   "where": {
+    "n": "Patna, Bihar",
+    "lat": 25.6,
+    "lon": 85.1
+   }
   },
   {
-   "id": "g-cop31",
-   "scope": "global",
-   "cat": "planet",
-   "emoji": "🌍",
-   "date": "2026-11-20",
-   "kind": "news",
-   "x": {
-    "t": "Climate talks go into extra time",
-    "b": [
-     "Climate talks in Turkey should have ended on Friday 20 November. They ran late.",
-     "Nearly 200 countries took part. By Friday evening they had not agreed on a deal. They disagreed about [[fossil-fuels|fossil fuels]]: coal, oil and gas. These heat the planet.",
-     "Some wanted the deal to mention them. Countries that produce oil objected. Poorer countries wanted more money from richer ones. A new [[draft|draft]], or early version, was expected."
-    ]
-   },
-   "o": {
-    "t": "COP31 climate talks miss their deadline and go into overtime",
-    "b": [
-     "[[cop31|COP31]], the United Nations climate conference in Antalya, Turkey, was scheduled to end on Friday 20 November. It ran into overtime, or extra time. By Friday evening, the nearly 200 countries taking part had still not reached a deal.",
-     "A deal at the talks needs [[consensus|consensus]], or general agreement, among the countries. But on Friday the countries were divided over what the deal should say.",
-     "A [[draft|draft]], or early version, of the deal was shared on Thursday. It left out [[fossil-fuels|fossil fuels]], the coal, oil and gas that heat the planet. Several countries objected and said the deal must mention fossil fuels. Oil-producing countries had resisted such wording. Poorer countries wanted more money from richer ones to cope with climate change. A new draft was expected."
-    ]
-   },
-   "think": "Think of a time when your family or friends could not agree on something. What helped you to find an answer that everyone could accept?",
-   "quiz": {
-    "q": "Why did the climate talks run past their finishing day?",
-    "a": [
-     "Because the talks are held in Turkey",
-     "Because only one country is allowed to speak",
-     "Because the countries had not agreed on a deal",
-     "Because the deal has to be very short"
-    ],
-    "c": 2
-   },
-   "src": [
-    [
-     "AFP via Manila Times, 21 Nov",
-     "https://www.manilatimes.net/2026/11/21/world/americas-emea/crunch-time-for-cop31-but-no-agreement-in-sight/2474972"
-    ],
-    [
-     "Reuters via WHTC, 20 Nov",
-     "https://whtc.com/2026/11/20/cop31-climate-talks-spill-into-overtime-as-nations-quarrel-over-fossil-fuels/"
-    ],
-    [
-     "The Guardian via AOL, 20 Nov",
-     "https://www.aol.co.uk/articles/cop31-talks-overtime-fossil-fuels-185622000.html"
-    ],
-    [
-     "Carbon Brief, 20 Nov",
-     "https://carbonbrief.org/debriefed-20-november-2026-deal-distant-fossil-fuel-fractions-coalitions-seek-progress"
-    ],
-    [
-     "The Independent via Newswav, 21 Nov",
-     "https://newswav.com/article/cop31-heading-for-overtime-thanks-to-bitter-dispute-over-fossil-fuels-A2611_FyIoOT"
-    ],
-    [
-     "Britannica Dictionary, read 21 Nov (draft)",
-     "https://learnersdictionary.com/definition/draft"
-    ],
-    [
-     "Oxford Learner's Dictionaries, read 21 Nov (draft)",
-     "https://www.oxfordlearnersdictionaries.com/definition/english/draft"
-    ],
-    [
-     "Merriam-Webster, read 21 Nov (fossil fuel)",
-     "https://www.merriam-webster.com/dictionary/fossil%20fuel"
-    ],
-    [
-     "Oxford Learner's Dictionaries, read 21 Nov (fossil fuel)",
-     "https://www.oxfordlearnersdictionaries.com/definition/english/fossil-fuel"
-    ],
-    [
-     "Britannica Dictionary, read 21 Nov (consensus)",
-     "https://www.britannica.com/dictionary/consensus"
-    ],
-    [
-     "Oxford Learner's Dictionaries, read 21 Nov (consensus)",
-     "https://www.oxfordlearnersdictionaries.com/us/definition/english/consensus"
-    ],
-    [
-     "Merriam-Webster, read 21 Nov (overtime)",
-     "https://merriam-webster.com/dictionary/overtime"
-    ],
-    [
-     "Britannica Dictionary, read 21 Nov (overtime)",
-     "https://learnersdictionary.com/definition/overtime"
-    ],
-    [
-     "Merriam-Webster, read 21 Nov (transition)",
-     "https://www.merriam-webster.com/dictionary/Transition"
-    ],
-    [
-     "Britannica Dictionary, read 21 Nov (transition)",
-     "https://learnersdictionary.com/definition/transition"
-    ]
-   ]
-  },
-  {
-   "id": "in-cheetah-cubs",
-   "scope": "IN",
-   "cat": "nature",
-   "emoji": "🐆",
-   "date": "2026-11-20",
-   "kind": "news",
-   "x": {
-    "t": "A cheetah from Botswana has four cubs in India",
-    "b": [
-     "A mother cheetah has had four [[cubs|cubs]]. They were born on Friday 20 November at [[kuno|Kuno National Park]] in India.",
-     "The cubs were born [[in-the-wild|in the wild]]. That means free in nature. Their mother had lived in the wild for more than four months.",
-     "She was brought to India from [[botswana|Botswana]]. India has a plan to bring cheetahs back. With the new cubs, India now has 62 cheetahs."
-    ]
-   },
-   "o": {
-    "t": "Cheetah from Botswana has four cubs in the wild at Kuno",
-    "b": [
-     "A female cheetah known as KOMG 3 gave birth to four [[cubs|cubs]] [[in-the-wild|in the wild]] on Friday 20 November. In the wild means living freely in nature. The cubs were born at [[kuno|Kuno National Park]] in Madhya Pradesh. KOMG 3 had spent more than four months in the wild before her cubs arrived.",
-     "KOMG 3 is about two and a half years old. India has a programme to bring cheetahs back to the country. KOMG 3 was brought to India from [[botswana|Botswana]]. She is the first female cheetah from Botswana to give birth in India.",
-     "The news was shared on the social media site X by [[bhupender-yadav|Bhupender Yadav]], India's environment minister. With the four new cubs, the number of cheetahs in India has gone up to 62."
-    ]
-   },
-   "think": "The mother cheetah lived in the wild for months before her cubs were born. What do you think a wild animal needs to bring up its young?",
-   "quiz": {
-    "q": "Which country was the mother cheetah brought from?",
-    "a": [
-     "Kenya",
-     "Botswana",
-     "Brazil",
-     "Nepal"
-    ],
-    "c": 1
-   },
-   "src": [
-    [
-     "PTI via ThePrint, 20 Nov",
-     "https://theprint.in/india/cheetah-brought-from-botswana-gives-birth-to-four-cubs-at-kuno/3104023/"
-    ],
-    [
-     "ETV Bharat, 20 Nov",
-     "https://www.etvbharat.com/en/state/kuno-national-park-botswana-born-cheetah-gives-birth-to-4-cubs-enn26112002474"
-    ],
-    [
-     "IANS, 20 Nov",
-     "https://ianslive.in/botswana-born-cheetah-gives-birth-to-four-cubs-in-wild-at-kuno--20261120134928"
-    ],
-    [
-     "Britannica Dictionary, read 21 Nov (cub)",
-     "https://www.britannica.com/dictionary/cub"
-    ],
-    [
-     "Merriam-Webster, read 21 Nov (cub)",
-     "https://www.merriam-webster.com/dictionary/cub"
-    ],
-    [
-     "Oxford Learner's Dictionaries, read 21 Nov (the wild)",
-     "https://www.oxfordlearnersdictionaries.com/definition/english/wild_2"
-    ],
-    [
-     "Merriam-Webster, read 21 Nov (in the wild)",
-     "https://merriam-webster.com/dictionary/in%20the%20wild"
-    ]
-   ]
-  },
-  {
-   "id": "g-moon-potatoes",
+   "id": "g-bumblebees",
    "scope": "global",
    "cat": "science",
-   "emoji": "🥔",
+   "emoji": "🐝",
    "date": "2026-11-19",
    "kind": "news",
    "x": {
-    "t": "Potatoes grow well in fake Moon soil with worm compost",
+    "t": "Bumblebees have small brains but can do clever things",
     "b": [
-     "Could food grow on the Moon one day? Scientists tested this with potatoes in [[simulated|fake]] Moon soil.",
-     "Moon dust has very little in it from living things. So they mixed in [[compost|compost]] made by worms. Compost helps plants grow.",
-     "The mix was 30 parts compost in every 100. With it, potatoes grew about as well as in Earth soil. Next comes a study of 10 kinds of potato."
+     "[[bumblebee|Bumblebees]] have very small brains. But they can do clever things. Two scientists describe this in a science [[journal|journal]].",
+     "They looked at earlier tests on bees. Bumblebees can solve new problems. They can learn hard tasks by watching other bees. They can even pass mood-like feelings to other bees in their nest.",
+     "Next, scientists want to compare maps of insect brains. That could show how bees do so much."
     ]
    },
    "o": {
-    "t": "Worm compost helps potatoes grow in simulated Moon soil",
+    "t": "Scientists review what bumblebees can do with small brains",
     "b": [
-     "Scientists at Oregon State University have grown potatoes in [[simulated|simulated]] Moon soil. Simulated means not real, but made to be like the real thing. The study, in the journal npj Microgravity, was reported on Thursday 19 November.",
-     "[[regolith|Regolith]] is the layer of rock and dust on the Moon's surface. It holds very little organic matter, meaning material from living things. So the team mixed [[compost|compost]] made by worms into their simulated soil. Without the compost, the plants did not grow properly. With 30 per cent compost, or 30 parts in every 100, they grew about as well as in Earth soil.",
-     "The scientists believe the compost also helps protect plants from harmful metals in the regolith. They say this is a step towards growing food for people exploring the Moon. Next comes a study of 10 varieties, or types, of potato."
+     "Two scientists have described the clever things [[bumblebee|bumblebees]] can do with very small brains. Lars Chittka, of Queen Mary University of London, and Stanley Heinze, of Lund University, wrote a Perspective in the [[journal|journal]] Science on 19 November. A journal is a magazine about one subject. A Perspective is a kind of review: it brings together earlier research instead of reporting a new experiment.",
+     "The research they describe shows that bumblebees can solve problems they have never met before. They can learn difficult tasks just by watching other bees. They can even pass on emotion-like states, a little like moods, to their nestmates, the other bees in their nest.",
+     "What comes next? The scientists suggest comparing connectomes, which are detailed maps of the connections inside a brain, across different insects. This could help show which brain wiring makes clever behaviour possible."
     ]
    },
-   "think": "If you lived on the Moon, which food would you most want to grow there, and why?",
+   "think": "Have you ever learned something just by watching someone else do it? What was it, and how did watching help?",
    "quiz": {
-    "q": "What did the scientists mix into the fake Moon soil to help the potatoes grow?",
+    "q": "How can bumblebees learn difficult tasks?",
     "a": [
-     "Sea water",
-     "Sand from a beach",
-     "Crushed ice",
-     "Compost made by worms"
+     "By flying higher",
+     "By watching other bees",
+     "By growing bigger brains",
+     "By sleeping longer"
     ],
-    "c": 3
+    "c": 1
    },
    "src": [
     [
-     "Oregon State University, 19 Nov",
-     "https://news.oregonstate.edu/news/study-finds-potatoes-grown-simulated-lunar-soil-match-earth-grown-performance"
-    ],
-    [
-     "Popular Science, 19 Nov",
-     "https://www.popsci.com/science/moon-dirt-potatoes/"
+     "AAAS via EurekAlert, 19 Nov",
+     "https://www.eurekalert.org/news-releases/1151925"
     ],
     [
      "Sci.News, 19 Nov",
-     "https://www.sci.news/biology/moon-potatoes-15211.html"
+     "https://www.sci.news/othersciences/neuroscience/bumblebee-intelligence-15213.html"
     ],
     [
-     "ZME Science, 20 Nov",
-     "https://www.zmescience.com/science/news-science/potatoes-grown-fake-moon-soil-worm-poop/"
+     "Oxford Learner's Dictionaries, read 21 Nov (bumblebee)",
+     "https://www.oxfordlearnersdictionaries.com/definition/english/bumblebee"
     ],
     [
-     "Oxford Learner's Dictionaries, read 21 Nov (simulated)",
-     "https://www.oxfordlearnersdictionaries.com/definition/english/simulated"
-    ],
-    [
-     "Merriam-Webster, read 21 Nov (simulated)",
-     "https://merriam-webster.com/dictionary/simulated"
-    ],
-    [
-     "Britannica Dictionary, read 21 Nov (compost)",
-     "https://learnersdictionary.com/definition/compost"
-    ],
-    [
-     "Oxford Learner's Dictionaries, read 21 Nov (compost)",
-     "https://www.oxfordlearnersdictionaries.com/definition/english/compost"
-    ],
-    [
-     "Britannica Dictionary, read 21 Nov (organic)",
-     "https://www.britannica.com/dictionary/organic"
-    ],
-    [
-     "Oxford Learner's Dictionaries, read 21 Nov (organic)",
-     "https://www.oxfordlearnersdictionaries.com/definition/english/organic"
-    ],
-    [
-     "Britannica Dictionary, read 21 Nov (calorie)",
-     "https://learnersdictionary.com/definition/calorie"
-    ],
-    [
-     "Oxford Learner's Dictionaries, read 21 Nov (calorie)",
-     "https://www.oxfordlearnersdictionaries.com/definition/english/calorie"
-    ],
-    [
-     "Britannica Dictionary, read 21 Nov (toxin)",
-     "https://learnersdictionary.com/definition/toxin"
-    ],
-    [
-     "Oxford Learner's Dictionaries, read 21 Nov (toxin)",
-     "https://www.oxfordlearnersdictionaries.com/definition/english/toxin"
-    ],
-    [
-     "Oxford Learner's Dictionaries, read 21 Nov (variety)",
-     "https://www.oxfordlearnersdictionaries.com/definition/english/variety"
-    ],
-    [
-     "Britannica Dictionary, read 21 Nov (variety)",
-     "https://www.britannica.com/dictionary/variety"
+     "Oxford Learner's Dictionaries, read 21 Nov (journal)",
+     "https://www.oxfordlearnersdictionaries.com/definition/english/journal_1"
     ]
    ]
   },
   {
-   "id": "in-badminton-semis",
+   "id": "in-test-wellington",
    "scope": "IN",
    "cat": "sports",
-   "emoji": "🏸",
-   "date": "2026-11-20",
+   "emoji": "🏏",
+   "date": "2026-11-21",
    "kind": "news",
    "x": {
-    "t": "Lakshya Sen and an Indian pair reach badminton semi-finals",
+    "t": "India move ahead of New Zealand in the first Test",
     "b": [
-     "India's Lakshya Sen won again in Hong Kong on Friday. That made 13 [[badminton|badminton]] wins in a row.",
-     "He lost the second game but still won. A match is the best of three games. Lakshya won two of them.",
-     "Satwiksairaj Rankireddy and Chirag Shetty won in [[doubles|doubles]], with two players on each side. They and Lakshya reached the [[semi-final|semi-finals]], the round before the final."
+     "India are playing New Zealand in a long cricket match called a Test. It is at the [[basin-reserve|Basin Reserve]] in Wellington, New Zealand.",
+     "[[kl-rahul|KL Rahul]] scored 136 runs. It was his 13th Test [[century|century]]. To make a century, a player must score 100 runs. Shubman Gill was out for 98, just two short.",
+     "India have 486 runs. New Zealand made 368. So India are 118 runs ahead. Day four comes next."
     ]
    },
    "o": {
-    "t": "Lakshya Sen and doubles pair reach Hong Kong Open semi-finals",
+    "t": "Rahul hits a century as India lead New Zealand by 118",
     "b": [
-     "India's Lakshya Sen has reached the [[semi-final|semi-finals]], the round before the final, at the Hong Kong Open, a [[badminton|badminton]] tournament. On Friday 20 November he won his [[quarter-final|quarter-final]], the round before the semi-finals, against a former world champion. It was his 13th win in a row.",
-     "The score was 21-17, 10-21, 21-13. That is three games, and he lost the second. But a match is the best of three games, and he won the first and the third. In [[doubles|doubles]], with two players on each side, Satwiksairaj Rankireddy and Chirag Shetty also lost their second game, then won to reach the semi-finals.",
-     "Rakshitha Ramraj, 19, lost her quarter-final in two games. Earlier in the tournament she had beaten an Olympic champion from China."
+     "India ended day three of the first Test against New Zealand on Saturday on 486 for 4, meaning four batters were out. The match is at the [[basin-reserve|Basin Reserve]] in Wellington. New Zealand scored 368 in their first [[innings|innings]], a team's turn to bat. India have passed that total, so they lead by 118 runs.",
+     "[[kl-rahul|KL Rahul]] scored 136, his 13th Test [[century|century]]. A century is a score of 100 runs by one player. Rahul and Devdutt Padikkal, who made 80, added 165 runs together. Shubman Gill was [[bowled|bowled]] by Jacob Duffy for 98, just two runs short of a century. Bowled means the ball hit his wicket, so he was out.",
+     "Rishabh Pant is 55 not out, meaning he is still batting. On day four, India will try to make their lead bigger, while New Zealand will hope to get India's batters out."
     ]
    },
-   "think": "By Friday, Lakshya Sen had won 13 matches in a row. What do you think helps a player to keep winning, match after match?",
+   "think": "Shubman Gill was out just two runs short of 100. How do you think a player feels after coming so close, and what could a friend say to cheer them up?",
    "quiz": {
-    "q": "Which game did Lakshya Sen lose in his match on Friday?",
+    "q": "How many runs did KL Rahul score?",
     "a": [
-     "None of them",
-     "The first",
-     "The third",
-     "The second"
-    ],
-    "c": 3
-   },
-   "src": [
-    [
-     "The Sunday Guardian, 20 Nov",
-     "https://sundayguardianlive.com/sports/hong-kong-open-2026-badminton-lakshya-sen-satwiksairaj-rankireddy-chirag-shetty-storm-into-semis-as-rakshitha-ramrajs-dream-run-ends-full-results-325105/"
-    ],
-    [
-     "PTI via DD India, 20 Nov",
-     "https://ddindia.co.in/2026/11/semifinals-of-hong-kong-open/"
-    ],
-    [
-     "ANI via The Tribune, 20 Nov",
-     "https://www.tribuneindia.com/news/anders-antonsen/hong-kong-open-satwik-chirag-storm-into-semis-lakshya-sen-extends-winning-streak-to-13"
-    ],
-    [
-     "PTI via The Bridge, 20 Nov",
-     "https://thebridge.in/badminton/hong-kong-open-satwik-chirag-into-semis-58436"
-    ],
-    [
-     "Britannica Dictionary, read 21 Nov (badminton)",
-     "https://www.britannica.com/dictionary/badminton"
-    ],
-    [
-     "Merriam-Webster, read 21 Nov (badminton)",
-     "https://www.merriam-webster.com/dictionary/badminton"
-    ],
-    [
-     "Oxford Learner's Dictionaries, read 21 Nov (doubles)",
-     "https://www.oxfordlearnersdictionaries.com/definition/english/double_6"
-    ],
-    [
-     "Dictionary.com, read 21 Nov (doubles)",
-     "https://www.dictionary.com/browse/doubles"
-    ],
-    [
-     "Britannica Dictionary, read 21 Nov (quarterfinal)",
-     "https://www.britannica.com/dictionary/quarterfinal"
-    ],
-    [
-     "Oxford Learner's Dictionaries, read 21 Nov (quarter-final)",
-     "https://www.oxfordlearnersdictionaries.com/us/definition/english/quarter-final"
-    ],
-    [
-     "Oxford Learner's Dictionaries, read 21 Nov (semi-final)",
-     "https://www.oxfordlearnersdictionaries.com/definition/english/semi-final"
-    ],
-    [
-     "Britannica Dictionary, read 21 Nov (semifinal)",
-     "https://learnersdictionary.com/definition/semifinal"
-    ],
-    [
-     "Badminton World Federation, Laws of Badminton (copy), read 21 Nov",
-     "https://cob.org/wp-content/uploads/Section-4.1-Laws-of-Badminton-29-May-2023-V2.1.pdf"
-    ],
-    [
-     "Olympics.com, badminton rules, read 21 Nov",
-     "https://olympics.com/en/news/badminton-guide-how-to-play-rules-olympic-history"
-    ]
-   ]
-  },
-  {
-   "id": "g-suncatcher",
-   "scope": "global",
-   "cat": "tech",
-   "emoji": "🛰️",
-   "date": "2026-11-19",
-   "kind": "news",
-   "x": {
-    "t": "Google plans to try AI computers in space",
-    "b": [
-     "Google said on Thursday that it had booked a rocket to try computers in space.",
-     "The rocket is meant to launch [[satellite|satellites]], machines that travel around Earth, early in 2029. They would hold computer parts for [[ai|AI]], which lets computers copy intelligent human behaviour.",
-     "AI needs lots of electricity. On the satellites' path, sunlight could power them almost all the time. It is only a plan, and testing continues."
-    ]
-   },
-   "o": {
-    "t": "Google plans a 2029 rocket launch for sun-powered AI satellites",
-    "b": [
-     "Google and rocket company Blue Origin announced an agreement on Thursday 19 November. Blue Origin's New Glenn rocket is to launch [[satellite|satellites]], machines travelling around Earth, for Project Suncatcher. That is Google's research into computing in space for [[ai|AI]], or artificial intelligence. The launch is targeted for the first three months of 2029.",
-     "AI means computer systems that can copy intelligent human behaviour, and it uses lots of electricity. The satellites are to carry Google's AI [[chip|chips]], very small parts holding electronic circuits. Their planned [[orbit|orbit]], or path around Earth, gets sunlight almost all the time. Google says [[solar-panel|solar panels]], which turn sunlight into electricity, can produce up to eight times more power there than on Earth.",
-     "Testing continues: chips in space cannot be cooled by air, so they need another way to lose heat. Google plans to link two satellites in 2027."
-    ]
-   },
-   "think": "What is one good thing and one tricky thing about putting computers in space?",
-   "quiz": {
-    "q": "Why does Google want to try putting AI computers in space?",
-    "a": [
-     "Chips are easier to cool in space",
-     "AI needs no electricity in space",
-     "Sunlight could power them almost all the time",
-     "The rocket has already flown there"
+     "80",
+     "98",
+     "136",
+     "55"
     ],
     "c": 2
    },
    "src": [
     [
-     "The Next Web, 19 Nov",
-     "https://thenextweb.com/news/google-blue-origin-new-glenn-project-suncatcher-2029"
+     "Outlook India, 21 Nov",
+     "https://www.outlookindia.com/sports/cricket/ind-vs-nz-1st-test-day-3-report-kl-rahul-shubman-gill-put-india-in-command"
     ],
     [
-     "Via Satellite, 19 Nov",
-     "https://www.satellitetoday.com/launch/2026/11/19/google-orders-heavy-lift-launch-for-project-suncatcher-from-blue-origin/"
+     "Gulf News (AFP), 21 Nov",
+     "https://gulfnews.com/sport/cricket/wellington-test-kl-rahuls-136-puts-india-in-control-against-new-zealand-1.500755959"
     ],
     [
-     "Blue Origin, 19 Nov",
-     "https://www.blueorigin.com/news/google-selects-new-glenn-for-project-suncatcher"
+     "Oxford Learner's Dictionaries, read 21 Nov (century)",
+     "https://www.oxfordlearnersdictionaries.com/definition/english/century"
     ],
     [
-     "Channel Insider, 20 Nov",
-     "https://www.channelinsider.com/ai/news-google-blue-origin-ai-server-satellites/"
+     "Oxford Learner's Dictionaries, read 21 Nov (innings)",
+     "https://www.oxfordlearnersdictionaries.com/definition/english/innings"
     ],
     [
-     "Techzine, 20 Nov",
-     "https://www.techzine.eu/news/infrastructure/145940/google-is-sending-ai-systems-into-space-with-blue-origin/"
+     "Oxford Learner's Dictionaries, read 21 Nov (bowl)",
+     "https://www.oxfordlearnersdictionaries.com/definition/english/bowl_2"
     ],
     [
-     "Britannica Dictionary, read 21 Nov (satellite)",
-     "https://www.britannica.com/dictionary/satellite"
-    ],
-    [
-     "Oxford Learner's Dictionaries, read 21 Nov (satellite)",
-     "https://www.oxfordlearnersdictionaries.com/definition/english/satellite"
-    ],
-    [
-     "Oxford Learner's Dictionaries, read 21 Nov (artificial intelligence)",
-     "https://www.oxfordlearnersdictionaries.com/definition/english/artificial-intelligence"
-    ],
-    [
-     "Merriam-Webster, read 21 Nov (artificial intelligence)",
-     "https://www.merriam-webster.com/dictionary/artificial%20intelligence"
-    ],
-    [
-     "Britannica Dictionary, read 21 Nov (chip)",
-     "https://www.britannica.com/dictionary/chip"
-    ],
-    [
-     "Oxford Learner's Dictionaries, read 21 Nov (microchip)",
-     "https://www.oxfordlearnersdictionaries.com/definition/english/microchip"
-    ],
-    [
-     "Britannica Dictionary, read 21 Nov (orbit)",
-     "https://www.britannica.com/dictionary/orbit"
-    ],
-    [
-     "Oxford Learner's Dictionaries, read 21 Nov (orbit)",
-     "https://www.oxfordlearnersdictionaries.com/definition/english/orbit_1"
-    ],
-    [
-     "Britannica Dictionary, read 21 Nov (solar panel)",
-     "https://www.britannica.com:443/dictionary/solar-panel"
-    ],
-    [
-     "Oxford Learner's Dictionaries, read 21 Nov (solar panel)",
-     "https://www.oxfordlearnersdictionaries.com/definition/english/solar-panel"
-    ],
-    [
-     "Britannica Dictionary, read 21 Nov (prototype)",
-     "https://www.britannica.com/dictionary/prototype"
-    ],
-    [
-     "Merriam-Webster, read 21 Nov (prototype)",
-     "https://www.merriam-webster.com/dictionary/Prototype"
-    ],
-    [
-     "Oxford Learner's Dictionaries, read 21 Nov (haiku)",
-     "https://www.oxfordlearnersdictionaries.com/definition/english/haiku"
-    ],
-    [
-     "Britannica Dictionary, read 21 Nov (haiku)",
-     "https://www.britannica.com:443/dictionary/haiku"
-    ],
-    [
-     "Britannica Dictionary, read 21 Nov (dedicated)",
-     "https://learnersdictionary.com/definition/dedicated"
-    ],
-    [
-     "Oxford Learner's Dictionaries, read 21 Nov (dedicated)",
-     "https://www.oxfordlearnersdictionaries.com/definition/english/dedicated"
-    ]
-   ]
-  },
-  {
-   "id": "g-uk-eu-deal",
-   "scope": "global",
-   "cat": "world",
-   "emoji": "🤝",
-   "date": "2026-11-20",
-   "kind": "news",
-   "x": {
-    "t": "Britain and the European Union agree three new deals",
-    "b": [
-     "Britain was once part of the [[european-union|European Union]], a group of European countries. It left, and that is called [[brexit|Brexit]].",
-     "On Friday 20 November, leaders from both sides met in Brussels. They agreed three deals. One is for young adults. They could live, work or study on the other side for up to three years.",
-     "The leaders welcomed the deals. Some politicians in Britain do not like them."
-    ]
-   },
-   "o": {
-    "t": "Britain and EU agree three deals, including a youth scheme",
-    "b": [
-     "Britain used to belong to the [[european-union|European Union]], or EU, a group of European countries. Its exit is known as [[brexit|Brexit]]. On Friday 20 November, British Prime Minister Andy Burnham and EU leaders agreed three deals at a [[summit|summit]], or leaders' meeting, in Brussels.",
-     "One will cut paperwork and checks on food sold abroad. Another will link their carbon markets, where companies buy and sell permits to release polluting gases. The third will let up to 100,000 young adults from each side live, work or study on the other side for up to three years.",
-     "People disagree about the deals. Mr Burnham called it a good day for Britain and Europe. Opposition politicians criticised the deals, and the party Reform UK called them a betrayal, or breaking of trust. University fees for EU students are still to be negotiated."
-    ]
-   },
-   "think": "If you could spend a year living in another country when you are grown up, where would you go, and what would you like to learn there?",
-   "quiz": {
-    "q": "What could young adults do under one of the new deals?",
-    "a": [
-     "Live, work or study on the other side for up to three years",
-     "Become leaders of the European Union",
-     "Skip all their university exams",
-     "Stay on the other side for ever"
-    ],
-    "c": 0
-   },
-   "src": [
-    [
-     "BBC via Yahoo News, 20 Nov",
-     "https://www.yahoo.com/news/politics/articles/uk-explore-even-closer-ties-174952979.html"
-    ],
-    [
-     "AFP via Kyiv Post, 20 Nov",
-     "https://www.kyivpost.com/post/90756"
-    ],
-    [
-     "Anadolu, 20 Nov",
-     "https://www.aa.com.tr/en/world/eu-uk-agree-on-deeper-security-cooperation-greater-british-role-in-civilian-missions/4132252"
-    ],
-    [
-     "European Business Magazine, 20 Nov",
-     "https://europeanbusinessmagazine.com/eu-uk-summit-key-insights"
-    ],
-    [
-     "Oxford Learner's Dictionaries, read 21 Nov (the European Union)",
-     "https://www.oxfordlearnersdictionaries.com/us/definition/english/the-european-union"
-    ],
-    [
-     "Merriam-Webster, read 21 Nov (European Union)",
-     "https://www.merriam-webster.com/dictionary/European%20Union"
-    ],
-    [
-     "Oxford Learner's Dictionaries, read 21 Nov (Brexit)",
-     "https://www.oxfordlearnersdictionaries.com/definition/english/brexit"
-    ],
-    [
-     "Dictionary.com, read 21 Nov (Brexit)",
-     "https://www.dictionary.com/browse/brexit"
-    ],
-    [
-     "Britannica Dictionary, read 21 Nov (summit)",
-     "https://www.britannica.com/dictionary/Summit"
-    ],
-    [
-     "Oxford Learner's Dictionaries, read 21 Nov (summit)",
-     "https://www.oxfordlearnersdictionaries.com/definition/english/summit"
-    ],
-    [
-     "Dictionary.com, read 21 Nov (carbon market)",
-     "https://www.dictionary.com/browse/carbon-market"
-    ],
-    [
-     "Environmental Defense Fund, read 21 Nov (carbon markets)",
-     "https://www.edf.org/what-are-carbon-markets"
-    ],
-    [
-     "Merriam-Webster, read 21 Nov (betrayal)",
-     "https://www.merriam-webster.com/dictionary/betrayal"
-    ],
-    [
-     "Oxford Learner's Dictionaries, read 21 Nov (betrayal)",
-     "https://www.oxfordlearnersdictionaries.com/definition/english/betrayal"
+     "WorldAtlas, read 21 Nov (Wellington location)",
+     "https://www.worldatlas.com/oc/nz/wgn/where-is-wellington.html"
     ]
    ],
-   "olderOnly": true,
-   "sensitive": "politics"
+   "where": {
+    "n": "Wellington, New Zealand",
+    "lat": -41.3,
+    "lon": 174.8
+   }
   },
   {
-   "id": "in-backswimmer",
-   "scope": "IN",
-   "cat": "nature",
-   "emoji": "💧",
-   "date": "2026-11-19",
+   "id": "g-homo-erectus",
+   "scope": "global",
+   "cat": "history",
+   "emoji": "🦷",
+   "date": "2026-11-18",
    "kind": "news",
    "x": {
-    "t": "A new insect that swims upside down is found in India",
+    "t": "Ancient teeth show a human relative lived in a rainforest",
     "b": [
-     "Scientists in India have found a new kind of insect. It is a [[backswimmer|backswimmer]], so it swims upside down.",
-     "It was found in fresh water in Andhra Pradesh and Telangana.",
-     "To check it was new, scientists studied its body and [[dna|DNA]]. DNA holds the instructions inside living things. Small pools and streams may hold more living things nobody has recorded."
+     "Scientists studied nine old teeth from two caves in southern China. Most came from [[homo-erectus|Homo erectus]]. It was an ancient relative of humans.",
+     "The teeth are about 184,000 to 324,000 years old. They show Homo erectus lived in a thick [[rainforest|rainforest]]. Its food came from shady forest plants.",
+     "Teeth hold tiny clues about how an animal lived. These teeth show Homo erectus lived there longer than scientists thought."
     ]
    },
    "o": {
-    "t": "New upside-down swimming insect found in two Indian reserves",
+    "t": "Teeth from Chinese caves show Homo erectus lived in rainforest",
     "b": [
-     "Scientists from the Zoological Survey of India have discovered a new [[species|species]], or kind, of insect. It is a [[backswimmer|backswimmer]], an insect that swims upside down beneath the water surface. The find was reported this week.",
-     "The insect was found in fresh water in two reserves. They are the Seshachalam Biosphere Reserve in Andhra Pradesh and the Amrabad Tiger Reserve in Telangana.",
-     "To check it was new, the team studied its body and its [[dna|DNA]], the chemical that carries instructions inside living things. The DNA tests showed a difference of about 10 to 14.5 per cent, or parts in every 100, from related species. That supports calling it a separate species. A survey scientist said small rock pools and forest streams may hold species not yet recorded."
+     "Nine teeth from Baxian and Naxian caves in southern China show that [[homo-erectus|Homo erectus]], an ancient relative of humans, lived in dense [[rainforest|rainforest]]. The teeth are about 184,000 to 324,000 years old, and eight of the nine matched Homo erectus. The findings were shared in two studies in the journal Nature on 18 November.",
+     "Before, scientists had found almost no Homo erectus fossils in China younger than about 400,000 years. Teeth can keep a record of how an animal lived. Ancient [[protein|proteins]], substances found in all living things, can show which group someone belonged to. Of five teeth tested, four matched a Homo erectus protein pattern.",
+     "Clues from carbon in the teeth showed their food came from plants of thick, shady forest. Clues from strontium, another substance in the teeth, suggest some of them travelled up to about 250 kilometres, possibly towards northern Vietnam."
     ]
    },
-   "think": "What small living things have you noticed in or near water, and what would you like to find out about them?",
+   "think": "Your teeth hold clues about the food you eat and the places you have lived. What do you think your teeth might tell a scientist one day?",
    "quiz": {
-    "q": "How does a backswimmer swim?",
+    "q": "How many ancient teeth did the scientists study?",
     "a": [
-     "Standing upright",
-     "Upside down",
-     "Sideways along the bottom",
-     "By jumping across the surface"
+     "Three",
+     "Nine",
+     "Twenty",
+     "Fifty"
     ],
     "c": 1
    },
+   "where": {
+    "n": "Southern China",
+    "lat": 24.0,
+    "lon": 109.0
+   },
    "src": [
     [
-     "Telangana Today, 19 Nov",
-     "https://telanganatoday.com/new-species-of-predatory-aquatic-insect-discovered-in-eastern-ghats"
+     "Sci.News, 18 Nov",
+     "https://www.sci.news/othersciences/anthropology/homo-erectus-china-15208.html"
     ],
     [
-     "Deccan Chronicle, 20 Nov",
-     "https://www.deccanchronicle.com/southern-states/telangana/new-aquatic-insect-species-discovered-in-eastern-ghats-2006080"
+     "ScienceAlert, 19 Nov",
+     "https://www.sciencealert.com/major-fossil-discovery-in-china-reveals-two-new-secrets-about-the-home-of-homo-erectus"
     ],
     [
-     "Britannica Dictionary, read 21 Nov (species)",
-     "https://www.britannica.com/dictionary/species"
+     "Chinese Academy of Sciences via EurekAlert, 18 Nov",
+     "https://www.eurekalert.org/news-releases/1152246"
     ],
     [
-     "Oxford Learner's Dictionaries, read 21 Nov (species)",
-     "https://www.oxfordlearnersdictionaries.com/definition/english/species?q=species"
+     "Oxford Learner's Dictionaries, read 21 Nov (protein)",
+     "https://www.oxfordlearnersdictionaries.com/definition/english/protein"
     ],
     [
-     "Oxford Learner's Dictionaries, read 21 Nov (DNA)",
-     "https://www.oxfordlearnersdictionaries.com/definition/english/dna"
+     "Oxford Learner's Dictionaries, read 21 Nov (rainforest)",
+     "https://www.oxfordlearnersdictionaries.com/us/definition/english/rainforest"
     ],
     [
-     "National Human Genome Research Institute glossary, read 21 Nov (DNA)",
-     "https://www.genome.gov/genetics-glossary/Deoxyribonucleic-Acid-%28DNA%29"
-    ],
-    [
-     "Merriam-Webster, read 21 Nov (biodiversity)",
-     "https://merriam-webster.com/dictionary/biodiversity"
-    ],
-    [
-     "Oxford Learner's Dictionaries, read 21 Nov (biodiversity)",
-     "https://www.oxfordlearnersdictionaries.com/definition/english/biodiversity"
+     "OpenStreetMap Wiki, read 21 Nov (Guangxi location)",
+     "https://wiki.openstreetmap.org/wiki/Guangxi"
     ]
    ]
   },
   {
-   "id": "g-nations-league",
-   "scope": "global",
-   "cat": "sports",
-   "emoji": "⚽",
-   "date": "2026-11-20",
-   "kind": "news",
-   "x": {
-    "t": "Eight European football teams find out who they will play",
-    "b": [
-     "A football [[draw|draw]] was held in [[nyon|Nyon]] on Friday. A draw picks by chance who plays whom. It put the teams of eight European countries into four pairs.",
-     "Spain will play France. Norway will play England. The Netherlands will play Portugal. Belgium will play Germany.",
-     "Each pair will play two games in March 2027, one in each country. The winners reach the [[semi-final|semi-finals]], the round before the final."
-    ]
-   },
-   "o": {
-    "t": "Spain to face France in Nations League quarter-finals",
-    "b": [
-     "The draw for the quarter-finals of the [[nations-league|UEFA Nations League]] was held in [[nyon|Nyon]], Switzerland, on Friday 20 November. The Nations League is a football competition for the national teams of Europe. A [[draw|draw]] decides by chance which teams play each other. This one put the eight teams in the quarter-finals, the round before the semi-finals, into four pairs. These contests are called ties.",
-     "The ties are Spain v France, Norway v England, the Netherlands v Portugal, and Belgium v Germany. Each tie will be two matches, a first leg and a return leg, in late March 2027, with one match in each team's country.",
-     "The draw also set the path to the [[semi-final|semi-finals]], the round before the final. The winner of Belgium v Germany will meet the winner of Norway v England."
-    ]
-   },
-   "think": "If you were in charge of a football competition, would you pick who plays whom with a draw, or in another way? Why?",
-   "quiz": {
-    "q": "Which team will England play in March 2027?",
-    "a": [
-     "Spain",
-     "Germany",
-     "Portugal",
-     "Norway"
-    ],
-    "c": 3
-   },
-   "src": [
-    [
-     "UEFA, 20 Nov",
-     "https://www.uefa.com/uefanationsleague/news/02ab-221d9e23448d-d862e943f6f2-1000--uefa-nations-league-quarter-final-and-play-off-ties-spain-vs/"
-    ],
-    [
-     "AFP via Al Jazeera, 20 Nov",
-     "https://www.aljazeera.com/sports/2026/11/20/nations-league-knockouts-spain-france-england-norway-quarterfinals"
-    ],
-    [
-     "Anadolu Agency via A News, 20 Nov",
-     "https://www.anews.com.tr/world/2026/11/20/spain-to-face-france-england-draw-norway-in-uefa-nations-league-quarterfinals"
-    ],
-    [
-     "UEFA, Nations League about page, read 21 Nov",
-     "https://www.uefa.com/uefanationsleague/about/"
-    ],
-    [
-     "Oxford Learner's Dictionaries, read 21 Nov (draw)",
-     "https://www.oxfordlearnersdictionaries.com/definition/english/draw_2"
-    ],
-    [
-     "Britannica Dictionary, read 21 Nov (draw)",
-     "https://www.britannica.com:443/dictionary/draw"
-    ],
-    [
-     "Oxford Learner's Dictionaries, read 21 Nov (tie)",
-     "https://www.oxfordlearnersdictionaries.com/us/definition/english/tie_2"
-    ],
-    [
-     "Britannica Dictionary, read 21 Nov (tie)",
-     "https://www.britannica.com:443/dictionary/tie"
-    ],
-    [
-     "Oxford Learner's Dictionaries, read 21 Nov (semi-final)",
-     "https://www.oxfordlearnersdictionaries.com/definition/english/semi-final"
-    ],
-    [
-     "Britannica Dictionary, read 21 Nov (semifinal)",
-     "https://learnersdictionary.com/definition/semifinal"
-    ],
-    [
-     "Britannica Dictionary, read 21 Nov (quarterfinal)",
-     "https://www.britannica.com/dictionary/quarterfinal"
-    ],
-    [
-     "Oxford Learner's Dictionaries, read 21 Nov (quarter-final)",
-     "https://www.oxfordlearnersdictionaries.com/us/definition/english/quarter-final"
-    ]
-   ]
-  },
-  {
-   "id": "in-iffi-opens",
+   "id": "in-iit-kharagpur",
    "scope": "IN",
-   "cat": "culture",
-   "emoji": "🎬",
-   "date": "2026-11-20",
+   "cat": "civics",
+   "emoji": "🎓",
+   "date": "2026-11-21",
    "kind": "news",
    "x": {
-    "t": "Films from 86 countries are showing in Goa",
+    "t": "India's first IIT turns 75 and gets a special coin",
     "b": [
-     "A film [[festival|festival]] opened in Goa on Friday. It lasts nine days. An [[orchestra|orchestra]], a group of musicians, played at the opening.",
-     "At a film festival, many films are shown. This one has films from 86 countries. So people can watch stories from far away.",
-     "The orchestra was led by Ricky Kej, who writes music. The festival's main idea is \"Stories Without Borders\"."
+     "[[iit-kharagpur|IIT Kharagpur]] is India's first IIT. IIT stands for Indian Institute of Technology. It is a kind of university. This year it is celebrating 75 years.",
+     "Long ago, the place was a camp where freedom fighters were held. They wanted India to be free from British rule.",
+     "On Saturday, Prime Minister Narendra Modi visited. He showed a special [[coin|coin]] made for the 75 years. He also met students."
     ]
    },
    "o": {
-    "t": "India's international film festival opens in Goa for nine days",
+    "t": "IIT Kharagpur, India's first IIT, celebrates 75 years with a coin",
     "b": [
-     "The 57th International Film Festival of India opened in Goa on Friday 20 November. A film [[festival|festival]] is an event where many films are shown. This festival runs for nine days and has more than 150 films from 86 countries, so audiences in Goa can watch stories from other parts of the world.",
-     "At the opening, an [[orchestra|orchestra]], a group of musicians, performed. It was led by the composer Ricky Kej. A composer is a person who writes music. The festival's theme, or main idea, is \"Stories Without Borders\".",
-     "The opening ceremony was held at the Dr Shyama Prasad Mukherjee Stadium. Actors Kartik Aaryan and Sai Pallavi were there. The festival's director, Ashutosh Gowariker, spoke at the ceremony. Goa's Chief Minister, Pramod Sawant, shared an idea for the future: a film city with facilities for making films."
+     "[[iit-kharagpur|IIT Kharagpur]], the first Indian Institute of Technology (IIT) in the country, is celebrating 75 years. This celebration is called its Platinum [[jubilee|Jubilee]]. A jubilee is a special anniversary of an event, and the celebrations connected with it. The institute is in Kharagpur, a city in West Bengal.",
+     "The campus has a long history. It stands on a site that was once a detention camp, a place where people were held. During British rule, freedom fighters, people who struggled for India's freedom, were held there.",
+     "On Saturday 21 November, Prime Minister Narendra Modi unveiled a commemorative [[coin|coin]] marking the institute's 75 years. To unveil something means to show it to the public for the first time. A commemorative coin is made to honour a special event. He also met students at the institute as part of the Platinum Jubilee celebrations."
     ]
    },
-   "think": "Think of a film or story you like that comes from another place. What did it show you about how people live there?",
+   "think": "IIT Kharagpur stands where freedom fighters were once held. Why do you think it matters to remember the history of a place?",
    "quiz": {
-    "q": "Who played at the opening of the film festival in Goa?",
+    "q": "What did Prime Minister Modi unveil at IIT Kharagpur?",
     "a": [
-     "A marching band",
-     "A school choir",
-     "An orchestra",
-     "A rock group"
+     "A stamp",
+     "A statue",
+     "A commemorative coin",
+     "A painting"
     ],
     "c": 2
    },
    "src": [
     [
-     "The Tribune, 21 Nov",
-     "https://www.tribuneindia.com/news/india/international-film-festival-opens-in-goa-kartik-aaryan-sai-pallavi-add-star-power/"
+     "ThePrint (PTI), 21 Nov",
+     "https://theprint.in/india/pm-modi-interacts-with-iit-kharagpur-students-under-75-voices-for-viksit-bharat-initiative/3104933"
     ],
     [
-     "PIB via DD News, 20 Nov",
-     "https://ddnews.gov.in/en/57th-iffi-opens-in-goa-with-150-films-from-86-countries-celebrating-cinema-without-borders/"
+     "Asianet Newsable (ANI), 21 Nov",
+     "https://newsable.asianetnews.com/india/pm-modi-unveils-commemorative-coin-at-iit-kharagpur-platinum-jubilee-articleshow-8hzm0m0"
     ],
     [
-     "News On AIR, 20 Nov",
-     "https://newsonair.gov.in/57th-iffi-opens-in-goa-to-celebrate-diverse-cinema-and-storytelling-traditions-from-across-the-world/"
+     "ThePrint (PTI), 20 Nov",
+     "https://theprint.in/india/pm-to-visit-iit-kharagpur-on-nov-21-unveil-platinum-jubilee-commemorative-coin/3104202/"
     ],
     [
-     "PIB, 13 Nov",
-     "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2335780&reg=48&lang=2"
+     "IIT Kharagpur, read 21 Nov (about the institute)",
+     "https://www.iitkgp.ac.in/about-iitkgp"
     ],
     [
-     "Britannica Dictionary, read 21 Nov (festival)",
-     "https://www.britannica.com/dictionary/festival"
+     "Britannica, read 21 Nov (Kharagpur)",
+     "https://www.britannica.com/place/Kharagpur"
     ],
     [
-     "Oxford Learner's Dictionaries, read 21 Nov (festival)",
-     "https://www.oxfordlearnersdictionaries.com/definition/english/festival?q=festival"
+     "Britannica Dictionary, read 21 Nov (coin)",
+     "https://www.britannica.com/dictionary/coin"
     ],
     [
-     "Oxford Learner's Dictionaries, read 21 Nov (orchestra)",
-     "https://www.oxfordlearnersdictionaries.com/definition/english/orchestra"
-    ],
-    [
-     "Britannica Dictionary, read 21 Nov (orchestra)",
-     "https://www.britannica.com/dictionary/orchestra"
-    ],
-    [
-     "Merriam-Webster, read 21 Nov (composer)",
-     "https://merriam-webster.com/dictionary/composer"
-    ],
-    [
-     "Oxford Learner's Dictionaries, read 21 Nov (composer)",
-     "https://www.oxfordlearnersdictionaries.com/us/definition/english/composer"
-    ],
-    [
-     "Oxford Learner's Dictionaries, read 21 Nov (theme)",
-     "https://www.oxfordlearnersdictionaries.com/definition/english/theme"
-    ],
-    [
-     "Britannica Dictionary, read 21 Nov (theme)",
-     "https://www.britannica.com:443/dictionary/theme"
+     "Oxford Learner's Dictionaries, read 21 Nov (jubilee)",
+     "https://www.oxfordlearnersdictionaries.com/definition/english/jubilee?q=jubilee"
     ]
-   ]
+   ],
+   "where": {
+    "n": "Kharagpur, West Bengal",
+    "lat": 22.3,
+    "lon": 87.3
+   }
   },
   {
-   "id": "g-early-learning",
+   "id": "g-water-bears",
    "scope": "global",
-   "cat": "civics",
-   "emoji": "🎒",
+   "cat": "nature",
+   "emoji": "🔬",
    "date": "2026-11-20",
    "kind": "news",
    "x": {
-    "t": "Not every child gets a year of learning before primary school",
+    "t": "Two new tiny water bears found on an underwater mountain",
     "b": [
-     "Friday 20 November was World Children's Day. A new world report about young children came out that day.",
-     "It is about learning before [[primary-school|primary school]], called [[pre-primary|pre-primary education]]. The report says about 6 in 10 children get at least one year.",
-     "The report says more people are needed to teach young children. It says more money is needed too, so every child gets that year."
+     "Scientists have found two new kinds of [[tardigrade|water bear]]. Water bears are tiny animals with eight short, thick legs. You need a microscope to see them.",
+     "The new ones live on an [[seamount|underwater mountain]] near [[cape-verde|Cape Verde]], off West Africa.",
+     "The top of the mountain had 20 types of water bear. A much deeper place farther away had only two. Underwater mountains may be busy homes for tiny life."
     ]
    },
    "o": {
-    "t": "About 6 in 10 children get a year of early learning, report says",
+    "t": "Two new species of water bear found on an Atlantic seamount",
     "b": [
-     "On Friday 20 November, World Children's Day, a report about young children's learning was launched in Paris. It was published by [[unesco|UNESCO]], the United Nations Educational, Scientific and Cultural Organization, with partner organisations.",
-     "It looks at [[pre-primary|pre-primary education]], which means organised learning before [[primary-school|primary school]], for example at a preschool. The report says about 59 per cent of children starting primary school have had at least one year of it. That is 59 in every 100, or about 6 in 10. The report says this share has barely changed since 2015.",
-     "The report says about 6 million more pre-primary educators, people whose job is to teach, are needed by 2030. It says more money is needed each year to give every child at least one year. UNESCO is helping countries including Jamaica, Morocco and Tanzania with their planning."
+     "Scientists have announced two new species, or kinds, of [[tardigrade|tardigrade]], also called water bears. Tardigrades are microscopic animals with four pairs of stout legs. The new species are named Megastygarctides hekatae and Parastygarctus potercha. The first is just under 0.2 millimetres long, and the second is about 0.07 millimetres.",
+     "They were found on Senghor Seamount, a [[seamount|seamount]] or underwater mountain off [[cape-verde|Cape Verde]], an island country of West Africa. The seafloor samples were collected in 2009 on the research ship Meteor, from the seamount's top, more than 100 metres down.",
+     "On the top, the team found 20 types of tardigrade. At a deep-sea site about 100 kilometres north, nearly 3,300 metres down, they found just two. The scientists say this supports the idea that seamounts are hotspots, places packed with life, for tardigrades in the sea."
     ]
    },
-   "think": "What do you think young children should get to learn and do before they start class 1?",
+   "think": "These tiny animals were only named this year. Why do you think there are still animals that no one has named?",
    "quiz": {
-    "q": "According to the report, about how many children get at least one year of learning before primary school?",
+    "q": "Where were the two new water bears found?",
     "a": [
-     "About 2 in 10",
-     "About 6 in 10",
-     "About 9 in 10",
-     "Every child"
+     "In a desert",
+     "On an underwater mountain",
+     "On a glacier",
+     "In a city park"
     ],
     "c": 1
    },
+   "where": {
+    "n": "Senghor Seamount, off Cape Verde",
+    "lat": 17.2,
+    "lon": -22.0
+   },
    "src": [
     [
-     "UNESCO, 20 Nov",
-     "https://www.unesco.org/en/articles/unesco-report-calls-greater-investment-pre-primary-education-every-dollar-invested-yielding-nearly"
+     "ZooKeys (journal paper on PubMed Central), 27 Oct",
+     "https://pmc.ncbi.nlm.nih.gov/articles/PMC13732289"
     ],
     [
-     "Assahifa English, 20 Nov",
-     "https://en.assahifa.com/morocco/unesco-morocco-rural-preschool/"
+     "Senckenberg press release via PresseBox, 20 Nov",
+     "https://www.pressebox.com/pressrelease/senckenberg-gesellschaft-fuer-naturforschung/The-Call-of-the-Seamount-Two-New-Tardigrades-Discovered-in-the-Atlantic/boxid/1321710"
     ],
     [
-     "UNESCO, 10 Nov",
-     "https://www.unesco.org/en/articles/launch-2026-global-report-early-childhood-care-and-education-unesco"
+     "Sci.News, 20 Nov",
+     "https://www.sci.news/biology/two-new-species-marine-tardigrades-underwater-mountain-west-africa-15214.html"
     ],
     [
-     "The Sector, 12 Nov",
-     "https://thesector.com.au/article/unesco-global-early-learning-funding-gap"
+     "Merriam-Webster, read 21 Nov (tardigrade)",
+     "https://www.merriam-webster.com:443/dictionary/tardigrade"
     ],
     [
-     "Britannica Dictionary, read 21 Nov (preschool)",
-     "https://www.britannica.com/dictionary/preschool"
+     "Merriam-Webster, read 21 Nov (seamount)",
+     "https://merriam-webster.com/dictionary/seamount"
     ],
     [
-     "Merriam-Webster, read 21 Nov (preschool)",
-     "https://merriam-webster.com/dictionary/preschool"
-    ],
-    [
-     "Britannica Dictionary, read 21 Nov (primary school)",
-     "https://www.britannica.com:443/dictionary/primary-school"
-    ],
-    [
-     "Oxford Learner's Dictionaries, read 21 Nov (primary school)",
-     "https://www.oxfordlearnersdictionaries.com/definition/english/primary-school"
-    ],
-    [
-     "European Agency glossary, read 21 Nov (pre-primary education)",
-     "https://european-agency.org/resources/glossary/pre-primary-education"
-    ],
-    [
-     "European Agency glossary, read 21 Nov (ISCED level 02)",
-     "https://european-agency.org/resources/glossary/international-standard-classification-education-isced-level-02"
-    ],
-    [
-     "Oxford Learner's Dictionaries, read 21 Nov (educator)",
-     "https://www.oxfordlearnersdictionaries.com/us/definition/english/educator"
-    ],
-    [
-     "Merriam-Webster, read 21 Nov (educator)",
-     "https://www.merriam-webster.com/dictionary/educator"
-    ],
-    [
-     "Britannica Dictionary, read 21 Nov (billion)",
-     "https://learnersdictionary.com/definition/billion"
-    ],
-    [
-     "Oxford Learner's Dictionaries, read 21 Nov (billion)",
-     "https://www.oxfordlearnersdictionaries.com/us/definition/english/billion"
+     "Britannica, read 21 Nov (Cabo Verde facts)",
+     "https://www.britannica.com/facts/Cabo-Verde"
     ]
    ]
   },
   {
-   "id": "g-records-day",
+   "id": "g-las-vegas-pole",
    "scope": "global",
-   "cat": "culture",
-   "emoji": "🏆",
-   "date": "2026-11-19",
+   "cat": "sports",
+   "emoji": "🏎️",
+   "date": "2026-11-21",
    "kind": "news",
    "x": {
-    "t": "New world records for parking, painting and skipping",
+    "t": "Fastest driver gets a penalty, so Verstappen starts first",
     "b": [
-     "People in many places set [[world-record|world records]] for Guinness World Records Day. It was on Thursday. A stunt driver parked a car in a tight space, balanced on two wheels.",
-     "A painter made a painting of the Statue of Liberty in 43.5 seconds. In Dubai, 12 cars did [[donut|donuts]], fast tight turns, in one circle.",
-     "One person did 249 rope skips in one minute, wearing flip-flops!"
+     "Formula 1 drivers raced against the clock in Las Vegas, in the United States. [[kimi-antonelli|Kimi Antonelli]] was the fastest.",
+     "But his team has used more engine parts than the rules allow this season. So he got a [[penalty|penalty]]. He must start five places back, in sixth.",
+     "Now [[max-verstappen|Max Verstappen]] starts at the front, in [[pole-position|pole position]]. George Russell starts second. The race comes next."
     ]
    },
    "o": {
-    "t": "Two-wheel parking and speed painting among new world records",
+    "t": "Verstappen on pole in Las Vegas after Antonelli's penalty",
     "b": [
-     "People around the world set new [[world-record|world records]] for Guinness World Records Day 2026, which was on Thursday 19 November. A world record is the best result ever recorded anywhere in the world. Stunt driver Alastair Moffatt set a record for parking a car in the tightest space while driving it balanced on two wheels.",
-     "Performance painter David Garibaldi set a record by painting a picture of the Statue of Liberty in 43.5 seconds. In Dubai, the 777 Drifting Team had 12 cars doing [[donut|donuts]], which are fast, tight turns, at the same time in a single circle.",
-     "In Japan, one person set three [[rope-skipping|rope-skipping]] records, and a person in Indonesia did 249 rope skips in one minute while wearing flip-flops."
+     "[[kimi-antonelli|Kimi Antonelli]] of Mercedes set the fastest time in qualifying for the Las Vegas Grand Prix in the United States. Qualifying is a timed session that decides where each car starts the race. Normally, the fastest driver earns [[pole-position|pole position]], the leading place at the start.",
+     "However, Antonelli has a five-place [[grid|grid]] [[penalty|penalty]]. The grid is the pattern of lines on the track that marks each car's starting spot. A penalty is a disadvantage given for breaking a rule. Formula 1 rules limit how many engine parts can be used in a season, and Antonelli's team has gone over that limit. So he drops from first to sixth.",
+     "That means [[max-verstappen|Max Verstappen]] of Red Bull, who was second fastest, starts on pole. George Russell starts second. The race comes next, with Verstappen at the front."
     ]
    },
-   "think": "If you could try to set a safe record, like skipping or stacking, what would you choose, and how would you practise?",
+   "think": "Why do you think Formula 1 limits how many engine parts a team can use in a season?",
    "quiz": {
-    "q": "How long did the painter take to paint a picture of the Statue of Liberty?",
+    "q": "Where will Kimi Antonelli start the race after his penalty?",
     "a": [
-     "4.5 seconds",
-     "43.5 seconds",
-     "43 minutes",
-     "Two hours"
+     "First",
+     "Second",
+     "Sixth",
+     "Tenth"
     ],
-    "c": 1
+    "c": 2
    },
    "src": [
     [
-     "Guinness World Records, 19 Nov",
-     "https://www.guinnessworldrecords.com/news/2026/11/all-the-action-from-gwr-day-2026-epic-car-stunts-bicycle-backflips-and-more"
+     "AP via Al Jazeera, 21 Nov",
+     "https://www.aljazeera.com/sports/2026/11/21/verstappen-escapes-las-vegas-discipline-takes-pole-as-antonelli-penalised"
     ],
     [
-     "Euronews, 20 Nov",
-     "https://www.euronews.com/video/2026/11/20/new-guinness-world-records-for-two-wheel-parking-speed-painting-and-rope-skipping"
+     "The Race, 21 Nov",
+     "https://www.the-race.com/formula-1/penalised-antonelli-beats-verstappen-with-both-ferraris-out-in-q2/"
     ],
     [
-     "UPI via Yahoo, 19 Nov",
-     "https://www.yahoo.com/entertainment/articles/man-paints-lady-liberty-43-100006439.html"
+     "IANS via Eastern Mirror, 20 Nov",
+     "https://www.easternmirrornagaland.com/formula-1-kimi-antonelli-to-take-five-place-grid-penalty-in-las-vegas-bearman-to-start-from-back-of-grid"
     ],
     [
-     "Guinness World Records (speed painting), 19 Nov",
-     "https://www.guinnessworldrecords.com/news/2026/11/speed-painter-celebrates-gwr-day-by-making-statue-of-liberty-portrait-in-under-1-minute"
+     "Oxford Learner's Dictionaries, read 21 Nov (pole position)",
+     "https://www.oxfordlearnersdictionaries.com/definition/english/pole-position"
     ],
     [
-     "Oxford Learner's Dictionaries, read 21 Nov (record)",
-     "https://www.oxfordlearnersdictionaries.com/definition/english/record?q=record"
+     "Oxford Learner's Dictionaries, read 21 Nov (starting grid, grid)",
+     "https://www.oxfordlearnersdictionaries.com/definition/english/starting-grid"
     ],
     [
-     "Merriam-Webster, read 21 Nov (record)",
-     "https://www.merriam-webster.com/dictionary/Record"
-    ],
-    [
-     "Merriam-Webster, read 21 Nov (donut)",
-     "https://www.merriam-webster.com/dictionary/donut"
-    ],
-    [
-     "American Heritage Dictionary, read 21 Nov (doughnut)",
-     "https://ahdictionary.com/word/search.html?q=doughnut"
-    ],
-    [
-     "Oxford Learner's Dictionaries, read 21 Nov (skipping rope)",
-     "https://www.oxfordlearnersdictionaries.com/definition/english/skipping-rope"
-    ],
-    [
-     "Britannica Dictionary, read 21 Nov (jump rope)",
-     "https://www.britannica.com/dictionary/jump-rope"
+     "Oxford Learner's Dictionaries, read 21 Nov (penalty)",
+     "https://www.oxfordlearnersdictionaries.com/definition/english/penalty"
     ]
    ]
   }
  ],
  "glossary": {
-  "cyclone": [
-   "cyclone",
-   "science",
-   "A powerful storm with strong winds that spin around. It often brings heavy rain.",
-   "A powerful storm in which strong winds move in a circle, often bringing heavy rain. Weather experts describe cyclones by strength: a severe cyclonic storm is stronger than a cyclonic storm."
+  "bridge": [
+   "bridge",
+   "words",
+   "Something built over a river or road so people and cars can get across.",
+   "A structure built over something, such as a river, so that people or vehicles can get across."
   ],
-  "gopalpur": [
-   "Gopalpur",
+  "lane": [
+   "lane",
+   "words",
+   "A part of a road, marked with painted lines, for one line of cars.",
+   "A part of a road that is marked by painted lines and is for a single line of vehicles."
+  ],
+  "ganga": [
+   "Ganga",
    "places",
-   "A place on the coast of Odisha.",
-   "A place on the coast of Odisha. Cyclone Akvan crossed the coast near it on Friday 20 November."
+   "A river in India. The new bridge in Bihar goes over it.",
+   "A river, also called the Ganges, that naturally divides the Indian state of Bihar into two regions, north and south. Nitish Setu crosses it."
   ],
-  "shelter": [
-   "shelter",
+  "bihar": [
+   "Bihar",
+   "places",
+   "A state in India. Its capital is Patna.",
+   "A state in India whose capital is Patna. The River Ganga divides it into two regions."
+  ],
+  "iit-kharagpur": [
+   "IIT Kharagpur",
+   "places",
+   "India's first IIT. It is in Kharagpur, a city in West Bengal.",
+   "The first Indian Institute of Technology, in the city of Kharagpur in West Bengal. It has the status of a university and is marking 75 years."
+  ],
+  "coin": [
+   "coin",
    "words",
-   "A place that protects people from bad weather or danger.",
-   "A place or building that protects people from bad weather or danger. A cyclone shelter is a building that protects people during a cyclone."
+   "A small, flat, round piece of metal used as money.",
+   "A small, flat and usually round piece of metal issued by a government as money."
   ],
-  "consensus": [
-   "consensus",
+  "jubilee": [
+   "jubilee",
    "words",
-   "When the members of a group all agree.",
-   "Agreement among the members of a group. A deal at the United Nations climate talks needs consensus among the countries."
+   "A special anniversary, and the celebrations for it.",
+   "A special anniversary of an event, especially one from 25, 50 or 60 years ago, and the celebrations connected with it. IIT Kharagpur's Platinum Jubilee marks its 75 years."
   ],
-  "cop31": [
-   "COP31",
-   "civics",
-   "A big meeting where countries talk about the climate.",
-   "The United Nations climate conference held in Antalya, Turkey, where countries talk about the climate."
+  "basin-reserve": [
+   "Basin Reserve",
+   "places",
+   "A cricket ground in Wellington, New Zealand.",
+   "The cricket ground in Wellington, New Zealand, where India and New Zealand are playing the first Test."
   ],
-  "draft": [
-   "draft",
-   "words",
-   "An early version of a piece of writing, not the final one.",
-   "An early version of a piece of writing, such as an agreement, made before the final version."
-  ],
-  "fossil-fuels": [
-   "fossil fuels",
-   "science",
-   "Coal, oil and gas. People burn them as fuel.",
-   "Fuels such as coal, oil and gas, formed underground over a very long time. People burn them."
-  ],
-  "bhupender-yadav": [
-   "Bhupender Yadav",
+  "kl-rahul": [
+   "KL Rahul",
    "people",
-   "India's environment minister.",
-   "India's Union Minister for Environment, Forest and Climate Change."
+   "An Indian cricketer. He scored 136 runs in this match.",
+   "An Indian batter. His 136 against New Zealand in Wellington was his 13th century in Test cricket."
   ],
-  "botswana": [
-   "Botswana",
+  "century": [
+   "century",
+   "words",
+   "100 runs scored by one player.",
+   "In cricket, a score of 100 runs by one player."
+  ],
+  "innings": [
+   "innings",
+   "words",
+   "A team's turn to bat.",
+   "A period of time in a game during which a team or a single player is batting."
+  ],
+  "bowled": [
+   "bowled",
+   "words",
+   "Out because the ball hit the wicket.",
+   "Out because the bowler sent down a ball that hit the wicket, so the batter has to leave the field."
+  ],
+  "kimi-antonelli": [
+   "Kimi Antonelli",
+   "people",
+   "A Formula 1 driver for the Mercedes team.",
+   "A Formula 1 driver for Mercedes. He was fastest in qualifying in Las Vegas but starts sixth because of a grid penalty."
+  ],
+  "max-verstappen": [
+   "Max Verstappen",
+   "people",
+   "A Formula 1 driver for the Red Bull team.",
+   "A Formula 1 driver for Red Bull. He starts the Las Vegas Grand Prix from pole position."
+  ],
+  "pole-position": [
+   "pole position",
+   "words",
+   "The front place at the start of a car race.",
+   "The leading position at the start of a race involving cars or bicycles."
+  ],
+  "grid": [
+   "grid",
+   "words",
+   "Lines on the track that show where each car starts.",
+   "In motor racing, a pattern of lines marking the starting positions for the racing cars. It is also called the starting grid."
+  ],
+  "penalty": [
+   "penalty",
+   "words",
+   "Something a player or team gets for breaking a rule, which makes things harder for them.",
+   "In sports and games, a disadvantage given to a player or a team when they break a rule."
+  ],
+  "homo-erectus": [
+   "Homo erectus",
+   "science",
+   "An ancient relative of humans that lived long ago.",
+   "An ancient human relative. Teeth from two caves in southern China show it lived in rainforest there about 184,000 to 324,000 years ago."
+  ],
+  "rainforest": [
+   "rainforest",
+   "words",
+   "A thick forest in a hot part of the world with lots of rain.",
+   "A thick forest in tropical parts of the world that have a lot of rain."
+  ],
+  "protein": [
+   "protein",
+   "science",
+   "A substance found in all living things. It helps make up muscles.",
+   "A substance found within all living things that forms the structure of muscles, organs and other body parts."
+  ],
+  "bumblebee": [
+   "bumblebee",
+   "words",
+   "A large, hairy bee that makes a loud buzz when it flies.",
+   "A large bee covered with small hairs that makes a loud noise as it flies."
+  ],
+  "journal": [
+   "journal",
+   "words",
+   "A magazine about one subject, such as science.",
+   "A newspaper or magazine that deals with a particular subject or profession, such as science."
+  ],
+  "tardigrade": [
+   "tardigrade (water bear)",
+   "science",
+   "A tiny animal with eight short, thick legs. It is also called a water bear.",
+   "A microscopic animal with four pairs of stout legs that usually lives in water or damp moss. It is also called a water bear."
+  ],
+  "seamount": [
+   "seamount",
+   "science",
+   "A mountain under the sea.",
+   "An underwater mountain that rises above the deep-sea floor."
+  ],
+  "cape-verde": [
+   "Cape Verde",
    "places",
-   "The country the mother cheetah was brought from.",
-   "A country. KOMG 3, the mother of the new cubs, was brought to India from there."
-  ],
-  "cubs": [
-   "cubs",
-   "words",
-   "Young meat-eating animals, such as young lions, bears or foxes.",
-   "The young of some meat-eating animals, such as lions, bears and foxes."
-  ],
-  "in-the-wild": [
-   "in the wild",
-   "words",
-   "Living free in nature, not controlled by people.",
-   "Living in a natural place that is not controlled by people."
-  ],
-  "kuno": [
-   "Kuno National Park",
-   "places",
-   "A national park in Madhya Pradesh, a state of India.",
-   "A national park in the Indian state of Madhya Pradesh. KOMG 3, a cheetah brought from Botswana, lives there."
-  ],
-  "compost": [
-   "compost",
-   "science",
-   "Rotted plants, mixed into soil to help plants grow.",
-   "A mixture of decayed plants that is added to soil to help plants grow. The compost in this study was made by worms."
-  ],
-  "regolith": [
-   "regolith",
-   "science",
-   "The layer of rock and dust on the surface of the Moon.",
-   "The layer of rock and dust that covers the Moon's surface."
-  ],
-  "simulated": [
-   "simulated",
-   "words",
-   "Made to be like something real, but not the real thing.",
-   "Not real, but made to look, feel or behave like the real thing."
-  ],
-  "badminton": [
-   "badminton",
-   "words",
-   "A game where players hit a shuttlecock over a net with rackets.",
-   "A racket game in which players hit a shuttlecock back and forth over a net."
-  ],
-  "doubles": [
-   "doubles",
-   "words",
-   "A game with two players on each side.",
-   "A game, in sports such as badminton and tennis, in which one pair of players plays against another pair."
-  ],
-  "quarter-final": [
-   "quarter-final",
-   "words",
-   "One of four matches that decide who reaches the semi-finals.",
-   "One of the four matches that decide which players or teams go on to the semi-finals."
-  ],
-  "semi-final": [
-   "semi-final",
-   "words",
-   "One of two matches that decide who plays in the final.",
-   "One of the two matches that decide who plays in the final."
-  ],
-  "ai": [
-   "AI",
-   "tech",
-   "Short for artificial intelligence. It lets computers copy intelligent human behaviour.",
-   "Short for artificial intelligence: computer systems that can copy intelligent human behaviour."
-  ],
-  "chip": [
-   "chip",
-   "tech",
-   "A very small part inside a computer that holds electronic circuits.",
-   "A very small piece of material that holds electronic circuits, used inside computers."
-  ],
-  "orbit": [
-   "orbit",
-   "science",
-   "The path something follows as it travels around a planet.",
-   "The curved path that an object in space follows as it moves around a planet, star or moon."
-  ],
-  "satellite": [
-   "satellite",
-   "science",
-   "A machine sent into space that travels around Earth.",
-   "A machine that is sent into space and moves around Earth or another planet."
-  ],
-  "solar-panel": [
-   "solar panel",
-   "tech",
-   "A panel that turns sunlight into electricity.",
-   "A piece of equipment that uses light from the Sun to produce electricity."
-  ],
-  "brexit": [
-   "Brexit",
-   "civics",
-   "The United Kingdom leaving the European Union.",
-   "The United Kingdom's exit from the European Union."
-  ],
-  "european-union": [
-   "European Union",
-   "civics",
-   "A group that many European countries belong to.",
-   "An economic and political organisation that many European countries belong to. It is often called the EU."
-  ],
-  "summit": [
-   "summit",
-   "words",
-   "A meeting of government leaders.",
-   "A meeting between the leaders of two or more governments."
-  ],
-  "backswimmer": [
-   "backswimmer",
-   "science",
-   "A water insect that swims upside down.",
-   "A water insect that swims upside down beneath the water surface."
-  ],
-  "dna": [
-   "DNA",
-   "science",
-   "The instructions inside living things for how they grow and work.",
-   "The chemical in the cells of living things that carries the instructions for how they grow and work."
-  ],
-  "species": [
-   "species",
-   "science",
-   "One kind of animal or plant.",
-   "A group of animals or plants that are alike and can have young together."
-  ],
-  "draw": [
-   "draw",
-   "words",
-   "A way of choosing by chance who will play whom.",
-   "A way of deciding by chance which teams will play each other in a competition."
-  ],
-  "nations-league": [
-   "Nations League",
-   "words",
-   "A football contest for the national teams of Europe.",
-   "The UEFA Nations League, a competition for the national teams of Europe."
-  ],
-  "nyon": [
-   "Nyon",
-   "places",
-   "A place in Switzerland. The draw was held there.",
-   "A place in Switzerland, where the draw for the quarter-finals was held."
-  ],
-  "festival": [
-   "festival",
-   "words",
-   "A special time when people celebrate, or an event with lots of films, music or plays.",
-   "A day or time of celebration. It can also be an organised series of performances, such as films, music or plays."
-  ],
-  "orchestra": [
-   "orchestra",
-   "words",
-   "A group of musicians who play music together.",
-   "A group of musicians who play together, led by a conductor."
-  ],
-  "pre-primary": [
-   "pre-primary education",
-   "words",
-   "Learning for young children before they start primary school, for example at a preschool.",
-   "Organised learning for young children before they start primary school, for example at a preschool. The report counts children who have had at least one year of it."
-  ],
-  "primary-school": [
-   "primary school",
-   "words",
-   "A school for young children.",
-   "A school for young children. Pre-primary education comes before it."
-  ],
-  "unesco": [
-   "UNESCO",
-   "civics",
-   "A United Nations organisation that works on education, science and culture.",
-   "The United Nations Educational, Scientific and Cultural Organization. Its headquarters are in Paris."
-  ],
-  "donut": [
-   "donut",
-   "words",
-   "A fast, tight turn in which a car goes round in a full circle.",
-   "A fast, tight turn in which a car is driven round in a full circle (360 degrees)."
-  ],
-  "rope-skipping": [
-   "rope skipping",
-   "words",
-   "Jumping over a rope as it swings under your feet.",
-   "Jumping over a rope each time it is swung over your head and under your feet."
+   "An island country of West Africa, in the Atlantic Ocean.",
+   "A country made of a group of islands in the Atlantic Ocean, off West Africa. Its capital is Praia. It is also called Cabo Verde."
   ],
   "world-record": [
    "world record",
    "words",
    "The best result that anyone in the world has ever reached.",
    "The best result ever recorded anywhere in the world."
+  ],
+  "orbit": [
+   "orbit",
+   "science",
+   "The path something follows as it travels around a planet.",
+   "The curved path that an object in space follows as it moves around a planet, star or moon."
   ],
   "light-day": [
    "light-day",
@@ -1362,308 +648,178 @@
   ]
  },
  "keys": {
-  "in-akvan": {
+  "in-nitish-setu": {
    "type": "number",
-   "v": "4.4 lakh",
-   "l": "more than this many people (over 440,000) were moved to safety in Odisha"
+   "v": "6",
+   "l": "lanes on Nitish Setu, the new bridge over the Ganga"
   },
-  "g-cop31": {
+  "in-iit-kharagpur": {
    "type": "number",
-   "v": "Nearly 200",
-   "l": "countries at the COP31 climate talks in Antalya"
+   "v": "75",
+   "l": "years of IIT Kharagpur, its Platinum Jubilee"
   },
-  "in-cheetah-cubs": {
+  "in-test-wellington": {
    "type": "number",
-   "v": "62",
-   "l": "cheetahs in India after the four cubs were born"
+   "v": "118",
+   "l": "runs India lead New Zealand by after day three"
   },
-  "g-moon-potatoes": {
+  "g-las-vegas-pole": {
    "type": "number",
-   "v": "30",
-   "l": "per cent of the mix was worm compost when the potatoes grew about as well as in Earth soil"
+   "v": "5",
+   "l": "places Antonelli drops on the grid because of his penalty"
   },
-  "in-badminton-semis": {
+  "g-homo-erectus": {
    "type": "number",
-   "v": "13",
-   "l": "wins in a row for Lakshya Sen by Friday"
+   "v": "9",
+   "l": "ancient teeth studied from two caves in southern China"
   },
-  "g-suncatcher": {
+  "g-water-bears": {
    "type": "number",
-   "v": "2029",
-   "l": "the year the launch is targeted for, in its first three months"
-  },
-  "g-uk-eu-deal": {
-   "type": "number",
-   "v": "100,000",
-   "l": "young people from each side, at most, who could live, work or study on the other side"
-  },
-  "in-backswimmer": {
-   "type": "number",
-   "v": "10 to 14.5",
-   "l": "per cent, or parts in every 100: about how much the DNA tests differed from related species"
-  },
-  "g-nations-league": {
-   "type": "number",
-   "v": "8",
-   "l": "teams in the quarter-finals, put into four pairs"
-  },
-  "in-iffi-opens": {
-   "type": "number",
-   "v": "More than 150",
-   "l": "films at the festival in Goa, from 86 countries"
-  },
-  "g-early-learning": {
-   "type": "number",
-   "v": "59%",
-   "l": "of children starting primary school have had at least one year of pre-primary education, the report says (about 6 in 10)"
-  },
-  "g-records-day": {
-   "type": "number",
-   "v": "249",
-   "l": "rope skips in one minute, done in flip-flops by a person in Indonesia"
+   "v": "20",
+   "l": "types of tardigrade on the seamount top, against 2 at a deep-sea site"
   }
  },
  "xkeys": {
-  "in-akvan": {
+  "in-nitish-setu": {
    "type": "check",
-   "q": "What were some teams sent to clear away?",
+   "q": "How many lanes does the new bridge have?",
    "a": [
-    "Snow",
-    "Rainwater"
-   ],
-   "c": 1,
-   "right": "Right! Some teams were sent to clear away rainwater.",
-   "wrong": "Not quite. Some teams were sent to clear away rainwater."
-  },
-  "g-cop31": {
-   "type": "check",
-   "q": "Did the climate talks finish on time, or did they run late?",
-   "a": [
-    "They finished on time",
-    "They ran late"
-   ],
-   "c": 1,
-   "right": "Right! The talks should have ended on Friday 20 November, but they ran late.",
-   "wrong": "Not quite. The talks should have ended on Friday 20 November, but they ran late."
-  },
-  "in-cheetah-cubs": {
-   "type": "check",
-   "q": "How many cubs were born?",
-   "a": [
-    "Four",
+    "Six",
     "Two"
    ],
    "c": 0,
-   "right": "Right! The mother cheetah had four cubs.",
-   "wrong": "Not quite. The mother cheetah had four cubs."
+   "right": "Right! Nitish Setu has six lanes.",
+   "wrong": "Not quite. Nitish Setu has six lanes."
   },
-  "g-moon-potatoes": {
+  "in-iit-kharagpur": {
    "type": "check",
-   "q": "Did the scientists use real soil from the Moon?",
+   "q": "How many years is IIT Kharagpur celebrating?",
    "a": [
-    "Yes, real Moon soil",
-    "No, fake Moon soil"
+    "15 years",
+    "75 years"
    ],
    "c": 1,
-   "right": "Right! The soil was fake Moon soil, made to be like the real thing.",
-   "wrong": "Not quite. The soil was fake Moon soil, made to be like the real thing."
+   "right": "Right! IIT Kharagpur is celebrating 75 years.",
+   "wrong": "Not quite. IIT Kharagpur is celebrating 75 years."
   },
-  "in-badminton-semis": {
+  "in-test-wellington": {
    "type": "check",
-   "q": "On Friday, Lakshya Sen lost the second game. Did he lose the match?",
+   "q": "Which team is ahead after day three?",
+   "a": [
+    "India",
+    "New Zealand"
+   ],
+   "c": 0,
+   "right": "Right! India are 118 runs ahead.",
+   "wrong": "Not quite. India are 118 runs ahead."
+  },
+  "g-las-vegas-pole": {
+   "type": "check",
+   "q": "Who starts the race in pole position?",
+   "a": [
+    "Max Verstappen",
+    "Kimi Antonelli"
+   ],
+   "c": 0,
+   "right": "Right! Max Verstappen starts at the front.",
+   "wrong": "Not quite. Max Verstappen starts at the front, because Kimi Antonelli has a penalty."
+  },
+  "g-homo-erectus": {
+   "type": "check",
+   "q": "Where did Homo erectus live in southern China?",
+   "a": [
+    "In a rainforest",
+    "In a desert"
+   ],
+   "c": 0,
+   "right": "Right! The teeth show Homo erectus lived in a thick rainforest.",
+   "wrong": "Not quite. The teeth show Homo erectus lived in a thick rainforest."
+  },
+  "g-bumblebees": {
+   "type": "check",
+   "q": "Can bumblebees learn by watching other bees?",
    "a": [
     "Yes",
     "No"
    ],
-   "c": 1,
-   "right": "Right! A match is the best of three games, and Lakshya won two of them.",
-   "wrong": "Not quite. A match is the best of three games. Lakshya won two games, so he won the match."
+   "c": 0,
+   "right": "Right! Bumblebees can learn hard tasks by watching other bees.",
+   "wrong": "Not quite. Bumblebees can learn hard tasks by watching other bees."
   },
-  "g-suncatcher": {
+  "g-water-bears": {
    "type": "check",
-   "q": "Has the rocket already launched the satellites?",
+   "q": "Are water bears big or tiny?",
    "a": [
-    "Yes, it launched them on Thursday",
-    "No, it is a plan for early 2029"
-   ],
-   "c": 1,
-   "right": "Right! The launch is a plan for early 2029.",
-   "wrong": "Not quite. The launch is a plan for early 2029."
-  },
-  "g-uk-eu-deal": {
-   "type": "check",
-   "q": "In which city did the leaders meet?",
-   "a": [
-    "Brussels",
-    "London"
+    "Tiny",
+    "Big"
    ],
    "c": 0,
-   "right": "Right! The leaders met in Brussels on Friday 20 November.",
-   "wrong": "Not quite. The leaders met in Brussels on Friday 20 November."
-  },
-  "in-backswimmer": {
-   "type": "check",
-   "q": "Where was the new insect found?",
-   "a": [
-    "In the sea",
-    "In fresh water"
-   ],
-   "c": 1,
-   "right": "Right! It was found in fresh water in Andhra Pradesh and Telangana.",
-   "wrong": "Not quite. It was found in fresh water in Andhra Pradesh and Telangana."
-  },
-  "g-nations-league": {
-   "type": "check",
-   "q": "Which team will Spain play?",
-   "a": [
-    "Germany",
-    "France"
-   ],
-   "c": 1,
-   "right": "Right! Spain will play France.",
-   "wrong": "Not quite. Spain will play France. Belgium will play Germany."
-  },
-  "in-iffi-opens": {
-   "type": "check",
-   "q": "How many countries do the festival's films come from?",
-   "a": [
-    "86",
-    "8"
-   ],
-   "c": 0,
-   "right": "Right! The films come from 86 countries, so people can watch stories from far away.",
-   "wrong": "Not quite. The films come from 86 countries, so people can watch stories from far away."
-  },
-  "g-early-learning": {
-   "type": "check",
-   "q": "What is pre-primary education?",
-   "a": [
-    "Learning before primary school",
-    "Learning after primary school"
-   ],
-   "c": 0,
-   "right": "Right! Pre-primary education is the learning children do before primary school.",
-   "wrong": "Not quite. Pre-primary education is the learning children do before primary school."
-  },
-  "g-records-day": {
-   "type": "check",
-   "q": "How many cars did donuts together in one circle in Dubai?",
-   "a": [
-    "12",
-    "2"
-   ],
-   "c": 0,
-   "right": "Right! 12 cars did donuts together in one circle in Dubai.",
-   "wrong": "Not quite. It was 12 cars, all doing donuts together in one circle in Dubai."
+   "right": "Right! Water bears are so tiny you need a microscope to see them.",
+   "wrong": "Not quite. Water bears are so tiny you need a microscope to see them."
   }
  },
  "deep": {
-  "in-akvan": {
-   "ctx": "India's weather office, the India Meteorological Department (IMD), sorts these storms by wind speed: a severe cyclonic storm has winds of 89 to 117 km/h, a cyclonic storm 62 to 88 km/h and a deep depression 50 to 61 km/h. Around the time Akvan crossed the coast, its winds were about 70 to 80 km/h, with gusts of up to 90 km/h. Odisha had 9,341 cyclone shelters ready, and the most rain, 209 mm, was measured at Patrapur in Ganjam district.",
-   "ask": "Odisha got thousands of cyclone shelters ready and moved more than 4.4 lakh people to safety. Some people think the most important thing is to build more strong shelters near the coast. Others think it matters more to warn people early and plan how to move them quickly. If you could spend more on only one of these, which would you choose, and why?",
+  "in-nitish-setu": {
+   "ctx": "Bihar is naturally divided by the River Ganga into two regions, so bridges are the road links between its north and south. Nitish Setu joins Kachchi Dargah in Patna district to Bidupur in Vaishali district. Its main bridge is nearly 10 km long, and the project is about 20 km long with its approach roads.",
+   "ask": "Big bridges cost a great deal of money to build. Some people think a state should spend more on big new bridges and roads that join places together. Others think the money should go first to repairing the roads, schools and hospitals it already has. Which do you think should come first, and why?",
    "jobs": [
-    "Meteorologist (a scientist who studies and forecasts the weather)",
-    "Rescue worker (a person trained to help and move people to safety in emergencies)",
-    "Firefighter (a person trained to put out fires and help people in emergencies such as floods)"
+    "Civil engineer",
+    "Surveyor",
+    "Structural engineer"
    ]
   },
-  "g-cop31": {
-   "ctx": "No COP climate summit has finished on time since 2003. In recent years the summits have often run more than 24 hours past their planned end. At COP28 in Dubai in 2023, countries agreed to transition, or move, away from fossil fuels.",
-   "ask": "Climate summits have a set finishing day, but they have not ended on time for many years. Some people think a deadline is still useful, because it pushes negotiators to make hard choices instead of talking for ever. Others think a deadline makes people rush, and that talks this important should take as long as they need. Does a deadline help people to reach a good agreement, or does it get in the way?",
+  "in-iit-kharagpur": {
+   "ctx": "IIT Kharagpur was the first of India's Indian Institutes of Technology. Its own website says it started its journey in the old Hijli Detention Camp, where freedom fighters were held during British rule. The commemorative coin unveiled on 21 November marks the institute's 75 years.",
+   "ask": "Some people think top institutes like the IITs should take in many more students, so that more young people get the chance to study there. Others think keeping them smaller helps keep the teaching and research at a high level. Which matters more to you, and why?",
    "jobs": [
-    "Diplomat (a person who represents their country in talks with other countries)",
-    "Interpreter (a person who puts what someone says into another language as they speak)",
-    "Environmental lawyer (a lawyer who works on laws and agreements that protect nature and the climate)"
+    "Professor",
+    "Engineer",
+    "Historian"
    ]
   },
-  "in-cheetah-cubs": {
-   "ctx": "The programme to bring cheetahs back began in 2022. Since then, 43 of India's 62 cheetahs have been born in India, and KOMG 3's cubs are only the second recorded birth in the wild.",
-   "ask": "Some people think animals brought to a new country should be released into the wild as soon as they can, so they live freely and raise young on their own. Others think they should stay longer in places where people can look after them closely. Which do you think is better for the animals, and why?",
+  "in-test-wellington": {
+   "ctx": "India began day three on 159 for 1, still 209 runs behind New Zealand's 368. Rahul and Padikkal then added 165 together, and later Gill and Pant added 100 more, so India finished the day 118 runs ahead.",
+   "ask": "Some people think a batter who scores 98 deserves just as much praise as one who scores 100. Others think reaching 100 is a special goal, so it matters more. Do you think the number 100 really matters, or is 98 just as good? Why?",
    "jobs": [
-    "Wildlife vet (an animal doctor who cares for wild animals)",
-    "Forest ranger (a person who looks after a forest or park and the animals that live there)",
-    "Wildlife biologist (a scientist who studies wild animals and how they live)"
+    "Cricket coach",
+    "Sports journalist",
+    "Groundskeeper"
    ]
   },
-  "g-moon-potatoes": {
-   "ctx": "Regolith was made over billions of years, as rocks from space hit the Moon. Potatoes give more calories, a measure of the energy in food, for each area of land than many other crops. Tests found no significant rise in the natural toxins, or poisonous substances, found in potatoes, though some potatoes held more copper, zinc or aluminium.",
-   "ask": "The researchers say this work is a step towards growing food for people exploring the Moon. Some people think it is worth spending time and money now to learn how to farm in space. Others think that effort should go first to helping people grow food in poor soil on Earth. Which view do you find stronger, or could the same research help both?",
+  "g-las-vegas-pole": {
+   "ctx": "Antonelli was not the only driver with a grid penalty in Las Vegas: Oscar Piastri also has a 10-place grid penalty. Both Ferrari drivers, Charles Leclerc and Lewis Hamilton, were knocked out in the second part of qualifying.",
+   "ask": "Formula 1 limits how many engine parts can be used in a season, and going over the limit means starting further back. Some people think this is fair because everyone has the same limit. Others think the fastest driver in qualifying should always start at the front. Which view do you agree with more, and why?",
    "jobs": [
-    "Plant scientist (a scientist who studies how plants grow and what they need)",
-    "Soil scientist (a scientist who studies soil and how to keep it healthy)",
-    "Astronaut (a person trained to travel and work in space)"
+    "Race engineer",
+    "Mechanic",
+    "Race official"
    ]
   },
-  "in-badminton-semis": {
-   "ctx": "Lakshya Sen recently won two tournaments, the Hylo Open and the Kumamoto Masters Japan. Satwiksairaj Rankireddy and Chirag Shetty came to Hong Kong after going out in the first round of their previous three tournaments.",
-   "ask": "A badminton match is the best of three games, so a player can lose one game and still win. Some contests, such as a running race, are decided in a single go. Is a best-of-three match a fairer way to find the better player, or is a single game more exciting because every point counts more?",
+  "g-homo-erectus": {
+   "ctx": "Before these studies, the Homo erectus fossil record in China almost disappeared after about 400,000 years ago. The new ages came from dating both the fossils and the cave sediments around them. One of the nine teeth matched neither Homo erectus nor modern humans, and it may belong to another ancient group, perhaps the Denisovans, but scientists cannot yet say.",
+   "ask": "Scientists have only nine teeth from these caves. Some people think a few carefully tested teeth are enough to change what we believe about the past. Others think scientists should wait for more fossils before changing the story. Which do you think, and why?",
    "jobs": [
-    "Badminton coach (a person who trains players and helps them plan how to play)",
-    "Sports physiotherapist (a person who helps athletes stay fit and recover from injuries)",
-    "Sports journalist (a person who reports on matches and players)"
+    "Archaeologist",
+    "Geologist",
+    "Biochemist"
    ]
   },
-  "g-suncatcher": {
-   "ctx": "A prototype for the project, meaning a first model of something new, was made with the company Planet and launched in October on a SpaceX flight. In space it ran an AI model called Gemma 4, which sent back a haiku, a poem of three lines. The 2029 flight is planned as a launch dedicated to Project Suncatcher, which means it is used for that one purpose only.",
-   "ask": "Some people think putting AI computers in space is a clever way to use the Sun's power without taking more electricity on Earth. Others think the effort would be better spent on making computers on the ground use less electricity. Which idea do you find more convincing, and could both be worth trying?",
+  "g-bumblebees": {
+   "ctx": "The Perspective gathers a growing body of earlier research on what bumblebees can do. Its authors look to connectomes, detailed maps of the connections inside a brain, as a way to learn which brain wiring lies behind clever behaviour in insects.",
+   "ask": "Scientists sometimes use words like \"mood\" to describe how bees behave. Some people think this helps us understand animals and treat them with more care. Others think it can mislead us, because we cannot know what a bee really feels. Should scientists use feeling words for insects, and why?",
    "jobs": [
-    "Aerospace engineer (a person who designs rockets and spacecraft)",
-    "Chip designer (a person who plans the tiny circuits inside computer chips)",
-    "Thermal engineer (an engineer who works out how to stop machines getting too hot)"
+    "Neuroscientist",
+    "Entomologist",
+    "Beekeeper"
    ]
   },
-  "g-uk-eu-deal": {
-   "ctx": "Efforts to bring Britain and the EU closer again began under the previous prime minister, Keir Starmer. Friday's meeting was the second yearly summit between the two sides. Under the food deal, Britain will follow some EU food rules.",
-   "ask": "Under the food deal, there will be fewer checks on food that Britain sells to the EU, and Britain will follow some EU food rules. Some people think sharing a neighbour's rules is a fair price for easier trade. Others think a country should make all of its own rules, even if that makes trade harder. When is it worth sharing rules with your neighbours, and when is it better to make your own?",
+  "g-water-bears": {
+   "ctx": "The paper naming the two species appeared in the journal ZooKeys on 27 October 2026, and the news was shared on 20 November. Marine tardigrades belong to the meiofauna, tiny animals that live in the sediment of the seafloor, and Atlantic seamounts are known for having many kinds of these animals.",
+   "ask": "These water bears were collected in 2009 but only named in 2026. Some people think the most important thing is to send more ships to explore new places. Others think it matters more to study samples already collected, even if that takes many years. Which would you choose, and why?",
    "jobs": [
-    "Trade negotiator (a person who works out trade deals between countries)",
-    "Customs officer (a person who checks goods as they cross a border)",
-    "Political reporter (a journalist who explains what governments and political parties are doing)"
-   ]
-  },
-  "in-backswimmer": {
-   "ctx": "The team, from the Zoological Survey of India in Hyderabad and VHNSN College in Virudhunagar, named the insect Enithares deccanensis and published its study in the Journal of Natural History. The new backswimmer has a dark V-shaped mark on its wings and occurs in light and dark colour forms. The survey's director, Dhriti Banerjee, said the find shows the importance of surveying biodiversity, the variety of living things, and of protecting freshwater habitats in the Eastern Ghats, where the insect was found.",
-   "ask": "Surveys that look for small, little-known animals take time and money. Some people think that effort is better spent protecting animals we already know are in danger. Others think a place cannot be protected well until we know what lives there. Which argument do you find stronger, and why?",
-   "jobs": [
-    "Entomologist (a scientist who studies insects)",
-    "Taxonomist (a scientist who describes, names and groups living things)",
-    "Freshwater ecologist (a scientist who studies life in rivers, lakes, streams and pools)"
-   ]
-  },
-  "g-nations-league": {
-   "ctx": "In each tie, the team named second plays the return leg at home. Germany, for example, play the first leg in Belgium and the return leg in Germany, both in late March 2027. The four winners go on to single-match semi-finals on 9 and 10 June 2027, with the final on 13 June, and Portugal are the current holders of the title.",
-   "ask": "In each tie, one team plays the second match at home. Some people think that is an advantage, because that team has its home crowd for the deciding match. Others think it makes no real difference, because each team gets one match at home. Does it matter which team plays at home last?",
-   "jobs": [
-    "Football coach (a person who trains a team and plans how it plays)",
-    "Football referee (an official who makes sure players follow the rules during a match)",
-    "Sports event organiser (a person who plans where and when matches are played)"
-   ]
-  },
-  "in-iffi-opens": {
-   "ctx": "The festival's opening film is \"Fatherland\", directed by Pawel Pawlikowski. Alongside the festival runs the WAVES Film Bazaar, which brings film-makers together with distributors.",
-   "ask": "The festival's theme is \"Stories Without Borders\". Some people say watching films from other countries is one of the best ways to understand how people live there. Others say a film shows only one film-maker's view, so it can give a narrow picture of a place. How much can a film really teach you about another country?",
-   "jobs": [
-    "Composer (a person who writes music, for example for films)",
-    "Film editor (a person who chooses and joins filmed shots to make the finished film)",
-    "Subtitler (a person who writes the translated words shown on screen, so people can follow a film in another language)"
-   ]
-  },
-  "g-early-learning": {
-   "ctx": "A goal for 2030 is that all girls and boys have access to quality early childhood development, care and pre-primary education. The report says giving every child at least one year of pre-primary education by 2030 would need more than 35 billion US dollars extra each year (a billion is a thousand million). It says that in the year before primary school more than 90 per cent of children take part in early learning in Europe and Northern America and in Latin America and the Caribbean, but close to 50 per cent in sub-Saharan Africa and in Northern Africa and Western Asia.",
-   "ask": "Money for education is limited. Some people think more of it should go to the youngest children, because a good start may help with everything that comes later. Others think primary and secondary schools should come first, because those pupils also need teachers, books and classrooms. If you were in charge of the budget, how would you share it out, and why?",
-   "jobs": [
-    "Pre-primary teacher (a person who helps young children learn before primary school)",
-    "Education planner (a person who works out how many schools and teachers a place needs)",
-    "Statistician (a person who collects numbers and studies what they show)"
-   ]
-  },
-  "g-records-day": {
-   "ctx": "Guinness World Records Day was first held in 2004, and in 2026 it was on Thursday 19 November. David Garibaldi's record was set in New York, the 777 Drifting Team's in Dubai and the three rope-skipping records in Japan. The record for the tightest two-wheel parking is listed as 6.53 metres.",
-   "ask": "Some records, like car stunts, are risky, while others, like skipping, are things almost anyone can try. Some people think record books should include risky stunts, because skilled performers show what is possible. Others think record books should focus on records that are safer to copy, because young fans may try them. Should record books include risky stunts?",
-   "jobs": [
-    "Stunt driver (a person who performs difficult driving tricks for shows and films)",
-    "Record adjudicator (a person who judges whether a record attempt follows the rules)",
-    "Performance painter (an artist who paints a picture live in front of an audience)"
+    "Marine biologist",
+    "Zoologist",
+    "Oceanographer"
    ]
   }
  },
@@ -2215,7 +1371,7 @@
  "learn": {
   "subject": "Science",
   "cat": "nature",
-  "link": "From the Cyclone Akvan story",
+  "link": "From this morning's Cyclone Akvan story",
   "x": {
    "t": "Why a cyclone gets weaker over land",
    "b": [
@@ -2257,6 +1413,10 @@
   "why": "It was the first time people flew free of the ground."
  },
  "hiddenWords": [
+  {
+   "k": "tardigrade",
+   "o": "Tardigrade comes from the Latin word tardigradus, which means slow-paced. It is made from tardus, which means slow, and gradi, which means to walk or step."
+  },
   {
    "k": "world-record",
    "o": "Record comes from the Latin word recordari, which means to recall or remember. Recordari is built on cor, the Latin word for heart."

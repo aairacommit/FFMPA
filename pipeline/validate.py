@@ -22,7 +22,8 @@ def main(path):
     st=ed.get("stories",[]); G=ed.get("glossary",{}); ids=set()
     pm=ed.get("edition")=="pm"
     if ed.get("edition") not in ("am","pm"): E("edition must be am or pm")
-    lo_n,hi_n=(6,12) if pm else (10,20)
+    short=ed.get("short") is True   # deadline rule in DAILY.md: a smaller edition rather than none
+    lo_n,hi_n=((3 if pm else 5),12) if short else ((6,12) if pm else (10,20))
     if not lo_n<=len(st)<=hi_n: E(f"{len(st)} stories; need {lo_n} to {hi_n}")
     if day and day.weekday()==0 and not pm:
         for f in ("puzzles","reporters","bigStory"):
@@ -76,9 +77,14 @@ def main(path):
         if not (d and d.get("ctx") and d.get("ask") and isinstance(d.get("jobs"),list) and len(d["jobs"])==3): E(f"{i}: deep needs ctx, ask and three jobs")
         elif not d["ask"].strip().endswith("?"): W(f"{i}: deep.ask should be a question")
         if s.get("sensitive") and not s.get("olderOnly"): E(f"{i}: sensitive stories must set olderOnly")
+        wh=s.get("where")
+        if wh is None:
+            if s.get("kind")!="calendar": W(f"{i}: no where (the place on the map); add one unless the story has no single place")
+        elif not (isinstance(wh,dict) and isinstance(wh.get("n"),str) and 2<=len(wh["n"])<=40 and all(isinstance(wh.get(k),(int,float)) and not isinstance(wh.get(k),bool) for k in ("lat","lon")) and -90<=wh["lat"]<=90 and -180<=wh["lon"]<=180):
+            E(f"{i}: where must be {{\"n\": place name up to 40 characters, \"lat\": -90 to 90, \"lon\": -180 to 180}}")
         if s.get("cat")=="world" and not s.get("sensitive") and re.search(r"\b(war|troops|missile|invasion|attack)\b",strip(" ".join((s.get('o') or {}).get('b',[]))).lower()): W(f"{i}: looks like a conflict story; set sensitive and olderOnly?")
     cats={s.get("cat") for s in st}
-    need_c,need_in,need_g=(4,2,3) if pm else (5,3,6)
+    need_c,need_in,need_g=((2,1,1) if pm else (3,1,2)) if short else ((4,2,3) if pm else (5,3,6))
     if len(cats)<need_c: E(f"only {len(cats)} topic categories; need {need_c} or more")
     if sum(1 for s in st if s.get("scope")=="IN")<need_in: E(f"need at least {need_in} India stories")
     if sum(1 for s in st if s.get("scope")=="global")<need_g: E(f"need at least {need_g} world stories")

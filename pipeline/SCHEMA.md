@@ -19,6 +19,7 @@ One JSON object. The best reference is the most recent file in `editions/`: copy
 | `sketchFor` | no | `{storyId: sketchKey}`; use `"learn:<date>"` as the id for the Learn card |
 | `hiddenWords` | yes | `[{k: glossaryKey, o: verified word origin}]` at least one whose key is linked in a story |
 | `backThen` | yes | `{y, t, o, x, why}` something verified that happened on this calendar date |
+| `short` | no | `true` only for an edition published under the deadline rule in DAILY.md; the validator then accepts 5 to 12 morning stories (3 to 12 evening) and a smaller mix |
 | `bigStory` | Mondays, then update daily | `{week:"<Monday date>", story, cat, sketch?, t, sub, x:{why}, o:{why}, facts:[[v,l] x4], days:[5 x {d,h,o,x} or {d,h,lock}], words:[glossary keys], poll:{q,a:[[label,explanation] x4]}, talk}` |
 | `puzzles` | Mondays | `{week, sudoku:{x:{n:4,br:2,bc:2,p,s}, o:{n:6,br:2,bc:3,p,s}, n:{n:9,br:3,bc:3,p,s}}, words:{x:[[WORD,clue]..], o:[..]}}` make sudoku grids with `pipeline/make_sudoku.py` |
 | `reporters` | Mondays | `{week, t, why, tips:[3], sample:[]}` the Young reporters assignment; leave `sample` empty |
@@ -30,8 +31,11 @@ One JSON object. The best reference is the most recent file in `editions/`: copy
   "x":{"t":"headline","b":["para","para"]}, "o":{"t":"headline","b":["para","para","para"]},
   "local":{"IN":"optional one sentence"}, "think":"...", "quiz":{"q":"...","a":["","","",""],"c":0},
   "src":[["Publisher, 12 Nov","https://..."],["Second publisher, 12 Nov","https://..."]],
+  "where":{"n":"Odisha, India","lat":20.3,"lon":85.8} (the main place in the story, shown on a small map),
   "olderOnly":true (optional), "sensitive":"conflict" or "politics" (optional) }
 ```
+
+`where`: the one place the story happens, as children would say it, for example "Odisha, India" or "Antalya, Turkey". Space stories (the Moon, Mercury) have no place on the map, so leave it out. `n` must appear in or follow from the story text (up to 40 characters); `lat` and `lon` are approximate decimal degrees for that city, state or country, taken from an encyclopedia or gazetteer page (one decimal is enough). Leave `where` out for stories with no single place (a global report, space, the internet). The validator warns when it is missing.
 
 ## Sketch shapes
 Board is 320 wide by 220 tall. Each step adds shapes to the drawing: `{"l":[x1,y1,x2,y2]}` line, `{"r":[x,y,w,h]}` box, `{"c":[cx,cy,r]}` circle, `{"p":"SVG path"}`, `{"a":[x1,y1,x2,y2]}` arrow, `{"t":[x,y,"label"]}`. Add `"acc":1` to draw in the topic colour. Keep labels short and inside the board. Only add a sketch when a story has a concept that a simple drawing makes clearer, and make sure the drawing is scientifically right.

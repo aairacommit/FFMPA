@@ -196,72 +196,6 @@
    }
   },
   {
-   "id": "g-homo-erectus",
-   "scope": "global",
-   "cat": "history",
-   "emoji": "🦷",
-   "date": "2026-11-18",
-   "kind": "news",
-   "x": {
-    "t": "Ancient teeth show a human relative lived in a rainforest",
-    "b": [
-     "Scientists studied nine old teeth from two caves in southern China. Most came from [[homo-erectus|Homo erectus]]. It was an ancient relative of humans.",
-     "The teeth are about 184,000 to 324,000 years old. They show Homo erectus lived in a thick [[rainforest|rainforest]]. Its food came from shady forest plants.",
-     "Teeth hold tiny clues about how an animal lived. These teeth show Homo erectus lived there longer than scientists thought."
-    ]
-   },
-   "o": {
-    "t": "Teeth from Chinese caves show Homo erectus lived in rainforest",
-    "b": [
-     "Nine teeth from Baxian and Naxian caves in southern China show that [[homo-erectus|Homo erectus]], an ancient relative of humans, lived in dense [[rainforest|rainforest]]. The teeth are about 184,000 to 324,000 years old, and eight of the nine matched Homo erectus. The findings were shared in two studies in the journal Nature on 18 November.",
-     "Before, scientists had found almost no Homo erectus fossils in China younger than about 400,000 years. Teeth can keep a record of how an animal lived. Ancient [[protein|proteins]], substances found in all living things, can show which group someone belonged to. Of five teeth tested, four matched a Homo erectus protein pattern.",
-     "Clues from carbon in the teeth showed their food came from plants of thick, shady forest. Clues from strontium, another substance in the teeth, suggest some of them travelled up to about 250 kilometres, possibly towards northern Vietnam."
-    ]
-   },
-   "think": "Your teeth hold clues about the food you eat and the places you have lived. What do you think your teeth might tell a scientist one day?",
-   "quiz": {
-    "q": "How many ancient teeth did the scientists study?",
-    "a": [
-     "Three",
-     "Nine",
-     "Twenty",
-     "Fifty"
-    ],
-    "c": 1
-   },
-   "where": {
-    "n": "Southern China",
-    "lat": 24.0,
-    "lon": 109.0
-   },
-   "src": [
-    [
-     "Sci.News, 18 Nov",
-     "https://www.sci.news/othersciences/anthropology/homo-erectus-china-15208.html"
-    ],
-    [
-     "ScienceAlert, 19 Nov",
-     "https://www.sciencealert.com/major-fossil-discovery-in-china-reveals-two-new-secrets-about-the-home-of-homo-erectus"
-    ],
-    [
-     "Chinese Academy of Sciences via EurekAlert, 18 Nov",
-     "https://www.eurekalert.org/news-releases/1152246"
-    ],
-    [
-     "Oxford Learner's Dictionaries, read 21 Nov (protein)",
-     "https://www.oxfordlearnersdictionaries.com/definition/english/protein"
-    ],
-    [
-     "Oxford Learner's Dictionaries, read 21 Nov (rainforest)",
-     "https://www.oxfordlearnersdictionaries.com/us/definition/english/rainforest"
-    ],
-    [
-     "OpenStreetMap Wiki, read 21 Nov (Guangxi location)",
-     "https://wiki.openstreetmap.org/wiki/Guangxi"
-    ]
-   ]
-  },
-  {
    "id": "in-iit-kharagpur",
    "scope": "IN",
    "cat": "civics",
@@ -562,24 +496,6 @@
    "Something a player or team gets for breaking a rule, which makes things harder for them.",
    "In sports and games, a disadvantage given to a player or a team when they break a rule."
   ],
-  "homo-erectus": [
-   "Homo erectus",
-   "science",
-   "An ancient relative of humans that lived long ago.",
-   "An ancient human relative. Teeth from two caves in southern China show it lived in rainforest there about 184,000 to 324,000 years ago."
-  ],
-  "rainforest": [
-   "rainforest",
-   "words",
-   "A thick forest in a hot part of the world with lots of rain.",
-   "A thick forest in tropical parts of the world that have a lot of rain."
-  ],
-  "protein": [
-   "protein",
-   "science",
-   "A substance found in all living things. It helps make up muscles.",
-   "A substance found within all living things that forms the structure of muscles, organs and other body parts."
-  ],
   "bumblebee": [
    "bumblebee",
    "words",
@@ -668,11 +584,6 @@
    "v": "5",
    "l": "places Antonelli drops on the grid because of his penalty"
   },
-  "g-homo-erectus": {
-   "type": "number",
-   "v": "9",
-   "l": "ancient teeth studied from two caves in southern China"
-  },
   "g-water-bears": {
    "type": "number",
    "v": "20",
@@ -723,17 +634,6 @@
    "c": 0,
    "right": "Right! Max Verstappen starts at the front.",
    "wrong": "Not quite. Max Verstappen starts at the front, because Kimi Antonelli has a penalty."
-  },
-  "g-homo-erectus": {
-   "type": "check",
-   "q": "Where did Homo erectus live in southern China?",
-   "a": [
-    "In a rainforest",
-    "In a desert"
-   ],
-   "c": 0,
-   "right": "Right! The teeth show Homo erectus lived in a thick rainforest.",
-   "wrong": "Not quite. The teeth show Homo erectus lived in a thick rainforest."
   },
   "g-bumblebees": {
    "type": "check",
@@ -793,15 +693,6 @@
     "Race engineer",
     "Mechanic",
     "Race official"
-   ]
-  },
-  "g-homo-erectus": {
-   "ctx": "Before these studies, the Homo erectus fossil record in China almost disappeared after about 400,000 years ago. The new ages came from dating both the fossils and the cave sediments around them. One of the nine teeth matched neither Homo erectus nor modern humans, and it may belong to another ancient group, perhaps the Denisovans, but scientists cannot yet say.",
-   "ask": "Scientists have only nine teeth from these caves. Some people think a few carefully tested teeth are enough to change what we believe about the past. Others think scientists should wait for more fossils before changing the story. Which do you think, and why?",
-   "jobs": [
-    "Archaeologist",
-    "Geologist",
-    "Biochemist"
    ]
   },
   "g-bumblebees": {
@@ -881,8 +772,8 @@
    {
     "d": "2026-11-20",
     "h": "What comes next?",
-    "o": "On Wednesday 18 November Voyager 1 reached one light-day from Earth. Its power source makes about 4 watts less every year, so NASA has been switching off instruments to save power. Even after it falls silent, it will keep travelling. It will take about 300 years to reach the inner edge of a distant region called the Oort Cloud. In about 40,000 years it is expected to pass another star. It carries a Golden Record with sounds, music and images from Earth, and greetings in 55 languages.",
-    "x": "On Wednesday, Voyager 1 reached one light-day from Earth. Its power gets a little weaker every year. Even when it falls silent, it will keep travelling. It carries a Golden Record with sounds, music and pictures from Earth."
+    "o": "On Wednesday 18 November Voyager 1 reached one light-day from Earth. Its power source makes about 4 watts less every year, so NASA has been switching off instruments to save power. Even after it falls silent, it will keep travelling. It will take about 300 years to reach the inner edge of a distant region called the Oort Cloud. In about 40,000 years it is expected to pass another star. It carries a Golden Record with sounds, music and images from Earth, and greetings in 55 languages. On 14 November, NASA found that Voyager 1's signal was reaching Earth without its usual science data. NASA thinks the problem is in the onboard computer that collects the data, and engineers are working on it.",
+    "x": "On Wednesday, Voyager 1 reached one light-day from Earth. Its power gets a little weaker every year. Even when it falls silent, it will keep travelling. It carries a Golden Record with sounds, music and pictures from Earth. As of 19 November, Voyager 1's messages were arriving without their science data. Engineers are working on the problem."
    }
   ],
   "words": [

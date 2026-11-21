@@ -313,6 +313,12 @@ th{font-family:var(--display);font-weight:700}
 .kpi span{color:var(--muted);font-size:13px}
 .panel{background:#fff;border:1px solid var(--line);border-radius:20px;padding:18px 20px;margin-bottom:16px}
 .panel h2{font-family:var(--display);font-weight:700;font-size:1.15em;margin:0 0 10px}
+.anchart{display:flex;align-items:stretch;gap:2px;height:150px;padding-bottom:18px;border-bottom:1px solid var(--line)}
+.anbar{flex:1;min-width:0;position:relative;display:flex;flex-direction:column;justify-content:flex-end}
+.anbar i{display:block;background:var(--brand);border-radius:4px 4px 0 0}
+.anbar.live i{background:#B9A8F5}
+.anbar:hover i{background:var(--brand-deep)}
+.anbar span{position:absolute;bottom:-18px;left:50%;transform:translateX(-50%);font-size:11px;color:var(--muted);white-space:nowrap}
 .status{font-size:12px;font-weight:700;border-radius:999px;padding:3px 9px;white-space:nowrap}
 .st-published{background:var(--world-soft);color:#0B6B4F}.st-draft{background:#FFF6E0;color:#6B4A00}.st-rejected{background:var(--local-soft);color:#9B2C1F}.st-held{background:var(--brand-soft);color:var(--brand-deep)}.st-stale{background:var(--sky);color:var(--muted)}
 .adm-table td,.adm-table th{font-size:14px}
@@ -987,7 +993,7 @@ const BUDDY = '<svg class="buddy" viewBox="0 0 48 48" aria-hidden="true" focusab
 
 /* ================= Admin console (#admin) ================= */
 let admSection="dashboard";
-const ADM_SECTIONS=[["dashboard","Dashboard"],["stories","Stories"],["editions","Editions"],["safety","Language and safety"],["ads","Ads and sponsors"],["plans","Plans and pricing"],["extras","Puzzles and crafts"],["pipeline","Daily pipeline"]];
+const ADM_SECTIONS=[["dashboard","Dashboard"],["analytics","Analytics"],["stories","Stories"],["editions","Editions"],["safety","Language and safety"],["ads","Ads and sponsors"],["plans","Plans and pricing"],["extras","Puzzles and crafts"],["pipeline","Daily pipeline"]];
 function openAdmin(){ $("#adminView").classList.add("open"); renderAdmin(); }
 function closeAdmin(){ $("#adminView").classList.remove("open"); }
 function admStories(){ return S.map(s=>({s, st:statusOf(s), held:heldByFilter(s)})); }
@@ -1006,6 +1012,9 @@ function renderAdmin(){
       ${Object.entries(COUNTRIES).map(([k,c])=>{ const loc=rows.filter(r=>r.s.scope===k&&r.st==="published").length, wor=rows.filter(r=>r.s.scope==="global"&&r.st==="published").length; return `<tr><td>${c.name}</td><td>${loc}</td><td>${wor}</td><td>${fmtTime(ADMIN.amTime)} and ${fmtTime(ADMIN.pmTime)} ${c.tz}</td><td>${ADMIN.countries[k]?'<span class="status st-published">Live</span>':'<span class="status st-rejected">Off</span>'}</td></tr>`; }).join("")}</tbody></table></div>
       <p class="sub" style="margin:10px 0 0">Target is 12 to 15 stories in a morning edition and 6 to 10 in an evening edition. This sample edition is smaller because it was built by hand for the prototype.</p></div>
       <div class="panel"><h2>Next runs</h2><p style="margin:0">Morning edition drafted from 4:10 AM IST, evening from 5:10 PM IST. Each is fact checked and reviewed, merged only on a pass, and families see it at ${fmtTime(ADMIN.amTime)} and ${fmtTime(ADMIN.pmTime)} their own time. Roll back any edition by reverting it on GitHub.</p></div>`;
+  }
+  if(admSection==="analytics"){
+    m.innerHTML=`<h1>Analytics</h1><p class="sub">Daily totals for signed-in families appear here on ffmpa.com after an admin signs in. This preview has no family data.</p>`;
   }
   if(admSection==="stories"){
     m.innerHTML=`<h1>Stories</h1><p class="sub">Every story must pass the fact check, standards check and independent review. Expired and filtered stories can never be published.</p>

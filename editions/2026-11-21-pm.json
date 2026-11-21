@@ -1,0 +1,1320 @@
+{
+ "schema": 1,
+ "date": "2026-11-21",
+ "edition": "pm",
+ "countries": [
+  "IN"
+ ],
+ "stories": [
+  {
+   "id": "in-nitish-setu",
+   "scope": "IN",
+   "cat": "tech",
+   "emoji": "🌉",
+   "date": "2026-11-21",
+   "kind": "news",
+   "x": {
+    "t": "A new bridge crosses the Ganga river in Bihar",
+    "b": [
+     "India has a new [[bridge|bridge]] over the [[ganga|Ganga]] river. It is called Nitish Setu. Prime Minister Narendra Modi opened it on Saturday.",
+     "The Ganga splits the state of [[bihar|Bihar]] into two parts. The new bridge joins the south and the north.",
+     "The bridge is nearly 10 kilometres long. It has six [[lane|lanes]]. That means six lines of cars and trucks fit across it."
+    ]
+   },
+   "o": {
+    "t": "Nitish Setu, a six-lane bridge over the Ganga, opens in Bihar",
+    "b": [
+     "Prime Minister Narendra Modi opened Nitish Setu, a new [[bridge|bridge]] over the [[ganga|River Ganga]], on Saturday 21 November. A bridge is a structure built over something, such as a river, so that people or vehicles can get across. Nitish Setu links Kachchi Dargah in Patna district with Bidupur in Vaishali district.",
+     "The Ganga naturally divides the state of [[bihar|Bihar]] into two regions, the north and the south. Nitish Setu crosses the river to join the two.",
+     "The main bridge is nearly 10 kilometres long. Together with its approach roads, the roads that lead up to each end, the whole project is about 20 kilometres long. The bridge has six [[lane|lanes]]. A lane is a part of a road, marked by painted lines, for a single line of vehicles."
+    ]
+   },
+   "think": "A big river can split a place into two parts. How do you think people crossed wide rivers before there were bridges?",
+   "quiz": {
+    "q": "Which river does Nitish Setu cross?",
+    "a": [
+     "Yamuna",
+     "Ganga",
+     "Godavari",
+     "Narmada"
+    ],
+    "c": 1
+   },
+   "src": [
+    [
+     "Free Press Journal (ANI), 21 Nov",
+     "https://www.freepressjournal.in/india/pm-modi-inaugurates-4280-crore-nitish-setu-over-ganga-197-km-bridge-linking-patna-with-vaishali-watch"
+    ],
+    [
+     "Assam Tribune (IANS), 21 Nov",
+     "https://assamtribune.com/national/pm-modi-inaugurates-nitish-setu-waves-at-locals-during-tour-1623116"
+    ],
+    [
+     "Swarajya, 15 Nov",
+     "https://swarajyamag.com/news-brief/pm-modi-to-inaugurate-indias-longest-river-bridge-nitish-setu-in-bihar-on-21st-november"
+    ],
+    [
+     "Britannica, read 21 Nov (Bihar)",
+     "https://www.britannica.com/place/Bihar"
+    ],
+    [
+     "Britannica Dictionary, read 21 Nov (bridge)",
+     "https://www.britannica.com/dictionary/bridge"
+    ],
+    [
+     "Britannica Dictionary, read 21 Nov (lane)",
+     "https://www.britannica.com/dictionary/lane"
+    ],
+    [
+     "Wikipedia, read 21 Nov (Patna location)",
+     "https://en.wikipedia.org/wiki/Patna"
+    ]
+   ],
+   "where": {
+    "n": "Patna, Bihar",
+    "lat": 25.6,
+    "lon": 85.1
+   }
+  },
+  {
+   "id": "g-bumblebees",
+   "scope": "global",
+   "cat": "science",
+   "emoji": "🐝",
+   "date": "2026-11-19",
+   "kind": "news",
+   "x": {
+    "t": "Bumblebees have small brains but can do clever things",
+    "b": [
+     "[[bumblebee|Bumblebees]] have very small brains. But they can do clever things. Two scientists describe this in a science [[journal|journal]].",
+     "They looked at earlier tests on bees. Bumblebees can solve new problems. They can learn hard tasks by watching other bees. They can even pass mood-like feelings to other bees in their nest.",
+     "Next, scientists want to compare maps of insect brains. That could show how bees do so much."
+    ]
+   },
+   "o": {
+    "t": "Scientists review what bumblebees can do with small brains",
+    "b": [
+     "Two scientists have described the clever things [[bumblebee|bumblebees]] can do with very small brains. Lars Chittka, of Queen Mary University of London, and Stanley Heinze, of Lund University, wrote a Perspective in the [[journal|journal]] Science on 19 November. A journal is a magazine about one subject. A Perspective is a kind of review: it brings together earlier research instead of reporting a new experiment.",
+     "The research they describe shows that bumblebees can solve problems they have never met before. They can learn difficult tasks just by watching other bees. They can even pass on emotion-like states, a little like moods, to their nestmates, the other bees in their nest.",
+     "What comes next? The scientists suggest comparing connectomes, which are detailed maps of the connections inside a brain, across different insects. This could help show which brain wiring makes clever behaviour possible."
+    ]
+   },
+   "think": "Have you ever learned something just by watching someone else do it? What was it, and how did watching help?",
+   "quiz": {
+    "q": "How can bumblebees learn difficult tasks?",
+    "a": [
+     "By flying higher",
+     "By watching other bees",
+     "By growing bigger brains",
+     "By sleeping longer"
+    ],
+    "c": 1
+   },
+   "src": [
+    [
+     "AAAS via EurekAlert, 19 Nov",
+     "https://www.eurekalert.org/news-releases/1151925"
+    ],
+    [
+     "Sci.News, 19 Nov",
+     "https://www.sci.news/othersciences/neuroscience/bumblebee-intelligence-15213.html"
+    ],
+    [
+     "Oxford Learner's Dictionaries, read 21 Nov (bumblebee)",
+     "https://www.oxfordlearnersdictionaries.com/definition/english/bumblebee"
+    ],
+    [
+     "Oxford Learner's Dictionaries, read 21 Nov (journal)",
+     "https://www.oxfordlearnersdictionaries.com/definition/english/journal_1"
+    ]
+   ]
+  },
+  {
+   "id": "in-test-wellington",
+   "scope": "IN",
+   "cat": "sports",
+   "emoji": "🏏",
+   "date": "2026-11-21",
+   "kind": "news",
+   "x": {
+    "t": "India move ahead of New Zealand in the first Test",
+    "b": [
+     "India are playing New Zealand in a long cricket match called a Test. It is at the [[basin-reserve|Basin Reserve]] in Wellington, New Zealand.",
+     "[[kl-rahul|KL Rahul]] scored 136 runs. It was his 13th Test [[century|century]]. To make a century, a player must score 100 runs. Shubman Gill was out for 98, just two short.",
+     "India have 486 runs. New Zealand made 368. So India are 118 runs ahead."
+    ]
+   },
+   "o": {
+    "t": "Rahul hits a century as India lead New Zealand by 118",
+    "b": [
+     "India ended day three of the first Test against New Zealand on Saturday on 486 for 4, meaning four batters were out. The match is at the [[basin-reserve|Basin Reserve]] in Wellington. New Zealand scored 368 in their first [[innings|innings]], a team's turn to bat. India have passed that total, so they lead by 118 runs.",
+     "[[kl-rahul|KL Rahul]] scored 136, his 13th Test [[century|century]]. A century is a score of 100 runs by one player. Rahul and Devdutt Padikkal, who made 80, added 165 runs together. Shubman Gill was [[bowled|bowled]] by Jacob Duffy for 98, just two runs short of a century. Bowled means the ball hit his wicket, so he was out.",
+     "Rishabh Pant is 55 not out, meaning he is still batting. On day four, India will try to make their lead bigger, while New Zealand will hope to get India's batters out."
+    ]
+   },
+   "think": "Shubman Gill was out just two runs short of 100. How do you think a player feels after coming so close, and what could a friend say to cheer them up?",
+   "quiz": {
+    "q": "How many runs did KL Rahul score?",
+    "a": [
+     "80",
+     "98",
+     "136",
+     "55"
+    ],
+    "c": 2
+   },
+   "src": [
+    [
+     "Outlook India, 21 Nov",
+     "https://www.outlookindia.com/sports/cricket/ind-vs-nz-1st-test-day-3-report-kl-rahul-shubman-gill-put-india-in-command"
+    ],
+    [
+     "Gulf News (AFP), 21 Nov",
+     "https://gulfnews.com/sport/cricket/wellington-test-kl-rahuls-136-puts-india-in-control-against-new-zealand-1.500755959"
+    ],
+    [
+     "Oxford Learner's Dictionaries, read 21 Nov (century)",
+     "https://www.oxfordlearnersdictionaries.com/definition/english/century"
+    ],
+    [
+     "Oxford Learner's Dictionaries, read 21 Nov (innings)",
+     "https://www.oxfordlearnersdictionaries.com/definition/english/innings"
+    ],
+    [
+     "Oxford Learner's Dictionaries, read 21 Nov (bowl)",
+     "https://www.oxfordlearnersdictionaries.com/definition/english/bowl_2"
+    ],
+    [
+     "WorldAtlas, read 21 Nov (Wellington location)",
+     "https://www.worldatlas.com/oc/nz/wgn/where-is-wellington.html"
+    ]
+   ],
+   "where": {
+    "n": "Wellington, New Zealand",
+    "lat": -41.3,
+    "lon": 174.8
+   }
+  },
+  {
+   "id": "in-iit-kharagpur",
+   "scope": "IN",
+   "cat": "civics",
+   "emoji": "🎓",
+   "date": "2026-11-21",
+   "kind": "news",
+   "x": {
+    "t": "India's first IIT turns 75 and gets a special coin",
+    "b": [
+     "[[iit-kharagpur|IIT Kharagpur]] is India's first IIT. IIT stands for Indian Institute of Technology. It is a kind of university. This year it is celebrating 75 years.",
+     "Long ago, the place was a camp where freedom fighters were held. They wanted India to be free from British rule.",
+     "On Saturday, Prime Minister Narendra Modi visited. He showed a special [[coin|coin]] made for the 75 years. He also met students."
+    ]
+   },
+   "o": {
+    "t": "IIT Kharagpur, India's first IIT, celebrates 75 years with a coin",
+    "b": [
+     "[[iit-kharagpur|IIT Kharagpur]], the first Indian Institute of Technology (IIT) in the country, is celebrating 75 years. This celebration is called its Platinum [[jubilee|Jubilee]]. A jubilee is a special anniversary of an event, and the celebrations connected with it. The institute is in Kharagpur, a city in West Bengal.",
+     "The campus has a long history. It stands on a site that was once a detention camp, a place where people were held. During British rule, freedom fighters, people who struggled for India's freedom, were held there.",
+     "On Saturday 21 November, Prime Minister Narendra Modi unveiled a commemorative [[coin|coin]] marking the institute's 75 years. To unveil something means to show it to the public for the first time. A commemorative coin is made to honour a special event. He also met students at the institute as part of the Platinum Jubilee celebrations."
+    ]
+   },
+   "think": "IIT Kharagpur stands where freedom fighters were once held. Why do you think it matters to remember the history of a place?",
+   "quiz": {
+    "q": "What did Prime Minister Modi unveil at IIT Kharagpur?",
+    "a": [
+     "A stamp",
+     "A statue",
+     "A commemorative coin",
+     "A painting"
+    ],
+    "c": 2
+   },
+   "src": [
+    [
+     "ThePrint (PTI), 21 Nov",
+     "https://theprint.in/india/pm-modi-interacts-with-iit-kharagpur-students-under-75-voices-for-viksit-bharat-initiative/3104933"
+    ],
+    [
+     "Asianet Newsable (ANI), 21 Nov",
+     "https://newsable.asianetnews.com/india/pm-modi-unveils-commemorative-coin-at-iit-kharagpur-platinum-jubilee-articleshow-8hzm0m0"
+    ],
+    [
+     "ThePrint (PTI), 20 Nov",
+     "https://theprint.in/india/pm-to-visit-iit-kharagpur-on-nov-21-unveil-platinum-jubilee-commemorative-coin/3104202/"
+    ],
+    [
+     "IIT Kharagpur, read 21 Nov (about the institute)",
+     "https://www.iitkgp.ac.in/about-iitkgp"
+    ],
+    [
+     "Britannica, read 21 Nov (Kharagpur)",
+     "https://www.britannica.com/place/Kharagpur"
+    ],
+    [
+     "Britannica Dictionary, read 21 Nov (coin)",
+     "https://www.britannica.com/dictionary/coin"
+    ],
+    [
+     "Oxford Learner's Dictionaries, read 21 Nov (jubilee)",
+     "https://www.oxfordlearnersdictionaries.com/definition/english/jubilee?q=jubilee"
+    ]
+   ],
+   "where": {
+    "n": "Kharagpur, West Bengal",
+    "lat": 22.3,
+    "lon": 87.3
+   }
+  },
+  {
+   "id": "g-water-bears",
+   "scope": "global",
+   "cat": "nature",
+   "emoji": "🔬",
+   "date": "2026-11-20",
+   "kind": "news",
+   "x": {
+    "t": "Two new tiny water bears found on an underwater mountain",
+    "b": [
+     "Scientists have found two new kinds of [[tardigrade|water bear]]. Water bears are tiny animals with eight short, thick legs. You need a microscope to see them.",
+     "The new ones live on an [[seamount|underwater mountain]] near [[cape-verde|Cape Verde]], off West Africa.",
+     "The top of the mountain had 20 types of water bear. A much deeper place farther away had only two. Underwater mountains may be busy homes for tiny life."
+    ]
+   },
+   "o": {
+    "t": "Two new species of water bear found on an Atlantic seamount",
+    "b": [
+     "Scientists have announced two new species, or kinds, of [[tardigrade|tardigrade]], also called water bears. Tardigrades are microscopic animals with four pairs of stout legs. The new species are named Megastygarctides hekatae and Parastygarctus potercha. The first is just under 0.2 millimetres long, and the second is about 0.07 millimetres.",
+     "They were found on Senghor Seamount, a [[seamount|seamount]] or underwater mountain off [[cape-verde|Cape Verde]], an island country of West Africa. The seafloor samples were collected in 2009 on the research ship Meteor, from the seamount's top, more than 100 metres down.",
+     "On the top, the team found 20 types of tardigrade. At a deep-sea site about 100 kilometres north, nearly 3,300 metres down, they found just two. The scientists say this supports the idea that seamounts are hotspots, places packed with life, for tardigrades in the sea."
+    ]
+   },
+   "think": "These tiny animals were only named this year. Why do you think there are still animals that no one has named?",
+   "quiz": {
+    "q": "Where were the two new water bears found?",
+    "a": [
+     "In a desert",
+     "On an underwater mountain",
+     "On a glacier",
+     "In a city park"
+    ],
+    "c": 1
+   },
+   "where": {
+    "n": "Senghor Seamount, off Cape Verde",
+    "lat": 17.2,
+    "lon": -22.0
+   },
+   "src": [
+    [
+     "ZooKeys (journal paper on PubMed Central), 27 Oct",
+     "https://pmc.ncbi.nlm.nih.gov/articles/PMC13732289"
+    ],
+    [
+     "Senckenberg press release via PresseBox, 20 Nov",
+     "https://www.pressebox.com/pressrelease/senckenberg-gesellschaft-fuer-naturforschung/The-Call-of-the-Seamount-Two-New-Tardigrades-Discovered-in-the-Atlantic/boxid/1321710"
+    ],
+    [
+     "Sci.News, 20 Nov",
+     "https://www.sci.news/biology/two-new-species-marine-tardigrades-underwater-mountain-west-africa-15214.html"
+    ],
+    [
+     "Merriam-Webster, read 21 Nov (tardigrade)",
+     "https://www.merriam-webster.com:443/dictionary/tardigrade"
+    ],
+    [
+     "Merriam-Webster, read 21 Nov (seamount)",
+     "https://merriam-webster.com/dictionary/seamount"
+    ],
+    [
+     "Britannica, read 21 Nov (Cabo Verde facts)",
+     "https://www.britannica.com/facts/Cabo-Verde"
+    ]
+   ]
+  },
+  {
+   "id": "g-las-vegas-pole",
+   "scope": "global",
+   "cat": "sports",
+   "emoji": "🏎️",
+   "date": "2026-11-21",
+   "kind": "news",
+   "x": {
+    "t": "Fastest driver gets a penalty, so Verstappen starts first",
+    "b": [
+     "Formula 1 drivers raced against the clock in Las Vegas, in the United States. [[kimi-antonelli|Kimi Antonelli]] was the fastest.",
+     "But his team has used more engine parts than the rules allow this season. So he got a [[penalty|penalty]]. He must start five places back, in sixth.",
+     "Now [[max-verstappen|Max Verstappen]] starts at the front, in [[pole-position|pole position]]. George Russell starts second. The race comes next."
+    ]
+   },
+   "o": {
+    "t": "Verstappen on pole in Las Vegas after Antonelli's penalty",
+    "b": [
+     "[[kimi-antonelli|Kimi Antonelli]] of Mercedes set the fastest time in qualifying for the Las Vegas Grand Prix in the United States. Qualifying is a timed session that decides where each car starts the race. Normally, the fastest driver earns [[pole-position|pole position]], the leading place at the start.",
+     "However, Antonelli has a five-place [[grid|grid]] [[penalty|penalty]]. The grid is the pattern of lines on the track that marks each car's starting spot. A penalty is a disadvantage given for breaking a rule. Formula 1 rules limit how many engine parts can be used in a season, and Antonelli's team has gone over that limit. So he drops from first to sixth.",
+     "That means [[max-verstappen|Max Verstappen]] of Red Bull, who was second fastest, starts on pole. George Russell starts second. The race comes next, with Verstappen at the front."
+    ]
+   },
+   "think": "Why do you think Formula 1 limits how many engine parts a team can use in a season?",
+   "quiz": {
+    "q": "Where will Kimi Antonelli start the race after his penalty?",
+    "a": [
+     "First",
+     "Second",
+     "Sixth",
+     "Tenth"
+    ],
+    "c": 2
+   },
+   "src": [
+    [
+     "AP via Al Jazeera, 21 Nov",
+     "https://www.aljazeera.com/sports/2026/11/21/verstappen-escapes-las-vegas-discipline-takes-pole-as-antonelli-penalised"
+    ],
+    [
+     "The Race, 21 Nov",
+     "https://www.the-race.com/formula-1/penalised-antonelli-beats-verstappen-with-both-ferraris-out-in-q2/"
+    ],
+    [
+     "IANS via Eastern Mirror, 20 Nov",
+     "https://www.easternmirrornagaland.com/formula-1-kimi-antonelli-to-take-five-place-grid-penalty-in-las-vegas-bearman-to-start-from-back-of-grid"
+    ],
+    [
+     "Oxford Learner's Dictionaries, read 21 Nov (pole position)",
+     "https://www.oxfordlearnersdictionaries.com/definition/english/pole-position"
+    ],
+    [
+     "Oxford Learner's Dictionaries, read 21 Nov (starting grid, grid)",
+     "https://www.oxfordlearnersdictionaries.com/definition/english/starting-grid"
+    ],
+    [
+     "Oxford Learner's Dictionaries, read 21 Nov (penalty)",
+     "https://www.oxfordlearnersdictionaries.com/definition/english/penalty"
+    ]
+   ]
+  }
+ ],
+ "glossary": {
+  "bridge": [
+   "bridge",
+   "words",
+   "Something built over a river or road so people and cars can get across.",
+   "A structure built over something, such as a river, so that people or vehicles can get across."
+  ],
+  "lane": [
+   "lane",
+   "words",
+   "A part of a road, marked with painted lines, for one line of cars.",
+   "A part of a road that is marked by painted lines and is for a single line of vehicles."
+  ],
+  "ganga": [
+   "Ganga",
+   "places",
+   "A river in India. The new bridge in Bihar goes over it.",
+   "A river, also called the Ganges, that naturally divides the Indian state of Bihar into two regions, north and south. Nitish Setu crosses it."
+  ],
+  "bihar": [
+   "Bihar",
+   "places",
+   "A state in India. Its capital is Patna.",
+   "A state in India whose capital is Patna. The River Ganga divides it into two regions."
+  ],
+  "iit-kharagpur": [
+   "IIT Kharagpur",
+   "places",
+   "India's first IIT. It is in Kharagpur, a city in West Bengal.",
+   "The first Indian Institute of Technology, in the city of Kharagpur in West Bengal. It has the status of a university and is marking 75 years."
+  ],
+  "coin": [
+   "coin",
+   "words",
+   "A small, flat, round piece of metal used as money.",
+   "A small, flat and usually round piece of metal issued by a government as money."
+  ],
+  "jubilee": [
+   "jubilee",
+   "words",
+   "A special anniversary, and the celebrations for it.",
+   "A special anniversary of an event, especially one from 25, 50 or 60 years ago, and the celebrations connected with it. IIT Kharagpur's Platinum Jubilee marks its 75 years."
+  ],
+  "basin-reserve": [
+   "Basin Reserve",
+   "places",
+   "A cricket ground in Wellington, New Zealand.",
+   "The cricket ground in Wellington, New Zealand, where India and New Zealand are playing the first Test."
+  ],
+  "kl-rahul": [
+   "KL Rahul",
+   "people",
+   "An Indian cricketer. He scored 136 runs in this match.",
+   "An Indian batter. His 136 against New Zealand in Wellington was his 13th century in Test cricket."
+  ],
+  "century": [
+   "century",
+   "words",
+   "100 runs scored by one player.",
+   "In cricket, a score of 100 runs by one player."
+  ],
+  "innings": [
+   "innings",
+   "words",
+   "A team's turn to bat.",
+   "A period of time in a game during which a team or a single player is batting."
+  ],
+  "bowled": [
+   "bowled",
+   "words",
+   "Out because the ball hit the wicket.",
+   "Out because the bowler sent down a ball that hit the wicket, so the batter has to leave the field."
+  ],
+  "kimi-antonelli": [
+   "Kimi Antonelli",
+   "people",
+   "A Formula 1 driver for the Mercedes team.",
+   "A Formula 1 driver for Mercedes. He was fastest in qualifying in Las Vegas but starts sixth because of a grid penalty."
+  ],
+  "max-verstappen": [
+   "Max Verstappen",
+   "people",
+   "A Formula 1 driver for the Red Bull team.",
+   "A Formula 1 driver for Red Bull. He starts the Las Vegas Grand Prix from pole position."
+  ],
+  "pole-position": [
+   "pole position",
+   "words",
+   "The front place at the start of a car race.",
+   "The leading position at the start of a race involving cars or bicycles."
+  ],
+  "grid": [
+   "grid",
+   "words",
+   "Lines on the track that show where each car starts.",
+   "In motor racing, a pattern of lines marking the starting positions for the racing cars. It is also called the starting grid."
+  ],
+  "penalty": [
+   "penalty",
+   "words",
+   "Something a player or team gets for breaking a rule, which makes things harder for them.",
+   "In sports and games, a disadvantage given to a player or a team when they break a rule."
+  ],
+  "bumblebee": [
+   "bumblebee",
+   "words",
+   "A large, hairy bee that makes a loud buzz when it flies.",
+   "A large bee covered with small hairs that makes a loud noise as it flies."
+  ],
+  "journal": [
+   "journal",
+   "words",
+   "A magazine about one subject, such as science.",
+   "A newspaper or magazine that deals with a particular subject or profession, such as science."
+  ],
+  "tardigrade": [
+   "tardigrade (water bear)",
+   "science",
+   "A tiny animal with eight short, thick legs. It is also called a water bear.",
+   "A microscopic animal with four pairs of stout legs that usually lives in water or damp moss. It is also called a water bear."
+  ],
+  "seamount": [
+   "seamount",
+   "science",
+   "A mountain under the sea.",
+   "An underwater mountain that rises above the deep-sea floor."
+  ],
+  "cape-verde": [
+   "Cape Verde",
+   "places",
+   "An island country of West Africa, in the Atlantic Ocean.",
+   "A country made of a group of islands in the Atlantic Ocean, off West Africa. Its capital is Praia. It is also called Cabo Verde."
+  ],
+  "world-record": [
+   "world record",
+   "words",
+   "The best result that anyone in the world has ever reached.",
+   "The best result ever recorded anywhere in the world."
+  ],
+  "orbit": [
+   "orbit",
+   "science",
+   "The path something follows as it travels around a planet.",
+   "The curved path that an object in space follows as it moves around a planet, star or moon."
+  ],
+  "light-day": [
+   "light-day",
+   "science",
+   "How far light travels in one whole day. It is a very long way.",
+   "A unit of distance: how far light travels in 24 hours, about 25.9 billion kilometres."
+  ],
+  "interstellar": [
+   "interstellar space",
+   "science",
+   "The space between the stars.",
+   "The space between the stars. Voyager 1 became the first spacecraft to enter it, in 2012."
+  ],
+  "jpl": [
+   "Jet Propulsion Laboratory",
+   "places",
+   "A NASA centre in California. The Voyager 1 mission is run from there.",
+   "A NASA laboratory in California. The Voyager mission is run from there."
+  ],
+  "deep-space-network": [
+   "Deep Space Network",
+   "tech",
+   "NASA's big antennas that keep track of faraway spacecraft.",
+   "NASA's network of giant radio antennas, with sites in California, near Madrid in Spain and near Canberra in Australia. It keeps track of Voyager 1."
+  ]
+ },
+ "keys": {
+  "in-nitish-setu": {
+   "type": "number",
+   "v": "6",
+   "l": "lanes on Nitish Setu, the new bridge over the Ganga"
+  },
+  "in-iit-kharagpur": {
+   "type": "number",
+   "v": "75",
+   "l": "years of IIT Kharagpur, its Platinum Jubilee"
+  },
+  "in-test-wellington": {
+   "type": "number",
+   "v": "118",
+   "l": "runs India lead New Zealand by after day three"
+  },
+  "g-las-vegas-pole": {
+   "type": "number",
+   "v": "5",
+   "l": "places Antonelli drops on the grid because of his penalty"
+  },
+  "g-water-bears": {
+   "type": "number",
+   "v": "20",
+   "l": "types of tardigrade on the seamount top, against 2 at a deep-sea site"
+  }
+ },
+ "xkeys": {
+  "in-nitish-setu": {
+   "type": "check",
+   "q": "How many lanes does the new bridge have?",
+   "a": [
+    "Six",
+    "Two"
+   ],
+   "c": 0,
+   "right": "Right! Nitish Setu has six lanes.",
+   "wrong": "Not quite. Nitish Setu has six lanes."
+  },
+  "in-iit-kharagpur": {
+   "type": "check",
+   "q": "How many years is IIT Kharagpur celebrating?",
+   "a": [
+    "15 years",
+    "75 years"
+   ],
+   "c": 1,
+   "right": "Right! IIT Kharagpur is celebrating 75 years.",
+   "wrong": "Not quite. IIT Kharagpur is celebrating 75 years."
+  },
+  "in-test-wellington": {
+   "type": "check",
+   "q": "Which team is ahead after day three?",
+   "a": [
+    "India",
+    "New Zealand"
+   ],
+   "c": 0,
+   "right": "Right! India are 118 runs ahead.",
+   "wrong": "Not quite. India are 118 runs ahead."
+  },
+  "g-las-vegas-pole": {
+   "type": "check",
+   "q": "Who starts the race in pole position?",
+   "a": [
+    "Max Verstappen",
+    "Kimi Antonelli"
+   ],
+   "c": 0,
+   "right": "Right! Max Verstappen starts at the front.",
+   "wrong": "Not quite. Max Verstappen starts at the front, because Kimi Antonelli has a penalty."
+  },
+  "g-bumblebees": {
+   "type": "check",
+   "q": "Can bumblebees learn by watching other bees?",
+   "a": [
+    "Yes",
+    "No"
+   ],
+   "c": 0,
+   "right": "Right! Bumblebees can learn hard tasks by watching other bees.",
+   "wrong": "Not quite. Bumblebees can learn hard tasks by watching other bees."
+  },
+  "g-water-bears": {
+   "type": "check",
+   "q": "Are water bears big or tiny?",
+   "a": [
+    "Tiny",
+    "Big"
+   ],
+   "c": 0,
+   "right": "Right! Water bears are so tiny you need a microscope to see them.",
+   "wrong": "Not quite. Water bears are so tiny you need a microscope to see them."
+  }
+ },
+ "deep": {
+  "in-nitish-setu": {
+   "ctx": "Bihar is naturally divided by the River Ganga into two regions, so bridges are the road links between its north and south. Nitish Setu joins Kachchi Dargah in Patna district to Bidupur in Vaishali district. Its main bridge is nearly 10 km long, and the project is about 20 km long with its approach roads.",
+   "ask": "Big bridges cost a great deal of money to build. Some people think a state should spend more on big new bridges and roads that join places together. Others think the money should go first to repairing the roads, schools and hospitals it already has. Which do you think should come first, and why?",
+   "jobs": [
+    "Civil engineer",
+    "Surveyor",
+    "Structural engineer"
+   ]
+  },
+  "in-iit-kharagpur": {
+   "ctx": "IIT Kharagpur was the first of India's Indian Institutes of Technology. Its own website says it started its journey in the old Hijli Detention Camp, where freedom fighters were held during British rule. The commemorative coin unveiled on 21 November marks the institute's 75 years.",
+   "ask": "Some people think top institutes like the IITs should take in many more students, so that more young people get the chance to study there. Others think keeping them smaller helps keep the teaching and research at a high level. Which matters more to you, and why?",
+   "jobs": [
+    "Professor",
+    "Engineer",
+    "Historian"
+   ]
+  },
+  "in-test-wellington": {
+   "ctx": "India began day three on 159 for 1, still 209 runs behind New Zealand's 368. Rahul and Padikkal then added 165 together, and later Gill and Pant added 100 more, so India finished the day 118 runs ahead.",
+   "ask": "Some people think a batter who scores 98 deserves just as much praise as one who scores 100. Others think reaching 100 is a special goal, so it matters more. Do you think the number 100 really matters, or is 98 just as good? Why?",
+   "jobs": [
+    "Cricket coach",
+    "Sports journalist",
+    "Groundskeeper"
+   ]
+  },
+  "g-las-vegas-pole": {
+   "ctx": "Antonelli was not the only driver with a grid penalty in Las Vegas: Oscar Piastri also has a 10-place grid penalty. Both Ferrari drivers, Charles Leclerc and Lewis Hamilton, were knocked out in the second part of qualifying.",
+   "ask": "Formula 1 limits how many engine parts can be used in a season, and going over the limit means starting further back. Some people think this is fair because everyone has the same limit. Others think the fastest driver in qualifying should always start at the front. Which view do you agree with more, and why?",
+   "jobs": [
+    "Race engineer",
+    "Mechanic",
+    "Race official"
+   ]
+  },
+  "g-bumblebees": {
+   "ctx": "The Perspective gathers a growing body of earlier research on what bumblebees can do. Its authors look to connectomes, detailed maps of the connections inside a brain, as a way to learn which brain wiring lies behind clever behaviour in insects.",
+   "ask": "Scientists sometimes use words like \"mood\" to describe how bees behave. Some people think this helps us understand animals and treat them with more care. Others think it can mislead us, because we cannot know what a bee really feels. Should scientists use feeling words for insects, and why?",
+   "jobs": [
+    "Neuroscientist",
+    "Entomologist",
+    "Beekeeper"
+   ]
+  },
+  "g-water-bears": {
+   "ctx": "The paper naming the two species appeared in the journal ZooKeys on 27 October 2026, and the news was shared on 20 November. Marine tardigrades belong to the meiofauna, tiny animals that live in the sediment of the seafloor, and Atlantic seamounts are known for having many kinds of these animals.",
+   "ask": "These water bears were collected in 2009 but only named in 2026. Some people think the most important thing is to send more ships to explore new places. Others think it matters more to study samples already collected, even if that takes many years. Which would you choose, and why?",
+   "jobs": [
+    "Marine biologist",
+    "Zoologist",
+    "Oceanographer"
+   ]
+  }
+ },
+ "bigStory": {
+  "week": "2026-11-16",
+  "story": "g-voyager",
+  "cat": "space",
+  "t": "How far is one light-day from home?",
+  "sub": "Voyager 1, launched in 1977, reached one light-day from Earth on Wednesday",
+  "x": {
+   "why": "A spacecraft that left Earth in 1977 is still travelling. This week it got so far away that light needs a whole day to reach it."
+  },
+  "o": {
+   "why": "A spacecraft launched in 1977 is still travelling, and its team on Earth still talks to it. This week it reached a distance so great that a radio signal, moving at the speed of light, needs 24 hours to get there."
+  },
+  "facts": [
+   [
+    "1977",
+    "the year Voyager 1 left Earth"
+   ],
+   [
+    "25.9 billion km",
+    "about one light-day: how far light travels in 24 hours"
+   ],
+   [
+    "24 hours",
+    "how long a radio signal from Earth now takes to reach it"
+   ],
+   [
+    "18 Nov",
+    "the day it reached one light-day"
+   ]
+  ],
+  "days": [
+   {
+    "d": "2026-11-16",
+    "h": "Meet Voyager 1",
+    "o": "NASA launched Voyager 1 on 5 September 1977. It flew past Jupiter in 1979 and Saturn in 1980, and in 1990 it took a picture of Earth known as the Pale Blue Dot. In 2012 it entered interstellar space, the space between the stars. It is run from NASA's Jet Propulsion Laboratory in California.",
+    "x": "Voyager 1 is a spacecraft. It left Earth in 1977. It flew past the planets Jupiter and Saturn. In 1990 it took a picture of Earth from very far away."
+   },
+   {
+    "d": "2026-11-17",
+    "h": "How far is a light-day?",
+    "o": "A light-day is the distance light travels in 24 hours, about 25.9 billion kilometres. Light reaches the Moon in about 1.3 seconds, and sunlight takes about 8 minutes to reach Earth. After sunset today, Tuesday 17 November, NASA invites people to flash VGR, Voyager's three-letter call sign, in Morse code towards the sky with a torch.",
+    "x": "A light-day is how far light travels in one day. Sunlight reaches us in about 8 minutes. After sunset today, people can flash a torch for Voyager. Ask a grown-up to help."
+   },
+   {
+    "d": "2026-11-18",
+    "h": "The big day",
+    "o": "NASA worked out that Voyager 1 would reach one light-day from Earth on Wednesday 18 November. No spacecraft has travelled this far before. A radio signal now takes about 24 hours to reach it, and its reply takes another day to come back. Voyager 2 is expected to reach one light-day in 2035.",
+    "x": "On Wednesday, Voyager 1 reached one light-day from Earth. No spacecraft has gone this far before. A message now takes about a day to get there."
+   },
+   {
+    "d": "2026-11-19",
+    "h": "Phoning home",
+    "o": "NASA talks to Voyager 1 by radio through its Deep Space Network, a set of giant radio antennas at three sites: Goldstone in California, near Madrid in Spain and near Canberra in Australia. The sites are placed around the world so that they can keep in contact with a spacecraft as Earth turns. Each site has one antenna that is 70 metres across. A radio signal now takes about 24 hours to reach Voyager 1, and its reply takes another 24 hours to come back, so a message and its answer make a two-day round trip.",
+    "x": "NASA talks to Voyager 1 with radio signals. It uses giant radio antennas in California, Spain and Australia. A message takes about a day to reach Voyager 1. The reply takes another day to come back."
+   },
+   {
+    "d": "2026-11-20",
+    "h": "What comes next?",
+    "o": "On Wednesday 18 November Voyager 1 reached one light-day from Earth. Its power source makes about 4 watts less every year, so NASA has been switching off instruments to save power. Even after it falls silent, it will keep travelling. It will take about 300 years to reach the inner edge of a distant region called the Oort Cloud. In about 40,000 years it is expected to pass another star. It carries a Golden Record with sounds, music and images from Earth, and greetings in 55 languages. On 14 November, NASA found that Voyager 1's signal was reaching Earth without its usual science data. NASA thinks the problem is in the onboard computer that collects the data, and engineers are working on it.",
+    "x": "On Wednesday, Voyager 1 reached one light-day from Earth. Its power gets a little weaker every year. Even when it falls silent, it will keep travelling. It carries a Golden Record with sounds, music and pictures from Earth. As of 19 November, Voyager 1's messages were arriving without their science data. Engineers are working on the problem."
+   }
+  ],
+  "words": [
+   "light-day",
+   "interstellar",
+   "jpl",
+   "deep-space-network"
+  ],
+  "poll": {
+   "q": "If you could add one thing to a message carried into space, what would it be?",
+   "a": [
+    [
+     "Music",
+     "A tune can be enjoyed without knowing the words."
+    ],
+    [
+     "Greetings in many languages",
+     "It would show how many peoples share one planet."
+    ],
+    [
+     "Pictures of animals and places",
+     "A picture can show what words cannot."
+    ],
+    [
+     "A map of where we are",
+     "So that whoever finds it knows where it came from."
+    ]
+   ]
+  },
+  "talk": "If you sent a message today that would be opened 49 years from now, what would you want the reader to know about your life?"
+ },
+ "puzzles": {
+  "week": "2026-11-16",
+  "sudoku": {
+   "x": {
+    "n": 4,
+    "br": 2,
+    "bc": 2,
+    "p": [
+     [
+      0,
+      1,
+      2,
+      0
+     ],
+     [
+      0,
+      0,
+      1,
+      0
+     ],
+     [
+      0,
+      0,
+      3,
+      0
+     ],
+     [
+      3,
+      2,
+      0,
+      1
+     ]
+    ],
+    "s": [
+     [
+      4,
+      1,
+      2,
+      3
+     ],
+     [
+      2,
+      3,
+      1,
+      4
+     ],
+     [
+      1,
+      4,
+      3,
+      2
+     ],
+     [
+      3,
+      2,
+      4,
+      1
+     ]
+    ]
+   },
+   "o": {
+    "n": 6,
+    "br": 2,
+    "bc": 3,
+    "p": [
+     [
+      0,
+      1,
+      0,
+      2,
+      0,
+      0
+     ],
+     [
+      3,
+      6,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      6,
+      5,
+      3,
+      0,
+      4,
+      2
+     ],
+     [
+      0,
+      4,
+      1,
+      0,
+      0,
+      6
+     ],
+     [
+      0,
+      0,
+      0,
+      6,
+      0,
+      4
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+     ]
+    ],
+    "s": [
+     [
+      5,
+      1,
+      4,
+      2,
+      6,
+      3
+     ],
+     [
+      3,
+      6,
+      2,
+      4,
+      5,
+      1
+     ],
+     [
+      6,
+      5,
+      3,
+      1,
+      4,
+      2
+     ],
+     [
+      2,
+      4,
+      1,
+      5,
+      3,
+      6
+     ],
+     [
+      1,
+      3,
+      5,
+      6,
+      2,
+      4
+     ],
+     [
+      4,
+      2,
+      6,
+      3,
+      1,
+      5
+     ]
+    ]
+   },
+   "n": {
+    "n": 9,
+    "br": 3,
+    "bc": 3,
+    "p": [
+     [
+      2,
+      0,
+      0,
+      3,
+      4,
+      0,
+      0,
+      7,
+      9
+     ],
+     [
+      9,
+      0,
+      6,
+      1,
+      0,
+      0,
+      3,
+      4,
+      5
+     ],
+     [
+      0,
+      3,
+      0,
+      9,
+      6,
+      5,
+      0,
+      1,
+      0
+     ],
+     [
+      8,
+      0,
+      0,
+      4,
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      7,
+      9,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      7,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      9,
+      2,
+      0,
+      3,
+      7,
+      0,
+      0,
+      0
+     ],
+     [
+      5,
+      0,
+      0,
+      2,
+      8,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      5,
+      0,
+      1,
+      0,
+      0,
+      3
+     ]
+    ],
+    "s": [
+     [
+      2,
+      5,
+      1,
+      3,
+      4,
+      8,
+      6,
+      7,
+      9
+     ],
+     [
+      9,
+      8,
+      6,
+      1,
+      7,
+      2,
+      3,
+      4,
+      5
+     ],
+     [
+      7,
+      3,
+      4,
+      9,
+      6,
+      5,
+      8,
+      1,
+      2
+     ],
+     [
+      8,
+      2,
+      7,
+      4,
+      1,
+      9,
+      5,
+      3,
+      6
+     ],
+     [
+      3,
+      4,
+      5,
+      8,
+      2,
+      6,
+      7,
+      9,
+      1
+     ],
+     [
+      1,
+      6,
+      9,
+      7,
+      5,
+      3,
+      2,
+      8,
+      4
+     ],
+     [
+      4,
+      9,
+      2,
+      6,
+      3,
+      7,
+      1,
+      5,
+      8
+     ],
+     [
+      5,
+      1,
+      3,
+      2,
+      8,
+      4,
+      9,
+      6,
+      7
+     ],
+     [
+      6,
+      7,
+      8,
+      5,
+      9,
+      1,
+      4,
+      2,
+      3
+     ]
+    ]
+   }
+  },
+  "words": {
+   "o": [
+    [
+     "VOYAGER",
+     "A spacecraft launched in 1977"
+    ],
+    [
+     "EARTHSHOT",
+     "A prize for ideas that help the planet"
+    ],
+    [
+     "ORBIT",
+     "The path an object follows around a planet, moon or star"
+    ],
+    [
+     "EMBLEM",
+     "ASEAN's now shows 11 rice stalks"
+    ],
+    [
+     "MINISTER",
+     "A senior member of a government"
+    ]
+   ],
+   "x": [
+    [
+     "LIGHT",
+     "From Wednesday, it needs a whole day to reach Voyager 1"
+    ],
+    [
+     "MUSEUM",
+     "A place that keeps and shows interesting and important things"
+    ],
+    [
+     "FLAG",
+     "ASEAN's has one more rice stalk"
+    ],
+    [
+     "PRIZE",
+     "Five winners get one in Mumbai this week"
+    ],
+    [
+     "TENNIS",
+     "Mirra Andreeva's sport"
+    ]
+   ]
+  }
+ },
+ "reporters": {
+  "week": "2026-11-16",
+  "t": "Report one thing that changed in your street or school this week",
+  "why": "Monday 16 November was National Press Day in India, and World Children's Day was on Friday 20 November. Good reporters check what they hear with more than one person.",
+  "tips": [
+   "What changed?",
+   "Who told you, and who else can confirm it?",
+   "Where and when did it happen?"
+  ],
+  "sample": []
+ },
+ "today": {
+  "days": [
+   {
+    "name": "World Television Day",
+    "what": "World Television Day is on 21 November. The United Nations General Assembly proclaimed the day, which means it announced it officially, on 17 December 1996. It did so because of the growing effect television has on the decisions people make."
+   },
+   {
+    "name": "World Fisheries Day",
+    "what": "World Fisheries Day is marked every year on 21 November. It goes back to a meeting of fish workers in New Delhi, India, in 1997. The day draws attention to keeping fishing going in a way that can last, and to the problems it faces."
+   },
+   {
+    "name": "World Hello Day",
+    "what": "World Hello Day is on 21 November. It began in 1973. To take part, people say hello to at least 10 people."
+   }
+  ],
+  "born": [
+   {
+    "name": "Voltaire",
+    "year": 1694,
+    "what": "A writer born in Paris, France. His name at birth was François-Marie Arouet, but he is known as Voltaire. His famous book Candide came out in 1759."
+   }
+  ]
+ },
+ "learn": {
+  "subject": "Science",
+  "cat": "nature",
+  "link": "From this morning's Cyclone Akvan story",
+  "x": {
+   "t": "Why a cyclone gets weaker over land",
+   "b": [
+    "A cyclone is a storm that needs warm sea water.",
+    "The warm water feeds the storm. It gives the storm heat and moisture.",
+    "When a cyclone moves over land, it loses its warm water. So the storm soon gets weaker."
+   ],
+   "remember": "A cyclone gets its power from warm sea water. Over land it loses that warm water and gets weaker.",
+   "q": "What gives a cyclone its power?",
+   "a": [
+    "Cold mountains",
+    "Warm sea water",
+    "Dry sand"
+   ],
+   "c": 1
+  },
+  "o": {
+   "t": "Why a cyclone grows weaker over land",
+   "b": [
+    "Cyclones are storms that need warm ocean water to keep going. Cyclone Akvan grew weaker after it crossed the coast of Odisha on Friday 20 November. Here is why that happens to cyclones.",
+    "Warm ocean water is the storm's fuel. It gives the storm heat and moisture. When a cyclone moves over land, that supply is cut off, so the storm weakens quickly. Without the heat and moisture, it is harder for the storm to make the thunderstorms that keep it going.",
+    "Some people believe a cyclone weakens over land because of friction, or rubbing, against the ground. Weather agencies say that is not the main reason. The main reason is the loss of heat and moisture from the sea. Cyclones also weaken when they pass over cold water."
+   ],
+   "remember": "Warm ocean water is a cyclone's fuel. Over land the storm loses that supply of heat and moisture, so it weakens.",
+   "q": "What is the main reason a cyclone weakens when it moves over land?",
+   "a": [
+    "It rubs against the ground",
+    "It runs into mountains",
+    "It loses heat and moisture from the sea"
+   ],
+   "c": 2
+  }
+ },
+ "backThen": {
+  "y": 1783,
+  "t": "People fly free in a hot-air balloon for the first time",
+  "o": "On 21 November 1783, two men became the first people to make a free flight in a hot-air balloon, a flight in a balloon that was not tied to the ground. They were Jean-François Pilâtre de Rozier and François Laurent, the marquis d'Arlandes. They took off from the grounds of the Château de la Muette in Paris and flew for about 25 minutes. The balloon was made by the brothers Joseph-Michel and Jacques-Étienne Montgolfier. Earlier, on 19 September 1783, the brothers had sent a sheep, a duck and a rooster up in a balloon at Versailles, in front of the royal family. The animals landed safely.",
+  "x": "On this day in 1783, two men took off from Paris in a hot-air balloon. The balloon was not tied to the ground. They flew for about 25 minutes.",
+  "why": "It was the first time people flew free of the ground."
+ },
+ "hiddenWords": [
+  {
+   "k": "tardigrade",
+   "o": "Tardigrade comes from the Latin word tardigradus, which means slow-paced. It is made from tardus, which means slow, and gradi, which means to walk or step."
+  },
+  {
+   "k": "world-record",
+   "o": "Record comes from the Latin word recordari, which means to recall or remember. Recordari is built on cor, the Latin word for heart."
+  },
+  {
+   "k": "orbit",
+   "o": "Orbit comes from the Latin word orbita, which means a track or rut."
+  }
+ ]
+}

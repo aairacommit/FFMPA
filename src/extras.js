@@ -19,11 +19,14 @@ const shortDate=s=>dOf(s).toLocaleDateString("en-GB",{weekday:"short",day:"numer
 let STATS = store.get("ffmpa-stats", null);
 if(!STATS){
   STATS={days:{},editions:{},explainers:0,more:0,perfect:0,qAns:0,qRight:0,cats:{},puzzles:{},crafts:{},unlocked:{},sample:true};
-  /* prototype only: a few days of sample history so the streak and badges have something to show */
-  ["2026-11-06","2026-11-07","2026-11-08","2026-11-10"].forEach(d=>STATS.days[d]=true);
-  STATS.explainers=12; STATS.more=4; STATS.perfect=1; STATS.qAns=9; STATS.qRight=7;
-  STATS.unlocked={"streak-0":1,"sharp-0":1};
+  /* prototype only (never on ffmpa.com): a few days of sample history so the streak and badges have something to show */
+  if(typeof SB_ON==="undefined"||!SB_ON){
+    ["2026-11-06","2026-11-07","2026-11-08","2026-11-10"].forEach(d=>STATS.days[d]=true);
+    STATS.explainers=12; STATS.more=4; STATS.perfect=1; STATS.qAns=9; STATS.qRight=7;
+    STATS.unlocked={"streak-0":1,"sharp-0":1};
+  } else delete STATS.sample;
 }
+if(typeof SB_ON!=="undefined"&&SB_ON&&STATS.sample&&!(session&&session.uid)){ STATS={days:{},editions:{},explainers:0,more:0,perfect:0,qAns:0,qRight:0,cats:{},puzzles:{},crafts:{},unlocked:{}}; store.set("ffmpa-stats",STATS); }
 function saveStats(){ store.set("ffmpa-stats",STATS); }
 function recordRead(s){
   const wk=mondayOf(TODAY()); STATS.cats[wk]=STATS.cats[wk]||[]; if(!STATS.cats[wk].includes(s.cat)) STATS.cats[wk].push(s.cat);
@@ -223,6 +226,7 @@ function openPlay(){
   const cr=CRAFTS[craftIndex(nextSunday(TODAY()))];
   openSheet(`<h2 id="shTitle">Play and <em class="v">grow</em></h2><p class="sub">A few minutes of thinking, then you're done.</p>
     <div class="hub">
+      <button id="hW" class="wide" style="--hc:#5B35E8"><span class="ic">${ico("book")}</span><b>This week</b><small>Catch up on the last 7 days of stories, or search them</small></button>
       <button id="hQ" style="--hc:#C2367A"><span class="ic">${ico("trophy")}</span><b>Today's quiz</b><small>3 questions from today's stories</small></button>
       <button id="hZ" style="--hc:#3E46C8"><span class="ic">${ico("puzzle")}</span><b>Weekly puzzles</b><small>Mini sudoku and news words</small></button>
       <button id="hC" style="--hc:#4D7C0F"><span class="ic">${ico("lamp")}</span><b>Sunday craft</b><small>${esc(cr?cr.t:"Coming soon")}</small></button>
@@ -230,8 +234,34 @@ function openPlay(){
       <button id="hY" style="--hc:#D9481E"><span class="ic">${ico("doc")}</span><b>Young reporters</b><small>${esc((typeof yrNow==="function"&&yrNow()||{t:"Write for FFMPA"}).t)}</small></button>
       <button id="hK" style="--hc:#2D5BC0"><span class="ic">${ico("book")}</span><b>Classroom</b><small>${typeof klass!=="undefined"&&klass?esc(klass.name):"Join a class or set one up"}</small></button>
       <button id="hF" class="wide" style="--hc:#B5600F"><span class="ic">${ico("sparkle")}</span><b>Hidden finds</b><small>${findCount()} of ${FINDS.length} found</small></button>
-    </div>`, ()=>{ $("#hQ").onclick=openQuiz; $("#hZ").onclick=()=>openPuzzles(); $("#hC").onclick=()=>openCraft(); $("#hG").onclick=openProgress; });
+    </div>`, ()=>{ $("#hW").onclick=openWeek; $("#hQ").onclick=openQuiz; $("#hZ").onclick=()=>openPuzzles(); $("#hC").onclick=()=>openCraft(); $("#hG").onclick=openProgress; });
 }
+/* ---------- This week: the last 7 days of editions, read only, same parent filters as today ---------- */
+const WEEK_CACHE={};
+function weekIds(){ const cur=EDITION_DATE+"-"+(window.FF_SLOT||"am"), out=[]; for(let i=0;i<7;i++){ const d=addDays(EDITION_DATE,-i); ["pm","am"].forEach(sl=>{ const id=d+"-"+sl; if(id<cur) out.push(id); }); } return out; }
+function weekOk(s){ return s&&s.id&&s.x&&s.o&&Array.isArray(s.x.b)&&Array.isArray(s.o.b)&&CATS[s.cat]&&!heldByFilter(s)&&(ADMIN.storyStatus[s.id]||"published")==="published"&&settings.cats[s.cat]!==false&&!(s.olderOnly&&settings.age==="x")&&!(s.sensitive==="conflict"&&!settings.conflict)&&!(s.sensitive==="politics"&&!settings.politics)&&(s.scope==="global"||s.scope===settings.country); }
+async function weekLoad(){ const ids=weekIds(); const get=async id=>{ if(id in WEEK_CACHE) return WEEK_CACHE[id];
+    try{ const ctl=new AbortController(), tm=setTimeout(()=>ctl.abort(),8000); const r=await fetch(EDITION_URL.replace("latest.json",id+".json"),{signal:ctl.signal}); clearTimeout(tm); const E=r.ok?await r.json():null; WEEK_CACHE[id]=E&&E.schema===1&&Array.isArray(E.stories)&&E.date===id.slice(0,10)?E:null; }catch(e){ return null; } return WEEK_CACHE[id]; };
+  const eds=await Promise.all(ids.map(get)); if(ids.length&&eds.every(e=>!e)&&!navigator.onLine) throw new Error("offline"); const seen=new Set(S.map(s=>s.id)); const out=[];
+  eds.forEach((E,i)=>{ if(!E) return; const list=E.stories.filter(s=>weekOk(s)&&!seen.has(s.id)); list.forEach(s=>seen.add(s.id)); if(list.length) out.push({id:ids[i],E,list}); });
+  return out; }
+function weekText(s){ const t=s[settings.age==="x"?"x":"o"]; return {t:strip(t.t),b:t.b.map(strip)}; }
+function openWeek(){
+  openSheet(`<h2 id="shTitle">This <em class="v">week</em></h2><p class="sub">Stories from the last 7 days that are not in today's edition. Each one is as it was on the day it came out.</p>
+    <label class="field" for="wkQ" style="margin:6px 0 10px">Search<input id="wkQ" type="search" placeholder="Try cricket, space or animals" autocomplete="off"></label>
+    <div id="wkList"><p class="sub">Loading the week…</p></div>`, ()=>{
+    const draw=(groups)=>{ const q=($("#wkQ").value||"").trim().toLowerCase(); const el=$("#wkList"); if(!el) return;
+      const html=groups.map(g=>{ const items=g.list.filter(s=>{ if(!q) return true; const t=weekText(s); return (t.t+" "+t.b.join(" ")).toLowerCase().includes(q); });
+        if(!items.length) return ""; const d=dOf(g.id.slice(0,10)).toLocaleDateString("en-GB",{weekday:"long",day:"numeric",month:"short"});
+        return `<h4 style="margin:14px 0 6px;font-family:var(--display)">${esc(d)} · ${g.id.endsWith("pm")?"Evening":"Morning"}</h4>${items.map(s=>`<button class="wkrow press" data-wk="${esc(g.id)}|${esc(s.id)}"><span class="cdot" style="background:${TC[s.cat]||"#5B35E8"}"></span><span>${esc(weekText(s).t)}</span></button>`).join("")}`; }).join("");
+      el.innerHTML=html||`<p class="sub">${q?"No stories match that word this week.":"No earlier stories to show yet."}</p>`;
+      el.querySelectorAll("[data-wk]").forEach(b=>b.onclick=()=>{ const [eid,sid]=b.dataset.wk.split("|"), g=groups.find(x=>x.id===eid), st=g&&g.list.find(x=>x.id===sid); if(st) openWeekStory(st,eid); }); };
+    weekLoad().then(groups=>{ draw(groups); const q=$("#wkQ"); if(q) q.oninput=()=>draw(groups); }).catch(()=>{ const el=$("#wkList"); if(el) el.innerHTML=`<p class="sub">Could not load the week. Check the connection and try again.</p>`; });
+  }); }
+function openWeekStory(s,eid){ const t=weekText(s), d=dOf(eid.slice(0,10)).toLocaleDateString("en-GB",{weekday:"long",day:"numeric",month:"long"});
+  openSheet(`<p class="kicker" style="margin:0 0 6px;color:${TC[s.cat]||"#5B35E8"}">${esc(CATS[s.cat].label)} · ${esc(d)}</p><h2 id="shTitle">${esc(t.t)}</h2>${t.b.map(p=>`<p>${esc(p)}</p>`).join("")}
+    ${settings.sources!==false&&Array.isArray(s.src)&&s.src.length?`<p class="sub" style="margin-top:12px">Where this came from: ${esc(newsSrc(s).map(x=>String(x[0]).replace(/,.*$/,"")).join(", "))}</p>`:""}
+    <div class="row" style="margin-top:14px"><button class="btn ghost press" id="wkBack">Back to this week</button></div>`, ()=>{ $("#wkBack").onclick=openWeek; }); }
 function shareText(title, text){
   if(settings.sharing===false){ openSheet(`<h2 id="shTitle">Sharing is off</h2><p class="sub">A grown-up has turned sharing off for this account.</p>`); return; }
   const url="https://ffmpa.com";

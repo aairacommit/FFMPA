@@ -3,11 +3,13 @@
 const bigNow=()=> (typeof BIGSTORY!=="undefined"&&BIGSTORY[mondayOf(TODAY())])||null;
 const lvl=()=>settings.age==="x"?"x":"o";
 function bigDay(){ const B=bigNow(); if(!B) return [0,0]; return [B.days.filter(x=>x.d<=TODAY()).length, B.days.length]; }
+/* after the last part (the weekend) say "all 5 parts" instead of "day 5 of 5" */
+function bigLabel(){ const B=bigNow(), [n,tot]=bigDay(); return B&&tot&&n>=tot&&TODAY()>B.days[tot-1].d?`all ${tot} parts`:`day ${n} of ${tot}`; }
 function bigSeen(){ const w=mondayOf(TODAY()); STATS.big=STATS.big||{}; STATS.big[w]=STATS.big[w]||{}; return STATS.big[w]; }
 function openBig(){ const B=bigNow(); if(!B) return; const L=lvl(), [n,tot]=bigDay(), seen=bigSeen(), col=TC[B.cat]||"#0B7F75", tint=TT[B.cat]||"#E6F5F1";
   const newDays=B.days.filter(x=>x.d<=TODAY()&&!seen[x.d]); newDays.forEach(x=>seen[x.d]=1); saveStats();
   const poll=STATS.bigPoll&&STATS.bigPoll[mondayOf(TODAY())];
-  openSheet(`<div class="bighead" style="--bc:${col};--bt:${tint}"><span class="mk">Big Story of the week · day ${n} of ${tot}</span><h2 id="shTitle">${esc(B.t)}</h2><p>${esc(B.sub)}</p>
+  openSheet(`<div class="bighead" style="--bc:${col};--bt:${tint}"><span class="mk">Big Story of the week · ${bigLabel()}</span><h2 id="shTitle">${esc(B.t)}</h2><p>${esc(B.sub)}</p>
       <div class="bigprog">${B.days.map(x=>`<i class="${x.d<TODAY()?"done":x.d===TODAY()?"now":""}"><span>${dOf(x.d).toLocaleDateString("en-GB",{weekday:"short"})}</span></i>`).join("")}</div></div>
     <div class="box where" style="margin-top:14px"><h4>Why it matters to you</h4><p>${esc(B[L].why)}</p></div>
     <div class="bigfacts">${B.facts.map(f=>`<div><b>${f[0]}</b><span>${esc(f[1])}</span></div>`).join("")}</div>
@@ -146,7 +148,7 @@ const _findsAdmin2=findsAdminHTML; findsAdminHTML=function(){ return classAdminH
 /* ---------- entry points: Today card, story chip, Play hub, menu ---------- */
 const _todayHTML=todayHTML;
 todayHTML=function(){ let h=_todayHTML(); const B=bigNow(); if(!B) return h; const [n,tot]=bigDay(), col=TC[B.cat]||"#0B7F75";
-  const card=`<section class="mom bigmom" style="--mc:${col}"><span class="mbig ic" aria-hidden="true">${ico("globe")}</span><div class="mtxt"><span class="mk">Big Story of the week · day ${n} of ${tot}</span><h3>${esc(B.t)}</h3><p>${esc(B.sub)}</p><div class="mrow"><button class="btn press" data-big>Follow the story${ico("right")}</button></div></div></section>`;
+  const card=`<section class="mom bigmom" style="--mc:${col}"><span class="mbig ic" aria-hidden="true">${ico("globe")}</span><div class="mtxt"><span class="mk">Big Story of the week · ${bigLabel()}</span><h3>${esc(B.t)}</h3><p>${esc(B.sub)}</p><div class="mrow"><button class="btn press" data-big>Follow the story${ico("right")}</button></div></div></section>`;
   h=h.replace('aria-label="Today\'s cards. Swipe sideways.">','aria-label="Today\'s cards. Swipe sideways.">'+card);
   return h.replace('<div class="mdots" aria-hidden="true">','<div class="mdots" aria-hidden="true"><i class="on" data-md="0"></i>').replace('<i class="on" data-md="0"></i><i class="on" data-md="0"></i>','<i class="on" data-md="0"></i><i class="" data-md="x"></i>'); };
 const _renderDeck4=renderDeck;
@@ -170,7 +172,7 @@ renderDeck=function(){ document.documentElement.classList.toggle("navigators",se
 /* ===================== Live editions: load the latest approved edition from the FFMPA repository ===================== */
 const EDITION_URL="https://raw.githubusercontent.com/aairacommit/FFMPA/main/editions/latest.json";
 function applyEdition(E){
-  if(!E||E.schema!==1||!Array.isArray(E.stories)||E.stories.length<5||!/^\d{4}-\d{2}-\d{2}$/.test(E.date||"")) return false;
+  if(!E||E.schema!==1||!Array.isArray(E.stories)||E.stories.length<3||!/^\d{4}-\d{2}-\d{2}$/.test(E.date||"")) return false;
   const bad=E.stories.find(s=>!s.id||!s.x||!s.o||!Array.isArray(s.x.b)||!Array.isArray(s.o.b)||!CATS[s.cat]); if(bad) return false;
   EDITION_DATE=E.date;
   S.splice(0,S.length,...E.stories);

@@ -83,7 +83,7 @@ const FINDS=[
 ];
 let finds=store.get("ffmpa-finds",{});
 const findCount=()=>FINDS.filter(f=>finds[f.id]).length;
-function found(id){ if(finds[id]) return; finds[id]=TODAY(); if(session&&!session.preview) store.set("ffmpa-finds",finds); const f=FINDS.find(x=>x.id===id); toast(`${ico("sparkle")}<span><b>Hidden find ${findCount()} of ${FINDS.length}</b> · ${f.t}</span>`,"#B5600F"); checkAch(); document.querySelectorAll("[data-finds] b").forEach(b=>b.textContent=findCount()+" of "+FINDS.length); }
+function found(id){ if(finds[id]) return; finds[id]=TODAY(); if(session) store.set("ffmpa-finds",finds); const f=FINDS.find(x=>x.id===id); toast(`${ico("sparkle")}<span><b>Hidden find ${findCount()} of ${FINDS.length}</b> · ${f.t}</span>`,"#B5600F"); checkAch(); document.querySelectorAll("[data-finds] b").forEach(b=>b.textContent=findCount()+" of "+FINDS.length); }
 ACH.push({id:"finder", t:"Sharp eyes", d:"Hidden finds discovered", ic:"sparkle", c:"#B5600F", tiers:[1,3,6], m:()=>findCount()});
 function _openTermPlus(k){ openTerm(k); }
 function openFinds(){

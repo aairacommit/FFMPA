@@ -25,6 +25,7 @@ def main(path):
     short=ed.get("short") is True   # deadline rule in DAILY.md: a smaller edition rather than none
     lo_n,hi_n=((3 if pm else 5),12) if short else ((6,12) if pm else (10,20))
     if not lo_n<=len(st)<=hi_n: E(f"{len(st)} stories; need {lo_n} to {hi_n}")
+    if short and len(st)>=(6 if pm else 10): W("short is set but the edition has the normal number of stories; remove short")
     if day and day.weekday()==0 and not pm:
         for f in ("puzzles","reporters","bigStory"):
             if f not in ed: E(f"Monday edition needs {f}")

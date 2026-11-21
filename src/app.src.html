@@ -277,6 +277,30 @@ em.v{font-family:var(--voice);font-style:italic;font-weight:400;color:var(--bran
 .choice small{color:var(--muted)}
 .wfine{color:var(--muted);font-size:13px;margin:16px 0 0;text-align:center}
 .wfine a{color:var(--ink)}
+.where{margin:0;position:absolute;inset:0;background:var(--tint,#F3F0FF)}
+.where svg{display:block;width:100%;height:100%}
+.card .img.hasmap{flex:0 0 128px!important;min-height:128px!important;margin:8px 8px 0!important;border-radius:20px!important;display:block!important;overflow:hidden!important;background:var(--tint)!important}
+.card .img.hasmap::after{display:none}
+.card .img.hasmap .tags{position:absolute;top:0;left:0;right:0;padding:12px 76px 0 12px;flex-wrap:nowrap;overflow:hidden}
+.card .img.hasmap .tag{white-space:nowrap;background:rgba(255,255,255,.94);border:0;overflow:hidden;text-overflow:ellipsis;min-width:0;flex-shrink:1}
+.card .img.hasmap .tag.topic{flex-shrink:0}
+.card .img.hasmap .credit{display:none}
+@media (max-height:700px){.card .img.hasmap{flex-basis:96px!important;min-height:96px!important}.where figcaption{display:none}}
+@media (max-height:640px){#welcome .wsun{display:none}#welcome h1{font-size:2em;margin-top:4px}#welcome .lede{margin-bottom:10px}.agepick .btn{padding:12px 16px}}
+.where .sea{fill:color-mix(in srgb,var(--acc,#5B35E8) 9%,#fff)}
+.where .land{fill:#fff;stroke:color-mix(in srgb,var(--acc,#5B35E8) 35%,#fff);stroke-width:.25}
+.where .pin{fill:var(--acc,#5B35E8);stroke:#fff;stroke-width:.35}
+.where .pulse{fill:var(--acc,#5B35E8);opacity:.18}
+.where figcaption{position:absolute;left:10px;bottom:10px;display:flex;align-items:center;gap:4px;background:rgba(255,255,255,.92);border-radius:999px;padding:4px 10px 4px 7px;font-size:12.5px;font-weight:600;color:#2A2930}
+.where figcaption svg.i{width:14px;height:14px;color:var(--acc,#5B35E8)}
+@media (prefers-reduced-motion:no-preference){.where .pulse{animation:wpulse 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}@keyframes wpulse{50%{opacity:.05;transform:scale(1.6)}}}
+.wkrow{display:flex;align-items:flex-start;gap:10px;width:100%;text-align:left;background:#fff;border:1px solid var(--line);border-radius:14px;padding:12px 14px;margin:0 0 8px;font-weight:600;line-height:1.35}
+.wkrow .cdot{flex:none;margin-top:6px;width:8px;height:8px;border-radius:50%}
+.agepick{display:grid;gap:10px;margin:12px 0 4px}
+.agepick .btn{display:flex;justify-content:space-between;align-items:center;width:100%;padding:16px 18px;text-align:left}
+.agepick .btn small{color:var(--muted);font-weight:600}
+.gnudge{margin:16px 0 4px;padding:16px;border-radius:18px;background:#F3F0FF;text-align:left}
+.gnudge b{display:block;margin-bottom:4px}.gnudge p{margin:0 0 12px;font-size:.92em}
 .peek{display:block;margin:16px auto 0;background:none;border:0;color:var(--ink);font-weight:600;text-decoration:underline;text-underline-offset:3px}
 .linkbtn{border:0;background:none;padding:0;color:var(--brand);font-weight:600;text-decoration:underline}
 
@@ -436,6 +460,16 @@ const TC={business:"#4D7C0F",space:"#3E46C8",science:"#0E7490",planet:"#0F8A5F",
 const TT={business:"#F1F7E6",space:"#ECEDFD",science:"#E3F4F7",planet:"#E8F6EF",sports:"#FDEDE7",civics:"#E9EFFB",world:"#EEF0F4",culture:"#FBEAF2",history:"#FCF1E4",nature:"#E7F2FB",tech:"#F2EBFC"};
 const AQI=[["Good","0 to 50","#2BB673","clean air."],["Satisfactory","51 to 100","#9BD35A","fine for most people."],["Moderate","101 to 200","#F2C230","some people may cough."],["Poor","201 to 300","#EF8A3A","many people feel it."],["Very poor","301 to 400","#E5484D","hazy; outdoor play is often cut short."],["Severe","401 to 500","#8E2C48","everyone should stay indoors."]];
 let checksDone = new Set(store0("ffmpa-checks", []));
+/* "Where in the world": a small map with a pin, from the story's where (or its country for national stories) */
+const CTY_PIN={IN:[78.9,22.5],US:[-98.5,39.5],UK:[-2.5,54],AU:[134,-25.5],KR:[127.8,36.3],DE:[10.4,51.1],FR:[2.4,46.6]};
+let mapDefsDone=false;
+function mapDefs(){ if(mapDefsDone||typeof WORLD==="undefined") return; mapDefsDone=true;
+  document.body.insertAdjacentHTML("beforeend",`<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs><g id="ffworld">${WORLD.map(p=>`<path d="${p[1]}"/>`).join("")}</g></defs></svg>`); }
+function whereOf(s){ const w=s.where, num=x=>typeof x==="number"&&Number.isFinite(x); if(w&&typeof w.n==="string"&&w.n.trim()&&num(w.lat)&&num(w.lon)&&Math.abs(w.lat)<=90&&Math.abs(w.lon)<=180) return {n:w.n.trim().slice(0,40),lat:w.lat,lon:w.lon,z:1};
+  if(s.scope&&CTY_PIN[s.scope]&&COUNTRIES[s.scope]) return {n:COUNTRIES[s.scope].name,lon:CTY_PIN[s.scope][0],lat:CTY_PIN[s.scope][1],z:1.6,country:true}; return null; }
+function mapHTML(s){ const w=whereOf(s); if(!w||typeof WORLD==="undefined") return ""; mapDefs();
+  const W=Math.round(64*w.z), H=Math.round(W*0.45), x=Math.max(-180,Math.min(180-W,w.lon-W/2)), y=Math.max(-84,Math.min(84-H,-w.lat-H/2)), r=W/64;
+  return `<figure class="where" aria-label="Where in the world: ${esc(w.n)}"><svg viewBox="${x.toFixed(1)} ${y.toFixed(1)} ${W} ${H}" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false"><rect x="-180" y="-90" width="360" height="180" class="sea"/><use href="#ffworld" class="land"/><circle cx="${w.lon}" cy="${-w.lat}" r="${(2.4*r).toFixed(2)}" class="pulse"/><circle cx="${w.lon}" cy="${-w.lat}" r="${(1.1*r).toFixed(2)}" class="pin"/></svg>${w.country?"":`<figcaption>${ico("pin")}${esc(w.n)}</figcaption>`}</figure>`; }
 function keyHTML(s,sel){
   const k = (settings.age==="x" && s.xkey) ? s.xkey : s.key; if(!k) return "";
   if(k.type==="check" && checksDone.has(s.id) && sel==null) return "";
@@ -479,7 +513,7 @@ function termInline(btn){
   const [kind,col]=WKIND(g[1]);
   panel.innerHTML=`<span class="tk" style="color:${col}"><i style="background:${col}"></i>${kind}</span><b>${esc(g[0])}</b><p>${settings.age==="x"?g[2]:g[3]}</p><div class="tb"><button type="button" data-ts>${ico("star")}${words.has(k)?"Saved":"Save to my words"}</button><button type="button" data-tm>More</button></div>`;
   panel.classList.add("open");
-  panel.querySelector("[data-ts]").onclick=e=>{ e.stopPropagation(); words.has(k)?words.delete(k):words.add(k); if(session&&!session.preview) store.set("ffmpa-words",[...words]); e.currentTarget.innerHTML=`${ico("star")}${words.has(k)?"Saved":"Save to my words"}`; renderTop(); };
+  panel.querySelector("[data-ts]").onclick=e=>{ e.stopPropagation(); words.has(k)?words.delete(k):words.add(k); if(session) store.set("ffmpa-words",[...words]); e.currentTarget.innerHTML=`${ico("star")}${words.has(k)?"Saved":"Save to my words"}`; renderTop(); };
   panel.querySelector("[data-tm]").onclick=e=>{ e.stopPropagation(); openTerm(k); };
 }
 /* free-to-use photos only, credited, never linked */
@@ -530,7 +564,7 @@ let topic = "all", deck = [], idx = 0, lastFocus = null;
 
 const $ = s=>document.querySelector(s);
 const esc = s=>String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-const persist = ()=>{ if(session && !session.preview) store.set("ffmpa-settings", settings); };
+const persist = ()=>{ if(session) store.set("ffmpa-settings", settings); };
 const saveAdmin = ()=>{ store.set("ffmpa-admin", ADMIN); if(typeof pushAdminConfig==="function") pushAdminConfig(); };
 
 /* ================= Helpers ================= */
@@ -559,7 +593,12 @@ function freshLabel(s){
   if(n===1) return {t:"Since yesterday", c:"new"};
   return {t:`${n} days ago`, c:""};
 }
-function sourceLine(s){ return s.src.length ? s.src[0][0].replace(/,.*$/,"") + (s.src.length>1?` +${s.src.length-1} more`:"") : "FFMPA explainer"; }
+/* dictionary look ups (word checks) are listed apart from the news sources */
+/* a word check is a dictionary page cited for one word: label ending "(word)" or a definition page URL */
+const isDict=x=>/\(\s*[^()]{1,40}\)\s*$/.test(String(x[0]))&&/dictionar|merriam|learner|collins|wordsmyth|vocabulary\.com/i.test(String(x[0]))||/\/(definition|dictionary|browse)\/[^/?#]+/i.test(String(x[1]||""))&&!/blog/i.test(String(x[1]||""));
+const newsSrc=s=>{ const n=s.src.filter(x=>!isDict(x)); return n.length?n:s.src; };
+const dictWords=s=>[...new Set(s.src.filter(isDict).map(x=>(String(x[0]).match(/\(([^)]+)\)\s*$/)||[])[1]).filter(Boolean))];
+function sourceLine(s){ const n=newsSrc(s); return n.length ? n[0][0].replace(/,.*$/,"") + (n.length>1?` +${n.length-1} more`:"") : "FFMPA explainer"; }
 function imgOf(s){ return IMAGES[s.id]||null; }
 function imgCredit(s){ const im=imgOf(s); return im ? `Photo: ${im.credit}${im.licence?" ("+im.licence+")":""}` : ""; }
 function imgHTML(s){ const im=imgOf(s); const ph=`<div class="ph">${ico(CAT_ICON[s.cat]||"sparkle")}<span></span></div>`; return ph + (im?`<img src="${im.src}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`:""); }
@@ -631,7 +670,7 @@ function cardHTML(item){
     const s=item.s, t=v(s), local=s.scope!=="global", f=freshLabel(s);
     return `<article class="card" aria-label="${esc(t.t)}" style="--acc:${TC[s.cat]||"#5B35E8"};--tint:${TT[s.cat]||"#F3F0FF"}">
       <div class="acc" aria-hidden="true"></div>
-      <div class="img">${imgHTML(s)}
+      ${(()=>{ const m=imgOf(s)?"":mapHTML(s); return `<div class="img${m?" hasmap":""}">${m||imgHTML(s)}`; })()}
         <div class="tags"><span class="tag topic">${CATS[s.cat].label}</span><span class="tag ${local?"local":"global"}">${local?COUNTRIES[s.scope].short:"World"} · ${f.t}</span></div>
         <span class="credit">${esc(imgCredit(s))}</span></div>
       <div class="cbody"><p class="kicker">${CATS[s.cat].label}</p><h2>${t.t}</h2>${t.b.map(p=>`<p>${linkify(p)}</p>`).join("")}${keyHTML(s)}</div>
@@ -661,6 +700,7 @@ function cardHTML(item){
     <h2>You're all <em class="v">caught up.</em></h2>
     <p>${(window.FF_SLOT||"am")==="pm"?`That's everything in this evening's edition. The next morning edition arrives at ${fmtTime(ADMIN.amTime)} your time.`:`That's everything in this morning's edition. The evening edition arrives at ${fmtTime(ADMIN.pmTime)} your time.`}</p>
     ${endSummaryHTML()}
+    ${session&&session.preview?`<div class="gnudge"><b>Grown-ups: keep this going</b><p>A free account saves the streak, words and badges on every device, and can send a gentle alert when the next edition is ready.</p><button class="btn sun press" data-signup>Make a free account</button></div>`:""}
     <div class="endgrid"><button class="btn sun press" data-quiz>Take today's quiz</button><button class="btn ghost press" data-open="puzzles">Weekly puzzle</button><button class="btn ghost press" data-open="progress">Your progress</button></div>
   </div></article>`;
 }
@@ -676,6 +716,7 @@ function renderDeck(){
   d.querySelectorAll("[data-quiz]").forEach(b=> b.onclick=()=> openQuiz());
   d.querySelectorAll("[data-restart]").forEach(b=> b.onclick=()=> go(0));
   d.querySelectorAll("[data-plan]").forEach(b=> b.onclick=()=> openPlan());
+  d.querySelectorAll("[data-signup]").forEach(b=> b.onclick=()=> startWelcome("email"));
   d.querySelectorAll("[data-open]").forEach(b=> b.onclick=e=>{ e.stopPropagation(); const k=b.dataset.open; k==="progress"?openProgress():k==="puzzles"?openPuzzles():openCraft(); });
   d.querySelectorAll("[data-next]").forEach(b=> b.onclick=()=> go(idx+1));
   tintCards(d); wireLearn(d);
@@ -693,7 +734,7 @@ function afterMove(){
   const it=deck[idx];
   document.querySelectorAll("#deck .slide").forEach(el=>{ const on=+el.dataset.i===idx; if(on&&!el.classList.contains("live")){ el.classList.add("live"); setTimeout(()=>el.querySelectorAll(".kv b[data-n]").forEach(countUp),350); } else if(!on) el.classList.remove("live"); });
   const ctr=$("#counter"); if(ctr){ ctr.classList.remove("bump"); void ctr.offsetWidth; ctr.classList.add("bump"); }
-  if(it && it.type==="story" && !readIds.has(it.s.id)){ readIds.add(it.s.id); if(session&&!session.preview) store.set("ffmpa-read-"+EDITION_DATE,[...readIds]); renderGoal(); recordRead(it.s); }
+  if(it && it.type==="story" && !readIds.has(it.s.id)){ readIds.add(it.s.id); if(session) store.set("ffmpa-read-"+EDITION_DATE,[...readIds]); renderGoal(); recordRead(it.s); }
   if(it && it.type==="end") recordEnd();
   afterMoveExtras(it);
   const liveSl=document.querySelector(`#deck .slide[data-i="${idx}"]`); if(liveSl && it && it.type==="story") typeIn(liveSl, it.s.id);
@@ -768,14 +809,14 @@ function openMore(){
     ${where?`<div class="box where"><h4>Why this matters in ${COUNTRIES[settings.country].name}</h4><p>${where}</p></div>`:""}
     <div class="box think"><h4>Think about it</h4><p>${s.think}</p></div>
     ${ks.length?`<h4 style="font-family:var(--display);margin:16px 0 0">Words in this story</h4><div class="chips">${ks.map(k=>`<button class="chip press" data-k="${k}">${words.has(k)?"⭐ ":""}${G[k][0]}</button>`).join("")}</div>`:""}
-    ${settings.sources?`<h4 style="font-family:var(--display);margin:16px 0 4px">Sources</h4>${s.src.length?`<ul style="margin:0;padding-left:18px">${s.src.map(([l])=>`<li>${esc(l)}</li>`).join("")}</ul>`:`<p style="margin:0;color:var(--muted)">A short explainer about a date this week, written from established facts.</p>`}<p style="color:var(--muted);font-size:13px;margin:8px 0 0">${imgCredit(s)?esc(imgCredit(s))+". ":""}FFMPA names its sources but never links to other websites.</p>`:""}`,
+    ${settings.sources?`<h4 style="font-family:var(--display);margin:16px 0 4px">Where this came from</h4>${s.src.length?`<ul style="margin:0;padding-left:18px">${newsSrc(s).map(([l])=>`<li>${esc(l)}</li>`).join("")}</ul>${s.src.some(isDict)&&newsSrc(s).length<s.src.length?`<p style="margin:10px 0 0;color:var(--muted);font-size:14px"><b>How we checked the words:</b> ${dictWords(s).length?esc(dictWords(s).join(", "))+" checked in":"checked in"} ${esc([...new Set(s.src.filter(isDict).map(x=>String(x[0]).replace(/,.*$/,"")))].join(", "))}.</p>`:""}`:`<p style="margin:0;color:var(--muted)">A short explainer about a date this week, written from established facts.</p>`}<p style="color:var(--muted);font-size:13px;margin:8px 0 0">${imgCredit(s)?esc(imgCredit(s))+". ":""}FFMPA names its sources but never links to other websites.</p>`:""}`,
     sh=> sh.querySelectorAll("[data-k]").forEach(b=> b.onclick=()=> openTerm(b.dataset.k)));
 }
 function openTerm(k){
   const g=G[k]; if(!g) return; STATS.explainers++; saveStats(); checkAch(); const [kind,kcol]=WKIND(g[1]); const kbg=HL[g[1]]||HL_IDEA;
   openSheet(`<span class="ttype" style="background:${kbg};color:${kcol}">${kind}</span><h2 id="shTitle" style="margin-top:8px">${g[0]}</h2><p>${settings.age==="x"?g[2]:g[3]}</p>
     <div class="row"><button class="btn sun press" id="tSave">${words.has(k)?"⭐ Saved to my words":"☆ Save to my words"}</button><button class="btn ghost press" id="tBack">Back to the story</button></div>`,
-    sh=>{ $("#tBack").onclick=closeSheet; $("#tSave").onclick=()=>{ words.has(k)?words.delete(k):words.add(k); if(session&&!session.preview) store.set("ffmpa-words",[...words]); $("#tSave").textContent=words.has(k)?"⭐ Saved to my words":"☆ Save to my words"; renderTop(); checkAch(); }; });
+    sh=>{ $("#tBack").onclick=closeSheet; $("#tSave").onclick=()=>{ words.has(k)?words.delete(k):words.add(k); if(session) store.set("ffmpa-words",[...words]); $("#tSave").textContent=words.has(k)?"⭐ Saved to my words":"☆ Save to my words"; renderTop(); checkAch(); }; });
 }
 function openWords(){
   const arr=[...words].filter(k=>G[k]);
@@ -915,20 +956,31 @@ $("#menuBtn").onclick=openMenu; $("#edPill").onclick=openEdition; $("#ctyPill").
 /* ================= Sign in with email only ================= */
 const DEMO_CODE="482913";
 let ob={step:"email",email:"",name:"",age:"o",country:"IN"};
-function startWelcome(step){ ob.step=step||"email"; renderWelcome(); $("#welcomeOv").classList.add("open"); setTimeout(()=>{ const f=$("#welcome input"); if(f) f.focus(); },30); }
+/* first visit: guess the country from the time zone (families can change it with the country pill) */
+function guessCountry(){ try{ const z=Intl.DateTimeFormat().resolvedOptions().timeZone||""; if(/^Asia\/(Kolkata|Calcutta)$/.test(z)) return "IN"; if(z==="Europe/London") return "UK"; if(/^Australia\//.test(z)) return "AU"; if(z==="Asia/Seoul") return "KR"; if(z==="Europe/Berlin") return "DE"; if(z==="Europe/Paris") return "FR"; if(/^America\/|^US\//.test(z)) return "US"; }catch(e){} return null; }
+function startPreview(age){ if(age) settings.age=age; if(!store.get("ffmpa-settings",null)){ const c=guessCountry(); if(c&&COUNTRIES[c]&&ADMIN.countries[c]) settings.country=c; } session=session&&session.preview?session:{preview:true}; store.set("ffmpa-session",session); persist(); $("#welcomeOv").classList.remove("open"); topic="all"; idx=0; renderAll(); }
+function startWelcome(step){ ob.step=step||"email"; if(session&&session.preview){ ob.age=settings.age; ob.country=settings.country; } renderWelcome(); $("#welcomeOv").classList.add("open"); setTimeout(()=>{ const f=$("#welcome input"); if(f) f.focus(); },30); }
 const bar=n=>`<div class="steps" aria-hidden="true">${[1,2,3,4].map(i=>`<i class="${i<=n?"on":""}"></i>`).join("")}</div>`;
 function renderWelcome(){
   const w=$("#welcome"), top=`<div class="wsun" aria-hidden="true"><svg class="buddy" viewBox="0 0 48 48" aria-hidden="true" focusable="false"><path fill="url(#ffg)" d="M18 5h12a13 13 0 0 1 13 13v5a13 13 0 0 1-13 13H21l-8.5 7.5V35.2A13 13 0 0 1 5 23v-5A13 13 0 0 1 18 5z"/><g class="eyes"><ellipse cx="19" cy="19.5" rx="3.3" ry="4.1" fill="#fff"/><ellipse cx="29.5" cy="19.5" rx="3.3" ry="4.1" fill="#fff"/><g class="pup"><circle cx="19.9" cy="18.7" r="1.7" fill="#1B1340"/><circle cx="30.4" cy="18.7" r="1.7" fill="#1B1340"/></g></g><path class="smile" d="M19.6 27.4q4.9 4.3 9.8 0" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/><path class="spark" fill="#FFB020" stroke="#fff" stroke-width="1.2" stroke-linejoin="round" d="M42 1.8l1.5 3.7 3.7 1.5-3.7 1.5L42 12.2l-1.5-3.7-3.7-1.5 3.7-1.5z"/></svg></div>`;
   const fine=`<p class="wfine">By continuing you agree to the <a href="#terms">Terms of use</a> and <a href="#privacy">Privacy policy</a> of Founderfreedom Ventures LLP.</p>`;
+  if(ob.step==="start"){
+    w.innerHTML=`${top}<h1 id="wcTitle">Real news, <em class="v">made for kids.</em></h1><p class="lede">Short, calm stories for ages 5 to 15. Two editions a day, every story fact checked and reviewed before it goes out.</p><div class="trust"><span>${ico("shield")}Fact checked</span><span>${ico("lock")}No links out</span><span>${ico("star")}No ads that follow kids</span></div>
+      <div class="wbox"><h2>Who is reading today?</h2><div class="agepick">${[["x","Explorers","5 to 9"],["o","Thinkers","10 to 12"],["n","Navigators","13 to 15"]].map(([k,l,a])=>`<button class="btn ghost press" data-age="${k}"><b>${l}</b><small>Ages ${a}</small></button>`).join("")}</div>
+        <p class="note">Start reading straight away. Nothing is shared until a grown-up makes a free account.</p></div>
+      <button class="peek" id="wSign">Grown-ups: sign in or make a free account</button>${fine}`;
+    w.querySelectorAll("[data-age]").forEach(b=>b.onclick=()=>startPreview(b.dataset.age));
+    $("#wSign").onclick=()=>{ ob.step="email"; renderWelcome(); const f=$("#wE"); if(f) f.focus(); };
+  }
   if(ob.step==="email"){
-    w.innerHTML=`${top}<h1 id="wcTitle">Real news, <em class="v">made for kids.</em></h1><p class="lede">Swipe through short, calm stories for ages 5 to 15. Two editions a day, only the last 3 days of news, every story fact checked and reviewed before it goes out.</p><div class="trust"><span>${ico("shield")}Fact checked</span><span>${ico("lock")}No links out</span><span>${ico("star")}No ads that follow kids</span></div>
+    w.innerHTML=`${top}<h1 id="wcTitle">Real news, <em class="v">made for kids.</em></h1><p class="lede">A free account keeps your child's streak, words and badges on every device, and lets you turn on a gentle alert when each edition is ready.</p><div class="trust"><span>${ico("shield")}Fact checked</span><span>${ico("lock")}No links out</span><span>${ico("star")}No ads that follow kids</span></div>
       <form class="wbox" id="wF" novalidate><h2>Grown-ups, start here</h2>
         <label class="field" for="wE">Your email address<input type="email" id="wE" autocomplete="email" placeholder="you@example.com" value="${esc(ob.email)}"></label>
         <p class="note">No password. We email you a 6-digit code each time you sign in.</p><p class="err" id="wErr" aria-live="polite"></p>
         <button class="btn sun press" type="submit">Email me a code</button></form>
-      <button class="peek" id="wPeek">Just looking? Preview this morning's edition</button>${fine}`;
+      <button class="peek" id="wPeek">${session&&session.preview?"Back to today's edition":"Just looking? Read today's edition first"}</button>${fine}`;
     $("#wF").onsubmit=e=>{ e.preventDefault(); const em=$("#wE").value.trim(); if(!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(em)){ $("#wErr").textContent="Please enter a valid email address, like name@example.com."; return; } ob.email=em; if(SB_ON&&em.toLowerCase()===REVIEW_EMAIL){ ob.step="review"; renderWelcome(); return; } if(SB_ON){ const btn=e.target.querySelector("button[type=submit]"); btn.disabled=true; btn.textContent="Sending…"; sendCode(em).then(()=>{ ob.step="code"; renderWelcome(); $("#wC").focus(); }).catch(err=>{ btn.disabled=false; btn.textContent="Email me a code"; $("#wErr").textContent=friendly(err); }); return; } ob.step="code"; renderWelcome(); $("#wC").focus(); };
-    $("#wPeek").onclick=()=>{ session={preview:true}; $("#welcomeOv").classList.remove("open"); renderAll(); };
+    $("#wPeek").onclick=()=>startPreview();
   }
   if(ob.step==="code"){
     w.innerHTML=`${top}<h1 id="wcTitle">Check your <em class="v">inbox.</em></h1><p class="lede">We sent a 6-digit code to <b>${esc(ob.email)}</b>. It expires in 10 minutes.</p>
@@ -975,7 +1027,7 @@ function renderWelcome(){
 function finish(){ if(SB_ON&&ob.tok){ session={email:ob.tok.email,uid:ob.tok.uid}; if(STATS&&STATS.sample){ STATS={days:{},editions:{},explainers:0,more:0,perfect:0,qAns:0,qRight:0,cats:{},puzzles:{},crafts:{},unlocked:{}}; _sset("ffmpa-stats",STATS); }
     _sset("ffmpa-session",session); _sset("ffmpa-settings",settings); createProfile().catch(()=>queueSync()); $("#welcomeOv").classList.remove("open"); topic="all"; idx=0; renderAll(); return; }
   session={email:ob.email}; store.set("ffmpa-session",session); store.set("ffmpa-settings",settings); store.set("ffmpa-account-"+ob.email.toLowerCase(),settings); $("#welcomeOv").classList.remove("open"); topic="all"; idx=0; renderAll(); }
-function signOut(){ if(SB_ON&&session&&session.uid){ const done=()=>{ _sdel("ffmpa-session"); session=null; klass=null; settings=Object.assign({},DEFAULT_SETTINGS); words=new Set(); readIds=new Set(); ob={step:"email",email:"",name:"",age:"o",country:"IN"}; closeSheet(); startWelcome("email"); }; sbSignOut().then(done,done); return; }
+function signOut(){ if(SB_ON&&session&&session.uid){ const done=()=>{ _sdel("ffmpa-session"); clearLocalProgress(); _sdel("ffmpa-settings"); location.reload(); }; sbSignOut().then(done,done); return; }
   if(session&&session.email) store.set("ffmpa-account-"+session.email.toLowerCase(),settings); store.del("ffmpa-session"); session=null; ob={step:"email",email:"",name:"",age:"o",country:"IN"}; closeSheet(); startWelcome("email"); }
 
 function openPlan(){
@@ -1010,7 +1062,7 @@ function renderAdmin(){
       <div class="kpis"><div class="kpi"><b>${count("published")}</b><span>Published stories</span></div><div class="kpi"><b>${count("draft")}</b><span>Waiting for review</span></div><div class="kpi"><b>${count("held")}</b><span>Held by language filter</span></div><div class="kpi"><b>${count("stale")}</b><span>Expired (older than ${ADMIN.freshHours} h)</span></div><div class="kpi"><b>${Object.values(ADMIN.countries).filter(Boolean).length}</b><span>Live countries</span></div><div class="kpi"><b>${ADMIN.sponsors.filter(a=>a.status==="approved").length}</b><span>Approved sponsor cards</span></div></div>
       <div class="panel"><h2>Stories per country edition</h2><div class="tablewrap"><table class="adm-table"><thead><tr><th>Country</th><th>Local</th><th>World</th><th>Edition times</th><th>Status</th></tr></thead><tbody>
       ${Object.entries(COUNTRIES).map(([k,c])=>{ const loc=rows.filter(r=>r.s.scope===k&&r.st==="published").length, wor=rows.filter(r=>r.s.scope==="global"&&r.st==="published").length; return `<tr><td>${c.name}</td><td>${loc}</td><td>${wor}</td><td>${fmtTime(ADMIN.amTime)} and ${fmtTime(ADMIN.pmTime)} ${c.tz}</td><td>${ADMIN.countries[k]?'<span class="status st-published">Live</span>':'<span class="status st-rejected">Off</span>'}</td></tr>`; }).join("")}</tbody></table></div>
-      <p class="sub" style="margin:10px 0 0">Target is 12 to 15 stories in a morning edition and 6 to 10 in an evening edition. This sample edition is smaller because it was built by hand for the prototype.</p></div>
+      <p class="sub" style="margin:10px 0 0">Target is 12 to 15 stories in a morning edition and 6 to 10 in an evening edition.</p></div>
       <div class="panel"><h2>Next runs</h2><p style="margin:0">Morning edition drafted from 4:10 AM IST, evening from 5:10 PM IST. Each is fact checked and reviewed, merged only on a pass, and families see it at ${fmtTime(ADMIN.amTime)} and ${fmtTime(ADMIN.pmTime)} their own time. Roll back any edition by reverting it on GitHub.</p></div>`;
   }
   if(admSection==="analytics"){
@@ -1139,7 +1191,7 @@ window.addEventListener("hashchange", route);
 /* ================= Boot ================= */
 renderAll();
 if(SB_ON && session && !session.preview && !(session.uid && store.get(AUTH_KEY,null))){ session=null; _sdel("ffmpa-session"); }
-if(location.hash!=="#admin" && (!session||session.preview)){ session=null; startWelcome("email"); }
+if(location.hash!=="#admin" && !session){ startWelcome("start"); }
 route();
 sbBoot();
 </script>

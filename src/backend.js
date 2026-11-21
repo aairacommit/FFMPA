@@ -71,7 +71,8 @@ async function afterSignIn(tok){ const prev=store.get("ffmpa-session",null);
   const p=rows&&rows[0];
   if(p&&p.consent_at){ applyRemote(p); _sset("ffmpa-session",{email:tok.email,uid:tok.uid}); location.reload(); return "done"; }
   /* keep this device's progress only if it belongs to the same email (people who used the early preview) */
-  if(!(prev&&prev.email&&prev.email.toLowerCase()===tok.email.toLowerCase())) clearLocalProgress();
+  /* keep this device's progress if it was a preview on this device or belongs to the same email; clear another family's */
+  if(!(prev&&((prev.preview&&!store.get("ffmpa-synced-at",null))||(prev.email&&prev.email.toLowerCase()===tok.email.toLowerCase())))) clearLocalProgress();
   return "new"; }
 async function createProfile(){ const s=snapshot(); s.id=session.uid; s.consent_at=new Date().toISOString();
   await sbFetch("/rest/v1/profiles",{method:"POST",body:s,headers:{Prefer:"resolution=merge-duplicates,return=minimal"},need:true}); _sset("ffmpa-synced-at",new Date().toISOString()); }
@@ -200,7 +201,7 @@ function wireAcct(){ const dl=$("#acDl"), del=$("#acDel"); if(!dl) return; rende
   dl.onclick=async()=>{ try{ const [p,r]=await Promise.all([sbFetch("/rest/v1/profiles?select=*&id=eq."+session.uid,{need:true}),sbFetch("/rest/v1/reports?select=week,headline,body,status,age_band,country,created_at",{need:true})]);
     const blob=new Blob([JSON.stringify({account:session.email,profile:p&&p[0],reports:r},null,2)],{type:"application/json"}); const a=document.createElement("a"); a.href=URL.createObjectURL(blob); a.download="ffmpa-my-data.json"; a.click(); setTimeout(()=>URL.revokeObjectURL(a.href),4000); }catch(e){ $("#acM").textContent=friendly(e); } };
   del.onclick=()=>{ $("#acM").innerHTML=`This deletes your account, your child's progress, reports and classes for good. <button class="btn press" id="acYes" type="button" style="background:#B42318;color:#fff;margin-top:8px">Yes, delete everything</button>`;
-    $("#acYes").onclick=async()=>{ $("#acYes").disabled=true; try{ await pushOff(); await rpc("delete_my_account",{}); _sdel(AUTH_KEY); clearLocalProgress(); _sdel("ffmpa-session"); session=null; klass=null; closeSheet(); startWelcome("email"); }catch(e){ $("#acM").textContent=friendly(e); } }; }; }
+    $("#acYes").onclick=async()=>{ $("#acYes").disabled=true; try{ await pushOff(); await rpc("delete_my_account",{}); _sdel(AUTH_KEY); clearLocalProgress(); _sdel("ffmpa-settings"); _sdel("ffmpa-session"); location.reload(); }catch(e){ $("#acM").textContent=friendly(e); } }; }; }
 
 /* ---------- edition alerts (web push) ---------- */
 const pushOK=()=>SB_ON&&"serviceWorker" in navigator&&"PushManager" in window&&"Notification" in window;

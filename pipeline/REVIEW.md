@@ -17,7 +17,7 @@ Inputs you are given: the path of the edition file (for example `editions/2026-1
 
 ## Check the edition as a whole
 - Run `python3 pipeline/validate.py <file>`: it must report no errors.
-- Mix and counts follow EDITORIAL.md (morning 12 to 15 stories, evening 6 to 10).
+- Mix and counts follow EDITORIAL.md (morning 12 to 15 stories, evening 6 to 10). `"short":true` is allowed only when the pull request says the deadline rule in DAILY.md applied.
 - Coverage: compare with the top headlines of one major Indian outlet and one international wire or broadcaster. A major story a child would care about that is missing is a FIX item (add it with two sources, or explain in one line why it was left out).
 - The pull request records that the fact checker and standards editor ran (its "Newsroom" section).
 - Evening editions repeat no morning story without real new information.

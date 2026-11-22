@@ -1,212 +1,124 @@
 {
  "schema": 1,
  "date": "2026-11-22",
- "edition": "am",
+ "edition": "pm",
  "countries": [
   "IN"
  ],
  "stories": [
   {
-   "id": "g-rhino-calf",
+   "id": "g-bepicolombo",
    "scope": "global",
-   "cat": "nature",
-   "emoji": "🦏",
-   "date": "2026-11-19",
-   "kind": "news",
-   "x": {
-    "t": "A rare baby rhino is born at a zoo in England",
-    "b": [
-     "A baby rhino has been born at Chester Zoo in England. The zoo has shared the news. A baby rhino is called a [[calf|calf]].",
-     "The calf stood up within an hour. Its mother is called Asha. This is her fourth calf.",
-     "This kind of rhino is the greater one-horned rhino. About 4,000 live in the wild, in India and Nepal."
-    ]
-   },
-   "o": {
-    "t": "Chester Zoo announces birth of a greater one-horned rhino calf",
-    "b": [
-     "Chester Zoo in England has announced that a greater one-horned rhino [[calf|calf]], or baby, has been born there. The mother is a rhino called Asha, and this is her fourth calf.",
-     "Asha's pregnancy lasted about 15 months. Zoo staff followed it by testing samples of her [[dung|dung]], which is solid waste from an animal. The samples let them track her [[hormone|hormones]], which are chemicals made in the body. The calf was up on its feet within an hour and was feeding soon after.",
-     "Greater one-horned rhinos live in the wild in India and Nepal, where about 4,000 remain. This kind of rhino is vulnerable to extinction, which means it is at risk of dying out. Mother and calf stayed indoors for the first few days. Then they moved to a paddock, a field with fences around it, behind the scenes at the zoo."
-    ]
-   },
-   "local": {
-    "IN": "Greater one-horned rhinos live in the wild in India and Nepal."
-   },
-   "think": "Why do you think people feel so happy when a rare animal has a baby?",
-   "quiz": {
-    "q": "Where do greater one-horned rhinos live in the wild?",
-    "a": [
-     "Brazil and Peru",
-     "Kenya and Tanzania",
-     "India and Nepal",
-     "China and Japan"
-    ],
-    "c": 2
-   },
-   "src": [
-    [
-     "Chester Zoo, 19 Nov",
-     "https://www.chesterzoo.org/news/greater-one-horned-rhino-born-at-chester-zoo"
-    ],
-    [
-     "Smithsonian Magazine, read 22 Nov",
-     "https://www.smithsonianmag.com/smart-news/see-the-rare-baby-rhinoceros-born-in-englands-chester-zoo-an-adorable-addition-to-its-species-numbers-180989902/"
-    ],
-    [
-     "PawNation via Yahoo Life, 20 Nov",
-     "https://www.yahoo.com/lifestyle/articles/rare-baby-rhino-takes-first-013000379.html"
-    ],
-    [
-     "Oxford Learner's Dictionaries, read 22 Nov (calf)",
-     "https://www.oxfordlearnersdictionaries.com/definition/english/calf"
-    ],
-    [
-     "Oxford Learner's Dictionaries, read 22 Nov (dung)",
-     "https://www.oxfordlearnersdictionaries.com/definition/english/dung"
-    ],
-    [
-     "Oxford Learner's Dictionaries, read 22 Nov (hormone)",
-     "https://www.oxfordlearnersdictionaries.com/definition/english/hormone"
-    ],
-    [
-     "Oxford Learner's Dictionaries, read 22 Nov (paddock)",
-     "https://www.oxfordlearnersdictionaries.com/definition/english/paddock"
-    ]
-   ]
-  },
-  {
-   "id": "in-young-india",
-   "scope": "IN",
-   "cat": "civics",
-   "emoji": "🧒",
-   "date": "2026-11-19",
-   "kind": "news",
-   "x": {
-    "t": "More than one in four people in India is aged 10 to 24",
-    "b": [
-     "A new [[report|report]] has come out. It is from UNFPA, the United Nations Population Fund.",
-     "It says more than one in four people in India is aged 10 to 24. It wants young people to help shape plans.",
-     "UNFPA also did a [[survey|survey]] of adults who use the internet. In India, 83 out of every 100 felt positive or very positive about the future."
-    ]
-   },
-   "o": {
-    "t": "UN report: more than one in four Indians is aged 10 to 24",
-    "b": [
-     "More than one in four people in India is aged 10 to 24, says a new [[report|report]] from UNFPA, the United Nations Population Fund. The report, State of World Population 2026, is titled Succeeding Generations.",
-     "UNFPA also ran a [[survey|survey]], asking people questions to learn what they think. Those who answered were adults who use the internet, not children. UNFPA said 83% of the people in India who answered its survey felt positive or very positive about the future.",
-     "The report says the aim should change: from saving future generations to making sure those generations succeed. A generation is all the people born around the same time. It calls for older and younger people to work as partners, with young people helping to shape policies, or official plans, and services."
-    ]
-   },
-   "think": "If leaders asked you to help plan something for your school or town, what would you want to talk about first?",
-   "quiz": {
-    "q": "The report says more than one in four people in India is in which age group?",
-    "a": [
-     "Under 5",
-     "5 to 9",
-     "65 and over",
-     "10 to 24"
-    ],
-    "c": 3
-   },
-   "src": [
-    [
-     "UNFPA India, 19 Nov",
-     "https://india.unfpa.org/en/news/unfpa-launches-state-world-population-report-2entity26-succeeding-generations-empowering-young"
-    ],
-    [
-     "The Tribune, 20 Nov",
-     "https://www.tribuneindia.com/news/india/indias-youth-very-positive-high-on-family-desire-un-report/"
-    ],
-    [
-     "Oxford Learner's Dictionaries, read 22 Nov (report)",
-     "https://www.oxfordlearnersdictionaries.com/definition/american_english/report_2"
-    ],
-    [
-     "Oxford Learner's Dictionaries, read 22 Nov (survey)",
-     "https://www.oxfordlearnersdictionaries.com/us/definition/english/survey_1"
-    ]
-   ]
-  },
-  {
-   "id": "g-atp-final",
-   "scope": "global",
-   "cat": "sports",
-   "emoji": "🎾",
+   "cat": "space",
+   "emoji": "🛰️",
    "date": "2026-11-21",
    "kind": "news",
    "x": {
-    "t": "Alcaraz and Zverev reach the ATP Finals final in Turin",
+    "t": "A spacecraft reaches Mercury after a trip of about eight years",
     "b": [
-     "Two tennis players won their [[semi-final|semi-finals]] at the ATP Finals on Saturday. They are Carlos Alcaraz and Alexander Zverev. A semi-final decides who plays in the last match.",
-     "Alcaraz beat Ben Shelton. That was his 13th win in a row. Zverev beat Daniil Medvedev.",
-     "The [[final|final]] is due to be played on Sunday in Turin, Italy. Zverev had won this [[tournament|tournament]] twice before. Alcaraz had never won it."
+     "A spacecraft called BepiColombo is now going around [[mercury|Mercury]]. Mercury is the planet closest to the Sun.",
+     "BepiColombo left Earth in 2018. Its trip took about eight years. On the way, it flew past planets nine times. A planet's [[gravity|pull]] helped it slow down or turn.",
+     "Europe and Japan made it together. In December, it will split into two. Science work is due to start in 2027."
     ]
    },
    "o": {
-    "t": "Alcaraz and Zverev win semi-finals to reach ATP Finals final",
+    "t": "BepiColombo spacecraft goes into orbit around Mercury",
     "b": [
-     "Carlos Alcaraz and Alexander Zverev won their [[semi-final|semi-finals]] at the ATP Finals in Turin, Italy, on Saturday 21 November. A semi-final is one of the two matches that decide who plays in the [[final|final]], the last match of a [[tournament|tournament]].",
-     "Alcaraz, 23, beat Ben Shelton. A set is one part of a tennis match. The last set went to a tie-break, a period of extra play to decide who wins a set when both players have won six games. It was his 13th win in a row. Zverev beat Daniil Medvedev 7-6, 6-4, winning both sets.",
-     "The final is due to be played on Sunday 22 November in Turin. Before this year, Zverev had won the ATP Finals twice, in 2018 and 2021. Alcaraz had never been its [[champion|champion]]: he lost last year's final to Jannik Sinner."
+     "BepiColombo, a joint mission of the [[esa|European Space Agency]] (ESA) and Japan's space agency JAXA, went into [[orbit|orbit]] around [[mercury|Mercury]], the closest planet to the Sun, on Saturday 21 November. An orbit is a curved path around a planet. Firing its thrusters, small rocket engines, slowed it so Mercury's [[gravity|gravity]] could capture it.",
+     "It was launched in 2018 and travelled for about eight years, making nine flybys: Earth once, Venus twice and Mercury six times. A flyby uses a planet's gravity, the force pulling objects together, to slow a spacecraft or change its direction.",
+     "BepiColombo carries two spacecraft, ESA's Mercury Planetary Orbiter (MPO) and JAXA's Mio, due to separate on 9 and 10 December 2026. MPO will map Mercury's surface and what it is made of. Mio will study Mercury's magnetic field, its area of magnetic force. Science work is due to start in April 2027."
     ]
    },
-   "think": "Would you rather be the player on a long winning run or the player who has won the trophy before? Why?",
+   "think": "If you could send a spacecraft to any planet, which one would you choose, and what would you want to find out?",
    "quiz": {
-    "q": "How many matches in a row had Carlos Alcaraz won by Saturday?",
+    "q": "How many flybys did BepiColombo make on its way to Mercury?",
     "a": [
-     "3",
-     "9",
-     "13",
-     "20"
+     "Two",
+     "Five",
+     "Nine",
+     "Twenty"
     ],
     "c": 2
    },
    "src": [
     [
-     "ATP Tour, 21 Nov",
-     "https://www.atptour.com/en/news/nitto-atp-finals-2026-final-preview"
+     "AP via ABC News, 22 Nov",
+     "https://abcnews.com/Technology/wireStory/mercury-gets-visitor-years-pair-spacecraft-loop-orbit-138351997"
     ],
     [
-     "ATP Tour, 21 Nov",
-     "https://www.atptour.com/en/news/zverev-medvedev-nitto-atp-finals-2026-saturday"
+     "AFP via The Manila Times, 22 Nov",
+     "https://www.manilatimes.net/2026/11/22/world/japan-europe-joint-probe-enters-mercurys-orbit/2475665"
     ],
     [
-     "ATP Tour, 21 Nov",
-     "https://www.atptour.com/en/news/nitto-atp-finals-2026-final-schedule"
+     "AeroTime, 22 Nov",
+     "https://www.aerotime.aero/articles/bepicolombo-reaches-mercury-orbit-after-nearly-eight-years-in-space"
     ],
     [
-     "Tennis Now, 21 Nov",
-     "https://tennisnow.com/zverev-stays-unbroken-sets-alcaraz-final-in-turin/"
+     "ESA, 29 Oct",
+     "https://www.esa.int/Science_Exploration/Space_Science/BepiColombo/Latest_updates_BepiColombo_s_arrival_at_Mercury"
     ],
     [
-     "Tennis Now, 21 Nov (Alcaraz)",
-     "https://tennisnow.com/alcaraz-subdues-shelton-returns-to-atp-finals-final/"
+     "Eos, Nov",
+     "https://eos.org/research-and-developments/bepicolombo-arrives-at-mercury"
+    ]
+   ]
+  },
+  {
+   "id": "in-test-wellington",
+   "scope": "IN",
+   "cat": "sports",
+   "emoji": "🏏",
+   "date": "2026-11-22",
+   "kind": "news",
+   "x": {
+    "t": "India make the biggest Test score ever in New Zealand",
+    "b": [
+     "India made the biggest Test score ever in New Zealand. A Test is a long cricket match. They scored 720 runs in Wellington.",
+     "Then India [[declare|declared]]. That means they chose to stop batting. Now they have time to get New Zealand out.",
+     "New Zealand have 119 runs, with two batters out. They are 233 runs behind. Monday is the last day."
+    ]
+   },
+   "o": {
+    "t": "India declare on a record 720 as New Zealand try to save Test",
+    "b": [
+     "India declared on 720 for 9, meaning 720 runs with nine batters out, on Sunday 22 November. It was day four of the five-day first Test against New Zealand at the [[basin-reserve|Basin Reserve]] in Wellington. It is the highest Test total ever in New Zealand. To [[declare|declare]] is to choose to stop batting, leaving time to bowl the other side out.",
+     "New Zealand made 368 in their first [[innings|innings]], a team's turn to bat, so India led by 352. KL Rahul scored 136 and Rishabh Pant 128, his ninth Test [[century|century]], a score of 100 runs or more.",
+     "At the end of the day, New Zealand were 119 for 2, still 233 behind, with Devon Conway on 59 and still batting. On Monday, the last day, India will try to get eight more batters out, while New Zealand will try to bat all day to save the match."
+    ]
+   },
+   "think": "On Monday, New Zealand will try to bat all day to save the match. Is it harder to score lots of runs, or to stay in and not get out? Why?",
+   "quiz": {
+    "q": "What score did India declare on?",
+    "a": [
+     "119 for 2",
+     "368 for 9",
+     "720 for 9",
+     "352 for 4"
+    ],
+    "c": 2
+   },
+   "src": [
+    [
+     "PTI via Siasat, 22 Nov",
+     "https://www.siasat.com/nz-reach-119-2-at-stumps-india-declare-at-720-9-highest-team-total-3583669/"
     ],
     [
-     "Oxford Learner's Dictionaries, read 22 Nov (semi-final)",
-     "https://www.oxfordlearnersdictionaries.com/definition/english/semi-final"
+     "IANS via The Hans India, 22 Nov",
+     "https://www.thehansindia.com/sports/1st-test-pant-rahul-tons-put-india-on-top-conways-unbeaten-fifty-keeps-nz-alive-1144654"
     ],
     [
-     "Merriam-Webster, read 22 Nov (final)",
-     "https://www.merriam-webster.com/dictionary/final"
+     "IANS via Telangana Today, 22 Nov",
+     "https://telanganatoday.com/rishabh-pant-kl-rahul-centuries-power-india-to-720-as-new-zealand-battle-to-save-first-test"
     ],
     [
-     "Merriam-Webster, read 22 Nov (tournament)",
-     "https://www.merriam-webster.com/dictionary/tournament"
-    ],
-    [
-     "Merriam-Webster, read 22 Nov (champion)",
-     "https://www.merriam-webster.com/dictionary/champion"
-    ],
-    [
-     "Oxford Learner's Dictionaries, read 22 Nov (tiebreak)",
-     "https://www.oxfordlearnersdictionaries.com/definition/english/tiebreak"
+     "ESPN, 21 Nov (day three report)",
+     "https://www.espn.com/cricket/series/19430/report/1539442/day/4/new-zealand-vs-india-1st-test-19430"
     ]
    ],
    "where": {
-    "n": "Turin, Italy",
-    "lat": 45.1,
-    "lon": 7.7
+    "n": "Wellington, New Zealand",
+    "lat": -41.3,
+    "lon": 174.8
    }
   },
   {
@@ -214,34 +126,34 @@
    "scope": "global",
    "cat": "planet",
    "emoji": "🌍",
-   "date": "2026-11-21",
+   "date": "2026-11-22",
    "kind": "news",
    "x": {
-    "t": "Countries at climate talks had not agreed by Saturday",
+    "t": "Climate talks end without a new plan",
     "b": [
-     "Countries met in Antalya, Turkey, to talk about the [[climate|climate]]. The talks were meant to end on Friday.",
-     "On Saturday, the countries had still not reached an [[agreement|agreement]]. Every country has to say yes to one shared plan.",
-     "Some countries wanted the plan to mention [[fossil-fuel|fossil fuels]], like oil and gas. Some countries that produce oil and gas did not. A new version was being sent to the countries overnight."
+     "Countries met in Antalya, Turkey, to talk about the climate. The talks went on for two extra days.",
+     "Early on Sunday, a new [[draft|draft]] plan came out. It did not name [[fossil-fuel|fossil fuels]] like oil and gas. Some countries said the plan did not do enough.",
+     "Nearly every country has to agree to a plan. Not all of them did. So the talks ended on Sunday without a new plan."
     ]
    },
    "o": {
-    "t": "UN climate talks ran into an extra day with no agreement",
+    "t": "COP31 climate talks end without a deal",
     "b": [
-     "The United Nations [[climate|climate]] talks called COP31, held in Antalya, Turkey, were meant to end on Friday 20 November. On Saturday 21 November, the countries were still talking and had not reached an [[agreement|agreement]].",
-     "Agreeing is hard because nearly 200 countries take part and every one of them has to accept the final text. A draft, or early version, published on Thursday did not mention [[fossil-fuel|fossil fuels]], which are fuels such as coal, oil and gas. Panama and some other countries said the text should mention them. Saudi Arabia and some other oil and gas producing countries did not want that.",
-     "Money was also being discussed, including money to help poorer countries adapt to, or get ready for, climate change. Overnight into Sunday, the president of the talks said a new text was being sent to the countries. A meeting to approve it was due on Sunday."
+     "The [[cop31|COP31]] United Nations climate talks in Antalya, Turkey, were due to end on Friday 20 November but ran for two extra days. Early on Sunday, a new [[draft|draft]], or early version of the deal, was released.",
+     "The draft did not name [[fossil-fuel|fossil fuels]], such as coal, oil and gas. It referred instead to an earlier COP agreement to move away from them. The [[european-union|European Union]] and Panama said they could not support it. Countries disagreed about whether the deal should name fossil fuels.",
+     "A deal needs [[consensus|consensus]], which means broad agreement among the nearly 200 countries taking part. At the closing meeting on Sunday, the COP31 president, Turkey's environment minister Murat Kurum, said there was no consensus, so the plan was not adopted. The next talks, COP32, are planned for Addis Ababa, Ethiopia, in November 2027."
     ]
    },
-   "think": "Think of a time your class or family had to agree on something together. What made it hard, and what helped?",
+   "think": "Why do you think it can be hard for nearly 200 countries to agree on one plan?",
    "quiz": {
-    "q": "Where were the UN climate talks held?",
+    "q": "How many countries took part in the COP31 talks?",
     "a": [
-     "Paris, France",
-     "Tokyo, Japan",
-     "Nairobi, Kenya",
-     "Antalya, Turkey"
+     "About 20",
+     "About 50",
+     "Nearly 200",
+     "Over 1,000"
     ],
-    "c": 3
+    "c": 2
    },
    "where": {
     "n": "Antalya, Turkey",
@@ -250,647 +162,221 @@
    },
    "src": [
     [
-     "RTE, 21 Nov",
-     "https://www.rte.ie/news/environment/2026/1121/1600094-cop31-turkey/"
+     "Reuters via ThePrint, 22 Nov (talks end)",
+     "https://theprint.in/world/cop31-climate-talks-break-down-as-eu-others-reject-deal/3105816/"
     ],
     [
-     "Xinhua, 21 Nov",
-     "https://english.news.cn/europe/20261121/9dc6548149b44d3d8b5a580bf66ae70a/c.html"
+     "LaPresse, 22 Nov (talks end)",
+     "https://uk.lapresse.it/world-en/2026/11/22/cop31-chair-draft-final-agreement-not-adopted/"
     ],
     [
-     "Al Jazeera (AFP and Reuters), 20 Nov",
-     "https://www.aljazeera.com/news/2026/11/20/fossil-fuel-talks-deadlock-pushes-cop31-climate-summit-into-overtime"
+     "Reuters via ThePrint, 22 Nov (draft)",
+     "https://theprint.in/world/deal-or-no-deal-cop31-climate-talks-lurch-towards-an-uncertain-finish/3105801/"
     ],
     [
-     "UN News, 20 Nov",
-     "https://news.un.org/en/story/2026/11/1168845"
+     "AP via Irish News, 22 Nov",
+     "https://www.irishnews.com/news/world/cop31-delegates-consider-new-draft-deal-which-makes-no-mention-of-fossil-fuels-P5JE6ESY4FL3PGK3RXVPXFCBMQ/"
     ],
     [
-     "The National, 21 Nov",
-     "https://www.thenationalnews.com/news/mena/2026/11/21/cop31-climate-talks-overrun-in-dispute-over-final-deal/"
+     "Al Jazeera, 22 Nov",
+     "https://www.aljazeera.com/news/2026/11/22/fossil-fuel-impasse-pushes-cop31-climate-talks-into-second-day-of-overtime"
     ],
     [
-     "Oxford Learner's Dictionaries, read 22 Nov (fossil fuel)",
-     "https://www.oxfordlearnersdictionaries.com/definition/english/fossil-fuel"
+     "ITV News, 22 Nov",
+     "https://www.itv.com/news/2026-11-22/desperate-bid-to-avert-collapse-of-cop31-climate-summit-in-turkey"
     ],
     [
-     "Oxford Learner's Dictionaries, read 22 Nov (agreement)",
-     "https://www.oxfordlearnersdictionaries.com/definition/english/agreement"
+     "The Independent via Yahoo, 22 Nov",
+     "https://www.yahoo.com/news/science/articles/cop31-climate-talks-brink-collapse-104353041.html"
     ],
     [
-     "Merriam-Webster, read 22 Nov (climate)",
-     "https://www.merriam-webster.com/dictionary/climate"
+     "AFP via Hespress, 22 Nov",
+     "https://en.hespress.com/149651-european-union-states-object-to-adopting-cop31-deal-eu-presidency.html"
     ],
     [
-     "Arab News (AFP), 22 Nov",
-     "https://www.arabnews.com/world/fossil-fuel-dispute-threatens-to-scupper-climate-deal-3013430"
+     "AP via KSL, 20 Nov (COP32)",
+     "https://www.ksl.com/article/51647086/un-climate-talks-slammed-by-activists-leaders-as-fossil-fuels-go-unmentioned-in-draft-agreement"
     ],
     [
-     "GMA Network, 22 Nov",
-     "https://www.gmanetwork.com/news/topstories/world/1010357/cop31-climate-talks-close-to-final-deal-says-summit-president/story/"
+     "Health Policy Watch, 21 Nov (COP32)",
+     "https://healthpolicy-watch.news/cop31-draft-deal-drops-fossil-fuels-references-as-final-session-goes-into-overtime/"
     ]
    ],
    "olderOnly": true,
    "sensitive": "politics"
   },
   {
-   "id": "in-ranger-insurance",
-   "scope": "IN",
-   "cat": "nature",
-   "emoji": "🌳",
-   "date": "2026-11-20",
-   "kind": "news",
-   "x": {
-    "t": "10,000 wildlife rangers in India will get accident insurance",
-    "b": [
-     "[[ranger|Rangers]] look after forests and wild animals. Their work goes on day and night.",
-     "In India, 10,000 rangers will get accident [[insurance|insurance]]. Insurance gives money to help if someone is hurt. It will last five years. The rangers work in seven states.",
-     "It comes through a group called United for Wildlife. Prince William announced it."
-    ]
-   },
-   "o": {
-    "t": "Accident insurance for 10,000 temporary wildlife rangers in India",
-    "b": [
-     "In seven Indian states, 10,000 temporary wildlife [[ranger|rangers]] will get accident [[insurance|insurance]] for five years. A ranger is a person whose job is to take care of a forest or a park. Temporary means for a limited time. Insurance is an arrangement that pays money to help when something goes wrong.",
-     "Prince William announced it in a video message. It comes through his conservation group, United for Wildlife. Conservation means protecting nature. The news was reported on Friday 20 November. He said India's wildlife rangers stand on the front line of protecting wildlife, day and night.",
-     "The insurance is meant to protect rangers and their families if there is an accident. The Wildlife Trust of India and WWF-India are among the partners."
-    ]
-   },
-   "think": "Who are the helpers that look after nature near you, and how could people look after them?",
-   "quiz": {
-    "q": "How long will the rangers' accident insurance last?",
-    "a": [
-     "Five years",
-     "One year",
-     "Ten years",
-     "Two years"
-    ],
-    "c": 0
-   },
-   "src": [
-    [
-     "The Tribune (ANI), 20 Nov",
-     "https://www.tribuneindia.com/news/conservation/prince-william-announces-five-year-accident-insurance-programme-for-10000-wildlife-rangers-in-india"
-    ],
-    [
-     "Millennium Post, 20 Nov",
-     "https://www.millenniumpost.in/big-stories/prince-william-announces-5-year-accident-insurance-cover-for-10000-indian-wildlife-rangers-683958"
-    ],
-    [
-     "Oxford Learner's Dictionaries, read 22 Nov (ranger)",
-     "https://www.oxfordlearnersdictionaries.com/definition/english/ranger"
-    ],
-    [
-     "Oxford Learner's Dictionaries, read 22 Nov (insurance)",
-     "https://www.oxfordlearnersdictionaries.com/definition/english/insurance"
-    ],
-    [
-     "Oxford Learner's Dictionaries, read 22 Nov (conservation)",
-     "https://www.oxfordlearnersdictionaries.com/definition/english/conservation"
-    ]
-   ]
-  },
-  {
-   "id": "g-chess-geneva",
+   "id": "g-las-vegas-gp",
    "scope": "global",
    "cat": "sports",
-   "emoji": "♟️",
+   "emoji": "🏎️",
    "date": "2026-11-22",
-   "kind": "calendar",
-   "when": "Opening ceremony Sunday 22 November; first game Tuesday 24 November",
-   "x": {
-    "t": "World chess match is due to open in Geneva",
-    "b": [
-     "A big chess match is due to open on Sunday. It is the World Chess Championship. It is due to be held in Geneva, Switzerland.",
-     "D Gukesh of India is the [[champion|champion]]. He is due to play Javokhir Sindarov of Uzbekistan. Both players are 20 years old.",
-     "The first game is due on Tuesday. The match has up to 14 games. The winner takes the world title."
-    ]
-   },
-   "o": {
-    "t": "Gukesh and Sindarov set for World Chess Championship in Geneva",
-    "b": [
-     "The World Chess Championship match is due to open with a ceremony on Sunday 22 November. The match is due to be held in Cologny, Geneva, Switzerland. D Gukesh of India, the world [[champion|champion]], is due to play the challenger, Javokhir Sindarov of Uzbekistan. A challenger is a player who tries to take the title from the champion. Both players are 20.",
-     "Gukesh became world champion in 2024, when he was 18. Sindarov earned his place by winning the 2026 Candidates [[tournament|Tournament]] in Cyprus. FIDE, the International Chess Federation, said this is the youngest World Championship contest in history.",
-     "The first game is due on Tuesday 24 November. The match has up to 14 games. The first player to reach 7.5 points wins the match. If the score is 7-7 after 14 games, faster tie-break games are due to decide the winner on 12 December."
-    ]
-   },
-   "local": {
-    "IN": "The world champion, D Gukesh, is from India."
-   },
-   "think": "Both players are only 20. What do you think helps someone become very good at something while still young?",
-   "quiz": {
-    "q": "What is the most games the World Chess Championship match can have?",
-    "a": [
-     "5",
-     "8",
-     "10",
-     "14"
-    ],
-    "c": 3
-   },
-   "src": [
-    [
-     "FIDE, 14 Sep",
-     "https://www.fide.com/salesforce-fide-world-championship-match-2026-schedule-format-and-prize-fund-confirmed/"
-    ],
-    [
-     "FIDE, 19 Nov",
-     "https://www.fide.com/gukesh-and-sindarov-set-for-world-championship-showdown/"
-    ],
-    [
-     "ChessBase India, 16 Nov",
-     "https://chessbase.in/news/all-that-you-wanted-to-know-about-gukesh-vs-sindarov-world-chess-championship-2026"
-    ],
-    [
-     "World Chess, 5 Nov",
-     "https://worldchess.com/news/gukesh-vs-sindarov-everything-you-need-to-know-about-the-2026-world-chess-championship"
-    ],
-    [
-     "Merriam-Webster, read 22 Nov (champion)",
-     "https://www.merriam-webster.com/dictionary/champion"
-    ],
-    [
-     "Merriam-Webster, read 22 Nov (tournament)",
-     "https://www.merriam-webster.com/dictionary/tournament"
-    ],
-    [
-     "Oxford Learner's Dictionaries, read 22 Nov (challenger)",
-     "https://www.oxfordlearnersdictionaries.com/definition/english/challenger"
-    ]
-   ],
-   "where": {
-    "n": "Geneva, Switzerland",
-    "lat": 46.2,
-    "lon": 6.1
-   }
-  },
-  {
-   "id": "g-signal-ai",
-   "scope": "global",
-   "cat": "tech",
-   "emoji": "📱",
-   "date": "2026-11-20",
    "kind": "news",
    "x": {
-    "t": "A messaging app blocks screenshots to keep chats private",
+    "t": "Verstappen wins a close night race in Las Vegas",
     "b": [
-     "Signal is an [[app|app]] for sending messages. On Friday 20 November, Signal announced a change.",
-     "The app is starting to block [[screenshot|screenshots]] on iPhones and Android phones. A screenshot is a picture of what is on a screen.",
-     "Some phones have [[ai|AI]] helpers built in. These helpers may try to read the screen. Signal wants to stop these helpers reading private chats. People can turn the block off."
+     "Max Verstappen won the Las Vegas Grand Prix. It is a Formula 1 car race held at night. He started in [[pole-position|pole position]], right at the front.",
+     "The race was 50 [[lap|laps]] of the track. The lead changed 35 times. Lando Norris came second, less than one second behind.",
+     "Oscar Piastri started in 17th place. He passed many cars and finished third. Verstappen is second in this year's points table."
     ]
    },
    "o": {
-    "t": "Signal blocks screenshots so phone AI cannot read private chats",
+    "t": "Verstappen wins Las Vegas Grand Prix after 35 lead changes",
     "b": [
-     "The messaging [[app|app]] Signal said on Friday 20 November that it is blocking [[screenshot|screenshots]] on iPhones and Android phones. A screenshot is a picture of what is showing on a screen. On iPhones running iOS 27 software, the block is on unless the user changes it. On Android phones, Signal blocks AI assistants from capturing the screen.",
-     "Signal made the change so that [[ai|AI]] assistants built into phones, such as Apple's Siri AI and Google's Gemini, cannot read private chats by capturing what is on the screen. AI, or artificial intelligence, means computer systems that can copy intelligent human behaviour.",
-     "Users can switch the protection off. Signal said the fix is not complete, because AI assistants may still reach information in other ways. Signal wants Apple and Google to give app makers a simple, standard way to keep AI assistants out of their apps."
+     "[[max-verstappen|Max Verstappen]] of the Red Bull team won the Las Vegas Grand Prix, a Formula 1 race held at night in the United States. It was run on Saturday 21 November, which was Sunday morning in India. Verstappen started from [[pole-position|pole position]], the front place on the starting grid, and it was his third win in Las Vegas.",
+     "The race lasted 50 [[lap|laps]], or trips around the track, and the lead changed 35 times. Lando Norris of McLaren finished second, just 0.639 seconds behind. His teammate Oscar Piastri was third after starting 17th. Kimi Antonelli of Mercedes came fourth.",
+     "Starting first gives a driver a head start, but a race is won over many laps. Antonelli was already sure to finish first this season, so he is this year's [[champion|champion]]. Verstappen is second in the standings, the table of points each driver has scored this season."
     ]
    },
-   "think": "Why might people want some of their messages to stay private?",
+   "think": "The Las Vegas race is held at night. What might be different for drivers racing at night?",
    "quiz": {
-    "q": "What is Signal starting to block?",
+    "q": "Where did Oscar Piastri start the race?",
     "a": [
-     "Phone calls",
-     "Photos",
-     "Voice notes",
-     "Screenshots"
-    ],
-    "c": 3
-   },
-   "src": [
-    [
-     "Engadget, 20 Nov",
-     "https://www.engadget.com/2323574/signal-now-blocks-screenshots-by-default-to-stymie-ai-agents/"
-    ],
-    [
-     "Notebookcheck, 21 Nov",
-     "https://www.notebookcheck.net/Signal-blocks-screenshots-to-keep-AI-out-of-chats-but-Macs-miss-out.1456407.0.html"
-    ],
-    [
-     "Oxford Learner's Dictionaries, read 22 Nov (app)",
-     "https://www.oxfordlearnersdictionaries.com/definition/english/app"
-    ],
-    [
-     "Oxford Learner's Dictionaries, read 22 Nov (screenshot)",
-     "https://www.oxfordlearnersdictionaries.com/definition/english/screenshot"
-    ],
-    [
-     "Oxford Learner's Dictionaries, read 22 Nov (artificial intelligence)",
-     "https://www.oxfordlearnersdictionaries.com/definition/english/artificial-intelligence"
-    ]
-   ]
-  },
-  {
-   "id": "in-hockey-korea",
-   "scope": "IN",
-   "cat": "sports",
-   "emoji": "🏑",
-   "date": "2026-11-21",
-   "kind": "news",
-   "x": {
-    "t": "India's women's hockey team beat South Korea 2-1 in Bhopal",
-    "b": [
-     "India's women won a hockey [[match|match]] on Saturday. They beat South Korea 2-1 in Bhopal.",
-     "It was India's second win in two games. The match was part of a [[tournament|tournament]]. It is called the Women's Asian Champions Trophy.",
-     "India scored two goals before South Korea scored one. India are due to play Thailand on Sunday."
-    ]
-   },
-   "o": {
-    "t": "India's women beat South Korea 2-1 for second hockey win",
-    "b": [
-     "India's women's hockey team beat South Korea 2-1 in Bhopal on Saturday 21 November. The [[match|match]] was part of the Women's Asian Champions Trophy. It is a [[tournament|tournament]], which is a series of contests played for a championship.",
-     "India scored first in the 30th minute, just before half-time, the break in the middle of a match. India scored again four minutes after play started again. South Korea scored their goal in the 56th minute, but India stayed ahead and won.",
-     "It was India's second win in a row. They had beaten Malaysia 4-1 in their opening match of the tournament. India's next match is against Thailand. It is due to be played on Sunday 22 November."
-    ]
-   },
-   "think": "India won two matches in a row. How do you think a team stays calm when the other side scores a goal?",
-   "quiz": {
-    "q": "What was the score when India beat South Korea?",
-    "a": [
-     "1-0",
-     "2-1",
-     "3-2",
-     "4-1"
-    ],
-    "c": 1
-   },
-   "src": [
-    [
-     "The Tribune (PTI), 21 Nov",
-     "https://www.tribuneindia.com/news/asian-champions-trophy-2026/india-beat-south-korea-2-1-to-register-2nd-consecutive-win-in-asian-champions-trophy-womens-hockey"
-    ],
-    [
-     "IANS, 21 Nov",
-     "https://ianslive.in/womens-asian-champions-trophy-india-edge-past-south-korea-2-1-to-register-second-win--20261121222015"
-    ],
-    [
-     "UNI, 21 Nov",
-     "https://www.uniindia.com/sports/sports-hockey-india-women-asian-champions-trophy-21spd35/253373"
-    ],
-    [
-     "Merriam-Webster, read 22 Nov (tournament)",
-     "https://www.merriam-webster.com/dictionary/tournament"
-    ],
-    [
-     "Oxford Learner's Dictionaries, read 22 Nov (match)",
-     "https://www.oxfordlearnersdictionaries.com/definition/american_english/match_1"
-    ],
-    [
-     "Oxford Learner's Dictionaries, read 22 Nov (half-time)",
-     "https://www.oxfordlearnersdictionaries.com/definition/english/half-time"
-    ]
-   ],
-   "where": {
-    "n": "Bhopal",
-    "lat": 23.3,
-    "lon": 77.4
-   }
-  },
-  {
-   "id": "g-iea-cooling",
-   "scope": "global",
-   "cat": "planet",
-   "emoji": "❄️",
-   "date": "2026-11-19",
-   "kind": "news",
-   "x": {
-    "t": "Cooling buildings is overtaking heating, a report says",
-    "b": [
-     "A big energy report came out on Thursday. The International Energy Agency wrote it.",
-     "It says the need for cooling in buildings is now overtaking heating. This is happening for the first time. An [[air-conditioner|air conditioner]] is a machine that cools air.",
-     "One reason is rising temperatures. Another is that families are earning more money."
-    ]
-   },
-   "o": {
-    "t": "Cooling in buildings is now overtaking heating, says IEA",
-    "b": [
-     "For the first time, the world's demand for cooling in buildings is now overtaking the demand for heating. Demand means how much of something people want to use. The finding is in the World Energy Outlook 2026, a report published on Thursday 19 November by the International Energy Agency (IEA).",
-     "Two reasons are given: temperatures are rising, and so are household incomes, the money families earn. In developing countries outside China, fewer than one in five households that face high temperatures own an [[air-conditioner|air conditioner]], a machine that cools and dries air.",
-     "What happens next? In one of the agency's scenarios, or pictures of the future, the [[electricity|electricity]] used for cooling keeps rising up to 2035. Stronger heatwaves, which are spells of very hot weather, could push that rise higher still."
-    ]
-   },
-   "think": "What are some ways to keep cool on a hot day without using electricity?",
-   "quiz": {
-    "q": "Who wrote the big energy report?",
-    "a": [
-     "The World Health Organization",
-     "NASA",
-     "The International Energy Agency",
-     "The International Olympic Committee"
+     "1st",
+     "3rd",
+     "17th",
+     "50th"
     ],
     "c": 2
    },
    "src": [
     [
-     "IEA, read 22 Nov (World Energy Outlook 2026 executive summary)",
-     "https://www.iea.org/reports/world-energy-outlook-2026/executive-summary"
+     "Reuters via Al Jazeera, 22 Nov",
+     "https://www.aljazeera.com/sports/2026/11/22/max-verstappen-las-vegas-grand-prix-f1-norris-piastri-russell-antonelli"
     ],
     [
-     "Eco-Business, 19 Nov",
-     "https://www.eco-business.com/news/global-electricity-demand-to-rise-about-37-per-cent-by-2035-with-heatwaves-and-ai-pushing-projections-higher-iea/"
+     "Formula 1, 22 Nov",
+     "https://www.formula1.com/en/latest/article/verstappen-wins-exhilarating-las-vegas-grand-prix-from-norris-and-piastri.2eeBWqekZdir9mdDVK9YVX"
     ],
     [
-     "Bernama (Anadolu), 19 Nov",
-     "https://www.bernama.com/en/world/news.php?id=2636819"
+     "GrandPrix.com, 22 Nov",
+     "https://www.grandprix.com/races/las-vegas-gp-2026-race-notes.html"
     ],
     [
-     "Oxford Learner's Dictionaries, read 22 Nov (air conditioner)",
-     "https://www.oxfordlearnersdictionaries.com/us/definition/english/air-conditioner"
-    ],
-    [
-     "Oxford Learner's Dictionaries, read 22 Nov (electricity)",
-     "https://www.oxfordlearnersdictionaries.com/definition/english/electricity"
-    ],
-    [
-     "Oxford Learner's Dictionaries, read 22 Nov (heatwave)",
-     "https://www.oxfordlearnersdictionaries.com/definition/english/heatwave"
+     "FormulaOneHistory, 22 Nov",
+     "https://www.formulaonehistory.com/2026-las-vegas-grand-prix/"
     ]
-   ]
+   ],
+   "where": {
+    "n": "Las Vegas, United States",
+    "lat": 36.2,
+    "lon": -115.1
+   }
   },
   {
-   "id": "in-core-sector",
-   "scope": "IN",
-   "cat": "business",
-   "emoji": "🏭",
-   "date": "2026-11-20",
+   "id": "g-salmon-predators",
+   "scope": "global",
+   "cat": "nature",
+   "emoji": "🐟",
+   "date": "2026-11-19",
    "kind": "news",
    "x": {
-    "t": "India's core industries made more in October",
+    "t": "Fewer seals would barely help salmon, a study finds",
     "b": [
-     "India's core [[industry|industries]] make basic things. Coal, steel, cement and electricity are some of them.",
-     "In October, they made 10.9% more than a year earlier. That is about 11 more for every 100. Making more is called growth. The government shared the numbers on Friday.",
-     "The numbers are [[provisional|provisional]]. That means they are for now and may change later."
+     "Seals, sea lions and seabirds eat salmon. Would having fewer of them help salmon? Scientists tested this on a computer.",
+     "Having fewer of these animals barely helped salmon. Why? These [[predator|hunters]] also eat other fish. Some of those fish eat young salmon.",
+     "Everything in the ocean is linked in a [[food-web|food web]]. Changing one part changes others. In the computer test, fewer hake fish helped salmon more."
     ]
    },
    "o": {
-    "t": "India's core industries grew 10.9% in October",
+    "t": "Removing seals and sea lions would barely help salmon, study finds",
     "b": [
-     "India's core [[industry|industries]] produced 10.9% more in October 2026 than in October last year. Core industries make basic things, such as coal, steel, cement and electricity. The Ministry of Commerce and Industry released the figures on Friday 20 November.",
-     "When industries produce more than before, that is called growth. Iron ore, the rock that iron is taken from, grew the most, at 26.4%. Coal grew 23.1% and electricity 21.6%. Fertilisers, which are added to soil to help plants grow, fell 12.2%. Natural gas fell 7.6%. Crude oil, which is oil in its natural state, fell 4.1%.",
-     "From April to October, the core industries grew 6%, against 2.3% in the same months a year earlier. Growth for September has been revised, or changed, from 7.9% to 8.2%. The October figures are [[provisional|provisional]], which means they may be changed later."
+     "A study published in the [[journal|journal]] Science on 19 November found that removing seals, sea lions and seabirds across a wide area off the US West Coast would bring little or no benefit to Chinook and coho, two kinds of salmon. Lead author Dylan Gomes worked at NOAA, a US science agency, and Oregon State University.",
+     "The team used an [[ecosystem|ecosystem]] model, a computer program copying how living things in an area affect each other. These [[predator|predators]], animals that hunt others, also eat Pacific hake and other fish that eat young salmon or compete with them for food. The hake there weigh about 370 times as much as the seals and sea lions together.",
+     "In the model, reducing hake helped salmon more than reducing seals. The study did not test single spots on salmon routes, such as fish ladders, and the authors do not rule out removing particular animals there."
     ]
    },
-   "think": "Why might it help a country to count how much coal, steel and electricity it makes each month?",
+   "think": "Can you think of another way that changing one thing in nature could affect something else?",
    "quiz": {
-    "q": "How much more did India's core industries make in October than a year earlier?",
+    "q": "What did the scientists use to test their idea?",
     "a": [
-     "8.2%",
-     "10.9%",
-     "23.1%",
-     "6%"
+     "A big fishing net",
+     "A computer model",
+     "An underwater robot",
+     "A hot air balloon"
     ],
     "c": 1
    },
+   "where": {
+    "n": "Ocean off the US West Coast",
+    "lat": 44.6,
+    "lon": -124.1
+   },
    "src": [
     [
-     "Business Standard, 20 Nov",
-     "https://www.business-standard.com/amp/economy/news/core-sectors-growth-rises-to-10-9-in-oct-coal-iron-ore-key-drivers-126112000852_1.html"
+     "NOAA Fisheries, 19 Nov",
+     "https://www.fisheries.noaa.gov/feature-story/new-research-finds-culling-seals-sea-lions-ocean-unlikely-benefit-salmon"
     ],
     [
-     "DD News, 20 Nov",
-     "https://ddnews.gov.in/en/indias-core-industries-output-grows-10-9-in-october-led-by-iron-ore-coal-and-electricity/"
+     "AAAS (Science) via EurekAlert, 19 Nov",
+     "https://www.eurekalert.org/news-releases/1151922"
     ],
     [
-     "Lapaas Voice, 20 Nov",
-     "https://lapaasvoice.com/indias-core-sector-growth-hits-10-9-in-october-2026-highest-under-new-series-as-coal-and-iron-ore-surge"
+     "Statesman Journal via Yahoo, Nov",
+     "https://www.yahoo.com/news/science/articles/killing-more-sea-lions-seals-190352831.html"
     ],
     [
-     "Chartforest, 21 Nov",
-     "https://chartforest.com/core-sector-growth-october-2026/"
-    ],
-    [
-     "Oxford Learner's Dictionaries, read 22 Nov (industry)",
-     "https://www.oxfordlearnersdictionaries.com/definition/english/industry"
-    ],
-    [
-     "Oxford Learner's Dictionaries, read 22 Nov (provisional)",
-     "https://www.oxfordlearnersdictionaries.com/definition/english/provisional"
-    ],
-    [
-     "Oxford Learner's Dictionaries, read 22 Nov (ore)",
-     "https://www.oxfordlearnersdictionaries.com/definition/english/ore"
+     "KING 5 via Yahoo, Nov",
+     "https://www.yahoo.com/news/science/articles/killing-seals-sea-lions-across-191534250.html"
     ]
    ]
   },
   {
-   "id": "g-london-museum",
-   "scope": "global",
-   "cat": "culture",
-   "emoji": "🏛️",
-   "date": "2026-11-20",
-   "kind": "calendar",
-   "when": "Due to open Saturday 28 November 2026",
+   "id": "in-hk-open",
+   "scope": "IN",
+   "cat": "sports",
+   "emoji": "🏸",
+   "date": "2026-11-21",
+   "kind": "news",
    "x": {
-    "t": "The London Museum is due to open in a new home on 28 November",
+    "t": "Lakshya Sen's 13-match winning run ends in Hong Kong",
     "b": [
-     "The London Museum is a [[museum|museum]] with a new home. It is due to open on Saturday 28 November.",
-     "The museum is in an old [[market|market]] building at Smithfield. Entry will be free.",
-     "Through a window, visitors will be able to watch trains go past. The swimming trunks that diver Tom Daley wore at the Olympics will be on show."
+     "Lakshya Sen is a badminton player from India. He had won 13 matches in a row. That run ended on Saturday.",
+     "Anders Antonsen from Denmark beat him in the [[semi-final|semi-final]] of the Hong Kong Open. A semi-final decides who plays in the last match.",
+     "Sen won two [[tournament|tournaments]] earlier this month. Winning 13 in a row is hard to do. Antonsen's win took him into the [[final|final]]."
     ]
    },
    "o": {
-    "t": "London Museum due to open in an old market on 28 November",
+    "t": "Antonsen ends Lakshya Sen's 13-match run in Hong Kong semi-final",
     "b": [
-     "The London Museum is due to open on Saturday 28 November 2026. Its new home is the old General Market building at Smithfield in London. The project has taken about a decade, which is ten years.",
-     "Through a window, visitors will be able to watch Thameslink trains pass. Also on show will be the Cheapside Hoard. A [[hoard|hoard]] is a collection of valuable objects. The diver Tom Daley's Olympic swimming trunks will be there, along with the bass guitar smashed by Paul Simonon of the band The Clash.",
-     "Entry to the permanent galleries, the rooms of displays that stay in place, will be free."
+     "India's Lakshya Sen lost to Anders Antonsen of Denmark in the men's singles [[semi-final|semi-final]] of the Hong Kong Open badminton [[tournament|tournament]] on Saturday 21 November. A semi-final is one of two matches that decide who plays in the [[final|final]]. Antonsen won 21-13, 21-13, taking both games.",
+     "The defeat ended Sen's run of 13 wins in a row. Earlier in November he won two other tournaments, the Hylo Open and the Kumamoto Masters. Winning so many matches in a row is a big achievement, and even the best players lose sometimes.",
+     "India's men's [[doubles|doubles]] pair, Satwik Rankireddy and Chirag Shetty, also lost their semi-final. Doubles is a match with two players on each side. Antonsen's win sent him through to the final."
     ]
    },
-   "think": "If you could put one object in a museum about your town, what would it be, and why?",
+   "think": "Lakshya Sen won 13 matches in a row before he lost. What can a player learn from a loss after a long winning run?",
    "quiz": {
-    "q": "On which day is the London Museum due to open?",
+    "q": "Who beat Lakshya Sen in the Hong Kong Open semi-final?",
     "a": [
-     "Saturday 21 November",
-     "Saturday 28 November",
-     "Saturday 5 December",
-     "Saturday 12 December"
+     "Chirag Shetty",
+     "Anders Antonsen",
+     "Satwik Rankireddy",
+     "Max Verstappen"
     ],
     "c": 1
    },
    "src": [
     [
-     "London Museum, 18 Jun",
-     "https://www.londonmuseum.org.uk/about/press/press-releases/london-museum-smithfield-will-open-doors/"
+     "Tribune India (ANI), 21 Nov",
+     "https://www.tribuneindia.com/news/anders-antonsen/lakshya-sen-loses-hong-kong-open-semi-final-to-anders-antonsen"
     ],
     [
-     "ianVisits, 20 Nov",
-     "https://ianvisits.co.uk/articles/hordings-coming-down-ahead-of-the-london-museums-opening-weekend-94249"
+     "IndiaSportsHub, 21 Nov",
+     "https://www.indiasportshub.com/articles/lakshya-sen-loses-to-anders-antonsen-in-hong-kong-open-semifinal-india-s-shuttler-s-13-match-winning-run-ends"
     ],
     [
-     "ianVisits, 28 Oct",
-     "https://www.ianvisits.co.uk/articles/one-month-to-go-until-london-museum-opens-its-new-smithfield-home-93627/"
-    ],
-    [
-     "Oxford Learner's Dictionaries, read 22 Nov (museum)",
-     "https://www.oxfordlearnersdictionaries.com/definition/english/museum"
-    ],
-    [
-     "Oxford Learner's Dictionaries, read 22 Nov (market)",
-     "https://www.oxfordlearnersdictionaries.com/us/definition/english/market_1"
-    ],
-    [
-     "Oxford Learner's Dictionaries, read 22 Nov (hoard)",
-     "https://www.oxfordlearnersdictionaries.com/definition/english/hoard_1"
-    ],
-    [
-     "Oxford Learner's Dictionaries, read 22 Nov (decade)",
-     "https://www.oxfordlearnersdictionaries.com/definition/american_english/decade"
+     "The Bridge, 21 Nov",
+     "https://thebridge.in/badminton/lakshya-sen-satwik-chirag-loses-hong-kong-open-58447"
     ]
-   ]
+   ],
+   "where": {
+    "n": "Hong Kong",
+    "lat": 22.3,
+    "lon": 114.2
+   }
   }
  ],
  "glossary": {
-  "climate": [
-   "climate",
-   "science",
-   "The usual weather of a place over many years.",
-   "The average weather conditions of a particular place or region over a period of years."
-  ],
-  "agreement": [
-   "agreement",
-   "words",
-   "An arrangement or a promise made with somebody.",
-   "An arrangement, a promise or a contract made with somebody."
-  ],
-  "fossil-fuel": [
-   "fossil fuel",
-   "science",
-   "Fuel such as coal or oil. It was formed over millions of years from dead animals or plants.",
-   "Fuel such as coal or oil that was formed over millions of years from parts of dead animals or plants."
-  ],
-  "air-conditioner": [
-   "air conditioner",
-   "tech",
-   "A machine that cools and dries air.",
-   "A machine that cools and dries air."
-  ],
-  "electricity": [
-   "electricity",
-   "science",
-   "A form of energy that usually comes through wires. It is used for lighting, heating and driving machines.",
-   "A form of energy from charged elementary particles, usually supplied as electric current through cables and wires, for lighting, heating and driving machines."
-  ],
-  "report": [
-   "report",
-   "words",
-   "Something written that gives people information about a subject.",
-   "An official document written by a group of people who have studied a particular subject or problem."
-  ],
-  "survey": [
-   "survey",
-   "words",
-   "Asking many people questions to find out what they think.",
-   "An investigation of the opinions or behaviour of a group of people, usually done by asking them questions."
-  ],
-  "ranger": [
-   "ranger",
-   "words",
-   "A person whose job is to look after a forest or a park.",
-   "A person whose job is to take care of a park, a forest or an area of countryside."
-  ],
-  "insurance": [
-   "insurance",
-   "words",
-   "A plan that pays money to help when something goes wrong, such as an accident.",
-   "An arrangement with a company in which regular payments are made and the company agrees to pay the costs if, for example, someone is hurt or something is lost or damaged."
-  ],
-  "industry": [
-   "industry",
-   "words",
-   "The people and work that make one kind of thing, such as steel or cement.",
-   "The people and activities involved in producing a particular thing, such as steel or coal, or in providing a particular service."
-  ],
-  "provisional": [
-   "provisional",
-   "words",
-   "For now, and likely to change later.",
-   "Arranged for the present time only and likely to be changed in the future."
-  ],
-  "champion": [
-   "champion",
-   "words",
-   "The winner of first place in a competition.",
-   "The winner of first prize or first place in a competition."
-  ],
-  "tournament": [
-   "tournament",
-   "words",
-   "A series of contests played for a championship.",
-   "A contest or series of contests played for a championship."
-  ],
-  "semi-final": [
-   "semi-final",
-   "words",
-   "One of the two games that decide who will play in the final.",
-   "One of the two games or parts of a sports competition that are held to decide who will compete in the last part, the final."
-  ],
-  "final": [
-   "final",
-   "words",
-   "The last game of a tournament.",
-   "The last match or game of a tournament."
-  ],
-  "calf": [
-   "calf",
-   "words",
-   "A young animal, such as a baby cow, elephant or rhino.",
-   "A young cow, or the young of some other large animals, such as an elephant, a whale or a rhino."
-  ],
-  "dung": [
-   "dung",
-   "words",
-   "Solid waste from animals, especially large ones.",
-   "Solid waste from animals, especially from large ones."
-  ],
-  "hormone": [
-   "hormone",
-   "science",
-   "A chemical made in the body that changes how the body grows or works.",
-   "A chemical substance produced in the body that encourages growth or influences how cells and tissues work."
-  ],
-  "app": [
-   "app",
-   "tech",
-   "A program for a phone or computer that does a particular job.",
-   "A program designed to do a particular job, especially one that you can use on a smartphone."
-  ],
-  "screenshot": [
-   "screenshot",
-   "tech",
-   "A picture of what is showing on a phone or computer screen.",
-   "An image of what is displayed on a phone or computer screen."
-  ],
-  "ai": [
-   "AI (artificial intelligence)",
-   "tech",
-   "Computer systems that can copy clever things that people do.",
-   "Computer systems that can copy intelligent human behaviour. The term also means the study and development of these systems."
-  ],
-  "museum": [
-   "museum",
-   "words",
-   "A building where interesting old or special objects are kept and shown to people.",
-   "A building in which objects of artistic, cultural, historical or scientific interest are kept and shown to the public."
-  ],
-  "market": [
-   "market",
-   "words",
-   "A place where people meet to buy and sell things.",
-   "An occasion when people buy and sell goods, or the open area or building where they meet to do this."
-  ],
-  "hoard": [
-   "hoard",
-   "words",
-   "A collection of valuable things, often kept in a secret place.",
-   "A collection of money, food or valuable objects, especially one that somebody keeps in a secret place."
-  ],
-  "match": [
-   "match",
-   "words",
-   "A sports game in which people or teams play against each other.",
-   "A sports event in which people compete against each other."
-  ],
   "light-day": [
    "light-day",
    "science",
@@ -914,271 +400,311 @@
    "tech",
    "NASA's big antennas that keep track of faraway spacecraft.",
    "NASA's network of giant radio antennas, with sites in California, near Madrid in Spain and near Canberra in Australia. It keeps track of Voyager 1."
+  ],
+  "champion": [
+   "champion",
+   "words",
+   "The winner of first place in a competition.",
+   "The winner of first prize or first place in a competition."
+  ],
+  "basin-reserve": [
+   "Basin Reserve",
+   "places",
+   "A cricket ground in Wellington, New Zealand.",
+   "The cricket ground in Wellington, New Zealand, where India and New Zealand are playing the first Test."
+  ],
+  "declare": [
+   "declare",
+   "words",
+   "In cricket, when a team chooses to stop batting early.",
+   "In cricket, to choose to end your team's innings before all of its batters are out."
+  ],
+  "innings": [
+   "innings",
+   "words",
+   "A team's turn to bat.",
+   "A period of time in a game during which a team or a single player is batting."
+  ],
+  "century": [
+   "century",
+   "words",
+   "A score of 100 runs or more by one player.",
+   "In cricket, a score of 100 runs or more by one player in one innings."
+  ],
+  "semi-final": [
+   "semi-final",
+   "words",
+   "One of the two games that decide who will play in the final.",
+   "One of the two games or parts of a sports competition that are held to decide who will compete in the last part, the final."
+  ],
+  "final": [
+   "final",
+   "words",
+   "The last game of a tournament.",
+   "The last match or game of a tournament."
+  ],
+  "tournament": [
+   "tournament",
+   "words",
+   "A series of contests played for a championship.",
+   "A contest or series of contests played for a championship."
+  ],
+  "doubles": [
+   "doubles",
+   "words",
+   "A game with two players on each side.",
+   "A game, such as tennis or badminton, in which one pair of players plays against another pair."
+  ],
+  "max-verstappen": [
+   "Max Verstappen",
+   "people",
+   "A Formula 1 driver for the Red Bull team.",
+   "A Formula 1 racing driver who drives for the Red Bull team."
+  ],
+  "pole-position": [
+   "pole position",
+   "words",
+   "The front place at the start of a car race.",
+   "The leading position at the start of a race involving cars or bicycles."
+  ],
+  "lap": [
+   "lap",
+   "words",
+   "One trip all the way around a race track.",
+   "One complete journey around a track or racing circuit."
+  ],
+  "cop31": [
+   "COP31",
+   "civics",
+   "A big meeting where countries talk about the climate.",
+   "The United Nations climate conference held in Antalya, Turkey, where countries talk about the climate."
+  ],
+  "draft": [
+   "draft",
+   "words",
+   "An early version of a piece of writing, not the final one.",
+   "An early version of a piece of writing, such as an agreement, made before the final version."
+  ],
+  "fossil-fuel": [
+   "fossil fuel",
+   "science",
+   "Fuel such as coal or oil. It was formed over millions of years from dead animals or plants.",
+   "Fuel such as coal or oil that was formed over millions of years from parts of dead animals or plants."
+  ],
+  "consensus": [
+   "consensus",
+   "words",
+   "When the members of a group all agree.",
+   "Agreement among the members of a group. A deal at the United Nations climate talks needs consensus among the countries."
+  ],
+  "european-union": [
+   "European Union",
+   "civics",
+   "A group that many European countries belong to.",
+   "An economic and political organisation that many European countries belong to. It is often called the EU."
+  ],
+  "mercury": [
+   "Mercury",
+   "science",
+   "The planet closest to the Sun.",
+   "The planet closest to the Sun, and the smallest planet in our solar system."
+  ],
+  "orbit": [
+   "orbit",
+   "science",
+   "The path something follows as it travels around a planet.",
+   "The curved path that an object in space follows as it moves around a planet, star or moon."
+  ],
+  "gravity": [
+   "gravity",
+   "science",
+   "The pull that makes things fall to the ground.",
+   "The force that attracts objects towards each other, such as the force that makes things fall to the ground."
+  ],
+  "esa": [
+   "European Space Agency",
+   "science",
+   "A group of European countries that explore space together.",
+   "ESA: the organisation through which European countries build and fly space missions together."
+  ],
+  "journal": [
+   "journal",
+   "words",
+   "A magazine about one subject, such as science.",
+   "A newspaper or magazine that deals with a particular subject or profession, such as science."
+  ],
+  "predator": [
+   "predator",
+   "science",
+   "An animal that hunts and eats other animals.",
+   "An animal that lives by hunting and eating other animals."
+  ],
+  "food-web": [
+   "food web",
+   "science",
+   "How the plants and animals in a place are linked by what eats what.",
+   "A network of food chains that shows which living things eat which others in a particular place."
+  ],
+  "ecosystem": [
+   "ecosystem",
+   "science",
+   "All the plants and animals in one place, and how they live together.",
+   "All the plants and living creatures in a particular area, and the way they affect each other and their surroundings."
   ]
  },
  "keys": {
-  "g-rhino-calf": {
+  "g-bepicolombo": {
    "type": "number",
-   "v": "About 4,000",
-   "l": "greater one-horned rhinos live in the wild, in India and Nepal"
+   "v": "9",
+   "l": "planet flybys on the way to Mercury"
   },
-  "in-young-india": {
+  "in-test-wellington": {
    "type": "number",
-   "v": "83%",
-   "l": "of the people in India who answered UNFPA's survey felt positive or very positive about the future"
-  },
-  "g-atp-final": {
-   "type": "number",
-   "v": "13",
-   "l": "wins in a row for Carlos Alcaraz by Saturday"
+   "v": "720",
+   "l": "runs India scored before declaring, the highest Test total in New Zealand"
   },
   "g-cop31": {
    "type": "number",
    "v": "nearly 200",
-   "l": "countries taking part in the talks"
+   "l": "countries that had to agree on a deal"
   },
-  "in-ranger-insurance": {
+  "g-las-vegas-gp": {
    "type": "number",
-   "v": "10,000",
-   "l": "temporary wildlife rangers in seven Indian states who will get accident insurance"
+   "v": "35",
+   "l": "times the lead changed in the 50-lap race"
   },
-  "g-chess-geneva": {
+  "g-salmon-predators": {
    "type": "number",
-   "v": "14",
-   "l": "games at most in the World Chess Championship match"
+   "v": "370 to 1",
+   "l": "how much more hake weigh than seals and sea lions in the study area"
   },
-  "in-hockey-korea": {
+  "in-hk-open": {
    "type": "number",
-   "v": "2",
-   "l": "wins for India in two games"
-  },
-  "in-core-sector": {
-   "type": "number",
-   "v": "10.9%",
-   "l": "growth of India's core industries in October 2026, compared with October last year"
+   "v": "13",
+   "l": "wins in a row for Lakshya Sen before his semi-final"
   }
  },
  "xkeys": {
-  "g-rhino-calf": {
+  "g-bepicolombo": {
    "type": "check",
-   "q": "How soon did the calf stand up?",
+   "q": "Which planet is BepiColombo now going around?",
    "a": [
-    "Within an hour",
-    "After a week"
+    "Mercury",
+    "Mars"
    ],
    "c": 0,
-   "right": "Right! The calf stood up within an hour.",
-   "wrong": "Not quite. The calf stood up within an hour."
+   "right": "Right! BepiColombo is now going around Mercury.",
+   "wrong": "Not quite. BepiColombo is now going around Mercury, the planet closest to the Sun."
   },
-  "in-young-india": {
+  "in-test-wellington": {
    "type": "check",
-   "q": "Who answered UNFPA's survey?",
+   "q": "Did India stop batting because they chose to?",
    "a": [
-    "Adults who use the internet",
-    "Children at school"
+    "Yes, they declared",
+    "No, they were all out"
    ],
    "c": 0,
-   "right": "Right! The survey was of adults who use the internet.",
-   "wrong": "Not quite. The survey was of adults who use the internet."
-  },
-  "g-atp-final": {
-   "type": "check",
-   "q": "Who had won this tournament twice before?",
-   "a": [
-    "Alcaraz",
-    "Zverev"
-   ],
-   "c": 1,
-   "right": "Right! Zverev had won this tournament twice before.",
-   "wrong": "Not quite. Zverev had won this tournament twice before. Alcaraz had never won it."
+   "right": "Right! India declared. They chose to stop batting so they had time to bowl.",
+   "wrong": "Not quite. India declared. That means they chose to stop batting."
   },
   "g-cop31": {
    "type": "check",
-   "q": "Does every country have to say yes to the plan?",
+   "q": "Did the new plan name fossil fuels?",
    "a": [
     "Yes",
     "No"
    ],
-   "c": 0,
-   "right": "Right! Every country has to say yes to the plan.",
-   "wrong": "Not quite. Every country has to say yes to the plan."
-  },
-  "in-ranger-insurance": {
-   "type": "check",
-   "q": "In how many states do the rangers work?",
-   "a": [
-    "Two",
-    "Seven"
-   ],
    "c": 1,
-   "right": "Right! The rangers work in seven states.",
-   "wrong": "Not quite. The rangers work in seven states."
+   "right": "Right! The new plan did not name fossil fuels.",
+   "wrong": "Not quite. The new plan did not name fossil fuels like oil and gas."
   },
-  "g-chess-geneva": {
+  "g-las-vegas-gp": {
    "type": "check",
-   "q": "How old are both players?",
+   "q": "Who won the race in Las Vegas?",
    "a": [
-    "20",
-    "30"
+    "Max Verstappen",
+    "Lando Norris"
    ],
    "c": 0,
-   "right": "Right! Both players are 20 years old.",
-   "wrong": "Not quite. Both players are 20 years old."
+   "right": "Right! Max Verstappen won. Lando Norris came second.",
+   "wrong": "Not quite. Max Verstappen won. Lando Norris came second."
   },
-  "g-signal-ai": {
+  "g-salmon-predators": {
    "type": "check",
-   "q": "Can people turn the screenshot block off?",
-   "a": [
-    "No",
-    "Yes"
-   ],
-   "c": 1,
-   "right": "Right! People can turn the block off.",
-   "wrong": "Not quite. People can turn the block off."
-  },
-  "in-hockey-korea": {
-   "type": "check",
-   "q": "Who are India due to play on Sunday?",
-   "a": [
-    "South Korea",
-    "Thailand"
-   ],
-   "c": 1,
-   "right": "Right! India are due to play Thailand on Sunday.",
-   "wrong": "Not quite. India are due to play Thailand on Sunday."
-  },
-  "g-iea-cooling": {
-   "type": "check",
-   "q": "Which is now overtaking the other in buildings?",
-   "a": [
-    "Heating is overtaking cooling",
-    "Cooling is overtaking heating"
-   ],
-   "c": 1,
-   "right": "Right! Cooling in buildings is now overtaking heating.",
-   "wrong": "Not quite. Cooling in buildings is now overtaking heating."
-  },
-  "in-core-sector": {
-   "type": "check",
-   "q": "Can provisional numbers change later?",
+   "q": "Did removing seals and sea lions help salmon a lot?",
    "a": [
     "Yes",
     "No"
    ],
-   "c": 0,
-   "right": "Right! Provisional numbers are for now and may change later.",
-   "wrong": "Not quite. Provisional numbers are for now and may change later."
+   "c": 1,
+   "right": "Right! It barely helped salmon.",
+   "wrong": "Not quite. It barely helped salmon, because seals also eat fish that eat young salmon."
   },
-  "g-london-museum": {
+  "in-hk-open": {
    "type": "check",
-   "q": "Will people have to pay to go in?",
+   "q": "Which country is Anders Antonsen from?",
    "a": [
-    "No, entry will be free",
-    "Yes"
+    "India",
+    "Denmark"
    ],
-   "c": 0,
-   "right": "Right! Entry will be free.",
-   "wrong": "Not quite. Entry will be free."
+   "c": 1,
+   "right": "Right! Anders Antonsen is from Denmark.",
+   "wrong": "Not quite. Anders Antonsen is from Denmark. Lakshya Sen is from India."
   }
  },
  "deep": {
-  "g-rhino-calf": {
-   "ctx": "About 4,000 greater one-horned rhinos live in the wild, in India and Nepal, and the species is vulnerable to extinction. Staff at Chester Zoo tracked the mother's hormones from dung samples to follow her pregnancy, which lasted about 15 months.",
-   "ask": "Some people think zoos help rare animals by breeding them and letting visitors learn about them. Others think the effort should go into protecting animals where they live in the wild. What do you think, and why?",
+  "g-bepicolombo": {
+   "ctx": "BepiColombo was launched in 2018 by the European Space Agency and the Japan Aerospace Exploration Agency. Of its two spacecraft, MPO will map Mercury's surface and what it is made of, and Mio will study the planet's magnetic field, with science work due to start in April 2027.",
+   "ask": "BepiColombo was built by space agencies from Europe and Japan working together. Some people think big space missions are better shared between countries, so they can combine money and skills. Others think one agency working alone can decide faster and keep full control. Which way do you think works better for exploring space, and why?",
    "jobs": [
-    "Zookeeper",
-    "Wildlife veterinarian",
-    "Conservation scientist"
+    "Spacecraft engineer",
+    "Planetary scientist",
+    "Mission controller"
    ]
   },
-  "in-young-india": {
-   "ctx": "State of World Population is a report from UNFPA, the United Nations Population Fund. The 2026 report says the aim should move from saving succeeding generations to ensuring those generations succeed. UNFPA said India has made important progress in health and development and that young people are central to the country's future.",
-   "ask": "UNFPA's survey asked adults who use the internet. Some people think an online survey is a fair way to hear from many people in many countries. Others think it leaves out people who are not online, and those under 18, whose views matter too. How much should leaders rely on a survey like this, and why?",
+  "in-test-wellington": {
+   "ctx": "India's 720 for 9 is the highest team total ever made in a Test in New Zealand. After New Zealand made 368, KL Rahul scored 136 and Rishabh Pant 128, giving India a first-innings lead of 352. New Zealand ended day four on 119 for 2, with Devon Conway 59 not out.",
+   "ask": "India batted into day four before declaring, which built a huge lead but left less time to bowl New Zealand out. Some people think a bigger lead is the safest way to win a Test. Others think declaring earlier gives the bowlers more time and is worth the risk. Which would you choose, and why?",
    "jobs": [
-    "Demographer",
-    "Survey researcher",
-    "Youth worker"
-   ]
-  },
-  "g-atp-final": {
-   "ctx": "Before Sunday's final, Alexander Zverev had won the ATP Finals twice, in 2018 and 2021, and was seeking a third title. Carlos Alcaraz had never won it and lost last year's final to Jannik Sinner. Alcaraz led Zverev 7-6 in their earlier matches.",
-   "ask": "Alcaraz arrived at the final on a run of 13 wins, while Zverev had won this title twice before. Some people think recent form matters most in a big final. Others think the experience of having won that event matters more. What do you think, and why?",
-   "jobs": [
-    "Tennis coach",
-    "Sports journalist",
-    "Sports physiotherapist"
+    "Cricket coach",
+    "Sports statistician",
+    "Cricket commentator"
    ]
   },
   "g-cop31": {
-   "ctx": "At these talks decisions are taken by consensus, which means every country has to accept the text. An earlier draft called for faster action to phase out fossil fuels, but the version published on Thursday 19 November did not mention them.",
-   "ask": "At these talks every country has to accept the final text. Some people think this is fair, because no country can be pushed into a deal it did not agree to. Others think it lets a few countries hold up everyone else. What do you think is the best way for countries to decide together, and why?",
+   "ctx": "The 2015 Paris Agreement included a goal of limiting global warming to 1.5°C, and the UN has said the world is likely to pass it.",
+   "ask": "The new draft referred back to an earlier agreement instead of naming fossil fuels, and some countries would not accept it. Some people think a deal that every country can accept is better than no deal, even if it says less. Others think a text that does not go far enough is not worth agreeing to. Which matters more to you, and why?",
    "jobs": [
-    "Climate scientist",
     "Diplomat",
-    "Environmental lawyer"
+    "Climate scientist",
+    "Energy policy analyst"
    ]
   },
-  "in-ranger-insurance": {
-   "ctx": "The programme comes through United for Wildlife, Prince William's conservation group. In India, the Wildlife Trust of India and WWF-India are among the partners. The programme covers seven states.",
-   "ask": "This programme covers 10,000 temporary rangers for five years. Some people think conservation groups should step in like this to protect people who guard wildlife. Others think accident insurance should be a regular part of every ranger's job, arranged by the employer. Who should be responsible, and why?",
+  "g-las-vegas-gp": {
+   "ctx": "Max Verstappen started from pole position and beat Lando Norris by 0.639 seconds for his third win in Las Vegas. Kimi Antonelli of Mercedes had already won this year's championship before the race, and Verstappen is second in the standings.",
+   "ask": "Verstappen won from the front, while Oscar Piastri climbed from 17th to third. Some people think the starting position decides most Formula 1 races. Others think overtaking and race plans over many laps matter more. Which do you think counts for more, and why?",
    "jobs": [
-    "Forest ranger",
-    "Wildlife biologist",
-    "Insurance adviser"
+    "Race engineer",
+    "Motorsport mechanic",
+    "Sports data analyst"
    ]
   },
-  "g-chess-geneva": {
-   "ctx": "D Gukesh won the world title in December 2024, aged 18. Javokhir Sindarov qualified by winning the 2026 Candidates Tournament unbeaten, with 10 points from 14 games, and had earlier won the 2025 FIDE World Cup. The prize fund for the match is US $2.5 million.",
-   "ask": "The world title is decided over up to 14 games, with faster tie-break games only if the score is level. Some people think a match of many games is the fairest way to find the best player. Others think a shorter match would be more exciting to follow. What do you think, and why?",
+  "g-salmon-predators": {
+   "ctx": "The study modelled the food web of the Northern California Current, the ocean off the US West Coast. Besides hake, the predators also eat other fish such as jack mackerel, and in the model reducing hake helped salmon more than reducing seals and sea lions.",
+   "ask": "This study looked at a wide area of ocean, not single spots like fish ladders. Some people think it shows that removing predators is not a good way to help salmon. Others think removing particular animals could still help in certain spots. Which view do you find more convincing, and what extra evidence would help you decide?",
    "jobs": [
-    "Chess coach",
-    "Chess arbiter",
-    "Sports commentator"
+    "Marine biologist",
+    "Fisheries scientist",
+    "Ecological modeller"
    ]
   },
-  "g-signal-ai": {
-   "ctx": "Signal said its fix is incomplete, because AI assistants may still reach information by other routes, such as files stored on the device. On Mac computers Signal cannot offer the same protection, because the operating system does not give app makers the tools.",
-   "ask": "Some people think an AI assistant is more useful when it can see everything on a phone screen. Others think apps should be able to keep it out of private messages. Who should decide what an AI assistant can see: the phone maker, the app maker or the user? What do you think, and why?",
+  "in-hk-open": {
+   "ctx": "Earlier in November, Lakshya Sen won the Hylo Open and the Kumamoto Masters. His 21-13, 21-13 semi-final defeat to Anders Antonsen of Denmark at the Hong Kong Open ended a run of 13 wins in a row. India's men's doubles pair, Satwik Rankireddy and Chirag Shetty, also lost in the semi-finals.",
+   "ask": "Sen played several tournaments close together this month and won 13 matches in a row before losing. Some people think top players should play as often as they can while they are in good form. Others think they should rest more between events to stay fresh. Which do you think is better, and why?",
    "jobs": [
-    "Software engineer",
-    "Cybersecurity analyst",
-    "App developer"
-   ]
-  },
-  "in-hockey-korea": {
-   "ctx": "India beat Malaysia 4-1 in their opening match of the Women's Asian Champions Trophy and then beat South Korea 2-1 in Bhopal. India's goals against South Korea came in the 30th minute and four minutes after half-time, and South Korea's goal in the 56th minute.",
-   "ask": "After South Korea scored, India were only one goal ahead. Some people think a team that is ahead should keep attacking to score again. Others think it should defend carefully to protect its lead. What do you think, and why?",
-   "jobs": [
-    "Hockey coach",
-    "Umpire",
-    "Fitness trainer"
-   ]
-  },
-  "g-iea-cooling": {
-   "ctx": "The finding comes from the World Energy Outlook 2026, published by the International Energy Agency on 19 November. The agency gives rising temperatures and rising household incomes as reasons, and one of its scenarios projects that electricity used for cooling will keep rising to 2035. In developing countries outside China, fewer than one in five households that face high temperatures own an air conditioner.",
-   "ask": "Air conditioners keep homes cool in hot weather, but they use electricity. Some people think the first step is to help every family get cooling quickly. Others think the first step should be designing buildings that stay cool with less energy. What do you think, and why?",
-   "jobs": [
-    "Energy analyst",
-    "Architect",
-    "Electrical engineer"
-   ]
-  },
-  "in-core-sector": {
-   "ctx": "The figure compares what India's core industries produced in October 2026 with October last year. Iron ore, coal and electricity grew the most, while fertilisers, natural gas and crude oil fell. From April to October growth was 6%, against 2.3% in the same months a year earlier.",
-   "ask": "The October figures are provisional and may be changed later. Some people think it is better to share early figures quickly, so that people can plan. Others think it is better to wait until the numbers are final, so that nobody is misled. What do you think, and why?",
-   "jobs": [
-    "Economist",
-    "Statistician",
-    "Mining engineer"
-   ]
-  },
-  "g-london-museum": {
-   "ctx": "The move to the General Market at Smithfield has taken about a decade. Entry to the permanent galleries will be free.",
-   "ask": "Some people think museums should always be free, so that everyone can visit. Others think visitors should pay, to help with the cost of looking after the objects. What do you think, and why?",
-   "jobs": [
-    "Museum curator",
-    "Conservator",
-    "Exhibition designer"
+    "Badminton coach",
+    "Sports physiotherapist",
+    "Sports nutritionist"
    ]
   }
  },

@@ -1,0 +1,1303 @@
+{
+ "schema": 1,
+ "date": "2026-11-22",
+ "edition": "pm",
+ "countries": [
+  "IN"
+ ],
+ "stories": [
+  {
+   "id": "g-bepicolombo",
+   "scope": "global",
+   "cat": "space",
+   "emoji": "🛰️",
+   "date": "2026-11-21",
+   "kind": "news",
+   "x": {
+    "t": "A spacecraft reaches Mercury after a trip of about eight years",
+    "b": [
+     "A spacecraft called BepiColombo is now going around [[mercury|Mercury]]. Mercury is the planet closest to the Sun.",
+     "BepiColombo left Earth in 2018. Its trip took about eight years. On the way, it flew past planets nine times. A planet's [[gravity|pull]] helped it slow down or turn.",
+     "Europe and Japan made it together. In December, it will split into two. Science work is due to start in 2027."
+    ]
+   },
+   "o": {
+    "t": "BepiColombo spacecraft goes into orbit around Mercury",
+    "b": [
+     "BepiColombo, a joint mission of the [[esa|European Space Agency]] (ESA) and Japan's space agency JAXA, went into [[orbit|orbit]] around [[mercury|Mercury]], the closest planet to the Sun, on Saturday 21 November. An orbit is a curved path around a planet. Firing its thrusters, small rocket engines, slowed it so Mercury's [[gravity|gravity]] could capture it.",
+     "It was launched in 2018 and travelled for about eight years, making nine flybys: Earth once, Venus twice and Mercury six times. A flyby uses a planet's gravity, the force pulling objects together, to slow a spacecraft or change its direction.",
+     "BepiColombo carries two spacecraft, ESA's Mercury Planetary Orbiter (MPO) and JAXA's Mio, due to separate on 9 and 10 December 2026. MPO will map Mercury's surface and what it is made of. Mio will study Mercury's magnetic field, its area of magnetic force. Science work is due to start in April 2027."
+    ]
+   },
+   "think": "If you could send a spacecraft to any planet, which one would you choose, and what would you want to find out?",
+   "quiz": {
+    "q": "How many flybys did BepiColombo make on its way to Mercury?",
+    "a": [
+     "Two",
+     "Five",
+     "Nine",
+     "Twenty"
+    ],
+    "c": 2
+   },
+   "src": [
+    [
+     "AP via ABC News, 22 Nov",
+     "https://abcnews.com/Technology/wireStory/mercury-gets-visitor-years-pair-spacecraft-loop-orbit-138351997"
+    ],
+    [
+     "AFP via The Manila Times, 22 Nov",
+     "https://www.manilatimes.net/2026/11/22/world/japan-europe-joint-probe-enters-mercurys-orbit/2475665"
+    ],
+    [
+     "AeroTime, 22 Nov",
+     "https://www.aerotime.aero/articles/bepicolombo-reaches-mercury-orbit-after-nearly-eight-years-in-space"
+    ],
+    [
+     "ESA, 29 Oct",
+     "https://www.esa.int/Science_Exploration/Space_Science/BepiColombo/Latest_updates_BepiColombo_s_arrival_at_Mercury"
+    ],
+    [
+     "Eos, Nov",
+     "https://eos.org/research-and-developments/bepicolombo-arrives-at-mercury"
+    ]
+   ]
+  },
+  {
+   "id": "in-test-wellington",
+   "scope": "IN",
+   "cat": "sports",
+   "emoji": "🏏",
+   "date": "2026-11-22",
+   "kind": "news",
+   "x": {
+    "t": "India make the biggest Test score ever in New Zealand",
+    "b": [
+     "India made the biggest Test score ever in New Zealand. A Test is a long cricket match. They scored 720 runs in Wellington.",
+     "Then India [[declare|declared]]. That means they chose to stop batting. Now they have time to get New Zealand out.",
+     "New Zealand have 119 runs, with two batters out. They are 233 runs behind. Monday is the last day."
+    ]
+   },
+   "o": {
+    "t": "India declare on a record 720 as New Zealand try to save Test",
+    "b": [
+     "India declared on 720 for 9, meaning 720 runs with nine batters out, on Sunday 22 November. It was day four of the five-day first Test against New Zealand at the [[basin-reserve|Basin Reserve]] in Wellington. It is the highest Test total ever in New Zealand. To [[declare|declare]] is to choose to stop batting, leaving time to bowl the other side out.",
+     "New Zealand made 368 in their first [[innings|innings]], a team's turn to bat, so India led by 352. KL Rahul scored 136 and Rishabh Pant 128, his ninth Test [[century|century]], a score of 100 runs or more.",
+     "At the end of the day, New Zealand were 119 for 2, still 233 behind, with Devon Conway on 59 and still batting. On Monday, the last day, India will try to get eight more batters out, while New Zealand will try to bat all day to save the match."
+    ]
+   },
+   "think": "On Monday, New Zealand will try to bat all day to save the match. Is it harder to score lots of runs, or to stay in and not get out? Why?",
+   "quiz": {
+    "q": "What score did India declare on?",
+    "a": [
+     "119 for 2",
+     "368 for 9",
+     "720 for 9",
+     "352 for 4"
+    ],
+    "c": 2
+   },
+   "src": [
+    [
+     "PTI via Siasat, 22 Nov",
+     "https://www.siasat.com/nz-reach-119-2-at-stumps-india-declare-at-720-9-highest-team-total-3583669/"
+    ],
+    [
+     "IANS via The Hans India, 22 Nov",
+     "https://www.thehansindia.com/sports/1st-test-pant-rahul-tons-put-india-on-top-conways-unbeaten-fifty-keeps-nz-alive-1144654"
+    ],
+    [
+     "IANS via Telangana Today, 22 Nov",
+     "https://telanganatoday.com/rishabh-pant-kl-rahul-centuries-power-india-to-720-as-new-zealand-battle-to-save-first-test"
+    ],
+    [
+     "ESPN, 21 Nov (day three report)",
+     "https://www.espn.com/cricket/series/19430/report/1539442/day/4/new-zealand-vs-india-1st-test-19430"
+    ]
+   ],
+   "where": {
+    "n": "Wellington, New Zealand",
+    "lat": -41.3,
+    "lon": 174.8
+   }
+  },
+  {
+   "id": "g-cop31",
+   "scope": "global",
+   "cat": "planet",
+   "emoji": "🌍",
+   "date": "2026-11-22",
+   "kind": "news",
+   "x": {
+    "t": "Climate talks end without a new plan",
+    "b": [
+     "Countries met in Antalya, Turkey, to talk about the climate. The talks went on for two extra days.",
+     "Early on Sunday, a new [[draft|draft]] plan came out. It did not name [[fossil-fuel|fossil fuels]] like oil and gas. Some countries said the plan did not do enough.",
+     "Nearly every country has to agree to a plan. Not all of them did. So the talks ended on Sunday without a new plan."
+    ]
+   },
+   "o": {
+    "t": "COP31 climate talks end without a deal",
+    "b": [
+     "The [[cop31|COP31]] United Nations climate talks in Antalya, Turkey, were due to end on Friday 20 November but ran for two extra days. Early on Sunday, a new [[draft|draft]], or early version of the deal, was released.",
+     "The draft did not name [[fossil-fuel|fossil fuels]], such as coal, oil and gas. It referred instead to an earlier COP agreement to move away from them. The [[european-union|European Union]] and Panama said they could not support it. Countries disagreed about whether the deal should name fossil fuels.",
+     "A deal needs [[consensus|consensus]], which means broad agreement among the nearly 200 countries taking part. At the closing meeting on Sunday, the COP31 president, Turkey's environment minister Murat Kurum, said there was no consensus, so the plan was not adopted. The next talks, COP32, are planned for Addis Ababa, Ethiopia, in November 2027."
+    ]
+   },
+   "think": "Why do you think it can be hard for nearly 200 countries to agree on one plan?",
+   "quiz": {
+    "q": "How many countries took part in the COP31 talks?",
+    "a": [
+     "About 20",
+     "About 50",
+     "Nearly 200",
+     "Over 1,000"
+    ],
+    "c": 2
+   },
+   "where": {
+    "n": "Antalya, Turkey",
+    "lat": 36.9,
+    "lon": 30.7
+   },
+   "src": [
+    [
+     "Reuters via ThePrint, 22 Nov (talks end)",
+     "https://theprint.in/world/cop31-climate-talks-break-down-as-eu-others-reject-deal/3105816/"
+    ],
+    [
+     "LaPresse, 22 Nov (talks end)",
+     "https://uk.lapresse.it/world-en/2026/11/22/cop31-chair-draft-final-agreement-not-adopted/"
+    ],
+    [
+     "Reuters via ThePrint, 22 Nov (draft)",
+     "https://theprint.in/world/deal-or-no-deal-cop31-climate-talks-lurch-towards-an-uncertain-finish/3105801/"
+    ],
+    [
+     "AP via Irish News, 22 Nov",
+     "https://www.irishnews.com/news/world/cop31-delegates-consider-new-draft-deal-which-makes-no-mention-of-fossil-fuels-P5JE6ESY4FL3PGK3RXVPXFCBMQ/"
+    ],
+    [
+     "Al Jazeera, 22 Nov",
+     "https://www.aljazeera.com/news/2026/11/22/fossil-fuel-impasse-pushes-cop31-climate-talks-into-second-day-of-overtime"
+    ],
+    [
+     "ITV News, 22 Nov",
+     "https://www.itv.com/news/2026-11-22/desperate-bid-to-avert-collapse-of-cop31-climate-summit-in-turkey"
+    ],
+    [
+     "The Independent via Yahoo, 22 Nov",
+     "https://www.yahoo.com/news/science/articles/cop31-climate-talks-brink-collapse-104353041.html"
+    ],
+    [
+     "AFP via Hespress, 22 Nov",
+     "https://en.hespress.com/149651-european-union-states-object-to-adopting-cop31-deal-eu-presidency.html"
+    ],
+    [
+     "AP via KSL, 20 Nov (COP32)",
+     "https://www.ksl.com/article/51647086/un-climate-talks-slammed-by-activists-leaders-as-fossil-fuels-go-unmentioned-in-draft-agreement"
+    ],
+    [
+     "Health Policy Watch, 21 Nov (COP32)",
+     "https://healthpolicy-watch.news/cop31-draft-deal-drops-fossil-fuels-references-as-final-session-goes-into-overtime/"
+    ]
+   ],
+   "olderOnly": true,
+   "sensitive": "politics"
+  },
+  {
+   "id": "g-las-vegas-gp",
+   "scope": "global",
+   "cat": "sports",
+   "emoji": "🏎️",
+   "date": "2026-11-22",
+   "kind": "news",
+   "x": {
+    "t": "Verstappen wins a close night race in Las Vegas",
+    "b": [
+     "Max Verstappen won the Las Vegas Grand Prix. It is a Formula 1 car race held at night. He started in [[pole-position|pole position]], right at the front.",
+     "The race was 50 [[lap|laps]] of the track. The lead changed 35 times. Lando Norris came second, less than one second behind.",
+     "Oscar Piastri started in 17th place. He passed many cars and finished third. Verstappen is second in this year's points table."
+    ]
+   },
+   "o": {
+    "t": "Verstappen wins Las Vegas Grand Prix after 35 lead changes",
+    "b": [
+     "[[max-verstappen|Max Verstappen]] of the Red Bull team won the Las Vegas Grand Prix, a Formula 1 race held at night in the United States. It was run on Saturday 21 November, which was Sunday morning in India. Verstappen started from [[pole-position|pole position]], the front place on the starting grid, and it was his third win in Las Vegas.",
+     "The race lasted 50 [[lap|laps]], or trips around the track, and the lead changed 35 times. Lando Norris of McLaren finished second, just 0.639 seconds behind. His teammate Oscar Piastri was third after starting 17th. Kimi Antonelli of Mercedes came fourth.",
+     "Starting first gives a driver a head start, but a race is won over many laps. Antonelli was already sure to finish first this season, so he is this year's [[champion|champion]]. Verstappen is second in the standings, the table of points each driver has scored this season."
+    ]
+   },
+   "think": "The Las Vegas race is held at night. What might be different for drivers racing at night?",
+   "quiz": {
+    "q": "Where did Oscar Piastri start the race?",
+    "a": [
+     "1st",
+     "3rd",
+     "17th",
+     "50th"
+    ],
+    "c": 2
+   },
+   "src": [
+    [
+     "Reuters via Al Jazeera, 22 Nov",
+     "https://www.aljazeera.com/sports/2026/11/22/max-verstappen-las-vegas-grand-prix-f1-norris-piastri-russell-antonelli"
+    ],
+    [
+     "Formula 1, 22 Nov",
+     "https://www.formula1.com/en/latest/article/verstappen-wins-exhilarating-las-vegas-grand-prix-from-norris-and-piastri.2eeBWqekZdir9mdDVK9YVX"
+    ],
+    [
+     "GrandPrix.com, 22 Nov",
+     "https://www.grandprix.com/races/las-vegas-gp-2026-race-notes.html"
+    ],
+    [
+     "FormulaOneHistory, 22 Nov",
+     "https://www.formulaonehistory.com/2026-las-vegas-grand-prix/"
+    ]
+   ],
+   "where": {
+    "n": "Las Vegas, United States",
+    "lat": 36.2,
+    "lon": -115.1
+   }
+  },
+  {
+   "id": "g-salmon-predators",
+   "scope": "global",
+   "cat": "nature",
+   "emoji": "🐟",
+   "date": "2026-11-19",
+   "kind": "news",
+   "x": {
+    "t": "Fewer seals would barely help salmon, a study finds",
+    "b": [
+     "Seals, sea lions and seabirds eat salmon. Would having fewer of them help salmon? Scientists tested this on a computer.",
+     "Having fewer of these animals barely helped salmon. Why? These [[predator|hunters]] also eat other fish. Some of those fish eat young salmon.",
+     "Everything in the ocean is linked in a [[food-web|food web]]. Changing one part changes others. In the computer test, fewer hake fish helped salmon more."
+    ]
+   },
+   "o": {
+    "t": "Removing seals and sea lions would barely help salmon, study finds",
+    "b": [
+     "A study published in the [[journal|journal]] Science on 19 November found that removing seals, sea lions and seabirds across a wide area off the US West Coast would bring little or no benefit to Chinook and coho, two kinds of salmon. Lead author Dylan Gomes worked at NOAA, a US science agency, and Oregon State University.",
+     "The team used an [[ecosystem|ecosystem]] model, a computer program copying how living things in an area affect each other. These [[predator|predators]], animals that hunt others, also eat Pacific hake and other fish that eat young salmon or compete with them for food. The hake there weigh about 370 times as much as the seals and sea lions together.",
+     "In the model, reducing hake helped salmon more than reducing seals. The study did not test single spots on salmon routes, such as fish ladders, and the authors do not rule out removing particular animals there."
+    ]
+   },
+   "think": "Can you think of another way that changing one thing in nature could affect something else?",
+   "quiz": {
+    "q": "What did the scientists use to test their idea?",
+    "a": [
+     "A big fishing net",
+     "A computer model",
+     "An underwater robot",
+     "A hot air balloon"
+    ],
+    "c": 1
+   },
+   "where": {
+    "n": "Ocean off the US West Coast",
+    "lat": 44.6,
+    "lon": -124.1
+   },
+   "src": [
+    [
+     "NOAA Fisheries, 19 Nov",
+     "https://www.fisheries.noaa.gov/feature-story/new-research-finds-culling-seals-sea-lions-ocean-unlikely-benefit-salmon"
+    ],
+    [
+     "AAAS (Science) via EurekAlert, 19 Nov",
+     "https://www.eurekalert.org/news-releases/1151922"
+    ],
+    [
+     "Statesman Journal via Yahoo, Nov",
+     "https://www.yahoo.com/news/science/articles/killing-more-sea-lions-seals-190352831.html"
+    ],
+    [
+     "KING 5 via Yahoo, Nov",
+     "https://www.yahoo.com/news/science/articles/killing-seals-sea-lions-across-191534250.html"
+    ]
+   ]
+  },
+  {
+   "id": "in-hk-open",
+   "scope": "IN",
+   "cat": "sports",
+   "emoji": "🏸",
+   "date": "2026-11-21",
+   "kind": "news",
+   "x": {
+    "t": "Lakshya Sen's 13-match winning run ends in Hong Kong",
+    "b": [
+     "Lakshya Sen is a badminton player from India. He had won 13 matches in a row. That run ended on Saturday.",
+     "Anders Antonsen from Denmark beat him in the [[semi-final|semi-final]] of the Hong Kong Open. A semi-final decides who plays in the last match.",
+     "Sen won two [[tournament|tournaments]] earlier this month. Winning 13 in a row is hard to do. Antonsen's win took him into the [[final|final]]."
+    ]
+   },
+   "o": {
+    "t": "Antonsen ends Lakshya Sen's 13-match run in Hong Kong semi-final",
+    "b": [
+     "India's Lakshya Sen lost to Anders Antonsen of Denmark in the men's singles [[semi-final|semi-final]] of the Hong Kong Open badminton [[tournament|tournament]] on Saturday 21 November. A semi-final is one of two matches that decide who plays in the [[final|final]]. Antonsen won 21-13, 21-13, taking both games.",
+     "The defeat ended Sen's run of 13 wins in a row. Earlier in November he won two other tournaments, the Hylo Open and the Kumamoto Masters. Winning so many matches in a row is a big achievement, and even the best players lose sometimes.",
+     "India's men's [[doubles|doubles]] pair, Satwik Rankireddy and Chirag Shetty, also lost their semi-final. Doubles is a match with two players on each side. Antonsen's win sent him through to the final."
+    ]
+   },
+   "think": "Lakshya Sen won 13 matches in a row before he lost. What can a player learn from a loss after a long winning run?",
+   "quiz": {
+    "q": "Who beat Lakshya Sen in the Hong Kong Open semi-final?",
+    "a": [
+     "Chirag Shetty",
+     "Anders Antonsen",
+     "Satwik Rankireddy",
+     "Max Verstappen"
+    ],
+    "c": 1
+   },
+   "src": [
+    [
+     "Tribune India (ANI), 21 Nov",
+     "https://www.tribuneindia.com/news/anders-antonsen/lakshya-sen-loses-hong-kong-open-semi-final-to-anders-antonsen"
+    ],
+    [
+     "IndiaSportsHub, 21 Nov",
+     "https://www.indiasportshub.com/articles/lakshya-sen-loses-to-anders-antonsen-in-hong-kong-open-semifinal-india-s-shuttler-s-13-match-winning-run-ends"
+    ],
+    [
+     "The Bridge, 21 Nov",
+     "https://thebridge.in/badminton/lakshya-sen-satwik-chirag-loses-hong-kong-open-58447"
+    ]
+   ],
+   "where": {
+    "n": "Hong Kong",
+    "lat": 22.3,
+    "lon": 114.2
+   }
+  }
+ ],
+ "glossary": {
+  "light-day": [
+   "light-day",
+   "science",
+   "How far light travels in one whole day. It is a very long way.",
+   "A unit of distance: how far light travels in 24 hours, about 25.9 billion kilometres."
+  ],
+  "interstellar": [
+   "interstellar space",
+   "science",
+   "The space between the stars.",
+   "The space between the stars. Voyager 1 became the first spacecraft to enter it, in 2012."
+  ],
+  "jpl": [
+   "Jet Propulsion Laboratory",
+   "places",
+   "A NASA centre in California. The Voyager 1 mission is run from there.",
+   "A NASA laboratory in California. The Voyager mission is run from there."
+  ],
+  "deep-space-network": [
+   "Deep Space Network",
+   "tech",
+   "NASA's big antennas that keep track of faraway spacecraft.",
+   "NASA's network of giant radio antennas, with sites in California, near Madrid in Spain and near Canberra in Australia. It keeps track of Voyager 1."
+  ],
+  "champion": [
+   "champion",
+   "words",
+   "The winner of first place in a competition.",
+   "The winner of first prize or first place in a competition."
+  ],
+  "basin-reserve": [
+   "Basin Reserve",
+   "places",
+   "A cricket ground in Wellington, New Zealand.",
+   "The cricket ground in Wellington, New Zealand, where India and New Zealand are playing the first Test."
+  ],
+  "declare": [
+   "declare",
+   "words",
+   "In cricket, when a team chooses to stop batting early.",
+   "In cricket, to choose to end your team's innings before all of its batters are out."
+  ],
+  "innings": [
+   "innings",
+   "words",
+   "A team's turn to bat.",
+   "A period of time in a game during which a team or a single player is batting."
+  ],
+  "century": [
+   "century",
+   "words",
+   "A score of 100 runs or more by one player.",
+   "In cricket, a score of 100 runs or more by one player in one innings."
+  ],
+  "semi-final": [
+   "semi-final",
+   "words",
+   "One of the two games that decide who will play in the final.",
+   "One of the two games or parts of a sports competition that are held to decide who will compete in the last part, the final."
+  ],
+  "final": [
+   "final",
+   "words",
+   "The last game of a tournament.",
+   "The last match or game of a tournament."
+  ],
+  "tournament": [
+   "tournament",
+   "words",
+   "A series of contests played for a championship.",
+   "A contest or series of contests played for a championship."
+  ],
+  "doubles": [
+   "doubles",
+   "words",
+   "A game with two players on each side.",
+   "A game, such as tennis or badminton, in which one pair of players plays against another pair."
+  ],
+  "max-verstappen": [
+   "Max Verstappen",
+   "people",
+   "A Formula 1 driver for the Red Bull team.",
+   "A Formula 1 racing driver who drives for the Red Bull team."
+  ],
+  "pole-position": [
+   "pole position",
+   "words",
+   "The front place at the start of a car race.",
+   "The leading position at the start of a race involving cars or bicycles."
+  ],
+  "lap": [
+   "lap",
+   "words",
+   "One trip all the way around a race track.",
+   "One complete journey around a track or racing circuit."
+  ],
+  "cop31": [
+   "COP31",
+   "civics",
+   "A big meeting where countries talk about the climate.",
+   "The United Nations climate conference held in Antalya, Turkey, where countries talk about the climate."
+  ],
+  "draft": [
+   "draft",
+   "words",
+   "An early version of a piece of writing, not the final one.",
+   "An early version of a piece of writing, such as an agreement, made before the final version."
+  ],
+  "fossil-fuel": [
+   "fossil fuel",
+   "science",
+   "Fuel such as coal or oil. It was formed over millions of years from dead animals or plants.",
+   "Fuel such as coal or oil that was formed over millions of years from parts of dead animals or plants."
+  ],
+  "consensus": [
+   "consensus",
+   "words",
+   "When the members of a group all agree.",
+   "Agreement among the members of a group. A deal at the United Nations climate talks needs consensus among the countries."
+  ],
+  "european-union": [
+   "European Union",
+   "civics",
+   "A group that many European countries belong to.",
+   "An economic and political organisation that many European countries belong to. It is often called the EU."
+  ],
+  "mercury": [
+   "Mercury",
+   "science",
+   "The planet closest to the Sun.",
+   "The planet closest to the Sun, and the smallest planet in our solar system."
+  ],
+  "orbit": [
+   "orbit",
+   "science",
+   "The path something follows as it travels around a planet.",
+   "The curved path that an object in space follows as it moves around a planet, star or moon."
+  ],
+  "gravity": [
+   "gravity",
+   "science",
+   "The pull that makes things fall to the ground.",
+   "The force that attracts objects towards each other, such as the force that makes things fall to the ground."
+  ],
+  "esa": [
+   "European Space Agency",
+   "science",
+   "A group of European countries that explore space together.",
+   "ESA: the organisation through which European countries build and fly space missions together."
+  ],
+  "journal": [
+   "journal",
+   "words",
+   "A magazine about one subject, such as science.",
+   "A newspaper or magazine that deals with a particular subject or profession, such as science."
+  ],
+  "predator": [
+   "predator",
+   "science",
+   "An animal that hunts and eats other animals.",
+   "An animal that lives by hunting and eating other animals."
+  ],
+  "food-web": [
+   "food web",
+   "science",
+   "How the plants and animals in a place are linked by what eats what.",
+   "A network of food chains that shows which living things eat which others in a particular place."
+  ],
+  "ecosystem": [
+   "ecosystem",
+   "science",
+   "All the plants and animals in one place, and how they live together.",
+   "All the plants and living creatures in a particular area, and the way they affect each other and their surroundings."
+  ]
+ },
+ "keys": {
+  "g-bepicolombo": {
+   "type": "number",
+   "v": "9",
+   "l": "planet flybys on the way to Mercury"
+  },
+  "in-test-wellington": {
+   "type": "number",
+   "v": "720",
+   "l": "runs India scored before declaring, the highest Test total in New Zealand"
+  },
+  "g-cop31": {
+   "type": "number",
+   "v": "nearly 200",
+   "l": "countries that had to agree on a deal"
+  },
+  "g-las-vegas-gp": {
+   "type": "number",
+   "v": "35",
+   "l": "times the lead changed in the 50-lap race"
+  },
+  "g-salmon-predators": {
+   "type": "number",
+   "v": "370 to 1",
+   "l": "how much more hake weigh than seals and sea lions in the study area"
+  },
+  "in-hk-open": {
+   "type": "number",
+   "v": "13",
+   "l": "wins in a row for Lakshya Sen before his semi-final"
+  }
+ },
+ "xkeys": {
+  "g-bepicolombo": {
+   "type": "check",
+   "q": "Which planet is BepiColombo now going around?",
+   "a": [
+    "Mercury",
+    "Mars"
+   ],
+   "c": 0,
+   "right": "Right! BepiColombo is now going around Mercury.",
+   "wrong": "Not quite. BepiColombo is now going around Mercury, the planet closest to the Sun."
+  },
+  "in-test-wellington": {
+   "type": "check",
+   "q": "Did India stop batting because they chose to?",
+   "a": [
+    "Yes, they declared",
+    "No, they were all out"
+   ],
+   "c": 0,
+   "right": "Right! India declared. They chose to stop batting so they had time to bowl.",
+   "wrong": "Not quite. India declared. That means they chose to stop batting."
+  },
+  "g-cop31": {
+   "type": "check",
+   "q": "Did the new plan name fossil fuels?",
+   "a": [
+    "Yes",
+    "No"
+   ],
+   "c": 1,
+   "right": "Right! The new plan did not name fossil fuels.",
+   "wrong": "Not quite. The new plan did not name fossil fuels like oil and gas."
+  },
+  "g-las-vegas-gp": {
+   "type": "check",
+   "q": "Who won the race in Las Vegas?",
+   "a": [
+    "Max Verstappen",
+    "Lando Norris"
+   ],
+   "c": 0,
+   "right": "Right! Max Verstappen won. Lando Norris came second.",
+   "wrong": "Not quite. Max Verstappen won. Lando Norris came second."
+  },
+  "g-salmon-predators": {
+   "type": "check",
+   "q": "Did removing seals and sea lions help salmon a lot?",
+   "a": [
+    "Yes",
+    "No"
+   ],
+   "c": 1,
+   "right": "Right! It barely helped salmon.",
+   "wrong": "Not quite. It barely helped salmon, because seals also eat fish that eat young salmon."
+  },
+  "in-hk-open": {
+   "type": "check",
+   "q": "Which country is Anders Antonsen from?",
+   "a": [
+    "India",
+    "Denmark"
+   ],
+   "c": 1,
+   "right": "Right! Anders Antonsen is from Denmark.",
+   "wrong": "Not quite. Anders Antonsen is from Denmark. Lakshya Sen is from India."
+  }
+ },
+ "deep": {
+  "g-bepicolombo": {
+   "ctx": "BepiColombo was launched in 2018 by the European Space Agency and the Japan Aerospace Exploration Agency. Of its two spacecraft, MPO will map Mercury's surface and what it is made of, and Mio will study the planet's magnetic field, with science work due to start in April 2027.",
+   "ask": "BepiColombo was built by space agencies from Europe and Japan working together. Some people think big space missions are better shared between countries, so they can combine money and skills. Others think one agency working alone can decide faster and keep full control. Which way do you think works better for exploring space, and why?",
+   "jobs": [
+    "Spacecraft engineer",
+    "Planetary scientist",
+    "Mission controller"
+   ]
+  },
+  "in-test-wellington": {
+   "ctx": "India's 720 for 9 is the highest team total ever made in a Test in New Zealand. After New Zealand made 368, KL Rahul scored 136 and Rishabh Pant 128, giving India a first-innings lead of 352. New Zealand ended day four on 119 for 2, with Devon Conway 59 not out.",
+   "ask": "India batted into day four before declaring, which built a huge lead but left less time to bowl New Zealand out. Some people think a bigger lead is the safest way to win a Test. Others think declaring earlier gives the bowlers more time and is worth the risk. Which would you choose, and why?",
+   "jobs": [
+    "Cricket coach",
+    "Sports statistician",
+    "Cricket commentator"
+   ]
+  },
+  "g-cop31": {
+   "ctx": "The 2015 Paris Agreement included a goal of limiting global warming to 1.5°C, and the UN has said the world is likely to pass it.",
+   "ask": "The new draft referred back to an earlier agreement instead of naming fossil fuels, and some countries would not accept it. Some people think a deal that every country can accept is better than no deal, even if it says less. Others think a text that does not go far enough is not worth agreeing to. Which matters more to you, and why?",
+   "jobs": [
+    "Diplomat",
+    "Climate scientist",
+    "Energy policy analyst"
+   ]
+  },
+  "g-las-vegas-gp": {
+   "ctx": "Max Verstappen started from pole position and beat Lando Norris by 0.639 seconds for his third win in Las Vegas. Kimi Antonelli of Mercedes had already won this year's championship before the race, and Verstappen is second in the standings.",
+   "ask": "Verstappen won from the front, while Oscar Piastri climbed from 17th to third. Some people think the starting position decides most Formula 1 races. Others think overtaking and race plans over many laps matter more. Which do you think counts for more, and why?",
+   "jobs": [
+    "Race engineer",
+    "Motorsport mechanic",
+    "Sports data analyst"
+   ]
+  },
+  "g-salmon-predators": {
+   "ctx": "The study modelled the food web of the Northern California Current, the ocean off the US West Coast. Besides hake, the predators also eat other fish such as jack mackerel, and in the model reducing hake helped salmon more than reducing seals and sea lions.",
+   "ask": "This study looked at a wide area of ocean, not single spots like fish ladders. Some people think it shows that removing predators is not a good way to help salmon. Others think removing particular animals could still help in certain spots. Which view do you find more convincing, and what extra evidence would help you decide?",
+   "jobs": [
+    "Marine biologist",
+    "Fisheries scientist",
+    "Ecological modeller"
+   ]
+  },
+  "in-hk-open": {
+   "ctx": "Earlier in November, Lakshya Sen won the Hylo Open and the Kumamoto Masters. His 21-13, 21-13 semi-final defeat to Anders Antonsen of Denmark at the Hong Kong Open ended a run of 13 wins in a row. India's men's doubles pair, Satwik Rankireddy and Chirag Shetty, also lost in the semi-finals.",
+   "ask": "Sen played several tournaments close together this month and won 13 matches in a row before losing. Some people think top players should play as often as they can while they are in good form. Others think they should rest more between events to stay fresh. Which do you think is better, and why?",
+   "jobs": [
+    "Badminton coach",
+    "Sports physiotherapist",
+    "Sports nutritionist"
+   ]
+  }
+ },
+ "bigStory": {
+  "week": "2026-11-16",
+  "story": "g-voyager",
+  "cat": "space",
+  "t": "How far is one light-day from home?",
+  "sub": "Voyager 1, launched in 1977, reached one light-day from Earth on Wednesday",
+  "x": {
+   "why": "A spacecraft that left Earth in 1977 is still travelling. This week it got so far away that light needs a whole day to reach it."
+  },
+  "o": {
+   "why": "A spacecraft launched in 1977 is still travelling, and its team on Earth still talks to it. This week it reached a distance so great that a radio signal, moving at the speed of light, needs 24 hours to get there."
+  },
+  "facts": [
+   [
+    "1977",
+    "the year Voyager 1 left Earth"
+   ],
+   [
+    "25.9 billion km",
+    "about one light-day: how far light travels in 24 hours"
+   ],
+   [
+    "24 hours",
+    "how long a radio signal from Earth now takes to reach it"
+   ],
+   [
+    "18 Nov",
+    "the day it reached one light-day"
+   ]
+  ],
+  "days": [
+   {
+    "d": "2026-11-16",
+    "h": "Meet Voyager 1",
+    "o": "NASA launched Voyager 1 on 5 September 1977. It flew past Jupiter in 1979 and Saturn in 1980, and in 1990 it took a picture of Earth known as the Pale Blue Dot. In 2012 it entered interstellar space, the space between the stars. It is run from NASA's Jet Propulsion Laboratory in California.",
+    "x": "Voyager 1 is a spacecraft. It left Earth in 1977. It flew past the planets Jupiter and Saturn. In 1990 it took a picture of Earth from very far away."
+   },
+   {
+    "d": "2026-11-17",
+    "h": "How far is a light-day?",
+    "o": "A light-day is the distance light travels in 24 hours, about 25.9 billion kilometres. Light reaches the Moon in about 1.3 seconds, and sunlight takes about 8 minutes to reach Earth. After sunset today, Tuesday 17 November, NASA invites people to flash VGR, Voyager's three-letter call sign, in Morse code towards the sky with a torch.",
+    "x": "A light-day is how far light travels in one day. Sunlight reaches us in about 8 minutes. After sunset today, people can flash a torch for Voyager. Ask a grown-up to help."
+   },
+   {
+    "d": "2026-11-18",
+    "h": "The big day",
+    "o": "NASA worked out that Voyager 1 would reach one light-day from Earth on Wednesday 18 November. No spacecraft has travelled this far before. A radio signal now takes about 24 hours to reach it, and its reply takes another day to come back. Voyager 2 is expected to reach one light-day in 2035.",
+    "x": "On Wednesday, Voyager 1 reached one light-day from Earth. No spacecraft has gone this far before. A message now takes about a day to get there."
+   },
+   {
+    "d": "2026-11-19",
+    "h": "Phoning home",
+    "o": "NASA talks to Voyager 1 by radio through its Deep Space Network, a set of giant radio antennas at three sites: Goldstone in California, near Madrid in Spain and near Canberra in Australia. The sites are placed around the world so that they can keep in contact with a spacecraft as Earth turns. Each site has one antenna that is 70 metres across. A radio signal now takes about 24 hours to reach Voyager 1, and its reply takes another 24 hours to come back, so a message and its answer make a two-day round trip.",
+    "x": "NASA talks to Voyager 1 with radio signals. It uses giant radio antennas in California, Spain and Australia. A message takes about a day to reach Voyager 1. The reply takes another day to come back."
+   },
+   {
+    "d": "2026-11-20",
+    "h": "What comes next?",
+    "o": "On Wednesday 18 November Voyager 1 reached one light-day from Earth. Its power source makes about 4 watts less every year, so NASA has been switching off instruments to save power. Even after it falls silent, it will keep travelling. It will take about 300 years to reach the inner edge of a distant region called the Oort Cloud. In about 40,000 years it is expected to pass another star. It carries a Golden Record with sounds, music and images from Earth, and greetings in 55 languages. On 14 November, NASA found that Voyager 1's signal was reaching Earth without its usual science data. NASA thinks the problem is likely to be in the onboard computer that collects the data, and engineers are working on it.",
+    "x": "On Wednesday, Voyager 1 reached one light-day from Earth. Its power gets a little weaker every year. Even when it falls silent, it will keep travelling. It carries a Golden Record with sounds, music and pictures from Earth. As of 19 November, Voyager 1's messages were arriving without their science data. Engineers are working on the problem."
+   }
+  ],
+  "words": [
+   "light-day",
+   "interstellar",
+   "jpl",
+   "deep-space-network"
+  ],
+  "poll": {
+   "q": "If you could add one thing to a message carried into space, what would it be?",
+   "a": [
+    [
+     "Music",
+     "A tune can be enjoyed without knowing the words."
+    ],
+    [
+     "Greetings in many languages",
+     "It would show how many peoples share one planet."
+    ],
+    [
+     "Pictures of animals and places",
+     "A picture can show what words cannot."
+    ],
+    [
+     "A map of where we are",
+     "So that whoever finds it knows where it came from."
+    ]
+   ]
+  },
+  "talk": "If you sent a message today that would be opened 49 years from now, what would you want the reader to know about your life?"
+ },
+ "puzzles": {
+  "week": "2026-11-16",
+  "sudoku": {
+   "x": {
+    "n": 4,
+    "br": 2,
+    "bc": 2,
+    "p": [
+     [
+      0,
+      1,
+      2,
+      0
+     ],
+     [
+      0,
+      0,
+      1,
+      0
+     ],
+     [
+      0,
+      0,
+      3,
+      0
+     ],
+     [
+      3,
+      2,
+      0,
+      1
+     ]
+    ],
+    "s": [
+     [
+      4,
+      1,
+      2,
+      3
+     ],
+     [
+      2,
+      3,
+      1,
+      4
+     ],
+     [
+      1,
+      4,
+      3,
+      2
+     ],
+     [
+      3,
+      2,
+      4,
+      1
+     ]
+    ]
+   },
+   "o": {
+    "n": 6,
+    "br": 2,
+    "bc": 3,
+    "p": [
+     [
+      0,
+      1,
+      0,
+      2,
+      0,
+      0
+     ],
+     [
+      3,
+      6,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      6,
+      5,
+      3,
+      0,
+      4,
+      2
+     ],
+     [
+      0,
+      4,
+      1,
+      0,
+      0,
+      6
+     ],
+     [
+      0,
+      0,
+      0,
+      6,
+      0,
+      4
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+     ]
+    ],
+    "s": [
+     [
+      5,
+      1,
+      4,
+      2,
+      6,
+      3
+     ],
+     [
+      3,
+      6,
+      2,
+      4,
+      5,
+      1
+     ],
+     [
+      6,
+      5,
+      3,
+      1,
+      4,
+      2
+     ],
+     [
+      2,
+      4,
+      1,
+      5,
+      3,
+      6
+     ],
+     [
+      1,
+      3,
+      5,
+      6,
+      2,
+      4
+     ],
+     [
+      4,
+      2,
+      6,
+      3,
+      1,
+      5
+     ]
+    ]
+   },
+   "n": {
+    "n": 9,
+    "br": 3,
+    "bc": 3,
+    "p": [
+     [
+      2,
+      0,
+      0,
+      3,
+      4,
+      0,
+      0,
+      7,
+      9
+     ],
+     [
+      9,
+      0,
+      6,
+      1,
+      0,
+      0,
+      3,
+      4,
+      5
+     ],
+     [
+      0,
+      3,
+      0,
+      9,
+      6,
+      5,
+      0,
+      1,
+      0
+     ],
+     [
+      8,
+      0,
+      0,
+      4,
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      7,
+      9,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      7,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      9,
+      2,
+      0,
+      3,
+      7,
+      0,
+      0,
+      0
+     ],
+     [
+      5,
+      0,
+      0,
+      2,
+      8,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      5,
+      0,
+      1,
+      0,
+      0,
+      3
+     ]
+    ],
+    "s": [
+     [
+      2,
+      5,
+      1,
+      3,
+      4,
+      8,
+      6,
+      7,
+      9
+     ],
+     [
+      9,
+      8,
+      6,
+      1,
+      7,
+      2,
+      3,
+      4,
+      5
+     ],
+     [
+      7,
+      3,
+      4,
+      9,
+      6,
+      5,
+      8,
+      1,
+      2
+     ],
+     [
+      8,
+      2,
+      7,
+      4,
+      1,
+      9,
+      5,
+      3,
+      6
+     ],
+     [
+      3,
+      4,
+      5,
+      8,
+      2,
+      6,
+      7,
+      9,
+      1
+     ],
+     [
+      1,
+      6,
+      9,
+      7,
+      5,
+      3,
+      2,
+      8,
+      4
+     ],
+     [
+      4,
+      9,
+      2,
+      6,
+      3,
+      7,
+      1,
+      5,
+      8
+     ],
+     [
+      5,
+      1,
+      3,
+      2,
+      8,
+      4,
+      9,
+      6,
+      7
+     ],
+     [
+      6,
+      7,
+      8,
+      5,
+      9,
+      1,
+      4,
+      2,
+      3
+     ]
+    ]
+   }
+  },
+  "words": {
+   "o": [
+    [
+     "VOYAGER",
+     "A spacecraft launched in 1977"
+    ],
+    [
+     "EARTHSHOT",
+     "A prize for ideas that help the planet"
+    ],
+    [
+     "ORBIT",
+     "The path an object follows around a planet, moon or star"
+    ],
+    [
+     "EMBLEM",
+     "ASEAN's now shows 11 rice stalks"
+    ],
+    [
+     "MINISTER",
+     "A senior member of a government"
+    ]
+   ],
+   "x": [
+    [
+     "LIGHT",
+     "From Wednesday, it needs a whole day to reach Voyager 1"
+    ],
+    [
+     "MUSEUM",
+     "A place that keeps and shows interesting and important things"
+    ],
+    [
+     "FLAG",
+     "ASEAN's has one more rice stalk"
+    ],
+    [
+     "PRIZE",
+     "Five winners get one in Mumbai this week"
+    ],
+    [
+     "TENNIS",
+     "Mirra Andreeva's sport"
+    ]
+   ]
+  }
+ },
+ "reporters": {
+  "week": "2026-11-16",
+  "t": "Report one thing that changed in your street or school this week",
+  "why": "Monday 16 November was National Press Day in India, and World Children's Day was on Friday 20 November. Good reporters check what they hear with more than one person.",
+  "tips": [
+   "What changed?",
+   "Who told you, and who else can confirm it?",
+   "Where and when did it happen?"
+  ],
+  "sample": []
+ },
+ "today": {
+  "days": [
+   {
+    "name": "Independence Day in Lebanon",
+    "what": "22 November is Independence Day in Lebanon. It goes back to 22 November 1943."
+   }
+  ],
+  "born": [
+   {
+    "name": "Billie Jean King",
+    "year": 1943,
+    "what": "A tennis champion born in Long Beach, California, in the United States. She won 39 major titles in singles and doubles, including a record 20 titles at Wimbledon. She was one of the founders of the Women's Tennis Association and its first president."
+   },
+   {
+    "name": "Benjamin Britten",
+    "year": 1913,
+    "what": "A composer, which means a person who writes music, born in Lowestoft, England. He wrote The Young Person's Guide to the Orchestra in 1946."
+   }
+  ]
+ },
+ "learn": {
+  "subject": "Science",
+  "cat": "space",
+  "link": "About the BepiColombo mission to Mercury",
+  "x": {
+   "t": "How a spacecraft goes into orbit",
+   "b": [
+    "An orbit is a path that one object in space takes around another.",
+    "If a spacecraft reaches a planet too fast, it speeds past the planet. So it has to slow down.",
+    "Then the planet's pull, called gravity, can catch it. The BepiColombo spacecraft was due to go into orbit around Mercury on 21 November."
+   ],
+   "remember": "A spacecraft flying to a planet has to slow down. Then the planet's pull, called gravity, can catch it.",
+   "q": "What must a spacecraft do so a planet's gravity can catch it?",
+   "a": [
+    "Speed up",
+    "Slow down",
+    "Turn back"
+   ],
+   "c": 1
+  },
+  "o": {
+   "t": "How does a spacecraft go into orbit around a planet?",
+   "b": [
+    "An orbit is a regular, repeating path that one object in space takes around another. The BepiColombo spacecraft was due to enter orbit around the planet Mercury on 21 November.",
+    "An orbit is a balance between two things. One is the spacecraft's momentum, which is its tendency to keep moving in a straight line. The other is the pull of the planet's gravity. If the momentum is too great, the spacecraft speeds past the planet. So it has to slow down so the planet's gravity can catch it. When the two are balanced, the spacecraft is always falling towards the planet but never hits it.",
+    "Mercury is hard to reach because it is so close to the Sun. The Sun's gravity pulls a spacecraft towards it, so it has to keep braking on the way. To help it slow down, BepiColombo flew close past planets nine times."
+   ],
+   "remember": "An orbit is a balance between a spacecraft's momentum and a planet's gravity. A spacecraft must arrive slowly enough for the planet's gravity to catch it.",
+   "q": "What happens if a spacecraft's momentum is too great when it reaches a planet?",
+   "a": [
+    "It speeds past the planet",
+    "It stops still in space",
+    "It turns back towards Earth"
+   ],
+   "c": 0
+  }
+ },
+ "backThen": {
+  "y": 1995,
+  "t": "Toy Story, the first full-length film animated entirely on computers, comes out",
+  "o": "On 22 November 1995, the film Toy Story was released. It was the first feature film, which means a full-length film, to be animated entirely on computers. The actor Tom Hanks was the voice of Woody, one of its characters.",
+  "x": "On this day in 1995, the film Toy Story came out. It was animated entirely on computers. No full-length film had been animated that way before.",
+  "why": "It was the first full-length film animated entirely on computers."
+ },
+ "hiddenWords": [
+  {
+   "k": "champion",
+   "o": "Champion came into English from French. The French word comes from campio, a word used in later Latin."
+  }
+ ]
+}

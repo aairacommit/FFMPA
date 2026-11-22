@@ -129,19 +129,19 @@
    "date": "2026-11-22",
    "kind": "news",
    "x": {
-    "t": "Some countries say no to a new climate plan",
+    "t": "Climate talks end without a new plan",
     "b": [
      "Countries met in Antalya, Turkey, to talk about the climate. The talks went on for two extra days.",
      "Early on Sunday, a new [[draft|draft]] plan came out. It did not name [[fossil-fuel|fossil fuels]] like oil and gas. Some countries said the plan did not do enough.",
-     "Nearly every country has to agree to a plan. By Sunday afternoon, they had not all agreed."
+     "Nearly every country has to agree to a plan. The talks ended on Sunday. The countries did not all agree, so there was no new plan."
     ]
    },
    "o": {
-    "t": "No agreement on new COP31 climate draft as some countries object",
+    "t": "COP31 climate talks end without a deal",
     "b": [
      "The [[cop31|COP31]] United Nations climate talks in Antalya, Turkey, were due to end on Friday 20 November but ran for two extra days. Early on Sunday, a new [[draft|draft]], or early version of the deal, was released.",
      "The draft did not name [[fossil-fuel|fossil fuels]], such as coal, oil and gas. It referred instead to an earlier COP agreement to move away from them. The [[european-union|European Union]] and Panama said they could not support it. Countries disagreed about whether the deal should name fossil fuels.",
-     "A deal needs [[consensus|consensus]], which means broad agreement among the nearly 200 countries taking part. By Sunday afternoon in Turkey, the countries had not all agreed on the plan. The next talks, COP32, are planned for Addis Ababa, Ethiopia, in November 2027."
+     "A deal needs [[consensus|consensus]], which means broad agreement among the nearly 200 countries taking part. At the closing meeting on Sunday, the COP31 president, Turkey's environment minister Murat Kurum, said there was no consensus, so the plan was not adopted. The next talks, COP32, are planned for Addis Ababa, Ethiopia, in November 2027."
     ]
    },
    "think": "Why do you think it can be hard for nearly 200 countries to agree on one plan?",
@@ -161,6 +161,14 @@
     "lon": 30.7
    },
    "src": [
+    [
+     "Reuters via ThePrint, 22 Nov (talks end)",
+     "https://theprint.in/world/cop31-climate-talks-break-down-as-eu-others-reject-deal/3105816/"
+    ],
+    [
+     "LaPresse, 22 Nov (talks end)",
+     "https://uk.lapresse.it/world-en/2026/11/22/cop31-chair-draft-final-agreement-not-adopted/"
+    ],
     [
      "Reuters via ThePrint, 22 Nov (draft)",
      "https://theprint.in/world/deal-or-no-deal-cop31-climate-talks-lurch-towards-an-uncertain-finish/3105801/"

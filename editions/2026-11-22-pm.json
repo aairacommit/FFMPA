@@ -73,20 +73,20 @@
    "x": {
     "t": "India make the biggest Test score ever in New Zealand",
     "b": [
-     "India have made the biggest Test score ever in New Zealand. They scored 720 runs in Wellington, New Zealand.",
-     "Then India [[declare|declared]]. That means they chose to stop batting. Now they have time to get New Zealand out. Rishabh Pant scored 128 runs.",
-     "New Zealand ended Sunday on 119 for 2. They are 233 runs behind. Monday is the last day of the match."
+     "India made the biggest Test score ever in New Zealand. A Test is a long cricket match. They scored 720 runs in Wellington.",
+     "Then India [[declare|declared]]. That means they chose to stop batting. Now they have time to get New Zealand out.",
+     "New Zealand have 119 runs, with two batters out. They are 233 runs behind. Monday is the last day."
     ]
    },
    "o": {
-    "t": "India declare on a record 720 as New Zealand fight to save Test",
+    "t": "India declare on a record 720 as New Zealand try to save Test",
     "b": [
-     "India declared on 720 for 9 on Sunday 22 November, day four of the first Test against New Zealand at the [[basin-reserve|Basin Reserve]] in Wellington. It is the highest team total ever made in a Test in New Zealand. To [[declare|declare]] is to choose to stop batting early, leaving time to bowl the other side out.",
-     "New Zealand had made 368 in their first [[innings|innings]], a team's turn to bat, so India led by 352. Rishabh Pant scored 128 off 153 balls, his ninth Test [[century|century]], a score of 100 runs or more.",
-     "At stumps, the end of the day's play, New Zealand were 119 for 2, still 233 behind, with Devon Conway on 59 not out and Rachin Ravindra on 27. On Monday, the last day, India will try to get eight more batters out, while New Zealand will try to bat all day to save the match."
+     "India declared on 720 for 9, meaning 720 runs with nine batters out, on Sunday 22 November. It was day four of the five-day first Test against New Zealand at the [[basin-reserve|Basin Reserve]] in Wellington. It is the highest Test total ever in New Zealand. To [[declare|declare]] is to choose to stop batting, leaving time to bowl the other side out.",
+     "New Zealand made 368 in their first [[innings|innings]], a team's turn to bat, so India led by 352. KL Rahul scored 136 and Rishabh Pant 128, his ninth Test [[century|century]], a score of 100 runs or more.",
+     "At the end of the day, New Zealand were 119 for 2, still 233 behind, with Devon Conway on 59 and still batting. On Monday, the last day, India will try to get eight more batters out, while New Zealand will try to bat all day to save the match."
     ]
    },
-   "think": "If you were India's captain, would you have stopped batting sooner, or kept going to make the lead even bigger? Why?",
+   "think": "On Monday, New Zealand will try to bat all day to save the match. Is it harder to score lots of runs, or to stay in and not get out? Why?",
    "quiz": {
     "q": "What score did India declare on?",
     "a": [
@@ -129,22 +129,22 @@
    "date": "2026-11-22",
    "kind": "news",
    "x": {
-    "t": "Climate talks end without a deal",
+    "t": "Some countries say no to a new climate plan",
     "b": [
      "Countries met in Antalya, Turkey, to talk about the climate. The talks went on for two extra days.",
      "Early on Sunday, a new [[draft|draft]] plan came out. It did not name [[fossil-fuel|fossil fuels]] like oil and gas. Some countries said the plan did not do enough.",
-     "Every country has to say yes to a plan. On Sunday, not all of them did. So there was no deal this time."
+     "Nearly every country has to agree to a plan. By Sunday afternoon, they had not all agreed."
     ]
    },
    "o": {
-    "t": "COP31 climate talks end without a deal",
+    "t": "No agreement on new COP31 climate draft as some countries object",
     "b": [
      "The [[cop31|COP31]] United Nations climate talks in Antalya, Turkey, were due to end on Friday 20 November but ran for two extra days. Early on Sunday, a new [[draft|draft]], or early version of the deal, was released.",
-     "The draft did not name [[fossil-fuel|fossil fuels]], such as coal, oil and gas. It referred instead to an earlier COP agreement to move away from them. The [[european-union|European Union]] and Panama said they could not support it. Observers said Saudi Arabia and other big oil producers had pushed to keep fossil fuels out.",
-     "A deal needs [[consensus|consensus]]: all of the nearly 200 countries taking part must accept it. At the closing meeting on Sunday, the talks' president, Turkey's environment minister Murat Kurum, said there was no consensus, so the plan was not adopted. The next talks, COP32, are planned for Addis Ababa, Ethiopia, in November 2027."
+     "The draft did not name [[fossil-fuel|fossil fuels]], such as coal, oil and gas. It referred instead to an earlier COP agreement to move away from them. The [[european-union|European Union]] and Panama said they could not support it. Countries disagreed about whether the deal should name fossil fuels.",
+     "A deal needs [[consensus|consensus]], which means broad agreement among the nearly 200 countries taking part. By Sunday afternoon in Turkey, the countries had not all agreed on the plan. The next talks, COP32, are planned for Addis Ababa, Ethiopia, in November 2027."
     ]
    },
-   "think": "Is it better to agree on a smaller plan that everyone accepts, or to keep talking for a bigger one? Why?",
+   "think": "Why do you think it can be hard for nearly 200 countries to agree on one plan?",
    "quiz": {
     "q": "How many countries took part in the COP31 talks?",
     "a": [
@@ -161,14 +161,6 @@
     "lon": 30.7
    },
    "src": [
-    [
-     "Reuters via ThePrint, 22 Nov (talks end)",
-     "https://theprint.in/world/cop31-climate-talks-break-down-as-eu-others-reject-deal/3105816/"
-    ],
-    [
-     "Reuters via Cyprus Mail, 22 Nov (talks end)",
-     "https://cyprus-mail.com/2026/11/22/cop31-climate-talks-break-down-as-eu-others-reject-deal"
-    ],
     [
      "Reuters via ThePrint, 22 Nov (draft)",
      "https://theprint.in/world/deal-or-no-deal-cop31-climate-talks-lurch-towards-an-uncertain-finish/3105801/"
@@ -217,7 +209,7 @@
     "b": [
      "Max Verstappen won the Las Vegas Grand Prix. It is a Formula 1 car race held at night. He started in [[pole-position|pole position]], right at the front.",
      "The race was 50 [[lap|laps]] of the track. The lead changed 35 times. Lando Norris came second, less than one second behind.",
-     "Oscar Piastri started in 17th place. He passed many cars and finished third. Verstappen is second in the championship."
+     "Oscar Piastri started in 17th place. He passed many cars and finished third. Verstappen is second in this year's points table."
     ]
    },
    "o": {
@@ -225,10 +217,10 @@
     "b": [
      "[[max-verstappen|Max Verstappen]] of the Red Bull team won the Las Vegas Grand Prix, a Formula 1 race held at night in the United States. It was run on Saturday 21 November, which was Sunday morning in India. Verstappen started from [[pole-position|pole position]], the front place on the starting grid, and it was his third win in Las Vegas.",
      "The race lasted 50 [[lap|laps]], or trips around the track, and the lead changed 35 times. Lando Norris of McLaren finished second, just 0.639 seconds behind. His teammate Oscar Piastri was third after starting 17th. Kimi Antonelli of Mercedes came fourth.",
-     "Starting first gives a driver a head start, but a race is won over many laps. Antonelli had already won the championship, so he is this year's [[champion|champion]]. Verstappen is second in the standings, the table of points each driver has scored this season."
+     "Starting first gives a driver a head start, but a race is won over many laps. Antonelli was already sure to finish first this season, so he is this year's [[champion|champion]]. Verstappen is second in the standings, the table of points each driver has scored this season."
     ]
    },
-   "think": "Which is more impressive to you: winning from the front, or climbing from 17th place to third? Why?",
+   "think": "The Las Vegas race is held at night. What might be different for drivers racing at night?",
    "quiz": {
     "q": "Where did Oscar Piastri start the race?",
     "a": [
@@ -243,6 +235,10 @@
     [
      "Reuters via Al Jazeera, 22 Nov",
      "https://www.aljazeera.com/sports/2026/11/22/max-verstappen-las-vegas-grand-prix-f1-norris-piastri-russell-antonelli"
+    ],
+    [
+     "Formula 1, 22 Nov",
+     "https://www.formula1.com/en/latest/article/verstappen-wins-exhilarating-las-vegas-grand-prix-from-norris-and-piastri.2eeBWqekZdir9mdDVK9YVX"
     ],
     [
      "GrandPrix.com, 22 Nov",
@@ -267,19 +263,19 @@
    "date": "2026-11-19",
    "kind": "news",
    "x": {
-    "t": "Fewer seals would not mean more salmon, a study finds",
+    "t": "Fewer seals would barely help salmon, a study finds",
     "b": [
-     "Seals, sea lions and seabirds eat salmon. Would removing them help salmon? Scientists tested this on a computer.",
-     "They found that removing these animals barely helped salmon. Why? These [[predator|hunters]] also eat other fish. Some of those fish eat young salmon.",
-     "Everything in the ocean is linked in a [[food-web|food web]]. Changing one part changes others. The study looked at a big area, not single places like dams."
+     "Seals, sea lions and seabirds eat salmon. Would having fewer of them help salmon? Scientists tested this on a computer.",
+     "Having fewer of these animals barely helped salmon. Why? These [[predator|hunters]] also eat other fish. Some of those fish eat young salmon.",
+     "Everything in the ocean is linked in a [[food-web|food web]]. Changing one part changes others. In the computer test, fewer hake fish helped salmon more."
     ]
    },
    "o": {
     "t": "Removing seals and sea lions would barely help salmon, study finds",
     "b": [
-     "A study published in the [[journal|journal]] Science on 19 November found that removing seals, sea lions and seabirds across a wide area off the US West Coast would bring little or no benefit to Chinook and coho, two kinds of salmon. Lead author Dylan Gomes did the work at NOAA, a US government science agency, and Oregon State University.",
-     "The team used an [[ecosystem|ecosystem]] model, a computer program copying how living things in an area affect each other. These [[predator|predators]], animals that hunt others, also eat Pacific hake and other fish that eat young salmon or compete with them for food. In that area, hake outweigh seals and sea lions by about 370 to 1.",
-     "In the model, reducing hake helped salmon more than reducing seals. The study did not test single places such as dams and fish ladders, and the authors do not rule out removing particular animals there."
+     "A study published in the [[journal|journal]] Science on 19 November found that removing seals, sea lions and seabirds across a wide area off the US West Coast would bring little or no benefit to Chinook and coho, two kinds of salmon. Lead author Dylan Gomes worked at NOAA, a US science agency, and Oregon State University.",
+     "The team used an [[ecosystem|ecosystem]] model, a computer program copying how living things in an area affect each other. These [[predator|predators]], animals that hunt others, also eat Pacific hake and other fish that eat young salmon or compete with them for food. The hake there weigh about 370 times as much as all the seals and sea lions together.",
+     "In the model, reducing hake helped salmon more than reducing seals. The study did not test single spots on salmon routes, such as fish ladders, and the authors do not rule out removing particular animals there."
     ]
    },
    "think": "Can you think of another way that changing one thing in nature could affect something else?",
@@ -337,7 +333,7 @@
     "b": [
      "India's Lakshya Sen lost to Anders Antonsen of Denmark in the men's singles [[semi-final|semi-final]] of the Hong Kong Open badminton [[tournament|tournament]] on Saturday 21 November. A semi-final is one of two matches that decide who plays in the [[final|final]]. Antonsen won 21-13, 21-13, taking both games.",
      "The defeat ended Sen's run of 13 wins in a row. Earlier in November he won two other tournaments, the Hylo Open and the Kumamoto Masters. Winning so many matches in a row is a big achievement, and even the best players lose sometimes.",
-     "India's men's [[doubles|doubles]] pair, Satwik Rankireddy and Chirag Shetty, also lost their semi-final. Doubles is a match with two players on each side. Antonsen's semi-final win sent him through to the final, the last match of the tournament."
+     "India's men's [[doubles|doubles]] pair, Satwik Rankireddy and Chirag Shetty, also lost their semi-final. Doubles is a match with two players on each side. Antonsen's win sent him through to the final."
     ]
    },
    "think": "Lakshya Sen won 13 matches in a row before he lost. What can a player learn from a loss after a long winning run?",
@@ -369,60 +365,6 @@
     "n": "Hong Kong",
     "lat": 22.3,
     "lon": 114.2
-   }
-  },
-  {
-   "id": "g-leeds-chelsea",
-   "scope": "global",
-   "cat": "sports",
-   "emoji": "⚽",
-   "date": "2026-11-21",
-   "kind": "news",
-   "x": {
-    "t": "Leeds beat Chelsea 4-1 after falling behind",
-    "b": [
-     "Leeds United beat Chelsea 4-1 in a football [[match|match]] on Saturday. They played at Chelsea's home ground in London.",
-     "Chelsea scored the first goal. Then Leeds scored four goals. Noah Okafor scored two of them.",
-     "Leeds had not won at this ground since 1999. The game shows something useful. A team that falls behind can still win."
-    ]
-   },
-   "o": {
-    "t": "Leeds come from behind to beat Chelsea 4-1 at Stamford Bridge",
-    "b": [
-     "Leeds United beat Chelsea 4-1 in the [[premier-league|Premier League]] on Saturday 21 November. The [[match|match]] was played at [[stamford-bridge|Stamford Bridge]] in London, Chelsea's home ground. It was Leeds' first win there since December 1999, which made it a surprise result.",
-     "Chelsea took the lead when Emmanuel Emegha scored in the 25th minute. Leeds then scored four times. Noah Okafor scored twice, Dominic Calvert-Lewin scored from a [[penalty-kick|penalty kick]], a free shot at goal given when a team breaks certain rules near its own goal, and Brenden Aaronson added a goal late in the game.",
-     "Chelsea are managed by Xabi Alonso and Leeds by Daniel Farke. The result shows that a team that falls behind early can still come back and win. Both teams will now turn to their next league matches."
-    ]
-   },
-   "think": "Chelsea scored first, but Leeds won. How can a team stay calm and keep trying after falling behind?",
-   "quiz": {
-    "q": "Who scored two goals for Leeds?",
-    "a": [
-     "Emmanuel Emegha",
-     "Noah Okafor",
-     "Xabi Alonso",
-     "Daniel Farke"
-    ],
-    "c": 1
-   },
-   "src": [
-    [
-     "The Analyst (Opta), 21 Nov",
-     "https://theanalyst.com/articles/chelsea-1-4-leeds-stats-premier-league-11-2026"
-    ],
-    [
-     "beIN SPORTS, 21 Nov",
-     "https://www.beinsports.com/en-us/soccer/premier-league/articles/chelsea-1-4-leeds-united-okafor-stars-in-stamford-bridge-rout-2026-11-21"
-    ],
-    [
-     "NBC Sports, 21 Nov",
-     "https://www.nbcsports.com/soccer/live/chelsea-vs-leeds-live-updates-score-goals-highlights-stats-2026-november-21"
-    ]
-   ],
-   "where": {
-    "n": "London, United Kingdom",
-    "lat": 51.5,
-    "lon": -0.1
    }
   }
  ],
@@ -478,8 +420,8 @@
   "century": [
    "century",
    "words",
-   "100 runs scored by one player.",
-   "In cricket, a score of 100 runs by one player."
+   "A score of 100 runs or more by one player.",
+   "In cricket, a score of 100 runs or more by one player in one innings."
   ],
   "semi-final": [
    "semi-final",
@@ -522,30 +464,6 @@
    "words",
    "One trip all the way around a race track.",
    "One complete journey around a track or racing circuit."
-  ],
-  "match": [
-   "match",
-   "words",
-   "A sports game in which people or teams play against each other.",
-   "A sports event in which people compete against each other."
-  ],
-  "premier-league": [
-   "Premier League",
-   "words",
-   "The top football league in England.",
-   "The highest division of professional men's football in England."
-  ],
-  "stamford-bridge": [
-   "Stamford Bridge",
-   "places",
-   "A football ground in London. It is Chelsea's home ground.",
-   "A football stadium in London, England, where Chelsea play their home matches."
-  ],
-  "penalty-kick": [
-   "penalty kick",
-   "words",
-   "A free kick at the goal, given when a team breaks a rule near its own goal.",
-   "In football, a free kick at the goal from a spot close to it, given when the defending team breaks certain rules inside its penalty area."
   ],
   "cop31": [
    "COP31",
@@ -640,7 +558,7 @@
   "g-cop31": {
    "type": "number",
    "v": "nearly 200",
-   "l": "countries that all had to accept a deal"
+   "l": "countries that had to agree on a deal"
   },
   "g-las-vegas-gp": {
    "type": "number",
@@ -656,11 +574,6 @@
    "type": "number",
    "v": "13",
    "l": "wins in a row for Lakshya Sen before his semi-final"
-  },
-  "g-leeds-chelsea": {
-   "type": "number",
-   "v": "1999",
-   "l": "the last time Leeds had won at Stamford Bridge before Saturday"
   }
  },
  "xkeys": {
@@ -729,17 +642,6 @@
    "c": 1,
    "right": "Right! Anders Antonsen is from Denmark.",
    "wrong": "Not quite. Anders Antonsen is from Denmark. Lakshya Sen is from India."
-  },
-  "g-leeds-chelsea": {
-   "type": "check",
-   "q": "Which team scored the first goal?",
-   "a": [
-    "Chelsea",
-    "Leeds"
-   ],
-   "c": 0,
-   "right": "Right! Chelsea scored first, but Leeds won 4-1.",
-   "wrong": "Not quite. Chelsea scored first. Then Leeds scored four goals and won."
   }
  },
  "deep": {
@@ -762,8 +664,8 @@
    ]
   },
   "g-cop31": {
-   "ctx": "The 2015 Paris Agreement set a goal of limiting global warming to 1.5°C, and the UN has said the world is likely to pass it. The final draft said warming is on course to pass 1.5°C and called for faster development of technology to remove carbon dioxide from the air.",
-   "ask": "The final draft referred back to an earlier agreement instead of naming fossil fuels, and some countries would not accept it. Some people think a deal that every country can accept is better than no deal, even if it says less. Others think a text that does not go far enough is not worth agreeing to. Which matters more to you, and why?",
+   "ctx": "The 2015 Paris Agreement included a goal of limiting global warming to 1.5°C, and the UN has said the world is likely to pass it.",
+   "ask": "The new draft referred back to an earlier agreement instead of naming fossil fuels, and some countries would not accept it. Some people think a deal that every country can accept is better than no deal, even if it says less. Others think a text that does not go far enough is not worth agreeing to. Which matters more to you, and why?",
    "jobs": [
     "Diplomat",
     "Climate scientist",
@@ -781,7 +683,7 @@
   },
   "g-salmon-predators": {
    "ctx": "The study modelled the food web of the Northern California Current, the ocean off the US West Coast. Besides hake, the predators also eat other fish such as jack mackerel, and in the model reducing hake helped salmon more than reducing seals and sea lions.",
-   "ask": "This study looked at a wide area of ocean, not single places like dams. Some people think it shows that removing predators is not a good way to help salmon. Others think removing particular animals could still help in certain spots. Which view do you find more convincing, and what extra evidence would help you decide?",
+   "ask": "This study looked at a wide area of ocean, not single spots like fish ladders. Some people think it shows that removing predators is not a good way to help salmon. Others think removing particular animals could still help in certain spots. Which view do you find more convincing, and what extra evidence would help you decide?",
    "jobs": [
     "Marine biologist",
     "Fisheries scientist",
@@ -795,15 +697,6 @@
     "Badminton coach",
     "Sports physiotherapist",
     "Sports nutritionist"
-   ]
-  },
-  "g-leeds-chelsea": {
-   "ctx": "Chelsea, managed by Xabi Alonso, led through Emmanuel Emegha's goal in the 25th minute at Stamford Bridge. Leeds, managed by Daniel Farke, then scored four times, with two goals from Noah Okafor. It was Leeds' first win at Stamford Bridge since December 1999.",
-   "ask": "Leeds won away at a ground where they had not won since 1999. Some people think playing at home gives a team a big advantage. Others think the players and their plan matter much more than where a match is played. What do you think, and why?",
-   "jobs": [
-    "Football coach",
-    "Sports journalist",
-    "Sports performance analyst"
    ]
   }
  },

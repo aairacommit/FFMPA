@@ -1,0 +1,1252 @@
+{
+ "schema": 1,
+ "date": "2026-11-23",
+ "edition": "pm",
+ "countries": [
+  "IN"
+ ],
+ "stories": [
+  {
+   "id": "in-test-draw",
+   "scope": "IN",
+   "cat": "sports",
+   "emoji": "🏏",
+   "date": "2026-11-23",
+   "kind": "news",
+   "x": {
+    "t": "New Zealand bat carefully to draw with India",
+    "b": [
+     "India and New Zealand have finished a long cricket match called a [[test-match|Test match]]. It ended in a [[test-draw|draw]], so nobody won.",
+     "India scored a huge 720 runs. To win, they had to get New Zealand's batters out. But New Zealand batted carefully on the last day.",
+     "India could not get them out. So the match was called a draw. The next match starts on 27 November."
+    ]
+   },
+   "o": {
+    "t": "New Zealand bat out the last day to save the Wellington Test",
+    "b": [
+     "The first [[test-match|Test match]] between India and New Zealand ended in a [[test-draw|draw]] on Monday 23 November, the fifth and final day. It was played at the Basin Reserve in Wellington, New Zealand.",
+     "India batted first and made 720 for 9 before they chose to [[declare|declare]], which means ending their innings early. KL Rahul and Rishabh Pant both scored [[century|centuries]], scores of 100 runs or more. New Zealand replied with 368 all out, including 175 not out from Henry Nicholls.",
+     "To win, India had to get New Zealand out. Batting again, New Zealand lasted 120 [[over|overs]] and reached 239 for 5. Devon Conway made 65, and Daryl Mitchell (49 not out) and Glenn Phillips (26 not out) held on until the match was called a draw, with time still left in the day. The second Test starts at Hagley Oval, Christchurch, on 27 November."
+    ]
+   },
+   "think": "What helps a team keep going when the other side is far ahead?",
+   "quiz": {
+    "q": "How many runs did India score in their first innings?",
+    "a": [
+     "368",
+     "239",
+     "720",
+     "175"
+    ],
+    "c": 2
+   },
+   "src": [
+    [
+     "ICC, 23 Nov",
+     "https://www.icc-cricket.com/tournaments/world-test-championship/news/new-zealand-survive-final-day-test-to-hold-india-to-a-draw"
+    ],
+    [
+     "Onmanorama, 23 Nov",
+     "https://www.onmanorama.com/sports/cricket/2026/11/23/ind-vs-nz-live-kiwis-dig-in-without-flying-deny-india-victory-as-wellington-test-ends-in-draw-india-vs-new-zealand.html"
+    ],
+    [
+     "The Tribune, 23 Nov",
+     "https://www.tribuneindia.com/news/basin-reserve/india-new-zealand-play-out-draw-in-wellington-test-after-tough-fightback-from-mitchell-phillips"
+    ],
+    [
+     "Open (ANI), 23 Nov",
+     "https://openthemagazine.com/sports/india-held-to-draw-by-new-zealand-in-wellington-test-after-tough-fightback-from-mitchell-phillips"
+    ],
+    [
+     "NewsBytes, 23 Nov",
+     "https://www.newsbytesapp.com/news/sports/new-zealand-vs-india-1st-test-report-and-stats/story"
+    ]
+   ],
+   "where": {
+    "n": "Wellington, New Zealand",
+    "lat": -41.3,
+    "lon": 174.8
+   }
+  },
+  {
+   "id": "g-ariane6-leo",
+   "scope": "global",
+   "cat": "space",
+   "emoji": "🚀",
+   "date": "2026-11-23",
+   "kind": "news",
+   "x": {
+    "t": "Europe's big rocket waits to fly after a problem on the ground",
+    "b": [
+     "Europe's big rocket, Ariane 6, was meant to fly on 23 November. But the launch team stopped the [[countdown|countdown]].",
+     "Some equipment on the ground had a problem. The rocket and its 36 internet [[satellite|satellites]] are safe.",
+     "Launch teams always stop when something is not right. The team will try again on 24 November or later. Then the satellites can go into [[orbit|orbit]] and send internet signals to Earth."
+    ]
+   },
+   "o": {
+    "t": "Ariane 6 launch with 36 internet satellites is put on hold",
+    "b": [
+     "Arianespace, the company running the launch, stopped the [[countdown|countdown]] for Ariane 6 flight VA271 on Monday 23 November. The rocket was due to lift off from Europe's Spaceport in Kourou, [[french-guiana|French Guiana]], carrying 36 Amazon Leo internet [[satellite|satellites]].",
+     "The cause was a technical issue with the rocket's ground support systems, the equipment on the ground that helps get a rocket ready to fly. The countdown stopped before the mobile [[gantry|gantry]], a tall movable tower around the rocket, had been taken away. Arianespace said the rocket and the satellites remain stable and safe.",
+     "Launch teams halt a countdown whenever anything is not right, because safety comes first. A delay like this is normal, not a failure. The next attempt will be no earlier than 24 November. Once launched, the satellites will go into [[orbit|orbit]] and send internet signals down to places on Earth."
+    ]
+   },
+   "think": "Can you think of a time when stopping to check something was the smart thing to do?",
+   "quiz": {
+    "q": "Why did the Ariane 6 countdown stop?",
+    "a": [
+     "A storm over the launch site",
+     "A problem with equipment on the ground",
+     "One of the satellites broke",
+     "The rocket ran out of fuel"
+    ],
+    "c": 1
+   },
+   "src": [
+    [
+     "Arianespace release via EuropaWire, 23 Nov",
+     "https://news.europawire.eu/arianespace-halts-ariane-6-va271-countdown-after-ground-systems-technical-event/eu-press-release/2026/11/23/11/59/05/189178/"
+    ],
+    [
+     "Space.com, 23 Nov",
+     "https://www.space.com/space-exploration/launches-spacecraft/arianespace-ariane-6-amazon-leo-internet-satellite-launch"
+    ]
+   ],
+   "where": {
+    "n": "Kourou, French Guiana",
+    "lat": 5.2,
+    "lon": -52.7
+   }
+  },
+  {
+   "id": "in-nepal-visit",
+   "scope": "IN",
+   "cat": "world",
+   "emoji": "🤝",
+   "date": "2026-11-23",
+   "kind": "news",
+   "olderOnly": true,
+   "sensitive": "politics",
+   "x": {
+    "t": "India and Nepal start a new train and open a bridge",
+    "b": [
+     "India and Nepal are neighbours. Their leaders met in New Delhi on Monday.",
+     "Together they started a new train. It runs between Ayodhya in India and Janakpur in Nepal. A new road bridge across the border was opened too.",
+     "The two countries also signed eight [[mou|agreements]]. These are written plans to work together."
+    ]
+   },
+   "o": {
+    "t": "India and Nepal sign eight agreements and launch a new train",
+    "b": [
+     "Nepal's Prime Minister Balendra Shah visited India on 22 and 23 November. On Monday he held talks with Prime Minister Narendra Modi in New Delhi, and the two countries signed eight [[mou|MoUs]], or memorandums of understanding: written agreements on how they plan to work together.",
+     "One MoU, between [[isro|ISRO]], India's space agency, and Nepal's communications ministry, will set up a [[satellite|satellite]] communication network using the South Asia Satellite. Others cover Ayurveda and traditional medicine, sustainable urban development (planning cities that can grow without harming nature), and livestock and fisheries.",
+     "The leaders also launched the Saryu-Kamala Express, a train between Ayodhya in India and Janakpur in Nepal. A road bridge linking Dharchula in India and Darchula in Nepal was opened. The foundation stone, which marks the start of building, was laid for the 669 MW Lower Arun [[hydroelectric|Hydroelectric]] Project. India also announced a package to help Nepal rebuild after floods."
+    ]
+   },
+   "think": "If a new train or bridge linked your town to a town nearby, what would change for you?",
+   "quiz": {
+    "q": "How many agreements did India and Nepal sign?",
+    "a": [
+     "Four",
+     "Six",
+     "Eight",
+     "Ten"
+    ],
+    "c": 2
+   },
+   "src": [
+    [
+     "Business Standard, 23 Nov",
+     "https://www.business-standard.com/amp/external-affairs-defence-security/news/india-nepal-sign-8-mous-advance-six-projects-to-deepen-bilateral-ties-126112300546_1.html"
+    ],
+    [
+     "IANS via The Hans India, 23 Nov",
+     "https://www.thehansindia.com/news/international/pm-modi-nepalese-counterpart-shah-flag-off-saryu-kamala-express-train-inaugurate-several-projects-1144960"
+    ],
+    [
+     "NewsBytes, 23 Nov",
+     "https://www.newsbytesapp.com/news/india/india-nepal-sign-8-mous-during-balen-shah-s-visit/story"
+    ],
+    [
+     "IANS via The Hans India (MoU on satellite network), 23 Nov",
+     "https://www.thehansindia.com/business/india-nepal-sign-mou-for-satcom-network-using-south-asia-satellite-1144971"
+    ]
+   ],
+   "where": {
+    "n": "New Delhi, India",
+    "lat": 28.6,
+    "lon": 77.2
+   }
+  },
+  {
+   "id": "g-planet-x2",
+   "scope": "global",
+   "cat": "space",
+   "emoji": "🪐",
+   "date": "2026-11-23",
+   "kind": "news",
+   "x": {
+    "t": "Is there a hidden planet far past Neptune?",
+    "b": [
+     "Some scientists think a hidden planet may circle the Sun far past [[neptune|Neptune]]. Nobody has seen it yet. It is just an idea.",
+     "The idea comes from computer [[simulation|models]]. They replayed 4.5 billion years of the Sun and its planets. They point to a planet up to twice Earth's weight.",
+     "Next, a big telescope that scans the sky could help check. That is how science works: guess, then check."
+    ]
+   },
+   "o": {
+    "t": "Could a hidden planet be orbiting far beyond Neptune?",
+    "b": [
+     "Astronomers suggest a planet nicknamed \"Planet X2\" may [[orbit|orbit]] the Sun far beyond [[neptune|Neptune]]. It could have up to about twice Earth's mass. It has not been observed: it is a hypothesis, an untested idea.",
+     "The idea comes from computer [[simulation|simulations]], models that imitate real things, covering 4.5 billion years of Solar System history. The planet's average distance from the Sun would be about 350 to 500 [[astronomical-unit|astronomical units]] (AU). One AU is Earth's average distance from the Sun. It could explain the unusual orbits of [[trans-neptunian-object|trans-Neptunian objects]], distant icy objects past Neptune.",
+     "The study, led by Patryk Sofia Lykawka of Kindai University, Japan, is in the journal Monthly Notices of the Royal Astronomical Society. \"If this planet exists, it could change how we understand the history of our Solar System,\" Lykawka said. Next, the Vera C. Rubin Observatory's sky survey could help test the idea."
+    ]
+   },
+   "think": "If you cannot see something, what clues could tell you it might be there?",
+   "quiz": {
+    "q": "Where does the idea of Planet X2 come from?",
+    "a": [
+     "A photo taken by a telescope",
+     "Computer simulations",
+     "A visit by a space probe",
+     "Astronauts on a space station"
+    ],
+    "c": 1
+   },
+   "src": [
+    [
+     "Royal Astronomical Society, 23 Nov",
+     "https://ras.ac.uk/news-and-press/research-highlights/could-astronomers-be-closing-hidden-planet-beyond-neptune"
+    ],
+    [
+     "ScienceAlert, 23 Nov",
+     "https://www.sciencealert.com/forget-planet-nine-hints-of-a-second-secret-world-emerge-from-the-edge-of-the-solar-system"
+    ],
+    [
+     "Interesting Engineering, 23 Nov",
+     "https://interestingengineering.com/science/another-planet-hiding-beyond-neptune"
+    ]
+   ]
+  },
+  {
+   "id": "in-sensex-fall",
+   "scope": "IN",
+   "cat": "business",
+   "emoji": "📉",
+   "date": "2026-11-23",
+   "kind": "news",
+   "x": {
+    "t": "Share prices in India go down after a run of gains",
+    "b": [
+     "A [[share|share]] is a tiny piece of a company. People buy and sell shares every day.",
+     "The [[sensex|Sensex]] is like a score for the share prices of big companies. On Monday, the Sensex went down.",
+     "Many people sold shares after prices had gone up. Many bank shares went down. Prices go up and down every day. People will keep buying and selling."
+    ]
+   },
+   "o": {
+    "t": "Sensex and Nifty fall as investors sell bank shares",
+    "b": [
+     "India's main share indexes, the [[sensex|Sensex]] and the [[nifty|Nifty]], fell on Monday 23 November. The Sensex dropped 1,483.72 points, or 1.77%, to 82,435.99. The Nifty fell 450.95 points, or 1.75%, to 25,349.65.",
+     "A [[share|share]] is a small piece of a company, and its price changes as people buy and sell. An index is like an average score for the share prices of big companies. Bank and financial company shares led Monday's fall, as many investors sold to [[profit-taking|take profits]] after recent gains.",
+     "Markets in other countries also fell. South Korea's main index, the KOSPI, closed about 3.3% lower on Monday, and the US Nasdaq index fell about 5.3% on Friday. Around the world, shares of companies linked to [[ai|artificial intelligence]] have also fallen. Prices rise and fall every day, and investors will keep watching."
+    ]
+   },
+   "think": "If you owned a tiny piece of a company, what would make you want to keep it or sell it?",
+   "quiz": {
+    "q": "Which shares led the fall in India on Monday?",
+    "a": [
+     "Toy company shares",
+     "Bank and financial company shares",
+     "Film company shares",
+     "Sports club shares"
+    ],
+    "c": 1
+   },
+   "src": [
+    [
+     "PTI via Deccan Chronicle, 23 Nov",
+     "https://www.deccanchronicle.com/business/economics/sensex-plunges-1484-points-nifty-crashes-to-25349-2007039"
+    ],
+    [
+     "Free Press Journal, 23 Nov",
+     "https://www.freepressjournal.in/business/share-market-crash-sensex-sinks-1484-points-nifty-slides-below-25400-after-nearing-26000"
+    ],
+    [
+     "Al Jazeera, 23 Nov",
+     "https://www.aljazeera.com/news/2026/11/23/south-koreas-stock-market-tumbles-as-ai-bubble-fears-mount"
+    ],
+    [
+     "The Week, 23 Nov",
+     "https://www.theweek.in/news/biz-tech/2026/11/23/indian-stock-market-slump.html"
+    ]
+   ]
+  },
+  {
+   "id": "g-kl-otters",
+   "scope": "global",
+   "cat": "nature",
+   "emoji": "🦦",
+   "date": "2026-11-23",
+   "kind": "news",
+   "x": {
+    "t": "Wild otters make a home in a big city river",
+    "b": [
+     "Wild otters are living in a river in Kuala Lumpur. Kuala Lumpur is a big city in Malaysia.",
+     "Otters eat fish. So otters in a river mean there are probably fish there too. That gives people hope the [[klang-river|river]] is getting healthier.",
+     "People have been working hard to clean the river. Machines powered by the sun help catch rubbish. Otters are now seen more often."
+    ]
+   },
+   "o": {
+    "t": "Otters in Kuala Lumpur's river raise hopes for the clean-up",
+    "b": [
+     "Wild otters are living along the [[klang-river|Klang River]] in Kuala Lumpur, a big city in Malaysia. Conservationists, people who work to protect nature, see the otters as a hopeful sign that work to clean up the river is helping.",
+     "Woo Chee Yoong is a co-founder of the Malaysian Otter Network, a group that works to protect otters. He says the otters being there suggests there are fish in the river, because otters need fish to eat.",
+     "Otters are now being seen more and more often in Kuala Lumpur. Part of the clean-up uses solar-powered machines called [[interceptor|Interceptors]], from a Dutch non-profit group (an organisation that does not aim to make money), which collect rubbish from the river."
+    ]
+   },
+   "think": "If you could help clean up one place near your home, which would you choose and why?",
+   "quiz": {
+    "q": "Why is seeing otters in the river good news?",
+    "a": [
+     "Otters clean the water themselves",
+     "It suggests there are fish in the river",
+     "Otters bring more rain",
+     "Otters only live in cities"
+    ],
+    "c": 1
+   },
+   "src": [
+    [
+     "Mongabay, 23 Nov",
+     "https://news.mongabay.com/2026/11/kuala-lumpur-otters-raise-river-clean-up-hopes/"
+    ],
+    [
+     "The Sun (Malaysia)",
+     "https://thesun.my/malaysia-news/otter-sighting-sparks-hope-on-river-cleanliness-FE14018692"
+    ],
+    [
+     "The Independent SG (on the Interceptors)",
+     "https://theindependent.sg/otters-spotted-in-klang-river-a-sign-of-hope-for-malaysias-urban-ecosystem/"
+    ]
+   ],
+   "where": {
+    "n": "Kuala Lumpur, Malaysia",
+    "lat": 3.1,
+    "lon": 101.7
+   }
+  }
+ ],
+ "glossary": {
+  "orbit": [
+   "orbit",
+   "science",
+   "The path something follows as it travels around a planet, moon or star, like the Sun.",
+   "The curved path that an object in space follows as it moves around a planet, star or moon."
+  ],
+  "tiangong": [
+   "Tiangong",
+   "science",
+   "China's space station, where astronauts live and do science.",
+   "China's space station, a laboratory in orbit around Earth where astronauts live and carry out experiments."
+  ],
+  "payload-specialist": [
+   "payload specialist",
+   "words",
+   "An astronaut who goes to space to do science work.",
+   "A crew member on a space mission whose main job is to carry out experiments or other science work."
+  ],
+  "space-station": [
+   "space station",
+   "science",
+   "A big spacecraft that stays in space. Astronauts live and work there.",
+   "A large spacecraft that stays in orbit for years, where crews live and work and do experiments."
+  ],
+  "test-match": [
+   "Test match",
+   "words",
+   "A long cricket match between two countries.",
+   "A cricket match between the teams of two countries, in which each team can bat twice."
+  ],
+  "test-draw": [
+   "draw",
+   "words",
+   "When a match ends and nobody wins.",
+   "In Test cricket, the result when a match ends before either team has won."
+  ],
+  "declare": [
+   "declare",
+   "words",
+   "In cricket, when a team chooses to stop batting early.",
+   "In cricket, to choose to end your team's innings before all of its batters are out."
+  ],
+  "century": [
+   "century",
+   "words",
+   "A score of 100 runs or more by one player.",
+   "In cricket, a score of 100 runs or more by one player in one innings."
+  ],
+  "over": [
+   "over",
+   "words",
+   "In cricket, a set of balls bowled by one bowler.",
+   "In cricket, a set of balls bowled in a row by one bowler. Counting overs shows how long a team has batted."
+  ],
+  "mou": [
+   "MoU",
+   "civics",
+   "A written plan to work together.",
+   "A memorandum of understanding: a written agreement that sets out how two sides plan to work together."
+  ],
+  "isro": [
+   "ISRO",
+   "science",
+   "India's space agency.",
+   "The Indian Space Research Organisation, India's space agency."
+  ],
+  "satellite": [
+   "satellite",
+   "science",
+   "A machine sent into space that travels around Earth.",
+   "A machine that is sent into space and moves around Earth or another planet."
+  ],
+  "hydroelectric": [
+   "hydroelectric",
+   "science",
+   "Electricity made using moving water.",
+   "Describes electricity made by using the force of moving water to turn machines. MW, or megawatts, measures how much power a plant can make."
+  ],
+  "share": [
+   "share",
+   "words",
+   "A tiny piece of a company that people can buy.",
+   "One of the equal parts a company is divided into. People who own shares own a small part of the company, and share prices change as people buy and sell."
+  ],
+  "sensex": [
+   "Sensex",
+   "words",
+   "A number that shows how the share prices of big Indian companies are doing.",
+   "An index of share prices on the Bombay Stock Exchange in Mumbai. When it goes down, the prices of the shares it follows have fallen on average."
+  ],
+  "nifty": [
+   "Nifty",
+   "words",
+   "Another number that shows how the share prices of big Indian companies are doing.",
+   "Another major Indian share index. Like the Sensex, it follows the share prices of a group of big companies."
+  ],
+  "profit-taking": [
+   "take profits",
+   "words",
+   "To sell something after its price has gone up.",
+   "To sell shares after their price has risen, so that the seller keeps the gain."
+  ],
+  "ai": [
+   "AI (artificial intelligence)",
+   "tech",
+   "Computer systems that can copy clever things that people do.",
+   "Computer systems that can copy intelligent human behaviour. The term also means the study and development of these systems."
+  ],
+  "countdown": [
+   "countdown",
+   "words",
+   "Counting down the time and doing checks before a rocket takes off.",
+   "The planned series of steps and checks, counted down in time, that a launch team works through before a rocket lifts off."
+  ],
+  "french-guiana": [
+   "French Guiana",
+   "places",
+   "A place in South America where Europe launches rockets.",
+   "A region of France on the north-east coast of South America, home to Europe's Spaceport in Kourou."
+  ],
+  "gantry": [
+   "gantry",
+   "words",
+   "A tall tower that stands around a rocket before it flies.",
+   "A tall structure built around a rocket on the launch pad so workers can reach it; a mobile gantry is moved away before launch."
+  ],
+  "klang-river": [
+   "Klang River",
+   "places",
+   "A river that flows through the city of Kuala Lumpur.",
+   "A river in Malaysia that runs through the city of Kuala Lumpur."
+  ],
+  "interceptor": [
+   "Interceptor",
+   "tech",
+   "A machine in a river that catches rubbish.",
+   "A solar-powered machine, from a Dutch non-profit group, that collects rubbish floating in a river."
+  ],
+  "neptune": [
+   "Neptune",
+   "places",
+   "A planet far out in our Solar System.",
+   "One of the planets that travel around the Sun, far out in the Solar System."
+  ],
+  "simulation": [
+   "simulation",
+   "tech",
+   "A practice run that copies the real thing, sometimes on a computer.",
+   "A model, often on a computer, that imitates something real, so that an idea can be tested without doing it for real."
+  ],
+  "astronomical-unit": [
+   "astronomical unit (AU)",
+   "science",
+   "A way to measure huge distances in space. One is as far as Earth is from the Sun.",
+   "A unit for measuring distances in space: 1 AU is the average distance from Earth to the Sun."
+  ],
+  "trans-neptunian-object": [
+   "trans-Neptunian object",
+   "science",
+   "An icy object in space, far past Neptune.",
+   "Any small, icy object that travels around the Sun beyond the orbit of Neptune."
+  ],
+  "tournament": [
+   "tournament",
+   "words",
+   "A set of games or matches played to find a winner.",
+   "A contest or series of contests played for a championship."
+  ]
+ },
+ "keys": {
+  "in-test-draw": {
+   "type": "number",
+   "v": "120",
+   "l": "overs New Zealand batted in their second innings to save the match"
+  },
+  "in-nepal-visit": {
+   "type": "number",
+   "v": "8",
+   "l": "agreements (MoUs) signed by India and Nepal"
+  },
+  "in-sensex-fall": {
+   "type": "number",
+   "v": "1.77%",
+   "l": "fall in the Sensex on Monday"
+  },
+  "g-ariane6-leo": {
+   "type": "number",
+   "v": "36",
+   "l": "Amazon Leo internet satellites on board"
+  },
+  "g-planet-x2": {
+   "type": "number",
+   "v": "4.5 billion",
+   "l": "years of Solar System history in the computer simulations"
+  }
+ },
+ "xkeys": {
+  "in-test-draw": {
+   "type": "check",
+   "q": "Who won the cricket match?",
+   "a": [
+    "Nobody, it was a draw",
+    "India"
+   ],
+   "c": 0,
+   "right": "Right! India could not get New Zealand out, so it was a draw.",
+   "wrong": "Not quite. India scored lots of runs, but could not get New Zealand out. It was a draw."
+  },
+  "in-nepal-visit": {
+   "type": "check",
+   "q": "What did the two leaders start?",
+   "a": [
+    "A new airport",
+    "A new train"
+   ],
+   "c": 1,
+   "right": "Right! A new train now links Ayodhya in India and Janakpur in Nepal.",
+   "wrong": "Not quite. They started a new train between India and Nepal."
+  },
+  "in-sensex-fall": {
+   "type": "check",
+   "q": "What is a share?",
+   "a": [
+    "A tiny piece of a company",
+    "A kind of bank note"
+   ],
+   "c": 0,
+   "right": "Right! A share is a tiny piece of a company.",
+   "wrong": "Not quite. A share is a tiny piece of a company that people can buy and sell."
+  },
+  "g-ariane6-leo": {
+   "type": "check",
+   "q": "Are the rocket and its satellites safe?",
+   "a": [
+    "Yes, they are safe",
+    "No, they are not safe"
+   ],
+   "c": 0,
+   "right": "Right! The rocket and its 36 satellites are safe. The team will try again.",
+   "wrong": "Not quite. They are safe. The problem was with equipment on the ground."
+  },
+  "g-kl-otters": {
+   "type": "check",
+   "q": "What do otters in the river tell scientists?",
+   "a": [
+    "There are probably fish in the river",
+    "The river has no fish"
+   ],
+   "c": 0,
+   "right": "Right! Otters eat fish, so otters suggest there are fish in the river.",
+   "wrong": "Not quite. Otters eat fish, so seeing otters suggests there are fish in the river."
+  },
+  "g-planet-x2": {
+   "type": "check",
+   "q": "Have scientists seen Planet X2 yet?",
+   "a": [
+    "Yes",
+    "No, not yet"
+   ],
+   "c": 1,
+   "right": "Right! Nobody has seen it yet. It is an idea from computer models, and a telescope will help check it.",
+   "wrong": "Not quite. Nobody has seen it yet. It is an idea from computer models."
+  }
+ },
+ "deep": {
+  "in-test-draw": {
+   "ctx": "India made 720 for 9 declared in the first Test, with centuries from KL Rahul and Rishabh Pant, while New Zealand were all out for 368 despite 175 not out from Henry Nicholls. New Zealand batted 120 overs in their second innings and, on the fifth and final day, held on to finish on 239 for 5, with Daryl Mitchell and Glenn Phillips not out. The second Test starts at Hagley Oval, Christchurch, on 27 November.",
+   "ask": "India scored far more runs but could not win, while New Zealand scored fewer runs but did not lose. Should a draw like this count as a success for the team that batted out the last day, or is it fairer to say neither team did quite enough?",
+   "jobs": [
+    "Cricket coach",
+    "Sports statistician",
+    "Groundskeeper"
+   ]
+  },
+  "in-nepal-visit": {
+   "ctx": "Nepal's Prime Minister Balendra Shah visited India on 22 and 23 November and held talks with Prime Minister Narendra Modi in New Delhi. The two countries signed eight MoUs, including one between ISRO and Nepal's Ministry of Information and Communication on a satellite network using the South Asia Satellite. They also launched the Saryu-Kamala Express train, opened the Dharchula to Darchula road bridge and laid the foundation stone for the 669 MW Lower Arun Hydroelectric Project.",
+   "ask": "Neighbouring countries can build shared projects such as trains, bridges and power plants. Thinking about the benefits and the challenges for both sides, is it better for neighbours to build big projects together, or for each country to build what it needs on its own?",
+   "jobs": [
+    "Diplomat",
+    "Civil engineer",
+    "Satellite communications engineer"
+   ]
+  },
+  "in-sensex-fall": {
+   "ctx": "On Monday 23 November the Sensex fell 1,483.72 points, or 1.77%, and the Nifty fell 450.95 points, or 1.75%, with bank and financial shares leading the fall as investors took profits after recent gains. Markets elsewhere also fell: South Korea's KOSPI closed about 3.3% lower on Monday and the US Nasdaq fell about 5.3% on Friday. Around the world, shares of companies linked to artificial intelligence have also fallen.",
+   "ask": "When share prices fall after a period of gains, some people see it as a normal part of how markets work, while others see it as a warning sign. Which view do you find more convincing, and what would you want to know before deciding?",
+   "jobs": [
+    "Financial analyst",
+    "Economist",
+    "Business journalist"
+   ]
+  },
+  "g-ariane6-leo": {
+   "ctx": "Ariane 6 flight VA271 was set to launch from Europe's Spaceport in Kourou, French Guiana, carrying 36 Amazon Leo internet satellites. Arianespace stopped the countdown because of a technical issue with the rocket's ground support systems, before the mobile gantry was removed, and said the rocket and satellites remain stable and safe. The next attempt will be no earlier than 24 November.",
+   "ask": "Some people think a launch team should stop at even the smallest sign of a problem, even if that means many delays. Others think too many stops cost time and money, and that some small issues can be checked without halting everything. Where would you draw the line, and why?",
+   "jobs": [
+    "Launch engineer",
+    "Ground systems technician",
+    "Satellite engineer"
+   ]
+  },
+  "g-kl-otters": {
+   "ctx": "Otters are now being seen more and more often in Kuala Lumpur. Conservationists see the otters along the Klang River as a hopeful sign that clean-up work, including solar-powered rubbish-collecting Interceptors from a Dutch non-profit group, is helping.",
+   "ask": "Some people think cities should spend much more money cleaning rivers so that wildlife can return. Others think that money is better spent first on other needs, such as housing, transport or schools. How should a city decide what comes first, and why?",
+   "jobs": [
+    "Wildlife ecologist",
+    "River conservation officer",
+    "Environmental engineer"
+   ]
+  },
+  "g-planet-x2": {
+   "ctx": "Planet X2 is an idea from computer simulations covering 4.5 billion years of Solar System history, and the planet has not been observed. It could explain the unusual orbits of trans-Neptunian objects, distant icy objects beyond Neptune. The Vera C. Rubin Observatory's sky survey, the Legacy Survey of Space and Time, could help test the idea.",
+   "ask": "Some people think scientists should share an idea like Planet X2 as soon as their computer models suggest it, so others can help check it. Others think it is better to wait until a telescope has actually seen the planet, so people are not misled. Which approach do you think is better, and why?",
+   "jobs": [
+    "Astronomer",
+    "Data scientist",
+    "Telescope engineer"
+   ]
+  }
+ },
+ "bigStory": {
+  "week": "2026-11-23",
+  "story": "g-shenzhou-24",
+  "cat": "space",
+  "sketch": "orbit",
+  "t": "Who is the first visitor to China's space station?",
+  "sub": "China's Shenzhou-24 is ready for launch, set to carry Pakistan's first astronaut to Tiangong",
+  "x": {
+   "why": "A rocket in China is ready to carry a visitor from Pakistan to China's space station. No one from another country has been there before."
+  },
+  "o": {
+   "why": "So far, only Chinese astronauts have been on board Tiangong. This mission is expected to carry the first visitor from another country, an astronaut from Pakistan, for a stay of about a week."
+  },
+  "facts": [
+   [
+    "17 Nov",
+    "the day the rocket and spacecraft moved to the launch area"
+   ],
+   [
+    "2",
+    "Pakistan's astronaut candidates: only one will fly"
+   ],
+   [
+    "1 week",
+    "about how long the visitor is expected to stay on Tiangong"
+   ],
+   [
+    "Long March 2F",
+    "the rocket, launching from Jiuquan in China"
+   ]
+  ],
+  "days": [
+   {
+    "d": "2026-11-23",
+    "h": "Ready on the launch pad",
+    "o": "China's Shenzhou-24 spacecraft and its Long March 2F rocket moved to the launch area at the Jiuquan Satellite Launch Center on 17 November. The mission is set to carry Pakistan's first astronaut, the first foreign visitor to Tiangong, China's space station. China has not officially announced the launch date or the crew. The launch has been reported for 25 November.",
+    "x": "A rocket is ready at a launch site in China. It is set to carry a spacecraft called Shenzhou-24. On board will be Pakistan's first astronaut. They will be the first visitor from another country to China's space station."
+   },
+   {
+    "d": "2026-11-24",
+    "h": "Who is flying?",
+    "lock": "Tuesday: who is flying, and how do astronauts train for space?"
+   },
+   {
+    "d": "2026-11-25",
+    "h": "Launch day",
+    "lock": "Wednesday: the launch reported for this week, and what happens at lift-off."
+   },
+   {
+    "d": "2026-11-26",
+    "h": "Joining up",
+    "lock": "Thursday: how does a spacecraft join up, or dock, with a space station?"
+   },
+   {
+    "d": "2026-11-27",
+    "h": "Life on board",
+    "lock": "Friday: life and science on board, and why countries share space labs."
+   }
+  ],
+  "words": [
+   "orbit",
+   "tiangong",
+   "payload-specialist",
+   "space-station"
+  ],
+  "poll": {
+   "q": "If you visited a space station, what would you most like to do?",
+   "a": [
+    [
+     "Look out at Earth",
+     "You could see our planet from high above."
+    ],
+    [
+     "Float around",
+     "You could drift from one room to the next."
+    ],
+    [
+     "Do a science experiment",
+     "A space station is a lab as well as a home."
+    ],
+    [
+     "Talk to the crew",
+     "You could learn how people from different places work together."
+    ]
+   ]
+  },
+  "talk": "If you could take one small thing from home to a space station, what would you choose, and why?"
+ },
+ "puzzles": {
+  "week": "2026-11-23",
+  "sudoku": {
+   "x": {
+    "n": 4,
+    "br": 2,
+    "bc": 2,
+    "p": [
+     [
+      0,
+      4,
+      0,
+      1
+     ],
+     [
+      1,
+      2,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      3
+     ],
+     [
+      4,
+      3,
+      0,
+      0
+     ]
+    ],
+    "s": [
+     [
+      3,
+      4,
+      2,
+      1
+     ],
+     [
+      1,
+      2,
+      3,
+      4
+     ],
+     [
+      2,
+      1,
+      4,
+      3
+     ],
+     [
+      4,
+      3,
+      1,
+      2
+     ]
+    ]
+   },
+   "o": {
+    "n": 6,
+    "br": 2,
+    "bc": 3,
+    "p": [
+     [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      0,
+      0,
+      6,
+      1,
+      0
+     ],
+     [
+      0,
+      5,
+      0,
+      0,
+      0,
+      6
+     ],
+     [
+      6,
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      6,
+      0
+     ],
+     [
+      0,
+      2,
+      0,
+      4,
+      0,
+      0
+     ]
+    ],
+    "s": [
+     [
+      2,
+      6,
+      1,
+      5,
+      3,
+      4
+     ],
+     [
+      3,
+      4,
+      5,
+      6,
+      1,
+      2
+     ],
+     [
+      4,
+      5,
+      3,
+      1,
+      2,
+      6
+     ],
+     [
+      6,
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     [
+      5,
+      3,
+      4,
+      2,
+      6,
+      1
+     ],
+     [
+      1,
+      2,
+      6,
+      4,
+      5,
+      3
+     ]
+    ]
+   },
+   "n": {
+    "n": 9,
+    "br": 3,
+    "bc": 3,
+    "p": [
+     [
+      9,
+      7,
+      0,
+      0,
+      0,
+      0,
+      5,
+      2,
+      0
+     ],
+     [
+      0,
+      3,
+      8,
+      9,
+      0,
+      0,
+      0,
+      0,
+      4
+     ],
+     [
+      0,
+      5,
+      0,
+      1,
+      7,
+      0,
+      3,
+      0,
+      0
+     ],
+     [
+      6,
+      8,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      5
+     ],
+     [
+      3,
+      1,
+      2,
+      0,
+      5,
+      0,
+      9,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      6,
+      0,
+      0,
+      3,
+      7
+     ],
+     [
+      0,
+      0,
+      1,
+      8,
+      0,
+      2,
+      6,
+      7,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      5,
+      4,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      8,
+      0,
+      0,
+      7,
+      3,
+      0,
+      4,
+      0,
+      0
+     ]
+    ],
+    "s": [
+     [
+      9,
+      7,
+      4,
+      6,
+      8,
+      3,
+      5,
+      2,
+      1
+     ],
+     [
+      1,
+      3,
+      8,
+      9,
+      2,
+      5,
+      7,
+      6,
+      4
+     ],
+     [
+      2,
+      5,
+      6,
+      1,
+      7,
+      4,
+      3,
+      9,
+      8
+     ],
+     [
+      6,
+      8,
+      7,
+      3,
+      1,
+      9,
+      2,
+      4,
+      5
+     ],
+     [
+      3,
+      1,
+      2,
+      4,
+      5,
+      7,
+      9,
+      8,
+      6
+     ],
+     [
+      4,
+      9,
+      5,
+      2,
+      6,
+      8,
+      1,
+      3,
+      7
+     ],
+     [
+      5,
+      4,
+      1,
+      8,
+      9,
+      2,
+      6,
+      7,
+      3
+     ],
+     [
+      7,
+      2,
+      3,
+      5,
+      4,
+      6,
+      8,
+      1,
+      9
+     ],
+     [
+      8,
+      6,
+      9,
+      7,
+      3,
+      1,
+      4,
+      5,
+      2
+     ]
+    ]
+   }
+  },
+  "words": {
+   "x": [
+    [
+     "VACCINE",
+     "India has made one to protect chickens from bird flu"
+    ],
+    [
+     "CHICKEN",
+     "Birds that a new vaccine made in India protects from bird flu"
+    ],
+    [
+     "HOCKEY",
+     "India's women beat Thailand 7-0 in this sport"
+    ],
+    [
+     "ROCKET",
+     "China's Long March 2F is one, ready at the launch site"
+    ],
+    [
+     "TENNIS",
+     "Carlos Alcaraz's sport"
+    ]
+   ],
+   "o": [
+    [
+     "ORBIT",
+     "The path a spacecraft follows around a planet"
+    ],
+    [
+     "MERCURY",
+     "The planet that BepiColombo is now orbiting"
+    ],
+    [
+     "TURIN",
+     "The Italian city where Alcaraz won his first ATP Finals"
+    ],
+    [
+     "BHOPAL",
+     "Indian city hosting the women's Asian Champions Trophy"
+    ],
+    [
+     "SOFTWARE",
+     "A problem with this cut BepiColombo's engine burn short"
+    ]
+   ]
+  }
+ },
+ "reporters": {
+  "week": "2026-11-23",
+  "t": "Find out how an animal near you is kept healthy",
+  "why": "This week's news includes a new vaccine made in India to protect chickens. Pets, farm animals and working animals all need care to stay healthy, and the people who look after them know a lot about it.",
+  "tips": [
+   "Which animal is it, and who looks after it? Ask a grown-up to help you choose, and never touch an animal you do not know.",
+   "What do they do each day, week or year to keep it healthy?",
+   "Who else could you ask to check what you learned?"
+  ],
+  "sample": []
+ },
+ "today": {
+  "days": [
+   {
+    "name": "Fibonacci Day",
+    "what": "Fibonacci Day honours Leonardo of Pisa, known as Fibonacci, and the number pattern named after him. In the Fibonacci sequence, each number is the sum of the two before it: 1, 1, 2, 3, 5, 8 and so on. Written month first, the date 11/23 shows 1, 1, 2, 3. Fibonacci described the sequence in 1202 and helped spread Hindu-Arabic numerals in Europe."
+   }
+  ],
+  "born": [
+   {
+    "name": "Johannes Diderik van der Waals",
+    "year": 1837,
+    "what": "A physicist, which means a scientist who studies matter, energy and how things move, born in Leiden, the Netherlands. He won the Nobel Prize in Physics in 1910 for his work on how gases and liquids behave."
+   },
+   {
+    "name": "Manuel de Falla",
+    "year": 1876,
+    "what": "A composer, which means a person who writes music, born in Cádiz, Spain. He wrote music for ballets, including El amor brujo in 1915 and The Three-Cornered Hat in 1919."
+   }
+  ]
+ },
+ "learn": {
+  "subject": "Science",
+  "cat": "science",
+  "link": "From the bird flu vaccine story: a vaccine helps a body learn to protect itself",
+  "x": {
+   "t": "How a vaccine trains the body",
+   "b": [
+    "Some germs can make people and animals ill. India has made a new vaccine to protect chickens from bird flu.",
+    "A vaccine has germs that are made weak or switched off. Some vaccines have just a small part of a germ. These do not make you ill.",
+    "The body learns to spot the germ. It makes antibodies, tiny helpers that fight the germ. It also remembers the germ, so it can act fast next time."
+   ],
+   "remember": "A vaccine teaches the body to spot a germ, so it is ready to fight it next time.",
+   "q": "What does a vaccine teach the body to do?",
+   "a": [
+    "Spot a germ and fight it",
+    "Grow taller",
+    "Sleep longer"
+   ],
+   "c": 0
+  },
+  "o": {
+   "t": "How does a vaccine train the body to protect itself?",
+   "b": [
+    "A vaccine helps the body get ready for a germ before it meets the real thing. Most vaccines contain a weakened or inactive form of a germ, such as a virus or bacterium, or a small part of one. This part is called an antigen: something the body's defences can recognise. Some newer vaccines carry instructions that let the body make the antigen itself.",
+    "The immune system is the body's defence system. Its immune cells make antibodies, which are proteins that recognise a particular antigen and help fight it. The first time the body meets an antigen, it needs time to make the right antibodies. A vaccine lets this happen without the dangers of a real illness.",
+    "Afterwards, the immune system keeps a memory of the germ. If the real germ arrives later, the body can make the right antibodies quickly. Vaccines are used for animals as well as people: India's new bird flu vaccine is meant to protect chickens."
+   ],
+   "remember": "A vaccine shows the immune system a harmless form of a germ, so it can remember the germ and respond quickly later.",
+   "q": "What happens if the real germ arrives after a vaccine has done its work?",
+   "a": [
+    "The body makes the right antibodies quickly",
+    "The body forgets the germ",
+    "The vaccine turns into the germ"
+   ],
+   "c": 0
+  }
+ },
+ "backThen": {
+  "y": 1963,
+  "t": "Doctor Who is shown on television for the first time",
+  "o": "On 23 November 1963, the BBC showed the first episode of Doctor Who on television in the United Kingdom. The episode was called An Unearthly Child. The programme was cancelled in 1989, but it came back in 2005.",
+  "x": "On this day in 1963, the first episode of Doctor Who was shown on TV in the UK. The BBC made it. The show stopped in 1989. It came back in 2005.",
+  "why": "A television programme can stop and still return: Doctor Who came back in 2005, 16 years after it was cancelled."
+ },
+ "hiddenWords": [
+  {
+   "k": "orbit",
+   "o": "Orbit comes from the Latin word orbita, which means a wheel track or path. The Romans also used it for the path of a heavenly body through the sky."
+  },
+  {
+   "k": "tournament",
+   "o": "Tournament comes from the Old French word torneiement, which became tornement in Middle English. It meant a contest between two teams of knights on horseback."
+  }
+ ]
+}

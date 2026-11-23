@@ -1,316 +1,346 @@
 {
  "schema": 1,
  "date": "2026-11-23",
- "edition": "am",
- "short": true,
+ "edition": "pm",
  "countries": [
   "IN"
  ],
  "stories": [
   {
-   "id": "in-bird-flu-vaccine",
+   "id": "in-test-draw",
    "scope": "IN",
-   "cat": "science",
-   "emoji": "🐔",
-   "date": "2026-11-20",
-   "kind": "news",
-   "x": {
-    "t": "Indian scientists make a vaccine to protect chickens from bird flu",
-    "b": [
-     "Scientists in [[bhopal|Bhopal]], India, have made a new [[vaccine|vaccine]] for chickens. It protects them from bird flu. It is the first bird flu vaccine for chickens made in India.",
-     "A vaccine teaches the body to fight a germ before it arrives. Animals can get vaccines too, just like people.",
-     "Each dose may cost only one or two rupees. That could help chicken farmers keep their birds healthy."
-    ]
-   },
-   "o": {
-    "t": "India launches its first homegrown bird flu vaccine for chickens",
-    "b": [
-     "India's first indigenous, or homegrown, [[vaccine|vaccine]] against H5N1 bird flu in chickens was launched in [[bhopal|Bhopal]] last week by Union Agriculture Minister Shivraj Singh Chouhan. It was developed by the [[icar-nihsad|ICAR-National Institute of High Security Animal Diseases]] (NIHSAD) in Bhopal.",
-     "A vaccine trains the body to recognise a germ and fight it before it can cause illness. H5N1 is a type of bird flu [[virus|virus]], a tiny germ that can make living things sick. India has had more than 500 bird flu outbreaks, or sudden spreads of the illness, since 2006.",
-     "Each dose is expected to cost about Rs 1 to Rs 2. A low price matters because [[poultry|poultry]] farmers, who raise chickens and other birds, may need to protect many birds at once. The new vaccine gives them a homegrown way to do that."
-    ]
-   },
-   "think": "Why do you think it helps to protect animals from an illness before it arrives, instead of waiting until they are sick?",
-   "quiz": {
-    "q": "About how much is each dose of the new chicken vaccine expected to cost?",
-    "a": [
-     "Rs 1 to Rs 2",
-     "Rs 50",
-     "Rs 500",
-     "Rs 5,000"
-    ],
-    "c": 0
-   },
-   "src": [
-    [
-     "Deccan Herald, 20 Nov",
-     "https://www.deccanherald.com/india/icar-nihsad-develops-indias-first-indigenous-h5n1-vaccine-to-protect-chickens-from-bird-flu-4225306"
-    ],
-    [
-     "PTI via ETV Bharat, 20 Nov",
-     "https://www.etvbharat.com/en/bharat/union-minister-shivraj-singh-chouhan-unveils-country-first-indigenous-h5n1-vaccine-to-protect-chickens-from-bird-flu-enn26112004226"
-    ],
-    [
-     "Daijiworld, 20 Nov",
-     "https://daijiworld.com/news/newsDisplay?newsID=1335859"
-    ]
-   ],
-   "where": {
-    "n": "Bhopal, Madhya Pradesh",
-    "lat": 23.3,
-    "lon": 77.4
-   }
-  },
-  {
-   "id": "g-shenzhou-24",
-   "scope": "global",
-   "cat": "space",
-   "emoji": "🚀",
-   "date": "2026-11-22",
-   "kind": "news",
-   "x": {
-    "t": "China's space station is getting its first visitor from abroad",
-    "b": [
-     "China has a space station called [[tiangong|Tiangong]]. It is a science lab that goes [[orbit|around Earth]]. Soon it should get its first visitor from another country.",
-     "The visitor will be an astronaut from Pakistan. Two people from Pakistan could go. Only one will fly.",
-     "A rocket is ready at the launch site. The visitor should stay about a week."
-    ]
-   },
-   "o": {
-    "t": "China's Tiangong station set to welcome its first foreign astronaut",
-    "b": [
-     "China's space station, [[tiangong|Tiangong]], is expected to host its first visitor from another country: an astronaut from Pakistan. A space station is a laboratory in [[orbit|orbit]], the curved path an object follows around a planet, where astronauts live and do experiments.",
-     "On 17 November, a Long March 2F rocket and the Shenzhou-24 spacecraft were moved to the launch area at the Jiuquan Satellite Launch Center in northwest China. China has not officially announced the launch date, but SpacePolicyOnline, a space news website, reports it is planned for 25 November.",
-     "The mission is set to carry three astronauts. Pakistan has two candidates, Muhammad Zeeshan Ali and Khurram Daud. One of them will fly as a [[payload-specialist|payload specialist]], a crew member who carries out science work. The astronaut chosen is expected to stay about a week and return to Earth aboard a different spacecraft, Shenzhou-23."
-    ]
-   },
-   "think": "If you could do one science experiment on a space station, what would you test, and why?",
-   "quiz": {
-    "q": "How long is the Pakistani astronaut expected to stay on Tiangong?",
-    "a": [
-     "About a day",
-     "About a week",
-     "About a month",
-     "About a year"
-    ],
-    "c": 1
-   },
-   "src": [
-    [
-     "Arab News Pakistan, 22 Nov",
-     "https://www.arabnews.pk/pakistan/china-completes-launch-drill-for-mission-carrying-pakistans-first-astronaut-3007767"
-    ],
-    [
-     "Space.com, 19 Nov",
-     "https://www.space.com/space-exploration/human-spaceflight/china-rolls-out-rocket-for-launch-of-1st-international-astronaut-to-tiangong-space-station-video"
-    ],
-    [
-     "SpacePolicyOnline, 22 Nov",
-     "https://spacepolicyonline.com/news/whats-happening-in-space-policy-november-22-29-2026/"
-    ]
-   ],
-   "where": {
-    "n": "Jiuquan, China",
-    "lat": 41.0,
-    "lon": 100.3
-   }
-  },
-  {
-   "id": "g-alcaraz-finals",
-   "scope": "global",
    "cat": "sports",
-   "emoji": "🎾",
-   "date": "2026-11-22",
+   "emoji": "🏏",
+   "date": "2026-11-23",
    "kind": "news",
    "x": {
-    "t": "Carlos Alcaraz wins the ATP Finals for the first time",
+    "t": "New Zealand bat carefully to draw with India",
     "b": [
-     "Carlos Alcaraz has won a big tennis event called the [[atp-finals|ATP Finals]]. Only the season's top players get to play in it.",
-     "In the final, he beat Alexander Zverev in Turin, Italy. Zverev was the world number one player.",
-     "Alcaraz came close to losing the [[set|second set]] three times. He stayed calm and won it. It is the 30th title of his career."
+     "India and New Zealand have finished a long cricket match called a [[test-match|Test match]]. It ended in a [[test-draw|draw]], so nobody won.",
+     "India scored a huge 720 runs. To win, they had to get New Zealand's batters out. But New Zealand batted carefully on the last day.",
+     "India could not get them out. So the match was called a draw. The next match starts on 27 November."
     ]
    },
    "o": {
-    "t": "Alcaraz saves three set points to win his first ATP Finals title",
+    "t": "New Zealand bat out the last day to save the Wellington Test",
     "b": [
-     "Carlos Alcaraz won the [[atp-finals|ATP Finals]], the season-ending event for the year's top men's players, for the first time on Sunday 22 November. In the final in Turin, Italy, he beat Alexander Zverev, who went into the match as world No. 1, by 6-2, 7-6.",
-     "Tennis matches are split into [[set|sets]], groups of games. The second set went to a [[tie-break|tie-break]], a special game played to decide a close set. Zverev had three set points, chances to win the set, but Alcaraz stayed calm, saved them all and won the tie-break 9-7.",
-     "It is the 30th title of Alcaraz's career and his sixth of 2026. He is now one of only four men, with Roger Federer, Andre Agassi and Novak Djokovic, to have won all four Grand Slam [[tournament|tournaments]], the sport's biggest events, and the ATP Finals."
+     "The first [[test-match|Test match]] between India and New Zealand ended in a [[test-draw|draw]] on Monday 23 November, the fifth and final day. It was played at the Basin Reserve in Wellington, New Zealand.",
+     "India batted first and made 720 for 9 before they chose to [[declare|declare]], which means ending their innings early. KL Rahul and Rishabh Pant both scored [[century|centuries]], scores of 100 runs or more. New Zealand replied with 368 all out, including 175 not out from Henry Nicholls.",
+     "To win, India had to get New Zealand out. Batting again, New Zealand lasted 120 [[over|overs]] and reached 239 for 5. Devon Conway made 65, and Daryl Mitchell (49 not out) and Glenn Phillips (26 not out) held on until the match was called a draw, with time still left in the day. The second Test starts at Hagley Oval, Christchurch, on 27 November."
     ]
    },
-   "think": "What helps you stay calm when something is very close to going wrong?",
+   "think": "What helps a team keep going when the other side is far ahead?",
    "quiz": {
-    "q": "How many set points did Alcaraz save in the second-set tie-break?",
+    "q": "How many runs did India score in their first innings?",
     "a": [
-     "One",
-     "Two",
-     "Three",
-     "Five"
+     "368",
+     "239",
+     "720",
+     "175"
     ],
     "c": 2
    },
    "src": [
     [
-     "AFP via SuperSport, 22 Nov",
-     "https://supersport.com/tennis/news/aa95a50a-d41f-4715-b4df-25309e85758f/alcaraz-wins-atp-finals-for-first-time"
+     "ICC, 23 Nov",
+     "https://www.icc-cricket.com/tournaments/world-test-championship/news/new-zealand-survive-final-day-test-to-hold-india-to-a-draw"
     ],
     [
-     "Tennis Majors, 22 Nov",
-     "https://www.tennismajors.com/atp/nitto-atp-finals-atp/breaking-news-alcaraz-beats-zverev-to-win-the-atp-finals-for-the-first-time-867706.html"
+     "Onmanorama, 23 Nov",
+     "https://www.onmanorama.com/sports/cricket/2026/11/23/ind-vs-nz-live-kiwis-dig-in-without-flying-deny-india-victory-as-wellington-test-ends-in-draw-india-vs-new-zealand.html"
+    ],
+    [
+     "The Tribune, 23 Nov",
+     "https://www.tribuneindia.com/news/basin-reserve/india-new-zealand-play-out-draw-in-wellington-test-after-tough-fightback-from-mitchell-phillips"
+    ],
+    [
+     "Open (ANI), 23 Nov",
+     "https://openthemagazine.com/sports/india-held-to-draw-by-new-zealand-in-wellington-test-after-tough-fightback-from-mitchell-phillips"
+    ],
+    [
+     "NewsBytes, 23 Nov",
+     "https://www.newsbytesapp.com/news/sports/new-zealand-vs-india-1st-test-report-and-stats/story"
     ]
    ],
    "where": {
-    "n": "Turin, Italy",
-    "lat": 45.1,
-    "lon": 7.7
+    "n": "Wellington, New Zealand",
+    "lat": -41.3,
+    "lon": 174.8
    }
   },
   {
-   "id": "in-hockey-semis",
-   "scope": "IN",
-   "cat": "sports",
-   "emoji": "🏑",
-   "date": "2026-11-22",
-   "kind": "news",
-   "x": {
-    "t": "India's women's hockey team wins 7-0 and reaches the semi-finals",
-    "b": [
-     "India's women's hockey team beat Thailand 7-0 on Sunday. The match was in Bhopal, India.",
-     "A player called Deepika scored three goals. That is called a [[hat-trick|hat-trick]]. Navneet Kaur scored two goals.",
-     "India has won all three of its games. Now it is in the semi-finals of the [[asian-champions-trophy|Asian Champions Trophy]]. Semi-final winners play in the final."
-    ]
-   },
-   "o": {
-    "t": "India beat Thailand 7-0 to reach Asian Champions Trophy semi-finals",
-    "b": [
-     "India's women's hockey team beat Thailand 7-0 on Sunday 22 November to seal a place in the semi-finals of the Women's [[asian-champions-trophy|Asian Champions Trophy]]. The [[tournament|tournament]] is being played in Bhopal, Madhya Pradesh, from 19 to 28 November.",
-     "Deepika scored a [[hat-trick|hat-trick]], three goals in one match. Navneet Kaur scored twice from [[penalty-stroke|penalty strokes]], free shots at goal with only the goalkeeper defending. Mumtaz Khan and Sunelita Toppo also scored.",
-     "It was India's third win from three matches. Led by captain Salima Tete, the team had already beaten Malaysia 4-1 on 19 November and South Korea 2-1 on 21 November. A semi-final is the round before the final, so India are now two wins away from the title."
-    ]
-   },
-   "think": "What do you think helps a team keep winning game after game?",
-   "quiz": {
-    "q": "Which team did India beat 7-0?",
-    "a": [
-     "Thailand",
-     "China",
-     "Japan",
-     "Malaysia"
-    ],
-    "c": 0
-   },
-   "src": [
-    [
-     "UNI, 22 Nov",
-     "https://www.uniindia.com/sports/sports-hockey-india-women-asian-champions-trophy-22spd26/254136"
-    ],
-    [
-     "PTI via Millennium Post, 23 Nov",
-     "https://www.millenniumpost.in/sports/womens-act-india-cruise-past-thailand-7-0-to-seal-sf-berth-684253"
-    ],
-    [
-     "News On AIR, Nov",
-     "https://newsonair.gov.in/womens-hockey-india-defeat-malaysia-4-1/"
-    ],
-    [
-     "Outlook India, Nov",
-     "https://www.outlookindia.com/sports/hockey/womens-asian-champions-trophy-2026-guide-squads-schedule-and-live-streaming"
-    ],
-    [
-     "New Straits Times, Nov",
-     "https://www.nst.com.my/amp/sports/hockey/2026/11/1581605/asian-games-hockey-champions-india-prove-too-strong-malaysia-act"
-    ],
-    [
-     "UNI, 21 Nov",
-     "https://www.uniindia.com/sports/sports-hockey-india-women-asian-champions-trophy-21spd35/253373"
-    ],
-    [
-     "Deccan Herald, Nov",
-     "https://www.deccanherald.com/sports/hockey/india-beat-south-korea-2-1-to-register-second-consecutive-win-in-act-womens-hockey-4226826"
-    ]
-   ],
-   "where": {
-    "n": "Bhopal, Madhya Pradesh",
-    "lat": 23.3,
-    "lon": 77.4
-   }
-  },
-  {
-   "id": "g-bepicolombo-update",
+   "id": "g-ariane6-leo",
    "scope": "global",
    "cat": "space",
-   "emoji": "🛰️",
-   "date": "2026-11-22",
+   "emoji": "🚀",
+   "date": "2026-11-23",
    "kind": "news",
    "x": {
-    "t": "BepiColombo is safe at Mercury after a computer problem",
+    "t": "Europe's big rocket waits to fly after a problem on the ground",
     "b": [
-     "On Saturday, the spacecraft BepiColombo started going around [[mercury|Mercury]]. But one part did not go to plan.",
-     "Its engines fired to slow it down. A problem with its [[software|computer program]] stopped them early. The [[esa|European Space Agency]] says the spacecraft is safe.",
-     "Teams on Earth are working out what happened. They can check on it from very far away. Updates are due today."
+     "Europe's big rocket, Ariane 6, was meant to fly on 23 November. But the launch team stopped the [[countdown|countdown]].",
+     "Some equipment on the ground had a problem. The rocket and its 36 internet [[satellite|satellites]] are safe.",
+     "Launch teams always stop when something is not right. The team will try again on 24 November or later. Then the satellites can go into [[orbit|orbit]] and send internet signals to Earth."
     ]
    },
    "o": {
-    "t": "BepiColombo safe in Mercury orbit after software glitch",
+    "t": "Ariane 6 launch with 36 internet satellites is put on hold",
     "b": [
-     "BepiColombo, a joint mission of the [[esa|European Space Agency]] (ESA) and JAXA, Japan's space agency, went into [[orbit|orbit]] around [[mercury|Mercury]] on Saturday 21 November. It launched in 2018 and took about eight years to get there. But ESA said the engine burn, a firing of its engines to slow it down, was shorter than planned following a [[software|software]] issue. Software is the set of instructions that tells a computer what to do.",
-     "ESA said: \"The spacecraft is safe.\" Teams at ESOC, the European Space Operations Centre, are working to understand what happened. ESOC is ESA's mission control, where people guide spacecraft from Earth.",
-     "ESA promised updates today, Monday 23 November. BepiColombo carries two orbiters, or spacecraft built to circle a planet: ESA's MPO and JAXA's Mio. They are due to separate around 9 December. Science work is due to start in April 2027."
+     "Arianespace, the company running the launch, stopped the [[countdown|countdown]] for Ariane 6 flight VA271 on Monday 23 November. The rocket was due to lift off from Europe's Spaceport in Kourou, [[french-guiana|French Guiana]], carrying 36 Amazon Leo internet [[satellite|satellites]].",
+     "The cause was a technical issue with the rocket's ground support systems, the equipment on the ground that helps get a rocket ready to fly. The countdown stopped before the mobile [[gantry|gantry]], a tall movable tower around the rocket, had been taken away. Arianespace said the rocket and the satellites remain stable and safe.",
+     "Launch teams halt a countdown whenever anything is not right, because safety comes first. A delay like this is normal, not a failure. The next attempt will be no earlier than 24 November. Once launched, the satellites will go into [[orbit|orbit]] and send internet signals down to places on Earth."
     ]
    },
-   "think": "When something you planned goes wrong, what steps do you take to work out what happened?",
+   "think": "Can you think of a time when stopping to check something was the smart thing to do?",
    "quiz": {
-    "q": "What made BepiColombo's engine burn end early?",
+    "q": "Why did the Ariane 6 countdown stop?",
     "a": [
-     "A software issue",
-     "A storm on Mercury",
-     "Running out of fuel",
-     "Hitting a space rock"
+     "A storm over the launch site",
+     "A problem with equipment on the ground",
+     "One of the satellites broke",
+     "The rocket ran out of fuel"
     ],
-    "c": 0
+    "c": 1
    },
    "src": [
     [
-     "Reuters via Devdiscourse, 23 Nov",
-     "https://www.devdiscourse.com/article/international/4010603-spacecraft-begins-orbit-of-mercury-with-a-glitch-reported"
+     "Arianespace release via EuropaWire, 23 Nov",
+     "https://news.europawire.eu/arianespace-halts-ariane-6-va271-countdown-after-ground-systems-technical-event/eu-press-release/2026/11/23/11/59/05/189178/"
     ],
     [
-     "Space.com, 21 Nov",
-     "https://www.space.com/space-exploration/missions/esa-jaxa-bepicolomobo-mission-mercury-orbit-arrival"
+     "Space.com, 23 Nov",
+     "https://www.space.com/space-exploration/launches-spacecraft/arianespace-ariane-6-amazon-leo-internet-satellite-launch"
+    ]
+   ],
+   "where": {
+    "n": "Kourou, French Guiana",
+    "lat": 5.2,
+    "lon": -52.7
+   }
+  },
+  {
+   "id": "in-nepal-visit",
+   "scope": "IN",
+   "cat": "world",
+   "emoji": "🤝",
+   "date": "2026-11-23",
+   "kind": "news",
+   "olderOnly": true,
+   "sensitive": "politics",
+   "x": {
+    "t": "India and Nepal start a new train and open a bridge",
+    "b": [
+     "India and Nepal are neighbours. Their leaders met in New Delhi on Monday.",
+     "Together they started a new train. It runs between Ayodhya in India and Janakpur in Nepal. A new road bridge across the border was opened too.",
+     "The two countries also signed eight [[mou|agreements]]. These are written plans to work together."
+    ]
+   },
+   "o": {
+    "t": "India and Nepal sign eight agreements and launch a new train",
+    "b": [
+     "Nepal's Prime Minister Balendra Shah visited India on 22 and 23 November. On Monday he held talks with Prime Minister Narendra Modi in New Delhi, and the two countries signed eight [[mou|MoUs]], or memorandums of understanding: written agreements on how they plan to work together.",
+     "One MoU, between [[isro|ISRO]], India's space agency, and Nepal's communications ministry, will set up a [[satellite|satellite]] communication network using the South Asia Satellite. Others cover Ayurveda and traditional medicine, sustainable urban development (planning cities that can grow without harming nature), and livestock and fisheries.",
+     "The leaders also launched the Saryu-Kamala Express, a train between Ayodhya in India and Janakpur in Nepal. A road bridge linking Dharchula in India and Darchula in Nepal was opened. The foundation stone, which marks the start of building, was laid for the 669 MW Lower Arun [[hydroelectric|Hydroelectric]] Project. India also announced a package to help Nepal rebuild after floods."
+    ]
+   },
+   "think": "If a new train or bridge linked your town to a town nearby, what would change for you?",
+   "quiz": {
+    "q": "How many agreements did India and Nepal sign?",
+    "a": [
+     "Four",
+     "Six",
+     "Eight",
+     "Ten"
+    ],
+    "c": 2
+   },
+   "src": [
+    [
+     "Business Standard, 23 Nov",
+     "https://www.business-standard.com/amp/external-affairs-defence-security/news/india-nepal-sign-8-mous-advance-six-projects-to-deepen-bilateral-ties-126112300546_1.html"
+    ],
+    [
+     "IANS via The Hans India, 23 Nov",
+     "https://www.thehansindia.com/news/international/pm-modi-nepalese-counterpart-shah-flag-off-saryu-kamala-express-train-inaugurate-several-projects-1144960"
+    ],
+    [
+     "NewsBytes, 23 Nov",
+     "https://www.newsbytesapp.com/news/india/india-nepal-sign-8-mous-during-balen-shah-s-visit/story"
+    ],
+    [
+     "IANS via The Hans India (MoU on satellite network), 23 Nov",
+     "https://www.thehansindia.com/business/india-nepal-sign-mou-for-satcom-network-using-south-asia-satellite-1144971"
+    ]
+   ],
+   "where": {
+    "n": "New Delhi, India",
+    "lat": 28.6,
+    "lon": 77.2
+   }
+  },
+  {
+   "id": "g-planet-x2",
+   "scope": "global",
+   "cat": "space",
+   "emoji": "🪐",
+   "date": "2026-11-23",
+   "kind": "news",
+   "x": {
+    "t": "Is there a hidden planet far past Neptune?",
+    "b": [
+     "Some scientists think a hidden planet may circle the Sun far past [[neptune|Neptune]]. Nobody has seen it yet. It is just an idea.",
+     "The idea comes from computer [[simulation|models]]. They replayed 4.5 billion years of the Sun and its planets. They point to a planet up to twice Earth's weight.",
+     "Next, a big telescope that scans the sky could help check. That is how science works: guess, then check."
+    ]
+   },
+   "o": {
+    "t": "Could a hidden planet be orbiting far beyond Neptune?",
+    "b": [
+     "Astronomers suggest a planet nicknamed \"Planet X2\" may [[orbit|orbit]] the Sun far beyond [[neptune|Neptune]]. It could have up to about twice Earth's mass. It has not been observed: it is a hypothesis, an untested idea.",
+     "The idea comes from computer [[simulation|simulations]], models that imitate real things, covering 4.5 billion years of Solar System history. The planet's average distance from the Sun would be about 350 to 500 [[astronomical-unit|astronomical units]] (AU). One AU is Earth's average distance from the Sun. It could explain the unusual orbits of [[trans-neptunian-object|trans-Neptunian objects]], distant icy objects past Neptune.",
+     "The study, led by Patryk Sofia Lykawka of Kindai University, Japan, is in the journal Monthly Notices of the Royal Astronomical Society. \"If this planet exists, it could change how we understand the history of our Solar System,\" Lykawka said. Next, the Vera C. Rubin Observatory's sky survey could help test the idea."
+    ]
+   },
+   "think": "If you cannot see something, what clues could tell you it might be there?",
+   "quiz": {
+    "q": "Where does the idea of Planet X2 come from?",
+    "a": [
+     "A photo taken by a telescope",
+     "Computer simulations",
+     "A visit by a space probe",
+     "Astronauts on a space station"
+    ],
+    "c": 1
+   },
+   "src": [
+    [
+     "Royal Astronomical Society, 23 Nov",
+     "https://ras.ac.uk/news-and-press/research-highlights/could-astronomers-be-closing-hidden-planet-beyond-neptune"
+    ],
+    [
+     "ScienceAlert, 23 Nov",
+     "https://www.sciencealert.com/forget-planet-nine-hints-of-a-second-secret-world-emerge-from-the-edge-of-the-solar-system"
+    ],
+    [
+     "Interesting Engineering, 23 Nov",
+     "https://interestingengineering.com/science/another-planet-hiding-beyond-neptune"
     ]
    ]
+  },
+  {
+   "id": "in-sensex-fall",
+   "scope": "IN",
+   "cat": "business",
+   "emoji": "📉",
+   "date": "2026-11-23",
+   "kind": "news",
+   "x": {
+    "t": "Share prices in India go down after a run of gains",
+    "b": [
+     "A [[share|share]] is a tiny piece of a company. People buy and sell shares every day.",
+     "The [[sensex|Sensex]] is like a score for the share prices of big companies. On Monday, the Sensex went down.",
+     "Many people sold shares after prices had gone up. Many bank shares went down. Prices go up and down every day. People will keep buying and selling."
+    ]
+   },
+   "o": {
+    "t": "Sensex and Nifty fall as investors sell bank shares",
+    "b": [
+     "India's main share indexes, the [[sensex|Sensex]] and the [[nifty|Nifty]], fell on Monday 23 November. The Sensex dropped 1,483.72 points, or 1.77%, to 82,435.99. The Nifty fell 450.95 points, or 1.75%, to 25,349.65.",
+     "A [[share|share]] is a small piece of a company, and its price changes as people buy and sell. An index is like an average score for the share prices of big companies. Bank and financial company shares led Monday's fall, as many investors sold to [[profit-taking|take profits]] after recent gains.",
+     "Markets in other countries also fell. South Korea's main index, the KOSPI, closed about 3.3% lower on Monday, and the US Nasdaq index fell about 5.3% on Friday. Around the world, shares of companies linked to [[ai|artificial intelligence]] have also fallen. Prices rise and fall every day, and investors will keep watching."
+    ]
+   },
+   "think": "If you owned a tiny piece of a company, what would make you want to keep it or sell it?",
+   "quiz": {
+    "q": "Which shares led the fall in India on Monday?",
+    "a": [
+     "Toy company shares",
+     "Bank and financial company shares",
+     "Film company shares",
+     "Sports club shares"
+    ],
+    "c": 1
+   },
+   "src": [
+    [
+     "PTI via Deccan Chronicle, 23 Nov",
+     "https://www.deccanchronicle.com/business/economics/sensex-plunges-1484-points-nifty-crashes-to-25349-2007039"
+    ],
+    [
+     "Free Press Journal, 23 Nov",
+     "https://www.freepressjournal.in/business/share-market-crash-sensex-sinks-1484-points-nifty-slides-below-25400-after-nearing-26000"
+    ],
+    [
+     "Al Jazeera, 23 Nov",
+     "https://www.aljazeera.com/news/2026/11/23/south-koreas-stock-market-tumbles-as-ai-bubble-fears-mount"
+    ],
+    [
+     "The Week, 23 Nov",
+     "https://www.theweek.in/news/biz-tech/2026/11/23/indian-stock-market-slump.html"
+    ]
+   ]
+  },
+  {
+   "id": "g-kl-otters",
+   "scope": "global",
+   "cat": "nature",
+   "emoji": "🦦",
+   "date": "2026-11-23",
+   "kind": "news",
+   "x": {
+    "t": "Wild otters make a home in a big city river",
+    "b": [
+     "Wild otters are living in a river in Kuala Lumpur. Kuala Lumpur is a big city in Malaysia.",
+     "Otters eat fish. So otters in a river mean there are probably fish there too. That gives people hope the [[klang-river|river]] is getting healthier.",
+     "People have been working hard to clean the river. Machines powered by the sun help catch rubbish. Otters are now seen more often."
+    ]
+   },
+   "o": {
+    "t": "Otters in Kuala Lumpur's river raise hopes for the clean-up",
+    "b": [
+     "Wild otters are living along the [[klang-river|Klang River]] in Kuala Lumpur, a big city in Malaysia. Conservationists, people who work to protect nature, see the otters as a hopeful sign that work to clean up the river is helping.",
+     "Woo Chee Yoong is a co-founder of the Malaysian Otter Network, a group that works to protect otters. He says the otters being there suggests there are fish in the river, because otters need fish to eat.",
+     "Otters are now being seen more and more often in Kuala Lumpur. Part of the clean-up uses solar-powered machines called [[interceptor|Interceptors]], from a Dutch non-profit group (an organisation that does not aim to make money), which collect rubbish from the river."
+    ]
+   },
+   "think": "If you could help clean up one place near your home, which would you choose and why?",
+   "quiz": {
+    "q": "Why is seeing otters in the river good news?",
+    "a": [
+     "Otters clean the water themselves",
+     "It suggests there are fish in the river",
+     "Otters bring more rain",
+     "Otters only live in cities"
+    ],
+    "c": 1
+   },
+   "src": [
+    [
+     "Mongabay, 23 Nov",
+     "https://news.mongabay.com/2026/11/kuala-lumpur-otters-raise-river-clean-up-hopes/"
+    ],
+    [
+     "The Sun (Malaysia)",
+     "https://thesun.my/malaysia-news/otter-sighting-sparks-hope-on-river-cleanliness-FE14018692"
+    ],
+    [
+     "The Independent SG (on the Interceptors)",
+     "https://theindependent.sg/otters-spotted-in-klang-river-a-sign-of-hope-for-malaysias-urban-ecosystem/"
+    ]
+   ],
+   "where": {
+    "n": "Kuala Lumpur, Malaysia",
+    "lat": 3.1,
+    "lon": 101.7
+   }
   }
  ],
  "glossary": {
-  "bhopal": [
-   "Bhopal",
-   "places",
-   "A city in Madhya Pradesh, a state of India.",
-   "A city in the Indian state of Madhya Pradesh."
-  ],
-  "vaccine": [
-   "vaccine",
+  "orbit": [
+   "orbit",
    "science",
-   "Something that teaches the body to fight a germ before it arrives.",
-   "A medicine that trains the body's defences to recognise a germ, so people or animals are protected before they meet it."
-  ],
-  "icar-nihsad": [
-   "ICAR-NIHSAD",
-   "science",
-   "A science centre in Bhopal that studies serious animal illnesses.",
-   "The ICAR-National Institute of High Security Animal Diseases, a research institute in Bhopal that studies serious diseases in animals."
-  ],
-  "virus": [
-   "virus",
-   "science",
-   "A tiny germ that can make living things sick.",
-   "A tiny germ, too small to see without a powerful microscope, that can cause illness in people, animals or plants."
-  ],
-  "poultry": [
-   "poultry",
-   "words",
-   "Birds that farmers raise, like chickens.",
-   "Birds such as chickens and ducks that are raised on farms for eggs or meat."
+   "The path something follows as it travels around a planet, moon or star, like the Sun.",
+   "The curved path that an object in space follows as it moves around a planet, star or moon."
   ],
   "tiangong": [
    "Tiangong",
@@ -318,208 +348,311 @@
    "China's space station, where astronauts live and do science.",
    "China's space station, a laboratory in orbit around Earth where astronauts live and carry out experiments."
   ],
-  "orbit": [
-   "orbit",
-   "science",
-   "The path something follows as it travels around a planet.",
-   "The curved path that an object in space follows as it moves around a planet, star or moon."
-  ],
   "payload-specialist": [
    "payload specialist",
    "words",
    "An astronaut who goes to space to do science work.",
    "A crew member on a space mission whose main job is to carry out experiments or other science work."
   ],
-  "atp-finals": [
-   "ATP Finals",
-   "words",
-   "A tennis event at the end of the year for the best men's players.",
-   "The men's tennis tournament held at the end of each season for the year's top players."
+  "space-station": [
+   "space station",
+   "science",
+   "A big spacecraft that stays in space. Astronauts live and work there.",
+   "A large spacecraft that stays in orbit for years, where crews live and work and do experiments."
   ],
-  "set": [
-   "set",
+  "test-match": [
+   "Test match",
    "words",
-   "A part of a tennis match, made up of games.",
-   "A section of a tennis match made up of several games; a player must win a certain number of sets to win the match."
+   "A long cricket match between two countries.",
+   "A cricket match between the teams of two countries, in which each team can bat twice."
   ],
-  "tie-break": [
-   "tie-break",
+  "test-draw": [
+   "draw",
    "words",
-   "A special game to decide a very close set.",
-   "A special game played when a set is very close, to decide who wins that set."
+   "When a match ends and nobody wins.",
+   "In Test cricket, the result when a match ends before either team has won."
+  ],
+  "declare": [
+   "declare",
+   "words",
+   "In cricket, when a team chooses to stop batting early.",
+   "In cricket, to choose to end your team's innings before all of its batters are out."
+  ],
+  "century": [
+   "century",
+   "words",
+   "A score of 100 runs or more by one player.",
+   "In cricket, a score of 100 runs or more by one player in one innings."
+  ],
+  "over": [
+   "over",
+   "words",
+   "In cricket, a set of balls bowled by one bowler.",
+   "In cricket, a set of balls bowled in a row by one bowler. Counting overs shows how long a team has batted."
+  ],
+  "mou": [
+   "MoU",
+   "civics",
+   "A written plan to work together.",
+   "A memorandum of understanding: a written agreement that sets out how two sides plan to work together."
+  ],
+  "isro": [
+   "ISRO",
+   "science",
+   "India's space agency.",
+   "The Indian Space Research Organisation, India's space agency."
+  ],
+  "satellite": [
+   "satellite",
+   "science",
+   "A machine sent into space that travels around Earth.",
+   "A machine that is sent into space and moves around Earth or another planet."
+  ],
+  "hydroelectric": [
+   "hydroelectric",
+   "science",
+   "Electricity made using moving water.",
+   "Describes electricity made by using the force of moving water to turn machines. MW, or megawatts, measures how much power a plant can make."
+  ],
+  "share": [
+   "share",
+   "words",
+   "A tiny piece of a company that people can buy.",
+   "One of the equal parts a company is divided into. People who own shares own a small part of the company, and share prices change as people buy and sell."
+  ],
+  "sensex": [
+   "Sensex",
+   "words",
+   "A number that shows how the share prices of big Indian companies are doing.",
+   "An index of share prices on the Bombay Stock Exchange in Mumbai. When it goes down, the prices of the shares it follows have fallen on average."
+  ],
+  "nifty": [
+   "Nifty",
+   "words",
+   "Another number that shows how the share prices of big Indian companies are doing.",
+   "Another major Indian share index. Like the Sensex, it follows the share prices of a group of big companies."
+  ],
+  "profit-taking": [
+   "take profits",
+   "words",
+   "To sell something after its price has gone up.",
+   "To sell shares after their price has risen, so that the seller keeps the gain."
+  ],
+  "ai": [
+   "AI (artificial intelligence)",
+   "tech",
+   "Computer systems that can copy clever things that people do.",
+   "Computer systems that can copy intelligent human behaviour. The term also means the study and development of these systems."
+  ],
+  "countdown": [
+   "countdown",
+   "words",
+   "Counting down the time and doing checks before a rocket takes off.",
+   "The planned series of steps and checks, counted down in time, that a launch team works through before a rocket lifts off."
+  ],
+  "french-guiana": [
+   "French Guiana",
+   "places",
+   "A place in South America where Europe launches rockets.",
+   "A region of France on the north-east coast of South America, home to Europe's Spaceport in Kourou."
+  ],
+  "gantry": [
+   "gantry",
+   "words",
+   "A tall tower that stands around a rocket before it flies.",
+   "A tall structure built around a rocket on the launch pad so workers can reach it; a mobile gantry is moved away before launch."
+  ],
+  "klang-river": [
+   "Klang River",
+   "places",
+   "A river that flows through the city of Kuala Lumpur.",
+   "A river in Malaysia that runs through the city of Kuala Lumpur."
+  ],
+  "interceptor": [
+   "Interceptor",
+   "tech",
+   "A machine in a river that catches rubbish.",
+   "A solar-powered machine, from a Dutch non-profit group, that collects rubbish floating in a river."
+  ],
+  "neptune": [
+   "Neptune",
+   "places",
+   "A planet far out in our Solar System.",
+   "One of the planets that travel around the Sun, far out in the Solar System."
+  ],
+  "simulation": [
+   "simulation",
+   "tech",
+   "A practice run that copies the real thing, sometimes on a computer.",
+   "A model, often on a computer, that imitates something real, so that an idea can be tested without doing it for real."
+  ],
+  "astronomical-unit": [
+   "astronomical unit (AU)",
+   "science",
+   "A way to measure huge distances in space. One is as far as Earth is from the Sun.",
+   "A unit for measuring distances in space: 1 AU is the average distance from Earth to the Sun."
+  ],
+  "trans-neptunian-object": [
+   "trans-Neptunian object",
+   "science",
+   "An icy object in space, far past Neptune.",
+   "Any small, icy object that travels around the Sun beyond the orbit of Neptune."
   ],
   "tournament": [
    "tournament",
    "words",
    "A set of games or matches played to find a winner.",
    "A contest or series of contests played for a championship."
-  ],
-  "asian-champions-trophy": [
-   "Asian Champions Trophy",
-   "words",
-   "A hockey contest between top teams from Asia.",
-   "A hockey tournament between national teams from Asia."
-  ],
-  "hat-trick": [
-   "hat-trick",
-   "words",
-   "When one player scores three goals in one game.",
-   "Three goals scored by the same player in one match."
-  ],
-  "penalty-stroke": [
-   "penalty stroke",
-   "words",
-   "A free shot at goal in hockey, with only the goalkeeper to stop it.",
-   "In hockey, a free shot at goal taken by one attacker against only the goalkeeper, given for certain fouls."
-  ],
-  "mercury": [
-   "Mercury",
-   "science",
-   "The planet closest to the Sun.",
-   "The planet closest to the Sun, and the smallest planet in our solar system."
-  ],
-  "esa": [
-   "European Space Agency",
-   "science",
-   "A group of European countries that explore space together.",
-   "ESA: the organisation through which European countries build and fly space missions together."
-  ],
-  "software": [
-   "software",
-   "tech",
-   "The instructions that tell a computer what to do.",
-   "The programs, or sets of instructions, that tell a computer or machine what to do and how to do it."
-  ],
-  "space-station": [
-   "space station",
-   "science",
-   "A big spacecraft that stays in space. Astronauts live and work there.",
-   "A large spacecraft that stays in orbit for years, where crews live and work and do experiments."
   ]
  },
  "keys": {
-  "in-bird-flu-vaccine": {
+  "in-test-draw": {
    "type": "number",
-   "v": "Rs 1 to 2",
-   "l": "expected cost of one dose of the vaccine"
+   "v": "120",
+   "l": "overs New Zealand batted in their second innings to save the match"
   },
-  "g-shenzhou-24": {
+  "in-nepal-visit": {
    "type": "number",
-   "v": "3",
-   "l": "astronauts on the Shenzhou-24 mission"
+   "v": "8",
+   "l": "agreements (MoUs) signed by India and Nepal"
   },
-  "g-alcaraz-finals": {
+  "in-sensex-fall": {
    "type": "number",
-   "v": "30",
-   "l": "career titles for Carlos Alcaraz"
+   "v": "1.77%",
+   "l": "fall in the Sensex on Monday"
   },
-  "in-hockey-semis": {
+  "g-ariane6-leo": {
    "type": "number",
-   "v": "7-0",
-   "l": "India's win over Thailand"
+   "v": "36",
+   "l": "Amazon Leo internet satellites on board"
+  },
+  "g-planet-x2": {
+   "type": "number",
+   "v": "4.5 billion",
+   "l": "years of Solar System history in the computer simulations"
   }
  },
  "xkeys": {
-  "in-bird-flu-vaccine": {
+  "in-test-draw": {
    "type": "check",
-   "q": "What does the new vaccine protect chickens from?",
+   "q": "Who won the cricket match?",
    "a": [
-    "Bird flu",
-    "Sunburn"
+    "Nobody, it was a draw",
+    "India"
    ],
    "c": 0,
-   "right": "Right! The new vaccine protects chickens from bird flu.",
-   "wrong": "Not quite. The new vaccine protects chickens from bird flu."
+   "right": "Right! India could not get New Zealand out, so it was a draw.",
+   "wrong": "Not quite. India scored lots of runs, but could not get New Zealand out. It was a draw."
   },
-  "g-shenzhou-24": {
+  "in-nepal-visit": {
    "type": "check",
-   "q": "Which country is Tiangong's first visitor from abroad expected to come from?",
+   "q": "What did the two leaders start?",
    "a": [
-    "Pakistan",
-    "Peru"
+    "A new airport",
+    "A new train"
+   ],
+   "c": 1,
+   "right": "Right! A new train now links Ayodhya in India and Janakpur in Nepal.",
+   "wrong": "Not quite. They started a new train between India and Nepal."
+  },
+  "in-sensex-fall": {
+   "type": "check",
+   "q": "What is a share?",
+   "a": [
+    "A tiny piece of a company",
+    "A kind of bank note"
    ],
    "c": 0,
-   "right": "Right! The first visitor from another country is expected to be an astronaut from Pakistan.",
-   "wrong": "Not quite. The first visitor from another country is expected to be an astronaut from Pakistan."
+   "right": "Right! A share is a tiny piece of a company.",
+   "wrong": "Not quite. A share is a tiny piece of a company that people can buy and sell."
   },
-  "g-alcaraz-finals": {
+  "g-ariane6-leo": {
    "type": "check",
-   "q": "Who won the ATP Finals?",
+   "q": "Are the rocket and its satellites safe?",
    "a": [
-    "Carlos Alcaraz",
-    "Alexander Zverev"
+    "Yes, they are safe",
+    "No, they are not safe"
    ],
    "c": 0,
-   "right": "Right! Carlos Alcaraz won the ATP Finals for the first time.",
-   "wrong": "Not quite. Carlos Alcaraz won. He beat Alexander Zverev in the final."
+   "right": "Right! The rocket and its 36 satellites are safe. The team will try again.",
+   "wrong": "Not quite. They are safe. The problem was with equipment on the ground."
   },
-  "in-hockey-semis": {
+  "g-kl-otters": {
    "type": "check",
-   "q": "How many goals did Deepika score?",
+   "q": "What do otters in the river tell scientists?",
    "a": [
-    "Three",
-    "One"
+    "There are probably fish in the river",
+    "The river has no fish"
    ],
    "c": 0,
-   "right": "Right! Deepika scored three goals, a hat-trick.",
-   "wrong": "Not quite. Deepika scored three goals. That is called a hat-trick."
+   "right": "Right! Otters eat fish, so otters suggest there are fish in the river.",
+   "wrong": "Not quite. Otters eat fish, so seeing otters suggests there are fish in the river."
   },
-  "g-bepicolombo-update": {
+  "g-planet-x2": {
    "type": "check",
-   "q": "Is BepiColombo safe?",
+   "q": "Have scientists seen Planet X2 yet?",
    "a": [
     "Yes",
-    "No"
+    "No, not yet"
    ],
-   "c": 0,
-   "right": "Right! ESA says the spacecraft is safe.",
-   "wrong": "Not quite. ESA says the spacecraft is safe, and teams are checking what happened."
+   "c": 1,
+   "right": "Right! Nobody has seen it yet. It is an idea from computer models, and a telescope will help check it.",
+   "wrong": "Not quite. Nobody has seen it yet. It is an idea from computer models."
   }
  },
  "deep": {
-  "in-bird-flu-vaccine": {
-   "ctx": "India has reported more than 500 bird flu outbreaks since 2006. Union Agriculture Minister Shivraj Singh Chouhan has estimated that diseases in livestock, or farm animals, cost India about Rs 56,000 crore a year. It is the first vaccine against H5N1 bird flu in chickens to be developed in India.",
-   "ask": "Some people think governments should help pay to vaccinate farm animals, because healthy animals help farmers and the whole food supply. Others think farmers should decide for themselves how to care for their own animals and pay for it. Who do you think should be responsible for keeping farm animals healthy, and why?",
+  "in-test-draw": {
+   "ctx": "India made 720 for 9 declared in the first Test, with centuries from KL Rahul and Rishabh Pant, while New Zealand were all out for 368 despite 175 not out from Henry Nicholls. New Zealand batted 120 overs in their second innings and, on the fifth and final day, held on to finish on 239 for 5, with Daryl Mitchell and Glenn Phillips not out. The second Test starts at Hagley Oval, Christchurch, on 27 November.",
+   "ask": "India scored far more runs but could not win, while New Zealand scored fewer runs but did not lose. Should a draw like this count as a success for the team that batted out the last day, or is it fairer to say neither team did quite enough?",
    "jobs": [
-    "Vaccine scientist",
-    "Veterinarian",
-    "Poultry farmer"
+    "Cricket coach",
+    "Sports statistician",
+    "Groundskeeper"
    ]
   },
-  "g-shenzhou-24": {
-   "ctx": "Tiangong is China's space station, a laboratory where astronauts live and work in orbit. The Shenzhou-24 mission is set to launch on a Long March 2F rocket from the Jiuquan Satellite Launch Center in northwest China, and is expected to make a Pakistani astronaut the first person from another country to visit Tiangong.",
-   "ask": "Some people think space stations should be shared with astronauts from many countries, so more scientists can run experiments in space. Others think the country that built and pays for a station should mostly use it for its own research. Which do you think is better for science, and why?",
+  "in-nepal-visit": {
+   "ctx": "Nepal's Prime Minister Balendra Shah visited India on 22 and 23 November and held talks with Prime Minister Narendra Modi in New Delhi. The two countries signed eight MoUs, including one between ISRO and Nepal's Ministry of Information and Communication on a satellite network using the South Asia Satellite. They also launched the Saryu-Kamala Express train, opened the Dharchula to Darchula road bridge and laid the foundation stone for the 669 MW Lower Arun Hydroelectric Project.",
+   "ask": "Neighbouring countries can build shared projects such as trains, bridges and power plants. Thinking about the benefits and the challenges for both sides, is it better for neighbours to build big projects together, or for each country to build what it needs on its own?",
    "jobs": [
-    "Astronaut",
-    "Rocket engineer",
-    "Space scientist"
+    "Diplomat",
+    "Civil engineer",
+    "Satellite communications engineer"
    ]
   },
-  "g-alcaraz-finals": {
-   "ctx": "The ATP Finals is the season-ending tournament for the year's top men's tennis players. Alcaraz's win was the 30th title of his career and his sixth of 2026, and it puts him alongside Roger Federer, Andre Agassi and Novak Djokovic as the only men to have won all four Grand Slam tournaments and the ATP Finals.",
-   "ask": "Some people think staying calm under pressure is a skill anyone can learn with practice. Others think some people are simply born better at it. Which do you think is closer to the truth, and why?",
+  "in-sensex-fall": {
+   "ctx": "On Monday 23 November the Sensex fell 1,483.72 points, or 1.77%, and the Nifty fell 450.95 points, or 1.75%, with bank and financial shares leading the fall as investors took profits after recent gains. Markets elsewhere also fell: South Korea's KOSPI closed about 3.3% lower on Monday and the US Nasdaq fell about 5.3% on Friday. Around the world, shares of companies linked to artificial intelligence have also fallen.",
+   "ask": "When share prices fall after a period of gains, some people see it as a normal part of how markets work, while others see it as a warning sign. Which view do you find more convincing, and what would you want to know before deciding?",
    "jobs": [
-    "Tennis coach",
-    "Sports psychologist",
-    "Sports journalist"
+    "Financial analyst",
+    "Economist",
+    "Business journalist"
    ]
   },
-  "in-hockey-semis": {
-   "ctx": "The Women's Asian Champions Trophy is being held in Bhopal from 19 to 28 November 2026. India, captained by Salima Tete, have won all three of their matches so far: 4-1 against Malaysia, 2-1 against South Korea and 7-0 against Thailand.",
-   "ask": "Some people think a team learns more from close, hard matches than from big wins like 7-0. Others think big wins matter just as much, because they build confidence and show what is working. Which do you think helps a team more before a semi-final, and why?",
+  "g-ariane6-leo": {
+   "ctx": "Ariane 6 flight VA271 was set to launch from Europe's Spaceport in Kourou, French Guiana, carrying 36 Amazon Leo internet satellites. Arianespace stopped the countdown because of a technical issue with the rocket's ground support systems, before the mobile gantry was removed, and said the rocket and satellites remain stable and safe. The next attempt will be no earlier than 24 November.",
+   "ask": "Some people think a launch team should stop at even the smallest sign of a problem, even if that means many delays. Others think too many stops cost time and money, and that some small issues can be checked without halting everything. Where would you draw the line, and why?",
    "jobs": [
-    "Hockey coach",
-    "Sports physiotherapist",
-    "Sports commentator"
+    "Launch engineer",
+    "Ground systems technician",
+    "Satellite engineer"
    ]
   },
-  "g-bepicolombo-update": {
-   "ctx": "BepiColombo, a joint mission of ESA and JAXA, launched in 2018 and took about eight years to reach Mercury. Its two orbiters, ESA's MPO and JAXA's Mio, are due to separate in early December, and science operations are due to start in April 2027. ESA says the spacecraft is safe while its teams study why the burn ended early.",
-   "ask": "When something goes wrong on a space mission, some people think agencies should share every detail straight away, so the public knows what is happening. Others think they should wait until engineers understand the problem, so they do not share wrong information. Which approach do you think is better, and why?",
+  "g-kl-otters": {
+   "ctx": "Otters are now being seen more and more often in Kuala Lumpur. Conservationists see the otters along the Klang River as a hopeful sign that clean-up work, including solar-powered rubbish-collecting Interceptors from a Dutch non-profit group, is helping.",
+   "ask": "Some people think cities should spend much more money cleaning rivers so that wildlife can return. Others think that money is better spent first on other needs, such as housing, transport or schools. How should a city decide what comes first, and why?",
    "jobs": [
-    "Flight software engineer",
-    "Mission controller",
-    "Spacecraft operations engineer"
+    "Wildlife ecologist",
+    "River conservation officer",
+    "Environmental engineer"
+   ]
+  },
+  "g-planet-x2": {
+   "ctx": "Planet X2 is an idea from computer simulations covering 4.5 billion years of Solar System history, and the planet has not been observed. It could explain the unusual orbits of trans-Neptunian objects, distant icy objects beyond Neptune. The Vera C. Rubin Observatory's sky survey, the Legacy Survey of Space and Time, could help test the idea.",
+   "ask": "Some people think scientists should share an idea like Planet X2 as soon as their computer models suggest it, so others can help check it. Others think it is better to wait until a telescope has actually seen the planet, so people are not misled. Which approach do you think is better, and why?",
+   "jobs": [
+    "Astronomer",
+    "Data scientist",
+    "Telescope engineer"
    ]
   }
  },

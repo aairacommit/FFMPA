@@ -478,7 +478,7 @@
  },
  "deep": {
   "in-bird-flu-vaccine": {
-   "ctx": "Bird flu was first found in India in 2006, and more than 500 outbreaks have been reported since then. Union Agriculture Minister Shivraj Singh Chouhan has estimated that diseases in livestock, or farm animals, cost India about Rs 56,000 crore a year. It is the first vaccine against H5N1 bird flu in chickens to be developed in India.",
+   "ctx": "India has reported more than 500 bird flu outbreaks since 2006. Union Agriculture Minister Shivraj Singh Chouhan has estimated that diseases in livestock, or farm animals, cost India about Rs 56,000 crore a year. It is the first vaccine against H5N1 bird flu in chickens to be developed in India.",
    "ask": "Some people think governments should help pay to vaccinate farm animals, because healthy animals help farmers and the whole food supply. Others think farmers should decide for themselves how to care for their own animals and pay for it. Who do you think should be responsible for keeping farm animals healthy, and why?",
    "jobs": [
     "Vaccine scientist",

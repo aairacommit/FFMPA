@@ -1,0 +1,1222 @@
+{
+ "schema": 1,
+ "date": "2026-11-23",
+ "edition": "am",
+ "short": true,
+ "countries": [
+  "IN"
+ ],
+ "stories": [
+  {
+   "id": "in-bird-flu-vaccine",
+   "scope": "IN",
+   "cat": "science",
+   "emoji": "🐔",
+   "date": "2026-11-20",
+   "kind": "news",
+   "x": {
+    "t": "Indian scientists make a vaccine to protect chickens from bird flu",
+    "b": [
+     "Scientists in [[bhopal|Bhopal]], India, have made a new [[vaccine|vaccine]] for chickens. It protects them from bird flu. It is the first bird flu vaccine for chickens made in India.",
+     "A vaccine teaches the body to fight a germ before it arrives. Animals can get vaccines too, just like people.",
+     "Each dose may cost only one or two rupees. That could help chicken farmers keep their birds healthy."
+    ]
+   },
+   "o": {
+    "t": "India launches its first homegrown bird flu vaccine for chickens",
+    "b": [
+     "India's first indigenous, or homegrown, [[vaccine|vaccine]] against H5N1 bird flu in chickens was launched in [[bhopal|Bhopal]] on Friday 20 November by Union Agriculture Minister Shivraj Singh Chouhan. It was developed by the [[icar-nihsad|ICAR-National Institute of High Security Animal Diseases]] (NIHSAD) in Bhopal.",
+     "A vaccine trains the body to recognise a germ and fight it before it can cause illness. H5N1 is a type of bird flu [[virus|virus]], a tiny germ that can make living things sick. India has had more than 500 bird flu outbreaks, or sudden spreads of the illness, since 2006.",
+     "According to ICAR Director General Dr ML Jat, each dose is expected to cost about Rs 1 to Rs 2. A low price matters because [[poultry|poultry]] farmers, who raise chickens and other birds, may need to protect many birds at once. The new vaccine gives them a homegrown way to do that."
+    ]
+   },
+   "think": "Why do you think it helps to protect animals from an illness before it arrives, instead of waiting until they are sick?",
+   "quiz": {
+    "q": "About how much is each dose of the new chicken vaccine expected to cost?",
+    "a": [
+     "Rs 1 to Rs 2",
+     "Rs 50",
+     "Rs 500",
+     "Rs 5,000"
+    ],
+    "c": 0
+   },
+   "src": [
+    [
+     "Deccan Herald, 20 Nov",
+     "https://www.deccanherald.com/india/icar-nihsad-develops-indias-first-indigenous-h5n1-vaccine-to-protect-chickens-from-bird-flu-4225306"
+    ],
+    [
+     "PTI via ETV Bharat, 20 Nov",
+     "https://www.etvbharat.com/en/bharat/union-minister-shivraj-singh-chouhan-unveils-country-first-indigenous-h5n1-vaccine-to-protect-chickens-from-bird-flu-enn26112004226"
+    ],
+    [
+     "Daijiworld, 20 Nov",
+     "https://daijiworld.com/news/newsDisplay?newsID=1335859"
+    ]
+   ],
+   "where": {
+    "n": "Bhopal, Madhya Pradesh",
+    "lat": 23.3,
+    "lon": 77.4
+   }
+  },
+  {
+   "id": "g-shenzhou-24",
+   "scope": "global",
+   "cat": "space",
+   "emoji": "🚀",
+   "date": "2026-11-22",
+   "kind": "news",
+   "x": {
+    "t": "China's space station is getting its first visitor from abroad",
+    "b": [
+     "China has a space station called [[tiangong|Tiangong]]. It is a science lab that goes [[orbit|around Earth]]. Soon it should get its first visitor from another country.",
+     "The visitor will be an astronaut from Pakistan. Pakistan has picked two people. One will fly. The other will be a backup.",
+     "A rocket is ready at the launch site. Workers have practised the launch. The visitor should stay about a week."
+    ]
+   },
+   "o": {
+    "t": "China's Tiangong station set to welcome its first foreign astronaut",
+    "b": [
+     "China's space station, [[tiangong|Tiangong]], is expected to host its first visitor from another country: an astronaut from Pakistan. A space station is a laboratory in [[orbit|orbit]], the curved path an object follows around a planet, where astronauts live and do experiments.",
+     "On 17 November, a Long March 2F rocket and the Shenzhou-24 spacecraft were moved to the launch area at the Jiuquan Satellite Launch Center in northwest China. On Sunday, a launch rehearsal, or full practice, was reported complete. China has not officially announced the launch date, but SpacePolicyOnline, a space news website, reports it is planned for 25 November.",
+     "The mission is set to carry three astronauts. Pakistan has two candidates, Muhammad Zeeshan Ali and Khurram Daud. One will fly as a [[payload-specialist|payload specialist]], a crew member who carries out science work, and the other is the backup. The astronaut chosen is expected to stay about a week and return to Earth aboard a different spacecraft, Shenzhou-23."
+    ]
+   },
+   "think": "If you could do one science experiment on a space station, what would you test, and why?",
+   "quiz": {
+    "q": "How long is the Pakistani astronaut expected to stay on Tiangong?",
+    "a": [
+     "About a day",
+     "About a week",
+     "About a month",
+     "About a year"
+    ],
+    "c": 1
+   },
+   "src": [
+    [
+     "Arab News Pakistan, 22 Nov",
+     "https://www.arabnews.pk/pakistan/china-completes-launch-drill-for-mission-carrying-pakistans-first-astronaut-3007767"
+    ],
+    [
+     "Space.com, 19 Nov",
+     "https://www.space.com/space-exploration/human-spaceflight/china-rolls-out-rocket-for-launch-of-1st-international-astronaut-to-tiangong-space-station-video"
+    ],
+    [
+     "SpacePolicyOnline, 22 Nov",
+     "https://spacepolicyonline.com/news/whats-happening-in-space-policy-november-22-29-2026/"
+    ]
+   ],
+   "where": {
+    "n": "Jiuquan, China",
+    "lat": 41.0,
+    "lon": 100.3
+   }
+  },
+  {
+   "id": "g-alcaraz-finals",
+   "scope": "global",
+   "cat": "sports",
+   "emoji": "🎾",
+   "date": "2026-11-22",
+   "kind": "news",
+   "x": {
+    "t": "Carlos Alcaraz wins the ATP Finals for the first time",
+    "b": [
+     "Carlos Alcaraz has won a big tennis event called the [[atp-finals|ATP Finals]]. Only the season's top players get to play in it.",
+     "In the final, he beat Alexander Zverev in Turin, Italy. Zverev was the world number one player.",
+     "Alcaraz came close to losing the [[set|second set]] three times. He stayed calm and won it. It is the 30th title of his career."
+    ]
+   },
+   "o": {
+    "t": "Alcaraz saves three set points to win his first ATP Finals title",
+    "b": [
+     "Carlos Alcaraz won the [[atp-finals|ATP Finals]], the season-ending event for the year's top men's players, for the first time on Sunday 22 November. In the final in Turin, Italy, he beat Alexander Zverev, who went into the match as world No. 1, by 6-2, 7-6.",
+     "Tennis matches are split into [[set|sets]], groups of games. The second set went to a [[tie-break|tie-break]], a special game played to decide a close set. Zverev had three set points, chances to win the set, but Alcaraz stayed calm, saved them all and won the tie-break 9-7.",
+     "It is the 30th title of Alcaraz's career and his sixth of 2026. He is now one of only four men, with Roger Federer, Andre Agassi and Novak Djokovic, to have won all four Grand Slam [[tournament|tournaments]], the sport's biggest events, and the ATP Finals."
+    ]
+   },
+   "think": "What helps you stay calm when something is very close to going wrong?",
+   "quiz": {
+    "q": "How many set points did Alcaraz save in the second-set tie-break?",
+    "a": [
+     "One",
+     "Two",
+     "Three",
+     "Five"
+    ],
+    "c": 2
+   },
+   "src": [
+    [
+     "AFP via SuperSport, 22 Nov",
+     "https://supersport.com/tennis/news/aa95a50a-d41f-4715-b4df-25309e85758f/alcaraz-wins-atp-finals-for-first-time"
+    ],
+    [
+     "Tennis Majors, 22 Nov",
+     "https://www.tennismajors.com/atp/nitto-atp-finals-atp/breaking-news-alcaraz-beats-zverev-to-win-the-atp-finals-for-the-first-time-867706.html"
+    ]
+   ],
+   "where": {
+    "n": "Turin, Italy",
+    "lat": 45.1,
+    "lon": 7.7
+   }
+  },
+  {
+   "id": "g-meerkats",
+   "scope": "global",
+   "cat": "nature",
+   "emoji": "🐾",
+   "date": "2026-11-20",
+   "kind": "news",
+   "x": {
+    "t": "Meerkats on their own can still find their way home",
+    "b": [
+     "[[meerkat|Meerkats]] are small animals that live in groups. They usually go out looking for food together as a group.",
+     "Scientists in the [[kalahari|Kalahari Desert]] in South Africa tested 20 wild meerkats. Each one was let go alone, 1.5 kilometres away. Of those, 18 got back.",
+     "Animals can use [[landmark|landmarks]] and memory to find their way. You do the same on your way to school!"
+    ]
+   },
+   "o": {
+    "t": "Scientists find lone meerkats can find their way home",
+    "b": [
+     "[[meerkat|Meerkats]] are small desert animals that live and travel in groups. Scientists led by Mathilde Martin of the University of Zurich wanted to know what happens when one meerkat is on its own. Their study was published in the Journal of Experimental Biology on 19 November.",
+     "Working with wild meerkats in the [[kalahari|Kalahari Desert]] in South Africa, with help from the Kalahari Research Centre, the team tested 20 meerkats from five groups over about three months. Each was released alone 1.5 kilometres away, inside its own [[territory|territory]], the area its group lives in. Its group had not visited those spots for at least 30 days.",
+     "Eighteen of the 20 meerkats got back to their group or a familiar place. They wore small GPS collars, which record where an animal goes, and some stopped to look around and work out where they were. It is like using [[landmark|landmarks]] to find your way."
+    ]
+   },
+   "think": "What landmarks help you find your way home from school or a friend's house?",
+   "quiz": {
+    "q": "How many of the 20 meerkats got back to their group or a familiar place?",
+    "a": [
+     "5",
+     "10",
+     "18",
+     "20"
+    ],
+    "c": 2
+   },
+   "src": [
+    [
+     "Science News, 19 Nov",
+     "https://www.sciencenews.org/article/solo-meerkats-can-find-their-way-home"
+    ],
+    [
+     "EurekAlert (Company of Biologists), 19 Nov",
+     "https://www.eurekalert.org/news-releases/1151708"
+    ],
+    [
+     "Earth.com, 20 Nov",
+     "https://www.earth.com/animals/meerkats-cross-the-desert-together-but-what-happens-when-one-finds-itself-alone/"
+    ]
+   ],
+   "where": {
+    "n": "Kalahari Desert, South Africa",
+    "lat": -27.0,
+    "lon": 21.8
+   }
+  },
+  {
+   "id": "in-hockey-semis",
+   "scope": "IN",
+   "cat": "sports",
+   "emoji": "🏑",
+   "date": "2026-11-22",
+   "kind": "news",
+   "x": {
+    "t": "India's women's hockey team wins 7-0 and reaches the semi-finals",
+    "b": [
+     "India's women's hockey team beat Thailand 7-0 on Sunday. The match was in Bhopal, India.",
+     "A player called Deepika scored three goals. That is called a [[hat-trick|hat-trick]]. Navneet Kaur scored two goals.",
+     "India has won all three of its games. Now it is in the semi-finals of the [[asian-champions-trophy|Asian Champions Trophy]]. Semi-final winners play in the final."
+    ]
+   },
+   "o": {
+    "t": "India beat Thailand 7-0 to reach Asian Champions Trophy semi-finals",
+    "b": [
+     "India's women's hockey team beat Thailand 7-0 on Sunday 22 November to seal a place in the semi-finals of the Women's [[asian-champions-trophy|Asian Champions Trophy]]. The [[tournament|tournament]] is being played in Bhopal, Madhya Pradesh, from 19 to 28 November.",
+     "Deepika scored a [[hat-trick|hat-trick]], three goals in one match. Navneet Kaur scored twice from [[penalty-stroke|penalty strokes]], free shots at goal with only the goalkeeper defending. Mumtaz Khan and Sunelita Toppo also scored.",
+     "It was India's third win from three matches. Led by captain Salima Tete, the team had already beaten Malaysia 4-1 on 19 November and South Korea 2-1 on 21 November. A semi-final is the round before the final, so India are now two wins away from the title."
+    ]
+   },
+   "think": "What do you think helps a team keep winning game after game?",
+   "quiz": {
+    "q": "Which team did India beat 7-0?",
+    "a": [
+     "Thailand",
+     "China",
+     "Japan",
+     "Malaysia"
+    ],
+    "c": 0
+   },
+   "src": [
+    [
+     "UNI, 22 Nov",
+     "https://www.uniindia.com/sports/sports-hockey-india-women-asian-champions-trophy-22spd26/254136"
+    ],
+    [
+     "PTI via Millennium Post, 23 Nov",
+     "https://www.millenniumpost.in/sports/womens-act-india-cruise-past-thailand-7-0-to-seal-sf-berth-684253"
+    ],
+    [
+     "News On AIR, Nov",
+     "https://newsonair.gov.in/womens-hockey-india-defeat-malaysia-4-1/"
+    ],
+    [
+     "Outlook India, Nov",
+     "https://www.outlookindia.com/sports/hockey/womens-asian-champions-trophy-2026-guide-squads-schedule-and-live-streaming"
+    ],
+    [
+     "New Straits Times, Nov",
+     "https://www.nst.com.my/amp/sports/hockey/2026/11/1581605/asian-games-hockey-champions-india-prove-too-strong-malaysia-act"
+    ],
+    [
+     "UNI, 21 Nov",
+     "https://www.uniindia.com/sports/sports-hockey-india-women-asian-champions-trophy-21spd35/253373"
+    ],
+    [
+     "Deccan Herald, Nov",
+     "https://www.deccanherald.com/sports/hockey/india-beat-south-korea-2-1-to-register-second-consecutive-win-in-act-womens-hockey-4226826"
+    ]
+   ],
+   "where": {
+    "n": "Bhopal, Madhya Pradesh",
+    "lat": 23.3,
+    "lon": 77.4
+   }
+  },
+  {
+   "id": "g-bepicolombo-update",
+   "scope": "global",
+   "cat": "space",
+   "emoji": "🛰️",
+   "date": "2026-11-22",
+   "kind": "news",
+   "x": {
+    "t": "BepiColombo is safe at Mercury after a computer problem",
+    "b": [
+     "On Saturday, the spacecraft BepiColombo started going around [[mercury|Mercury]]. But one part did not go to plan.",
+     "Its engines fired to slow it down. A problem with its [[software|computer program]] stopped them early. The [[esa|European Space Agency]] says the spacecraft is safe.",
+     "Teams on Earth are working out what happened. They can check on it from very far away. Updates are due today."
+    ]
+   },
+   "o": {
+    "t": "BepiColombo safe in Mercury orbit after software glitch",
+    "b": [
+     "BepiColombo, a joint mission of the [[esa|European Space Agency]] (ESA) and JAXA, Japan's space agency, went into [[orbit|orbit]] around [[mercury|Mercury]] on Saturday 21 November. It launched in 2018 and took about eight years to get there. But ESA said the engine burn, a firing of its engines to slow it down, was shorter than planned following a [[software|software]] issue. Software is the set of instructions that tells a computer what to do.",
+     "ESA said: \"The spacecraft is safe.\" Teams at ESOC, the European Space Operations Centre, are working to understand what happened. ESOC is ESA's mission control, where people guide spacecraft from Earth.",
+     "ESA promised updates today, Monday 23 November. BepiColombo carries two orbiters, or spacecraft built to circle a planet: ESA's MPO and JAXA's Mio. They are due to separate around 9 December. Science work is due to start in April 2027."
+    ]
+   },
+   "think": "When something you planned goes wrong, what steps do you take to work out what happened?",
+   "quiz": {
+    "q": "What made BepiColombo's engine burn end early?",
+    "a": [
+     "A software issue",
+     "A storm on Mercury",
+     "Running out of fuel",
+     "Hitting a space rock"
+    ],
+    "c": 0
+   },
+   "src": [
+    [
+     "Reuters via Devdiscourse, 23 Nov",
+     "https://www.devdiscourse.com/article/international/4010603-spacecraft-begins-orbit-of-mercury-with-a-glitch-reported"
+    ],
+    [
+     "Space.com, 21 Nov",
+     "https://www.space.com/space-exploration/missions/esa-jaxa-bepicolomobo-mission-mercury-orbit-arrival"
+    ]
+   ]
+  }
+ ],
+ "glossary": {
+  "bhopal": [
+   "Bhopal",
+   "places",
+   "A city in Madhya Pradesh, a state of India.",
+   "A city in the Indian state of Madhya Pradesh."
+  ],
+  "vaccine": [
+   "vaccine",
+   "science",
+   "Something that teaches the body to fight a germ before it arrives.",
+   "A medicine that trains the body's defences to recognise a germ, so people or animals are protected before they meet it."
+  ],
+  "icar-nihsad": [
+   "ICAR-NIHSAD",
+   "science",
+   "A science centre in Bhopal that studies serious animal illnesses.",
+   "The ICAR-National Institute of High Security Animal Diseases, a research institute in Bhopal that studies serious diseases in animals."
+  ],
+  "virus": [
+   "virus",
+   "science",
+   "A tiny germ that can make living things sick.",
+   "A tiny germ, too small to see without a powerful microscope, that can cause illness in people, animals or plants."
+  ],
+  "poultry": [
+   "poultry",
+   "words",
+   "Birds that farmers raise, like chickens.",
+   "Birds such as chickens and ducks that are raised on farms for eggs or meat."
+  ],
+  "tiangong": [
+   "Tiangong",
+   "science",
+   "China's space station, where astronauts live and do science.",
+   "China's space station, a laboratory in orbit around Earth where astronauts live and carry out experiments."
+  ],
+  "orbit": [
+   "orbit",
+   "science",
+   "The path something follows as it travels around a planet.",
+   "The curved path that an object in space follows as it moves around a planet, star or moon."
+  ],
+  "payload-specialist": [
+   "payload specialist",
+   "words",
+   "An astronaut who goes to space to do science work.",
+   "A crew member on a space mission whose main job is to carry out experiments or other science work."
+  ],
+  "atp-finals": [
+   "ATP Finals",
+   "words",
+   "A tennis event at the end of the year for the best men's players.",
+   "The men's tennis tournament held at the end of each season for the year's top players."
+  ],
+  "set": [
+   "set",
+   "words",
+   "A part of a tennis match, made up of games.",
+   "A section of a tennis match made up of several games; a player must win a certain number of sets to win the match."
+  ],
+  "tie-break": [
+   "tie-break",
+   "words",
+   "A special game to decide a very close set.",
+   "A special game played when a set is very close, to decide who wins that set."
+  ],
+  "tournament": [
+   "tournament",
+   "words",
+   "A set of games or matches played to find a winner.",
+   "A contest or series of contests played for a championship."
+  ],
+  "meerkat": [
+   "meerkat",
+   "science",
+   "A small furry animal that lives in groups in the desert.",
+   "A small mammal that lives in family groups in dry parts of southern Africa, such as the Kalahari Desert."
+  ],
+  "kalahari": [
+   "Kalahari Desert",
+   "places",
+   "A big, dry, sandy place in southern Africa.",
+   "A large dry region in southern Africa, including part of South Africa."
+  ],
+  "territory": [
+   "territory",
+   "science",
+   "The home area an animal group lives in.",
+   "The area that an animal or group of animals lives in and uses for food and shelter."
+  ],
+  "landmark": [
+   "landmark",
+   "words",
+   "Something easy to spot that helps you know where you are.",
+   "An object or feature that is easy to see and recognise, which helps you know where you are or find your way."
+  ],
+  "asian-champions-trophy": [
+   "Asian Champions Trophy",
+   "words",
+   "A hockey contest between top teams from Asia.",
+   "A hockey tournament between national teams from Asia."
+  ],
+  "hat-trick": [
+   "hat-trick",
+   "words",
+   "When one player scores three goals in one game.",
+   "Three goals scored by the same player in one match."
+  ],
+  "penalty-stroke": [
+   "penalty stroke",
+   "words",
+   "A free shot at goal in hockey, with only the goalkeeper to stop it.",
+   "In hockey, a free shot at goal taken by one attacker against only the goalkeeper, given for certain fouls."
+  ],
+  "mercury": [
+   "Mercury",
+   "science",
+   "The planet closest to the Sun.",
+   "The planet closest to the Sun, and the smallest planet in our solar system."
+  ],
+  "esa": [
+   "European Space Agency",
+   "science",
+   "A group of European countries that explore space together.",
+   "ESA: the organisation through which European countries build and fly space missions together."
+  ],
+  "software": [
+   "software",
+   "tech",
+   "The instructions that tell a computer what to do.",
+   "The programs, or sets of instructions, that tell a computer or machine what to do and how to do it."
+  ],
+  "space-station": [
+   "space station",
+   "science",
+   "A big spacecraft that stays in space. Astronauts live and work there.",
+   "A large spacecraft that stays in orbit for years, where crews live and work and do experiments."
+  ]
+ },
+ "keys": {
+  "in-bird-flu-vaccine": {
+   "type": "number",
+   "v": "Rs 1 to 2",
+   "l": "expected cost of one dose of the vaccine"
+  },
+  "g-shenzhou-24": {
+   "type": "number",
+   "v": "3",
+   "l": "astronauts on the Shenzhou-24 mission"
+  },
+  "g-alcaraz-finals": {
+   "type": "number",
+   "v": "30",
+   "l": "career titles for Carlos Alcaraz"
+  },
+  "g-meerkats": {
+   "type": "number",
+   "v": "18 of 20",
+   "l": "lone meerkats that found their way back"
+  },
+  "in-hockey-semis": {
+   "type": "number",
+   "v": "7-0",
+   "l": "India's win over Thailand"
+  }
+ },
+ "xkeys": {
+  "in-bird-flu-vaccine": {
+   "type": "check",
+   "q": "What does the new vaccine protect chickens from?",
+   "a": [
+    "Bird flu",
+    "Sunburn"
+   ],
+   "c": 0,
+   "right": "Right! The new vaccine protects chickens from bird flu.",
+   "wrong": "Not quite. The new vaccine protects chickens from bird flu."
+  },
+  "g-shenzhou-24": {
+   "type": "check",
+   "q": "Which country is Tiangong's first visitor from abroad expected to come from?",
+   "a": [
+    "Pakistan",
+    "Peru"
+   ],
+   "c": 0,
+   "right": "Right! The first visitor from another country is expected to be an astronaut from Pakistan.",
+   "wrong": "Not quite. The first visitor from another country is expected to be an astronaut from Pakistan."
+  },
+  "g-alcaraz-finals": {
+   "type": "check",
+   "q": "Who won the ATP Finals?",
+   "a": [
+    "Carlos Alcaraz",
+    "Alexander Zverev"
+   ],
+   "c": 0,
+   "right": "Right! Carlos Alcaraz won the ATP Finals for the first time.",
+   "wrong": "Not quite. Carlos Alcaraz won. He beat Alexander Zverev in the final."
+  },
+  "g-meerkats": {
+   "type": "check",
+   "q": "Did most of the meerkats find their way back?",
+   "a": [
+    "Yes",
+    "No"
+   ],
+   "c": 0,
+   "right": "Right! 18 of the 20 meerkats got back.",
+   "wrong": "Not quite. Most of them did: 18 of the 20 meerkats got back."
+  },
+  "in-hockey-semis": {
+   "type": "check",
+   "q": "How many goals did Deepika score?",
+   "a": [
+    "Three",
+    "One"
+   ],
+   "c": 0,
+   "right": "Right! Deepika scored three goals, a hat-trick.",
+   "wrong": "Not quite. Deepika scored three goals. That is called a hat-trick."
+  },
+  "g-bepicolombo-update": {
+   "type": "check",
+   "q": "Is BepiColombo safe?",
+   "a": [
+    "Yes",
+    "No"
+   ],
+   "c": 0,
+   "right": "Right! ESA says the spacecraft is safe.",
+   "wrong": "Not quite. ESA says the spacecraft is safe, and teams are checking what happened."
+  }
+ },
+ "deep": {
+  "in-bird-flu-vaccine": {
+   "ctx": "Bird flu was first found in India in 2006, and more than 500 outbreaks have been reported since then. Union Agriculture Minister Shivraj Singh Chouhan has estimated that diseases in livestock, or farm animals, cost India about Rs 56,000 crore a year. It is the first vaccine against H5N1 bird flu in chickens to be developed in India.",
+   "ask": "Some people think governments should help pay to vaccinate farm animals, because healthy animals help farmers and the whole food supply. Others think farmers should decide for themselves how to care for their own animals and pay for it. Who do you think should be responsible for keeping farm animals healthy, and why?",
+   "jobs": [
+    "Vaccine scientist",
+    "Veterinarian",
+    "Poultry farmer"
+   ]
+  },
+  "g-shenzhou-24": {
+   "ctx": "Tiangong is China's space station, a laboratory where astronauts live and work in orbit. The Shenzhou-24 mission is set to launch on a Long March 2F rocket from the Jiuquan Satellite Launch Center in northwest China, and is expected to make a Pakistani astronaut the first person from another country to visit Tiangong.",
+   "ask": "Some people think space stations should be shared with astronauts from many countries, so more scientists can run experiments in space. Others think the country that built and pays for a station should mostly use it for its own research. Which do you think is better for science, and why?",
+   "jobs": [
+    "Astronaut",
+    "Rocket engineer",
+    "Space scientist"
+   ]
+  },
+  "g-alcaraz-finals": {
+   "ctx": "The ATP Finals is the season-ending tournament for the year's top men's tennis players. Alcaraz's win was the 30th title of his career and his sixth of 2026, and it puts him alongside Roger Federer, Andre Agassi and Novak Djokovic as the only men to have won all four Grand Slam tournaments and the ATP Finals.",
+   "ask": "Some people think staying calm under pressure is a skill anyone can learn with practice. Others think some people are simply born better at it. Which do you think is closer to the truth, and why?",
+   "jobs": [
+    "Tennis coach",
+    "Sports psychologist",
+    "Sports journalist"
+   ]
+  },
+  "g-meerkats": {
+   "ctx": "The study was led by Mathilde Martin, with co-author Benjamin Robira, both of the University of Zurich, and published in the Journal of Experimental Biology. It tested 20 wild meerkats from five groups in the Kalahari Desert, each released alone in part of its territory that its group had not visited for at least 30 days. Two of the 20 did not get back to their group or a familiar place.",
+   "ask": "To learn how animals find their way, scientists sometimes move wild animals and fit them with tracking collars. Some people think this is fair because it helps us understand and protect animals. Others think wild animals should only be watched, never handled or moved. Where would you draw the line, and why?",
+   "jobs": [
+    "Animal behaviour scientist",
+    "Wildlife field researcher",
+    "Conservation biologist"
+   ]
+  },
+  "in-hockey-semis": {
+   "ctx": "The Women's Asian Champions Trophy is being held in Bhopal from 19 to 28 November 2026. India, captained by Salima Tete, have won all three of their matches so far: 4-1 against Malaysia, 2-1 against South Korea and 7-0 against Thailand.",
+   "ask": "Some people think a team learns more from close, hard matches than from big wins like 7-0. Others think big wins matter just as much, because they build confidence and show what is working. Which do you think helps a team more before a semi-final, and why?",
+   "jobs": [
+    "Hockey coach",
+    "Sports physiotherapist",
+    "Sports commentator"
+   ]
+  },
+  "g-bepicolombo-update": {
+   "ctx": "BepiColombo, a joint mission of ESA and JAXA, launched in 2018 and took about eight years to reach Mercury. Its two orbiters, ESA's MPO and JAXA's Mio, are due to separate in early December, and science operations are due to start in April 2027. ESA says the spacecraft is safe while its teams study why the burn ended early.",
+   "ask": "When something goes wrong on a space mission, some people think agencies should share every detail straight away, so the public knows what is happening. Others think they should wait until engineers understand the problem, so they do not share wrong information. Which approach do you think is better, and why?",
+   "jobs": [
+    "Flight software engineer",
+    "Mission controller",
+    "Spacecraft operations engineer"
+   ]
+  }
+ },
+ "bigStory": {
+  "week": "2026-11-23",
+  "story": "g-shenzhou-24",
+  "cat": "space",
+  "sketch": "orbit",
+  "t": "Who is the first visitor to China's space station?",
+  "sub": "China's Shenzhou-24 is ready for launch, set to carry Pakistan's first astronaut to Tiangong",
+  "x": {
+   "why": "A rocket in China is ready to carry a visitor from Pakistan to China's space station. No one from another country has been there before."
+  },
+  "o": {
+   "why": "So far, only Chinese astronauts have been on board Tiangong. This mission is expected to carry the first visitor from another country, an astronaut from Pakistan, for a stay of about a week."
+  },
+  "facts": [
+   [
+    "17 Nov",
+    "the day the rocket and spacecraft moved to the launch area"
+   ],
+   [
+    "2",
+    "Pakistan's astronaut candidates: one flies, one is the backup"
+   ],
+   [
+    "1 week",
+    "about how long the visitor is expected to stay on Tiangong"
+   ],
+   [
+    "Long March 2F",
+    "the rocket, launching from Jiuquan in China"
+   ]
+  ],
+  "days": [
+   {
+    "d": "2026-11-23",
+    "h": "Ready on the launch pad",
+    "o": "China's Shenzhou-24 spacecraft and its Long March 2F rocket moved to the launch area at the Jiuquan Satellite Launch Center on 17 November, and a launch rehearsal has now been held. The mission is set to carry Pakistan's first astronaut, the first foreign visitor to Tiangong, China's space station. China has not officially announced the launch date or the crew. The launch has been reported for 25 November.",
+    "x": "A rocket is ready at a launch site in China. It is set to carry a spacecraft called Shenzhou-24. On board will be Pakistan's first astronaut. They will be the first visitor from another country to China's space station."
+   },
+   {
+    "d": "2026-11-24",
+    "h": "Who is flying?",
+    "lock": "Tuesday: who is flying, and how do astronauts train for space?"
+   },
+   {
+    "d": "2026-11-25",
+    "h": "Launch day",
+    "lock": "Wednesday: the launch reported for this week, and what happens at lift-off."
+   },
+   {
+    "d": "2026-11-26",
+    "h": "Joining up",
+    "lock": "Thursday: how does a spacecraft join up, or dock, with a space station?"
+   },
+   {
+    "d": "2026-11-27",
+    "h": "Life on board",
+    "lock": "Friday: life and science on board, and why countries share space labs."
+   }
+  ],
+  "words": [
+   "orbit",
+   "tiangong",
+   "payload-specialist",
+   "space-station"
+  ],
+  "poll": {
+   "q": "If you visited a space station, what would you most like to do?",
+   "a": [
+    [
+     "Look out at Earth",
+     "You could see our planet from high above."
+    ],
+    [
+     "Float around",
+     "You could drift from one room to the next."
+    ],
+    [
+     "Do a science experiment",
+     "A space station is a lab as well as a home."
+    ],
+    [
+     "Talk to the crew",
+     "You could learn how people from different places work together."
+    ]
+   ]
+  },
+  "talk": "If you could take one small thing from home to a space station, what would you choose, and why?"
+ },
+ "puzzles": {
+  "week": "2026-11-23",
+  "sudoku": {
+   "x": {
+    "n": 4,
+    "br": 2,
+    "bc": 2,
+    "p": [
+     [
+      0,
+      4,
+      0,
+      1
+     ],
+     [
+      1,
+      2,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      3
+     ],
+     [
+      4,
+      3,
+      0,
+      0
+     ]
+    ],
+    "s": [
+     [
+      3,
+      4,
+      2,
+      1
+     ],
+     [
+      1,
+      2,
+      3,
+      4
+     ],
+     [
+      2,
+      1,
+      4,
+      3
+     ],
+     [
+      4,
+      3,
+      1,
+      2
+     ]
+    ]
+   },
+   "o": {
+    "n": 6,
+    "br": 2,
+    "bc": 3,
+    "p": [
+     [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      0,
+      0,
+      6,
+      1,
+      0
+     ],
+     [
+      0,
+      5,
+      0,
+      0,
+      0,
+      6
+     ],
+     [
+      6,
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      6,
+      0
+     ],
+     [
+      0,
+      2,
+      0,
+      4,
+      0,
+      0
+     ]
+    ],
+    "s": [
+     [
+      2,
+      6,
+      1,
+      5,
+      3,
+      4
+     ],
+     [
+      3,
+      4,
+      5,
+      6,
+      1,
+      2
+     ],
+     [
+      4,
+      5,
+      3,
+      1,
+      2,
+      6
+     ],
+     [
+      6,
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     [
+      5,
+      3,
+      4,
+      2,
+      6,
+      1
+     ],
+     [
+      1,
+      2,
+      6,
+      4,
+      5,
+      3
+     ]
+    ]
+   },
+   "n": {
+    "n": 9,
+    "br": 3,
+    "bc": 3,
+    "p": [
+     [
+      9,
+      7,
+      0,
+      0,
+      0,
+      0,
+      5,
+      2,
+      0
+     ],
+     [
+      0,
+      3,
+      8,
+      9,
+      0,
+      0,
+      0,
+      0,
+      4
+     ],
+     [
+      0,
+      5,
+      0,
+      1,
+      7,
+      0,
+      3,
+      0,
+      0
+     ],
+     [
+      6,
+      8,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      5
+     ],
+     [
+      3,
+      1,
+      2,
+      0,
+      5,
+      0,
+      9,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      6,
+      0,
+      0,
+      3,
+      7
+     ],
+     [
+      0,
+      0,
+      1,
+      8,
+      0,
+      2,
+      6,
+      7,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      5,
+      4,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      8,
+      0,
+      0,
+      7,
+      3,
+      0,
+      4,
+      0,
+      0
+     ]
+    ],
+    "s": [
+     [
+      9,
+      7,
+      4,
+      6,
+      8,
+      3,
+      5,
+      2,
+      1
+     ],
+     [
+      1,
+      3,
+      8,
+      9,
+      2,
+      5,
+      7,
+      6,
+      4
+     ],
+     [
+      2,
+      5,
+      6,
+      1,
+      7,
+      4,
+      3,
+      9,
+      8
+     ],
+     [
+      6,
+      8,
+      7,
+      3,
+      1,
+      9,
+      2,
+      4,
+      5
+     ],
+     [
+      3,
+      1,
+      2,
+      4,
+      5,
+      7,
+      9,
+      8,
+      6
+     ],
+     [
+      4,
+      9,
+      5,
+      2,
+      6,
+      8,
+      1,
+      3,
+      7
+     ],
+     [
+      5,
+      4,
+      1,
+      8,
+      9,
+      2,
+      6,
+      7,
+      3
+     ],
+     [
+      7,
+      2,
+      3,
+      5,
+      4,
+      6,
+      8,
+      1,
+      9
+     ],
+     [
+      8,
+      6,
+      9,
+      7,
+      3,
+      1,
+      4,
+      5,
+      2
+     ]
+    ]
+   }
+  },
+  "words": {
+   "x": [
+    [
+     "VACCINE",
+     "India has made one to protect chickens from bird flu"
+    ],
+    [
+     "MEERKAT",
+     "A small animal that can find its way home on its own"
+    ],
+    [
+     "HOCKEY",
+     "India's women beat Thailand 7-0 in this sport"
+    ],
+    [
+     "ROCKET",
+     "China's Long March 2F is one, ready at the launch site"
+    ],
+    [
+     "TENNIS",
+     "Carlos Alcaraz's sport"
+    ]
+   ],
+   "o": [
+    [
+     "ORBIT",
+     "The path a spacecraft follows around a planet"
+    ],
+    [
+     "MERCURY",
+     "The planet that BepiColombo is now orbiting"
+    ],
+    [
+     "TURIN",
+     "The Italian city where Alcaraz won his first ATP Finals"
+    ],
+    [
+     "BHOPAL",
+     "Indian city hosting the women's Asian Champions Trophy"
+    ],
+    [
+     "KALAHARI",
+     "Where scientists studied meerkats finding their way home"
+    ]
+   ]
+  }
+ },
+ "reporters": {
+  "week": "2026-11-23",
+  "t": "Find out how an animal near you is kept healthy",
+  "why": "This week's news includes a new vaccine made in India to protect chickens. Pets, farm animals and working animals all need care to stay healthy, and the people who look after them know a lot about it.",
+  "tips": [
+   "Which animal is it, and who looks after it? Ask a grown-up to help you choose, and never touch an animal you do not know.",
+   "What do they do each day, week or year to keep it healthy?",
+   "Who else could you ask to check what you learned?"
+  ],
+  "sample": []
+ },
+ "today": {
+  "days": [
+   {
+    "name": "Fibonacci Day",
+    "what": "Fibonacci Day honours Leonardo of Pisa, known as Fibonacci, and the number pattern named after him. In the Fibonacci sequence, each number is the sum of the two before it: 1, 1, 2, 3, 5, 8 and so on. Written month first, the date 11/23 shows 1, 1, 2, 3. Fibonacci described the sequence in 1202 and helped spread Hindu-Arabic numerals in Europe."
+   }
+  ],
+  "born": [
+   {
+    "name": "Johannes Diderik van der Waals",
+    "year": 1837,
+    "what": "A physicist, which means a scientist who studies matter, energy and how things move, born in Leiden, the Netherlands. He won the Nobel Prize in Physics in 1910 for his work on how gases and liquids behave."
+   },
+   {
+    "name": "Manuel de Falla",
+    "year": 1876,
+    "what": "A composer, which means a person who writes music, born in Cádiz, Spain. He wrote music for ballets, including El amor brujo in 1915 and The Three-Cornered Hat in 1919."
+   }
+  ]
+ },
+ "learn": {
+  "subject": "Science",
+  "cat": "science",
+  "link": "From the bird flu vaccine story: a vaccine helps a body learn to protect itself",
+  "x": {
+   "t": "How a vaccine trains the body",
+   "b": [
+    "Some germs can make people and animals ill. India has made a new vaccine to protect chickens from bird flu.",
+    "A vaccine has germs that are made weak or switched off. Some vaccines have just a small part of a germ. These do not make you ill.",
+    "The body learns to spot the germ. It makes antibodies, tiny helpers that fight the germ. It also remembers the germ, so it can act fast next time."
+   ],
+   "remember": "A vaccine teaches the body to spot a germ, so it is ready to fight it next time.",
+   "q": "What does a vaccine teach the body to do?",
+   "a": [
+    "Spot a germ and fight it",
+    "Grow taller",
+    "Sleep longer"
+   ],
+   "c": 0
+  },
+  "o": {
+   "t": "How does a vaccine train the body to protect itself?",
+   "b": [
+    "A vaccine helps the body get ready for a germ before it meets the real thing. Most vaccines contain a weakened or inactive form of a germ, such as a virus or bacterium, or a small part of one. This part is called an antigen: something the body's defences can recognise. Some newer vaccines carry instructions that let the body make the antigen itself.",
+    "The immune system is the body's defence system. Its immune cells make antibodies, which are proteins that recognise a particular antigen and help fight it. The first time the body meets an antigen, it needs time to make the right antibodies. A vaccine lets this happen without the dangers of a real illness.",
+    "Afterwards, the immune system keeps a memory of the germ. If the real germ arrives later, the body can make the right antibodies quickly. Vaccines are used for animals as well as people: India's new bird flu vaccine is meant to protect chickens."
+   ],
+   "remember": "A vaccine shows the immune system a harmless form of a germ, so it can remember the germ and respond quickly later.",
+   "q": "What happens if the real germ arrives after a vaccine has done its work?",
+   "a": [
+    "The body makes the right antibodies quickly",
+    "The body forgets the germ",
+    "The vaccine turns into the germ"
+   ],
+   "c": 0
+  }
+ },
+ "backThen": {
+  "y": 1963,
+  "t": "Doctor Who is shown on television for the first time",
+  "o": "On 23 November 1963, the BBC showed the first episode of Doctor Who on television in the United Kingdom. The episode was called An Unearthly Child. The programme was cancelled in 1989, but it came back in 2005.",
+  "x": "On this day in 1963, the first episode of Doctor Who was shown on TV in the UK. The BBC made it. The show stopped in 1989. It came back in 2005.",
+  "why": "A television programme can stop and still return: Doctor Who came back in 2005, 16 years after it was cancelled."
+ },
+ "hiddenWords": [
+  {
+   "k": "orbit",
+   "o": "Orbit comes from the Latin word orbita, which means a wheel track or path. The Romans also used it for the path of a heavenly body through the sky."
+  },
+  {
+   "k": "tournament",
+   "o": "Tournament comes from the Old French word tornement. It meant a contest between groups of knights on horseback."
+  }
+ ]
+}

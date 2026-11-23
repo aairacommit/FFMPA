@@ -239,7 +239,7 @@
     "b": [
      "A [[share|share]] is a tiny piece of a company. People buy and sell shares every day.",
      "The [[sensex|Sensex]] is like a score for the share prices of big companies. On Monday, the Sensex went down.",
-     "Many people sold shares after prices had gone up. Bank shares fell the most. Prices go up and down every day. People will keep buying and selling."
+     "Many people sold shares after prices had gone up. Many bank shares went down. Prices go up and down every day. People will keep buying and selling."
     ]
    },
    "o": {
@@ -291,16 +291,16 @@
     "t": "Wild otters make a home in a big city river",
     "b": [
      "Wild otters are living in a river in Kuala Lumpur. Kuala Lumpur is a big city in Malaysia.",
-     "Otters eat fish. So otters in a river mean there are probably fish there too. That suggests the [[klang-river|river]] is getting healthier.",
+     "Otters eat fish. So otters in a river mean there are probably fish there too. That gives people hope the [[klang-river|river]] is getting healthier.",
      "People have been working hard to clean the river. Machines powered by the sun help catch rubbish. Otters are now seen more often."
     ]
    },
    "o": {
-    "t": "Otters in Kuala Lumpur's river are a sign the clean-up is working",
+    "t": "Otters in Kuala Lumpur's river raise hopes for the clean-up",
     "b": [
-     "Wild otters are living along the [[klang-river|Klang River]] in Kuala Lumpur, a big city in Malaysia. Conservationists, people who work to protect nature, see the otters as a sign that work to clean up the river is helping.",
+     "Wild otters are living along the [[klang-river|Klang River]] in Kuala Lumpur, a big city in Malaysia. Conservationists, people who work to protect nature, see the otters as a hopeful sign that work to clean up the river is helping.",
      "Woo Chee Yoong is a co-founder of the Malaysian Otter Network, a group that works to protect otters. He says the otters being there suggests there are fish in the river, because otters need fish to eat.",
-     "Otters are now being seen more and more often in Kuala Lumpur. Part of the clean-up uses solar-powered machines called [[interceptor|Interceptors]], from a Dutch non-profit group (an organisation that does not aim to make money), which collect rubbish from the river. Each new sighting gives scientists another clue about how healthy the river is becoming."
+     "Otters are now being seen more and more often in Kuala Lumpur. Part of the clean-up uses solar-powered machines called [[interceptor|Interceptors]], from a Dutch non-profit group (an organisation that does not aim to make money), which collect rubbish from the river."
     ]
    },
    "think": "If you could help clean up one place near your home, which would you choose and why?",
@@ -497,6 +497,12 @@
    "science",
    "An icy object in space, far past Neptune.",
    "Any small, icy object that travels around the Sun beyond the orbit of Neptune."
+  ],
+  "tournament": [
+   "tournament",
+   "words",
+   "A set of games or matches played to find a winner.",
+   "A contest or series of contests played for a championship."
   ]
  },
  "keys": {

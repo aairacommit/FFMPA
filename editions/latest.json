@@ -25,7 +25,7 @@
    "o": {
     "t": "India launches its first homegrown bird flu vaccine for chickens",
     "b": [
-     "India's first indigenous, or homegrown, [[vaccine|vaccine]] against H5N1 bird flu in chickens was launched in [[bhopal|Bhopal]] on Friday 20 November by Union Agriculture Minister Shivraj Singh Chouhan. It was developed by the [[icar-nihsad|ICAR-National Institute of High Security Animal Diseases]] (NIHSAD) in Bhopal.",
+     "India's first indigenous, or homegrown, [[vaccine|vaccine]] against H5N1 bird flu in chickens was launched in [[bhopal|Bhopal]] last week by Union Agriculture Minister Shivraj Singh Chouhan. It was developed by the [[icar-nihsad|ICAR-National Institute of High Security Animal Diseases]] (NIHSAD) in Bhopal.",
      "A vaccine trains the body to recognise a germ and fight it before it can cause illness. H5N1 is a type of bird flu [[virus|virus]], a tiny germ that can make living things sick. India has had more than 500 bird flu outbreaks, or sudden spreads of the illness, since 2006.",
      "Each dose is expected to cost about Rs 1 to Rs 2. A low price matters because [[poultry|poultry]] farmers, who raise chickens and other birds, may need to protect many birds at once. The new vaccine gives them a homegrown way to do that."
     ]
@@ -163,60 +163,6 @@
     "n": "Turin, Italy",
     "lat": 45.1,
     "lon": 7.7
-   }
-  },
-  {
-   "id": "g-meerkats",
-   "scope": "global",
-   "cat": "nature",
-   "emoji": "🐾",
-   "date": "2026-11-20",
-   "kind": "news",
-   "x": {
-    "t": "Meerkats on their own can still find their way home",
-    "b": [
-     "[[meerkat|Meerkats]] are small animals that live in groups. They usually go out looking for food together as a group.",
-     "Scientists in the [[kalahari|Kalahari Desert]] in South Africa tested 20 wild meerkats. Each one was let go alone, 1.5 kilometres away. Of those, 18 got back.",
-     "Animals can use [[landmark|landmarks]] and memory to find their way. You do the same on your way to school!"
-    ]
-   },
-   "o": {
-    "t": "Scientists find lone meerkats can find their way home",
-    "b": [
-     "[[meerkat|Meerkats]] are small desert animals that live and travel in groups. Scientists led by Mathilde Martin of the University of Zurich wanted to know what happens when one meerkat is on its own. Their study was published in the Journal of Experimental Biology on 19 November.",
-     "Working with wild meerkats in the [[kalahari|Kalahari Desert]] in South Africa, with help from the Kalahari Research Centre, the team tested 20 meerkats from five groups over about three months. Each was released alone 1.5 kilometres away, inside its own [[territory|territory]], the area its group lives in. Its group had not visited those spots for at least 30 days.",
-     "Eighteen of the 20 meerkats got back to their group or a familiar place. They wore small GPS collars, which record where an animal goes, and some stopped to look around and work out where they were. It is like using [[landmark|landmarks]] to find your way."
-    ]
-   },
-   "think": "What landmarks help you find your way home from school or a friend's house?",
-   "quiz": {
-    "q": "How many of the 20 meerkats got back to their group or a familiar place?",
-    "a": [
-     "5",
-     "10",
-     "18",
-     "20"
-    ],
-    "c": 2
-   },
-   "src": [
-    [
-     "Science News, 19 Nov",
-     "https://www.sciencenews.org/article/solo-meerkats-can-find-their-way-home"
-    ],
-    [
-     "EurekAlert (Company of Biologists), 19 Nov",
-     "https://www.eurekalert.org/news-releases/1151708"
-    ],
-    [
-     "Earth.com, 20 Nov",
-     "https://www.earth.com/animals/meerkats-cross-the-desert-together-but-what-happens-when-one-finds-itself-alone/"
-    ]
-   ],
-   "where": {
-    "n": "Kalahari Desert, South Africa",
-    "lat": -27.0,
-    "lon": 21.8
    }
   },
   {
@@ -408,30 +354,6 @@
    "A set of games or matches played to find a winner.",
    "A contest or series of contests played for a championship."
   ],
-  "meerkat": [
-   "meerkat",
-   "science",
-   "A small furry animal that lives in groups in the desert.",
-   "A small mammal that lives in family groups in dry parts of southern Africa, such as the Kalahari Desert."
-  ],
-  "kalahari": [
-   "Kalahari Desert",
-   "places",
-   "A big, dry, sandy place in southern Africa.",
-   "A large dry region in southern Africa, including part of South Africa."
-  ],
-  "territory": [
-   "territory",
-   "science",
-   "The home area an animal group lives in.",
-   "The area that an animal or group of animals lives in and uses for food and shelter."
-  ],
-  "landmark": [
-   "landmark",
-   "words",
-   "Something easy to spot that helps you know where you are.",
-   "An object or feature that is easy to see and recognise, which helps you know where you are or find your way."
-  ],
   "asian-champions-trophy": [
    "Asian Champions Trophy",
    "words",
@@ -491,11 +413,6 @@
    "v": "30",
    "l": "career titles for Carlos Alcaraz"
   },
-  "g-meerkats": {
-   "type": "number",
-   "v": "18 of 20",
-   "l": "lone meerkats that found their way back"
-  },
   "in-hockey-semis": {
    "type": "number",
    "v": "7-0",
@@ -535,17 +452,6 @@
    "c": 0,
    "right": "Right! Carlos Alcaraz won the ATP Finals for the first time.",
    "wrong": "Not quite. Carlos Alcaraz won. He beat Alexander Zverev in the final."
-  },
-  "g-meerkats": {
-   "type": "check",
-   "q": "Did most of the meerkats find their way back?",
-   "a": [
-    "Yes",
-    "No"
-   ],
-   "c": 0,
-   "right": "Right! 18 of the 20 meerkats got back.",
-   "wrong": "Not quite. Most of them did: 18 of the 20 meerkats got back."
   },
   "in-hockey-semis": {
    "type": "check",
@@ -596,15 +502,6 @@
     "Tennis coach",
     "Sports psychologist",
     "Sports journalist"
-   ]
-  },
-  "g-meerkats": {
-   "ctx": "The study was led by Mathilde Martin, with co-author Benjamin Robira, both of the University of Zurich, and published in the Journal of Experimental Biology. It tested 20 wild meerkats from five groups in the Kalahari Desert, each released alone in part of its territory that its group had not visited for at least 30 days. Two of the 20 did not get back to their group or a familiar place.",
-   "ask": "To learn how animals find their way, scientists sometimes move wild animals and fit them with tracking collars. Some people think this is fair because it helps us understand and protect animals. Others think wild animals should only be watched, never handled or moved. Where would you draw the line, and why?",
-   "jobs": [
-    "Animal behaviour scientist",
-    "Wildlife field researcher",
-    "Conservation biologist"
    ]
   },
   "in-hockey-semis": {
@@ -1094,8 +991,8 @@
      "India has made one to protect chickens from bird flu"
     ],
     [
-     "MEERKAT",
-     "A small animal that can find its way home on its own"
+     "CHICKEN",
+     "Birds that a new vaccine made in India protects from bird flu"
     ],
     [
      "HOCKEY",
@@ -1128,8 +1025,8 @@
      "Indian city hosting the women's Asian Champions Trophy"
     ],
     [
-     "KALAHARI",
-     "Where scientists studied meerkats finding their way home"
+     "SOFTWARE",
+     "A problem with this cut BepiColombo's engine burn short"
     ]
    ]
   }
@@ -1216,7 +1113,7 @@
   },
   {
    "k": "tournament",
-   "o": "Tournament comes from the Old French word tornement. It meant a contest between groups of knights on horseback."
+   "o": "Tournament comes from the Old French word torneiement, which became tornement in Middle English. It meant a contest between two teams of knights on horseback."
   }
  ]
 }

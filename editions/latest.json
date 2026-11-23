@@ -72,7 +72,7 @@
     "t": "China's space station is getting its first visitor from abroad",
     "b": [
      "China has a space station called [[tiangong|Tiangong]]. It is a science lab that goes [[orbit|around Earth]]. Soon it should get its first visitor from another country.",
-     "The visitor will be an astronaut from Pakistan. Pakistan has picked two people. One will fly. The other will be a backup.",
+     "The visitor will be an astronaut from Pakistan. Two people from Pakistan could go. Only one will fly.",
      "A rocket is ready at the launch site. The visitor should stay about a week."
     ]
    },
@@ -81,7 +81,7 @@
     "b": [
      "China's space station, [[tiangong|Tiangong]], is expected to host its first visitor from another country: an astronaut from Pakistan. A space station is a laboratory in [[orbit|orbit]], the curved path an object follows around a planet, where astronauts live and do experiments.",
      "On 17 November, a Long March 2F rocket and the Shenzhou-24 spacecraft were moved to the launch area at the Jiuquan Satellite Launch Center in northwest China. China has not officially announced the launch date, but SpacePolicyOnline, a space news website, reports it is planned for 25 November.",
-     "The mission is set to carry three astronauts. Pakistan has two candidates, Muhammad Zeeshan Ali and Khurram Daud. One will fly as a [[payload-specialist|payload specialist]], a crew member who carries out science work, and the other is the backup. The astronaut chosen is expected to stay about a week and return to Earth aboard a different spacecraft, Shenzhou-23."
+     "The mission is set to carry three astronauts. Pakistan has two candidates, Muhammad Zeeshan Ali and Khurram Daud. One of them will fly as a [[payload-specialist|payload specialist]], a crew member who carries out science work. The astronaut chosen is expected to stay about a week and return to Earth aboard a different spacecraft, Shenzhou-23."
     ]
    },
    "think": "If you could do one science experiment on a space station, what would you test, and why?",
@@ -543,7 +543,7 @@
    ],
    [
     "2",
-    "Pakistan's astronaut candidates: one flies, one is the backup"
+    "Pakistan's astronaut candidates: only one will fly"
    ],
    [
     "1 week",

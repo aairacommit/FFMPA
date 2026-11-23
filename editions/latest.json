@@ -18,7 +18,7 @@
     "b": [
      "India and New Zealand have finished a long cricket match called a [[test-match|Test match]]. It ended in a [[test-draw|draw]], so nobody won.",
      "India scored a huge 720 runs. To win, they had to get New Zealand's batters out. But New Zealand batted carefully on the last day.",
-     "India could not get them out. So the teams agreed to call it a draw. The next match starts on 27 November."
+     "India could not get them out. So the match was called a draw. The next match starts on 27 November."
     ]
    },
    "o": {
@@ -26,7 +26,7 @@
     "b": [
      "The first [[test-match|Test match]] between India and New Zealand ended in a [[test-draw|draw]] on Monday 23 November, the fifth and final day. It was played at the Basin Reserve in Wellington, New Zealand.",
      "India batted first and made 720 for 9 before they chose to [[declare|declare]], which means ending their innings early. KL Rahul and Rishabh Pant both scored [[century|centuries]], scores of 100 runs or more. New Zealand replied with 368 all out, including 175 not out from Henry Nicholls.",
-     "To win, India had to get New Zealand out. Batting again, New Zealand lasted 120 [[over|overs]] and reached 239 for 5. Devon Conway made 65, and Daryl Mitchell (49 not out) and Glenn Phillips (26 not out) held on until the captains agreed to end the match as a draw. The second Test starts at Hagley Oval, Christchurch, on 27 November."
+     "To win, India had to get New Zealand out. Batting again, New Zealand lasted 120 [[over|overs]] and reached 239 for 5. Devon Conway made 65, and Daryl Mitchell (49 not out) and Glenn Phillips (26 not out) held on until the match was called a draw, with time still left in the day. The second Test starts at Hagley Oval, Christchurch, on 27 November."
     ]
    },
    "think": "What helps a team keep going when the other side is far ahead?",
@@ -189,14 +189,14 @@
     "t": "Is there a hidden planet far past Neptune?",
     "b": [
      "Some scientists think a hidden planet may circle the Sun far past [[neptune|Neptune]]. Nobody has seen it yet. It is just an idea.",
-     "The idea comes from computer [[simulation|models]]. They replayed 4.5 billion years of the Sun and its planets. They point to a planet heavier than Earth.",
+     "The idea comes from computer [[simulation|models]]. They replayed 4.5 billion years of the Sun and its planets. They point to a planet up to twice Earth's weight.",
      "Next, a big telescope that scans the sky could help check. That is how science works: guess, then check."
     ]
    },
    "o": {
     "t": "Could a hidden planet be orbiting far beyond Neptune?",
     "b": [
-     "Astronomers suggest a planet nicknamed \"Planet X2\" may [[orbit|orbit]] the Sun far beyond [[neptune|Neptune]]. It would have about 1.5 to 2 times Earth's mass. It has not been observed: it is a hypothesis, an untested idea.",
+     "Astronomers suggest a planet nicknamed \"Planet X2\" may [[orbit|orbit]] the Sun far beyond [[neptune|Neptune]]. It could have up to about twice Earth's mass. It has not been observed: it is a hypothesis, an untested idea.",
      "The idea comes from computer [[simulation|simulations]], models that imitate real things, covering 4.5 billion years of Solar System history. The planet's average distance from the Sun would be about 350 to 500 [[astronomical-unit|astronomical units]] (AU). One AU is Earth's average distance from the Sun. It could explain the unusual orbits of [[trans-neptunian-object|trans-Neptunian objects]], distant icy objects past Neptune.",
      "The study, led by Patryk Sofia Lykawka of Kindai University, Japan, is in the journal Monthly Notices of the Royal Astronomical Society. \"If this planet exists, it could change how we understand the history of our Solar System,\" Lykawka said. Next, the Vera C. Rubin Observatory's sky survey could help test the idea."
     ]
@@ -638,7 +638,7 @@
    ]
   },
   "g-kl-otters": {
-   "ctx": "Otters are now being seen more and more often in Kuala Lumpur. Conservationists see the otters along the Klang River as a sign that clean-up work, including solar-powered rubbish-collecting Interceptors from a Dutch non-profit group, is helping.",
+   "ctx": "Otters are now being seen more and more often in Kuala Lumpur. Conservationists see the otters along the Klang River as a hopeful sign that clean-up work, including solar-powered rubbish-collecting Interceptors from a Dutch non-profit group, is helping.",
    "ask": "Some people think cities should spend much more money cleaning rivers so that wildlife can return. Others think that money is better spent first on other needs, such as housing, transport or schools. How should a city decide what comes first, and why?",
    "jobs": [
     "Wildlife ecologist",

@@ -1,329 +1,492 @@
 {
  "schema": 1,
  "date": "2026-11-24",
- "edition": "am",
- "short": true,
+ "edition": "pm",
  "countries": [
   "IN"
  ],
  "stories": [
   {
-   "id": "in-gukesh-game1",
-   "scope": "IN",
-   "cat": "sports",
-   "emoji": "♟️",
-   "date": "2026-11-23",
-   "kind": "news",
-   "x": {
-    "t": "Gukesh starts his world chess title match today",
-    "b": [
-     "Today, a big [[chess|chess]] match begins. India's [[d-gukesh|D Gukesh]] is the world champion. He plays [[javokhir-sindarov|Javokhir Sindarov]] of Uzbekistan.",
-     "First, they picked colours in a fun way. Gukesh chose one of two clocks. Each clock held a chocolate chess piece. His piece was dark.",
-     "So Sindarov plays White in Game 1, and White moves first. The match is in Switzerland."
-    ]
-   },
-   "o": {
-    "t": "Chocolate knights decide colours as Gukesh and Sindarov begin",
-    "b": [
-     "Game 1 of the World [[chess|Chess]] Championship is being played today, Tuesday 24 November. India's [[d-gukesh|D Gukesh]], the world champion, is defending his title against [[javokhir-sindarov|Javokhir Sindarov]] of Uzbekistan. Both players are 20.",
-     "An opening ceremony was held at the United Nations in Geneva on 22 November. In the colour draw, Gukesh picked one of two clocks, each holding a chocolate knight, the chess piece shaped like a horse. His held the dark knight, so Sindarov has the white pieces in Game 1. In chess, White moves first.",
-     "The games are at the Fondation Martin Bodmer in [[cologny|Cologny]], Switzerland, overlooking Lake Geneva. Gukesh said: \"I don't think I'm here to defend anything, I'm here to win it all over again.\" There can be up to 14 games, and the first player to reach 7.5 points wins. The match is due to end on 12 December."
-    ]
-   },
-   "think": "Gukesh says he is not defending a title but trying to win it again. How might thinking that way help?",
-   "quiz": {
-    "q": "What was inside the clocks used to choose the colours?",
-    "a": [
-     "Coins",
-     "Chocolate chess knights",
-     "Paper notes",
-     "Small flags"
-    ],
-    "c": 1
-   },
-   "src": [
-    [
-     "Al Jazeera, 22 Nov",
-     "https://www.aljazeera.com/sports/2026/11/22/gukesh-vs-sindarov-the-youngest-world-chess-championship-in-history"
-    ],
-    [
-     "AFP via Yahoo Sports, 23 Nov",
-     "https://uk.sports.yahoo.com/news/battle-20-olds-world-chess-113051608.html"
-    ],
-    [
-     "ChessBase India, 23 Nov",
-     "https://chessbase.in/news/world-championship-2026-opening-ceremony"
-    ],
-    [
-     "Chess.com, opening ceremony report",
-     "https://www.chess.com/news/view/2026-fide-chess-world-championship-opening-ceremony"
-    ]
-   ],
-   "where": {
-    "n": "Cologny, Switzerland",
-    "lat": 46.2,
-    "lon": 6.2
-   }
-  },
-  {
-   "id": "in-snooker-anupama",
-   "scope": "IN",
-   "cat": "sports",
-   "emoji": "🎱",
-   "date": "2026-11-21",
-   "kind": "news",
-   "x": {
-    "t": "Anupama Ramachandran is world snooker champion again",
-    "b": [
-     "India's [[anupama-ramachandran|Anupama Ramachandran]] is the world women's [[snooker|snooker]] champion. She already held the title. Now she has kept it.",
-     "Snooker is played on a big table. Players use a long stick to hit coloured balls into pockets.",
-     "The final was in [[indore|Indore]], India, on Saturday. Anupama lost the first game. Then she won the next three to take the title."
-    ]
-   },
-   "o": {
-    "t": "Anupama Ramachandran keeps her world snooker title in Indore",
-    "b": [
-     "India's [[anupama-ramachandran|Anupama Ramachandran]] has kept her title at the IBSF World Women's [[snooker|Snooker]] Championship. She beat So Man Yan of Hong Kong 3-1 in the final in [[indore|Indore]], Madhya Pradesh, on Saturday 21 November.",
-     "Snooker is a table game. Players use a long stick called a cue to pot, or knock, coloured balls into pockets. A match is split into [[frame|frames]], which are separate games. Anupama lost the first frame, then won the next three to retain, or keep, the title she already held.",
-     "\"Winning a title is special in itself, but defending it is even more special,\" she told the news agency PTI. She sealed the win by potting a long blue ball and then the pink one, PTI reported."
-    ]
-   },
-   "think": "Why might winning at home feel different from winning far away?",
-   "quiz": {
-    "q": "What was the score in the women's final?",
-    "a": [
-     "5-3",
-     "3-1",
-     "2-2",
-     "3-0"
-    ],
-    "c": 1
-   },
-   "src": [
-    [
-     "The Bridge, 21 Nov",
-     "https://thebridge.in/cue-sports/ibsf-world-snooker-cships-anupama-ramachandran-wins-title-58448"
-    ],
-    [
-     "PTI via Daily Excelsior, 22 Nov",
-     "https://www.dailyexcelsior.com/anupama-defeats-man-yan-retains-world-snooker-title/"
-    ]
-   ],
-   "where": {
-    "n": "Indore, India",
-    "lat": 22.7,
-    "lon": 75.9
-   }
-  },
-  {
-   "id": "g-cop31-ends",
-   "scope": "global",
-   "cat": "planet",
-   "emoji": "🌍",
-   "date": "2026-11-22",
-   "kind": "news",
-   "olderOnly": true,
-   "sensitive": "politics",
-   "x": {
-    "t": "World climate talks end without a final plan",
-    "b": [
-     "Countries met in Antalya, Türkiye, to talk about the climate. The meeting was called [[cop31|COP31]]. It ended on Sunday, two days late.",
-     "Every country must agree for a plan to pass. Some countries wanted the plan to name [[fossil-fuels|coal, oil and gas]]. Other countries did not agree.",
-     "So there was no final plan. It was the longest meeting of its kind ever."
-    ]
-   },
-   "o": {
-    "t": "COP31 climate talks end in Antalya without a final agreement",
-    "b": [
-     "The United Nations climate talks, [[cop31|COP31]], ended in Antalya, Türkiye, on 22 November without a final agreement. They ran two days longer than planned, making this the longest COP ever.",
-     "At these talks, decisions need [[consensus|consensus]]: every country must accept the text. The main split was over [[fossil-fuels|fossil fuels]] such as coal, oil and gas, which the draft text did not mention. Some, including the [[european-union|European Union]] (EU), wanted them named; others did not want that. Ireland's climate minister, Darragh O'Brien, spoke for the EU, which rejected the text.",
-     "The draft would have said, for the first time, that global warming, the rise in world temperatures, was on course to go past 1.5 degrees Celsius. COP31 President Murat Kurum of Türkiye said there was no consensus. According to Carbon Brief, some other decisions were still adopted, including a global goal on adaptation, which means getting ready for a changing climate."
-    ]
-   },
-   "think": "If a group decision needs everyone to agree, what could the group do when people disagree?",
-   "quiz": {
-    "q": "What was the main disagreement at COP31 about?",
-    "a": [
-     "Which city should host the talks",
-     "Whether the text should mention fossil fuels",
-     "How many countries could attend",
-     "Which language the talks should use"
-    ],
-    "c": 1
-   },
-   "src": [
-    [
-     "Al Jazeera (with AP and Reuters), 22 Nov",
-     "https://www.aljazeera.com/news/2026/11/22/fossil-fuel-impasse-pushes-cop31-climate-talks-into-second-day-of-overtime"
-    ],
-    [
-     "The Independent via Yahoo, 22 Nov",
-     "https://www.yahoo.com/news/science/articles/cop31-fails-reach-climate-deal-124907599.html"
-    ],
-    [
-     "CBS News, 22 Nov",
-     "https://www.cbsnews.com/news/un-cop31-climate-conference-ends-no-agreement-fossil-fuel-debate-standstill/"
-    ],
-    [
-     "Carbon Brief, 23 Nov",
-     "https://www.carbonbrief.org/cop31-key-outcomes-agreed-at-the-un-climate-talks-in-antalya"
-    ]
-   ],
-   "where": {
-    "n": "Antalya, Türkiye",
-    "lat": 36.9,
-    "lon": 30.7
-   }
-  },
-  {
-   "id": "g-evolution-day",
-   "scope": "global",
-   "cat": "science",
-   "emoji": "🧬",
-   "date": "2026-11-24",
-   "kind": "calendar",
-   "when": "24 November",
-   "x": {
-    "t": "Today is Evolution Day, a day about how living things change",
-    "b": [
-     "Today is Evolution Day. It remembers a famous book from 1859. Charles Darwin wrote it.",
-     "The book explained how each [[species|kind of living thing]] slowly changes. This takes many, many years.",
-     "Some living things have features that suit where they live. They tend to have more young. So those features slowly become more common. This is called [[natural-selection|natural selection]]."
-    ]
-   },
-   "o": {
-    "t": "Evolution Day marks the 1859 book that changed biology",
-    "b": [
-     "Today, 24 November, is [[evolution|Evolution]] Day. It is held on this date because [[charles-darwin|Charles Darwin]]'s book On the Origin of Species went on sale on 24 November 1859, according to Darwin's diary, though the publisher's records give 22 November. All 1,250 copies of the first printing sold out straight away.",
-     "The book argued that living things change slowly over many generations (a generation is one step from parents to their young) through [[natural-selection|natural selection]]. Individuals whose features suit their surroundings leave more young, so those features become more common. Darwin used this idea to explain how [[species|species]] change.",
-     "Today, Darwin's ideas are still central to biology, the science of living things."
-    ]
-   },
-   "think": "Think of an animal you know well. Which of its features help it live where it lives?",
-   "quiz": {
-    "q": "What is the name of Charles Darwin's famous book from 1859?",
-    "a": [
-     "On the Origin of Species",
-     "The Secret Garden",
-     "The Adventures of Pinocchio",
-     "A Guide to Chess"
-    ],
-    "c": 0
-   },
-   "src": [
-    [
-     "Time",
-     "https://time.com/3602107/darwin-evolution-day/"
-    ],
-    [
-     "History.com",
-     "https://www.history.com/this-day-in-history/november-24/origin-of-species-is-published-2"
-    ],
-    [
-     "Linda Hall Library",
-     "https://www.lindahall.org/charles-darwin/"
-    ],
-    [
-     "Smithsonian Libraries",
-     "https://blog.library.si.edu/blog/2009/11/24/darwins-on-the-origin-of-species-was-published-today-in-1859"
-    ],
-    [
-     "Assemblies for All",
-     "https://assembliesforall.org.uk/events/evolution-day/"
-    ]
-   ]
-  },
-  {
-   "id": "in-iffi-goa",
+   "id": "in-mumbai-book-fest",
    "scope": "IN",
    "cat": "culture",
-   "emoji": "🎬",
-   "date": "2026-11-22",
+   "emoji": "📚",
+   "date": "2026-11-24",
    "kind": "news",
    "x": {
-    "t": "Films from 86 countries come to a festival in Goa",
+    "t": "A big book festival is on in Mumbai until 29 November",
     "b": [
-     "A big [[film-festival|film festival]] is happening in Goa this week. At a film festival, lots of films are shown to audiences.",
-     "This one has more than 150 films from 86 countries. Its big idea is \"Stories Without Borders\". That means good stories can travel to any country.",
-     "One film, called Urum, comes from [[arunachal-pradesh|Arunachal Pradesh]] in India. The festival ends on 28 November."
+     "A big book festival began today in [[mumbai|Mumbai]]. It lasts six days. There will be about 600 stalls. Entry is free.",
+     "Children can join in storytelling and drawing. There are quizzes too. Some can try [[calligraphy|calligraphy]], which is beautiful handwriting.",
+     "The festival is at a university in the city. It ends on 29 November."
     ]
    },
    "o": {
-    "t": "India's film festival in Goa shows films from 86 countries",
+    "t": "Mumbai Book Festival opens with 600 stalls and free entry",
     "b": [
-     "The 57th International Film Festival of India, known as IFFI, is being held in [[goa|Goa]] this week. A [[film-festival|film festival]] is an event where many films are screened, or shown, for audiences and filmmakers, often over several days.",
-     "This year's theme, the big idea that links the event together, is \"Stories Without Borders\". The festival is showing more than 150 films from 86 countries, so audiences can see stories from many parts of the world. In the evenings there are also open-air screenings, including on Miramar and Vagator beaches.",
-     "Films made in India are part of it too. Urum, a film in the [[nyishi-language|Nyishi language]] from [[arunachal-pradesh|Arunachal Pradesh]], directed by Duyu Tabyo, was chosen for the festival's Indian Panorama section, a part of the programme for selected Indian films. The festival runs until 28 November."
+     "The [[mumbai|Mumbai]] Book Festival opens today, 24 November, and runs for six days until 29 November. It is at the University of Mumbai's Kalina campus. Chief Minister [[devendra-fadnavis|Devendra Fadnavis]], the head of Maharashtra's state government, was due to open it.",
+     "The festival is organised by the [[national-book-trust|National Book Trust]] (NBT) with the Maharashtra government, the Brihanmumbai Municipal Corporation (BMC), which is the city's local council, and the University of Mumbai. There will be about 600 stalls. Entry is free, and it is open every day from 11 am to 10 pm.",
+     "For children, activities include storytelling, drawing, quizzes and [[calligraphy|calligraphy]], the art of beautiful handwriting. There are also themed exhibitions marking 150 years of the song Vande Mataram and the 150th birth anniversary of [[sardar-patel|Sardar Vallabhbhai Patel]]. Singers Avadhoot Gupte and Vaishali Samant will perform."
     ]
    },
-   "think": "If you made a film about where you live, what story would you tell?",
+   "think": "What makes a good place to discover new books: a festival, a library, a shop, or somewhere else?",
    "quiz": {
-    "q": "How many countries do the festival's films come from?",
+    "q": "About how many stalls will the Mumbai Book Festival have?",
     "a": [
-     "28",
-     "57",
-     "86",
-     "150"
+     "About 6",
+     "About 60",
+     "About 600",
+     "About 6,000"
     ],
     "c": 2
    },
    "src": [
     [
-     "The Morning Voice, 24 Nov",
-     "https://tmv.in/article/iffi-2026-showcases-global-cinema-regional-stories-on-day-3"
+     "ThePrint (PTI), festival preview",
+     "https://theprint.in/india/six-day-mumbai-book-festival-to-start-on-nov-24/3102206/"
     ],
     [
-     "Digital Goa, 22 Nov",
-     "https://digitalgoa.com/57iffiday3/"
+     "WebIndia123 (ANI), 24 Nov",
+     "https://news.webindia123.com/news/Articles/Entertainment/20261124/4523655.html"
     ],
     [
-     "Press Information Bureau, 13 Nov",
-     "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2335780&reg=48&lang=2"
+     "Deccan Chronicle, festival preview",
+     "https://www.deccanchronicle.com/nation/current-affairs/fadnavis-to-inaugurate-mumbais-biggest-book-festival-2006813"
     ],
     [
-     "The News Mill (ANI), 21 Nov",
-     "https://thenewsmill.com/2026/11/iffi-2026-opens-in-goa-with-ricky-kej-and-film-stars/"
-    ],
-    [
-     "Press Information Bureau, 17 Nov",
-     "https://www.pib.gov.in/PressReleasepage.aspx?PRID=2337459&reg=3&lang=1"
-    ],
-    [
-     "The Arunachal Times, 14 Nov",
-     "https://arunachaltimes.in/article/urum-selected-for-indian-panorama-section-of-57th-iffi"
+     "Free Press Journal, festival preview",
+     "https://www.freepressjournal.in/mumbai/mumbai-book-festival-2026-gulzar-anupam-kher-kailash-kher-among-stars-lined-up-for-6-day-literary-event"
     ]
    ],
    "where": {
-    "n": "Goa, India",
-    "lat": 15.5,
-    "lon": 73.8
+    "n": "Mumbai, Maharashtra",
+    "lat": 19.1,
+    "lon": 72.9
    }
+  },
+  {
+   "id": "g-euclid-quasar",
+   "scope": "global",
+   "cat": "space",
+   "emoji": "🔭",
+   "date": "2026-11-24",
+   "kind": "news",
+   "x": {
+    "t": "A space telescope helps find the farthest quasar ever seen",
+    "b": [
+     "Scientists found the farthest [[quasar|quasar]] ever seen. It is the bright centre of a [[galaxy|galaxy]], powered by a giant [[black-hole|black hole]].",
+     "Light from far away takes time to reach us. So we see this quasar as it was about 13.1 billion years ago. The universe was very young then.",
+     "They used a European space telescope called [[euclid|Euclid]]. Euclid set the last record too, in July this year."
+    ]
+   },
+   "o": {
+    "t": "Euclid helps spot the oldest, most distant quasar ever seen",
+    "b": [
+     "Astronomers have found the most distant and oldest [[quasar|quasar]] ever seen. A quasar is a bright centre of a [[galaxy|galaxy]], powered by a giant [[black-hole|black hole]]. This one formed within about 630 million years of the [[big-bang|Big Bang]], the beginning of the universe, pushing the record back by nearly 40 million years.",
+     "Light takes time to travel, so looking far away means looking back in time. We see this quasar as it was about 13.1 billion years ago, when the universe was only about 5% of its current age. Its black hole is about 360 million times the mass of the Sun.",
+     "It was found in data from the European Space Agency's [[euclid|Euclid]] space telescope. It is nicknamed \"Dun Aonghasa\", after a prehistoric stone fort in Ireland. Euclid set the previous record earlier this year, in July."
+    ]
+   },
+   "think": "If you could look back in time at anything in space, what would you most like to see, and why?",
+   "quiz": {
+    "q": "About how soon after the Big Bang did this quasar form?",
+    "a": [
+     "Within about 630 million years",
+     "Within about 5 years",
+     "Within about 360 years",
+     "Within about 40 billion years"
+    ],
+    "c": 0
+   },
+   "src": [
+    [
+     "AP via CBS News, 24 Nov",
+     "https://www.cbsnews.com/news/quasar-farthest-oldest-found/"
+    ],
+    [
+     "Popular Science, 24 Nov",
+     "https://www.popsci.com/science/oldest-quasar-euclid-telescope/"
+    ],
+    [
+     "AP via Click2Houston, 24 Nov",
+     "https://www.click2houston.com/news/world/2026/11/24/scientists-discover-quasar-formed-within-a-mere-630-million-years-of-the-big-bang-setting-a-record/"
+    ],
+    [
+     "ESA, 6 Jul (previous record)",
+     "https://www.esa.int/Science_Exploration/Space_Science/Euclid_discovers_the_most_ancient_quasar_in_the_Universe"
+    ]
+   ]
+  },
+  {
+   "id": "g-ariane6-leo",
+   "scope": "global",
+   "cat": "tech",
+   "emoji": "🚀",
+   "date": "2026-11-24",
+   "kind": "news",
+   "x": {
+    "t": "Europe's big rocket lifts off with 36 internet satellites",
+    "b": [
+     "Europe's big [[rocket|rocket]], Ariane 6, lifted off on 24 November. It carried 36 internet [[satellite|satellites]] for the company Amazon.",
+     "The rocket was meant to fly a day earlier. But some equipment on the ground had a problem. So the team waited, and everything stayed safe.",
+     "Amazon plans to have more than 3,200 of these satellites. They beam internet down from space."
+    ]
+   },
+   "o": {
+    "t": "Ariane 6 lifts off with 36 Amazon Leo satellites after delay",
+    "b": [
+     "Europe's Ariane 6 [[rocket|rocket]] lifted off on Tuesday 24 November from Europe's Spaceport in Kourou, [[french-guiana|French Guiana]], carrying 36 [[amazon-leo|Amazon Leo]] internet [[satellite|satellites]]. It was the 10th Ariane 6 flight, in the Ariane 64 version, which has four [[booster|boosters]].",
+     "The launch had been planned for 23 November. That attempt was stopped by what Arianespace, the company that runs Ariane launches, called a \"technical event\" affecting the rocket's ground support systems, the equipment on the ground that helps get a rocket ready to fly. Arianespace said the rocket and satellites remained in stable and safe conditions.",
+     "Amazon Leo satellites beam internet from space, and Amazon plans a network of more than 3,200 of them. The news agency Bloomberg calls the network a rival to Starlink, another internet service from space."
+    ]
+   },
+   "think": "The launch team waited a day after a problem on the ground. When have you waited and tried again, and how did it go?",
+   "quiz": {
+    "q": "How many Amazon Leo satellites did Ariane 6 carry on this flight?",
+    "a": [
+     "12",
+     "36",
+     "40",
+     "3,200"
+    ],
+    "c": 1
+   },
+   "src": [
+    [
+     "Space.com, 24 Nov",
+     "https://www.space.com/space-exploration/launches-spacecraft/arianespace-ariane-6-amazon-leo-internet-satellite-launch"
+    ],
+    [
+     "Bloomberg, 24 Nov",
+     "https://www.bloomberg.com/news/articles/2026-11-24/european-rocket-launches-satellites-for-amazon-s-starlink-rival"
+    ],
+    [
+     "Arianespace, flight VA271",
+     "https://newsroom.arianespace.com/ariane-6-flight-va271/"
+    ],
+    [
+     "Arianespace, launch rescheduled for 24 Nov",
+     "https://www.arianespace.com/news/mission-va271-le-04-ariane-6-launch-rescheduled-for-november-24-2026/"
+    ],
+    [
+     "ESA, Ariane 6 launch",
+     "https://www.esa.int/articles/about-us/directorates/space-transportation/ariane/watch-live-ariane-6-launches-another-set-of-amazon-leo-satellites-to-orbit"
+    ],
+    [
+     "Spaceflight Now, 23 Nov",
+     "https://spaceflightnow.com/2026/11/23/live-coverage-arianespaces-launches-amazon-leo-sats-amid-rocket-crunch/"
+    ]
+   ],
+   "where": {
+    "n": "Kourou, French Guiana",
+    "lat": 5.2,
+    "lon": -52.7
+   }
+  },
+  {
+   "id": "g-progress-teledroid",
+   "scope": "global",
+   "cat": "tech",
+   "emoji": "🤖",
+   "date": "2026-11-24",
+   "kind": "news",
+   "x": {
+    "t": "A cargo ship heads to space with parts of a robot",
+    "b": [
+     "A cargo ship lifted off on 24 November. No people are on board. It carries food, fuel and supplies for the crew of the [[space-station|space station]].",
+     "It also carries parts of a robot called Teledroid. It is a [[humanoid|humanoid]] robot, shaped like a person. It will be tested as a helper for [[cosmonaut|cosmonauts]] working outside the station.",
+     "The ship should reach the station on 26 November."
+    ]
+   },
+   "o": {
+    "t": "Progress cargo ship launches to ISS with parts of a robot helper",
+    "b": [
+     "Russia's uncrewed Progress MS-36 cargo spacecraft lifted off on 24 November on a Soyuz rocket from the Baikonur Cosmodrome, a rocket launch site in Kazakhstan. Uncrewed means no one is on board. NASA, the US space agency, calls it Progress 97. It carries tonnes of food, fuel and supplies for the crew of the International [[space-station|Space Station]] (ISS).",
+     "The spacecraft is due to dock, or join up with the station, on Thursday 26 November. It will attach to the Earth-facing port, a docking point, of Rassvet, one of the station's modules, or sections.",
+     "Progress MS-36 also carries parts of Teledroid, a [[humanoid|humanoid]] robot built by the company Android Technics. Teledroid is meant to help [[cosmonaut|cosmonauts]], Russian astronauts, with work outside the station. It can copy the movements of a cosmonaut wearing an [[exoskeleton|exoskeleton]], a wearable frame. The robot will be tested on the station."
+    ]
+   },
+   "think": "If you had a robot that copied your movements, what job would you want it to help with, and why?",
+   "quiz": {
+    "q": "When is the Progress MS-36 cargo ship planned to dock with the space station?",
+    "a": [
+     "24 November",
+     "26 November",
+     "30 November",
+     "3 December"
+    ],
+    "c": 1
+   },
+   "src": [
+    [
+     "NASA, 24 Nov",
+     "https://www.nasa.gov/blogs/spacestation/2026/11/24/progress-cargo-craft-lifts-off-to-resupply-expedition-75-crew/"
+    ],
+    [
+     "Actualidad Aeroespacial (Spanish)",
+     "https://actualidadaeroespacial.com/roscosmos-lanzo-a-la-iss-la-nave-de-carga-progress-ms-36/"
+    ],
+    [
+     "TASS",
+     "https://tass.com/science/2223839"
+    ],
+    [
+     "TechTimes, 23 Nov",
+     "https://www.techtimes.com/articles/331338/20261123/russian-humanoid-robot-launches-space-station-tuesday-cargo-ship-planned-around-leaking-tunnel.htm"
+    ]
+   ],
+   "where": {
+    "n": "Baikonur, Kazakhstan",
+    "lat": 45.9,
+    "lon": 63.3
+   }
+  },
+  {
+   "id": "in-delhi-air",
+   "scope": "IN",
+   "cat": "planet",
+   "emoji": "🌫️",
+   "date": "2026-11-24",
+   "kind": "news",
+   "x": {
+    "t": "Delhi's air was rated poor this morning",
+    "b": [
+     "[[delhi|Delhi]] has a number that shows how clean the air is. It is called the [[aqi|air quality index]]. A low number means clean air. A high number means dirty air.",
+     "On Tuesday morning, Delhi's number was 242. That is in the \"poor\" group. Some places were higher.",
+     "Breathing poor air for a long time can feel uncomfortable. Officials want each area to plan for cleaner air."
+    ]
+   },
+   "o": {
+    "t": "Delhi's air quality index reads 242, in the poor band",
+    "b": [
+     "[[delhi|Delhi]]'s [[aqi|air quality index]], or AQI, was 242 at 7 am on Tuesday 24 November, according to data from the [[cpcb|Central Pollution Control Board]]. The AQI turns readings of several pollutants, things that make the air dirty, into one number from 0 to 500. A reading of 242 sits in the \"poor\" band, which runs from 201 to 300.",
+     "Some areas read higher: 10 monitoring stations, which measure the air in different places, were in the \"very poor\" band, from 301 to 400.",
+     "One pollutant the AQI counts is [[pm25|PM2.5]]: specks 2.5 micrometres wide or smaller, far thinner than a human hair. For the poor band, the official health message is breathing discomfort for most people after breathing it for a long time. The Commission for Air Quality Management (CAQM), which works on pollution around Delhi, wants district plans to cut pollution by 15 to 20 per cent."
+    ]
+   },
+   "think": "Why do you think air quality is shown as one simple number instead of a long list of measurements?",
+   "quiz": {
+    "q": "Which band was Delhi's AQI of 242 in on Tuesday morning?",
+    "a": [
+     "Good",
+     "Satisfactory",
+     "Poor",
+     "Severe"
+    ],
+    "c": 2
+   },
+   "src": [
+    [
+     "Business Standard, 24 Nov",
+     "https://www.business-standard.com/amp/india-news/delhi-wakes-to-poor-air-as-aqi-stands-at-242-ncr-cities-fare-worse-126112400079_1.html"
+    ],
+    [
+     "Outlook, 24 Nov",
+     "https://www.outlookindia.com/national/delhi-air-quality-set-to-deteriorate-further-as-aqi-remains-poor-at-242"
+    ],
+    [
+     "Central Pollution Control Board, AQI bulletin (category bands)",
+     "https://cpcb.nic.in/upload/Downloads/AQI_Bulletin_20251101.pdf"
+    ],
+    [
+     "Arthapedia, Indian Economic Service: National Air Quality Index",
+     "https://ies.gov.in/arthapedia/concept/national-air-quality-index"
+    ],
+    [
+     "US EPA, Particulate Matter Basics",
+     "https://www.epa.gov/pm-pollution/particulate-matter-pm-basics"
+    ],
+    [
+     "Massachusetts Department of Public Health, What is PM2.5?",
+     "https://www.mass.gov/info-details/ma-epht-fine-particles-pm25"
+    ]
+   ],
+   "where": {
+    "n": "Delhi, India",
+    "lat": 28.6,
+    "lon": 77.2
+   }
+  },
+  {
+   "id": "g-nepal-quake",
+   "scope": "global",
+   "cat": "planet",
+   "emoji": "🏔️",
+   "date": "2026-11-24",
+   "kind": "news",
+   "x": {
+    "t": "No one reported hurt as an earthquake shakes eastern Nepal",
+    "b": [
+     "No one was reported hurt in an [[earthquake|earthquake]] in Nepal this morning. No big damage was reported. The ground shook in [[taplejung|Taplejung]], near Tibet.",
+     "Experts in Nepal measured its [[magnitude|size]] at 5.6.",
+     "India sits on a giant slab of rock. It slowly pushes into the rest of Asia. This push built the tall [[himalayas|Himalayas]] and can shake the ground. If you feel shaking, drop down, cover your head and hold on."
+    ]
+   },
+   "o": {
+    "t": "No one reported hurt as a 5.6 quake shakes eastern Nepal",
+    "b": [
+     "No one was reported hurt and no major damage was reported after an [[earthquake|earthquake]] shook eastern Nepal at 7:17 am local time on Tuesday 24 November. Nepal's National Earthquake Monitoring and Research Centre put its [[magnitude|magnitude]], a measure of an earthquake's size, at 5.6.",
+     "The quake was centred near Olangchung Gola in [[taplejung|Taplejung]] district, close to the Nepal-Tibet border. On the magnitude scale, each whole number up means about ten times more ground motion.",
+     "The [[indian-plate|Indian plate]], one of the giant slabs of rock that make up Earth's surface, has been pushing into Asia since the two met about 40 to 50 million years ago. That push raised the [[himalayas|Himalayas]] and builds up stress in the rocks, which is released from time to time as earthquakes. Safety experts advise: drop, cover and hold on until the shaking stops."
+    ]
+   },
+   "think": "If you felt the ground shake at school, what would you do first, and why?",
+   "quiz": {
+    "q": "Where was Tuesday's earthquake centred?",
+    "a": [
+     "Near Olangchung Gola in Taplejung district",
+     "In the middle of India",
+     "Under the Pacific Ocean",
+     "In Switzerland"
+    ],
+    "c": 0
+   },
+   "src": [
+    [
+     "Kathmandu Post, 24 Nov",
+     "https://kathmandupost.com/national/2026/11/24/5-6-magnitude-earthquake-strikes-near-nepal-tibet-border"
+    ],
+    [
+     "Xinhua, 24 Nov",
+     "https://english.news.cn/20261124/4c3f876546e74c42941260a1a39c2794/c.html"
+    ],
+    [
+     "PTI via ThePrint, 24 Nov",
+     "https://theprint.in/world/5-6-magnitude-earthquake-strikes-nepals-koshi-province-close-to-china-border/3107076/"
+    ],
+    [
+     "US Geological Survey, The Himalayas: Two continents collide",
+     "https://pubs.usgs.gov/gip/dynamic/himalaya.html"
+    ],
+    [
+     "Geological Society of London, Continental collision: the Himalayas",
+     "https://www.geolsoc.org.uk/Plate-Tectonics/Chap3-Plate-Margins/Convergent/Continental-Collision"
+    ],
+    [
+     "US Geological Survey, Earthquake magnitude, energy release and shaking intensity",
+     "https://www.usgs.gov/programs/earthquake-hazards/earthquake-magnitude-energy-release-and-shaking-intensity"
+    ],
+    [
+     "US Geological Survey, Measuring the size of an earthquake",
+     "https://pubs.usgs.gov/gip/earthq1/measure.html"
+    ],
+    [
+     "Ready.gov, Earthquakes",
+     "https://www.ready.gov/earthquakes"
+    ],
+    [
+     "CDC, Stay safe during an earthquake",
+     "https://www.cdc.gov/earthquakes/safety/stay-safe-during-an-earthquake.html"
+    ]
+   ],
+   "where": {
+    "n": "Taplejung, Nepal",
+    "lat": 27.4,
+    "lon": 87.7
+   }
+  },
+  {
+   "id": "g-beaver-supermoon",
+   "scope": "global",
+   "cat": "space",
+   "emoji": "🌕",
+   "date": "2026-11-24",
+   "kind": "calendar",
+   "when": "Tonight, 24 November",
+   "x": {
+    "t": "Look up tonight: November's full Moon is a supermoon",
+    "b": [
+     "Tonight's full Moon is called the Beaver Moon. It is a [[supermoon|supermoon]].",
+     "A supermoon happens when a full Moon is near its closest point to Earth. It can look a little bigger and brighter. But the change is hard to see with just your eyes.",
+     "In India, look low in the east after sunset. You do not need a telescope if the sky is clear."
+    ]
+   },
+   "o": {
+    "t": "The Beaver Moon is a supermoon, and it rises tonight",
+    "b": [
+     "Tonight's full Moon, known as the Beaver Moon, is a [[supermoon|supermoon]]. The Moon is exactly full at 14:53 [[utc|UTC]] on 24 November, which is 8:23 pm in India.",
+     "A supermoon is a full Moon that happens when the Moon is near [[perigee|perigee]], the closest point to Earth in its [[orbit|orbit]]. At full moon it will be about 360,770 km away. A supermoon can look up to 14% bigger and 30% brighter than the year's smallest full Moon, but the difference is hard to notice with the naked eye, meaning without any equipment.",
+     "In India, look low on the eastern horizon after sunset. If the sky is clear, no telescope is needed, and binoculars will show more detail. This is the first of at least three supermoons in a row, with December's the biggest."
+    ]
+   },
+   "local": {
+    "IN": "In India, the Moon is exactly full at 8:23 pm tonight, so look low in the east after sunset."
+   },
+   "think": "When you look at the Moon tonight, what shapes or patterns can you spot on it?",
+   "quiz": {
+    "q": "What makes a full Moon a supermoon?",
+    "a": [
+     "The Moon is near its closest point to Earth",
+     "The Moon turns a different colour",
+     "The Moon is farther from Earth than usual",
+     "It can only be seen from India"
+    ],
+    "c": 0
+   },
+   "src": [
+    [
+     "Space.com, November full Moon guide",
+     "https://www.space.com/stargazing/november-full-moon-2026-when-where-and-how-to-see-the-beaver-moon"
+    ],
+    [
+     "National Geographic, November 2026 supermoon",
+     "https://www.nationalgeographic.com/science/article/november-2026-supermoon"
+    ],
+    [
+     "Star Walk, November full Moon",
+     "https://starwalk.space/en/news/full-moon-november"
+    ],
+    [
+     "Earth.com, November full Moon",
+     "https://www.earth.com/space/novembers-full-moon-on-nov-24-is-the-first-of-three-supermoons-in-a-row-and-it-will-pass-close-to-the-pleiades/"
+    ],
+    [
+     "News Today, 23 Nov",
+     "https://newstodaynet.com/2026/11/23/full-beaver-supermoon-to-light-up-the-sky-tomorrow-night/"
+    ],
+    [
+     "Space.com, supermoons of 2026",
+     "https://www.space.com/supermoon-what-is-it-2026"
+    ]
+   ]
   }
  ],
  "glossary": {
-  "anupama-ramachandran": [
-   "Anupama Ramachandran",
-   "people",
-   "A snooker player from India. She is the world women's champion.",
-   "An Indian snooker player who won the IBSF World Women's Snooker Championship in 2026, keeping the title she already held."
+  "amazon-leo": [
+   "Amazon Leo",
+   "tech",
+   "A group of internet satellites that belongs to the company Amazon.",
+   "The company Amazon's network of internet satellites. Amazon plans more than 3,200 of them, and it is seen as a rival to Starlink."
   ],
-  "snooker": [
-   "snooker",
+  "aqi": [
+   "AQI",
+   "science",
+   "Air Quality Index: a number that shows how clean the air is. A low number is good. A high number is bad.",
+   "Air Quality Index. India's scale runs from Good (0 to 50) through Poor (201 to 300) and Very Poor (301 to 400) up to Severe (401 to 500). It is based on eight pollutants, including PM2.5."
+  ],
+  "big-bang": [
+   "Big Bang",
+   "science",
+   "The start of the universe, a very, very long time ago.",
+   "The beginning of the universe, as scientists describe it. The record quasar formed within about 630 million years of it."
+  ],
+  "black-hole": [
+   "black hole",
+   "science",
+   "A place in space that pulls so hard that not even light can get out.",
+   "A region of space where gravity is so strong that nothing, not even light, can escape."
+  ],
+  "booster": [
+   "booster",
+   "tech",
+   "An extra rocket fixed to the side of a big rocket. It gives a big push at liftoff.",
+   "A solid rocket motor attached to a rocket's main stage to give extra push at liftoff. The Ariane 64 version of Ariane 6 has four."
+  ],
+  "calligraphy": [
+   "calligraphy",
    "words",
-   "A game played on a big table. Players hit coloured balls into pockets with a long stick.",
-   "A table game in which players use a cue, a long stick, to knock coloured balls into pockets to score points."
-  ],
-  "frame": [
-   "frame",
-   "words",
-   "One game inside a snooker match.",
-   "In snooker, one separate game within a match. The player who wins the most frames wins the match."
-  ],
-  "indore": [
-   "Indore",
-   "places",
-   "A big city in the middle of India.",
-   "A city in the state of Madhya Pradesh, in central India. It hosted the 2026 IBSF world snooker championships."
+   "Writing letters in a beautiful, careful way.",
+   "The art of beautiful, decorative handwriting."
   ],
   "chess": [
    "chess",
@@ -331,95 +494,95 @@
    "A board game for two players. They take turns moving pieces.",
    "A strategy game for two players, who take turns moving their pieces across a board."
   ],
-  "d-gukesh": [
-   "D Gukesh",
-   "people",
-   "A chess player from India. He is the world champion.",
-   "An Indian chess player who is the world chess champion. In 2026 he is defending his title against Javokhir Sindarov."
-  ],
-  "javokhir-sindarov": [
-   "Javokhir Sindarov",
-   "people",
-   "A chess player from Uzbekistan.",
-   "A chess player from Uzbekistan who is challenging D Gukesh for the world chess title in 2026. Like Gukesh, he is 20."
-  ],
-  "cologny": [
-   "Cologny",
-   "places",
-   "A town in Switzerland, next to Lake Geneva.",
-   "A town in Switzerland that overlooks Lake Geneva. It is hosting the 2026 World Chess Championship."
-  ],
-  "film-festival": [
-   "film festival",
+  "cosmonaut": [
+   "cosmonaut",
    "words",
-   "An event where lots of films are shown.",
-   "An event, often lasting several days, where many films are screened for audiences and filmmakers."
+   "A Russian astronaut, a person who travels into space.",
+   "An astronaut from Russia. Cosmonaut is the word used for Russian space travellers."
   ],
-  "goa": [
-   "Goa",
-   "places",
-   "A small state on the west coast of India.",
-   "A state on the west coast of India. It is hosting the International Film Festival of India."
-  ],
-  "arunachal-pradesh": [
-   "Arunachal Pradesh",
-   "places",
-   "A state in the north-east of India.",
-   "A state in the far north-east of India. The film Urum comes from there."
-  ],
-  "nyishi-language": [
-   "Nyishi language",
-   "words",
-   "A language from Arunachal Pradesh in India.",
-   "A language from Arunachal Pradesh, in north-east India. The film Urum is made in Nyishi."
-  ],
-  "cop31": [
-   "COP31",
+  "cpcb": [
+   "Central Pollution Control Board",
    "civics",
-   "A big meeting where countries talk about the climate.",
-   "The United Nations climate conference held in Antalya, Türkiye, where countries talked about the climate."
+   "A group in India's government that checks how clean the air is.",
+   "An Indian government body that measures pollution and publishes air quality readings, including the daily AQI for cities."
   ],
-  "consensus": [
-   "consensus",
-   "words",
-   "When the members of a group all agree.",
-   "Agreement among the members of a group. A deal at the United Nations climate talks needs consensus among the countries."
+  "delhi": [
+   "Delhi",
+   "places",
+   "India's capital city, where the national government meets.",
+   "India's National Capital Territory. New Delhi, inside it, is the seat of India's government and Parliament."
   ],
-  "fossil-fuels": [
-   "fossil fuels",
-   "science",
-   "Coal, oil and gas. People burn them as fuel.",
-   "Fuels such as coal, oil and gas, formed underground over a very long time. People burn them."
-  ],
-  "european-union": [
-   "European Union",
-   "civics",
-   "A group that many European countries belong to.",
-   "An economic and political organisation that many European countries belong to. It is often called the EU."
-  ],
-  "species": [
-   "species",
-   "science",
-   "A group of living things of the same kind that can have young together.",
-   "A group of living things of the same kind that are alike and can have young together."
-  ],
-  "natural-selection": [
-   "natural selection",
-   "science",
-   "Living things that suit where they live leave more young, so their features spread.",
-   "The process in which individuals whose features suit their surroundings leave more young, so those features become more common over many generations."
-  ],
-  "charles-darwin": [
-   "Charles Darwin",
+  "devendra-fadnavis": [
+   "Devendra Fadnavis",
    "people",
-   "The man who wrote a famous book about how living things change.",
-   "The author of On the Origin of Species, published in 1859, which explained natural selection."
+   "The leader of the government of Maharashtra.",
+   "The Chief Minister of Maharashtra, the head of the state's government."
   ],
-  "evolution": [
-   "evolution",
+  "earthquake": [
+   "earthquake",
    "science",
-   "The way living things slowly change over a very long time.",
-   "The slow change of living things over many generations. Darwin explained it through natural selection."
+   "A sudden shaking of the ground.",
+   "A sudden shaking of the ground, caused when huge masses of rock move beneath the Earth's surface."
+  ],
+  "euclid": [
+   "Euclid",
+   "tech",
+   "A space telescope from a group of European countries.",
+   "A space telescope run by the European Space Agency (ESA). The most distant quasar known was found in its data."
+  ],
+  "exoskeleton": [
+   "exoskeleton",
+   "tech",
+   "A frame you wear on your body.",
+   "A frame worn on the outside of the body. Teledroid can copy the movements of a cosmonaut wearing one."
+  ],
+  "french-guiana": [
+   "French Guiana",
+   "places",
+   "A place in South America where Europe launches rockets.",
+   "A place on the north-east coast of South America, home to Europe's Spaceport in Kourou."
+  ],
+  "galaxy": [
+   "galaxy",
+   "science",
+   "A very large group of stars in space.",
+   "A very large group of stars, with gas and dust, held together by gravity."
+  ],
+  "himalayas": [
+   "Himalayas",
+   "places",
+   "A range of very high mountains in Asia.",
+   "A great mountain range in Asia. It formed when India pushed into the rest of Asia, and that push still continues today."
+  ],
+  "humanoid": [
+   "humanoid",
+   "tech",
+   "Shaped like a human.",
+   "Shaped like a human. A humanoid robot is a machine built in the form of a human body."
+  ],
+  "indian-plate": [
+   "Indian plate",
+   "science",
+   "A giant piece of Earth's rocky outer layer. India sits on it.",
+   "One of the huge slabs of rock that make up Earth's surface. It carries India and is still moving north into Asia, which is why the Himalayas keep rising."
+  ],
+  "magnitude": [
+   "magnitude",
+   "science",
+   "A number that tells how big an earthquake is.",
+   "A measure of an earthquake's size. Each whole number higher means about ten times more ground motion and about 32 times more energy released."
+  ],
+  "mumbai": [
+   "Mumbai",
+   "places",
+   "A very big city in western India.",
+   "A very large city in western India, in the state of Maharashtra."
+  ],
+  "national-book-trust": [
+   "National Book Trust",
+   "civics",
+   "A group in India that helps people find and read books.",
+   "An Indian government body under the Ministry of Education, known as the NBT, that runs book fairs to encourage reading."
   ],
   "orbit": [
    "orbit",
@@ -427,153 +590,263 @@
    "The path something follows as it travels around a planet, moon or star, like the Sun.",
    "The curved path that an object in space follows as it moves around a planet, star or moon."
   ],
-  "tiangong": [
-   "Tiangong",
-   "science",
-   "China's space station, where astronauts live and do science.",
-   "China's space station, a laboratory in orbit around Earth where astronauts live and carry out experiments."
-  ],
   "payload-specialist": [
    "payload specialist",
    "words",
    "An astronaut who goes to space to do science work.",
    "A crew member on a space mission whose main job is to carry out experiments or other science work."
   ],
+  "perigee": [
+   "perigee",
+   "science",
+   "The point where the Moon comes closest to Earth.",
+   "The point in the Moon's orbit where it is closest to Earth."
+  ],
+  "pm25": [
+   "PM2.5",
+   "science",
+   "Very tiny bits of dust and smoke in the air. They are too small to see.",
+   "Fine particles in the air that are 2.5 micrometres wide or smaller. A human hair is about 70 micrometres wide. Health experts say these particles pose the greatest risk because they can go deep into the lungs."
+  ],
+  "quasar": [
+   "quasar",
+   "science",
+   "The very bright centre of a faraway galaxy. A giant black hole powers it.",
+   "A very bright centre of a galaxy, powered by a giant black hole. The most distant one known formed within about 630 million years of the Big Bang."
+  ],
+  "rocket": [
+   "rocket",
+   "tech",
+   "A machine that shoots up into the sky by pushing hot gas out behind it.",
+   "A vehicle that burns fuel and pushes hot gas out behind it, which drives it forward very fast. Rockets carry satellites and spacecraft into space."
+  ],
+  "sardar-patel": [
+   "Sardar Vallabhbhai Patel",
+   "people",
+   "An important Indian leader. The Mumbai Book Festival has an exhibition about him.",
+   "An Indian leader. The Mumbai Book Festival has an exhibition marking his 150th birth anniversary."
+  ],
+  "satellite": [
+   "satellite",
+   "science",
+   "A machine sent into space that travels around Earth.",
+   "A machine that is sent into space and moves around Earth or another planet."
+  ],
   "space-station": [
    "space station",
    "science",
    "A big spacecraft that stays in space. Astronauts live and work there.",
    "A large spacecraft that stays in orbit for years, where crews live and work and do experiments."
+  ],
+  "species": [
+   "species",
+   "science",
+   "A group of living things of the same kind that can have young together.",
+   "A group of living things of the same kind that are alike and can have young together."
+  ],
+  "supermoon": [
+   "supermoon",
+   "science",
+   "A full Moon when the Moon is close to Earth. It can look a bit bigger and brighter.",
+   "A full Moon that happens when the Moon is near its closest point to Earth in its orbit. It can look up to 14% bigger and 30% brighter than the year's smallest full Moon."
+  ],
+  "taplejung": [
+   "Taplejung",
+   "places",
+   "An area in the far east of Nepal.",
+   "A district in Koshi Province, in far-eastern Nepal, that reaches up to the border with Tibet."
+  ],
+  "tiangong": [
+   "Tiangong",
+   "science",
+   "China's space station, where astronauts live and do science.",
+   "China's space station, a laboratory in orbit around Earth where astronauts live and carry out experiments."
+  ],
+  "utc": [
+   "UTC",
+   "words",
+   "A world time that helps people in different countries match their clocks.",
+   "Coordinated Universal Time: the standard time used to compare clock times between countries."
   ]
  },
  "keys": {
-  "in-snooker-anupama": {
+  "g-euclid-quasar": {
    "type": "number",
-   "v": "3",
-   "l": "frames in a row Anupama won after losing the first"
+   "v": "630 million",
+   "l": "years: about how soon after the Big Bang the quasar formed"
   },
-  "in-gukesh-game1": {
+  "g-beaver-supermoon": {
    "type": "number",
-   "v": "7.5",
-   "l": "points a player needs to win the world chess title match"
+   "v": "8:23 pm",
+   "l": "time in India when the Moon is exactly full tonight"
   },
-  "in-iffi-goa": {
+  "g-ariane6-leo": {
    "type": "number",
-   "v": "86",
-   "l": "countries with films at this year's festival in Goa"
+   "v": "36",
+   "l": "Amazon Leo internet satellites on board"
   },
-  "g-cop31-ends": {
+  "in-mumbai-book-fest": {
    "type": "number",
-   "v": "2",
-   "l": "days longer than planned, making it the longest COP ever"
+   "v": "600",
+   "l": "stalls at the six-day Mumbai Book Festival"
   },
-  "g-evolution-day": {
+  "in-delhi-air": {
    "type": "number",
-   "v": "1,250",
-   "l": "copies in the first printing, which sold out straight away"
+   "v": "242",
+   "l": "Delhi's air quality index at 7 am on Tuesday, in the \"poor\" band"
+  },
+  "g-nepal-quake": {
+   "type": "number",
+   "v": "5.6",
+   "l": "magnitude of Tuesday's earthquake in eastern Nepal, measured by Nepal's monitoring centre"
+  },
+  "g-progress-teledroid": {
+   "type": "number",
+   "v": "26",
+   "l": "November, the day the ship is due to dock"
   }
  },
  "xkeys": {
-  "in-snooker-anupama": {
+  "g-euclid-quasar": {
    "type": "check",
-   "q": "How did Anupama's final begin?",
+   "q": "When we look very far into space, what do we see?",
    "a": [
-    "She lost the first game",
-    "She won the first game"
+    "Things as they were long ago",
+    "Things as they are right now"
    ],
    "c": 0,
-   "right": "Right! She lost the first game, then won the next three.",
-   "wrong": "Not quite. She lost the first game, but then she won the next three."
+   "right": "Right! Light takes time to reach us, so we see faraway things as they were long ago.",
+   "wrong": "Not quite. Light takes time to travel, so we see faraway things as they were long ago."
   },
-  "in-gukesh-game1": {
+  "g-beaver-supermoon": {
    "type": "check",
-   "q": "Who moves first in Game 1?",
+   "q": "Do you need a telescope to see tonight's supermoon?",
    "a": [
-    "Sindarov",
-    "Gukesh"
+    "No, not if the sky is clear",
+    "Yes, always"
    ],
    "c": 0,
-   "right": "Right! Sindarov plays White, and White moves first.",
-   "wrong": "Not quite. Gukesh got the dark chocolate piece, so Sindarov plays White and moves first."
+   "right": "Right! If the sky is clear, you can see it with just your eyes.",
+   "wrong": "Not quite. If the sky is clear, you do not need a telescope. Binoculars show more detail."
   },
-  "in-iffi-goa": {
+  "g-ariane6-leo": {
    "type": "check",
-   "q": "Where is the film festival?",
+   "q": "Did Europe's big rocket lift off?",
    "a": [
-    "Goa",
-    "Switzerland"
+    "Yes, on 24 November",
+    "No, it is still waiting"
    ],
    "c": 0,
-   "right": "Right! The festival is in Goa, India.",
-   "wrong": "Not quite. The festival is in Goa, a state in India."
+   "right": "Right! Ariane 6 lifted off on 24 November, one day later than planned.",
+   "wrong": "Not quite. After a problem on the ground, it waited a day and lifted off on 24 November."
   },
-  "g-cop31-ends": {
+  "in-mumbai-book-fest": {
    "type": "check",
-   "q": "Did all the countries agree on a final plan?",
+   "q": "How much does it cost to go in?",
    "a": [
-    "Yes, they all agreed",
-    "No, they could not agree"
-   ],
-   "c": 1,
-   "right": "Right! The countries could not agree, so there was no final plan.",
-   "wrong": "Not quite. The countries could not agree, so there was no final plan."
-  },
-  "g-evolution-day": {
-   "type": "check",
-   "q": "What did Charles Darwin's book explain?",
-   "a": [
-    "How living things slowly change",
-    "How to build a bridge"
+    "Nothing, entry is free",
+    "100 rupees"
    ],
    "c": 0,
-   "right": "Right! The book explained how living things slowly change over a very long time.",
-   "wrong": "Not quite. The book explained how living things slowly change over a very long time."
+   "right": "Right! Entry to the festival is free.",
+   "wrong": "Not quite. Entry is free, so anyone can go in."
+  },
+  "in-delhi-air": {
+   "type": "check",
+   "q": "Does a higher air number mean cleaner or dirtier air?",
+   "a": [
+    "Dirtier air",
+    "Cleaner air"
+   ],
+   "c": 0,
+   "right": "Right! A higher number means dirtier air. Delhi's 242 is in the poor group.",
+   "wrong": "Not quite. A low number means clean air. A higher number, like Delhi's 242, means dirtier air."
+  },
+  "g-nepal-quake": {
+   "type": "check",
+   "q": "Was anyone reported hurt in the Nepal earthquake?",
+   "a": [
+    "No",
+    "Yes"
+   ],
+   "c": 0,
+   "right": "Right! No one was reported hurt, and no big damage was reported.",
+   "wrong": "Not quite. The good news is that no one was reported hurt."
+  },
+  "g-progress-teledroid": {
+   "type": "check",
+   "q": "Is the robot Teledroid already working on the space station?",
+   "a": [
+    "Not yet, it will be tested",
+    "Yes, it has worked there for years"
+   ],
+   "c": 0,
+   "right": "Right! Parts of Teledroid are on their way. The robot will be tested on the station.",
+   "wrong": "Not quite. Parts of Teledroid only just launched. The robot will be tested on the station."
   }
  },
  "deep": {
-  "in-snooker-anupama": {
-   "ctx": "Anupama told the news agency PTI that winning on home soil in India makes it all the more special. The championships in Indore also had a men's event, won by Ali Gharahgozlou of Iran after he beat India's Pankaj Advani 5-3 in the semi-final.",
-   "ask": "Snooker and chess both have world championships, but neither needs running or jumping. Should games of skill like these count as sports in the same way as football or athletics?",
+  "in-mumbai-book-fest": {
+   "ctx": "The Mumbai Book Festival is organised by the National Book Trust with the Maharashtra government, the Brihanmumbai Municipal Corporation and the University of Mumbai. It runs from 24 to 29 November at the university's Kalina campus, with about 600 stalls, free entry and themed exhibitions marking 150 years of the song Vande Mataram and the 150th birth anniversary of Sardar Vallabhbhai Patel.",
+   "ask": "Many people now read on phones and tablets. Do big festivals of printed books still matter, or could online book fairs do the same job just as well?",
    "jobs": [
-    "Snooker referee",
-    "Cue sports coach",
-    "Sports journalist"
+    "Librarian",
+    "Children's book illustrator",
+    "Book editor"
    ]
   },
-  "in-gukesh-game1": {
-   "ctx": "The 2026 World Chess Championship is a match of up to 14 classical games, which are long games with plenty of thinking time, and the first player to 7.5 points wins. Gukesh and Sindarov are both 20, the prize fund is 2.5 million US dollars, and the match is due to end on 12 December.",
-   "ask": "White moves first, but Black sees White's first move before choosing a reply. In the opening game of a long match, would you rather play White or Black, and why?",
+  "g-euclid-quasar": {
+   "ctx": "The quasar was found in data from ESA's Euclid space telescope. Its black hole, about 360 million times the mass of the Sun, was already huge when the universe was only about 5% of its current age. The study, by a team led by astronomer Julien Wolf, is published in the journal Astronomy & Astrophysics.",
+   "ask": "Should astronomers spend telescope time hunting for ever more distant record-breakers, or studying objects they have already found in more detail, and what could be gained from each?",
    "jobs": [
-    "Chess coach",
-    "Chess arbiter",
-    "Sports journalist"
+    "Astronomer",
+    "Astrophysicist",
+    "Telescope engineer"
    ]
   },
-  "in-iffi-goa": {
-   "ctx": "This year the festival has named Spain as its Country of Honour, according to the government's Press Information Bureau. Its Indian Panorama section shows selected Indian films, such as Urum, a Nyishi-language film from Arunachal Pradesh directed by Duyu Tabyo.",
-   "ask": "A big festival can bring films in less widely spoken languages to new audiences, but many viewers will need subtitles to follow them. Should festivals give more space to films in smaller languages, or focus on films that the most people can understand easily?",
+  "g-ariane6-leo": {
+   "ctx": "This was Amazon's first launch since 15 November, when a Vulcan rocket failure meant 40 Amazon Leo satellites were lost. Sources give slightly different totals for the planned network: Space.com says more than 3,200 satellites, and Spaceflight Now says 3,232.",
+   "ask": "Several companies want to provide internet from space. Is it better to have many companies competing to build these networks, or fewer, larger networks, and why might people disagree?",
    "jobs": [
-    "Film director",
-    "Subtitle translator",
-    "Film festival programmer"
+    "Launch engineer",
+    "Satellite engineer",
+    "Ground systems technician"
    ]
   },
-  "g-cop31-ends": {
-   "ctx": "COP31 was due to end on Friday 20 November but ran until Sunday 22 November, making it the longest COP ever. Türkiye's Murat Kurum was COP31 President, and Australia's minister Chris Bowen led the negotiations. Because decisions need every country's agreement, a split over whether to mention fossil fuels was enough to stop a final deal.",
-   "ask": "At UN climate talks, every country must accept a decision before it is adopted. Some people say this is fair because every country, big or small, gets a say. Others say it makes agreement very hard to reach. Should big international meetings need every country to agree, or would a majority vote work better?",
+  "g-progress-teledroid": {
+   "ctx": "The ship has two names: Russia calls it Progress MS-36, while NASA calls it Progress 97. Teledroid was built by Android Technics, which TASS names in full as the Scientific Production Association Android Technics. Before the launch, TechTimes reported the plan to send the robot on this cargo ship.",
+   "ask": "Should work on the outside of a space station be done more by robots that copy a person's movements, or mainly by cosmonauts themselves, and what might people on each side say?",
    "jobs": [
-    "Diplomat",
-    "Climate scientist",
-    "Energy policy analyst"
+    "Robotics engineer",
+    "Mission controller",
+    "Spacecraft engineer"
    ]
   },
-  "g-evolution-day": {
-   "ctx": "Evolution Day, on 24 November, is different from Darwin Day, which is held on 12 February. On the Origin of Species argued that living things change slowly over many generations through natural selection, and Darwin's ideas remain central to biology.",
-   "ask": "Some people think the most important part of science is coming up with bold new ideas, like Darwin's. Others think the most important part is carefully testing ideas to check whether they are right. Which matters more, and why?",
+  "in-delhi-air": {
+   "ctx": "India's National Air Quality Index was launched in 2014 and combines readings of eight pollutants, including PM2.5, PM10 and ozone. Its six bands run from good (0 to 50) to severe (401 to 500), and each band comes with an official health message. The US Environmental Protection Agency says fine particles such as PM2.5 pose the greatest risk to health because they are small enough to reach deep into the lungs.",
+   "ask": "On days when the air is poor, should schools switch to online lessons to protect children's health, or stay open because learning together in person matters too?",
    "jobs": [
-    "Evolutionary biologist",
-    "Natural history museum curator",
-    "Science writer"
+    "Environmental scientist",
+    "Air quality monitoring technician",
+    "Lung doctor (pulmonologist)"
+   ]
+  },
+  "g-nepal-quake": {
+   "ctx": "Nepal's National Earthquake Monitoring and Research Centre measured the quake at magnitude 5.6, while the European-Mediterranean Seismological Centre put it at 5.3. The Himalayas formed when India collided with Asia about 40 to 50 million years ago; because the two landmasses had similar rock density, neither sank beneath the other, so the crust was pushed upward. India is still moving north, and the US Geological Survey explains that the stress this builds in the crust is released from time to time by earthquakes.",
+   "ask": "Should countries in earthquake zones require every new building to follow strict earthquake-safe rules, even if that makes homes more expensive for families?",
+   "jobs": [
+    "Seismologist",
+    "Structural engineer",
+    "Disaster response coordinator"
+   ]
+  },
+  "g-beaver-supermoon": {
+   "ctx": "A supermoon happens because the Moon's distance from Earth changes as it moves around its orbit, so some full Moons come closer than others. Sources differ slightly on tonight's distance, from about 360,768 km to about 360,800 km. Most say this is the first of three supermoons in a row, in November, December and January, while Space.com counts four.",
+   "ask": "A supermoon looks only a little bigger than other full Moons, and the difference is hard to see with the naked eye. Is the word \"supermoon\" a helpful way to get people looking at the sky, or does it promise more than people will see?",
+   "jobs": [
+    "Astronomer",
+    "Planetarium educator",
+    "Astrophotographer"
    ]
   }
  },
@@ -1172,6 +1445,10 @@
   {
    "k": "chess",
    "o": "Chess comes from the Old French word esches, the plural of eschec, which meant check, or checkmate. The game is named after its key move. Check goes back through Arabic to the Persian word shah, which means king."
+  },
+  {
+   "k": "orbit",
+   "o": "Orbit comes from the Latin word orbita, which means a wheel track or path. The Romans also used it for the path of a heavenly body through the sky."
   }
  ]
 }

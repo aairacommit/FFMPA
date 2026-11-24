@@ -1,0 +1,1458 @@
+{
+ "schema": 1,
+ "date": "2026-11-24",
+ "edition": "pm",
+ "countries": [
+  "IN"
+ ],
+ "stories": [
+  {
+   "id": "in-mumbai-book-fest",
+   "scope": "IN",
+   "cat": "culture",
+   "emoji": "📚",
+   "date": "2026-11-24",
+   "kind": "news",
+   "x": {
+    "t": "A big book festival is on in Mumbai until 29 November",
+    "b": [
+     "A big book festival began today in [[mumbai|Mumbai]]. It lasts six days. There will be about 600 stalls. Entry is free.",
+     "Children can join in storytelling and drawing. There are quizzes too. Some can try [[calligraphy|calligraphy]], which is beautiful handwriting.",
+     "The festival is at a university in the city. It ends on 29 November."
+    ]
+   },
+   "o": {
+    "t": "Mumbai Book Festival opens with 600 stalls and free entry",
+    "b": [
+     "The [[mumbai|Mumbai]] Book Festival opens today, 24 November, and runs for six days until 29 November. It is at the University of Mumbai's Kalina campus. Chief Minister [[devendra-fadnavis|Devendra Fadnavis]], the head of Maharashtra's state government, was due to open it.",
+     "The festival is organised by the [[national-book-trust|National Book Trust]] (NBT) with the Maharashtra government, the Brihanmumbai Municipal Corporation (BMC), which is the city's local council, and the University of Mumbai. There will be about 600 stalls. Entry is free, and it is open every day from 11 am to 10 pm.",
+     "For children, activities include storytelling, drawing, quizzes and [[calligraphy|calligraphy]], the art of beautiful handwriting. There are also themed exhibitions marking 150 years of the song Vande Mataram and 150 years since the birth of [[sardar-patel|Sardar Vallabhbhai Patel]]. Singers Avadhoot Gupte and Vaishali Samant will perform."
+    ]
+   },
+   "think": "What makes a good place to discover new books: a festival, a library, a shop, or somewhere else?",
+   "quiz": {
+    "q": "About how many stalls will the Mumbai Book Festival have?",
+    "a": [
+     "About 6",
+     "About 60",
+     "About 600",
+     "About 6,000"
+    ],
+    "c": 2
+   },
+   "src": [
+    [
+     "ThePrint (PTI), festival preview",
+     "https://theprint.in/india/six-day-mumbai-book-festival-to-start-on-nov-24/3102206/"
+    ],
+    [
+     "WebIndia123 (ANI), 24 Nov",
+     "https://news.webindia123.com/news/Articles/Entertainment/20261124/4523655.html"
+    ],
+    [
+     "Deccan Chronicle, festival preview",
+     "https://www.deccanchronicle.com/nation/current-affairs/fadnavis-to-inaugurate-mumbais-biggest-book-festival-2006813"
+    ],
+    [
+     "Free Press Journal, festival preview",
+     "https://www.freepressjournal.in/mumbai/mumbai-book-festival-2026-gulzar-anupam-kher-kailash-kher-among-stars-lined-up-for-6-day-literary-event"
+    ]
+   ],
+   "where": {
+    "n": "Mumbai, Maharashtra",
+    "lat": 19.1,
+    "lon": 72.9
+   }
+  },
+  {
+   "id": "g-euclid-quasar",
+   "scope": "global",
+   "cat": "space",
+   "emoji": "🔭",
+   "date": "2026-11-24",
+   "kind": "news",
+   "x": {
+    "t": "A space telescope helps find the farthest quasar ever seen",
+    "b": [
+     "Scientists found the farthest [[quasar|quasar]] ever seen. It is the bright centre of a [[galaxy|galaxy]], powered by a giant [[black-hole|black hole]].",
+     "Light from far away takes time to reach us. So we see this quasar as it was about 13.1 billion years ago. The universe was very young then.",
+     "They used a European space telescope called [[euclid|Euclid]]. Euclid set the last record too, just four months ago."
+    ]
+   },
+   "o": {
+    "t": "Euclid helps spot the oldest, most distant quasar ever seen",
+    "b": [
+     "Astronomers have found the most distant and oldest [[quasar|quasar]] ever seen. A quasar is a bright centre of a [[galaxy|galaxy]], powered by a giant [[black-hole|black hole]]. This one formed within about 630 million years of the [[big-bang|Big Bang]], the beginning of the universe, pushing the record back by nearly 40 million years.",
+     "Light takes time to travel, so looking far away means looking back in time. We see this quasar as it was about 13.1 billion years ago, when the universe was only about 5% of its current age. Its black hole is about 360 million times the mass of the Sun.",
+     "It was found in data from the European Space Agency's [[euclid|Euclid]] space telescope. It is nicknamed \"Dun Aonghasa\", after a prehistoric stone fort in Ireland. Euclid set the previous record only four months earlier, in July."
+    ]
+   },
+   "think": "If you could look back in time at anything in space, what would you most like to see, and why?",
+   "quiz": {
+    "q": "About how soon after the Big Bang did this quasar form?",
+    "a": [
+     "Within about 630 million years",
+     "Within about 5 years",
+     "Within about 360 years",
+     "Within about 40 billion years"
+    ],
+    "c": 0
+   },
+   "src": [
+    [
+     "AP via CBS News, 24 Nov",
+     "https://www.cbsnews.com/news/quasar-farthest-oldest-found/"
+    ],
+    [
+     "Popular Science, 24 Nov",
+     "https://www.popsci.com/science/oldest-quasar-euclid-telescope/"
+    ],
+    [
+     "AP via Click2Houston, 24 Nov",
+     "https://www.click2houston.com/news/world/2026/11/24/scientists-discover-quasar-formed-within-a-mere-630-million-years-of-the-big-bang-setting-a-record/"
+    ],
+    [
+     "ESA, 6 Jul (previous record)",
+     "https://www.esa.int/Science_Exploration/Space_Science/Euclid_discovers_the_most_ancient_quasar_in_the_Universe"
+    ]
+   ]
+  },
+  {
+   "id": "g-ariane6-leo",
+   "scope": "global",
+   "cat": "tech",
+   "emoji": "🚀",
+   "date": "2026-11-24",
+   "kind": "news",
+   "x": {
+    "t": "Europe's big rocket lifts off with 36 internet satellites",
+    "b": [
+     "Europe's big [[rocket|rocket]], Ariane 6, lifted off on 24 November. It carried 36 internet [[satellite|satellites]] for the company Amazon.",
+     "The rocket was meant to fly a day earlier. But some equipment on the ground had a problem. So the team waited, and everything stayed safe.",
+     "Amazon plans to have more than 3,200 of these satellites. They beam internet down from space."
+    ]
+   },
+   "o": {
+    "t": "Ariane 6 lifts off with 36 Amazon Leo satellites after delay",
+    "b": [
+     "Europe's Ariane 6 [[rocket|rocket]] lifted off on Tuesday 24 November from Europe's Spaceport in Kourou, [[french-guiana|French Guiana]], carrying 36 [[amazon-leo|Amazon Leo]] internet [[satellite|satellites]]. It was the 10th Ariane 6 flight, in the Ariane 64 version, which has four [[booster|boosters]].",
+     "The launch had been planned for 23 November. That attempt was stopped by what Arianespace, the company that runs Ariane launches, called a \"technical event\" affecting the rocket's ground support systems, the equipment on the ground that helps get a rocket ready to fly. Arianespace said the rocket and satellites remained in stable and safe conditions.",
+     "Amazon Leo satellites beam internet from space, and Amazon plans a network of more than 3,200 of them. The news agency Bloomberg calls the network a rival to Starlink, another internet service from space."
+    ]
+   },
+   "think": "The launch team waited a day after a problem on the ground. When have you waited and tried again, and how did it go?",
+   "quiz": {
+    "q": "How many Amazon Leo satellites did Ariane 6 carry on this flight?",
+    "a": [
+     "12",
+     "36",
+     "40",
+     "3,200"
+    ],
+    "c": 1
+   },
+   "src": [
+    [
+     "Space.com, 24 Nov",
+     "https://www.space.com/space-exploration/launches-spacecraft/arianespace-ariane-6-amazon-leo-internet-satellite-launch"
+    ],
+    [
+     "Bloomberg, 24 Nov",
+     "https://www.bloomberg.com/news/articles/2026-11-24/european-rocket-launches-satellites-for-amazon-s-starlink-rival"
+    ],
+    [
+     "Arianespace, flight VA271",
+     "https://newsroom.arianespace.com/ariane-6-flight-va271/"
+    ],
+    [
+     "Arianespace, launch rescheduled for 24 Nov",
+     "https://www.arianespace.com/news/mission-va271-le-04-ariane-6-launch-rescheduled-for-november-24-2026/"
+    ],
+    [
+     "ESA, Ariane 6 launch",
+     "https://www.esa.int/articles/about-us/directorates/space-transportation/ariane/watch-live-ariane-6-launches-another-set-of-amazon-leo-satellites-to-orbit"
+    ],
+    [
+     "Spaceflight Now, 23 Nov",
+     "https://spaceflightnow.com/2026/11/23/live-coverage-arianespaces-launches-amazon-leo-sats-amid-rocket-crunch/"
+    ]
+   ],
+   "where": {
+    "n": "Kourou, French Guiana",
+    "lat": 5.2,
+    "lon": -52.7
+   }
+  },
+  {
+   "id": "g-progress-teledroid",
+   "scope": "global",
+   "cat": "tech",
+   "emoji": "🤖",
+   "date": "2026-11-24",
+   "kind": "news",
+   "x": {
+    "t": "A cargo ship heads to space with parts of a robot",
+    "b": [
+     "A cargo ship lifted off on 24 November. No people are on board. It carries food, fuel and supplies for the crew of the [[space-station|space station]].",
+     "It also carries parts of a robot called Teledroid. It is a [[humanoid|humanoid]] robot, shaped like a person. It will be tested as a helper for [[cosmonaut|cosmonauts]] working outside the station.",
+     "The ship should reach the station on 26 November."
+    ]
+   },
+   "o": {
+    "t": "Progress cargo ship launches to ISS with parts of a robot helper",
+    "b": [
+     "Russia's uncrewed Progress MS-36 cargo spacecraft lifted off on 24 November on a Soyuz rocket from the Baikonur Cosmodrome, a rocket launch site in Kazakhstan. Uncrewed means no one is on board. NASA, the US space agency, calls it Progress 97. It carries tonnes of food, fuel and supplies for the crew of the International [[space-station|Space Station]] (ISS).",
+     "The spacecraft is due to dock, or join up with the station, on Thursday 26 November. It will attach to the Earth-facing port, a docking point, of Rassvet, one of the station's modules, or sections.",
+     "Progress MS-36 also carries parts of Teledroid, a [[humanoid|humanoid]] robot built by the company Android Technics. Teledroid is meant to help [[cosmonaut|cosmonauts]], Russian astronauts, with work outside the station. It can copy the movements of a cosmonaut wearing an [[exoskeleton|exoskeleton]], a wearable frame. The robot will be tested on the station."
+    ]
+   },
+   "think": "If you had a robot that copied your movements, what job would you want it to help with, and why?",
+   "quiz": {
+    "q": "When is the Progress MS-36 cargo ship planned to dock with the space station?",
+    "a": [
+     "24 November",
+     "26 November",
+     "30 November",
+     "3 December"
+    ],
+    "c": 1
+   },
+   "src": [
+    [
+     "NASA, 24 Nov",
+     "https://www.nasa.gov/blogs/spacestation/2026/11/24/progress-cargo-craft-lifts-off-to-resupply-expedition-75-crew/"
+    ],
+    [
+     "Actualidad Aeroespacial (Spanish)",
+     "https://actualidadaeroespacial.com/roscosmos-lanzo-a-la-iss-la-nave-de-carga-progress-ms-36/"
+    ],
+    [
+     "TASS",
+     "https://tass.com/science/2223839"
+    ],
+    [
+     "TechTimes, 23 Nov",
+     "https://www.techtimes.com/articles/331338/20261123/russian-humanoid-robot-launches-space-station-tuesday-cargo-ship-planned-around-leaking-tunnel.htm"
+    ]
+   ],
+   "where": {
+    "n": "Baikonur, Kazakhstan",
+    "lat": 45.9,
+    "lon": 63.3
+   }
+  },
+  {
+   "id": "in-delhi-air",
+   "scope": "IN",
+   "cat": "planet",
+   "emoji": "🌫️",
+   "date": "2026-11-24",
+   "kind": "news",
+   "x": {
+    "t": "Delhi's air was rated poor this morning",
+    "b": [
+     "[[delhi|Delhi]] has a number that shows how clean the air is. It is called the [[aqi|air quality index]]. A low number means clean air. A high number means dirty air.",
+     "On Tuesday morning, Delhi's number was 242. That is in the \"poor\" group. Some places were higher.",
+     "Breathing poor air for a long time can feel uncomfortable. Officials want each area to plan for cleaner air."
+    ]
+   },
+   "o": {
+    "t": "Delhi's air quality index reads 242, in the poor band",
+    "b": [
+     "[[delhi|Delhi]]'s [[aqi|air quality index]], or AQI, was 242 at 7 am on Tuesday 24 November, according to data from the [[cpcb|Central Pollution Control Board]]. The AQI turns readings of several pollutants, things that make the air dirty, into one number from 0 to 500. A reading of 242 sits in the \"poor\" band, which runs from 201 to 300.",
+     "Some areas read higher: 10 monitoring stations, which measure the air in different places, were in the \"very poor\" band, from 301 to 400.",
+     "One pollutant the AQI counts is [[pm25|PM2.5]]: specks 2.5 micrometres wide or smaller, far thinner than a human hair. For the poor band, the official health message is breathing discomfort for most people after breathing it for a long time. The Commission for Air Quality Management (CAQM), which works on pollution around Delhi, wants district plans to cut pollution by 15 to 20 per cent."
+    ]
+   },
+   "think": "Why do you think air quality is shown as one simple number instead of a long list of measurements?",
+   "quiz": {
+    "q": "Which band was Delhi's AQI of 242 in on Tuesday morning?",
+    "a": [
+     "Good",
+     "Satisfactory",
+     "Poor",
+     "Severe"
+    ],
+    "c": 2
+   },
+   "src": [
+    [
+     "Business Standard, 24 Nov",
+     "https://www.business-standard.com/amp/india-news/delhi-wakes-to-poor-air-as-aqi-stands-at-242-ncr-cities-fare-worse-126112400079_1.html"
+    ],
+    [
+     "Outlook, 24 Nov",
+     "https://www.outlookindia.com/national/delhi-air-quality-set-to-deteriorate-further-as-aqi-remains-poor-at-242"
+    ],
+    [
+     "Central Pollution Control Board, AQI bulletin (category bands)",
+     "https://cpcb.nic.in/upload/Downloads/AQI_Bulletin_20251101.pdf"
+    ],
+    [
+     "Arthapedia, Indian Economic Service: National Air Quality Index",
+     "https://ies.gov.in/arthapedia/concept/national-air-quality-index"
+    ],
+    [
+     "US EPA, Particulate Matter Basics",
+     "https://www.epa.gov/pm-pollution/particulate-matter-pm-basics"
+    ],
+    [
+     "Massachusetts Department of Public Health, What is PM2.5?",
+     "https://www.mass.gov/info-details/ma-epht-fine-particles-pm25"
+    ]
+   ],
+   "where": {
+    "n": "Delhi, India",
+    "lat": 28.6,
+    "lon": 77.2
+   }
+  },
+  {
+   "id": "g-nepal-quake",
+   "scope": "global",
+   "cat": "planet",
+   "emoji": "🏔️",
+   "date": "2026-11-24",
+   "kind": "news",
+   "x": {
+    "t": "No one reported hurt as an earthquake shakes eastern Nepal",
+    "b": [
+     "No one was reported hurt in an [[earthquake|earthquake]] in Nepal this morning. No big damage was reported. The ground shook in [[taplejung|Taplejung]], near Tibet.",
+     "Experts measured its [[magnitude|size]] at 5.6.",
+     "India sits on a giant slab of rock. It slowly pushes into the rest of Asia. This push built the tall [[himalayas|Himalayas]] and can shake the ground. If you feel shaking, drop down, cover your head and hold on."
+    ]
+   },
+   "o": {
+    "t": "No one reported hurt as a 5.6 quake shakes eastern Nepal",
+    "b": [
+     "No one was reported hurt and no major damage was reported after an [[earthquake|earthquake]] shook eastern Nepal at 7:17 am local time on Tuesday 24 November. Nepal's National Earthquake Monitoring and Research Centre put its [[magnitude|magnitude]], a measure of an earthquake's size, at 5.6.",
+     "The quake was centred near Olangchung Gola in [[taplejung|Taplejung]] district, close to the Nepal-Tibet border. On the magnitude scale, each whole number up means about ten times more ground motion.",
+     "The [[indian-plate|Indian plate]], one of the giant slabs of rock that make up Earth's surface, has been pushing into Asia since the two met about 40 to 50 million years ago. That push raised the [[himalayas|Himalayas]] and builds up stress in the rocks, which is released from time to time as earthquakes. Safety experts advise: drop, cover and hold on until the shaking stops."
+    ]
+   },
+   "think": "If you felt the ground shake at school, what would you do first, and why?",
+   "quiz": {
+    "q": "Where was Tuesday's earthquake centred?",
+    "a": [
+     "Near Olangchung Gola in Taplejung district",
+     "In the middle of India",
+     "Under the Pacific Ocean",
+     "In Switzerland"
+    ],
+    "c": 0
+   },
+   "src": [
+    [
+     "Kathmandu Post, 24 Nov",
+     "https://kathmandupost.com/national/2026/11/24/5-6-magnitude-earthquake-strikes-near-nepal-tibet-border"
+    ],
+    [
+     "Xinhua, 24 Nov",
+     "https://english.news.cn/20261124/4c3f876546e74c42941260a1a39c2794/c.html"
+    ],
+    [
+     "PTI via ThePrint, 24 Nov",
+     "https://theprint.in/world/5-6-magnitude-earthquake-strikes-nepals-koshi-province-close-to-china-border/3107076/"
+    ],
+    [
+     "US Geological Survey, The Himalayas: Two continents collide",
+     "https://pubs.usgs.gov/gip/dynamic/himalaya.html"
+    ],
+    [
+     "Geological Society of London, Continental collision: the Himalayas",
+     "https://www.geolsoc.org.uk/Plate-Tectonics/Chap3-Plate-Margins/Convergent/Continental-Collision"
+    ],
+    [
+     "US Geological Survey, Earthquake magnitude, energy release and shaking intensity",
+     "https://www.usgs.gov/programs/earthquake-hazards/earthquake-magnitude-energy-release-and-shaking-intensity"
+    ],
+    [
+     "US Geological Survey, Measuring the size of an earthquake",
+     "https://pubs.usgs.gov/gip/earthq1/measure.html"
+    ],
+    [
+     "Ready.gov, Earthquakes",
+     "https://www.ready.gov/earthquakes"
+    ],
+    [
+     "CDC, Stay safe during an earthquake",
+     "https://www.cdc.gov/earthquakes/safety/stay-safe-during-an-earthquake.html"
+    ]
+   ],
+   "where": {
+    "n": "Taplejung, Nepal",
+    "lat": 27.4,
+    "lon": 87.7
+   }
+  },
+  {
+   "id": "g-beaver-supermoon",
+   "scope": "global",
+   "cat": "space",
+   "emoji": "🌕",
+   "date": "2026-11-24",
+   "kind": "calendar",
+   "when": "Tonight, 24 November",
+   "x": {
+    "t": "Look up tonight: November's full Moon is a supermoon",
+    "b": [
+     "Tonight's full Moon is called the Beaver Moon. It is a [[supermoon|supermoon]].",
+     "A supermoon happens when a full Moon is near its closest point to Earth. It can look a little bigger and brighter. But the change is hard to see with just your eyes.",
+     "In India, look low in the east after sunset. You do not need a telescope if the sky is clear."
+    ]
+   },
+   "o": {
+    "t": "The Beaver Moon is a supermoon, and it rises tonight",
+    "b": [
+     "Tonight's full Moon, known as the Beaver Moon, is a [[supermoon|supermoon]]. The Moon is exactly full at 14:53 [[utc|UTC]] on 24 November, which is 8:23 pm in India.",
+     "A supermoon is a full Moon that happens when the Moon is near [[perigee|perigee]], the closest point to Earth in its [[orbit|orbit]]. At full moon it will be about 360,770 km away. A supermoon can look up to 14% bigger and 30% brighter than the year's smallest full Moon, but the difference is hard to notice with the naked eye, meaning without any equipment.",
+     "In India, look low on the eastern horizon after sunset. If the sky is clear, no telescope is needed, and binoculars will show more detail. This is the first of at least three supermoons in a row, with December's the biggest."
+    ]
+   },
+   "local": {
+    "IN": "In India, the Moon is exactly full at 8:23 pm tonight, so look low in the east after sunset."
+   },
+   "think": "When you look at the Moon tonight, what shapes or patterns can you spot on it?",
+   "quiz": {
+    "q": "What makes a full Moon a supermoon?",
+    "a": [
+     "The Moon is near its closest point to Earth",
+     "The Moon turns a different colour",
+     "The Moon is farther from Earth than usual",
+     "It can only be seen from India"
+    ],
+    "c": 0
+   },
+   "src": [
+    [
+     "Space.com, November full Moon guide",
+     "https://www.space.com/stargazing/november-full-moon-2026-when-where-and-how-to-see-the-beaver-moon"
+    ],
+    [
+     "National Geographic, November 2026 supermoon",
+     "https://www.nationalgeographic.com/science/article/november-2026-supermoon"
+    ],
+    [
+     "Star Walk, November full Moon",
+     "https://starwalk.space/en/news/full-moon-november"
+    ],
+    [
+     "Earth.com, November full Moon",
+     "https://www.earth.com/space/novembers-full-moon-on-nov-24-is-the-first-of-three-supermoons-in-a-row-and-it-will-pass-close-to-the-pleiades/"
+    ],
+    [
+     "NewsBytes, Beaver supermoon",
+     "https://www.newsbytesapp.com/news/science/when-is-the-beaver-supermoon-significance-spiritual-interpretations/story"
+    ],
+    [
+     "News Today, 23 Nov",
+     "https://newstodaynet.com/2026/11/23/full-beaver-supermoon-to-light-up-the-sky-tomorrow-night/"
+    ],
+    [
+     "Space.com, supermoons of 2026",
+     "https://www.space.com/supermoon-what-is-it-2026"
+    ]
+   ]
+  }
+ ],
+ "glossary": {
+  "amazon-leo": [
+   "Amazon Leo",
+   "tech",
+   "A group of internet satellites that belongs to the company Amazon.",
+   "The company Amazon's network of internet satellites. Amazon plans more than 3,200 of them, and it is seen as a rival to Starlink."
+  ],
+  "aqi": [
+   "AQI",
+   "science",
+   "Air Quality Index: a number that shows how clean the air is. A low number is good. A high number is bad.",
+   "Air Quality Index. India's scale runs from Good (0 to 50) through Poor (201 to 300) and Very Poor (301 to 400) up to Severe (401 to 500). It is based on eight pollutants, including PM2.5."
+  ],
+  "big-bang": [
+   "Big Bang",
+   "science",
+   "The start of the universe, a very, very long time ago.",
+   "The beginning of the universe, as scientists describe it. The record quasar formed within about 630 million years of it."
+  ],
+  "black-hole": [
+   "black hole",
+   "science",
+   "A place in space that pulls so hard that not even light can get out.",
+   "A region of space where gravity is so strong that nothing, not even light, can escape."
+  ],
+  "booster": [
+   "booster",
+   "tech",
+   "An extra rocket fixed to the side of a big rocket. It gives a big push at liftoff.",
+   "A solid rocket motor attached to a rocket's main stage to give extra push at liftoff. The Ariane 64 version of Ariane 6 has four."
+  ],
+  "calligraphy": [
+   "calligraphy",
+   "words",
+   "Writing letters in a beautiful, careful way.",
+   "The art of beautiful, decorative handwriting."
+  ],
+  "chess": [
+   "chess",
+   "words",
+   "A board game for two players. They take turns moving pieces.",
+   "A strategy game for two players, who take turns moving their pieces across a board."
+  ],
+  "cosmonaut": [
+   "cosmonaut",
+   "words",
+   "A Russian astronaut, a person who travels into space.",
+   "An astronaut from Russia. Cosmonaut is the word used for Russian space travellers."
+  ],
+  "cpcb": [
+   "Central Pollution Control Board",
+   "civics",
+   "A group in India's government that checks how clean the air is.",
+   "An Indian government body that measures pollution and publishes air quality readings, including the daily AQI for cities."
+  ],
+  "delhi": [
+   "Delhi",
+   "places",
+   "India's capital city, where the national government meets.",
+   "India's National Capital Territory. New Delhi, inside it, is the seat of India's government and Parliament."
+  ],
+  "devendra-fadnavis": [
+   "Devendra Fadnavis",
+   "people",
+   "The leader of the government of Maharashtra.",
+   "The Chief Minister of Maharashtra, the head of the state's government."
+  ],
+  "earthquake": [
+   "earthquake",
+   "science",
+   "A sudden shaking of the ground.",
+   "A sudden shaking of the ground, caused when huge masses of rock move beneath the Earth's surface."
+  ],
+  "euclid": [
+   "Euclid",
+   "tech",
+   "A space telescope from a group of European countries.",
+   "A space telescope run by the European Space Agency (ESA). The most distant quasar known was found in its data."
+  ],
+  "exoskeleton": [
+   "exoskeleton",
+   "tech",
+   "A frame you wear on your body.",
+   "A frame worn on the outside of the body. Teledroid can copy the movements of a cosmonaut wearing one."
+  ],
+  "french-guiana": [
+   "French Guiana",
+   "places",
+   "A place in South America where Europe launches rockets.",
+   "A place on the north-east coast of South America, home to Europe's Spaceport in Kourou."
+  ],
+  "galaxy": [
+   "galaxy",
+   "science",
+   "A very large group of stars in space.",
+   "A very large group of stars, with gas and dust, held together by gravity."
+  ],
+  "himalayas": [
+   "Himalayas",
+   "places",
+   "A range of very high mountains in Asia.",
+   "A great mountain range in Asia. It formed when India pushed into the rest of Asia, and that push still continues today."
+  ],
+  "humanoid": [
+   "humanoid",
+   "tech",
+   "Shaped like a human.",
+   "Shaped like a human. A humanoid robot is a machine built in the form of a human body."
+  ],
+  "indian-plate": [
+   "Indian plate",
+   "science",
+   "A giant piece of Earth's rocky outer layer. India sits on it.",
+   "One of the huge slabs of rock that make up Earth's surface. It carries India and is still moving north into Asia, which is why the Himalayas keep rising."
+  ],
+  "magnitude": [
+   "magnitude",
+   "science",
+   "A number that tells how big an earthquake is.",
+   "A measure of an earthquake's size. Each whole number higher means about ten times more ground motion and about 32 times more energy released."
+  ],
+  "mumbai": [
+   "Mumbai",
+   "places",
+   "A very big city in western India.",
+   "A very large city in western India, in the state of Maharashtra."
+  ],
+  "national-book-trust": [
+   "National Book Trust",
+   "civics",
+   "A group in India that helps people find and read books.",
+   "An Indian government body under the Ministry of Education, known as the NBT, that runs book fairs to encourage reading."
+  ],
+  "orbit": [
+   "orbit",
+   "science",
+   "The path something follows as it travels around a planet, moon or star, like the Sun.",
+   "The curved path that an object in space follows as it moves around a planet, star or moon."
+  ],
+  "payload-specialist": [
+   "payload specialist",
+   "words",
+   "An astronaut who goes to space to do science work.",
+   "A crew member on a space mission whose main job is to carry out experiments or other science work."
+  ],
+  "perigee": [
+   "perigee",
+   "science",
+   "The point where the Moon comes closest to Earth.",
+   "The point in the Moon's orbit where it is closest to Earth."
+  ],
+  "pm25": [
+   "PM2.5",
+   "science",
+   "Very tiny bits of dust and smoke in the air. They are too small to see.",
+   "Fine particles in the air that are 2.5 micrometres wide or smaller. A human hair is about 70 micrometres wide. Health experts say these particles pose the greatest risk because they can go deep into the lungs."
+  ],
+  "quasar": [
+   "quasar",
+   "science",
+   "The very bright centre of a faraway galaxy. A giant black hole powers it.",
+   "A very bright centre of a galaxy, powered by a giant black hole. The most distant one known formed within about 630 million years of the Big Bang."
+  ],
+  "rocket": [
+   "rocket",
+   "tech",
+   "A machine that shoots up into the sky by pushing hot gas out behind it.",
+   "A vehicle that burns fuel and pushes hot gas out behind it, which drives it forward very fast. Rockets carry satellites and spacecraft into space."
+  ],
+  "sardar-patel": [
+   "Sardar Vallabhbhai Patel",
+   "people",
+   "An important Indian leader. This year marks 150 years since he was born.",
+   "An Indian leader born 150 years ago. The Mumbai Book Festival has an exhibition about him."
+  ],
+  "satellite": [
+   "satellite",
+   "science",
+   "A machine sent into space that travels around Earth.",
+   "A machine that is sent into space and moves around Earth or another planet."
+  ],
+  "space-station": [
+   "space station",
+   "science",
+   "A big spacecraft that stays in space. Astronauts live and work there.",
+   "A large spacecraft that stays in orbit for years, where crews live and work and do experiments."
+  ],
+  "species": [
+   "species",
+   "science",
+   "A group of living things of the same kind that can have young together.",
+   "A group of living things of the same kind that are alike and can have young together."
+  ],
+  "supermoon": [
+   "supermoon",
+   "science",
+   "A full Moon when the Moon is close to Earth. It can look a bit bigger and brighter.",
+   "A full Moon that happens when the Moon is near its closest point to Earth in its orbit. It can look up to 14% bigger and 30% brighter than the year's smallest full Moon."
+  ],
+  "taplejung": [
+   "Taplejung",
+   "places",
+   "An area in the far east of Nepal.",
+   "A district in Koshi Province, in far-eastern Nepal, that reaches up to the border with Tibet."
+  ],
+  "tiangong": [
+   "Tiangong",
+   "science",
+   "China's space station, where astronauts live and do science.",
+   "China's space station, a laboratory in orbit around Earth where astronauts live and carry out experiments."
+  ],
+  "utc": [
+   "UTC",
+   "words",
+   "A world time that helps people in different countries match their clocks.",
+   "Coordinated Universal Time: the standard time used to compare clock times between countries."
+  ]
+ },
+ "keys": {
+  "g-euclid-quasar": {
+   "type": "number",
+   "v": "630 million",
+   "l": "years: about how soon after the Big Bang the quasar formed"
+  },
+  "g-beaver-supermoon": {
+   "type": "number",
+   "v": "8:23 pm",
+   "l": "time in India when the Moon is exactly full tonight"
+  },
+  "g-ariane6-leo": {
+   "type": "number",
+   "v": "36",
+   "l": "Amazon Leo internet satellites on board"
+  },
+  "in-mumbai-book-fest": {
+   "type": "number",
+   "v": "600",
+   "l": "stalls at the six-day Mumbai Book Festival"
+  },
+  "in-delhi-air": {
+   "type": "number",
+   "v": "242",
+   "l": "Delhi's air quality index at 7 am on Tuesday, in the \"poor\" band"
+  },
+  "g-nepal-quake": {
+   "type": "number",
+   "v": "5.6",
+   "l": "magnitude of Tuesday's earthquake in eastern Nepal, measured by Nepal's monitoring centre"
+  },
+  "g-progress-teledroid": {
+   "type": "number",
+   "v": "26",
+   "l": "November, the day the ship is due to dock"
+  }
+ },
+ "xkeys": {
+  "g-euclid-quasar": {
+   "type": "check",
+   "q": "When we look very far into space, what do we see?",
+   "a": [
+    "Things as they were long ago",
+    "Things as they are right now"
+   ],
+   "c": 0,
+   "right": "Right! Light takes time to reach us, so we see faraway things as they were long ago.",
+   "wrong": "Not quite. Light takes time to travel, so we see faraway things as they were long ago."
+  },
+  "g-beaver-supermoon": {
+   "type": "check",
+   "q": "Do you need a telescope to see tonight's supermoon?",
+   "a": [
+    "No, not if the sky is clear",
+    "Yes, always"
+   ],
+   "c": 0,
+   "right": "Right! If the sky is clear, you can see it with just your eyes.",
+   "wrong": "Not quite. If the sky is clear, you do not need a telescope. Binoculars show more detail."
+  },
+  "g-ariane6-leo": {
+   "type": "check",
+   "q": "Did Europe's big rocket lift off?",
+   "a": [
+    "Yes, on 24 November",
+    "No, it is still waiting"
+   ],
+   "c": 0,
+   "right": "Right! Ariane 6 lifted off on 24 November, one day later than planned.",
+   "wrong": "Not quite. After a problem on the ground, it waited a day and lifted off on 24 November."
+  },
+  "in-mumbai-book-fest": {
+   "type": "check",
+   "q": "How much does it cost to go in?",
+   "a": [
+    "Nothing, entry is free",
+    "100 rupees"
+   ],
+   "c": 0,
+   "right": "Right! Entry to the festival is free.",
+   "wrong": "Not quite. Entry is free, so anyone can go in."
+  },
+  "in-delhi-air": {
+   "type": "check",
+   "q": "Does a higher air number mean cleaner or dirtier air?",
+   "a": [
+    "Dirtier air",
+    "Cleaner air"
+   ],
+   "c": 0,
+   "right": "Right! A higher number means dirtier air. Delhi's 242 is in the poor group.",
+   "wrong": "Not quite. A low number means clean air. A higher number, like Delhi's 242, means dirtier air."
+  },
+  "g-nepal-quake": {
+   "type": "check",
+   "q": "Was anyone reported hurt in the Nepal earthquake?",
+   "a": [
+    "No",
+    "Yes"
+   ],
+   "c": 0,
+   "right": "Right! No one was reported hurt, and no big damage was reported.",
+   "wrong": "Not quite. The good news is that no one was reported hurt."
+  },
+  "g-progress-teledroid": {
+   "type": "check",
+   "q": "Is the robot Teledroid already working on the space station?",
+   "a": [
+    "Not yet, it will be tested",
+    "Yes, it has worked there for years"
+   ],
+   "c": 0,
+   "right": "Right! Parts of Teledroid are on their way. The robot will be tested on the station.",
+   "wrong": "Not quite. Parts of Teledroid only just launched. The robot will be tested on the station."
+  }
+ },
+ "deep": {
+  "in-mumbai-book-fest": {
+   "ctx": "The Mumbai Book Festival is organised by the National Book Trust with the Maharashtra government, the Brihanmumbai Municipal Corporation and the University of Mumbai. It runs from 24 to 29 November at the university's Kalina campus, with about 600 stalls, free entry and themed exhibitions marking 150 years of the song Vande Mataram and 150 years since the birth of Sardar Vallabhbhai Patel.",
+   "ask": "Many people now read on phones and tablets. Do big festivals of printed books still matter, or could online book fairs do the same job just as well?",
+   "jobs": [
+    "Librarian",
+    "Children's book illustrator",
+    "Book editor"
+   ]
+  },
+  "g-euclid-quasar": {
+   "ctx": "The quasar was found in data from ESA's Euclid space telescope. Its black hole, about 360 million times the mass of the Sun, was already huge when the universe was only about 5% of its current age. The study, by a team led by astronomer Julien Wolf, is published in the journal Astronomy & Astrophysics.",
+   "ask": "Should astronomers spend telescope time hunting for ever more distant record-breakers, or studying objects they have already found in more detail, and what could be gained from each?",
+   "jobs": [
+    "Astronomer",
+    "Astrophysicist",
+    "Telescope engineer"
+   ]
+  },
+  "g-ariane6-leo": {
+   "ctx": "This was Amazon's first launch since 15 November, when a Vulcan rocket failure meant 40 Amazon Leo satellites were lost. Sources give slightly different totals for the planned network: Space.com says more than 3,200 satellites, and Spaceflight Now says 3,232.",
+   "ask": "Several companies want to provide internet from space. Is it better to have many companies competing to build these networks, or fewer, larger networks, and why might people disagree?",
+   "jobs": [
+    "Launch engineer",
+    "Satellite engineer",
+    "Ground systems technician"
+   ]
+  },
+  "g-progress-teledroid": {
+   "ctx": "The ship has two names: Russia calls it Progress MS-36, while NASA calls it Progress 97. Teledroid was built by Android Technics, which TASS names in full as the Scientific Production Association Android Technics. Before the launch, TechTimes reported the plan to send the robot on this cargo ship.",
+   "ask": "Should work on the outside of a space station be done more by robots that copy a person's movements, or mainly by cosmonauts themselves, and what might people on each side say?",
+   "jobs": [
+    "Robotics engineer",
+    "Mission controller",
+    "Spacecraft engineer"
+   ]
+  },
+  "in-delhi-air": {
+   "ctx": "India's National Air Quality Index was launched in 2014 and combines readings of eight pollutants, including PM2.5, PM10 and ozone. Its six bands run from good (0 to 50) to severe (401 to 500), and each band comes with an official health message. The US Environmental Protection Agency says fine particles such as PM2.5 pose the greatest risk to health because they are small enough to reach deep into the lungs.",
+   "ask": "On days when the air is poor, should schools switch to online lessons to protect children's health, or stay open because learning together in person matters too?",
+   "jobs": [
+    "Environmental scientist",
+    "Air quality monitoring technician",
+    "Lung doctor (pulmonologist)"
+   ]
+  },
+  "g-nepal-quake": {
+   "ctx": "The Himalayas formed when India collided with Asia about 40 to 50 million years ago; because the two landmasses had similar rock density, neither sank beneath the other, so the crust was pushed upward. India is still moving north, and the US Geological Survey explains that the stress this builds in the crust is released from time to time by earthquakes. Magnitude scales are logarithmic, so each whole number up means about ten times more ground motion and about 32 times more energy.",
+   "ask": "Should countries in earthquake zones require every new building to follow strict earthquake-safe rules, even if that makes homes more expensive for families?",
+   "jobs": [
+    "Seismologist",
+    "Structural engineer",
+    "Disaster response coordinator"
+   ]
+  },
+  "g-beaver-supermoon": {
+   "ctx": "A supermoon happens because the Moon's distance from Earth changes as it moves around its orbit, so some full Moons come closer than others. Sources differ slightly on tonight's distance, from about 360,768 km to about 360,800 km. Most say this is the first of three supermoons in a row, in November, December and January, while Space.com counts four.",
+   "ask": "A supermoon looks only a little bigger than other full Moons, and the difference is hard to see with the naked eye. Is the word \"supermoon\" a helpful way to get people looking at the sky, or does it promise more than people will see?",
+   "jobs": [
+    "Astronomer",
+    "Planetarium educator",
+    "Astrophotographer"
+   ]
+  }
+ },
+ "bigStory": {
+  "week": "2026-11-23",
+  "story": "g-shenzhou-24",
+  "cat": "space",
+  "sketch": "orbit",
+  "t": "Who is the first visitor to China's space station?",
+  "sub": "China's Shenzhou-24 is ready for launch, set to carry Pakistan's first astronaut to Tiangong",
+  "x": {
+   "why": "A rocket in China is ready to carry a visitor from Pakistan to China's space station. No one from another country has been there before."
+  },
+  "o": {
+   "why": "So far, only Chinese astronauts have been on board Tiangong. This mission is expected to carry the first visitor from another country, an astronaut from Pakistan, for a stay of about a week."
+  },
+  "facts": [
+   [
+    "17 Nov",
+    "the day the rocket and spacecraft moved to the launch area"
+   ],
+   [
+    "2",
+    "Pakistan's astronaut candidates: only one will fly"
+   ],
+   [
+    "1 week",
+    "about how long the visitor is expected to stay on Tiangong"
+   ],
+   [
+    "Long March 2F",
+    "the rocket, launching from Jiuquan in China"
+   ]
+  ],
+  "days": [
+   {
+    "d": "2026-11-23",
+    "h": "Ready on the launch pad",
+    "o": "China's Shenzhou-24 spacecraft and its Long March 2F rocket moved to the launch area at the Jiuquan Satellite Launch Center on 17 November. The mission is set to carry Pakistan's first astronaut, the first foreign visitor to Tiangong, China's space station. China has not officially announced the launch date or the crew. The launch has been reported for 25 November.",
+    "x": "A rocket is ready at a launch site in China. It is set to carry a spacecraft called Shenzhou-24. On board will be Pakistan's first astronaut. They will be the first visitor from another country to China's space station."
+   },
+   {
+    "d": "2026-11-24",
+    "h": "Who is flying?",
+    "o": "Three people will fly: one Pakistani astronaut and two Chinese astronauts. On 24 November, China's space agency named the crew: Pakistan's Muhammad Zeeshan Ali and Chinese astronauts Tang Hongbo and Wu Yi. The Pakistani astronaut will be a payload specialist, an astronaut whose main job is to carry out experiments. They are expected to stay about one week, then return to Earth with two Chinese astronauts on the Shenzhou-23 spacecraft. The launch is set for 8:18 am Beijing time on Wednesday 25 November, which is 5:48 am in India.",
+    "x": "Three astronauts will fly. One is from Pakistan and two are from China. Pakistan's astronaut is called Muhammad Zeeshan Ali. The Pakistani astronaut will do science tests in space. The visitor is expected to stay about one week."
+   },
+   {
+    "d": "2026-11-25",
+    "h": "Launch day",
+    "lock": "Wednesday: the launch reported for this week, and what happens at lift-off."
+   },
+   {
+    "d": "2026-11-26",
+    "h": "Joining up",
+    "lock": "Thursday: how does a spacecraft join up, or dock, with a space station?"
+   },
+   {
+    "d": "2026-11-27",
+    "h": "Life on board",
+    "lock": "Friday: life and science on board, and why countries share space labs."
+   }
+  ],
+  "words": [
+   "orbit",
+   "tiangong",
+   "payload-specialist",
+   "space-station"
+  ],
+  "poll": {
+   "q": "If you visited a space station, what would you most like to do?",
+   "a": [
+    [
+     "Look out at Earth",
+     "You could see our planet from high above."
+    ],
+    [
+     "Float around",
+     "You could drift from one room to the next."
+    ],
+    [
+     "Do a science experiment",
+     "A space station is a lab as well as a home."
+    ],
+    [
+     "Talk to the crew",
+     "You could learn how people from different places work together."
+    ]
+   ]
+  },
+  "talk": "If you could take one small thing from home to a space station, what would you choose, and why?"
+ },
+ "puzzles": {
+  "week": "2026-11-23",
+  "sudoku": {
+   "x": {
+    "n": 4,
+    "br": 2,
+    "bc": 2,
+    "p": [
+     [
+      0,
+      4,
+      0,
+      1
+     ],
+     [
+      1,
+      2,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      3
+     ],
+     [
+      4,
+      3,
+      0,
+      0
+     ]
+    ],
+    "s": [
+     [
+      3,
+      4,
+      2,
+      1
+     ],
+     [
+      1,
+      2,
+      3,
+      4
+     ],
+     [
+      2,
+      1,
+      4,
+      3
+     ],
+     [
+      4,
+      3,
+      1,
+      2
+     ]
+    ]
+   },
+   "o": {
+    "n": 6,
+    "br": 2,
+    "bc": 3,
+    "p": [
+     [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      0,
+      0,
+      6,
+      1,
+      0
+     ],
+     [
+      0,
+      5,
+      0,
+      0,
+      0,
+      6
+     ],
+     [
+      6,
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      6,
+      0
+     ],
+     [
+      0,
+      2,
+      0,
+      4,
+      0,
+      0
+     ]
+    ],
+    "s": [
+     [
+      2,
+      6,
+      1,
+      5,
+      3,
+      4
+     ],
+     [
+      3,
+      4,
+      5,
+      6,
+      1,
+      2
+     ],
+     [
+      4,
+      5,
+      3,
+      1,
+      2,
+      6
+     ],
+     [
+      6,
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     [
+      5,
+      3,
+      4,
+      2,
+      6,
+      1
+     ],
+     [
+      1,
+      2,
+      6,
+      4,
+      5,
+      3
+     ]
+    ]
+   },
+   "n": {
+    "n": 9,
+    "br": 3,
+    "bc": 3,
+    "p": [
+     [
+      9,
+      7,
+      0,
+      0,
+      0,
+      0,
+      5,
+      2,
+      0
+     ],
+     [
+      0,
+      3,
+      8,
+      9,
+      0,
+      0,
+      0,
+      0,
+      4
+     ],
+     [
+      0,
+      5,
+      0,
+      1,
+      7,
+      0,
+      3,
+      0,
+      0
+     ],
+     [
+      6,
+      8,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      5
+     ],
+     [
+      3,
+      1,
+      2,
+      0,
+      5,
+      0,
+      9,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      6,
+      0,
+      0,
+      3,
+      7
+     ],
+     [
+      0,
+      0,
+      1,
+      8,
+      0,
+      2,
+      6,
+      7,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      5,
+      4,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      8,
+      0,
+      0,
+      7,
+      3,
+      0,
+      4,
+      0,
+      0
+     ]
+    ],
+    "s": [
+     [
+      9,
+      7,
+      4,
+      6,
+      8,
+      3,
+      5,
+      2,
+      1
+     ],
+     [
+      1,
+      3,
+      8,
+      9,
+      2,
+      5,
+      7,
+      6,
+      4
+     ],
+     [
+      2,
+      5,
+      6,
+      1,
+      7,
+      4,
+      3,
+      9,
+      8
+     ],
+     [
+      6,
+      8,
+      7,
+      3,
+      1,
+      9,
+      2,
+      4,
+      5
+     ],
+     [
+      3,
+      1,
+      2,
+      4,
+      5,
+      7,
+      9,
+      8,
+      6
+     ],
+     [
+      4,
+      9,
+      5,
+      2,
+      6,
+      8,
+      1,
+      3,
+      7
+     ],
+     [
+      5,
+      4,
+      1,
+      8,
+      9,
+      2,
+      6,
+      7,
+      3
+     ],
+     [
+      7,
+      2,
+      3,
+      5,
+      4,
+      6,
+      8,
+      1,
+      9
+     ],
+     [
+      8,
+      6,
+      9,
+      7,
+      3,
+      1,
+      4,
+      5,
+      2
+     ]
+    ]
+   }
+  },
+  "words": {
+   "x": [
+    [
+     "VACCINE",
+     "India has made one to protect chickens from bird flu"
+    ],
+    [
+     "CHICKEN",
+     "Birds that a new vaccine made in India protects from bird flu"
+    ],
+    [
+     "HOCKEY",
+     "India's women beat Thailand 7-0 in this sport"
+    ],
+    [
+     "ROCKET",
+     "China's Long March 2F is one, ready at the launch site"
+    ],
+    [
+     "TENNIS",
+     "Carlos Alcaraz's sport"
+    ]
+   ],
+   "o": [
+    [
+     "ORBIT",
+     "The path a spacecraft follows around a planet"
+    ],
+    [
+     "MERCURY",
+     "The planet that BepiColombo is now orbiting"
+    ],
+    [
+     "TURIN",
+     "The Italian city where Alcaraz won his first ATP Finals"
+    ],
+    [
+     "BHOPAL",
+     "Indian city hosting the women's Asian Champions Trophy"
+    ],
+    [
+     "SOFTWARE",
+     "A problem with this cut BepiColombo's engine burn short"
+    ]
+   ]
+  }
+ },
+ "reporters": {
+  "week": "2026-11-23",
+  "t": "Find out how an animal near you is kept healthy",
+  "why": "This week's news includes a new vaccine made in India to protect chickens. Pets, farm animals and working animals all need care to stay healthy, and the people who look after them know a lot about it.",
+  "tips": [
+   "Which animal is it, and who looks after it? Ask a grown-up to help you choose, and never touch an animal you do not know.",
+   "What do they do each day, week or year to keep it healthy?",
+   "Who else could you ask to check what you learned?"
+  ],
+  "sample": []
+ },
+ "today": {
+  "days": [
+   {
+    "name": "Lachit Divas",
+    "what": "Lachit Divas marks the birth anniversary of Lachit Borphukan, a 17th-century Ahom general in Assam. He is remembered for leading Ahom forces to victory at the Battle of Saraighat in 1671, on the Brahmaputra River near present-day Guwahati. The day, marked mainly in Assam, is a time to remember his leadership and Assam's history.",
+    "where": [
+     "IN"
+    ]
+   }
+  ],
+  "born": [
+   {
+    "name": "Carlo Collodi",
+    "year": 1826,
+    "what": "A writer born in Florence, Italy, whose real name was Carlo Lorenzini. He wrote The Adventures of Pinocchio. This year marks 200 years since he was born."
+   },
+   {
+    "name": "Frances Hodgson Burnett",
+    "year": 1849,
+    "what": "A writer born in Manchester, England. She wrote The Secret Garden."
+   }
+  ]
+ },
+ "learn": {
+  "subject": "Science",
+  "cat": "science",
+  "link": "From the Evolution Day story: living things slowly change over many generations",
+  "x": {
+   "t": "How living things slowly change",
+   "b": [
+    "Living things can slowly change. Charles Darwin wrote about this in a famous book.",
+    "The change takes many, many generations. A generation is one step from parents to their young.",
+    "Imagine beetles living on dark tree bark. Dark beetles are hard for birds to see. So more dark beetles grow up and have young. Over a long time, most beetles become dark. This is called natural selection."
+   ],
+   "remember": "Living things that suit their home have more young, so their features spread.",
+   "q": "In natural selection, which features become more common?",
+   "a": [
+    "Features that suit the surroundings",
+    "Features that are the newest",
+    "Features that are the biggest"
+   ],
+   "c": 0
+  },
+  "o": {
+   "t": "How does natural selection change living things?",
+   "b": [
+    "Darwin's big idea, natural selection, explains how living things change over very long periods of time. He set it out in his book On the Origin of Species. Darwin's ideas are still central to biology, the science of living things.",
+    "Natural selection works slowly, over many generations. A generation is one step from parents to their offspring, meaning their young. Individuals whose features suit their surroundings leave more young, so those features become more common over time.",
+    "Imagine a group of beetles living on dark tree bark. Darker beetles are harder for birds to spot, so more of them survive and have young. In this imagined group, darker parents tend to have darker young. After many generations, most beetles in the group could be dark. The example is made up, but it shows how small differences can build up."
+   ],
+   "remember": "In natural selection, features that suit the surroundings help individuals leave more young, so those features become more common over generations.",
+   "q": "Why does a feature become more common through natural selection?",
+   "a": [
+    "Individuals with it leave more young",
+    "Individuals decide to grow it",
+    "It only lasts for one generation"
+   ],
+   "c": 0
+  }
+ },
+ "backThen": {
+  "y": 1974,
+  "t": "The fossil skeleton called Lucy is found in Ethiopia",
+  "o": "On 24 November 1974, Donald Johanson and Tom Gray found a fossil skeleton at Hadar, in Ethiopia's Awash Valley. It was about 40% of one skeleton, with 47 bones, and about 3.2 million years old. At the time it was the most complete skeleton of a human ancestor ever found. The team named it Lucy at a camp celebration that night, while the Beatles song Lucy in the Sky with Diamonds played.",
+  "x": "On this day in 1974, scientists found very old bones in Ethiopia. They came from a human ancestor. She lived about 3.2 million years ago. That night, the team named her Lucy while a Beatles song played.",
+  "why": "Lucy's bones showed that human ancestors walked upright on two legs before they had big brains."
+ },
+ "hiddenWords": [
+  {
+   "k": "species",
+   "o": "Species comes from the Latin word species, which means appearance or kind. It comes from specere, which means to look at."
+  },
+  {
+   "k": "chess",
+   "o": "Chess comes from the Old French word esches, the plural of eschec, which meant check, or checkmate. The game is named after its key move. Check goes back through Arabic to the Persian word shah, which means king."
+  },
+  {
+   "k": "orbit",
+   "o": "Orbit comes from the Latin word orbita, which means a wheel track or path. The Romans also used it for the path of a heavenly body through the sky."
+  }
+ ]
+}

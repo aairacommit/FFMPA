@@ -136,7 +136,7 @@
     "t": "COP31 climate talks end in Antalya without a final agreement",
     "b": [
      "The United Nations climate talks, [[cop31|COP31]], ended in Antalya, Türkiye, on 22 November without a final agreement. They ran two days longer than planned, making this the longest COP ever.",
-     "At these talks, decisions need [[consensus|consensus]]: every country must accept the text. The main split was over [[fossil-fuels|fossil fuels]] such as coal, oil and gas, which the draft text did not mention. Some countries, including the [[european-union|European Union]] (EU), wanted them named; others did not want that. Ireland's climate minister, Darragh O'Brien, spoke for the EU, which rejected the text.",
+     "At these talks, decisions need [[consensus|consensus]]: every country must accept the text. The main split was over [[fossil-fuels|fossil fuels]] such as coal, oil and gas, which the draft text did not mention. Some, including the [[european-union|European Union]] (EU), wanted them named; others did not want that. Ireland's climate minister, Darragh O'Brien, spoke for the EU, which rejected the text.",
      "The draft would have said, for the first time, that global warming, the rise in world temperatures, was on course to go past 1.5 degrees Celsius. COP31 President Murat Kurum of Türkiye said there was no consensus. According to Carbon Brief, some other decisions were still adopted, including a global goal on adapting, or getting ready, for a changing climate."
     ]
    },
@@ -186,7 +186,7 @@
    "x": {
     "t": "Today is Evolution Day, a day about how living things change",
     "b": [
-     "Today is Evolution Day. On this day in 1859, a famous book came out. Charles Darwin wrote it.",
+     "Today is Evolution Day. It remembers a famous book from 1859. Charles Darwin wrote it.",
      "The book explained how each [[species|kind of living thing]] slowly changes. This takes many, many years.",
      "Some living things have features that suit where they live. They tend to have more young. So those features slowly become more common. This is called [[natural-selection|natural selection]]."
     ]
@@ -194,21 +194,21 @@
    "o": {
     "t": "Evolution Day marks the 1859 book that changed biology",
     "b": [
-     "Today, 24 November, is [[evolution|Evolution]] Day. It is held on this date because [[charles-darwin|Charles Darwin]]'s book On the Origin of Species was published on 24 November 1859. All 1,250 copies of the first printing were ordered before publication day, and the book sold out straight away.",
+     "Today, 24 November, is [[evolution|Evolution]] Day. It is held on this date because [[charles-darwin|Charles Darwin]]'s book On the Origin of Species went on sale on 24 November 1859, according to Darwin's diary, though the publisher's records give 22 November. All 1,250 copies of the first printing sold out straight away.",
      "The book argued that living things change slowly over many generations (a generation is one step from parents to their young) through [[natural-selection|natural selection]]. Individuals whose features suit their surroundings leave more young, so those features become more common. Darwin used this idea to explain how [[species|species]] change.",
      "Today, Darwin's ideas are still central to biology, the science of living things."
     ]
    },
    "think": "Think of an animal you know well. Which of its features help it live where it lives?",
    "quiz": {
-    "q": "Why is Evolution Day held on 24 November?",
+    "q": "What is the name of Charles Darwin's famous book from 1859?",
     "a": [
-     "It is Charles Darwin's birthday",
-     "On the Origin of Species was published that day in 1859",
-     "It is the first day of winter",
-     "It is the day the first fossil was found"
+     "On the Origin of Species",
+     "The Secret Garden",
+     "The Adventures of Pinocchio",
+     "A Guide to Chess"
     ],
-    "c": 1
+    "c": 0
    },
    "src": [
     [
@@ -252,7 +252,7 @@
     "t": "India's film festival in Goa shows films from 86 countries",
     "b": [
      "The 57th International Film Festival of India, known as IFFI, is being held in [[goa|Goa]] this week. A [[film-festival|film festival]] is an event where many films are screened, or shown, for audiences and filmmakers, often over several days.",
-     "This year's theme, the big idea that links the event together, is \"Stories Without Borders\". The festival is showing more than 150 films from 86 countries, so audiences can see stories from many parts of the world. In the evenings there are also free open-air screenings, including on Miramar and Vagator beaches.",
+     "This year's theme, the big idea that links the event together, is \"Stories Without Borders\". The festival is showing more than 150 films from 86 countries, so audiences can see stories from many parts of the world. In the evenings there are also open-air screenings, including on Miramar and Vagator beaches.",
      "Films made in India are part of it too. Urum, a film in the [[nyishi-language|Nyishi language]] from [[arunachal-pradesh|Arunachal Pradesh]], directed by Duyu Tabyo, was chosen for the festival's Indian Panorama section, a part of the programme for selected Indian films. The festival runs until 28 November."
     ]
    },
@@ -413,7 +413,7 @@
    "Charles Darwin",
    "people",
    "The man who wrote a famous book about how living things change.",
-   "The author of On the Origin of Species, published on 24 November 1859, which explained natural selection."
+   "The author of On the Origin of Species, published in 1859, which explained natural selection."
   ],
   "evolution": [
    "evolution",
@@ -470,7 +470,7 @@
   "g-evolution-day": {
    "type": "number",
    "v": "1,250",
-   "l": "copies in the first printing, all ordered before publication day"
+   "l": "copies in the first printing, which sold out straight away"
   }
  },
  "xkeys": {

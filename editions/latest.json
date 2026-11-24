@@ -85,7 +85,7 @@
     "b": [
      "India's [[anupama-ramachandran|Anupama Ramachandran]] has kept her title at the IBSF World Women's [[snooker|Snooker]] Championship. She beat So Man Yan of Hong Kong 3-1 in the final in [[indore|Indore]], Madhya Pradesh, on Saturday 21 November.",
      "Snooker is a table game. Players use a long stick called a cue to pot, or knock, coloured balls into pockets. A match is split into [[frame|frames]], which are separate games. Anupama lost the first frame, then won the next three to retain, or keep, the title she already held.",
-     "\"Winning a title is special in itself, but defending it is even more special,\" she told the news agency PTI. In the men's event, Ali Gharahgozlou of Iran won the title, after beating India's Pankaj Advani 5-3 in the semi-final."
+     "\"Winning a title is special in itself, but defending it is even more special,\" she told the news agency PTI. She sealed the win by potting a long blue ball and then the pink one, PTI reported."
     ]
    },
    "think": "Why might winning at home feel different from winning far away?",
@@ -135,9 +135,9 @@
    "o": {
     "t": "COP31 climate talks end in Antalya without a final agreement",
     "b": [
-     "The United Nations climate talks, [[cop31|COP31]], ended in Antalya, Türkiye, on Sunday 22 November without a final agreement. The talks were due to end on Friday 20 November, and the extra days made this the longest COP ever.",
-     "At these talks, decisions need [[consensus|consensus]], which means every country must accept the text. The main split: the draft text did not mention [[fossil-fuels|fossil fuels]] such as coal, oil and gas. Some countries wanted them named; others did not agree. The [[european-union|European Union]] (EU) rejected the text. Ireland's climate minister, Darragh O'Brien, spoke for the EU.",
-     "The draft would have said, for the first time, that global warming, the rise in world temperatures, is on course to go past 1.5 degrees Celsius. COP31 President Murat Kurum of Türkiye told the closing session there was no consensus. According to Carbon Brief, some other decisions were still adopted, including on carbon markets."
+     "The United Nations climate talks, [[cop31|COP31]], ended in Antalya, Türkiye, on Sunday 22 November without a final agreement. They ran two days longer than planned, making this the longest COP ever.",
+     "At these talks, decisions need [[consensus|consensus]]: every country must accept the text. The main split was over [[fossil-fuels|fossil fuels]] such as coal, oil and gas, which the draft text did not mention. Some countries, including the [[european-union|European Union]] (EU), wanted them named; others did not want that. Ireland's climate minister, Darragh O'Brien, spoke for the EU, which rejected the text.",
+     "The draft would have said, for the first time, that global warming, the rise in world temperatures, was on course to go past 1.5 degrees Celsius. COP31 President Murat Kurum of Türkiye told the closing session there was no consensus. According to Carbon Brief, some other decisions were still adopted, including a global goal on adapting, or getting ready, for climate change."
     ]
    },
    "think": "If a group decision needs everyone to agree, what could the group do when people disagree?",
@@ -188,15 +188,15 @@
     "b": [
      "Today is Evolution Day. On this day in 1859, a famous book came out. Charles Darwin wrote it.",
      "The book explained how each [[species|kind of living thing]] slowly changes. This takes many, many years.",
-     "Some living things have features that suit where they live. They are more likely to survive and have young. So those features slowly become more common. This is called [[natural-selection|natural selection]]."
+     "Some living things have features that suit where they live. They tend to have more young. So those features slowly become more common. This is called [[natural-selection|natural selection]]."
     ]
    },
    "o": {
     "t": "Evolution Day marks the 1859 book that changed biology",
     "b": [
      "Today, 24 November, is Evolution Day. It is held on this date because [[charles-darwin|Charles Darwin]]'s book On the Origin of Species was published on 24 November 1859. All 1,250 copies of the first printing were ordered by booksellers before publication day, and the book sold out straight away.",
-     "The book argued that living things change slowly over many generations (a generation is one step from parents to their young) through [[natural-selection|natural selection]]. Individuals whose features suit their surroundings are more likely to survive and leave young, so those features become more common. Darwin used this idea to explain how [[species|species]] change.",
-     "Here is a surprise: the word [[evolution|evolution]] does not appear in the main text of the first edition. Only the word evolved appears, in the very last sentence. Today, the book's ideas are the foundation of modern biology, the science of living things."
+     "The book argued that living things change slowly over many generations (a generation is one step from parents to their young) through [[natural-selection|natural selection]]. Individuals whose features suit their surroundings leave more young, so those features become more common. Darwin used this idea to explain how [[species|species]] change.",
+     "Here is a surprise: the word [[evolution|evolution]] does not appear in the main text of the first edition. Only the word evolved appears, in the very last sentence. Today, Darwin's ideas are still central to biology, the science of living things."
     ]
    },
    "think": "Think of an animal you know well. Which of its features help it live where it lives?",
@@ -244,7 +244,7 @@
     "t": "Films from 86 countries come to a festival in Goa",
     "b": [
      "A big [[film-festival|film festival]] is happening in Goa this week. At a film festival, lots of films are shown to audiences.",
-     "This one has more than 150 films from 86 countries. Its big idea is \"Stories Without Borders\".",
+     "This one has more than 150 films from 86 countries. Its big idea is \"Stories Without Borders\". That means good stories can travel to any country.",
      "One film, called Urum, comes from [[arunachal-pradesh|Arunachal Pradesh]] in India. The festival ends on 28 November."
     ]
    },
@@ -399,7 +399,7 @@
    "natural selection",
    "science",
    "Living things that suit where they live leave more young, so their features spread.",
-   "The process in which individuals whose features suit their surroundings are more likely to survive and leave young, so those features become more common over many generations."
+   "The process in which individuals whose features suit their surroundings leave more young, so those features become more common over many generations."
   ],
   "charles-darwin": [
    "Charles Darwin",
@@ -524,8 +524,8 @@
  },
  "deep": {
   "in-snooker-anupama": {
-   "ctx": "The IBSF world snooker championships in Indore had both a women's event and a men's event. Anupama Ramachandran beat So Man Yan of Hong Kong 3-1, losing the first frame and winning the next three, to keep the women's title she already held. In the men's event, Ali Gharahgozlou of Iran won after beating India's Pankaj Advani 5-3 in the semi-final.",
-   "ask": "Anupama said defending a title is even more special than winning it. Is it harder to win again, when everyone expects you to, or to win the first time, when you have never done it before?",
+   "ctx": "Anupama told the news agency PTI that winning on home soil in India makes it all the more special. The championships in Indore also had a men's event, won by Ali Gharahgozlou of Iran after he beat India's Pankaj Advani 5-3 in the semi-final.",
+   "ask": "Snooker and chess both have world championships, but neither needs running or jumping. Should games of skill like these count as sports in the same way as football or athletics?",
    "jobs": [
     "Snooker referee",
     "Cue sports coach",
@@ -542,7 +542,7 @@
    ]
   },
   "in-iffi-goa": {
-   "ctx": "IFFI, the International Film Festival of India, is holding its 57th edition in Goa, with more than 150 films from 86 countries under the theme \"Stories Without Borders\". Its Indian Panorama section includes Urum, a Nyishi-language film from Arunachal Pradesh directed by Duyu Tabyo. The festival ends on 28 November.",
+   "ctx": "This year the festival has named Spain as its Country of Honour, according to the government's Press Information Bureau. Its Indian Panorama section shows selected Indian films, such as Urum, a Nyishi-language film from Arunachal Pradesh directed by Duyu Tabyo.",
    "ask": "A big festival can bring films in less widely spoken languages to new audiences, but many viewers will need subtitles to follow them. Should festivals give more space to films in smaller languages, or focus on films that the most people can understand easily?",
    "jobs": [
     "Film director",
@@ -560,7 +560,7 @@
    ]
   },
   "g-evolution-day": {
-   "ctx": "Evolution Day, on 24 November, is different from Darwin Day, which is held on 12 February. On the Origin of Species argued that living things change slowly over many generations through natural selection, and its ideas are the foundation of modern biology.",
+   "ctx": "Evolution Day, on 24 November, is different from Darwin Day, which is held on 12 February. On the Origin of Species argued that living things change slowly over many generations through natural selection, and Darwin's ideas remain central to biology.",
    "ask": "Some people think the most important part of science is coming up with bold new ideas, like Darwin's. Others think the most important part is carefully testing ideas to check whether they are right. Which matters more, and why?",
    "jobs": [
     "Evolutionary biologist",
@@ -610,8 +610,8 @@
    {
     "d": "2026-11-24",
     "h": "Who is flying?",
-    "o": "Three people will fly: one Pakistani astronaut and two Chinese astronauts. Pakistan has two candidates, Muhammad Zeeshan Ali and Khurram Daud, and it has not been announced which one will fly. The Pakistani astronaut will be a payload specialist, an astronaut whose main job is to carry out experiments. They are expected to stay about one week, then return to Earth on Shenzhou-23 with two Chinese astronauts. China has not officially announced the crew or launch time, but Pakistan's government has said the mission is on 25 November.",
-    "x": "Three astronauts will fly. One is from Pakistan and two are from China. Pakistan has two people who could go. We do not know yet which one will fly. The Pakistani astronaut will do science tests in space. They will stay about one week."
+    "o": "Three people are expected to fly: one Pakistani astronaut and two Chinese astronauts. Pakistan has two candidates, Muhammad Zeeshan Ali and Khurram Daud, and it has not been announced which one will fly. The Pakistani astronaut will be a payload specialist, an astronaut whose main job is to carry out experiments. They are expected to stay about one week, then return to Earth with two Chinese astronauts on the Shenzhou-23 spacecraft. China has not officially announced the crew or launch time, but the launch has been reported for 25 November.",
+    "x": "Three astronauts are expected to fly. One is from Pakistan and two are from China. Pakistan has two people who could go. We do not know yet which one will fly. The Pakistani astronaut will do science tests in space. The visitor is expected to stay about one week."
    },
    {
     "d": "2026-11-25",
@@ -1092,10 +1092,6 @@
  "today": {
   "days": [
    {
-    "name": "Evolution Day",
-    "what": "Evolution Day is held on 24 November because Darwin's book On the Origin of Species was published on this date in 1859. The book set out how living things slowly change over many generations through natural selection."
-   },
-   {
     "name": "Lachit Divas",
     "what": "Lachit Divas marks the birth anniversary of Lachit Borphukan, a 17th-century Ahom general in Assam. He is remembered for leading Ahom forces to victory at the Battle of Saraighat in 1671, on the Brahmaputra River near present-day Guwahati. The day, marked mainly in Assam, is a time to remember his leadership and Assam's history.",
     "where": [
@@ -1123,7 +1119,7 @@
   "x": {
    "t": "How living things slowly change",
    "b": [
-    "On 24 November 1859, Darwin's book On the Origin of Species came out. It explained how living things slowly change.",
+    "Living things can slowly change. Charles Darwin wrote about this in a famous book.",
     "The change takes many, many generations. A generation is one step from parents to their young.",
     "Imagine beetles living on dark tree bark. Dark beetles are hard for birds to see. So more dark beetles grow up and have young. Over a long time, most beetles become dark. This is called natural selection."
    ],
@@ -1139,7 +1135,7 @@
   "o": {
    "t": "How does natural selection change living things?",
    "b": [
-    "Evolution Day falls on 24 November because Darwin's On the Origin of Species was published on that date in 1859. The book set out the idea of natural selection. It is seen as the foundation of modern biology, the science of living things.",
+    "Darwin's big idea, natural selection, explains how living things change over very long periods of time. He set it out in his book On the Origin of Species. Darwin's ideas are still central to biology, the science of living things.",
     "Natural selection works slowly, over many generations. A generation is one step from parents to their offspring, meaning their young. Individuals whose features suit their surroundings leave more young, so those features become more common over time.",
     "Imagine a group of beetles living on dark tree bark. Darker beetles are harder for birds to spot, so more of them survive and have young. In this imagined group, darker parents tend to have darker young. After many generations, most beetles in the group could be dark. The example is made up, but it shows how small differences can build up."
    ],
@@ -1156,7 +1152,7 @@
  "backThen": {
   "y": 1974,
   "t": "The fossil skeleton called Lucy is found in Ethiopia",
-  "o": "On 24 November 1974, Donald Johanson and Tom Gray found a fossil skeleton at Hadar, in Ethiopia's Awash Valley. It was about 40% of one skeleton, from 47 pieces of bone, and about 3.2 million years old. At the time it was the most complete skeleton of a human ancestor ever found. The team named it Lucy at a camp celebration that night, while the Beatles song Lucy in the Sky with Diamonds played.",
+  "o": "On 24 November 1974, Donald Johanson and Tom Gray found a fossil skeleton at Hadar, in Ethiopia's Awash Valley. It was about 40% of one skeleton, with 47 bones, and about 3.2 million years old. At the time it was the most complete skeleton of a human ancestor ever found. The team named it Lucy at a camp celebration that night, while the Beatles song Lucy in the Sky with Diamonds played.",
   "x": "On this day in 1974, scientists found very old bones in Ethiopia. They came from a human ancestor. She lived about 3.2 million years ago. That night, the team named her Lucy while a Beatles song played.",
   "why": "Lucy's bones showed that human ancestors walked upright on two legs before they had big brains."
  },
@@ -1167,7 +1163,7 @@
   },
   {
    "k": "chess",
-   "o": "Chess comes from the Old French word esches, the plural of eschec, which means check. The game is named after its key move. Check goes back through Arabic to the Persian word shah, which means king."
+   "o": "Chess comes from the Old French word esches, the plural of eschec, which meant check, or checkmate. The game is named after its key move. Check goes back through Arabic to the Persian word shah, which means king."
   }
  ]
 }

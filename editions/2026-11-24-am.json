@@ -1,0 +1,1177 @@
+{
+ "schema": 1,
+ "date": "2026-11-24",
+ "edition": "am",
+ "short": true,
+ "countries": [
+  "IN"
+ ],
+ "stories": [
+  {
+   "id": "in-gukesh-game1",
+   "scope": "IN",
+   "cat": "sports",
+   "emoji": "♟️",
+   "date": "2026-11-23",
+   "kind": "news",
+   "x": {
+    "t": "Gukesh starts his world chess title match today",
+    "b": [
+     "Today, a big [[chess|chess]] match begins. India's [[d-gukesh|D Gukesh]] is the world champion. He plays [[javokhir-sindarov|Javokhir Sindarov]] of Uzbekistan.",
+     "First, they picked colours in a fun way. Gukesh chose one of two clocks. Each clock held a chocolate chess piece. His piece was dark.",
+     "So Sindarov plays White in Game 1, and White moves first. The match is in Switzerland."
+    ]
+   },
+   "o": {
+    "t": "Chocolate knights decide colours as Gukesh and Sindarov begin",
+    "b": [
+     "Game 1 of the World [[chess|Chess]] Championship is being played today, Tuesday 24 November. India's [[d-gukesh|D Gukesh]], the world champion, is defending his title against [[javokhir-sindarov|Javokhir Sindarov]] of Uzbekistan. Both players are 20.",
+     "An opening ceremony was held at the United Nations in Geneva on 22 November. In the colour draw, Gukesh picked one of two clocks, each holding a chocolate knight, the chess piece shaped like a horse. His held the dark knight, so Sindarov has the white pieces in Game 1. In chess, White moves first.",
+     "The games are at the Fondation Martin Bodmer in [[cologny|Cologny]], Switzerland, overlooking Lake Geneva. Gukesh said: \"I don't think I'm here to defend anything, I'm here to win it all over again.\" There can be up to 14 games, and the first player to reach 7.5 points wins. The match is due to end on 12 December."
+    ]
+   },
+   "think": "Gukesh says he is not defending a title but trying to win it again. How might thinking that way help?",
+   "quiz": {
+    "q": "What was inside the clocks used to choose the colours?",
+    "a": [
+     "Coins",
+     "Chocolate chess knights",
+     "Paper notes",
+     "Small flags"
+    ],
+    "c": 1
+   },
+   "src": [
+    [
+     "Al Jazeera, 22 Nov",
+     "https://www.aljazeera.com/sports/2026/11/22/gukesh-vs-sindarov-the-youngest-world-chess-championship-in-history"
+    ],
+    [
+     "AFP via Yahoo Sports, 23 Nov",
+     "https://uk.sports.yahoo.com/news/battle-20-olds-world-chess-113051608.html"
+    ],
+    [
+     "ChessBase India, 23 Nov",
+     "https://chessbase.in/news/world-championship-2026-opening-ceremony"
+    ],
+    [
+     "Chess.com, opening ceremony report",
+     "https://www.chess.com/news/view/2026-fide-chess-world-championship-opening-ceremony"
+    ]
+   ],
+   "where": {
+    "n": "Cologny, Switzerland",
+    "lat": 46.2,
+    "lon": 6.2
+   }
+  },
+  {
+   "id": "in-snooker-anupama",
+   "scope": "IN",
+   "cat": "sports",
+   "emoji": "🎱",
+   "date": "2026-11-21",
+   "kind": "news",
+   "x": {
+    "t": "Anupama Ramachandran is world snooker champion again",
+    "b": [
+     "India's [[anupama-ramachandran|Anupama Ramachandran]] is the world women's [[snooker|snooker]] champion. She already held the title. Now she has kept it.",
+     "Snooker is played on a big table. Players use a long stick to hit coloured balls into pockets.",
+     "The final was in [[indore|Indore]], India, on Saturday. Anupama lost the first game. Then she won the next three to take the title."
+    ]
+   },
+   "o": {
+    "t": "Anupama Ramachandran keeps her world snooker title in Indore",
+    "b": [
+     "India's [[anupama-ramachandran|Anupama Ramachandran]] has kept her title at the IBSF World Women's [[snooker|Snooker]] Championship. She beat So Man Yan of Hong Kong 3-1 in the final in [[indore|Indore]], Madhya Pradesh, on Saturday 21 November.",
+     "Snooker is a table game. Players use a long stick called a cue to pot, or knock, coloured balls into pockets. A match is split into [[frame|frames]], which are separate games. Anupama lost the first frame, then won the next three to retain, or keep, the title she already held.",
+     "\"Winning a title is special in itself, but defending it is even more special,\" she told the news agency PTI. She sealed the win by potting a long blue ball and then the pink one, PTI reported."
+    ]
+   },
+   "think": "Why might winning at home feel different from winning far away?",
+   "quiz": {
+    "q": "What was the score in the women's final?",
+    "a": [
+     "5-3",
+     "3-1",
+     "2-2",
+     "3-0"
+    ],
+    "c": 1
+   },
+   "src": [
+    [
+     "The Bridge, 21 Nov",
+     "https://thebridge.in/cue-sports/ibsf-world-snooker-cships-anupama-ramachandran-wins-title-58448"
+    ],
+    [
+     "PTI via Daily Excelsior, 22 Nov",
+     "https://www.dailyexcelsior.com/anupama-defeats-man-yan-retains-world-snooker-title/"
+    ]
+   ],
+   "where": {
+    "n": "Indore, India",
+    "lat": 22.7,
+    "lon": 75.9
+   }
+  },
+  {
+   "id": "g-cop31-ends",
+   "scope": "global",
+   "cat": "planet",
+   "emoji": "🌍",
+   "date": "2026-11-22",
+   "kind": "news",
+   "olderOnly": true,
+   "sensitive": "politics",
+   "x": {
+    "t": "World climate talks end without a final plan",
+    "b": [
+     "Countries met in Antalya, Türkiye, to talk about the climate. The meeting was called [[cop31|COP31]]. It ended on Sunday, two days late.",
+     "Every country must agree for a plan to pass. Some countries wanted the plan to name [[fossil-fuels|coal, oil and gas]]. Other countries did not agree.",
+     "So there was no final plan. It was the longest meeting of its kind ever."
+    ]
+   },
+   "o": {
+    "t": "COP31 climate talks end in Antalya without a final agreement",
+    "b": [
+     "The United Nations climate talks, [[cop31|COP31]], ended in Antalya, Türkiye, on 22 November without a final agreement. They ran two days longer than planned, making this the longest COP ever.",
+     "At these talks, decisions need [[consensus|consensus]]: every country must accept the text. The main split was over [[fossil-fuels|fossil fuels]] such as coal, oil and gas, which the draft text did not mention. Some, including the [[european-union|European Union]] (EU), wanted them named; others did not want that. Ireland's climate minister, Darragh O'Brien, spoke for the EU, which rejected the text.",
+     "The draft would have said, for the first time, that global warming, the rise in world temperatures, was on course to go past 1.5 degrees Celsius. COP31 President Murat Kurum of Türkiye said there was no consensus. According to Carbon Brief, some other decisions were still adopted, including a global goal on adaptation, which means getting ready for a changing climate."
+    ]
+   },
+   "think": "If a group decision needs everyone to agree, what could the group do when people disagree?",
+   "quiz": {
+    "q": "What was the main disagreement at COP31 about?",
+    "a": [
+     "Which city should host the talks",
+     "Whether the text should mention fossil fuels",
+     "How many countries could attend",
+     "Which language the talks should use"
+    ],
+    "c": 1
+   },
+   "src": [
+    [
+     "Al Jazeera (with AP and Reuters), 22 Nov",
+     "https://www.aljazeera.com/news/2026/11/22/fossil-fuel-impasse-pushes-cop31-climate-talks-into-second-day-of-overtime"
+    ],
+    [
+     "The Independent via Yahoo, 22 Nov",
+     "https://www.yahoo.com/news/science/articles/cop31-fails-reach-climate-deal-124907599.html"
+    ],
+    [
+     "CBS News, 22 Nov",
+     "https://www.cbsnews.com/news/un-cop31-climate-conference-ends-no-agreement-fossil-fuel-debate-standstill/"
+    ],
+    [
+     "Carbon Brief, 23 Nov",
+     "https://www.carbonbrief.org/cop31-key-outcomes-agreed-at-the-un-climate-talks-in-antalya"
+    ]
+   ],
+   "where": {
+    "n": "Antalya, Türkiye",
+    "lat": 36.9,
+    "lon": 30.7
+   }
+  },
+  {
+   "id": "g-evolution-day",
+   "scope": "global",
+   "cat": "science",
+   "emoji": "🧬",
+   "date": "2026-11-24",
+   "kind": "calendar",
+   "when": "24 November",
+   "x": {
+    "t": "Today is Evolution Day, a day about how living things change",
+    "b": [
+     "Today is Evolution Day. It remembers a famous book from 1859. Charles Darwin wrote it.",
+     "The book explained how each [[species|kind of living thing]] slowly changes. This takes many, many years.",
+     "Some living things have features that suit where they live. They tend to have more young. So those features slowly become more common. This is called [[natural-selection|natural selection]]."
+    ]
+   },
+   "o": {
+    "t": "Evolution Day marks the 1859 book that changed biology",
+    "b": [
+     "Today, 24 November, is [[evolution|Evolution]] Day. It is held on this date because [[charles-darwin|Charles Darwin]]'s book On the Origin of Species went on sale on 24 November 1859, according to Darwin's diary, though the publisher's records give 22 November. All 1,250 copies of the first printing sold out straight away.",
+     "The book argued that living things change slowly over many generations (a generation is one step from parents to their young) through [[natural-selection|natural selection]]. Individuals whose features suit their surroundings leave more young, so those features become more common. Darwin used this idea to explain how [[species|species]] change.",
+     "Today, Darwin's ideas are still central to biology, the science of living things."
+    ]
+   },
+   "think": "Think of an animal you know well. Which of its features help it live where it lives?",
+   "quiz": {
+    "q": "What is the name of Charles Darwin's famous book from 1859?",
+    "a": [
+     "On the Origin of Species",
+     "The Secret Garden",
+     "The Adventures of Pinocchio",
+     "A Guide to Chess"
+    ],
+    "c": 0
+   },
+   "src": [
+    [
+     "Time",
+     "https://time.com/3602107/darwin-evolution-day/"
+    ],
+    [
+     "History.com",
+     "https://www.history.com/this-day-in-history/november-24/origin-of-species-is-published-2"
+    ],
+    [
+     "Linda Hall Library",
+     "https://www.lindahall.org/charles-darwin/"
+    ],
+    [
+     "Smithsonian Libraries",
+     "https://blog.library.si.edu/blog/2009/11/24/darwins-on-the-origin-of-species-was-published-today-in-1859"
+    ],
+    [
+     "Assemblies for All",
+     "https://assembliesforall.org.uk/events/evolution-day/"
+    ]
+   ]
+  },
+  {
+   "id": "in-iffi-goa",
+   "scope": "IN",
+   "cat": "culture",
+   "emoji": "🎬",
+   "date": "2026-11-22",
+   "kind": "news",
+   "x": {
+    "t": "Films from 86 countries come to a festival in Goa",
+    "b": [
+     "A big [[film-festival|film festival]] is happening in Goa this week. At a film festival, lots of films are shown to audiences.",
+     "This one has more than 150 films from 86 countries. Its big idea is \"Stories Without Borders\". That means good stories can travel to any country.",
+     "One film, called Urum, comes from [[arunachal-pradesh|Arunachal Pradesh]] in India. The festival ends on 28 November."
+    ]
+   },
+   "o": {
+    "t": "India's film festival in Goa shows films from 86 countries",
+    "b": [
+     "The 57th International Film Festival of India, known as IFFI, is being held in [[goa|Goa]] this week. A [[film-festival|film festival]] is an event where many films are screened, or shown, for audiences and filmmakers, often over several days.",
+     "This year's theme, the big idea that links the event together, is \"Stories Without Borders\". The festival is showing more than 150 films from 86 countries, so audiences can see stories from many parts of the world. In the evenings there are also open-air screenings, including on Miramar and Vagator beaches.",
+     "Films made in India are part of it too. Urum, a film in the [[nyishi-language|Nyishi language]] from [[arunachal-pradesh|Arunachal Pradesh]], directed by Duyu Tabyo, was chosen for the festival's Indian Panorama section, a part of the programme for selected Indian films. The festival runs until 28 November."
+    ]
+   },
+   "think": "If you made a film about where you live, what story would you tell?",
+   "quiz": {
+    "q": "How many countries do the festival's films come from?",
+    "a": [
+     "28",
+     "57",
+     "86",
+     "150"
+    ],
+    "c": 2
+   },
+   "src": [
+    [
+     "The Morning Voice, 24 Nov",
+     "https://tmv.in/article/iffi-2026-showcases-global-cinema-regional-stories-on-day-3"
+    ],
+    [
+     "Digital Goa, 22 Nov",
+     "https://digitalgoa.com/57iffiday3/"
+    ],
+    [
+     "Press Information Bureau, 13 Nov",
+     "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2335780&reg=48&lang=2"
+    ],
+    [
+     "The News Mill (ANI), 21 Nov",
+     "https://thenewsmill.com/2026/11/iffi-2026-opens-in-goa-with-ricky-kej-and-film-stars/"
+    ],
+    [
+     "Press Information Bureau, 17 Nov",
+     "https://www.pib.gov.in/PressReleasepage.aspx?PRID=2337459&reg=3&lang=1"
+    ],
+    [
+     "The Arunachal Times, 14 Nov",
+     "https://arunachaltimes.in/article/urum-selected-for-indian-panorama-section-of-57th-iffi"
+    ]
+   ],
+   "where": {
+    "n": "Goa, India",
+    "lat": 15.5,
+    "lon": 73.8
+   }
+  }
+ ],
+ "glossary": {
+  "anupama-ramachandran": [
+   "Anupama Ramachandran",
+   "people",
+   "A snooker player from India. She is the world women's champion.",
+   "An Indian snooker player who won the IBSF World Women's Snooker Championship in 2026, keeping the title she already held."
+  ],
+  "snooker": [
+   "snooker",
+   "words",
+   "A game played on a big table. Players hit coloured balls into pockets with a long stick.",
+   "A table game in which players use a cue, a long stick, to knock coloured balls into pockets to score points."
+  ],
+  "frame": [
+   "frame",
+   "words",
+   "One game inside a snooker match.",
+   "In snooker, one separate game within a match. The player who wins the most frames wins the match."
+  ],
+  "indore": [
+   "Indore",
+   "places",
+   "A big city in the middle of India.",
+   "A city in the state of Madhya Pradesh, in central India. It hosted the 2026 IBSF world snooker championships."
+  ],
+  "chess": [
+   "chess",
+   "words",
+   "A board game for two players. They take turns moving pieces.",
+   "A strategy game for two players, who take turns moving their pieces across a board."
+  ],
+  "d-gukesh": [
+   "D Gukesh",
+   "people",
+   "A chess player from India. He is the world champion.",
+   "An Indian chess player who is the world chess champion. In 2026 he is defending his title against Javokhir Sindarov."
+  ],
+  "javokhir-sindarov": [
+   "Javokhir Sindarov",
+   "people",
+   "A chess player from Uzbekistan.",
+   "A chess player from Uzbekistan who is challenging D Gukesh for the world chess title in 2026. Like Gukesh, he is 20."
+  ],
+  "cologny": [
+   "Cologny",
+   "places",
+   "A town in Switzerland, next to Lake Geneva.",
+   "A town in Switzerland that overlooks Lake Geneva. It is hosting the 2026 World Chess Championship."
+  ],
+  "film-festival": [
+   "film festival",
+   "words",
+   "An event where lots of films are shown.",
+   "An event, often lasting several days, where many films are screened for audiences and filmmakers."
+  ],
+  "goa": [
+   "Goa",
+   "places",
+   "A small state on the west coast of India.",
+   "A state on the west coast of India. It is hosting the International Film Festival of India."
+  ],
+  "arunachal-pradesh": [
+   "Arunachal Pradesh",
+   "places",
+   "A state in the north-east of India.",
+   "A state in the far north-east of India. The film Urum comes from there."
+  ],
+  "nyishi-language": [
+   "Nyishi language",
+   "words",
+   "A language from Arunachal Pradesh in India.",
+   "A language from Arunachal Pradesh, in north-east India. The film Urum is made in Nyishi."
+  ],
+  "cop31": [
+   "COP31",
+   "civics",
+   "A big meeting where countries talk about the climate.",
+   "The United Nations climate conference held in Antalya, Türkiye, where countries talked about the climate."
+  ],
+  "consensus": [
+   "consensus",
+   "words",
+   "When the members of a group all agree.",
+   "Agreement among the members of a group. A deal at the United Nations climate talks needs consensus among the countries."
+  ],
+  "fossil-fuels": [
+   "fossil fuels",
+   "science",
+   "Coal, oil and gas. People burn them as fuel.",
+   "Fuels such as coal, oil and gas, formed underground over a very long time. People burn them."
+  ],
+  "european-union": [
+   "European Union",
+   "civics",
+   "A group that many European countries belong to.",
+   "An economic and political organisation that many European countries belong to. It is often called the EU."
+  ],
+  "species": [
+   "species",
+   "science",
+   "A group of living things of the same kind that can have young together.",
+   "A group of living things of the same kind that are alike and can have young together."
+  ],
+  "natural-selection": [
+   "natural selection",
+   "science",
+   "Living things that suit where they live leave more young, so their features spread.",
+   "The process in which individuals whose features suit their surroundings leave more young, so those features become more common over many generations."
+  ],
+  "charles-darwin": [
+   "Charles Darwin",
+   "people",
+   "The man who wrote a famous book about how living things change.",
+   "The author of On the Origin of Species, published in 1859, which explained natural selection."
+  ],
+  "evolution": [
+   "evolution",
+   "science",
+   "The way living things slowly change over a very long time.",
+   "The slow change of living things over many generations. Darwin explained it through natural selection."
+  ],
+  "orbit": [
+   "orbit",
+   "science",
+   "The path something follows as it travels around a planet, moon or star, like the Sun.",
+   "The curved path that an object in space follows as it moves around a planet, star or moon."
+  ],
+  "tiangong": [
+   "Tiangong",
+   "science",
+   "China's space station, where astronauts live and do science.",
+   "China's space station, a laboratory in orbit around Earth where astronauts live and carry out experiments."
+  ],
+  "payload-specialist": [
+   "payload specialist",
+   "words",
+   "An astronaut who goes to space to do science work.",
+   "A crew member on a space mission whose main job is to carry out experiments or other science work."
+  ],
+  "space-station": [
+   "space station",
+   "science",
+   "A big spacecraft that stays in space. Astronauts live and work there.",
+   "A large spacecraft that stays in orbit for years, where crews live and work and do experiments."
+  ]
+ },
+ "keys": {
+  "in-snooker-anupama": {
+   "type": "number",
+   "v": "3",
+   "l": "frames in a row Anupama won after losing the first"
+  },
+  "in-gukesh-game1": {
+   "type": "number",
+   "v": "7.5",
+   "l": "points a player needs to win the world chess title match"
+  },
+  "in-iffi-goa": {
+   "type": "number",
+   "v": "86",
+   "l": "countries with films at this year's festival in Goa"
+  },
+  "g-cop31-ends": {
+   "type": "number",
+   "v": "2",
+   "l": "days longer than planned, making it the longest COP ever"
+  },
+  "g-evolution-day": {
+   "type": "number",
+   "v": "1,250",
+   "l": "copies in the first printing, which sold out straight away"
+  }
+ },
+ "xkeys": {
+  "in-snooker-anupama": {
+   "type": "check",
+   "q": "How did Anupama's final begin?",
+   "a": [
+    "She lost the first game",
+    "She won the first game"
+   ],
+   "c": 0,
+   "right": "Right! She lost the first game, then won the next three.",
+   "wrong": "Not quite. She lost the first game, but then she won the next three."
+  },
+  "in-gukesh-game1": {
+   "type": "check",
+   "q": "Who moves first in Game 1?",
+   "a": [
+    "Sindarov",
+    "Gukesh"
+   ],
+   "c": 0,
+   "right": "Right! Sindarov plays White, and White moves first.",
+   "wrong": "Not quite. Gukesh got the dark chocolate piece, so Sindarov plays White and moves first."
+  },
+  "in-iffi-goa": {
+   "type": "check",
+   "q": "Where is the film festival?",
+   "a": [
+    "Goa",
+    "Switzerland"
+   ],
+   "c": 0,
+   "right": "Right! The festival is in Goa, India.",
+   "wrong": "Not quite. The festival is in Goa, a state in India."
+  },
+  "g-cop31-ends": {
+   "type": "check",
+   "q": "Did all the countries agree on a final plan?",
+   "a": [
+    "Yes, they all agreed",
+    "No, they could not agree"
+   ],
+   "c": 1,
+   "right": "Right! The countries could not agree, so there was no final plan.",
+   "wrong": "Not quite. The countries could not agree, so there was no final plan."
+  },
+  "g-evolution-day": {
+   "type": "check",
+   "q": "What did Charles Darwin's book explain?",
+   "a": [
+    "How living things slowly change",
+    "How to build a bridge"
+   ],
+   "c": 0,
+   "right": "Right! The book explained how living things slowly change over a very long time.",
+   "wrong": "Not quite. The book explained how living things slowly change over a very long time."
+  }
+ },
+ "deep": {
+  "in-snooker-anupama": {
+   "ctx": "Anupama told the news agency PTI that winning on home soil in India makes it all the more special. The championships in Indore also had a men's event, won by Ali Gharahgozlou of Iran after he beat India's Pankaj Advani 5-3 in the semi-final.",
+   "ask": "Snooker and chess both have world championships, but neither needs running or jumping. Should games of skill like these count as sports in the same way as football or athletics?",
+   "jobs": [
+    "Snooker referee",
+    "Cue sports coach",
+    "Sports journalist"
+   ]
+  },
+  "in-gukesh-game1": {
+   "ctx": "The 2026 World Chess Championship is a match of up to 14 classical games, which are long games with plenty of thinking time, and the first player to 7.5 points wins. Gukesh and Sindarov are both 20, the prize fund is 2.5 million US dollars, and the match is due to end on 12 December.",
+   "ask": "White moves first, but Black sees White's first move before choosing a reply. In the opening game of a long match, would you rather play White or Black, and why?",
+   "jobs": [
+    "Chess coach",
+    "Chess arbiter",
+    "Sports journalist"
+   ]
+  },
+  "in-iffi-goa": {
+   "ctx": "This year the festival has named Spain as its Country of Honour, according to the government's Press Information Bureau. Its Indian Panorama section shows selected Indian films, such as Urum, a Nyishi-language film from Arunachal Pradesh directed by Duyu Tabyo.",
+   "ask": "A big festival can bring films in less widely spoken languages to new audiences, but many viewers will need subtitles to follow them. Should festivals give more space to films in smaller languages, or focus on films that the most people can understand easily?",
+   "jobs": [
+    "Film director",
+    "Subtitle translator",
+    "Film festival programmer"
+   ]
+  },
+  "g-cop31-ends": {
+   "ctx": "COP31 was due to end on Friday 20 November but ran until Sunday 22 November, making it the longest COP ever. Türkiye's Murat Kurum was COP31 President, and Australia's minister Chris Bowen led the negotiations. Because decisions need every country's agreement, a split over whether to mention fossil fuels was enough to stop a final deal.",
+   "ask": "At UN climate talks, every country must accept a decision before it is adopted. Some people say this is fair because every country, big or small, gets a say. Others say it makes agreement very hard to reach. Should big international meetings need every country to agree, or would a majority vote work better?",
+   "jobs": [
+    "Diplomat",
+    "Climate scientist",
+    "Energy policy analyst"
+   ]
+  },
+  "g-evolution-day": {
+   "ctx": "Evolution Day, on 24 November, is different from Darwin Day, which is held on 12 February. On the Origin of Species argued that living things change slowly over many generations through natural selection, and Darwin's ideas remain central to biology.",
+   "ask": "Some people think the most important part of science is coming up with bold new ideas, like Darwin's. Others think the most important part is carefully testing ideas to check whether they are right. Which matters more, and why?",
+   "jobs": [
+    "Evolutionary biologist",
+    "Natural history museum curator",
+    "Science writer"
+   ]
+  }
+ },
+ "bigStory": {
+  "week": "2026-11-23",
+  "story": "g-shenzhou-24",
+  "cat": "space",
+  "sketch": "orbit",
+  "t": "Who is the first visitor to China's space station?",
+  "sub": "China's Shenzhou-24 is ready for launch, set to carry Pakistan's first astronaut to Tiangong",
+  "x": {
+   "why": "A rocket in China is ready to carry a visitor from Pakistan to China's space station. No one from another country has been there before."
+  },
+  "o": {
+   "why": "So far, only Chinese astronauts have been on board Tiangong. This mission is expected to carry the first visitor from another country, an astronaut from Pakistan, for a stay of about a week."
+  },
+  "facts": [
+   [
+    "17 Nov",
+    "the day the rocket and spacecraft moved to the launch area"
+   ],
+   [
+    "2",
+    "Pakistan's astronaut candidates: only one will fly"
+   ],
+   [
+    "1 week",
+    "about how long the visitor is expected to stay on Tiangong"
+   ],
+   [
+    "Long March 2F",
+    "the rocket, launching from Jiuquan in China"
+   ]
+  ],
+  "days": [
+   {
+    "d": "2026-11-23",
+    "h": "Ready on the launch pad",
+    "o": "China's Shenzhou-24 spacecraft and its Long March 2F rocket moved to the launch area at the Jiuquan Satellite Launch Center on 17 November. The mission is set to carry Pakistan's first astronaut, the first foreign visitor to Tiangong, China's space station. China has not officially announced the launch date or the crew. The launch has been reported for 25 November.",
+    "x": "A rocket is ready at a launch site in China. It is set to carry a spacecraft called Shenzhou-24. On board will be Pakistan's first astronaut. They will be the first visitor from another country to China's space station."
+   },
+   {
+    "d": "2026-11-24",
+    "h": "Who is flying?",
+    "o": "Three people will fly: one Pakistani astronaut and two Chinese astronauts. On 24 November, China's space agency named the crew: Pakistan's Muhammad Zeeshan Ali and Chinese astronauts Tang Hongbo and Wu Yi. The Pakistani astronaut will be a payload specialist, an astronaut whose main job is to carry out experiments. They are expected to stay about one week, then return to Earth with two Chinese astronauts on the Shenzhou-23 spacecraft. The launch is set for 8:18 am Beijing time on Wednesday 25 November, which is 5:48 am in India.",
+    "x": "Three astronauts will fly. One is from Pakistan and two are from China. Pakistan's astronaut is called Muhammad Zeeshan Ali. The Pakistani astronaut will do science tests in space. The visitor is expected to stay about one week."
+   },
+   {
+    "d": "2026-11-25",
+    "h": "Launch day",
+    "lock": "Wednesday: the launch reported for this week, and what happens at lift-off."
+   },
+   {
+    "d": "2026-11-26",
+    "h": "Joining up",
+    "lock": "Thursday: how does a spacecraft join up, or dock, with a space station?"
+   },
+   {
+    "d": "2026-11-27",
+    "h": "Life on board",
+    "lock": "Friday: life and science on board, and why countries share space labs."
+   }
+  ],
+  "words": [
+   "orbit",
+   "tiangong",
+   "payload-specialist",
+   "space-station"
+  ],
+  "poll": {
+   "q": "If you visited a space station, what would you most like to do?",
+   "a": [
+    [
+     "Look out at Earth",
+     "You could see our planet from high above."
+    ],
+    [
+     "Float around",
+     "You could drift from one room to the next."
+    ],
+    [
+     "Do a science experiment",
+     "A space station is a lab as well as a home."
+    ],
+    [
+     "Talk to the crew",
+     "You could learn how people from different places work together."
+    ]
+   ]
+  },
+  "talk": "If you could take one small thing from home to a space station, what would you choose, and why?"
+ },
+ "puzzles": {
+  "week": "2026-11-23",
+  "sudoku": {
+   "x": {
+    "n": 4,
+    "br": 2,
+    "bc": 2,
+    "p": [
+     [
+      0,
+      4,
+      0,
+      1
+     ],
+     [
+      1,
+      2,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      3
+     ],
+     [
+      4,
+      3,
+      0,
+      0
+     ]
+    ],
+    "s": [
+     [
+      3,
+      4,
+      2,
+      1
+     ],
+     [
+      1,
+      2,
+      3,
+      4
+     ],
+     [
+      2,
+      1,
+      4,
+      3
+     ],
+     [
+      4,
+      3,
+      1,
+      2
+     ]
+    ]
+   },
+   "o": {
+    "n": 6,
+    "br": 2,
+    "bc": 3,
+    "p": [
+     [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      0,
+      0,
+      6,
+      1,
+      0
+     ],
+     [
+      0,
+      5,
+      0,
+      0,
+      0,
+      6
+     ],
+     [
+      6,
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      6,
+      0
+     ],
+     [
+      0,
+      2,
+      0,
+      4,
+      0,
+      0
+     ]
+    ],
+    "s": [
+     [
+      2,
+      6,
+      1,
+      5,
+      3,
+      4
+     ],
+     [
+      3,
+      4,
+      5,
+      6,
+      1,
+      2
+     ],
+     [
+      4,
+      5,
+      3,
+      1,
+      2,
+      6
+     ],
+     [
+      6,
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     [
+      5,
+      3,
+      4,
+      2,
+      6,
+      1
+     ],
+     [
+      1,
+      2,
+      6,
+      4,
+      5,
+      3
+     ]
+    ]
+   },
+   "n": {
+    "n": 9,
+    "br": 3,
+    "bc": 3,
+    "p": [
+     [
+      9,
+      7,
+      0,
+      0,
+      0,
+      0,
+      5,
+      2,
+      0
+     ],
+     [
+      0,
+      3,
+      8,
+      9,
+      0,
+      0,
+      0,
+      0,
+      4
+     ],
+     [
+      0,
+      5,
+      0,
+      1,
+      7,
+      0,
+      3,
+      0,
+      0
+     ],
+     [
+      6,
+      8,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      5
+     ],
+     [
+      3,
+      1,
+      2,
+      0,
+      5,
+      0,
+      9,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      6,
+      0,
+      0,
+      3,
+      7
+     ],
+     [
+      0,
+      0,
+      1,
+      8,
+      0,
+      2,
+      6,
+      7,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      5,
+      4,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      8,
+      0,
+      0,
+      7,
+      3,
+      0,
+      4,
+      0,
+      0
+     ]
+    ],
+    "s": [
+     [
+      9,
+      7,
+      4,
+      6,
+      8,
+      3,
+      5,
+      2,
+      1
+     ],
+     [
+      1,
+      3,
+      8,
+      9,
+      2,
+      5,
+      7,
+      6,
+      4
+     ],
+     [
+      2,
+      5,
+      6,
+      1,
+      7,
+      4,
+      3,
+      9,
+      8
+     ],
+     [
+      6,
+      8,
+      7,
+      3,
+      1,
+      9,
+      2,
+      4,
+      5
+     ],
+     [
+      3,
+      1,
+      2,
+      4,
+      5,
+      7,
+      9,
+      8,
+      6
+     ],
+     [
+      4,
+      9,
+      5,
+      2,
+      6,
+      8,
+      1,
+      3,
+      7
+     ],
+     [
+      5,
+      4,
+      1,
+      8,
+      9,
+      2,
+      6,
+      7,
+      3
+     ],
+     [
+      7,
+      2,
+      3,
+      5,
+      4,
+      6,
+      8,
+      1,
+      9
+     ],
+     [
+      8,
+      6,
+      9,
+      7,
+      3,
+      1,
+      4,
+      5,
+      2
+     ]
+    ]
+   }
+  },
+  "words": {
+   "x": [
+    [
+     "VACCINE",
+     "India has made one to protect chickens from bird flu"
+    ],
+    [
+     "CHICKEN",
+     "Birds that a new vaccine made in India protects from bird flu"
+    ],
+    [
+     "HOCKEY",
+     "India's women beat Thailand 7-0 in this sport"
+    ],
+    [
+     "ROCKET",
+     "China's Long March 2F is one, ready at the launch site"
+    ],
+    [
+     "TENNIS",
+     "Carlos Alcaraz's sport"
+    ]
+   ],
+   "o": [
+    [
+     "ORBIT",
+     "The path a spacecraft follows around a planet"
+    ],
+    [
+     "MERCURY",
+     "The planet that BepiColombo is now orbiting"
+    ],
+    [
+     "TURIN",
+     "The Italian city where Alcaraz won his first ATP Finals"
+    ],
+    [
+     "BHOPAL",
+     "Indian city hosting the women's Asian Champions Trophy"
+    ],
+    [
+     "SOFTWARE",
+     "A problem with this cut BepiColombo's engine burn short"
+    ]
+   ]
+  }
+ },
+ "reporters": {
+  "week": "2026-11-23",
+  "t": "Find out how an animal near you is kept healthy",
+  "why": "This week's news includes a new vaccine made in India to protect chickens. Pets, farm animals and working animals all need care to stay healthy, and the people who look after them know a lot about it.",
+  "tips": [
+   "Which animal is it, and who looks after it? Ask a grown-up to help you choose, and never touch an animal you do not know.",
+   "What do they do each day, week or year to keep it healthy?",
+   "Who else could you ask to check what you learned?"
+  ],
+  "sample": []
+ },
+ "today": {
+  "days": [
+   {
+    "name": "Lachit Divas",
+    "what": "Lachit Divas marks the birth anniversary of Lachit Borphukan, a 17th-century Ahom general in Assam. He is remembered for leading Ahom forces to victory at the Battle of Saraighat in 1671, on the Brahmaputra River near present-day Guwahati. The day, marked mainly in Assam, is a time to remember his leadership and Assam's history.",
+    "where": [
+     "IN"
+    ]
+   }
+  ],
+  "born": [
+   {
+    "name": "Carlo Collodi",
+    "year": 1826,
+    "what": "A writer born in Florence, Italy, whose real name was Carlo Lorenzini. He wrote The Adventures of Pinocchio. This year marks 200 years since he was born."
+   },
+   {
+    "name": "Frances Hodgson Burnett",
+    "year": 1849,
+    "what": "A writer born in Manchester, England. She wrote The Secret Garden."
+   }
+  ]
+ },
+ "learn": {
+  "subject": "Science",
+  "cat": "science",
+  "link": "From the Evolution Day story: living things slowly change over many generations",
+  "x": {
+   "t": "How living things slowly change",
+   "b": [
+    "Living things can slowly change. Charles Darwin wrote about this in a famous book.",
+    "The change takes many, many generations. A generation is one step from parents to their young.",
+    "Imagine beetles living on dark tree bark. Dark beetles are hard for birds to see. So more dark beetles grow up and have young. Over a long time, most beetles become dark. This is called natural selection."
+   ],
+   "remember": "Living things that suit their home have more young, so their features spread.",
+   "q": "In natural selection, which features become more common?",
+   "a": [
+    "Features that suit the surroundings",
+    "Features that are the newest",
+    "Features that are the biggest"
+   ],
+   "c": 0
+  },
+  "o": {
+   "t": "How does natural selection change living things?",
+   "b": [
+    "Darwin's big idea, natural selection, explains how living things change over very long periods of time. He set it out in his book On the Origin of Species. Darwin's ideas are still central to biology, the science of living things.",
+    "Natural selection works slowly, over many generations. A generation is one step from parents to their offspring, meaning their young. Individuals whose features suit their surroundings leave more young, so those features become more common over time.",
+    "Imagine a group of beetles living on dark tree bark. Darker beetles are harder for birds to spot, so more of them survive and have young. In this imagined group, darker parents tend to have darker young. After many generations, most beetles in the group could be dark. The example is made up, but it shows how small differences can build up."
+   ],
+   "remember": "In natural selection, features that suit the surroundings help individuals leave more young, so those features become more common over generations.",
+   "q": "Why does a feature become more common through natural selection?",
+   "a": [
+    "Individuals with it leave more young",
+    "Individuals decide to grow it",
+    "It only lasts for one generation"
+   ],
+   "c": 0
+  }
+ },
+ "backThen": {
+  "y": 1974,
+  "t": "The fossil skeleton called Lucy is found in Ethiopia",
+  "o": "On 24 November 1974, Donald Johanson and Tom Gray found a fossil skeleton at Hadar, in Ethiopia's Awash Valley. It was about 40% of one skeleton, with 47 bones, and about 3.2 million years old. At the time it was the most complete skeleton of a human ancestor ever found. The team named it Lucy at a camp celebration that night, while the Beatles song Lucy in the Sky with Diamonds played.",
+  "x": "On this day in 1974, scientists found very old bones in Ethiopia. They came from a human ancestor. She lived about 3.2 million years ago. That night, the team named her Lucy while a Beatles song played.",
+  "why": "Lucy's bones showed that human ancestors walked upright on two legs before they had big brains."
+ },
+ "hiddenWords": [
+  {
+   "k": "species",
+   "o": "Species comes from the Latin word species, which means appearance or kind. It comes from specere, which means to look at."
+  },
+  {
+   "k": "chess",
+   "o": "Chess comes from the Old French word esches, the plural of eschec, which meant check, or checkmate. The game is named after its key move. Check goes back through Arabic to the Persian word shah, which means king."
+  }
+ ]
+}

@@ -26,7 +26,7 @@
     "b": [
      "The [[mumbai|Mumbai]] Book Festival opens today, 24 November, and runs for six days until 29 November. It is at the University of Mumbai's Kalina campus. Chief Minister [[devendra-fadnavis|Devendra Fadnavis]], the head of Maharashtra's state government, was due to open it.",
      "The festival is organised by the [[national-book-trust|National Book Trust]] (NBT) with the Maharashtra government, the Brihanmumbai Municipal Corporation (BMC), which is the city's local council, and the University of Mumbai. There will be about 600 stalls. Entry is free, and it is open every day from 11 am to 10 pm.",
-     "For children, activities include storytelling, drawing, quizzes and [[calligraphy|calligraphy]], the art of beautiful handwriting. There are also themed exhibitions marking 150 years of the song Vande Mataram and 150 years since the birth of [[sardar-patel|Sardar Vallabhbhai Patel]]. Singers Avadhoot Gupte and Vaishali Samant will perform."
+     "For children, activities include storytelling, drawing, quizzes and [[calligraphy|calligraphy]], the art of beautiful handwriting. There are also themed exhibitions marking 150 years of the song Vande Mataram and the 150th birth anniversary of [[sardar-patel|Sardar Vallabhbhai Patel]]. Singers Avadhoot Gupte and Vaishali Samant will perform."
     ]
    },
    "think": "What makes a good place to discover new books: a festival, a library, a shop, or somewhere else?",
@@ -318,7 +318,7 @@
     "t": "No one reported hurt as an earthquake shakes eastern Nepal",
     "b": [
      "No one was reported hurt in an [[earthquake|earthquake]] in Nepal this morning. No big damage was reported. The ground shook in [[taplejung|Taplejung]], near Tibet.",
-     "Experts measured its [[magnitude|size]] at 5.6.",
+     "Experts in Nepal measured its [[magnitude|size]] at 5.6.",
      "India sits on a giant slab of rock. It slowly pushes into the rest of Asia. This push built the tall [[himalayas|Himalayas]] and can shake the ground. If you feel shaking, drop down, cover your head and hold on."
     ]
    },
@@ -627,8 +627,8 @@
   "sardar-patel": [
    "Sardar Vallabhbhai Patel",
    "people",
-   "An important Indian leader. This year marks 150 years since he was born.",
-   "An Indian leader born 150 years ago. The Mumbai Book Festival has an exhibition about him."
+   "An important Indian leader. He was born in 1875, more than 150 years ago.",
+   "An Indian leader born on 31 October 1875. India is marking his 150th birth anniversary with celebrations from 2024 to 2026, and the Mumbai Book Festival has an exhibition about him."
   ],
   "satellite": [
    "satellite",
@@ -791,7 +791,7 @@
  },
  "deep": {
   "in-mumbai-book-fest": {
-   "ctx": "The Mumbai Book Festival is organised by the National Book Trust with the Maharashtra government, the Brihanmumbai Municipal Corporation and the University of Mumbai. It runs from 24 to 29 November at the university's Kalina campus, with about 600 stalls, free entry and themed exhibitions marking 150 years of the song Vande Mataram and 150 years since the birth of Sardar Vallabhbhai Patel.",
+   "ctx": "The Mumbai Book Festival is organised by the National Book Trust with the Maharashtra government, the Brihanmumbai Municipal Corporation and the University of Mumbai. It runs from 24 to 29 November at the university's Kalina campus, with about 600 stalls, free entry and themed exhibitions marking 150 years of the song Vande Mataram and the 150th birth anniversary of Sardar Vallabhbhai Patel.",
    "ask": "Many people now read on phones and tablets. Do big festivals of printed books still matter, or could online book fairs do the same job just as well?",
    "jobs": [
     "Librarian",
@@ -836,7 +836,7 @@
    ]
   },
   "g-nepal-quake": {
-   "ctx": "The Himalayas formed when India collided with Asia about 40 to 50 million years ago; because the two landmasses had similar rock density, neither sank beneath the other, so the crust was pushed upward. India is still moving north, and the US Geological Survey explains that the stress this builds in the crust is released from time to time by earthquakes. Magnitude scales are logarithmic, so each whole number up means about ten times more ground motion and about 32 times more energy.",
+   "ctx": "Nepal's National Earthquake Monitoring and Research Centre measured the quake at magnitude 5.6, while the European-Mediterranean Seismological Centre put it at 5.3. The Himalayas formed when India collided with Asia about 40 to 50 million years ago; because the two landmasses had similar rock density, neither sank beneath the other, so the crust was pushed upward. India is still moving north, and the US Geological Survey explains that the stress this builds in the crust is released from time to time by earthquakes.",
    "ask": "Should countries in earthquake zones require every new building to follow strict earthquake-safe rules, even if that makes homes more expensive for families?",
    "jobs": [
     "Seismologist",
